@@ -4,6 +4,40 @@ import json
 
 
 def visualize(project, system_message_files, models, parameters_configurations, ks, metric):
+    """
+    Generates a visualization for the given project using boxplots. The boxplots represent various statistical measures including the average, standard deviation, and median of the specified metric for different tests. The function sorts and filters the report files based on specified criteria including system messages, models, parameter configurations, and ks values.
+
+    Parameters:
+    project : str
+    The name of the project directory to be analyzed.
+
+    system_message_files : list
+    A list of system message files to include in the analysis.
+
+    models : list
+    A list of model names to include in the analysis.
+
+    parameters_configurations : list
+    A list of parameter configurations to include in the analysis.
+
+    ks : list
+    A list of 'k' values to include in the analysis. 'k' is the maximim number of characters used in the prompt examples.
+
+    metric : str
+    The name of the metric to be visualized. This metric will be used to measure the performance of the models.
+
+    Returns:
+    None. A boxplot is created and displayed.
+
+    Note:
+    The boxplots are generated using matplotlib's 'boxplot' function. The boxes represent the interquartile range (IQR)
+    of the metric values, the line inside the box is the median, and the whiskers represent the rest of the distribution
+    excluding outliers. The 'fliers' points represent outliers.
+    The boxplot is color-coded and styled using 'ggplot' style.
+
+    The labels of the boxplots include the average, standard deviation, and median of the specified metric. If there are multiple system messages, models, parameter configurations, or ks values, these are also included in the labels.
+    """
+
     report_files = os.listdir("..//data//" + project + "//reports//")
     report_files.sort(key=lambda x: int(x.split(" ")[-2].replace("k=", "")))
 
@@ -96,7 +130,16 @@ if __name__ == "__main__":
               [2000],
               "bleu"
               )
-    exit(0)
+
+    visualize("grammar_correction",
+              ["4"],
+              ["gpt-3.5-turbo", "gpt-4"],
+              [
+                  {"language": "English"},
+              ],
+              [0, 2000],
+              "bleu"
+              )
 
     visualize("grammar_correction",
               ["4"],
@@ -112,99 +155,3 @@ if __name__ == "__main__":
               [0],
               "bleu"
               )
-    exit(0)
-
-    visualize("grammar_correction",
-              ["4"],
-              ["gpt-3.5-turbo", "gpt-4"],
-              [
-                  {"language": "English"},
-              ],
-              [0, 2000],
-              "bleu"
-              )
-
-    exit(0)
-
-    visualize("grammar_correction",
-              ["4"],
-              ["gpt-3.5-turbo"],
-              [
-                  {"language": "English"},
-              ],
-              [0, 500, 1000, 2000],
-              "bleu"
-              )
-    exit(0)
-
-    visualize("grammar_correction",
-              ["1", "2", "3", "4", "5", "6"],
-              ["gpt-3.5-turbo"],
-              [
-                  {"language": "English"},
-              ],
-              [0],
-              "bleu"
-              )
-
-    visualize("grammar_correction",
-              ["1", "2", "3", "4", "5", "6"],
-              ["gpt-3.5-turbo"],
-              [
-                  {"language": "English"},
-              ],
-              [2000],
-              "bleu"
-              )
-
-    """
-    visualize("grammar_correction",
-              ["improve"],
-              ["gpt-3.5-turbo"],
-              [
-                  {"language": "English"},
-                  {"language": "German"},
-                  {"language": "French"},
-                  {"language": "Spanish"},
-                  {"language": "Dutch"}
-              ],
-              [4000],
-              "bleu"
-              )
-    """
-
-    """
-    visualize("grammar_correction",
-              ["improve"],
-              ["gpt-3.5-turbo"],
-              [
-                  {"language": "English"},
-              ],
-              [0, 500, 1000, 2000, 4000],
-              "bleu"
-              )
-    """
-
-    """
-    visualize("grammar_correction",
-              ["improve"],
-              ["gpt-3.5-turbo", "gpt-4"],
-              [
-                  {"language": "English"},
-              ],
-              [0],
-              "bleu"
-              )
-    """
-
-    """
-    visualize("grammar_correction",
-              ["improve"],
-              ["gpt-4"],
-              [
-                  {"language": "English"},
-              ],
-              [0, 500, 1000],
-              "bleu"
-              )
-    """

@@ -39,6 +39,51 @@ def get_dataset(cursor, table_name, parameters):
 
 
 def create_report(project, model, system_message_file, parameters, k, metric, n=1):
+    """
+    This function generates a report for a given project using provided parameters and evaluates it with a given
+    metric. It first reads a system message from a file, substitutes parameters in this message, and then
+    retrieves training and testing data from a SQLite database. It uses training data to create a prompt for a
+    language model and uses testing data to evaluate the model's performance. Finally, it saves the best report
+    to a JSON file.
+
+    Parameters:
+    -----------
+    project : str
+        Name of the project. This is used to determine the directory path of the system message file and the
+        SQLite database.
+
+    model : str
+        The name of the model to be evaluated.
+
+    system_message_file : str
+        The name of the file containing the system message (without the .txt extension). This file should be
+        located in the 'system' subdirectory under the project directory.
+
+    parameters : dict
+        A dictionary of parameter names and values to be substituted into the system message.
+
+    k : int
+        The maximum size (in number of characters) of the chat history examples
+        to be used in the prompt for the language model.
+
+    metric : str
+        The name of the metric to be used for evaluation.
+
+    n : int, optional
+        The number of times to repeat the whole process (default is 1).
+
+    Returns:
+    --------
+    None. The function saves the generated report in a JSON file in the 'reports' subdirectory under the project
+    directory. The name of the report file is determined by the system message file name, the parameters, the
+    model name, the value of k, and the metric name.
+
+    Raises:
+    -------
+    FileNotFoundError: If the system message file or the SQLite database file does not exist.
+    sqlite3.OperationalError: If there is a problem with the SQLite database operations.
+    """
+
     cache = llm.get_chat_completion_cache()
 
     history = []
@@ -105,8 +150,8 @@ def create_report(project, model, system_message_file, parameters, k, metric, n=
                     "content": example["input"]
                 }
             )
-            llm_result = llm.call_chatgpt_on_messages(cache, prompt, model=model, temperature=0.0, max_tokens=2000,
-                                                      streaming=True)
+            llm_result = llm.call_llm(cache, prompt, model=model, temperature=0.0, max_tokens=2000,
+                                      streaming=True)
             example["llm_output"] = llm_result
             example["score"] = metrics.calculate_metric(example["output"], example["llm_output"], metric)
             prompt.pop()
@@ -147,10 +192,17 @@ def create_report(project, model, system_message_file, parameters, k, metric, n=
                   open("..//data//" + project + "//reports//" + report_name + ".json", "w", encoding="utf-8"),
                   indent=4,
                   ensure_ascii=False)
-    print(system_message)
 
 
 if __name__ == "__main__":
+    for i in range(1, 7):
+        create_report("grammar_correction", "gpt-3.5-turbo", str(i), {"language": "English"}, 2000, "bleu", 10)
+        create_report("grammar_correction", "gpt-3.5-turbo", str(i), {"language": "English"}, 0, "bleu", 10)
+
+    create_report("grammar_correction", "gpt-3.5-turbo", "4", {"language": "English"}, 500, "bleu", 10)
+    create_report("grammar_correction", "gpt-3.5-turbo", "4", {"language": "English"}, 1000, "bleu", 10)
+    create_report("grammar_correction", "gpt-3.5-turbo", "4", {"language": "English"}, 2000, "bleu", 10)
+
     create_report("grammar_correction", "gpt-4", "4", {"language": "English"}, 0, "bleu", 10)
 
     create_report("grammar_correction", "gpt-3.5-turbo", "4", {"language": "Russian"}, 0, "bleu", 10)
@@ -158,51 +210,3 @@ if __name__ == "__main__":
     create_report("grammar_correction", "gpt-3.5-turbo", "4", {"language": "French"}, 0, "bleu", 10)
     create_report("grammar_correction", "gpt-3.5-turbo", "4", {"language": "German"}, 0, "bleu", 10)
     create_report("grammar_correction", "gpt-3.5-turbo", "4", {"language": "Dutch"}, 0, "bleu", 10)
-
-    #create_report("grammar_correction", "gpt-4", "4", {"language": "English"}, 2000, "bleu", 10)
-
-    # create_report("grammar_correction", "gpt-3.5-turbo", "4", {"language": "English"}, 0, "bleu", 10)
-    # create_report("grammar_correction", "gpt-3.5-turbo", "4", {"language": "English"}, 100, "bleu", 10)
-    # create_report("grammar_correction", "gpt-3.5-turbo", "4", {"language": "English"}, 200, "bleu", 10)
-    # create_report("grammar_correction", "gpt-3.5-turbo", "4", {"language": "English"}, 500, "bleu", 10)
-    # create_report("grammar_correction", "gpt-3.5-turbo", "4", {"language": "English"}, 1000, "bleu", 10)
-    # create_report("grammar_correction", "gpt-3.5-turbo", "4", {"language": "English"}, 2000, "bleu", 10)
-    # create_report("grammar_correction", "gpt-3.5-turbo", "4", {"language": "English"}, 4000, "bleu", 10)
-
-    """
-    for i in range(1, 7):
-        create_report("grammar_correction", "gpt-3.5-turbo", str(i), {"language": "English"}, 2000, "bleu", 10)
-        create_report("grammar_correction", "gpt-3.5-turbo", str(i), {"language": "English"}, 0, "bleu", 10)
-    """
-    """
-    create_report("grammar_correction", "gpt-3.5-turbo", "1", {"language": "English"}, 2000, "bleu")
-    create_report("grammar_correction", "gpt-3.5-turbo", "2", {"language": "English"}, 2000, "bleu")
-    create_report("grammar_correction", "gpt-4", "2", {"language": "English"}, 2000, "bleu")
-
-    create_report("grammar_correction", "gpt-3.5-turbo", "1", {"language": "English"}, 0, "bleu")
-    create_report("grammar_correction", "gpt-3.5-turbo", "2", {"language": "English"}, 0, "bleu")
-    create_report("grammar_correction", "gpt-4", "2", {"language": "English"}, 0, "bleu")
-
-
-    create_report("grammar_correction", "gpt-3.5-turbo", "2", {"language": "English"}, 100, "bleu")
-    create_report("grammar_correction", "gpt-3.5-turbo", "2", {"language": "English"}, 200, "bleu")
-    create_report("grammar_correction", "gpt-3.5-turbo", "2", {"language": "English"}, 500, "bleu")
-    create_report("grammar_correction", "gpt-3.5-turbo", "2", {"language": "English"}, 1000, "bleu")
-    create_report("grammar_correction", "gpt-3.5-turbo", "2", {"language": "English"}, 4000, "bleu")
-    """
-
-    """
-    create_report("grammar_correction", "gpt-3.5-turbo", "improve", {"language": "English"}, 4000, "bleu")
-    create_report("grammar_correction", "gpt-3.5-turbo", "improve", {"language": "Spanish"}, 4000, "bleu")
-    create_report("grammar_correction", "gpt-3.5-turbo", "improve", {"language": "German"}, 4000, "bleu")
-    create_report("grammar_correction", "gpt-3.5-turbo", "improve", {"language": "French"}, 4000, "bleu")
-    create_report("grammar_correction", "gpt-3.5-turbo", "improve", {"language": "Russian"}, 2000, "bleu")
-    create_report("grammar_correction", "gpt-3.5-turbo", "improve", {"language": "Dutch"}, 4000, "bleu")
-    create_report("grammar_correction", "gpt-3.5-turbo", "improve", {"language": "English"}, 2000, "bleu")
-    create_report("grammar_correction", "gpt-3.5-turbo", "improve", {"language": "English"}, 1000, "bleu")
-    create_report("grammar_correction", "gpt-4", "improve", {"language": "English"}, 1000, "bleu")
-    create_report("grammar_correction", "gpt-4", "improve", {"language": "English"}, 0, "bleu")
-    create_report("grammar_correction", "gpt-3.5-turbo", "improve", {"language": "English"}, 0, "bleu")
-    create_report("grammar_correction", "gpt-4", "improve", {"language": "English"}, 500, "bleu")
-    create_report("grammar_correction", "gpt-3.5-turbo", "improve", {"language": "English"}, 500, "bleu")
-    """
