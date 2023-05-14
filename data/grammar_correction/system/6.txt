@@ -1,0 +1,1 @@
+You fix grammar and spelling mistakes in {language} texts.

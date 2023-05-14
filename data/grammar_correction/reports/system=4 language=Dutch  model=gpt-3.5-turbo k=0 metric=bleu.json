@@ -1,0 +1,286 @@
+{
+    "system_message_file": "4",
+    "model": "gpt-3.5-turbo",
+    "parameters": {
+        "language": "Dutch"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.6918056210151444,
+        0.6918056210151444,
+        0.6918056210151444,
+        0.6918056210151444,
+        0.6918056210151444,
+        0.6918056210151444,
+        0.6918056210151444,
+        0.6918056210151444,
+        0.6918056210151444,
+        0.6918056210151444
+    ],
+    "average": 0.6918056210151444,
+    "median": 0.6516931451703004,
+    "std": 0.1664206952755382,
+    "percentiles": {
+        "10": 0.5007102848757148,
+        "20": 0.5559806363328752,
+        "25": 0.56757488701219,
+        "30": 0.6036353554324803,
+        "40": 0.6451962951825561,
+        "50": 0.6516931451703004,
+        "60": 0.6970669009247662,
+        "70": 0.7695615196270511,
+        "75": 0.8155257830865081,
+        "80": 0.85718090936385,
+        "90": 0.9483536329133608
+    },
+    "n_tests": 30,
+    "prompt": [
+        {
+            "role": "system",
+            "content": "You're CorrectGPT.\nYou're the best proofreading tool in the world.\nYou fix grammar and spelling mistakes in Dutch texts.\nPlease only fix grammar and spelling mistakes in the given user message.\nYour reply should contain ONLY the corrected text, nothing else.\nPlease use exactly the same formatting as the original text."
+        }
+    ],
+    "tests": [
+        {
+            "id": 4,
+            "name": "Dutch_English_1",
+            "input": "Goede Dag!\nIk ben een beetje moe vandaag.\nik wil gaan slapen!!",
+            "output": "Goedendag!\nIk ben een beetje moe vandaag.\nIk wil gaan slapen!",
+            "llm_output": "Goedendag!\nIk ben een beetje moe vandaag.\nIk wil gaan slapen!!",
+            "score": 1.0
+        },
+        {
+            "id": 7,
+            "name": "Dutch_English_2",
+            "input": "Een hond hebben\nVor mijn verjaardag, ik heb gekocht een Duitse hond: een boxer.\nHij is erg goede vriend, maar soms hij is veel te energiek vor mij!\nMijn hond kan heel snel rennen.\nNu, hij is bijna een jaar oud.",
+            "output": "Een hond hebben.\nVoor mijn verjaardag heb ik een Duitse hond gekocht: een boxer.\nHij is een erg goede vriend, maar soms is hij veel te energiek voor mij!\nMijn hond kan heel snel rennen.\nNu is hij bijna een jaar oud.",
+            "llm_output": "Een hond hebben\nVoor mijn verjaardag heb ik een Duitse hond gekocht: een boxer.\nHij is een erg goede vriend, maar soms is hij veel te energiek voor mij!\nMijn hond kan heel snel rennen.\nNu is hij bijna een jaar oud.",
+            "score": 1.0
+        },
+        {
+            "id": 10,
+            "name": "Dutch_English_3",
+            "input": "wat moet ik doen?\nmijn nederlands is schlect, maar ik schrift dit zonder babelfish.",
+            "output": "Wat moet ik doen?\nMijn Nederlands is slecht, maar ik schrijf dit zonder Babelfish.",
+            "llm_output": "Wat moet ik doen?\nMijn Nederlands is slecht, maar ik schrijf dit zonder Babelfish.",
+            "score": 1.0
+        },
+        {
+            "id": 6,
+            "name": "Dutch_Other_1",
+            "input": "mijn leven\nmijn naam is riza, ik ben vierentwintig jaar oud..\nik heb mijn drie broers en vier zusjes..",
+            "output": "Mijn leven\nMijn naam is Riza en ik ben vierentwintig jaar oud.\nIk heb drie broers en vier zusjes.",
+            "llm_output": "Mijn leven.\nMijn naam is Riza en ik ben vierentwintig jaar oud.\nIk heb drie broers en vier zussen.",
+            "score": 0.9426151476815119
+        },
+        {
+            "id": 3,
+            "name": "Dutch_Other_0",
+            "input": "Ik ben albanees, ik will leer nederlands.\nMijn vriendje spreak nederlands en ik ben aan het leren nederlands ook.\nKan iemand mij helpen?",
+            "output": "Ik ben Albanees, ik wil Nederlands leren.\nMijn vriendje spreekt Nederlands en ik ben ook Nederlands aan het leren.\nKan iemand mij helpen?",
+            "llm_output": "Ik ben Albanees en ik wil Nederlands leren. Mijn vriendje spreekt Nederlands en ik ben ook Nederlands aan het leren. Kan iemand mij helpen?",
+            "score": 0.8843865924896842
+        },
+        {
+            "id": 16,
+            "name": "Dutch_English_5",
+            "input": "Mijn Tweede Item\nIk wilt dit item groter maken, omdat mijn eerste item was zeer korte.\nIk heb problemen mit deze woorden: geel, veel en heel.\nIk weet elke woord heb en zeer verschillende zin, maar zijn geluid gelijk.\nIk kan neit elke woord te gebruiken onthouden.\nDit is alleen een paar zinnen, maar het was zeer moeilijk.",
+            "output": "Mijn tweede item\nIk wil dit item groter maken, omdat mijn eerste item zeer kort was.\nIk heb problemen met deze woorden: geel, veel en heel.\nIk weet dat elk woord een zeer verschillende betekenis heeft, maar ze klinken hetzelfde.\nIk kan niet ieder woord dat ik gebruik onthouden.\nDit zijn slechts een paar zinnen, maar het was zeer moeilijk.",
+            "llm_output": "Mijn Tweede Item\nIk wil dit item groter maken, omdat mijn eerste item zeer kort was.\nIk heb problemen met deze woorden: geel, veel en heel.\nIk weet dat elk woord een zeer verschillende betekenis heeft, maar ze klinken hetzelfde.\nIk kan niet elk woord onthouden en gebruiken.\nDit zijn slechts een paar zinnen, maar het was zeer moeilijk.",
+            "score": 0.881382607360674
+        },
+        {
+            "id": 24,
+            "name": "Dutch_Other_7",
+            "input": "doelgroep deel 3\nLaag IQ\nLicht verstandelijke jongeren hebben een lager IQ en dit veroorzaakt en aantal problemen die hun leven bepalen.\nVoor hun is het heel moeilijk een keuze te maken, problemen met de schoolloopbaan, leren,  relaties, sociale dingen ...\nDeze dingen maken het leven van verstandelijk beperkten jongeren moelijker.\nAls je met deze doelgroep werkt moet je alles op hun niveau aanpassen en kijken welke dingen ze alleen kunnen doen of bij welke activiteiten ze hulp nodig hebben.\nHet is moelijker hun nieuwe dinge te leren dan bij jongeren zonder beperking, maar het zou altijd een opgave zijn dat de cliënten de dingen, waarmee ze hulp nodig hebben, later alleen kunnen doen.\nDus, de zelfstandigheid moet groter worden en de hulp van andere mensen kleiner.",
+            "output": "Doelgroep deel 3\nLaag IQ\nLicht verstandelijk beperkte jongeren hebben een lager IQ en dit veroorzaakt een aantal problemen die hun leven bepalen.\nVoor hen is het heel moeilijk een keuze te maken, problemen met de schoolloopbaan, leren, relaties, sociale dingen...\nDeze dingen maken het leven van verstandelijk beperkte jongeren moeilijker.\nAls je met deze doelgroep werkt, moet je alles op hun niveau aanpassen en kijken welke dingen ze alleen kunnen doen of bij welke activiteiten ze hulp nodig hebben.\nHet is moeilijker hen nieuwe dingen te leren dan bij jongeren zonder beperking, maar het is een uitdaging ervoor te zorgen dat de cliënten de dingen waarmee ze hulp nodig hebben, later alleen kunnen doen.\nDus, de zelfstandigheid moet groter worden en de hulp van andere mensen kleiner.",
+            "llm_output": "Doelgroep deel 3\nLaag IQ\nLicht verstandelijke jongeren hebben een lager IQ en dit veroorzaakt een aantal problemen die hun leven bepalen.\nVoor hen is het heel moeilijk om een keuze te maken, problemen met de schoolloopbaan, leren, relaties, sociale dingen, enzovoort.\nDeze dingen maken het leven van verstandelijk beperkte jongeren moeilijker.\nAls je met deze doelgroep werkt, moet je alles op hun niveau aanpassen en kijken welke dingen ze alleen kunnen doen of bij welke activiteiten ze hulp nodig hebben.\nHet is moeilijker om hen nieuwe dingen te leren dan bij jongeren zonder beperking, maar het zou altijd een uitdaging zijn om ervoor te zorgen dat de cliënten de dingen waarmee ze hulp nodig hebben, later zelfstandig kunnen doen.\nDus, de zelfstandigheid moet groter worden en de hulp van andere mensen kleiner.",
+            "score": 0.8511304848646439
+        },
+        {
+            "id": 9,
+            "name": "Dutch_Other_2",
+            "input": "Goedendag iedereen!\nHallo, ik ben Pools en ik wou graag een beetje Nederlands leren.\nIk houd het van, ik find het een mooie taal.\nIk heb het gedurende 3 weken geleerd.\nHet is de zesde taal ik leer.\nDe anders vijf talen zijn Engels, Spaans, Italiaans, Chinees en Duits.\nHet is mijn hobby.\nIk hoop jullie kunnen deze text corrigeren.\nHet zal heel behulpzaam worden.\nTot ziens en dank jullie wel!",
+            "output": "Goedendag iedereen!\nHallo, ik ben Pools en ik wil graag een beetje Nederlands leren.\nIk hou ervan, ik vind het een mooie taal.\nIk ben het inmiddels al drie weken aan het leren.\nHet is de zesde taal die ik leer.\nDe andere vijf talen zijn Engels, Spaans, Italiaans, Chinees en Duits.\nHet is mijn hobby.\nIk hoop dat jullie deze tekst kunnen corrigeren.\nHet zal heel behulpzaam zijn.\nTot ziens en dank jullie wel!",
+            "llm_output": "Goedendag iedereen!\nHallo, ik ben Pools en ik wil graag een beetje Nederlands leren.\nIk houd ervan, ik vind het een mooie taal.\nIk heb het 3 weken geleerd.\nHet is de zesde taal die ik leer.\nDe andere vijf talen zijn Engels, Spaans, Italiaans, Chinees en Duits.\nHet is mijn hobby.\nIk hoop dat jullie deze tekst kunnen corrigeren.\nHet zal heel behulpzaam zijn.\nTot ziens en dank jullie wel!",
+            "score": 0.827905446955468
+        },
+        {
+            "id": 23,
+            "name": "Dutch_Japanese_7",
+            "input": "Mijn favoriet tv programma\nIk houd van koken en probeer vaak iets nieuws te koken.\nDan gebruik ik de recepten van een belgische man: Jeroen Meus van \"Dagelijkse kost\" op Eèn.\nHij gebruikt altijd ingrediënten die we in algemene supermarkten makkelijk kunnen vinden.\nHij legt altijd heel duidelijk uit en zijn recepten zijn niet ingewikkeld maar heel simpel.\nGisteren maakte ik zijn originele pindasaus voor vietnamese spring rolls met zalm.\nHet was heerlijk!\nVoor het recept, bekijk de onderstaande link:\nhttp://www. een. be/programmas/dagelijkse-kost/recepten/sates-van-varkensvlees-met-pindasaus-en-komkommersalade",
+            "output": "Mijn favoriete tv-programma\nIk houd van koken en probeer vaak iets nieuws te koken.\nDan gebruik ik de recepten van een Belgische man: Jeroen Meus van \"Dagelijkse kost\" op Eén.\nHij gebruikt altijd ingrediënten die we in de algemene supermarkten makkelijk kunnen vinden.\nHij legt altijd heel duidelijk uit en zijn recepten zijn niet ingewikkeld maar heel simpel.\nGisteren maakte ik zijn originele pindasaus voor Vietnamese springrolls met zalm.\nHet was heerlijk!\nVoor het recept, bekijk de onderstaande link:\nhttp://www.een.be/programmas/dagelijkse-kost/recepten/sates-van-varkensvlees-met-pindasaus-en-komkommersalade",
+            "llm_output": "Mijn favoriete tv-programma:\nIk houd van koken en probeer vaak iets nieuws uit. Dan gebruik ik de recepten van een Belgische man: Jeroen Meus van \"Dagelijkse kost\" op Eén. Hij gebruikt altijd ingrediënten die we makkelijk kunnen vinden in algemene supermarkten. Hij legt alles heel duidelijk uit en zijn recepten zijn niet ingewikkeld maar juist heel simpel. Gisteren maakte ik zijn originele pindasaus voor Vietnamese spring rolls met zalm. Het was heerlijk! Voor het recept, bekijk de onderstaande link: http://www.een.be/programmas/dagelijkse-kost/recepten/sates-van-varkensvlees-met-pindasaus-en-komkommersalade",
+            "score": 0.7783867914796289
+        },
+        {
+            "id": 19,
+            "name": "Dutch_English_6",
+            "input": "Taal leren methoden\nIk luisterde naar een les van Pimsleur Swedish maar ik moet zeggen dat ik Pimsleur heel irritant vind.\nEr is zo veel Engels in de lessen en ik denk dat ik beter leer als ik de woorden kunnen zien.\nPimsleur werkt meestal door audio en dus wil ik liever Assimil gebruiken.\nJammer dat er geen 'Swedish with Ease' is.\nEr is een Nederlandse versie maar ik voel me niet zeker genoeg met Nederlands om het te gebruiken.\nEr is ook geen Engels-Portugees Assimil, ook jammer.\nIk heb Teach Yourself Swedish.\nHet lijkt me goed, omdat er gemiddelde grootte dialogeren zijn maar ook te veel Engels (en de stem van de vrouw is pieperig)",
+            "output": "Taal leren methoden\nIk luisterde naar een les van Pimsleur Swedish, maar ik moet zeggen dat ik Pimsleur heel irritant vind.\nEr is zo veel Engels in de lessen en ik denk dat ik beter leer als ik de woorden zou kunnen zien.\nPimsleur werkt meestal met audio, dus wil ik liever Assimil gebruiken.\nJammer dat er geen 'Swedish with Ease' is.\nEr is een Nederlandse versie, maar ik voel me niet zeker genoeg met Nederlands om het te gebruiken.\nEr is ook geen Engels-Portugees Assimil, ook jammer.\nIk heb Teach Yourself Swedish.\nHet lijkt me goed, omdat er gemiddelde grootte dialogen zijn, maar ook te veel Engels.",
+            "llm_output": "Taal leermethoden\nIk luisterde naar een les van Pimsleur Swedish, maar ik moet zeggen dat ik Pimsleur heel irritant vind.\nEr is zoveel Engels in de lessen en ik denk dat ik beter leer als ik de woorden kan zien.\nPimsleur werkt meestal met audio en daarom wil ik liever Assimil gebruiken.\nJammer dat er geen 'Swedish with Ease' is.\nEr is een Nederlandse versie, maar ik voel me niet zeker genoeg met Nederlands om het te gebruiken.\nEr is ook geen Engels-Portugees Assimil, ook jammer.\nIk heb Teach Yourself Swedish.\nHet lijkt me goed omdat er gemiddeld grote dialogen zijn, maar er is ook te veel Engels (en de stem van de vrouw is pieperig).",
+            "score": 0.7657792602616607
+        },
+        {
+            "id": 27,
+            "name": "Dutch_Other_8",
+            "input": "Dag 1: Een berichtje elke dag\nIk besloot dat ik elke dag een bericht zal schrijven.\nZelfs als dat is alleen een kleine berichtje, ik besloot dat ik MOET iets elke dag schrijven als ik wil een Nederlands leren :P Ik begin vandaag :D\nNu, ga ik naar het werk.\nIk hoop dat ik zal vandaag nog iets schrijven.\nAls dat niet zo is, dan ik zie jou morgen ;)",
+            "output": "Dag 1: Een berichtje elke dag\nIk besloot dat ik elke dag een bericht zal schrijven.\nZelfs al is het alleen een klein berichtje, ik besloot dat ik elke dag iets moet schrijven als ik Nederlands wil leren :P Ik begin vandaag :D\nNu ga ik naar het werk.\nIk hoop dat ik vandaag nog iets zal schrijven.\nAls dat niet zo is, dan zie ik jou morgen ;)",
+            "llm_output": "Dag 1: Een berichtje elke dag\nIk heb besloten dat ik elke dag een bericht zal schrijven.\nZelfs als dat alleen maar een klein berichtje is, heb ik besloten dat ik IETS moet schrijven elke dag als ik Nederlands wil leren :P Ik begin vandaag :D\nNu ga ik naar mijn werk.\nIk hoop dat ik vandaag nog iets zal schrijven.\nAls dat niet zo is, dan zie ik jou morgen ;)",
+            "score": 0.7176368266681439
+        },
+        {
+            "id": 28,
+            "name": "Dutch_English_9",
+            "input": "Andere alloctonen in Nederland\nIk heb veel mensen van buitenlanden ontmoeten.\nZoveel mensen in Nederlands klassen komen uit oost-Europa landen zoals Polen, Tsjechië en Oekraïne.\nIk heb niet zo veel Engelstalige mensen ontmoeten maar ik weet dat ze bestaan omdat er een grote boekenwinkel in Amsterdam is die American Book Center heet.\nNederlanders zeggen dat Engelstalige mensen probeer niet zo vaak om Nederlands te leren.\nIk denk dat er veel Engelstalige mensen die voor Amerikaanse/internationale bedrijven werken zijn dus hoeven ze niet Nederlandse te leren.\nToen ze vijf jaren of meer in Nederland hebben gewoond, worden ze bezorgd omdat om Nederlandse burgerschap te krijgen, moeten ze wel Nederlands spreken.\nEr zijn veel Duitsers in Nederland die uitstekend Nederlands spreken omdat Nederlands gelijk met Duits is.\nZe hebben schattige accenten :D",
+            "output": "Andere allochtonen in Nederland\nIk heb veel mensen uit het buitenland ontmoet.\nZoveel mensen in Nederlandse klassen komen uit Oost-Europese landen zoals Polen, Tsjechië en Oekraïne.\nIk heb niet zo veel Engelstalige mensen ontmoet, maar ik weet dat ze er zijn omdat er een grote boekenwinkel in Amsterdam is die \"American Book Center\" heet. Natuurlijk bestaan er Engelstalige mensen, bijvoorbeeld in Engeland.\nNederlanders zeggen dat Engelstalige mensen niet zo vaak proberen om Nederlands te leren.\nIk denk dat er veel Engelstalige mensen zijn die voor Amerikaanse/internationale bedrijven werken, dus hoeven ze geen Nederlands te leren.\nWanneer ze vijf jaar of meer in Nederland wonen, worden ze bezorgd omdat ze, om het Nederlandse burgerschap te krijgen, wel Nederlands moeten spreken.\nEr zijn veel Duitsers in Nederland die uitstekend Nederlands spreken omdat Nederlands op Duits lijkt.\nZe hebben schattige accenten :D",
+            "llm_output": "Andere allochtonen in Nederland\nIk heb veel mensen uit andere landen ontmoet.\nVeel mensen in Nederlandse klassen komen uit Oost-Europese landen zoals Polen, Tsjechië en Oekraïne.\nIk heb niet zoveel Engelstalige mensen ontmoet, maar ik weet dat ze bestaan omdat er een grote boekenwinkel in Amsterdam is die American Book Center heet.\nNederlanders zeggen dat Engelstalige mensen niet zo vaak proberen om Nederlands te leren.\nIk denk dat er veel Engelstalige mensen zijn die voor Amerikaanse/internationale bedrijven werken, dus hoeven ze geen Nederlands te leren.\nWanneer ze vijf jaar of langer in Nederland hebben gewoond, maken ze zich zorgen omdat ze Nederlands moeten spreken om Nederlands burgerschap te krijgen.\nEr zijn veel Duitsers in Nederland die uitstekend Nederlands spreken omdat Nederlands op Duits lijkt.\nZe hebben schattige accenten :D",
+            "score": 0.7008849248806182
+        },
+        {
+            "id": 2,
+            "name": "Dutch_Japanese_0",
+            "input": "Ik heet Makotovich.\nIk heet Makotovich.\nHoe gaat het?\nIk heb nog nooit een bezoek aan Nederland en België, maar ik hou van Belgische en Nederlandse bieren, bijvoorbeeld, Chimay, Stella Artois, Hoegaarden, Grolsch en Heineken.\nEigenlijk Benelux bieren bezetten circa 80% aandeel in mijn koelkast.\nSommige van de Belgische chocolade merken, zoals Godiva Leonidas en zijn ook populair in Japan.\nIn Japan sommige commentatoren voetbal vaak gesproken over de Nederlandse voetbalclubs, zoals Ajax of PSV Eindhoven.\nIk herinner me dat er gebruikt moet worden Kobe Branch van ABN (Algemene Bank Nederland), ongeveer 20 jaar geleden.\nNu is het al gesloten en blijft alleen in Tokio als ABN AMRO Bank NV Tokyo Branch.",
+            "output": "Ik heet Makotovich.\nIk heet Makotovich.\nHoe gaat het?\nIk heb nog nooit een bezoek gebracht aan Nederland en België, maar ik hou van Belgische en Nederlandse bieren, bijvoorbeeld Chimay, Stella Artois, Hoegaarden, Grolsch en Heineken.\nEigenlijk beslaan Benelux bieren circa 80% van mijn koelkast.\nSommige van de Belgische chocolademerken, zoals Godiva en Leonidas, zijn ook populair in Japan.\nIn Japan spreken sommige voetbalcommentatoren vaak over Nederlandse voetbalclubs, zoals Ajax of PSV Eindhoven.\nIk herinner me dat er in Kobe een vestiging van ABN geopend werd, ongeveer 20 jaar geleden.\nNu is hij gesloten en bestaat alleen in Tokio de ABN AMRO Bank NV Tokyo Branch nog.",
+            "llm_output": "Ik heet Makotovich.\nHoe gaat het?\nIk heb nog nooit een bezoek gebracht aan Nederland en België, maar ik hou van Belgische en Nederlandse bieren, zoals Chimay, Stella Artois, Hoegaarden, Grolsch en Heineken.\nEigenlijk bezetten Benelux-bieren circa 80% van mijn koelkast.\nSommige Belgische chocolademerken, zoals Godiva en Leonidas, zijn ook populair in Japan.\nIn Japan spreken sommige voetbalcommentatoren vaak over Nederlandse voetbalclubs, zoals Ajax of PSV Eindhoven.\nIk herinner me dat er ongeveer 20 jaar geleden een Kobe Branch van ABN (Algemene Bank Nederland) was.\nNu is het al gesloten en blijft alleen ABN AMRO Bank NV Tokyo Branch over in Tokio.",
+            "score": 0.6945215516208649
+        },
+        {
+            "id": 14,
+            "name": "Dutch_Japanese_4",
+            "input": "de man en de vrouw wie officieel oudest waren in de regio Tokyo\nTwee dagen geleden, de man wordt in zijn slaapkamer dood gevonden.\nHij was de oudeste man in de regio Tokyo.\nVolgens de politie heeft hij ca 32 jaar geleden gestorven.\nHij was al gemummificeerd.\nZijn familie wonen samen met de dode man voor 32 jaren en krijgen elke maand zijn pensioen en cadeutjes van de gemeente als een oudeste man van de regio.\nZijn vrouw heeft 6 jaar geleden gestorven en de familie kregen ook haar overlevingspensioen alsof hij nog leefde.\nDe oudeste vrouw in dezelfde regio heeft nu vermist.\nZijn dochter weet het niet waar zij woont.\nZij woont niet in de addres die zij heeft bij de gemeente ingeschreven.\nDe dochter heeft haar meer dan 20 jaar niet gezien.\nIk vraag me af waarom je geen contacten hebben met je familie...\nDeze zijn echt rare incidenten.",
+            "output": "De man en de vrouw die officieel het oudst waren in de regio Tokio.\nTwee dagen geleden werd de man in zijn slaapkamer dood gevonden.\nHij was de oudste man in de regio Tokio.\nVolgens de politie is hij ca. 32 jaar geleden gestorven.\nHij was al gemummificeerd.\nZijn familie woonde samen met de dode man voor 32 jaar en kregen elke maand zijn pensioen en cadeautjes van de gemeente als de oudste man van de regio.\nZijn vrouw is 6 jaar geleden gestorven en de familie kreeg ook haar overlevingspensioen alsof zij nog leefde.\nDe oudste vrouw in dezelfde regio is nu vermist.\nHaar dochter weet niet waar zij woont.\nZij woont niet op het adres dat zij bij de gemeente heeft ingeschreven. / Zij woont niet op het adres dat bij de gemeente is ingeschreven.\nDe dochter heeft haar meer dan 20 jaar niet gezien.\nIk vraag me af waarom je geen contact hebt met je familie...\nDit zijn echt rare incidenten.",
+            "llm_output": "De man en de vrouw die officieel de oudsten waren in de regio Tokyo.\nTwee dagen geleden werd de man dood gevonden in zijn slaapkamer.\nHij was de oudste man in de regio Tokyo.\nVolgens de politie is hij ongeveer 32 jaar geleden gestorven.\nHij was al gemummificeerd.\nZijn familie woonde samen met de dode man gedurende 32 jaar en kreeg elke maand zijn pensioen en cadeaus van de gemeente als de oudste man van de regio.\nZijn vrouw is 6 jaar geleden gestorven en de familie kreeg ook haar overlevingspensioen alsof hij nog leefde.\nDe oudste vrouw in dezelfde regio is nu vermist.\nZijn dochter weet niet waar zij woont.\nZe woont niet op het adres dat ze bij de gemeente heeft ingeschreven.\nDe dochter heeft haar meer dan 20 jaar niet gezien.\nIk vraag me af waarom ze geen contact heeft met haar familie...\nDit zijn echt rare incidenten.",
+            "score": 0.665897512564367
+        },
+        {
+            "id": 15,
+            "name": "Dutch_Other_4",
+            "input": "Een IQ tussen de 50 en 85.\nHet gemiddelde IQ is 100.\nVan 85 tot 115 is er een sprake van een normaal IQ.\nBoven de 115 is het bovengemiddeld IQ en boven de 130 spreek je van hoogbegaafd.\nJongeren met licht verstandelijke beperking hebben een IQ die onder de 85 is, onder de gemiddelde IQ.\nMaar er wordt ook voor onder gemiddelde IQ zwakbegaafd genoemd.\nZwakbegaafde jongeren ontwikkelen zich enigszins trager in vergelijking met normaal begaafde jongeren.\nDaarom worden de zwakbegaafd e jongeren beperkt in het sociaal en zelfstandig functioneren.",
+            "output": "Een IQ tussen de 50 en 85.\nHet gemiddelde IQ is 100.\nVan 85 tot 115 is er sprake van een normaal IQ.\nBoven de 115 is het IQ bovengemiddeld en boven de 130 spreek je van hoogbegaafd.\nJongeren met een licht verstandelijke beperking hebben een IQ onder de 85, onder het gemiddelde.\nMaar een IQ onder het gemiddelde wordt ook zwakbegaafd genoemd.\nZwakbegaafde jongeren ontwikkelen zich enigszins trager in vergelijking met normaal begaafde jongeren.\nDaarom worden zwakbegaafde jongeren beperkt in het sociaal en zelfstandig functioneren.",
+            "llm_output": "Een IQ tussen de 50 en 85 is lager dan het gemiddelde IQ van 100. Van 85 tot 115 is er sprake van een normaal IQ. Boven de 115 is het IQ bovengemiddeld en boven de 130 spreek je van hoogbegaafdheid. Jongeren met een licht verstandelijke beperking hebben een IQ dat onder het gemiddelde IQ ligt. Maar er wordt ook wel gesproken van zwakbegaafdheid bij jongeren met een ondergemiddeld IQ. Zwakbegaafde jongeren ontwikkelen zich enigszins trager in vergelijking met normaal begaafde jongeren. Daarom worden zwakbegaafde jongeren beperkt in hun sociaal en zelfstandig functioneren.",
+            "score": 0.6517046919870902
+        },
+        {
+            "id": 29,
+            "name": "Dutch_Japanese_9",
+            "input": "Wat ik heb gegeten tijdens de vakantie...\nDe vakantie is voorbij...\nTijdens de vakantie heb ik heel veel gegeten.\nIn Duesseldorf, Rotterdam, bij zijn ouders...\nMijn passie is om te koken en ook om iets lekkers te eten!\nWe zijn tijdens de vakantie in Duesseldorf geweest om te genieten van echt Japans eten.\nNatuurlijk begonnen we met sushi en ook hadden we tempura, gyoza, ramen als een diner.\nDaarbij hadden we de Japanse broodjes voor ontbijten.\nHet was een lange tijd geleden sinds ik echt Japans eten had.\nHet was niet alleen eten waar ik ervan had genoten maar het park dat in het centrum ligt.\nEr leven veel verschillende wilde dieren in het park.\nWe hadden veel eekhoorntjes, vogels, konijntjes en zwanen gezien.\nIk had ervan ook heel veel genoten.",
+            "output": "Wat ik heb gegeten tijdens de vakantie...\nDe vakantie is voorbij...\nTijdens de vakantie heb ik heel veel gegeten.\nIn Düsseldorf, Rotterdam, bij zijn ouders ...\nMijn passie is om te koken en om lekker te eten!\nWe zijn tijdens de vakantie in Düsseldorf geweest om te genieten van echt Japans eten.\nNatuurlijk begonnen we met sushi en we aten ook tempura, gyoza, en ramen tijdens het diner.\nVerder namen we Japanse broodjes als ontbijt.\nHet was een lange tijd geleden sinds ik echt Japans had gegeten.\nIk heb niet alleen van het eten genoten, maar ook van het park dat in het centrum ligt.\nEr leven veel verschillende wilde dieren.\nWe hebben veel eekhoorntjes, vogels, konijntjes en zwanen gezien.\nIk heb er ook heel veel van genoten.",
+            "llm_output": "Wat ik heb gegeten tijdens de vakantie...\nDe vakantie is voorbij...\nTijdens de vakantie heb ik heel veel gegeten.\nIn Düsseldorf, Rotterdam, bij zijn ouders...\nMijn passie is om te koken en ook om iets lekkers te eten!\nWe zijn tijdens de vakantie in Düsseldorf geweest om te genieten van echt Japans eten.\nNatuurlijk begonnen we met sushi en ook hadden we tempura, gyoza en ramen als diner.\nDaarbij hadden we Japanse broodjes voor het ontbijt.\nHet was lang geleden sinds ik echt Japans eten had gehad.\nHet was niet alleen het eten waar ik van genoten had, maar ook het park dat in het centrum ligt.\nEr leven veel verschillende wilde dieren in het park.\nWe hadden veel eekhoorntjes, vogels, konijntjes en zwanen gezien.\nIk had er ook heel erg van genoten.",
+            "score": 0.6516815983535106
+        },
+        {
+            "id": 18,
+            "name": "Dutch_Other_5",
+            "input": "licht verstandelijke beperking 1\nLicht Verstandelijk Gehandicapt (LVG) is een handicap als gevolg van omgevingsfactoren gecombineerd met een laag intellectueel functioneren (IQ tussen de 50 en 85).\nJongeren met een licht verstandelijke beperking hebben moeite om informatie, prikkels en situaties te begrijpen.\nZij kunnen niet goed bevatten wat gezegd wordt of wat er gebeurd.\nEr kan sprake zijn van leer- en opvoedingsproblemen.\nJongeren met een licht verstandelijke beperking zijn extra kwetsbaar en daardoor hebben ze 40-60%) kans op het ontwikkelen van een psychiatrische stoornis.\nZij hebben vaak lichamelijke aandoeningen daarom reageren ze anders dan normaal jongeren gevolg hiervan hebben ze minder zelfvertrouwen.\nDit soort beperking is vaak niet zichtbaar zodat ze vaak onderschat kunnen worden en dat geeft uiteraard extra problemen.\nGelukkig kan deze doelgroep gediagnosticeerd en behandeld worden.",
+            "output": "Licht verstandelijke beperking 1\nLicht verstandelijk gehandicapt is een handicap als gevolg van omgevingsfactoren gecombineerd met een laag intellectueel functioneren.\nJongeren met een licht verstandelijke beperking hebben moeite om informatie, prikkels en situaties te begrijpen.\nZij kunnen niet goed bevatten wat gezegd wordt of wat er gebeurt.\nEr kan sprake zijn van leer- en opvoedingsproblemen.\nJongeren met een licht verstandelijke beperking zijn extra kwetsbaar en daardoor hebben ze 40-60% kans op het ontwikkelen van een psychiatrische stoornis.\nZij hebben vaak lichamelijke aandoeningen en daarom reageren ze anders dan normaal. Als gevolg hiervan hebben ze minder zelfvertrouwen.\nDit soort beperking is vaak niet zichtbaar, zodat ze vaak onderschat kunnen worden en dat geeft uiteraard extra problemen.\nGelukkig kan deze doelgroep gediagnosticeerd en behandeld worden.",
+            "llm_output": "Licht verstandelijke beperking (LVB) is een beperking als gevolg van omgevingsfactoren in combinatie met een laag intellectueel functioneren (IQ tussen de 50 en 85). Jongeren met een licht verstandelijke beperking hebben moeite om informatie, prikkels en situaties te begrijpen. Zij kunnen niet goed bevatten wat er gezegd wordt of wat er gebeurt. Er kan sprake zijn van leer- en opvoedingsproblemen. Jongeren met een licht verstandelijke beperking zijn extra kwetsbaar en hebben daardoor een kans van 40-60% op het ontwikkelen van een psychiatrische stoornis. Ze hebben vaak lichamelijke aandoeningen, waardoor ze anders reageren dan normale jongeren en minder zelfvertrouwen hebben. Dit soort beperking is vaak niet zichtbaar, waardoor ze vaak onderschat kunnen worden en dat geeft uiteraard extra problemen. Gelukkig kan deze doelgroep gediagnosticeerd en behandeld worden.",
+            "score": 0.648879703160831
+        },
+        {
+            "id": 17,
+            "name": "Dutch_Japanese_5",
+            "input": "Aangifte doen\nEindelijk heb ik vanmiddag aangifte gedaan voor de creditcard fraude.\nIk ben veel keren bij de politie geweest maar ik had niet genoeg bewijzen mee dus moest ik terugkomen...\nDe politieagent was weer echt aardig en voelde ik me beter.\nHij vroeg me over mijn leven in Nederland of zoiets en probeerde om mij rust te geven.\nOnlangs heb ik geen leuke en aardige mensen ontmoeten dus heeft hij me wat blij gemaakt.\nIk hab in vorige maand een paar keer pech gehad maar als ik er over nadenk, had ik ook leuke dingen gedaan.\nZo is het leven.\nHet komt goed!",
+            "output": "Aangifte doen\nEindelijk heb ik vanmiddag aangifte gedaan voor de creditcardfraude. Zo klinkt het wat beter: Ik heb vanmiddag eindelijk aangifte gedaan voor de creditcardfraude.\nIk ben vele keren bij de politie geweest, maar ik had toen niet genoeg bewijzen mee, dus moest ik terugkomen...\nDe politieagent was weer heel aardig en daardoor voelde ik me beter.\nHij vroeg me over mijn leven in Nederland of zoiets en probeerde mij gerust te stellen.\nOnlangs heb ik geen leuke en aardige mensen ontmoet, dus heeft hij me een beetje opgevrolijkt.\nIk heb vorige maand een paar keer pech gehad, maar als ik erover nadenk, heb ik ook leuke dingen gedaan.\nZo is het leven.\nHet komt goed!",
+            "llm_output": "Aangifte doen\nEindelijk heb ik vanmiddag aangifte gedaan voor de creditcardfraude.\nIk ben veel keren bij de politie geweest, maar ik had niet genoeg bewijs mee, dus moest ik terugkomen...\nDe politieagent was weer echt aardig en voelde ik me beter.\nHij vroeg me over mijn leven in Nederland of zoiets en probeerde om mij rust te geven.\nOnlangs heb ik geen leuke en aardige mensen ontmoet, dus heeft hij me wat blij gemaakt.\nIk heb in de vorige maand een paar keer pech gehad, maar als ik erover nadenk, had ik ook leuke dingen gedaan.\nZo is het leven.\nHet komt goed!",
+            "score": 0.6471476246081631
+        },
+        {
+            "id": 11,
+            "name": "Dutch_Japanese_3",
+            "input": "De brief van Immigratie en Naturalisatiedienst\nIk heb eergisteren een brief van IND gekregen.\nDe brief zegt dat de beslistermijn voor deze aanvraag op vorige week hebben begonnen en ze streven naar binnen 2 maanden een beslissing te nemen!\nIn de balie van IND, zei hij dat ze binnen 3 maanden beslissen nemen.\nIk heb gehoord van mensen die de verblijfsvergunning hebben gevraagd over zijn slechte ervaringen met IND.\nHet kostte voor sommige mensen bijna 7 maanden om de verblijfsvergunning te krijgen.\nBovendien moesten zij een advocaat nemen om het proces te versnellen.\nMisschien moet ik nog een beetje langer wachten...\nMaar wie weet tot ik een verblijfsvergunning krijg!\nWanneer ik er een krijg, kan ik eindelijk naar school om Nederlands te leren!!",
+            "output": "De brief van de Immigratie- en Naturalisatiedienst\nIk heb eergisteren een brief van de IND gekregen.\nDe brief zegt dat de beslissingstermijn voor deze aanvraag vorige week is begonnen en ze streven ernaar om binnen 2 maanden een beslissing te nemen! (Het is een fout die ook HEEL veel Nederlanders nog maken.)\nBij de balie van IND zeiden ze dat ze binnen 3 maanden beslissingen nemen.\nIk heb gehoord van mensen die de verblijfsvergunning hebben aangevraagd over hun slechte ervaringen met IND.\nHet kostte voor sommige mensen bijna 7 maanden om de verblijfsvergunning te krijgen.\nBovendien moesten zij een advocaat nemen om het proces te versnellen.\nMisschien moet ik nog een beetje langer wachten...\nMaar wie weet tot ik een verblijfsvergunning krijg!\nWanneer ik er een krijg, kan ik eindelijk naar school om Nederlands te leren!!",
+            "llm_output": "De brief van de Immigratie- en Naturalisatiedienst\nIk heb eergisteren een brief van de IND gekregen.\nDe brief zegt dat de beslistermijn voor deze aanvraag vorige week is begonnen en dat ze streven naar een beslissing binnen 2 maanden!\nBij de balie van de IND zei hij dat ze binnen 3 maanden een beslissing nemen.\nIk heb van mensen die een verblijfsvergunning hebben aangevraagd gehoord over hun slechte ervaringen met de IND.\nVoor sommige mensen duurde het bijna 7 maanden om de verblijfsvergunning te krijgen.\nBovendien moesten zij een advocaat nemen om het proces te versnellen.\nMisschien moet ik nog een beetje langer wachten...\nMaar wie weet wanneer ik een verblijfsvergunning krijg!\nAls ik er een krijg, kan ik eindelijk naar school om Nederlands te leren!!",
+            "score": 0.6422693010441455
+        },
+        {
+            "id": 13,
+            "name": "Dutch_English_4",
+            "input": "Eerste bericht\nHallo, mijn naam is Saim Inayatullah.\nWie bent U?\nIk ben zestien, en ben van Australië.\nIk woon in Mooloolaba, een stadje aanstaande Brisbane.\nMijn moeder bent de Serviër, en mijn vader bent de Pakistan.\nOmdat mijn moeder Servisch bent, ik spreek twee talen in mijn huis.\nIk spreek niet mijn vaders moedertaal omdat pappje in Amerika gedurende vele jaaren woonde, hij spreken niet Urdu of Punjabi vloeiend.\nIk studeer historie, mathematica, Spaanse taal, Engels, biologie en ecologie in school.\nIk wou spreken vele taalen en studeren taalwetenschap in universiteit.",
+            "output": "Eerste bericht\nHallo, mijn naam is Saim Inayatullah.\nWie bent u?\nIk ben zestien en kom uit Australië.\nIk woon in Mooloolaba, een stadje dicht bij Brisbane.\nMijn moeder is Servisch en mijn vader Pakistaans.\nOmdat mijn moeder Servisch is, spreek ik twee talen thuis.\nMijn vaders moedertaal spreek ik niet. Omdat hij lang in Amerika heeft gewoond, spreekt hij geen vloeiend Urdu of Punjabi.\nOp school studeer/leer ik geschiedenis, wiskunde, Spaans, Engels, biologie en ecologie.\nIk zou graag veel talen kunnen spreken en aan de universiteit taalwetenschap studeren.",
+            "llm_output": "Eerste bericht\nHallo, mijn naam is Saim Inayatullah.\nWie bent u?\nIk ben zestien en kom uit Australië.\nIk woon in Mooloolaba, een stadje vlakbij Brisbane.\nMijn moeder is Servisch en mijn vader is Pakistaans.\nOmdat mijn moeder Servisch is, spreek ik thuis twee talen.\nIk spreek de moedertaal van mijn vader niet omdat hij vele jaren in Amerika heeft gewoond en niet vloeiend Urdu of Punjabi spreekt.\nOp school studeer ik geschiedenis, wiskunde, Spaans, Engels, biologie en ecologie.\nIk wil graag veel talen spreken en taalwetenschap studeren aan de universiteit.",
+            "score": 0.6143166290306351
+        },
+        {
+            "id": 5,
+            "name": "Dutch_Japanese_1",
+            "input": "Grappig nieuws van Noord-Korea\nVolgens de officieel website van Noord-Korea \"Uriminzokkiri\", de uniform van de president Kim Jong Il is de populair mode ter wereld worden vanwege zijn geweldige en bijzondere figuur.\nHij draagt altijd het zelfde ontwerpen simpel uniform aan.\nHet is niks bijzonder.\nIk heb nog nooit de mensen die de uniform dragen als mode gezien...\ntenminste in Japan en Nederland.\nDe website zegt dat een anoniem Franse mode journalist ook zijn mode sense prijst.\nIs het waar?!",
+            "output": "Grappig nieuws uit Noord-Korea\nVolgens de officiële website van Noord-Korea \"Uriminzokkiri\" is het uniform van president Kim Jong Il de populairste kleding ter wereld geworden vanwege zijn geweldige en bijzondere figuur.\nHij draagt altijd hetzelfde ontwerp: een simpel uniform.\nHet is niets bijzonders.\nIk heb nog nooit mensen die uniformen dragen als modieus gezien...\ntenminste in Japan en Nederland.\nDe website zegt dat een anonieme Franse modejournalist ook zijn gevoel voor mode prijst. Sense is Engels.\nIs het waar?!",
+            "llm_output": "Grappig nieuws uit Noord-Korea.\nVolgens de officiële website van Noord-Korea, \"Uriminzokkiri\", is het uniform van president Kim Jong Il wereldwijd populair geworden vanwege zijn geweldige en bijzondere figuur.\nHij draagt altijd hetzelfde eenvoudige ontwerp van uniform.\nHet is niets bijzonders.\nIk heb nog nooit mensen gezien die het uniform als mode dragen, tenminste niet in Japan en Nederland.\nDe website beweert dat een anonieme Franse modejournalist ook zijn modesense prijst.\nIs het waar?!",
+            "score": 0.6130973597661409
+        },
+        {
+            "id": 8,
+            "name": "Dutch_Japanese_2",
+            "input": "zaterdag\nIk heb gisteren deelgenomen aan de seminar onder de thema \"Werk en vrouwen\".\nBijna 70% van Japanse vrouwen stoppen werken na haar huwelijke of bevalling.\nVolgens mij is een van reden dat we geen flexibel werkstijl hebben - hier in Japan werken mensen nog traditioneel werkstijl - altijd in de kantoor te zijn, t/m maandag en vrijdag 9 - 17.30 uur.\nVaak komt het ook overwerken.\nNa de siminar heb ik een gezellig middag met Nederlandse echtpar.\nIk kent ze toen ik in Nederland was en ze zijn in Japan op vakantie.",
+            "output": "zaterdag\nIk heb gisteren deelgenomen aan een seminar onder het thema \"Werk en vrouwen\".\nBijna 70% van de Japanse vrouwen stopt met werken na het huwelijk of een bevalling.\nVolgens mij is een van de redenen dat wij geen flexibele werkstijl hebben - hier in Japan werken mensen nog met een traditionele werkstijl - dat wij altijd op het kantoor zijn, maandag t/m vrijdag van 9 tot 17.30 uur.\nVaak komt het ook door overwerken.\nNa de seminar had ik een gezellige middag met een Nederlands echtpaar.\nIk kende ze toen ik in Nederland was en ze zijn nu in Japan op vakantie.",
+            "llm_output": "Zaterdag,\nIk heb gisteren deelgenomen aan de seminar met als thema \"Werk en vrouwen\". Bijna 70% van de Japanse vrouwen stopt met werken na haar huwelijk of bevalling. Volgens mij is een van de redenen dat we geen flexibele werkstijl hebben - hier in Japan werken mensen nog steeds volgens de traditionele werkstijl - altijd op kantoor, van maandag tot en met vrijdag van 9.00 tot 17.30 uur. Vaak wordt er ook overgewerkt. Na de seminar heb ik een gezellige middag gehad met een Nederlands echtpaar. Ik kende ze al toen ik in Nederland was en ze zijn nu op vakantie in Japan.",
+            "score": 0.5815573453206055
+        },
+        {
+            "id": 12,
+            "name": "Dutch_Other_3",
+            "input": "Dienen het Leger x-X NEE!!!!\nHier in Brazillië wij hebben het leger dienen waneer wij hebben 18 jaar oud.\nIk heb 17 jaar oud, maar dit jaar ik zal 18 jaar oud  hebben dus ik moet het leger dienen.\nMisschien, ik heb niet om het te doen als ik ben in universiteit, maar de toelatingsproef resultaten zal alleen komen op 15 januari dus ik ben te veel angstig en ongerust, maar ik denk dat alles zullen komen fijn...\nIk hoop van wel =P",
+            "output": "Dienen in het leger? Nee!\nHier in Brazilië moeten wij in het leger dienen wanneer wij 18 zijn.\nIk ben 17 jaar oud, maar dit jaar zal ik 18 jaar oud worden, dus moet ik in het leger dienen.\nMisschien hoef ik het niet te doen als ik naar de universiteit ga, maar de resultaten van de toelatingsproef zullen pas komen op 15 januari, dus ben ik erg angstig en ongerust. Maar ik denk dat alles in orde zal komen...\nIk hoop van wel =P",
+            "llm_output": "Dienen in het leger? NEE!!!\nHier in Brazilië moeten we het leger dienen wanneer we 18 jaar oud zijn.\nIk ben 17 jaar oud, maar dit jaar word ik 18 jaar oud, dus ik moet het leger dienen.\nMisschien hoef ik het niet te doen als ik op de universiteit zit, maar de resultaten van het toelatingsexamen komen pas op 15 januari, dus ik ben erg angstig en ongerust. Maar ik denk dat alles goed zal komen...\nIk hoop het tenminste =P",
+            "score": 0.5629140675760516
+        },
+        {
+            "id": 20,
+            "name": "Dutch_Japanese_6",
+            "input": "Vandaag ook\nDeze vier dagen elk japanse dagblad heeft dezelfde onderwerp op zijn top pagina : het uitstromen van vraagstukken van academischtoelatingsexamen door Internet.",
+            "output": "Vandaag ook.\nDeze vier dagen heeft elk Japans dagblad hetzelfde onderwerp (hetzelfde onderwerp/dezelfde onderwerpen) op zijn voorpagina: het uitlekken van vraagstukken over academische toelatingsexamens via internet.",
+            "llm_output": "Vandaag ook.\nDeze vier dagen heeft elk Japans dagblad hetzelfde onderwerp op zijn voorpagina: het uitlekken van vragen van het academisch toelatingsexamen via internet.",
+            "score": 0.5612217462935022
+        },
+        {
+            "id": 22,
+            "name": "Dutch_English_7",
+            "input": "Een Ontzettend Kopje Koffie\n(Dit verhaal is fictie!)\nOnlangs, ik ben erg druk geweest, niet omdat mijn school, maar ja omdat het is bijna Kerstmistijd, en ik moet veel kopen voor de anderen.\n(Eigenlijk, ik denk als ik geef te veel cadeautjes aan anderen).\nVoor mijn besten vriend, ik heb een kopje koffie gekoppt.\nZe feeft nu een beetje gedronken en houd niet van hij.\nZe heeft nog één beetje genome en zij me heeft gezeegd, als de smak was niet lekker - hij was ontzettend!\nDe ober ons heeft na gezegd, als dat was geen kopje offie - het was een kopje thee.\nWe hebben niet afgerekend het.\nDe ober ons heeft begrepen.\nZodat, we zijn meteen naar een andere winkel, maar ik heb geen cadeautje gekopt.\nIk had mijn les reeds geleerd.",
+            "output": "Een ontzettend kopje koffie\n(Dit verhaal is fictie!)\nOnlangs ben ik erg druk bezig geweest. Niet vanwege school, maar omdat het bijna Kerstmis is en ik veel moet kopen voor anderen.\n(Eigenlijk denk ik dat ik te veel cadeautjes aan anderen geef).\nVoor mijn beste vriend heb ik een kopje koffie gekocht.\nZe heeft nu een beetje koffie gedronken en houdt er niet van.\nZe heeft nog een beetje genomen en ze heeft tegen me gezegd: de smaak was niet lekker - hij was ontzettend!\nDe ober heeft tegen ons gezegd: dat was geen kopje koffie - het was een kopje thee.\nWe hebben het niet afgerekend.\nDe ober heeft ons begrepen.\nZodat we meteen naar een andere winkel zijn gegaan, maar ik heb geen cadeautje gekocht.\nIk heb mijn les geleerd.",
+            "llm_output": "Een Ontzettend Kopje Koffie\n(Dit verhaal is fictie!)\nOnlangs ben ik erg druk geweest, niet vanwege school, maar omdat het bijna Kerstmis is en ik veel cadeaus moet kopen voor anderen.\nEigenlijk denk ik dat ik te veel cadeaus geef aan anderen.\nVoor mijn beste vriend heb ik een kopje koffie gekocht.\nZe heeft er nu een beetje van gedronken en vindt het niet lekker.\nZe heeft nog een beetje genomen en zei tegen me dat de smaak niet lekker was - het was ontzettend!\nDe ober zei tegen ons dat het geen kopje koffie was, maar een kopje thee.\nWe hebben niet betaald.\nDe ober begreep ons.\nDus zijn we meteen naar een andere winkel gegaan, maar ik heb geen cadeau gekocht.\nIk had mijn les al geleerd.",
+            "score": 0.5350161964903674
+        },
+        {
+            "id": 30,
+            "name": "Dutch_Other_9",
+            "input": "Werken met licht verstandelijk gehandicapte kinderen of jongeren\nIk zal wel met deze doelgroep willen werken want de hulpverleners hebben wel een grote rol van het ontwikkelingsproces bij deze doelgroep.\nIk had op een site gelezen dat licht verstandelijk gehandicapte kinderen, als het leggen van een complexe puzzel is.\nOm het totale plaatje te zien, moet je eerst alle(kleine) stukjes op de juiste plek leggen, stond erop.\nHet lijk me wel een interessant werk met zo`n groep te werken of individueel mag ook.\nDe complexe puzzelstukjes op de juiste plek leggen doe je voor je plezier.\nAls je met deze doelgroep werkt, terwijl je dat voor je zelf doet, doe je dat ook voor het kind zelf, voor haar/zijn familie en uiteraard voor de maatschappij.\nOm met deze doelgroep te kunnen werken moet je je natuurlijk specialiseren.\nZo zeker erover ben ik nog niet.\nIk heb nog tot mijn derde jaar genoeg tijd erover na te denken.",
+            "output": "Werken met licht verstandelijk gehandicapte kinderen of jongeren\nIk zou graag met deze doelgroep willen werken, want de hulpverleners hebben een grote rol bij het ontwikkelingsproces van deze doelgroep.\nIk heb op een site gelezen dat omgaan met licht verstandelijk gehandicapte kinderen vergelijkbaar is met het leggen van een complexe puzzel.\nOm het totale plaatje te zien, moet je eerst alle stukjes op de juiste plek leggen, stond erop.\nHet lijkt me interessant om met een groep te werken, maar ook individueel lijkt me interessant.\nDe complexe puzzelstukjes op de juiste plek leggen doe je voor je plezier.\nAls je met deze doelgroep werkt, terwijl je dat voor jezelf doet, doe je dat ook voor het kind zelf, voor zijn/haar familie en uiteraard voor de maatschappij.\nOm met deze doelgroep te kunnen werken, moet je je natuurlijk specialiseren.\nZo zeker ben ik er nog niet over.\nIk heb tot mijn derde jaar nog genoeg tijd om erover na te denken.",
+            "llm_output": "Werken met licht verstandelijk gehandicapte kinderen of jongeren\nIk zou graag met deze doelgroep willen werken, omdat hulpverleners een grote rol spelen in het ontwikkelingsproces van deze groep.\nIk las op een website dat werken met licht verstandelijk gehandicapte kinderen is als het leggen van een complexe puzzel. Om het totale plaatje te zien, moet je eerst alle (kleine) stukjes op de juiste plek leggen.\nHet lijkt me interessant om met deze groep te werken, zowel individueel als in een groep.\nHet leggen van de complexe puzzelstukjes op de juiste plek geeft voldoening. Als je met deze doelgroep werkt, doe je dat niet alleen voor jezelf, maar ook voor het kind zelf, de familie en uiteraard de maatschappij.\nNatuurlijk moet je je specialiseren om met deze doelgroep te kunnen werken. Ik ben nog niet helemaal zeker of dit iets voor mij is. Ik heb nog genoeg tijd tot mijn derde jaar om erover na te denken.",
+            "score": 0.5109424200882422
+        },
+        {
+            "id": 26,
+            "name": "Dutch_Japanese_8",
+            "input": "Het laatste oesters\nCoop is een bedrijf die eten en spullen naar thuis bezorgt elke week.\nJe bestel wat je wil van de catalogus en ontvang je er een week later.\nIk gebruik voor meer dan een jaar.\nZe komen bij ons op elke maandag.\n14 maart was de eerste bezorging na de aardbeving.\nVeel producten weren niet bezorgd door de aardbeving, maar ik heb de vriest oesters wel ontvangt.\nOp de verpakking van de oester stond de plaats waar kwam de oesters uit.\nDat was Ishinomaki, Miyagi - veel mensen wered slachtoffers van tsunami.\nIk hoopte dat er weren geen slachtoffers die had gewerkt voor de oesters.\nIk heb dankbaar heel lekker oesters gerechten gemaakt.\nDoor de ernstig schade is het nog niet duidelijke wanner de oesters van deze stad weer op markt zou zijn.",
+            "output": "De laatste oesters\nCoop is een bedrijf dat elke week eten en spullen naar huis bezorgt.\nJe bestelt wat je wilt van de catalogus en je ontvangt het een week later.\nIk gebruik de service al meer dan een jaar. Je kunt ook het verwijswoord 'het' gebruiken in plaats van 'de service', maar 'de service' klinkt wat beter.\nZe komen bij ons elke maandag.\n14 maart was de eerste bezorging na de aardbeving.\nVeel producten waren niet bezorgd door de aardbeving, maar ik heb de oesters die je moet invriezen wel ontvangen. In plaats van vriesoesters kun je denk ik beter 'oesters die je moet invriezen' gebruiken, dat klinkt natuurlijker.\nOp de verpakking van de oesters stond de plaats waar de oesters vandaan kwamen.\nDat was Ishinomaki, Miyagi - waar veel mensen slachtoffers waren van de tsunami.\nIk hoopte dat er geen slachtoffers waren die hadden gewerkt voor de oesters.\nIk heb dankbaar heel lekkere oestergerechten gemaakt.\nDoor de ernstige schade is het nog niet duidelijk wanneer de oesters van deze stad weer op de markt zullen zijn.",
+            "llm_output": "Het laatste oester s \nCoop is een bedrijf dat eten en spullen thuis bezorgt elke week.\nJe bestelt wat je wilt van de catalogus en ontvangt het een week later.\nIk gebruik het al meer dan een jaar.\nZe komen bij ons op elke maandag.\nOp 14 maart was de eerste bezorging na de aardbeving.\nVeel producten waren niet bezorgd vanwege de aardbeving, maar ik heb wel de bevroren oesters ontvangen.\nOp de verpakking van de oester stond de plaats waar de oesters vandaan kwamen.\nDat was Ishinomaki, Miyagi - veel mensen waren slachtoffers van de tsunami.\nIk hoopte dat er geen slachtoffers waren die hadden gewerkt voor de oesters.\nIk ben dankbaar dat ik heel lekkere oester gerechten heb kunnen maken.\nDoor de ernstige schade is het nog niet duidelijk wanneer de oesters van deze stad weer op de markt zullen zijn.",
+            "score": 0.5056657526317909
+        },
+        {
+            "id": 21,
+            "name": "Dutch_Other_6",
+            "input": "Moeite met het aangaan en onderhouden van vriendschappen\nOmdat de jongeren met een licht verstandelijke beperking sociaal onhandig zijn en een beperkt sociaal inlevingsvermogen hebben, hebben zij ook vaak een lage sociale status (op school of in de buurt) en weinig vrienden.\nAls gevolg hiervan ontstaat een lage status en krijgen zij weinig de gelegenheid om te kunnen oefenen in sociale interacties.\nUiteraard zullen deze weinige interacties nog steeds slecht verlopen.\nDeze verminderde acceptatie door leeftijdgenoten heeft als gevolg dat jongeren met een lichte verstandelijke beperking grote moeite hebben met het aangaan van relaties met hun leeftijdgenoten.",
+            "output": "Moeite met het aangaan en onderhouden van vriendschappen\nOmdat jongeren met een licht verstandelijke beperking sociaal onhandig zijn en een beperkt sociaal inlevingsvermogen hebben, hebben zij ook vaak een lage sociale status en weinig vrienden.\nAls gevolg hiervan wordt de lage status in stand gehouden en krijgen zij weinig gelegenheid om sociale interacties te kunnen oefenen.\nUiteraard zullen deze weinige interacties nog steeds slecht verlopen.\nDeze verminderde acceptatie door leeftijdgenoten heeft als gevolg dat jongeren met een lichte verstandelijke beperking grote moeite hebben met het aangaan van relaties met hun leeftijdgenoten.",
+            "llm_output": "Moeite met het aangaan en onderhouden van vriendschappen\nJongeren met een licht verstandelijke beperking zijn sociaal onhandig en hebben een beperkt sociaal inlevingsvermogen, waardoor zij vaak een lage sociale status hebben op school of in de buurt en weinig vrienden hebben.\nHierdoor krijgen zij weinig gelegenheid om te oefenen in sociale interacties, wat resulteert in slecht verlopende interacties.\nDe verminderde acceptatie door leeftijdsgenoten zorgt ervoor dat jongeren met een lichte verstandelijke beperking grote moeite hebben met het aangaan van relaties met hun leeftijdsgenoten.",
+            "score": 0.4561110750710288
+        },
+        {
+            "id": 25,
+            "name": "Dutch_English_8",
+            "input": "Wat zeg je als...?\nGisteren heb ik een wedstrijd gelopen op de middelbare school dat ik naar ging.\nEen student d'r moeder heeft me gevraagd of ik Nederlands spreken kon...\nIk had helaas niets om te zeggen.\nZe is van Nederland, en ze heeft geweten dat ik er gegaan heb, maar het is niet vaak in de Verenigde Staten dat iemand dat vraagt!\nHoe dan ook, wat zeg je als personen dat vragen?",
+            "output": "Wat zeg je als...?\nGisteren heb ik een wedstrijd gelopen op de middelbare school waar ik naartoe ging.\nEen student haar moeder heeft me gevraagd of ik Nederlands kon spreken...\nIk had helaas niets om te zeggen.\nZe komt uit Nederland, en ze wist dat ik er geweest ben, maar het is niet vaak in de Verenigde Staten dat iemand dat vraagt! Heeft geweten betekent dat ze het voor een periode wist maar het vergat. Wist is wanneer ze wist dat je naar Nederland bent geweest.\nHoe dan ook, wat zeg je als personen dat vragen?",
+            "llm_output": "Wat zeg je als...?\nGisteren heb ik een wedstrijd gelopen op de middelbare school waar ik naartoe ging.\nDe moeder van een student vroeg me of ik Nederlands kon spreken...\nHelaas had ik niets te zeggen.\nZe komt uit Nederland en wist dat ik daar geweest was, maar het is niet vaak dat iemand dat vraagt in de Verenigde Staten!\nHoe dan ook, wat zeg je als mensen dat vragen?",
+            "score": 0.4396210935486639
+        },
+        {
+            "id": 1,
+            "name": "Dutch_English_0",
+            "input": "Mijn kamer is zo rommelig!\nMijn kamer is zo rommelig.\nMijn kamer moet opruimen ik waarschijnlijk",
+            "output": "Mijn kamer is zo rommelig!\nMijn kamer is zo rommelig.\nIk moet waarschijnlijk mijn kamer opruimen.",
+            "llm_output": "Mijn kamer is zo rommelig!\nIk moet mijn kamer waarschijnlijk opruimen.",
+            "score": 0.42149487865630075
+        }
+    ]
+}

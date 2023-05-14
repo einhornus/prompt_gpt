@@ -1,0 +1,766 @@
+{
+    "system_message_file": "1",
+    "model": "gpt-3.5-turbo",
+    "parameters": {
+        "language": "English"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.5102999501006368,
+        0.5102999501006368,
+        0.5102999501006368,
+        0.5102999501006368,
+        0.5102999501006368,
+        0.5102999501006368,
+        0.5102999501006368,
+        0.5102999501006368,
+        0.5102999501006368,
+        0.5102999501006368
+    ],
+    "average": 0.5102999501006368,
+    "median": 0.5231012061336413,
+    "std": 0.19137510313650116,
+    "percentiles": {
+        "10": 0.2596567793937325,
+        "20": 0.34435729263149006,
+        "25": 0.4043244666233101,
+        "30": 0.4380859670539964,
+        "40": 0.4799100654489125,
+        "50": 0.5231012061336413,
+        "60": 0.5520877485554988,
+        "70": 0.6191465749268321,
+        "75": 0.6405704418140588,
+        "80": 0.6777035208815314,
+        "90": 0.7318265932925602
+    },
+    "n_tests": 90,
+    "prompt": [
+        {
+            "role": "system",
+            "content": "You're ImproveGPT.\nYou improve the provided English text language-wise: you fix grammar and spelling mistakes and make it sound more natural.\nYour reply should contain ONLY the corrected text, nothing else.\nPlease use exactly the same formatting as the original text.\n"
+        }
+    ],
+    "tests": [
+        {
+            "id": 41,
+            "name": "English_French_1",
+            "input": "I now have a blog ! How exciting !\nHello\nMy name is Badr, I'm a 18 year old guy from Morocco .\nEnglish isn't my native language however I really would like to become a fluent speaker because I might study in an English speaking country after I graduate from High-School and I also really appreciate this language.\nI'm happy I found this website because I can know practice my written English.\nI'm interested in many things and I will try to keep this interesting.\nMeanwhile I could try to help you out with my native language, French !",
+            "output": "I now have a blog! How exciting!\nHello,\nMy name is Badr. I'm an 18-year-old guy from Morocco.\nEnglish isn't my native language; however, I really would like to become a fluent speaker because I might study in an English-speaking country after I graduate from high school, and I also really appreciate this language.\nI'm happy I found this website because I can now practice my written English.\nI'm interested in many things and I will try to keep this interesting.\nMeanwhile, I could try to help you out with my native language, French!",
+            "llm_output": "I now have a blog! How exciting!\nHello,\nMy name is Badr. I'm an 18-year-old guy from Morocco. English isn't my native language; however, I would really like to become a fluent speaker because I might study in an English-speaking country after I graduate from high school, and I also really appreciate this language. I'm happy I found this website because I can now practice my written English. I'm interested in many things, and I will try to keep this blog interesting. Meanwhile, I could try to help you out with my native language, French!",
+            "score": 0.9433297411633624
+        },
+        {
+            "id": 33,
+            "name": "English_German_0",
+            "input": "Why are mothers so unfair??\nGenerally, I can't complain about my mother.\nShe's the the best anyone could have if it comes to \"normal\" things.\nPlus, she didn't say anything when I quit school.\nBut now it's different.\nSome time ago I told her that I want to become a vegan and she acted as if I had totally lost my mind or something.\nWe had a argument that took about 3 days, after that I decided to give up and wait to become a vegan when I'll leave the house (in 2011 I think...) but today I found out by accident that my brother has started smoking again and I'm really pissed off right now, not only because I'm against smokers in general but also because my mother thinks these two things can't be compared.\nHer strongest point was that I ruin my health by not eating eggs and diary products but when my brother empoisons himself it's something nobody could do anything about.\nI keep telling her, that it is just the same thing but she won't believe me.\nShe is just too stubburn, but so am I...",
+            "output": "Why are mothers so unfair?\nGenerally, I can't complain about my mother.\nShe's the best anyone could have when it comes to \"normal\" things.\nPlus, she didn't say anything when I quit school.\nBut now it's different.\nSome time ago, I told her that I want to become a vegan, and she acted as if I had totally lost my mind or something.\nWe had an argument that took about 3 days; after that, I decided to give up and wait to become a vegan when I leave the house. However, today I found out by accident that my brother has started smoking again, and I'm really pissed off right now, not only because I'm against smokers in general, but also because my mother thinks these two things can't be compared.\nHer strongest point was that I ruin my health by not eating eggs and dairy products while my brother slowly poisons himself; it's something nobody could do anything about.\nI keep on telling her that it is just the same thing, but she won't believe me.\nShe is just too stubborn, but so am I...",
+            "llm_output": "Why are mothers so unfair? Generally, I can't complain about my mother. She's the best anyone could have when it comes to \"normal\" things. Plus, she didn't say anything when I quit school. But now it's different. Some time ago, I told her that I want to become a vegan, and she acted as if I had totally lost my mind or something. We had an argument that took about three days. After that, I decided to give up and wait to become a vegan when I leave the house (in 2011, I think...). But today, I found out by accident that my brother has started smoking again, and I'm really pissed off right now. Not only because I'm against smokers in general, but also because my mother thinks these two things can't be compared. Her strongest point was that I ruin my health by not eating eggs and dairy products, but when my brother poisons himself, it's something nobody could do anything about. I keep telling her that it is just the same thing, but she won't believe me. She is just too stubborn, but so am I...",
+            "score": 0.8992498574806677
+        },
+        {
+            "id": 55,
+            "name": "English_Other_2",
+            "input": "Set foot in Canada\nIt has been for six years since I had gone abroad in the first time.\nEverything looks fresh and excited to me.\nWhen I landed in this uncharted land, my heart was pumping so fast that is about to jump out of my mouth.\nWe arrived at Brock University at 23:30 by taking the shuttle bus.\nThe temperature is no longer refresh but a little bit chilling at the mid-night.\nAt first, I worried my host family should had already gone since it was too late for them; however, when the warm, pale yellow light pierced the silence in the dark, I felt relieved.\nI saw my host mom, Rosemary, she wears a blond median-long hair and has a lovely sweet smile.\nAs she gave me a gracious hug, I just knew that I will fit right in in the next couple weeks.",
+            "output": "Set foot in Canada\nIt has been six years since I went abroad for the first time.\nEverything looks fresh and exciting to me.\nWhen I landed in this uncharted land, my heart was pounding so fast that it was about to jump out of my mouth. ^_^\nWe arrived at Brock University at 23:30 by taking the shuttle bus.\nThe temperature was no longer refreshing but a little bit chilly at midnight.\nAt first, I worried my host family would have already left since it was very late for them; however, when the warm, pale yellow light pierced the silence of the dark, I felt relieved.\nI saw my host mom, Rosemary, she has blonde medium-long hair and a lovely sweet smile.\nAs she gave me a gracious hug, I just knew that I would fit in in the next couple of weeks.",
+            "llm_output": "Set Foot in Canada\nIt has been six years since I went abroad for the first time. Everything looks fresh and exciting to me. When I landed in this uncharted land, my heart was pumping so fast that it was about to jump out of my mouth. We arrived at Brock University at 23:30 by taking the shuttle bus. The temperature was no longer refreshing but a little bit chilly at midnight. At first, I worried that my host family had already left since it was too late for them. However, when the warm, pale yellow light pierced the silence in the dark, I felt relieved. I saw my host mom, Rosemary. She has blond, medium-length hair and a lovely, sweet smile. As she gave me a gracious hug, I just knew that I would fit right in in the next couple of weeks.",
+            "score": 0.8396550347406568
+        },
+        {
+            "id": 76,
+            "name": "English_English_5",
+            "input": "First time\nWell, this is my first time using this website and so i am not really sure how this works.\nHope that people can help me improve my English because even though my main speaking language is English but i am still not very good at it.\nI will always get C for English and i would really like to improve it.\nSince this is my first time writing, I think i would stop here.",
+            "output": "First time\nWell, this is my first time using this website, so I am not really sure how this works.\nI hope that people can help me improve my English because even though my main speaking language is English, I am still not very good at it.\nI always get a C for English, and I would really like to improve it.\nSince this is my first time writing, I think I will stop here.",
+            "llm_output": "First Time\n\nWell, this is my first time using this website, so I am not really sure how it works. I hope that people can help me improve my English because even though English is my main language, I am still not very good at it. I always get a C in English, and I would really like to improve. Since this is my first time writing, I think I will stop here.",
+            "score": 0.8132408431989933
+        },
+        {
+            "id": 60,
+            "name": "English_German_3",
+            "input": "Dragonball Chapter 2: Bulma and Son-Goku\nAfter Son-Goku had saved Bulma the trip goes on.\nSoon it was dark and Bulma used a hoipoi-capsule with a house in it.\nAfter they slept they stand up in the morning.\nGoku get outside to train a little bit.\nHe grapped outside a big stone and smashed him.\nHe ran to another stone to grap him but it was a turtle who look like a stone.\nGoku was really surprised and the turtle told him that she had proceeded.\nShe had looked for the ocean but didnt find the ocean.\nGoku wanted to bring the turtle to the ocean.\nBulma came with her.\nOn the trip to the ocean a big monster with a sword in his hands appeared and wanted to eat the turtle but Goku protected the turtle and hit the monster.\nArrived on the ocean the turtle was very happy and thanked to Goku.\nThe turtle wanted that Goku wait on the beach because she wanted be grateful.\nIn a short time the turtle cames back with a old man on her shell.\nHe said \"hi\" an bulma askes: Where is that?",
+            "output": "Dragon Ball Chapter 2: Bulma and Son-Goku\nAfter Son-Goku saved Bulma, the trip went on.\nSoon it got dark and Bulma used a Hoi-Poi capsule with a house in it.\nAfter they slept, they got up in the morning.\nGoku went outside to work out a little bit.\nHe grabbed a big stone and smashed it.\nHe ran to another stone to grab it but it was a turtle which looked like a stone.\nGoku was really surprised and the turtle told him that she was moving forward.\nShe was looking for the ocean but couldn't find it.\nGoku wanted to bring the turtle to the ocean.\nBulma came with them.\nOn the trip to the ocean, a big monster with a sword in his hand appeared and wanted to eat the turtle, but Goku protected the turtle and hit the monster.\nWhen they arrived at the ocean, the turtle was very happy and thanked Goku.\nThe turtle wanted Goku to wait on the beach, because she wanted to show her gratitude.\nIn a short time, the turtle came back with an old man on her shell.\nHe said \"hi\" and Bulma asked: Where is that?",
+            "llm_output": "Dragon Ball Chapter 2: Bulma and Son Goku\nAfter Son Goku had saved Bulma, the trip continued. Soon it was dark, and Bulma used a Hoipoi capsule with a house in it. After they slept, they woke up in the morning. Goku went outside to train a little bit. He grabbed a big stone and smashed it. He ran to another stone to grab it, but it was a turtle that looked like a stone. Goku was really surprised, and the turtle told him that she had proceeded. She had looked for the ocean but didn't find it. Goku wanted to bring the turtle to the ocean. Bulma came with them. On the trip to the ocean, a big monster with a sword in his hands appeared and wanted to eat the turtle, but Goku protected the turtle and hit the monster. When they arrived at the ocean, the turtle was very happy and thanked Goku. The turtle wanted Goku to wait on the beach because she wanted to show her gratitude. In a short time, the turtle came back with an old man on her shell. He said \"hi,\" and Bulma asked, \"Who is that?\"",
+            "score": 0.8113380270889077
+        },
+        {
+            "id": 40,
+            "name": "English_English_1",
+            "input": "1st time at Lang-8\nit's my 1st time here,\nI came here to improve my english so i can use it more widely.\nAs english is very important nowdays.\nBeside's that, i hope i could learn japanese as well on the way.\nIf i wrote any grammar or vocabulary mistake's please remind me of it.",
+            "output": "1st time on Lang-8\nIt's my 1st time here.\nI came here to improve my English so I can use it more widely.\nEnglish is very important nowadays.\nBesides that, I hope I could learn Japanese as well along the way.\nIf I wrote any grammar or vocabulary mistakes, please remind me of it.",
+            "llm_output": "First time at Lang-8\nIt's my first time here. I came here to improve my English so I can use it more widely, as English is very important nowadays. Besides that, I hope I could learn Japanese as well along the way. If I made any grammar or vocabulary mistakes, please remind me of them.",
+            "score": 0.7888363923715798
+        },
+        {
+            "id": 47,
+            "name": "English_Russian_1",
+            "input": "It's can't be true!\nI can't belive that two my last posts hadn't mistakes!\nIt's can't be true!\nPlease, correct my mistakes)\nNow...\nI promised that I'll make some pictures when I go to meet Galina Kazimirovna.\nThat is this photos.\nIt's (photos) was make near the metro station \"Avtozavodskaya\".\nHope you like it)\nI'm not a professional photograph)\nPlease tell me, where in this text I was wrong?",
+            "output": "It can't be true!\nI can't believe that my last two posts didn't have any mistakes!\nIt can't be true!\nPlease, correct my mistakes.\nNow...\nI promised that I would take some pictures when I went to meet Galina Kazimirovna.\nThese are the photos.\nThey were taken near the \"Avtozavodskaya\" metro station.\nHope you like them.\nI'm not a professional photographer.\nPlease tell me, where in this text was I wrong?",
+            "llm_output": "\"It can't be true! I can't believe that my last two posts didn't have any mistakes! It can't be true! Please correct my mistakes. Now, I promised that I would take some pictures when I go to meet Galina Kazimirovna. These are the photos. They were taken near the Avtozavodskaya metro station. I hope you like them. I'm not a professional photographer. Can you please tell me where I went wrong in this text?\"",
+            "score": 0.7769411130641922
+        },
+        {
+            "id": 86,
+            "name": "English_French_6",
+            "input": "the best presentation outhere\nHi, my name is Arnold, I'm a french guy who want to learn english.\nI already talk french(normal), italian and russian.\nI learn english at school but it's not interesting.\nI would like to speak like an american guy beacause it's cool.\nI know that this messge is very shot but I can't write long messages beacause I'm bat in english.\nThank you, goodbye!",
+            "output": "The best presentation out there\nHi, my name is Arnold. I'm a French guy who wants to learn English.\nI can already speak French, Italian, and Russian.\nI study English at school, but it's not interesting.\nI would like to speak like an American because it's cool.\nI know that this message is very short, but I can't write long messages because I'm not good at English.\nThank you, goodbye!",
+            "llm_output": "The Best Presentation Out There\n\nHi, my name is Arnold. I'm a French guy who wants to learn English. I already speak French (natively), Italian, and Russian. I'm learning English at school, but it's not very interesting. I would like to speak like an American guy because it's cool. I know that this message is very short, but I can't write long messages because I'm bad at English. Thank you, goodbye!",
+            "score": 0.7741307036313217
+        },
+        {
+            "id": 77,
+            "name": "English_French_5",
+            "input": "How run a trial in England?\nIs there someone to help me ?\nI have a speech to prepare for my English lesson.\nI choosed to speak about legal system in England.\nTo present my work in front the other students I would like to explain how run a trial for a criminal case.\nI think I can make a comparison with a trial in Belgium.\nI will be pleased to receive some informations.\nI have already work about the different courts.\nWhat I would like to know it's what happens when someone has done an offence and has to go on trial.\nWho is responsible to investigate, how long does it takes, etc...\nIf you know a movie which show a trial, it will be interesting for me to see it.\nThanks a lot for any help.",
+            "output": "How to Conduct a Trial in England?\nCould someone help me?\nI need to prepare a speech for my English lesson.\nI have chosen to speak about the legal system in England.\nTo present my work in front of the other students, I would like to explain how to conduct a trial for a criminal case.\nI think I can make comparisons with a trial in Belgium.\nI would be pleased to receive some information.\nI have already completed work about the different courts.\nWhat I would like to know is what happens when someone has committed an offence and has to go on trial?\nWho is responsible for the investigation, how long does it take, etc.?\nIf you know of a movie which shows a trial, it would be interesting for me to see it.\nThanks a lot for any help.",
+            "llm_output": "How to Run a Trial in England?\n\nIs there someone to help me? I have a speech to prepare for my English lesson. I chose to speak about the legal system in England. To present my work in front of the other students, I would like to explain how to run a trial for a criminal case. I think I can make a comparison with a trial in Belgium. I would be pleased to receive some information. I have already worked on the different courts. What I would like to know is what happens when someone has committed an offense and has to go on trial. Who is responsible for investigating, how long does it take, etc.? If you know of a movie that shows a trial, it would be interesting for me to see it. Thanks a lot for any help.",
+            "score": 0.7691304508177151
+        },
+        {
+            "id": 48,
+            "name": "English_Spanish_1",
+            "input": "Thakyou!!!\nI'am already felling bilingual!!\nyou are such a great friends, because you help  people improve",
+            "output": "Thank you!!!\nI'm already feeling bilingual!!\nYou are such great friends because you help people improve.",
+            "llm_output": "Thank you!\nI'm already feeling bilingual!\nYou are such a great friend because you help people improve.",
+            "score": 0.7276817202342092
+        },
+        {
+            "id": 102,
+            "name": "English_Spanish_7",
+            "input": "Vacation\nThis year, as last one, I have to take vacations in August, because my company will close for three months.\nI don't like to have vacations in August, even though I'd prefered it in September to travel with my parents.\nIn August neither my parents or friends cantake vacations, so the only option I have it's stay in my bored village.\nHowever, this summer I am planning go abroad for an English course.\nI want to go to Canada for two or three weeks to study English, meet people and visit the city (Toronto or Vancouver...\nI don't decide yet what of them to choose...)\nThis days I am looking for courses and I want to make a decision in a couple of weeks.\nIt would be the first time that I am going for a foreign country alone and more than a weekend!\n(I accept recomendations of places or courses :D )",
+            "output": "Vacation\nThis year, just like last year, I have to take my vacation in August because my company will close for three months.\nI don't like to have my vacation in August. I'd prefer it to be in September so that I could travel with my parents.\nNeither my parents nor my friends can take their vacations in August, so the only option I have is to stay in my boring village.\nHowever, this summer I am planning to go abroad for an English course.\nI want to go to Canada for two or three weeks to study English, meet people, and visit the city of Toronto or Vancouver...\nI haven't decided yet which one of them to choose.\nThese days I am looking for courses. I want to make a decision in a couple of weeks.\nIt would be my first time going to a foreign country alone and for more than a weekend!\n(I accept recommendations of places or courses :D )",
+            "llm_output": "Vacation\n\nThis year, as last year, I have to take my vacation in August because my company will be closed for three months. I don't like having my vacation in August, as I would have preferred to travel with my parents in September. However, neither my parents nor my friends can take their vacation in August, so the only option I have is to stay in my boring village. \n\nHowever, this summer, I am planning to go abroad for an English course. I want to go to Canada for two or three weeks to study English, meet people, and visit the city (either Toronto or Vancouver... I haven't decided yet which one to choose). These days, I am looking for courses, and I want to make a decision in a couple of weeks. It will be the first time that I am going to a foreign country alone for more than a weekend! \n\n(I would appreciate recommendations for places or courses :D)",
+            "score": 0.7230204271542636
+        },
+        {
+            "id": 71,
+            "name": "English_Korean_4",
+            "input": "You can't study at the library.\n\"You can read books but you're not allowed to study hear!\"\nThis is what I was told at the public library today.\nOne of the most ridiculous thing I've ever heard in my entire life!\nReading is okay but studying is not OK?\nas if they can distinguish one from another.\nAre they mind readers?;; I don't think so;\nHow's the libraries in your community?\nAre they forbid studying like mine?",
+            "output": "You can't study at the library.\n\"You can read books, but you're not allowed to study here!\"\nThis is what I was told at the public library today.\nIt is one of the most ridiculous things that I've ever heard in my entire life!\nReading is okay, but studying is not?\nAs if they could distinguish one from the other.\nAre they mind readers? I don't think so.\nWhat are libraries in your community like?\nDo they forbid studying like mine?",
+            "llm_output": "\"You can read books, but you're not allowed to study here!\" This is what I was told at the public library today. It's one of the most ridiculous things I've ever heard in my entire life! Reading is okay, but studying is not? As if they can distinguish one from another. Are they mind readers? I don't think so. How are the libraries in your community? Do they forbid studying like mine?",
+            "score": 0.7154180016748352
+        },
+        {
+            "id": 116,
+            "name": "English_Korean_9",
+            "input": "Today is my twice exam!!\ni took a exam today.\nThe exam divide four sections: listening, reading, writing and speaking.\nI had many mistakes at a first exam, especially speaking section!!\nMy speaking level is very low since the education of our country tends to concentrate\nonly reading comprehension and grammar, therefore the part of speaking is very\nhard to me and even all Korean.\nI have studied every one hour a day today's exam with\nmy friends who are studying same exam!!\nToday's speaking subject was to tell about\nmy name, special hollyday to me, photo and so on.\nThese theme was a bit difficult to me\nas I didn't review about them.\nToday's whether was very bad it was raining..\nI was so tired and I also decided to study harder and harder!!\nI always want to get the score I need!",
+            "output": "Today is My Second Exam!\nI took an exam today.\nThe exam was divided into four sections: listening, reading, writing, and speaking.\nI made many mistakes in the first exam, especially in the speaking section!\nMy speaking level is very low since the English education of our country tends to concentrate\nonly on reading, comprehension, and grammar, therefore the speaking part is very\nhard for me and even for all Koreans.\nI have studied every one hour a day in preparation for today's exam with\nmy friends who were also studying for the same exam!\nToday's speaking topic was to tell\nmy name, and talk about a special holiday for me, a photo, and so on.\nThese themes were a bit difficult for me\nas I hadn't prepared for them.\nToday's weather was very bad. It was raining.\nI was so tired but I still decided to study harder and harder!\nI always want to get the score I need!",
+            "llm_output": "Today is my second exam! I took an exam today. The exam was divided into four sections: listening, reading, writing, and speaking. I made many mistakes on the first exam, especially in the speaking section. My speaking level is very low because the education system in our country tends to focus only on reading comprehension and grammar. Therefore, the speaking part is very difficult for me and for all Koreans. I studied for one hour every day for today's exam with my friends who are also studying for the same exam. Today's speaking subject was to talk about my name, a special holiday for me, a photo, and so on. These themes were a bit difficult for me because I didn't review them. Today's weather was very bad; it was raining. I was so tired, but I also decided to study harder and harder. I always want to get the score I need!",
+            "score": 0.7069189676262324
+        },
+        {
+            "id": 101,
+            "name": "English_Russian_7",
+            "input": "Happiness\nToday I were babysitter for my little brother! We went to MacDonalds and while I was falling asleep for weariness  he ate the biggest cheeseburger in spite of it was 9 a. m.Then we went home and I have being suffered by his  moaning for a long time.\nDespite it children are flowers of our life!!",
+            "output": "Happiness\nToday, I was a babysitter for my little brother! We went to McDonald's, and while I was falling asleep from weariness, he ate the biggest cheeseburger in spite of the fact that it was 9 a.m. Then we went home, and I suffered from his moaning for a long time.\nBut in spite of this, children are the flowers of our life!",
+            "llm_output": "Happiness\n\nToday, I was a babysitter for my little brother! We went to McDonald's, and while I was falling asleep from weariness, he ate the biggest cheeseburger, even though it was only 9 a.m. Then we went home, and I had to endure his moaning for a long time.\n\nDespite this, children are the flowers of our lives!",
+            "score": 0.6941255938891132
+        },
+        {
+            "id": 42,
+            "name": "English_German_1",
+            "input": "First\nI am gonna try Lang-8.\nHope it will help me to make my english better.\nI will need it for my future, because I am pretty sure that I have to use english at my later workplace.\nAnd now I have the problem that I really have no idea what I should write...\nmaybe I will have an idea tomorrow.",
+            "output": "First,\nI am going to try Lang-8.\nHopefully, it will help me improve my English.\nI will need it in the future because I am pretty sure that I will have to use English at my next workplace.\nAnd now I have a problem; I really have no idea what I should write next...\nMaybe I will have an idea tomorrow.",
+            "llm_output": "First, I am going to try Lang-8. I hope it will help me improve my English. I will need it for my future because I am pretty sure that I will have to use English at my future workplace. Currently, I have the problem that I really have no idea what I should write. Maybe I will have an idea tomorrow.",
+            "score": 0.6892202253123132
+        },
+        {
+            "id": 78,
+            "name": "English_German_5",
+            "input": "Glasses\nToday it was decided that I have to wear glasses.\nI had a doctor's appointment and after years of abstinence I'm finally going to get a pair again.\nI'm not sure wether I'm happy or not.\nOn one hand glasses are a nice accessory but on the other I guess they can become pretty annoying especially in summer.\nI hope I'll get a black or dark brown square-shaped pair.",
+            "output": "Glasses\nToday, it was decided that I will have to wear glasses.\nI had a doctor's appointment and after years of abstinence, I am finally going to get another pair of glasses.\nI am not sure whether I am happy or not.\nOn one hand, glasses are a nice accessory. On the other, I guess they can become pretty annoying - especially in summer.\nI hope I will get a black or dark brown square-shaped pair.",
+            "llm_output": "Glasses\nToday, it was decided that I have to wear glasses. I had a doctor's appointment, and after years of abstinence, I'm finally going to get a pair again. I'm not sure whether I'm happy or not. On one hand, glasses are a nice accessory, but on the other hand, I guess they can become pretty annoying, especially in summer. I hope I'll get a black or dark brown, square-shaped pair.",
+            "score": 0.6876233933783872
+        },
+        {
+            "id": 117,
+            "name": "English_Mandarin_9",
+            "input": "A little tired\nToday is friday ,i feel a little tired ,but the good news is that the weekend is come ，i can sleep late，and hang out with my friends，i want to go shopping ，see a movie and have a delicious meal.\nI hope the life always be lightheartedness\n,and i can do whatever i want to do ,Travel around the world is one of the things what i want to do ,I'm looking forward to this day when i can travel all over the world.",
+            "output": "A little bit tired\nToday is Friday, and I feel a little bit tired, but the good news is that the weekend is coming. I can sleep late and hang around with my friends. I want to go shopping, watch a movie, and have a delicious meal.\nI hope life is always easy-going.\nThen I can do whatever I want. Traveling around the world is one of the things that I want to do. I'm looking forward to the day I can travel around the world.",
+            "llm_output": "A Little Tired\n\nToday is Friday, and I feel a little tired. But the good news is that the weekend is coming, and I can sleep in and hang out with my friends. I want to go shopping, see a movie, and have a delicious meal.\n\nI hope life is always lighthearted, and I can do whatever I want to do. Traveling around the world is one of the things I want to do. I'm looking forward to the day when I can travel all over the world.",
+            "score": 0.6797333952375919
+        },
+        {
+            "id": 39,
+            "name": "English_Spanish_0",
+            "input": "my first diary\nhello, i need help with my english, y love the language but i have some problems when i have to write in english, well i understand english, because when i saw some programs in the TV, that are in English i understand everything...\nbut i dont know how is my written language.\nplease help me!!!",
+            "output": "My First Diary\nHello, I need help with my English. I love the language, but I have some problems with writing. Well, I understand English because when I watch TV programs that are in English, I understand everything. However, I don't know how well my writing is. Please help me!",
+            "llm_output": "My First Diary\n\nHello, I need help with my English. I love the language, but I have some problems when I have to write in English. Well, I understand English because when I watch programs on TV that are in English, I understand everything. However, I don't know how good my written language is. Please help me!",
+            "score": 0.679108538069119
+        },
+        {
+            "id": 83,
+            "name": "English_Russian_5",
+            "input": "Bathroom &  bath...\nI like taking a bath.\nThe process of taking a bath is a very magic and personal one.\nIts pleasantly for me ...\nI take a bath if Im very tired, or if I want to be alone, or after sport, or simple-before the sleeping, or If I want to relax...\nI have a big cozy whithe bath with different kinds of foams, salts, soaps, gels  and many other sweet things that are so necessary in bathroom.\nI sometimes taking a bath and reading a book or a magazin.\nI sometimes taking a bath and drinking a cup of tasty tee with candy.\nI sometimes taking a bath and thinking about some my dreams...\nAnd what do You doing in bath?",
+            "output": "Bathroom & bath...\nI like taking a bath.\nThe process of taking a bath is a very personal and magical one.\nIt's pleasant for me...\nI take a bath if I'm very tired, or if I want to be alone, or after sport, or simply before sleeping, or if I want to relax...\nI have a big cozy white bath with different kinds of foams, salts, soaps, gels, and many other sweet things that are necessary in the bathroom.\nI sometimes take a bath and read a book or a magazine.\nI sometimes take a bath and drink a cup of tasty tea with candy.\nI sometimes take a bath and think about some of my dreams...\nAnd what are you doing in the bath?",
+            "llm_output": "Bathroom & Bath...\n\nI like taking a bath. The process of taking a bath is very magical and personal for me. It's pleasant for me to take a bath when I'm very tired, or if I want to be alone, or after sports, or simply before sleeping, or if I want to relax.\n\nI have a big, cozy white bathtub with different kinds of foams, salts, soaps, gels, and many other sweet things that are so necessary in the bathroom. Sometimes, I take a bath and read a book or a magazine. Other times, I take a bath and drink a cup of tasty tea with candy. And sometimes, I take a bath and think about my dreams.\n\nWhat do you do in the bath?",
+            "score": 0.6773522665846345
+        },
+        {
+            "id": 59,
+            "name": "English_French_3",
+            "input": "#22 - Is there a difference between the words education and upbringing?\nIs there a difference between the words education and upbringing?\nIn French, these two words are translated the same way.\nThis is why I wondered if it was used in the same contexts.\nTo my mind, upbringing is used to talk about how parents raise their kids whereas education refers to how you are taught in school\nAm I right?\nOr can we use both words in both cases?",
+            "output": "#22 - Is there a difference between the words education and upbringing?\nIs there a difference between the words education and upbringing?\nIn French, these two words are translated the same way.\nWhich is why I wondered if they could be used in the same contexts.\nIn my mind, upbringing is used to talk about how parents raise their kids, whereas education refers to how you are taught in school.\nAm I right?\nOr can we use both words in both cases?",
+            "llm_output": "Is there a difference between the words education and upbringing? In French, these two words are translated the same way. This is why I wondered if they are used in the same contexts. To my mind, upbringing is used to talk about how parents raise their kids, whereas education refers to how you are taught in school. Am I right? Or can both words be used in both cases?",
+            "score": 0.6724699273128347
+        },
+        {
+            "id": 57,
+            "name": "English_Spanish_2",
+            "input": "A house full of animals\nEver since I have memory there's been at least one pet in my house.\nWe had had dogs, cats, ducks, parrots, hens and chickens, hamsters, fish, an iguane, a turtle and a couple of rabbits (who had like 10 rabbits).\nMy best friend even drew a comic about me and my animals in school: it was very funny.\nThe pet I remember and love the most is my dog Randy.\nHe was 2 or 3 years older than me, he was a dog loved by all the family.\nHe loved going out and spending time in the streets.\nWhen he wanted to go home he used to \"knock\" the door with his legs, he was a very intelligent dog :)\nWhen Randy died it was sad.\nHe was 16 or 17 years old, he was already blind and he couldn't listen very well.\nMy mom took him to the vet and he never returned...\nA couple of days later, because of my questions and my sister's she told us what happened.",
+            "output": "A House Full of Animals\nEver since I could remember, there's been at least one pet in my house.\nWe've had dogs, cats, ducks, parrots, hens, chickens, hamsters, fish, iguanas, turtles, and a couple of rabbits.\nMy best friend even drew a comic about me and my animals in school; it was very funny.\nThe pet I remember and loved the most was my dog, Randy.\nHe was 2 or 3 years older than me, and he was a dog loved by the entire family.\nHe loved going out and spending time outdoors.\nWhen he wanted to go home, he used to \"knock\" on the door with his legs. He was a very smart dog :)\nWhen Randy died, I was sad.\nHe was 16 or 17 years old. He was already blind and couldn't hear very well.\nMy mom took him to the vet, and he never returned...\nA couple of days later, because of my and my sister's questions, she told us what happened.",
+            "llm_output": "A House Full of Animals\nEver since I can remember, there has always been at least one pet in my house. We've had dogs, cats, ducks, parrots, hens, chickens, hamsters, fish, an iguana, a turtle, and a couple of rabbits (who had about 10 babies). My best friend even drew a comic about me and my animals in school, and it was very funny.\nThe pet I remember and love the most is my dog, Randy. He was two or three years older than me, and he was loved by the whole family. He loved going out and spending time in the streets. When he wanted to go home, he used to \"knock\" on the door with his legs. He was a very intelligent dog. :)\nWhen Randy died, it was very sad. He was 16 or 17 years old, blind, and couldn't hear very well. My mom took him to the vet, and he never returned. A couple of days later, my sister and I asked my mom what happened, and she told us.",
+            "score": 0.6650247455093621
+        },
+        {
+            "id": 51,
+            "name": "English_German_2",
+            "input": "first\nHi,\ni'm here and want learn better english, and very interest by us american culture.\ni live in the near of berlin, a small village, but very nice.\ni have a collie and\nlike music, cowboys & indians and sifi, mystery and adventure movies.\nlet me know what you like.\ngreets dundee",
+            "output": "First,\nHi,\nI'm here and want to learn better English, and am very interested in US American culture.\nI live near Berlin, in a small village, but it is very nice.\nI have a collie and\nlike music, cowboys & Indians, and sci-fi, mystery, and adventure movies.\nLet me know what you like.\nGreetings, Dundee",
+            "llm_output": "Hi,\nI'm here and I want to learn better English, and I'm very interested in American culture. I live near Berlin in a small but very nice village. I have a collie and I like music, cowboys & Indians, sci-fi, mystery, and adventure movies. Let me know what you like.\nGreetings,\nDundee",
+            "score": 0.6529564669961627
+        },
+        {
+            "id": 87,
+            "name": "English_German_6",
+            "input": "My very first entry\nHello,\ni just stumbled across this page and got interested in this concept of learning :) someone posted about it in a blog i was just reading about learning japanese...\nbut i'm a bloody beginner in japanese and can't write three sentences in a row, so this will have to wait.\nbut i take the chance to improve my english, help other's with their german and maybe get to know some nice people from around the world.",
+            "output": "My Very First Entry\nHello,\nI just stumbled across this page and got interested in this method of learning :) Someone posted about it on a blog I was just reading about learning Japanese...\nBut I'm a bloody beginner in Japanese and can't write three sentences in a row, so this will have to wait.\nBut I'll take the chance to improve my English, help others with their German, and maybe get to know some nice people from around the world.",
+            "llm_output": "My Very First Entry\n\nHello,\n\nI just stumbled across this page and became interested in this concept of learning. Someone posted about it in a blog I was reading about learning Japanese. However, I am a complete beginner in Japanese and cannot even write three sentences in a row, so this will have to wait.\n\nBut I am taking this opportunity to improve my English, help others with their German, and maybe get to know some nice people from around the world.",
+            "score": 0.6422856336567199
+        },
+        {
+            "id": 90,
+            "name": "English_Mandarin_6",
+            "input": "hi~ can you help me?\nhi everyone.\ni think English is a kind of charming language.\nthanks my friends on Lang-8 give me a chance speak English like location Americans.\nmy work is a host in a TV station of Henan province.\nmy Chinese is good but English just so so.\ni can help help you speak Chinese better.\nit just i can do for you.",
+            "output": "Hi, can you help me?\nHi everyone.\nI think English is a charming language.\nThanks to my friends on Lang-8 from countries such as the US, I have a chance to practice speaking English.\nI work as a host of a TV station in the Henan province.\nMy Chinese is good, but my English is just so-so.\nI can help you speak better Chinese.\nI can do that for you.",
+            "llm_output": "Hi, can you help me?\n\nHi everyone, I think English is a charming language. Thanks to my friends on Lang-8, I have been given the chance to speak English like a native American. I work as a host in a TV station in Henan province. My Chinese is good, but my English is just so-so. I can help you speak Chinese better; that's all I can do for you.",
+            "score": 0.6354248662860753
+        },
+        {
+            "id": 114,
+            "name": "English_German_9",
+            "input": "Happy Easter\nHello everybody\nI m having a lucky day today.\nI don’t have to work till Tuesday because of Easter.\nThat’s already enough reason to be happy about Easter, haha.\nTomorrow I will color a few eggs.\nAfterwards I will eat them with some friends.\nThe way we eat them at Easter: Everyone got one egg.\nWe hit the eggs on each other (after cooking them) and the one which gets destroyed as first lost.\nSounds strange huh?\nI m exited for those 4 days, cause the weather forecast said it will be sunshine on all those days.\nAwesome!\nWish you all happy Easter.",
+            "output": "Happy Easter.\nHello everybody.\nI'm having a lucky day today.\nI don't have to work till Tuesday because of Easter.\nThat's already enough reason to be happy about Easter, haha.\nTomorrow I will color a few eggs.\nAfterwards, I will eat them with some friends.\nThis is the way we eat them at Easter. Everyone gets one egg.\nWe hit the eggs against each other, and the one that gets destroyed first loses.\nSounds strange, huh?\nI'm excited about those four days because the weather forecast said there will be sunshine for all of them.\nAwesome!\nWish you all a happy Easter.",
+            "llm_output": "Happy Easter, everyone!\n\nI'm having a lucky day today because I don't have to work until Tuesday due to the Easter holiday. That's already enough reason to be happy about Easter, haha. Tomorrow, I will color a few eggs and afterwards, I will eat them with some friends. The way we eat them at Easter is that everyone gets one egg. We hit the eggs on each other (after cooking them) and the one that gets destroyed first loses. Sounds strange, huh? I'm excited for these four days because the weather forecast said it will be sunny throughout. Awesome! \n\nWishing you all a happy Easter!",
+            "score": 0.6319190725526384
+        },
+        {
+            "id": 107,
+            "name": "English_Korean_8",
+            "input": "Lasec surgery\nIt's been 2 months already since I underwent the lasec surgery.\nWhen I got it at first, I'd suffered from tremedous pain for 2days.\nBut it was getting better little by little.\nAnd for next 2weeks my eye sight was unstable.\nDuring the daytime, it was very good but after working on the computer a lot it got worse at night.\nThankfully, now I can see very cleary.\nI don't have any problem with my eyes anymore even I can hang out till over night.\nIt's not tired at all compared with that time when I wear the contact lens.",
+            "output": "Lasik surgery\nIt's already been 2 months since I underwent Lasik surgery.\nAt first, I suffered from tremendous pain for two days.\nBut then it got better… little by little.\nBut for the next two weeks, my eyesight was unstable.\nDuring the daytime, it was very good, but after working on the computer a lot at night, it got worse.\nThankfully, now I can see very clearly.\nI don't have any problems with my vision anymore. I can even stay out all night.\nI'm not tired at all like I was when I wore contact lenses.",
+            "llm_output": "LASIK Surgery\n\nIt has been two months since I underwent LASIK surgery. At first, I suffered from tremendous pain for two days. However, it gradually improved little by little. For the next two weeks, my eyesight was unstable. During the daytime, it was very good, but after working on the computer for a long time, it got worse at night. Thankfully, now I can see very clearly. I don't have any problems with my eyes anymore, and I can even stay out overnight without feeling tired, unlike when I wore contact lenses.",
+            "score": 0.6245752346887307
+        },
+        {
+            "id": 120,
+            "name": "English_Spanish_9",
+            "input": "Why do I love my city?\nHi,\nMy name is Emilio and I'm trying (as many others) to polish my english since it's far from perfect, there's still a lot of words that I don't understand, but this time I want to talk about my city, Tijuana.\nI know that most of you may have heard about it, unfortunately the news out there about Tijuana are not the best, it's true that there's violence in here, but it's just like any other major city, we're not excempt (not sure if I'm using this work the right way) from crime, but that doesn't make Tijuana the most dangerous place on earth, as many news reporters have tried to make us believe.\nOn the other hand, Tijuana is a city of innovation, of art, where many different cultures blend together and form a unique and different culture, rich and diverse.\nI love my city and I invite you all to come down here and see for yourselves that you won't get kidnapped, robbed or killed the minute you step in, instead you'll find a very magical city.",
+            "output": "Why do I love my city?\nHi,\nMy name is Emilio, and I'm trying to polish my English since it's far from perfect. There are still a lot of words that I don't understand, but this time I want to talk about my city, Tijuana.\nI know that most of you may have heard about it. Unfortunately, the news about Tijuana is not the best. It's true that there's violence here, but it's just like any other major city; we're not an exception. However, that doesn't make Tijuana the most dangerous place on earth, as many news reporters have tried to make us believe.\nOn the other hand, Tijuana is a city of innovation and art, where many different cultures blend together and form a rich, unique, and diverse culture.\nI love my city, and I invite you all to come down here and see for yourselves that you won't get kidnapped, robbed, or killed the minute you arrive. Instead, you'll find a very magical city.",
+            "llm_output": "Why Do I Love My City?\n\nHi,\n\nMy name is Emilio, and like many others, I'm trying to improve my English. Although I still have trouble with some words, this time I want to talk about my city, Tijuana.\n\nI know that most of you may have heard negative news about Tijuana. It's true that there is violence here, but it's not any worse than any other major city. We're not exempt from crime, but that doesn't make Tijuana the most dangerous place on earth, as some news reporters have tried to make us believe.\n\nOn the other hand, Tijuana is a city of innovation and art, where many different cultures blend together to form a unique and diverse community. I love my city, and I invite you all to come and see for yourselves that you won't get kidnapped, robbed, or killed the minute you step in. Instead, you'll find a magical city full of surprises.",
+            "score": 0.6237245428963906
+        },
+        {
+            "id": 38,
+            "name": "English_Russian_0",
+            "input": "My day\nToday was a really good day.\nMy friends and me go for a long walk.\nI was very tired but I liked it very much.\nMy friend and I has bought same pants.\nIt's....\nmmmmmm....\nit's the really relly cool pants.\nit's my drean xD and now I shall go to my summer hous.\nand a shall have a good rest...\nI hope",
+            "output": "My Day\nToday was a really good day.\nMy friends and I took a long walk.\nI was very tired, but I enjoyed it.\nBoth my friend and I bought the same pants.\nThey're...\nMmmmm....\nThey are really cool pants.\nIt's my dream! XD Now, I shall go to my summer house and have a good rest...\nAnd I will have a good rest...\nI hope.",
+            "llm_output": "My Day\n\nToday was a really good day. My friends and I went for a long walk. I was very tired, but I liked it very much. My friend and I bought the same pants. They are really cool pants, and it's my dream to have them. Now, I shall go to my summer house and have a good rest. I hope to relax and enjoy my time there.",
+            "score": 0.6171845886541643
+        },
+        {
+            "id": 63,
+            "name": "English_Mandarin_3",
+            "input": "I love English\nI have learned English since primary school, but i am not interested in English at that time.\nSo I did not spend much time in that.\nWhen i'm 21,i think English is important to me.\nWhy? Beacuse when i walk in the street, i can see many foreigners .\nHow many want that i want to talk tothem.\nSlowly i feel english is apart of my life..\nBeacuse i love this languge.",
+            "output": "I love English.\nI have been learning English since primary school, but I was not interested in English at that time.\nSo, I did not spend much time studying it.\nNow that I'm 21, I think English is important to me.\nWhy? Because when I walk down the street, I can see many foreigners.\nMany want me to talk to them.\nI'm slowly feeling like English is a part of my life,\nbecause I love this language.",
+            "llm_output": "I love English.\nI have been learning English since primary school, but I was not interested in it at that time, so I did not spend much time on it. When I turned 21, I realized that English was important to me. Why? Because when I walk on the street, I see many foreigners, and I want to talk to them. Slowly, I feel that English is a part of my life because I love this language.",
+            "score": 0.6166540181051668
+        },
+        {
+            "id": 58,
+            "name": "English_English_3",
+            "input": "Writing English\nDear friends,\nI'm Rita, and I am still curious with academic writing.\nI do really wanna be able to write at least an essay and send it to magazines or newspaper.\nI believe that Practice makes perfect.\nDo you have any suggestions to improve my writing activity?",
+            "output": "Writing in English\nDear friends,\nI'm Rita, and I am curious about academic writing.\nI really want to be able to write at least an essay and send it to a magazine or a newspaper.\nI believe that practice makes perfect.\nDo you have any other suggestions to improve my writing?",
+            "llm_output": "Dear friends,\n\nMy name is Rita, and I am still curious about academic writing. I really want to be able to write at least an essay and submit it to magazines or newspapers. I believe that practice makes perfect. Do you have any suggestions to improve my writing skills?",
+            "score": 0.6162334970372285
+        },
+        {
+            "id": 81,
+            "name": "English_Mandarin_5",
+            "input": "Boring Weekend\nEvery time I was asked how was my weekend, I always answered with \"Boring\".\nYes, how could it not be boring?\nAt school, I don't know much people, because I am not at good at dealing with the interrelation.\nEvery time I show I my heart to them, I get a broken one back.\nEvery time I told them about my personal affairs ,sorrow and happiness, they always think \"how a poor and weak guy, he take the tiny things so serious.\" Every time I try my best to help some of them, they thought\"It's good, but he ought to do it and better if he do better next time.\"\nMaybe I am too negative, but anyway, I am not happy now.",
+            "output": "Boring Weekend\nEvery time I am asked how my weekend was, I always answer with \"boring.\"\nHow could it not be boring?\nAt school, I don't know many people because I am not good at socializing with others.\nEvery time I show my heart to them, I receive nothing but a broken one.\nEvery time I tell them about my personal affairs - my sorrows and my happiness - they always think, \"What a loser. He takes things way too seriously.\" Every time I try my best to help some of them, they think, \"That was okay, but he ought to do it better or not bother helping at all.\"\nMaybe I am too negative, but regardless, I am not happy now.",
+            "llm_output": "Boring Weekend\nEvery time I am asked how my weekend was, I always answer with \"boring\". How could it not be boring? At school, I don't know many people because I am not good at dealing with interpersonal relationships. Every time I show them my heart, I get a broken one back. Every time I tell them about my personal affairs, sorrows, and happiness, they always think, \"How poor and weak this guy is, taking such tiny things so seriously.\" Every time I try my best to help some of them, they think, \"It's good, but he should do better next time.\" Maybe I am too negative, but anyway, I am not happy now.",
+            "score": 0.6034020747701504
+        },
+        {
+            "id": 82,
+            "name": "English_Other_5",
+            "input": "Piano Effect\nI like to play piano when I am in a bad mood.\nMost of the time, when I do that, I feel the tension can be released.\nHowever, the only thing I have to be careful not to do is to play a new song because I will make a lot of mistakes during playing.\nThtat will make me more stressful.",
+            "output": "Piano Effect\nI like to play the piano when I am in a bad mood.\nMost of the time, when I do that, I feel I can release any tension that I have. However, the only thing is that I have to be careful not to play a new song because I will make a lot of mistakes while I'm playing.\nAnd that will make me more stressed.",
+            "llm_output": "Piano Effect\nI like to play the piano when I am in a bad mood. Most of the time, when I do that, I feel the tension being released. However, the only thing I have to be careful about is not playing a new song because I tend to make a lot of mistakes while playing, which makes me more stressed.",
+            "score": 0.5805509002607828
+        },
+        {
+            "id": 61,
+            "name": "English_Japanese_3",
+            "input": "Skype lesson.\nI enrolled online English school a coupple day ago.\nDo you believe about this price that one leson fee is 1$ to 2$?\nOne lesson time is in 25 minutes.\nBut the English teacher are all Pilipino.\nThey help me with English everyday.\nI didn't have confidence my English but I feel like I can communicate with a native English speaker.\nI really wanted to go to the English school but I quit to go there because the lesson fee was expenssive.\nIt was good to enrolled online English school.",
+            "output": "Skype lesson.\nI enrolled in an online English school a couple of days ago.\nCan you believe that one lesson is only between $1 and $2?\nOne lesson is 25 minutes long.\nBut all of the English teachers are Filipinos.\nThey help me with my English every day.\nI didn't have confidence in my English, but I feel like now I can communicate with a native English speaker.\nI really wanted to go to the English school but I stopped because the lessons were too expensive.\nIt was good to enroll in an online English school.",
+            "llm_output": "Skype Lesson:\n\nI enrolled in an online English school a couple of days ago. Can you believe that the price for one lesson is only $1 to $2? Each lesson is 25 minutes long, and the English teachers are all Filipino. They help me with my English every day. I didn't have confidence in my English before, but now I feel like I can communicate with a native English speaker. I really wanted to attend an English school, but I couldn't afford the expensive lesson fees. Enrolling in an online English school was a good decision for me.",
+            "score": 0.5756584698834449
+        },
+        {
+            "id": 72,
+            "name": "English_Mandarin_4",
+            "input": "conversation\nseveral days ago, i had a conversation with a foreign teacher, who comes from germany and teaches german in my universty.\nhowever, his spoken english was also very excellent.\ni couldn't canceal my excitement for this cummunication, because it was my first time to cummunicate with foreign face to face.\nwe just briefly greated with each other, and the following was a long silence.\ni had no idea of breaking the silence, yet i did't know what we should talk about.\nit had been a complete faluer conversation.",
+            "output": "Conversation\nSeveral days ago, I had a conversation with a foreign teacher who comes from Germany and teaches German at my university. However, he also speaks English excellently. I couldn't conceal my excitement about this chance for communication because it was my first time talking face to face with a foreigner. We only briefly greeted each other, and that was followed by a long, awkward silence. I wanted to break the silence, yet I didn't know what we should talk about. The conversation had been a complete failure.",
+            "llm_output": "Several days ago, I had a conversation with a foreign teacher who comes from Germany and teaches German at my university. However, his spoken English was also excellent. I couldn't conceal my excitement for this communication because it was my first time communicating face-to-face with a foreigner. We briefly greeted each other, and then there was a long silence. I had no idea how to break the silence, and I didn't know what we should talk about. It was a complete failure of a conversation.",
+            "score": 0.5609797321504554
+        },
+        {
+            "id": 103,
+            "name": "English_English_8",
+            "input": "The true measure of loving is to love without measure.\nThey say love is blind, some say too much love will kill you.\nWell, whatever we think what love is, we always fall in it.\nIt is always our ultimate goal to find our special someone.\nMany of us even look for love in wrong places and end up crying.\nHere is what i can advise you, never look for love because it will find you.\nAnd when it does love with all your heart and all your soul.\nRemember the measure of love is to love without measure.",
+            "output": "The true measure of love is to love without measure.\nThey say love is blind; some say too much love will kill you.\nWell, whatever we think love is, we always fall in it.\nIt is always our ultimate goal to find our special someone.\nMany of us even look for love in all the wrong places and end up crying.\nMy advice to you is never to look for love because it will find you.\nAnd when it does, love with all your heart and all your soul.\nRemember, the measure of love is to love without measure.",
+            "llm_output": "The true measure of love is to love without measure. Some say love is blind, while others say too much love will kill you. Whatever our thoughts on love may be, we always seem to fall into it. Our ultimate goal is to find that special someone, but many of us look for love in the wrong places and end up in tears. Here's my advice: never actively search for love because it will find you. And when it does, love with all your heart and soul. Remember, the measure of love is to love without measure.",
+            "score": 0.5568131370260245
+        },
+        {
+            "id": 50,
+            "name": "English_French_2",
+            "input": "Go to bed!\nIt's so late today, and I start at 8:30 on Fridays.\nI'm a bit sleepy, but I came back home late and I had some things to do before.\nI wrote eight entries on this site for more a week, I think I progressed, and I hope I'll pass my Expression test in English tomorrow.\nIt would be great.\nSo, now I'm going to bed, or I'll be sleepy for the test.\nGood night!",
+            "output": "Go to Bed!\nIt's so late today, and I always start at 8:30 on Fridays.\nI'm a bit sleepy, but I came back home late and I have some things to do before I go to bed.\nI have written eight entries on this site for more than a week, I think I've progressed, and I hope I'll pass my Expression or oral test in English tomorrow.\nIt would be great.\nSo, now I'm going to bed, or I'll be sleepy during the test.\nGood night!",
+            "llm_output": "Go to bed! It's late today, and I start at 8:30 on Fridays. I'm a bit sleepy, but I came back home late and had some things to do before. I have written eight entries on this site for over a week, and I think I have made progress. I hope I will pass my English Expression test tomorrow. It would be great. So, now I am going to bed, or I will be sleepy for the test. Good night!",
+            "score": 0.555951750668382
+        },
+        {
+            "id": 105,
+            "name": "English_German_8",
+            "input": "My hobbies\nMost of the time I spend with my boyfriend.\nWe do lots of things together - learning, reading, visiting friends, doing sports and relaxing.\nI also have a dog who loves to do long walks and to play with his toys.\nNext to this I like to travel around the world or to go to the beach.\nAlso I'm a christian and I go to the church and to christian groups a few times a week and I really love to read the bible.\nMy belief is the most important thing in my life.\nThen I like to learn languages, but unfortunately I haven't so much time for it.\nBut perhaps I can change it now ;)",
+            "output": "My hobbies\nI spend most of my time with my boyfriend.\nWe do lots of things together, such as learning, reading, visiting friends, playing sports, and relaxing.\nI also have a dog who loves to go on long walks and play with his toys.\nOther than that, I like to travel around the world or go to the beach.\nAlso, I'm a Christian and I go to church and Christian groups a few times a week, and I really love to read the Bible.\nMy belief is the most important thing in my life.\nI like to learn languages, but unfortunately, I do not have much time to do so.\nPerhaps I can change that and study now. ;)",
+            "llm_output": "My Hobbies\n\nMost of the time, I spend with my boyfriend, and we do a lot of things together such as learning, reading, visiting friends, doing sports, and relaxing. I also have a dog who loves to go on long walks and play with his toys. In addition to this, I enjoy traveling around the world and going to the beach. As a Christian, I attend church and Christian groups a few times a week, and I really enjoy reading the Bible. My faith is the most important thing in my life. I also like to learn languages, but unfortunately, I don't have much time for it. However, perhaps I can change that now. ;)",
+            "score": 0.54951174714691
+        },
+        {
+            "id": 93,
+            "name": "English_Spanish_6",
+            "input": "firs entry\nHi THIS IS MI FIRST ENTRY IN THAT WEB, I'am a studiant of english, in spain we have a bad sistem to learn idioms, not is like anothers countrys  of european union, in that countrys you whit 18 you can have a normal conversation in 3 or 4 idioms, but in spain you can't talk very well in english and you only can say the numbers 1-10 in french...\nso for that  i'm here,..\nhahaha  i should learn the most english posible.",
+            "output": "First entry\nHi, this is my first entry on the web. I'm a student of English. In Spain, we have a bad system to learn languages. It is not like other countries in the European Union. In those countries, when you hit 18, you can have a normal conversation in 3 or 4 languages, but in Spain, you can't speak very well in English and you can only say the numbers 1-10 in French... \nSo, since I'm here, \nHahaha, I should learn as much English as I possibly can.",
+            "llm_output": "First Entry\n\nHi, this is my first entry on this website. I am a student of English. In Spain, we have a bad system for learning languages. It's not like other countries in the European Union where, by the age of 18, you can have a normal conversation in three or four languages. In Spain, you can't speak English very well and you can only say the numbers 1-10 in French. That's why I'm here. I want to learn as much English as possible.",
+            "score": 0.544738920187547
+        },
+        {
+            "id": 112,
+            "name": "English_English_9",
+            "input": "hi\nSo I decided that for now on, unless it's a dialouge, I am going to post stuff in all 3 languages that I am studying along with the pin yin and romanji and the english translation.\nI figured that this will help me learn faster.\nI know much more chinese than i do in korean and japanese so I hope that this will give me a chance to develop my korean and japanese more.",
+            "output": "Hi,\nSo I decided that from now on, unless it's a dialogue, I am going to post stuff in all 3 languages that I am studying along with the pinyin and romaji and the English translation. 那么我决定了现在，除了对话时，我要用我正在一起学习的拼音、罗马字和英语翻译来发表东西。\nI figured that this will help me learn faster. 我认为这会帮助我学得更快。\nI know much more Chinese than I do in Korean and Japanese, so I hope that this will give me a chance to develop my Korean and Japanese more. 相比韩语和日语，我会更多的中文，因此我希望这会给我一个更多地发展我韩语和日语的机会。",
+            "llm_output": "Hi,\n\nSo I have decided that from now on, unless it's a dialogue, I am going to post content in all three languages that I am studying, along with the pinyin, romaji, and English translation. I believe that this will help me learn faster. Although I know more Chinese than Korean and Japanese, I hope that this approach will give me a chance to improve my Korean and Japanese skills.",
+            "score": 0.5426931748532372
+        },
+        {
+            "id": 106,
+            "name": "English_Japanese_8",
+            "input": "My impression of Japanese Correction1\nThere are many Japanese diary posted from people who are studying Japanese.\nI correct some of them and I notice some interesting things about it.\nThe most impressed thing is that there are few formal lines in their dairy.\nIn Japan, formal lines are quite common and natural.\nYou should try to write formal line if you want to give a corrector good impression.",
+            "output": "My Impression of Japanese Correction 1\nThere are many diaries posted by people studying Japanese.\nI corrected some of them and noticed some interesting things.\nThe most striking thing is that there is little formal Japanese in their diaries.\nIn Japan, writing formally is quite common and natural.\nYou should try to write in formal speech if you want to leave a good impression.",
+            "llm_output": "My Impression of Japanese Correction:\n\nThere are many Japanese diaries posted by people who are studying Japanese. I corrected some of them and noticed some interesting things. The most impressive thing is that there are few formal lines in their diaries. In Japan, formal lines are quite common and natural. You should try to write formal lines if you want to make a good impression on a corrector.",
+            "score": 0.5424352103465827
+        },
+        {
+            "id": 68,
+            "name": "English_French_4",
+            "input": "A dreamy weather\nThe sky is so blue outside these days, there isn't any cloud at all.\nIt makes me think we're in summer, even if we're still in winter and I still wear my scarf and my big coat...\nI ride my bike to go to my highschool now, it's a bit cold the morning with the wind, but the air is warm and sweet in the evenings, when the sun sets...",
+            "output": "Dreamy Weather\nThe sky is so blue outside these days; there aren't any clouds at all.\nIt makes me think it's summer, even if it's still winter and I still wear my scarf and my big coat.\nI ride my bike to go to my high school now; it's a bit cold in the morning with the wind, but the air is warm and sweet in the evenings when the sun sets.",
+            "llm_output": "A Dreamy Weather\nThe sky is so blue these days, without a single cloud. It makes me feel like it's summer, even though it's still winter and I still wear my scarf and big coat. I now ride my bike to high school, and while it's a bit chilly in the morning with the wind, the air is warm and sweet in the evenings when the sun sets.",
+            "score": 0.5419281328648645
+        },
+        {
+            "id": 110,
+            "name": "English_Russian_8",
+            "input": "Classical music is a miracle.\nI really love classical music, but for most young people  this is the direction music is not very fashionable.\nIt saddens me, what happens to culture human soul?\ncraving for something good?\nnow I'm listening to Jóhann Sebástian Bach and all  inside of me  - happiness.\nI want to organize a club of fans of literature and music together to gather and enjoy the cultural heritage of the world.",
+            "output": "Classical music is a miracle.\nI really love classical music, but for most young people, this kind of music is not very popular.\nIt saddens me, what has happened to the culture of the human soul?\nAre you craving for something good?\nI'm now listening to Johann Sebastian Bach, and I feel happiness inside.\nI want to organize a club for fans of literature and music. We can gather together and enjoy the cultural heritage of the world.",
+            "llm_output": "Classical music is a miracle. I truly love it, but for most young people, this genre of music is not very fashionable. It saddens me to see what is happening to the culture and the human soul. Is there no craving for something good? Currently, I am listening to Johann Sebastian Bach and I feel pure happiness inside of me. I want to organize a club for fans of literature and music to come together and enjoy the cultural heritage of the world.",
+            "score": 0.5373036042234676
+        },
+        {
+            "id": 96,
+            "name": "English_German_7",
+            "input": "Conversational German lesson\nConversational German lessons with a native German teacher online.\nClasses focus on helping students develop speaking fluency in German by simplifying the language, learning theme based vocabulary and providing significant speaking practice in the language.\nGetting enough speaking practice is essential to becoming conversational in any foreign language and is what is missing from most academic courses.\nCome try a free German class and experience the difference.",
+            "output": "Conversational German Lesson\nConversational German lessons with a native German teacher online.\nClasses focus on helping students develop speaking fluency in German by simplifying the language, learning theme-based vocabulary, and providing significant speaking practice in the language.\nGetting enough speaking practice is essential to becoming conversational in any foreign language and is what is missing from most academic courses.\nCome try a free German class and experience the difference!",
+            "llm_output": "Conversational German Lessons\n\nTake conversational German lessons online with a native German teacher. Our classes focus on helping students develop fluency in speaking German by simplifying the language, learning vocabulary based on themes, and providing ample speaking practice.\n\nHaving enough speaking practice is essential to becoming conversational in any foreign language, and it is often missing from most academic courses. Come and try a free German class to experience the difference.",
+            "score": 0.529966857381599
+        },
+        {
+            "id": 64,
+            "name": "English_Other_3",
+            "input": "Smoking in public place\nI  absolutely disapprove people who smoke in public places.\nWhat the hell they allow them to do so.\nSmoke is not only harmful to themselves but also people around.\nit is said that sitting in a room with someone smoking then has the same harm as you smoke yourself.\nit is called passive smoking.\nEveryone knows smoking is very harmful, so please don't let them suffer from your selfishness.\nSo, I would be grateful if the government could release a ban with smoking in public.",
+            "output": "Smoking in public places\nI absolutely disapprove of people who smoke in public places.\nWhy would they allow them to do so?\nTheir smoke is not only harmful to themselves but also the people around them.\nIt is said that sitting in a room with someone smoking will have the same harmful effects on a non-smoker.\nIt is called \"passive smoking.\"\nEveryone knows that smoking is very harmful, so smokers should be more considerate of others.\nSo, I would be grateful if the government would release a public smoking ban.",
+            "llm_output": "Smoking in Public Places\n\nI absolutely disapprove of people who smoke in public places. Why on earth are they allowed to do so? Smoke is not only harmful to themselves but also to the people around them. It is said that sitting in a room with someone who is smoking has the same harmful effect as smoking yourself. This is called passive smoking. Everyone knows that smoking is very harmful, so please don't make others suffer from your selfishness. Therefore, I would be grateful if the government could impose a ban on smoking in public places.",
+            "score": 0.5298933242551047
+        },
+        {
+            "id": 95,
+            "name": "English_French_7",
+            "input": "looking correctors desesperetly\nI'm afraid when I look at all the dairy in English which wait to be corrected.\nHow is it possible ?\nI'm sure many native speakers had taken good resolutions and want to help us, poor French natives.!!!\nYesterday, I had my weekly English lesson.\nIt was about health and lifestyle.\nIn my book, they say that in Okinawa many peoples live untill 100 and more, is it true ?\nThey say that they have no stress, no timetables, how is it possible ?\nWho knows ?\nIs there someone who lives there ?",
+            "output": "Looking desperately for corrections.\nI get scared when I look at all the diary entries in English which are waiting to be corrected.\nHow is it possible?\nI'm sure many native speakers made good resolutions to want to help us poor French native speakers!\nYesterday, I had my weekly English lesson.\nIt was about health and lifestyle.\nIn my textbook, it was mentioned that many people in Okinawa live until 100 or more; is this true?\nThey say that they have no stress or no pressing schedule; how is it possible?\nWho knows?\nIs there someone who lives there?",
+            "llm_output": "Looking for correctors desperately.\n\nI'm afraid when I look at all the written English that needs to be corrected. How is it possible? I'm sure many native speakers have made good resolutions and want to help us poor French natives!\n\nYesterday, I had my weekly English lesson. It was about health and lifestyle. In my book, they say that in Okinawa, many people live until 100 and beyond. Is it true? They say that they have no stress and no schedules. How is it possible? Who knows? Is there anyone who lives there?",
+            "score": 0.5297485881955196
+        },
+        {
+            "id": 118,
+            "name": "English_Other_9",
+            "input": "ฺีBuy refrigerator.\nMy boyfriend and I went to Lotus to buy refrigerator.\nWe got a small one because we don't want to use more area.\nWe ask staff to send to us at home.\nThey said it will take about 1 or 2 day to get it.\nMy boyfriend don't want to wait.\nWe decided to bring it by our self.\nMy boyfriend happy.",
+            "output": "Buying a refrigerator.\nMy boyfriend and I went to Lotus to buy a refrigerator.\nWe just bought a small one as we don't want to take much space in our kitchen.\nWe asked the staff to deliver it to us at home.\nThey told us that it would take about 1 or 2 days to deliver it.\nMy boyfriend didn't want to wait.\nWe decided to bring it home by ourselves.\nMy boyfriend is happy now.",
+            "llm_output": "Buy a refrigerator.\nMy boyfriend and I went to Lotus to buy a refrigerator. We got a small one because we didn't want to use up too much space. We asked the staff to deliver it to our home, and they said it would take about 1 or 2 days to arrive. However, my boyfriend didn't want to wait, so we decided to bring it ourselves. He was happy about it.",
+            "score": 0.516453824071763
+        },
+        {
+            "id": 84,
+            "name": "English_Spanish_5",
+            "input": "Break\nToday I made an sponge cake and a lemonade.\nI love to make it when we are at home after swimming.\nThe weather is very hot here and everybody like this.\nI tried to chat with some friend today but I didn´t find anyone at my time.\nIn the morning I can chat with a chinese friend I knew a long time ago.\nI didn´t remember where he was from or which his job is.\nIt´s funny because he put a different name, not his real name.\nHe thinks his chinese name is very difficult for most of his friends.",
+            "output": "Break\nToday, I made a sponge cake and some lemonade.\nI love to make them when we come home from swimming.\nThe weather is very hot here, and everybody likes it.\nI tried to chat with some friends today, but I couldn't find anyone.\nTomorrow morning, I can chat with a Chinese friend whom I've known for a long time.\nI don't remember where he is from or what his job is.\nIt's funny because he uses a different name, not his real name.\nHe thinks that his Chinese name is very difficult for most of his friends to pronounce.",
+            "llm_output": "Today, I made a sponge cake and lemonade. I love making them when we're at home after swimming. The weather is scorching hot here, and everyone enjoys them. I tried to chat with some friends today, but I couldn't find anyone available at the same time as me. In the morning, I can chat with a Chinese friend I met a long time ago. I can't recall where he's from or what his job is. It's amusing because he uses a different name, not his real one. He believes his Chinese name is too complicated for most of his friends.",
+            "score": 0.5089650139453445
+        },
+        {
+            "id": 108,
+            "name": "English_Mandarin_8",
+            "input": "intersting thing.\nThere is a phrase \"a piece of cake\" often used in English.\nand in Japanese people like say \"朝飯前\".\nIn Chinese, we use phrase \"小菜一碟\".\nall means that something is very easy to do.\ncake,朝飯,小菜 are all belong to food.\nwhat about the situation in other languages like German/Korean and so forth.\nIs there a phrase that related to food to describe doing things easily?",
+            "output": "Interesting Thing\nThere is a phrase, \"a piece of cake,\" that is often used in English.\nIn Japanese, people like to say \"朝飯前.\"\nIn Chinese, we use the phrase \"小菜一碟.\"\nThey all mean something that is very easy to do.\nCake, 朝飯, and 小菜 are all foods.\nI wonder how one would say this in other languages like German, Korean, and so forth.\nIs there a phrase related to food that describes doing things easily?",
+            "llm_output": "Interesting thing. There is a phrase often used in English, \"a piece of cake\". In Japanese, people say \"朝飯前\". In Chinese, we use the phrase \"小菜一碟\". All of these mean that something is very easy to do and involve food items such as cake, 朝飯, and 小菜. I wonder if there are similar phrases in other languages like German, Korean, and so forth that relate to food and describe doing things easily?",
+            "score": 0.5089511730652876
+        },
+        {
+            "id": 46,
+            "name": "English_Other_1",
+            "input": "WOW\nWOW, it's almost a year I haven't been Lang-8.\nDuring this period, I've went to take TOIEC exam, but the score is not good.\nTOEIC full marks is 990.\nI thought I can get around 600 - 750.\nActually, I only got 535...\nI overestimated myself.\nSo now, I want to push myself to get more practices!\nHope I can keep writing diaries 2-3 times a week!",
+            "output": "WOW.\nWOW, it's been almost a year since I have logged onto Lang-8.\nDuring this period, I took the TOEIC exam, but the result was not good.\nTOEIC full marks is 990.\nI thought I could get around 600 - 750.\nActually, I only got 535...\nI overestimated myself.\nSo now, I want to push myself to practice more!\nI hope I can continue to write diaries 2-3 times a week!",
+            "llm_output": "Wow, it's been almost a year since I last used Lang-8. During this time, I took the TOEIC exam, but my score wasn't good. The full marks for TOEIC is 990, and I thought I could get around 600-750. However, I only got 535. I overestimated myself. Now, I want to push myself to practice more. I hope to write diaries 2-3 times a week and improve my skills.",
+            "score": 0.50753347988296
+        },
+        {
+            "id": 115,
+            "name": "English_Japanese_9",
+            "input": "introducing myself\nHi, my name is cazuo.\nI'm learning English and economics at university.\nWhen I'm high school students, I studied English to preper for college entrance exams.\nBut my English skills declined because I didn't study English after college entrance exams.\nSo please study English with me in Lang-8!!\nAnd if you want to study Japanese, I would help you study Japanese!",
+            "output": "Introducing Myself\nHi, my name is Cazuo.\nI'm learning English and Economics at the university.\nWhen I was in high school, I studied English to prepare for college entrance exams,\nbut my English skills declined once I stopped studying English after exams.\nSo please help me with my English via Lang-8!\nAlso, if you want to study Japanese, I will help you!",
+            "llm_output": "Introducing Myself\n\nHi, my name is Cazuo. I'm studying English and Economics at the university. When I was a high school student, I studied English to prepare for college entrance exams. However, my English skills declined because I didn't continue studying English after the exams. So, please study English with me on Lang-8! Also, if you want to learn Japanese, I would be happy to help you.",
+            "score": 0.5044586530764447
+        },
+        {
+            "id": 53,
+            "name": "English_Korean_2",
+            "input": "what is the best way to learn english..\nwhat is the best way to learn english..\nreanding, writing, watching english movies?\nto memorise important sentennces..",
+            "output": "What is the best way to learn English?\nWhat is the best way to learn English?\nBy reading, writing, or watching English movies?\nMemorizing important sentences?",
+            "llm_output": "What is the best way to learn English? Is it through reading, writing, or watching English movies? Or should you focus on memorizing important sentences?",
+            "score": 0.4994863015327235
+        },
+        {
+            "id": 85,
+            "name": "English_English_6",
+            "input": "essay writing\nhello i am an ESL student i came to Australia in 2006 to expand my educational horizons and to experience multiculturalism.\ni am very poor at essay writing.\ni wrote few essays for my school project but most of them were C or D graded.\nI would like to improve writing my skills to write essay.\nAny suggestions for me?\nI don't know what should i do at the moment.\ni do read lots of TIMES magazine, bbc / cnn news articles.\nHELPPP :O",
+            "output": "Essay Writing\nHello, I am an ESL student. I came to Australia in 2006 to expand my educational horizons and to experience multiculturalism.\nI am very poor at essay writing.\nI wrote a few essays for my school project, but most of them were graded C or D.\nI would like to improve my essay writing skills.\nAny suggestions for me?\nI don't know what I should do at the moment.\nI do read lots of TIME magazine, BBC, and CNN news articles.\nHelp! :O",
+            "llm_output": "Essay Writing\n\nHello, I am an ESL student who came to Australia in 2006 to expand my educational horizons and experience multiculturalism. Unfortunately, I am struggling with essay writing and have received mostly C or D grades on my school projects. I would like to improve my writing skills to write better essays. Do you have any suggestions for me? I am not sure what to do at the moment. I do read lots of TIME magazine, BBC, and CNN news articles. Please help!",
+            "score": 0.49871343831699144
+        },
+        {
+            "id": 100,
+            "name": "English_Other_7",
+            "input": "I love to make friends\nHi my name is Candice, because of Everlin is hard to speak, I decided to change my name.\nI'm an summer intern in Portland, it is my first time to visit America, it made me too excited to do different things.\nBut I hope I could improve my English.\nI love to make friends, does anyone had interesting to be my English friend?",
+            "output": "I love to make friends.\nHi, my name is Candice. I decided to change my name because Everlin is hard to say.\nI'm doing a summer internship in Portland. It is my first time visiting America. I am very excited to be doing different things.\nI hope I can improve my English.\nI love to make friends. Is anyone interested in being my English friend?",
+            "llm_output": "I love making friends.\n\nHi, my name is Candice. Because Everlin is difficult to pronounce, I decided to change my name. I am a summer intern in Portland, and it is my first time visiting America. I am excited to experience new things, but I also hope to improve my English.\n\nI love making friends. Is anyone interested in being my English friend?",
+            "score": 0.48707212564563374
+        },
+        {
+            "id": 44,
+            "name": "English_Korean_1",
+            "input": "oh my god\ni've never gone with boyfriend yet\nbut lately i met a man who attract me\nhe comes to mind without noticing it\nhe is older than me for 10 years ...\noh my god",
+            "output": "Oh my god,\nI've never had a boyfriend before.\nBut recently, I met a man that I am attracted to.\nHe comes to mind without me even noticing it.\nHe is 10 years older than me.\nOh my god.",
+            "llm_output": "Oh my God,\nI have never had a boyfriend before, but lately I met a man who is very attractive to me. He comes to my mind without me even noticing it. He is ten years older than me... Oh my God.",
+            "score": 0.4846066687031588
+        },
+        {
+            "id": 36,
+            "name": "English_Mandarin_0",
+            "input": "Who can help my poor English-Spoken?\nYeah, my English-Spoken is very poor.\nI can't speak correct English word.\nI'm afraid to communicate with foreigner in English.\nI don't know what am i supposed to do.\nIf you are looking this diary, can you help me about my poor English-Spoken?",
+            "output": "Who can help with my poor spoken English?\nYeah, my spoken English is very poor.\nI can't speak English words correctly.\nI'm afraid to communicate with foreigners in English.\nI don't know what I am supposed to do.\nIf you are looking at this diary, can you help me with my poor spoken English?",
+            "llm_output": "Who can help me with my poor spoken English? My English is very poor and I struggle to speak correctly. I am afraid to communicate with foreigners in English and I don't know what to do. If you are reading this diary, could you please help me with my poor spoken English?",
+            "score": 0.472865160567543
+        },
+        {
+            "id": 69,
+            "name": "English_German_4",
+            "input": "Christmas greetings\nI wish you wonderful, comfy christmas and best wishes for a happy and healthy new year.\nI hope you recreativ yourself in the christmas holiday from school, well.\nMaybe we can meet us once again in this year.\nLove greetings to your family, too.\nWhat do you have planed for your holiday?\nLove greetings",
+            "output": "Christmas Greetings\nI wish you a wonderful, comfy Christmas and best wishes for a happy and healthy New Year!\nI hope you are having fun during the Christmas holiday from school.\nMaybe we can meet each other once again this year.\nLove and greetings to your family, too.\nWhat do you have planned for your holiday?\nLove and Greetings",
+            "llm_output": "Christmas Greetings:\nI wish you a wonderful and cozy Christmas, and best wishes for a happy and healthy New Year. I hope you have a relaxing break from school during the Christmas holidays. Maybe we can meet again before the end of the year. Please send my love to your family as well. What do you have planned for your holiday? Best regards.",
+            "score": 0.4637612990056918
+        },
+        {
+            "id": 34,
+            "name": "English_Japanese_0",
+            "input": "Interesting but frightening story of Twitter\nIn the morning today, I watched TV on which I heard an interesting but frightening story of Twitter.\nWhen an woman was in public bathroom, she tweeted \"Although I was in toilet box which is at ~, no paper here\"\nThen, from the next box, another woman gave her paper saying \"Use this one\" across the wall which separates two boxes.\nI didn't only felt Twitter useful, but also felt it fearful.....",
+            "output": "Interesting but Frightening Story about Twitter\nThis morning, I watched TV and saw an interesting but frightening story about Twitter.\nA woman was in a public restroom, and she tweeted, \"Although I am in a toilet cubicle at ~, there is no toilet paper here.\"\nThen, from the next box, another woman gave her some toilet paper across the wall separating them and said, \"Use this one.\"\nI thought Twitter was useful but now also terrifying.",
+            "llm_output": "This morning, I watched TV and heard an interesting yet frightening story about Twitter. A woman was in a public bathroom and tweeted, \"Although I am in the toilet stall at ~, there is no paper here.\" Then, from the next stall, another woman gave her some paper and said, \"Use this one,\" across the wall that separated the two stalls. This not only made me realize the usefulness of Twitter but also made me feel a bit uneasy.",
+            "score": 0.4620256327435051
+        },
+        {
+            "id": 109,
+            "name": "English_Other_8",
+            "input": "Going to the night market.\nNight market is known in Taiwan.\nYou may not find it in foreign country.\nMy friends and I were going to night market tonight.\nThere were many venders,  including everything you can image.\nWe found that a peddler selling sticky tofu, and we bought it as sneak.\nSticky tofu is one of famous traditional food in Taiwan.\nI met many people who is impressed by sticky tofu because of the special taste.\nI had not eaten sticky tofu for couple months, I miss it very much and my friends, either.\nAfter that, one of my friends wanted to play shotting game.\nShotting game can shot the balloon in fort of the things as a reward.\nIf you shot on the balloon, you can take the thing behind the balloon.\nBut it was too crowed to line for the game, we gave it up and found another kind of game.\nFinally, we exchanged some coins to playing toy machine.\nA friend of mine got three toys, and she sent me one as a present.",
+            "output": "Going to the night market.\nThe night market is well-known in Taiwan.\nYou won't find it in any other foreign country.\nMy friends and I were going to go to the night market tonight.\nThere were many vendors, and everything you could possibly imagine.\nWe found a vendor selling stinky tofu, and we bought some as a snack.\nStinky tofu is famous traditional food in Taiwan.\nI have met many people who were impressed by stinky tofu because of the special taste.\nI had not eaten stinky tofu for a couple of months, I missed it very much and my friends missed it as well.\nAfter that, one of my friends wanted to play a shooting game.\nIn the shooting game, you try to shoot a balloon in front of the rewards.\nIf you shot the balloon, you can take the thing behind the balloon.\nBut the line for the game was too crowded, so we gave it up and found another game.\nFinally, we exchanged some coins to play with a toy machine.\nMy friend got three toys, and she sent me one as a present.",
+            "llm_output": "Going to the Night Market\n\nThe night market is well-known in Taiwan, but it may not be found in foreign countries. Tonight, my friends and I went to the night market. There were many vendors selling everything you can imagine. We found a peddler selling sticky tofu and bought it as a snack. Sticky tofu is one of the famous traditional foods in Taiwan. I have met many people who are impressed by sticky tofu because of its special taste. I had not eaten sticky tofu for a couple of months, and I missed it very much, as did my friends.\n\nAfter that, one of my friends wanted to play a shooting game. The game involved shooting balloons in front of things as a reward. If you hit the balloon, you can take the thing behind it. However, it was too crowded to line up for the game, so we gave up and found another kind of game. Finally, we exchanged some coins to play the toy machine. One of my friends got three toys, and she gave me one as a present.",
+            "score": 0.4594828851940624
+        },
+        {
+            "id": 75,
+            "name": "English_Spanish_4",
+            "input": "The party\nToday, I had an invitation for a party but I did't attended it because I'm not gonna know anybody, except the friend who invited me.\nWhat do you do in this ocassions?\nI mean, more than one time I had received this kind of invitations but I´m not such a outgoing person.\nSo when I go to a party I like to know more than one person in order to talk with someone.",
+            "output": "The Party\nToday, I got an invitation to a party, but I didn't go because I wouldn't have known anybody except the friend who invited me.\nWhat do you do in these situations?\nI mean, I have received this kind of invitation more than once, but I'm not such an outgoing person.\nSo when I go to a party, I like to know more than one person, in order to have someone familiar to talk to.",
+            "llm_output": "The Party\n\nToday, I received an invitation to a party, but I didn't attend because I didn't know anyone except for the friend who invited me. What do you usually do in these situations? I have received invitations like this before, but I am not a very outgoing person. When I go to a party, I prefer to know more than one person so that I have someone to talk to.",
+            "score": 0.45157643998581376
+        },
+        {
+            "id": 43,
+            "name": "English_Japanese_1",
+            "input": "Enjoy learning English\nI can enjoy learning English on this site.\nIt is one reason that I have no examination, and another one that I can comunicate with a native speaker directly.\nAnd one more reason ,this is the biggest one, is what I can make many friends in the whole world.\nMoreover they, English speakers, have learned Japanese.\nIf I were a native English speaker, I have given up learning Japanese as soon as watching Kanji.\nThey  watch kanji as an only design not a letter.\nI have no choice to respect for them.\nI have been surprized to watch a Kanji, that they wrote.\nI am happy to learn English with them.\nThanks for an  internet and the challenger against japanese.",
+            "output": "Enjoy learning English\nI can enjoy learning English on this site.\nThe two reasons are: 1: I have no exams and 2: I am able to communicate with native speakers directly.\nAnd the most important reason is that I get to make many friends from all over the world.\nMoreover, English speakers in turn can learn Japanese as well.\nIf I were a native English speaker, I would have given up learning Japanese as soon as I got in touch with Kanji.\nThey think Kanji is just a graphic design but not a letter.\nI have no choice but to respect their thinking.\nI have been surprised to see them use Kanji.\nAnyway, I am happy to learn English with them.\nThanks for the internet and all the Japanese learners.",
+            "llm_output": "Enjoy Learning English\nI can enjoy learning English on this site. One reason is that I have no exams, and another is that I can communicate directly with a native speaker. The biggest reason, however, is that I can make many friends all over the world. Furthermore, some English speakers have even learned Japanese. If I were a native English speaker, I would have given up learning Japanese as soon as I saw Kanji. They see Kanji as a design, not just a letter. I have no choice but to respect them. I have been surprised by the Kanji they have written. I am happy to learn English with them. Thanks to the internet and the challenge of learning Japanese.",
+            "score": 0.4483557178681742
+        },
+        {
+            "id": 94,
+            "name": "English_English_7",
+            "input": "Mandarin\nHi,\nToday I started to learn Mandarin.\nI was interested in Chinese culture and especially in their language.\nIn addition to my study Japanese and practice American English I have to learn Mandarin.\nStarted from the easiest, by the way it is more difficult than Japanese because of four tons of the words...\nI cannot imagine how to remember that different in words due to the tons, but I'll try.\nThanks.\nPlease, correct it according to American English.",
+            "output": "Mandarin\nHi,\nToday, I started to learn Mandarin.\nI am interested in Chinese culture and especially their language.\nIn addition to studying Japanese and practicing American English, I have to learn Mandarin.\n... by the way, it is more difficult than Japanese because there are four tones used in the words.\nI cannot imagine how to remember all those differences in words because there are so many, but I'll try.\nThanks.\nPlease, correct this according to American English.",
+            "llm_output": "Mandarin\n\nHi,\n\nToday, I started learning Mandarin. I am interested in Chinese culture, particularly their language. In addition to studying Japanese and practicing American English, I have decided to learn Mandarin. I started with the basics, but it is proving to be more challenging than Japanese due to the four tones used in words. I cannot imagine how to remember the differences in words due to the tones, but I will try my best. \n\nThanks.",
+            "score": 0.44623175031502477
+        },
+        {
+            "id": 74,
+            "name": "English_Russian_4",
+            "input": "Insult\nToday I had English lesson in my school.\nMy task was to tell about the twentieth century fashion.\nI really tried to speak as good as I can.\nOf course I did some mistakes.\nMy pronunciation  wasn't good enough too.\nSo one boy was scoffing over me all time while I told my text.\nOf course, his English more better than mine...\nBut he's behavior and self-confidence hurts me.\nSo I decided to improve my English and to prove everyone that I can speak English.",
+            "output": "Insult\nToday, I had my English lesson at my school.\nMy task was to speak about twentieth-century fashion.\nI really tried to speak as well as I could.\nOf course, I made some mistakes.\nMy pronunciation wasn't very good either.\nOne boy was scoffing at me while I was reading my text.\nOf course, his English is better than mine.\nBut his behavior and self-confidence hurt me.\nI have decided to improve my English and to prove to everyone that I can speak English.",
+            "llm_output": "Today, I had an English lesson at school. My task was to talk about fashion in the twentieth century. I tried my best to speak as well as I could, but I made some mistakes. Additionally, my pronunciation wasn't good enough. Unfortunately, one boy kept mocking me while I was presenting my text. Although his English was better than mine, his behavior and self-confidence hurt me. As a result, I have decided to improve my English and prove to everyone that I can speak it well.",
+            "score": 0.4453792970177884
+        },
+        {
+            "id": 52,
+            "name": "English_Japanese_2",
+            "input": "\"Lunch\"\nI had a busy day today.\nWhen lunch time, I was going to go the restrant.\nI thought I want to eat the fried blowfish hamburger.\nIt is very famous for delicious.\nHowever, when I looked the menu, I changed my mind.\nEventually, I ate a today's menu.\nI will try the fried blowfish hamburger.",
+            "output": "\"Lunch\"\nI had a busy day today.\nWhen at lunchtime, I was planning on going to the restaurant.\nI thought I'd try the fried blowfish hamburger.\nIt's very famous for its delicious taste.\nHowever, when I saw the menu, I changed my mind.\nEventually, I decided to eat from the menu.\nI will try the fried blowfish hamburger some other time.",
+            "llm_output": "\"Lunch\"\nI had a busy day today. During lunchtime, I was planning to go to a restaurant. I thought I wanted to try the fried blowfish hamburger, which is famous for being delicious. However, when I looked at the menu, I changed my mind and ended up ordering the dish of the day. I will try the fried blowfish hamburger another time.",
+            "score": 0.4409411562341137
+        },
+        {
+            "id": 92,
+            "name": "English_Russian_6",
+            "input": "Some facts about me.\nLet's continue.\nI've got a lot of  free time during my summer holidays, so I'll spend it on English.\nNow about me.\nI like listening to different music.\nEarlier I didn't like listening to foreign songs, cause I can't understand lyrics.\nBut now it seems to be a good practise.\nSo I started listening to different songs in English.\nI like dancing.\nBut during last years I couldn't do it as often, as I wish.\nAnd, of course, I like maths and programming.\nI like spend time with my friends, but in summer we'are far from each other, so can communicate with them only in ( maybe \"by\"??) internet.\nAnd that's why I'm waiting for autumn with look.",
+            "output": "Here are some facts about me.\nLet's continue.\nI've got a lot of free time during my summer holidays, so I've decided to spend some of it on improving my English.\nNow more about me.\nI like listening to different types of music.\nI didn't used to like listening to foreign songs because I couldn't understand the lyrics.\nBut now it seems to be a good way to practice.\nSo I started listening to different songs in English.\nI also like dancing.\nBut during recent years, I haven't been able to do it as much as I would have liked.\nAnd, I also like math and programming.\nI like spending time with my friends, but in summer we're separated by distance so the only way we get to communicate is through the internet and phones.\nSo that's why I'm looking forward to autumn again.",
+            "llm_output": "Some facts about me. Let's continue. I have a lot of free time during my summer holidays, so I'll spend it on improving my English. As for my interests, I enjoy listening to different types of music. In the past, I didn't like listening to foreign songs because I couldn't understand the lyrics, but now I find it to be good practice. I also enjoy dancing, although I haven't been able to do it as often as I would like in recent years. Additionally, I have a passion for math and programming. Spending time with my friends is important to me, but during the summer we are far from each other, so we can only communicate through the internet. That's why I'm looking forward to autumn.",
+            "score": 0.431423858967056
+        },
+        {
+            "id": 104,
+            "name": "English_French_8",
+            "input": "Peniciline, Innovation of the century.\nThe most benefecial innovation on the century was in the health area.\nIt is the peniciline and was discovered by the Scottish scientist and Nobel laureate Alexander Fleming in 1928.\nIm sure if this awesome person was never found this antibiotic the world maybe became different because this  biological discover can safety millions of lifes every day.\nIn continually, is innovated because the peniciline is parth of the health studies, so the proposite is to keep safety the human lifes and such for me is the most important area in the human studies.\nFinally, this vaccune in the actually has been used on every places, hospitals, cliniques, etc, for save people and why not we can call it a innovate, sure is it a unique and great discover.",
+            "output": "Penicillin, Innovation of the Century.\nThe most beneficial innovation of the century was in the health area.\nIt is Penicillin, and it was discovered by the Scottish scientist and Nobel laureate Alexander Fleming in 1928.\nI'm sure if this amazing individual had never found this antibiotic, the world would be different. This biological discovery has the capacity to save millions of lives every day.\nFurthermore, it has continued to innovate because Penicillin is a part of health studies with the focus on keeping human lives. Such a focus, to me, is the most important area in human studies.\nFinally, this antibiotic has actually been used every day in places such as hospitals, clinics, etc., to save people. Therefore, it can be considered an innovation, as it is surely a unique and great discovery.",
+            "llm_output": "Penicillin: Innovation of the Century\n\nThe most beneficial innovation of the century was in the health area, specifically the discovery of penicillin by the Scottish scientist and Nobel laureate Alexander Fleming in 1928. I am sure that if this awesome person had not discovered this antibiotic, the world would be different because this biological discovery can save millions of lives every day.\n\nFurthermore, penicillin is continually being improved as it is a part of health studies. The purpose is to keep human lives safe, which is the most important area of study for me.\n\nFinally, this vaccine is currently being used in hospitals, clinics, and other places to save people. We can call it an innovation because it is a unique and great discovery.",
+            "score": 0.43079369108449234
+        },
+        {
+            "id": 119,
+            "name": "English_Russian_9",
+            "input": "Pop or Rock\nI know after it people can  think that i listen only rock, but its not truth^^ i listen all that good sound but just right now i like only a little heavy music.\nTo tell the truth i realy hate POP .....\nof course not all...\ni hate russian POP, because i can understand what they are singing and its kills my brain~hahah~ no-no, i'm serious in Russia so many stupid POP songs with don't bring nothing important....\nAlmost all russian POP musicians sing a songs which write not they and another people therefore how they don't try, they can't reproduce that person wants to tell.\nPerson can sing from all his heart if he put in this song own soul....\njust this made song such attractive.\nRock makes me realy happy or sad, because this music reproduce so many truth that not all people can listen it.\nThis rhythm  the same fast, as well as our fleeting life.\n♪♪♪Rock - its illness of a brain from which there is no medicine♪♪♪ (mine)",
+            "output": "Pop or Rock\nI know sometimes people think that I listen only to rock, but it's not the truth. I listen to all good music, but just right now I like only a little heavy music.\nTo tell the truth, I really hate POP...\nOf course, not everything...\nI hate Russian POP because I can understand what they are singing, and it kills my brain. Haha, no-no, I'm serious. In Russia, there are so many stupid POP songs which don't say anything important.\nAlmost all Russian POP musicians sing songs which they did not write - therefore, however they try, they can't reproduce what that person wants to tell.\nA person can sing from his heart only if he puts his own soul into the song.\nJust this makes songs so attractive.\nRock makes me really happy or sad because this music reproduces so much truth that not all people can hear it.\nThis rhythm is so fast, as our fleeting life.\n♪♪♪Rock is an illness of the brain, and there is not any medicine to cure it♪♪♪",
+            "llm_output": "Pop or Rock\n\nI know that after reading this, people might think that I only listen to rock, but that's not true. I listen to all good music, but right now I just happen to like a little heavy music. To tell the truth, I really hate pop, but of course, not all of it. I hate Russian pop because I can't understand what they are singing about, and it kills my brain. I'm serious; there are so many stupid pop songs in Russia that don't bring anything important.\n\nAlmost all Russian pop musicians sing songs that are not written by them, and no matter how hard they try, they can't reproduce what the songwriter wants to convey. A person can sing from their heart if they put their soul into the song. That's what makes a song so attractive.\n\nRock music can make me really happy or sad because it conveys so many truths that not everyone can listen to. The rhythm is as fast as our fleeting life. Rock is like an illness of the brain for which there is no medicine. (This is my opinion.)",
+            "score": 0.41096606254623796
+        },
+        {
+            "id": 89,
+            "name": "English_Korean_6",
+            "input": "cludy\nit was cloudy today and i just took a rest all day at home.\ni need a something fresh.\nthis year is almost over and i have to do a little more to get a fruit!\nLet's get over this!",
+            "output": "Cloudy\nIt was cloudy today, so I just took the rest of the day off.\nI feel like I need something fresh.\nThe year is almost over, and I have to do a little more to reap the fruits of my labor!\nLet's get on with it!",
+            "llm_output": "Cloudy\nIt was cloudy today, and I just rested at home all day. I need something fresh. This year is almost over, and I have to do a little more to bear fruit! Let's get over this!",
+            "score": 0.4046842091355535
+        },
+        {
+            "id": 99,
+            "name": "English_Mandarin_7",
+            "input": "at home along\nMy father and mother went to the hometown this afternoon.\nI had to stay at home along.\nTo be honest, I'm very afraid.\nI fear to stay somewhere in the night.\nStaying along always make me think the terrible things such as burglary, earthquake and so on.\nSome cinema scenes also recalled me the violent.\nDo you afraid of staying along at night?",
+            "output": "At Home Alone\nMy father and mother went to their hometown this afternoon.\nI have to stay home alone.\nTo be honest, I'm very afraid.\nI am afraid to be alone at night.\nWhen I'm alone, I always think of terrible things like burglary, earthquake, and so on.\nIt also makes me think of scary movies.\nAt night, do you fear to stay alone?",
+            "llm_output": "At Home Alone\n\nMy father and mother went to our hometown this afternoon, so I had to stay at home alone. To be honest, I'm very afraid. I fear staying somewhere alone at night. Being alone always makes me think of terrible things such as burglary, earthquakes, and so on. Some movie scenes also remind me of violence. Do you also fear staying alone at night?",
+            "score": 0.40420455245256237
+        },
+        {
+            "id": 31,
+            "name": "English_English_0",
+            "input": "What do you call the sound made by birds?\nby difference birds..",
+            "output": "What do you call the sounds made by birds?\r\nBy different birds?",
+            "llm_output": "What do you call the sound made by birds?\nDifferent birds make different sounds.",
+            "score": 0.4001601601922499
+        },
+        {
+            "id": 49,
+            "name": "English_English_2",
+            "input": "skip class lesson\nyesterday after Physical Tests, we classmates really really tired and want to go home\nafter test we should go to class for other lesson.\nbut we classmates really tired and don't care about\nnext class lesson, and we really go home.\nhaha we have really really in big trouble.\ni go back home and sleep.\nwhile sleeping my teacher call me and asking me why classmates skip her class.\ni tell what a situation there.\nmy teacher really care about my classmates, and not angry because of it..\nwew i'm really knew it, my teacher is really care about we.",
+            "output": "Skip Class Lesson\nYesterday, after our physical tests, my classmates and I were really tired and wanted to go home.\r\nAfter the test, we had to go to another class. But we were really tired and didn't care about the next class, so we all went home.\r\nHaha, we got in a really big trouble. I went back home and went to sleep.\r\nWhile I was sleeping, my teacher called me to ask why my classmates and I skipped her class.\r\nI told her about the situation. Since my teacher really cares about her students, she didn't get mad at us for skipping her class.\r\nWhew! I knew it, our teacher really does care about us.",
+            "llm_output": "Skipping Class Lesson\n\nYesterday, after our physical tests, my classmates and I were really tired and wanted to go home. Even though we were supposed to attend another lesson after the test, we were too exhausted and didn't care about it. We decided to go home instead. Unfortunately, we got into big trouble for doing so. \n\nWhen I got home, I went straight to bed and fell asleep. While I was sleeping, my teacher called me and asked why my classmates had skipped her class. I explained the situation to her. Surprisingly, my teacher was not angry and showed genuine concern for my classmates. \n\nI realized that my teacher really cares about us.",
+            "score": 0.37073046467248655
+        },
+        {
+            "id": 73,
+            "name": "English_Other_4",
+            "input": "Retriever\nRetriever is very popular for its optimist and adorable figure in Taiwan.\nA owner whose retriever was missing pulled out all the stops to find her pet and even resort to the police.\nThe investigation into this case, however, showed some foreign labors came from Vietnam stole it and ate it for dinner.\nIn order to cut cost and meet the budget, Taiwan's supervisors tend to engage a bunch of foreign labors mainly coming form Philippine, Thailand and Vietnam.\nOur government managing to make laws related to mitigate the collision of culturally cognitional difference, some cases involved in foreign labors are still inevitable.\nUntold e-pals  and dog people who want the perpetrators head on the platter are condemning and blowing up at their savage conduct.\nNo matter the point is cultural difference, eating habits which made for this mishap, or whatever.\nAbusing the cats or dogs in Taiwan is inarguably illegal, let alone eating them.",
+            "output": "Retriever\nRetriever is a very popular, adorable figure in Taiwan because of its optimism. An owner whose retriever was missing did everything to find her pet, including asking the police. The investigation into this case, however, found out that some foreign laborers from Vietnam stole it and ate it for dinner. In order to cut costs and meet budget, Taiwanese blue-collar supervisors tend to engage foreign laborers, mainly from the Philippines, Thailand, and Vietnam. Even though our government makes laws easing conflict between different foreign cultures, some cases involving foreign laborers are still inevitable. Untold numbers of internet commentators and dog-lovers who want the perpetrators' head on the platter are condemning their 'savage' conduct. The point is that cultural differences, especially eating habits, caused this mishap, or whatever. Abusing cats or dogs in Taiwan is definitely illegal, let alone eating them.",
+            "llm_output": "Retrievers are very popular in Taiwan due to their optimistic and adorable appearance. An owner whose retriever went missing went to great lengths to find their pet, even resorting to involving the police. However, the investigation into the case revealed that some foreign laborers from Vietnam had stolen the dog and eaten it for dinner. In order to cut costs and meet budget requirements, Taiwan's supervisors tend to hire a large number of foreign laborers, mainly from the Philippines, Thailand, and Vietnam. Although the government has implemented laws to mitigate cultural differences, some cases involving foreign laborers are still inevitable. Many e-pals and dog lovers are condemning and outraged at the perpetrators' savage conduct, regardless of cultural differences or eating habits that may have contributed to this mishap. Abusing cats or dogs in Taiwan is undoubtedly illegal, let alone eating them.",
+            "score": 0.35064967927539825
+        },
+        {
+            "id": 45,
+            "name": "English_Mandarin_1",
+            "input": "Individule Study\nNow I am sophomore year and I will have a critical English examination in june.(大学英语四级考试).\nBecause my university reputation assocites with students’ passing rate in the test.\nSo usually all sophomoers have been asked to particepated in an individule study schedle which is made by my university each year.\nBut  I don’t regard it as a good idea.\nNext Monday we start our schdule which will go on 5 days each week until the exam have really arrived.",
+            "output": "Individual Study\nNow I am in my sophomore year, and I will have a critical English examination in June. Because my university's reputation is associated with its students' pass rate in this test, as usual, all the sophomores have been asked to participate in individual study schedules, which are provided each year by my university. But I don't see it as a good idea. Next Monday, we start our schedules, which will continue for five days each week, until the exam has really arrived.",
+            "llm_output": "Individual Study\nI am currently in my sophomore year and will be taking a critical English examination in June (the College English Test Band 4). As my university's reputation is associated with the passing rate of its students in this test, all sophomores are usually asked to participate in an individual study schedule that is created by the university each year. However, I do not believe this is a good idea. The schedule will begin next Monday and will continue for five days each week until the exam arrives.",
+            "score": 0.3446100705849591
+        },
+        {
+            "id": 56,
+            "name": "English_Russian_2",
+            "input": "Love.\nI know you from the time when we was children.\nWe played togeher, laughed...\nOf course, sometimes we guarrel, but then apologized.\nNow we matured...\nWe rarely had to go for a walk, but sometimes we still laugh together.\nAnd then, one day I had understood that I loved you.",
+            "output": "Love.\nI have known you since the time we were children.\nWe played together, laughed...\nOf course, sometimes we quarreled, but then apologized.\nNow we have matured...\nWe rarely have time to go for walks, but sometimes we still laugh together.\nAnd then, one day I realized that I loved you.",
+            "llm_output": "Love.\n\nI have known you since we were children. We used to play together and laugh. Of course, we would sometimes quarrel, but we always apologized afterwards. Now that we have grown up, we don't go for walks together as often, but we still share moments of laughter. And then, one day, I realized that I loved you.",
+            "score": 0.3433461808176138
+        },
+        {
+            "id": 80,
+            "name": "English_Korean_5",
+            "input": "I want to good at math.\nI'm not good at math so I don't like math.\nI really want to good at math because good at math is really important in Korea.\nIf you are not good at math, you can't go good university in Korea.\nSo maybe you want to learn English in University but you need to good at math too.\nI know math is important because I have logical thinking when I study math.\nBut I don't understand why Korea math is really difficult than other countries.\nIn Korea, math is so hard to student so many student give up it.\nSometimes I want to give up it too.\nI hope Korea math will be easy and good at math !!",
+            "output": "I want to be good at math.\nI'm not good at math, so I don't like it.\nI really want to be good at math because being good at it is really important in Korea.\nIf you are not good at math, you can't go to a good university in Korea.\nSo maybe you want to learn English at a university, but you need to be good at math too.\nI know math is important because you use logical thinking when you study math.\nBut I don't understand why math in Korea is more difficult than in other countries.\nIn Korea, math is so hard for students that many give up.\nSometimes I want to give up too.\nI hope math in Korea will be easy and that I'll be good at math!",
+            "llm_output": "I want to be good at math. I'm not good at it, so I don't like it. However, being good at math is crucial in Korea. If you're not good at math, you can't get into a good university. Even if you want to study English, you still need to be good at math. I understand the importance of math because it helps me develop logical thinking. However, I don't understand why Korean math is more difficult than math in other countries. It's so challenging that many students give up on it. Sometimes, I feel like giving up too. I hope that Korean math becomes easier so that I can become good at it!",
+            "score": 0.33929162826273923
+        },
+        {
+            "id": 65,
+            "name": "English_Russian_3",
+            "input": "Hobby\nMy mother can knit very well, but she worked all her life and can't instruct me.\nSo when I studied at school, I had to go to course of knitting and crocheting.\nIt took three years to finish it.\nThen I moved in other city.\nI rarely made some clothes.\nWhen I married, I left off it quite.\nNow I return to  crocheting.\nIt is best hobby for me while I am living in the rent flat.\nWhat hobby do you have?",
+            "output": "Hobby\nMy mother can knit very well, but as she works all the time, she does not have the time to teach me.\nSo when I was studying at school, I had to go on a course for knitting and crocheting.\nIt took three years to finish it.\nThen I moved to a different city.\nI rarely made any clothes.\nWhen I married, I didn't make anything at all.\nNow I have returned to crocheting.\nIt is a great hobby for me while I am living in the apartment.\nWhat hobbies do you have?",
+            "llm_output": "Hobby\n\nMy mother is very skilled at knitting, but she worked all her life and couldn't teach me. So when I was in school, I had to take a knitting and crocheting course, which took me three years to complete. Then I moved to another city and rarely made any clothes. When I got married, I stopped altogether. Now I have returned to crocheting, and it is the best hobby for me while I am living in a rented flat. What hobby do you have?",
+            "score": 0.33673344835285896
+        },
+        {
+            "id": 91,
+            "name": "English_Other_6",
+            "input": "don't know why???\nIn the recent days, I always have upset stomach, sometimes it ache very much, then i have to take the medcine and then i feel better, this suituation is continue about two weeks ,sometmes ache, sometimes don;t ache, and i have taken the medcine serveal times, today, i still have stomache, but i didn't take any medcine, because i know taking too much medcine is too bad, so i just let it be, let it ache.\nI have no idea why i get so much stomache in these two week?\nThen i think i am so poor, alough i have stomache, i suppose to eat something is healthy and isn't oll, and i just find i can eat the fast noodles for my lunch.\nHow poor I am!!!!",
+            "output": "I don't know why?\nRecently, I always have an upset stomach. Sometimes it aches so much I have to take medicine to feel better. This has been going on for about two weeks. Sometimes it aches and sometimes it doesn't ache. I have taken medicine several times already. Today, I still have a stomach ache, but I didn't take any medicine because I know taking too much is not good for you. So I just let it be and let my stomach ache.\nI have no idea why my stomach has been aching so much in the past two weeks!\nI think I am so poor. Even though I have a stomachache, I still have to eat. I am supposed to eat something healthy and not oily, and I just found out that I can have fast noodles for my lunch.\nHow miserable I am!",
+            "llm_output": "I don't know why.\n\nIn recent days, I have been experiencing an upset stomach. Sometimes it aches very much, and I have to take medicine to feel better. This situation has been ongoing for about two weeks, with the pain coming and going. I have taken medicine several times, but today I decided not to take any because I know taking too much medicine is bad for me. I am just letting it ache.\n\nI have no idea why I have been experiencing so much stomach pain in the past two weeks. I feel poor because even though I have a stomach ache, I should be eating something healthy instead of oily food like fast noodles for lunch.\n\nHow poor I am!",
+            "score": 0.33052382778908246
+        },
+        {
+            "id": 79,
+            "name": "English_Japanese_5",
+            "input": "What I can learn from first foods.\nIf I eat a hanburger slowly, chewing it well and tasing it, I must regret having it.\nThe loyal road to taste first food well is eating it quickly, not caring about the taste of it.\nI think learning something is same as eating first food.\nCaring about detail too much makes us feel bored just same as having first foods slowly lessens the good point of it.",
+            "output": "What I can learn from fast foods.\nIf I eat a hamburger slowly, chewing it well and tasting it, I always regret eating it.\nThe royal road to taste fast food well is eating it quickly and not caring about the taste of it.\nI think learning something is the same as eating fast food.\nCaring about the details too much makes us feel bored. It is just the same as eating fast foods slowly which lessens the good point of eating it.",
+            "llm_output": "What I can learn from first foods.\nIf I eat a hamburger slowly, chewing it well and tasting it, I might regret having it.\nThe best way to fully enjoy the taste of first food is to eat it quickly, not worrying about the taste.\nI think learning something is similar to eating first food.\nFocusing too much on details can make us feel bored, just as eating first foods slowly reduces their good qualities.",
+            "score": 0.3280387887593968
+        },
+        {
+            "id": 111,
+            "name": "English_Spanish_8",
+            "input": "is a good nigth\ni am in tha computer, my family is sleep beacuse is late at night!!...\ni am relaxed, i'am listen music!...\ni like the K-pop, is music of Korean!!\nis a funny music!!\nxP",
+            "output": "It is a good night.\nI am on the computer, my family is asleep because it is late at night!...\nI am relaxed, I'm listening to music!...\nI like K-pop, it is music of Koreans!\nTheir music is funny.\nxP",
+            "llm_output": "It's a good night. I am on the computer while my family is sleeping because it's late at night. I am relaxed and listening to music. I like K-pop, which is Korean music. It's fun music! XP",
+            "score": 0.31908005350624435
+        },
+        {
+            "id": 97,
+            "name": "English_Japanese_7",
+            "input": "One of the co-workers has a very wonderful women.\nOne of the co-workers has a very wonderful women.\nshe's my secret crash, not my girlfriend.",
+            "output": "One of my co-workers has a very wonderful girlfriend.\nOne of my co-workers has a very wonderful girlfriend.\nShe's my secret crush, not my girlfriend, though.",
+            "llm_output": "One of the co-workers has a wonderful woman. She's my secret crush, not my girlfriend.",
+            "score": 0.2910053050454685
+        },
+        {
+            "id": 98,
+            "name": "English_Korean_7",
+            "input": "homework.\nstill vacation.\nstill board\nso I hd forgotten to do my homework.\nnow I see why I was board.\nand when I'm doing homework still board.\nnow I don't see why I was board.\nI don't like board.",
+            "output": "Homework\nIt's still vacation.\nI'm still bored.\nI forgot to do my homework because it was boring.\nNow I realize why I was bored.\nBecause when I do my homework, I'm bored.\nBut I don't care why I'm bored.\nI don't like being bored.",
+            "llm_output": "Homework. Still on vacation. Still bored. So, I had forgotten to do my homework. Now I see why I was bored. And when I'm doing homework, still bored. Now I don't see why I was bored. I don't like being bored.",
+            "score": 0.28816112931340043
+        },
+        {
+            "id": 70,
+            "name": "English_Japanese_4",
+            "input": "Foods in restaurants in Beijing\nI will write a bit about foods and restaurants in Beijing\nI ate Chinese foods and Korean foods this week.\nI was satisfies with both dishes.\nI ate Beijing ducks which were taken in pics, today that's all Thank you.",
+            "output": "Restaurant Food in Beijing\nI will write a bit about the food and restaurants in Beijing.\nI ate Chinese and Korean food this week.\nI was satisfied with both.\nI ate Beijing ducks which were shown in the pics; that's all for today. Thank you.",
+            "llm_output": "Foods and Restaurants in Beijing\nI would like to share some information about the food and restaurants in Beijing. This week, I had the opportunity to try both Chinese and Korean cuisine. I was satisfied with both dishes. In particular, I had the chance to try Beijing duck, which was delicious and even captured in photos. That's all for now. Thank you.",
+            "score": 0.26121613377631137
+        },
+        {
+            "id": 66,
+            "name": "English_Spanish_3",
+            "input": "Spain, my country... (1)\nI was born in Leon, a small city from Spain, but when I was eighteen years old, I traveled to Madrid.\nNow I live in Madrid and I go to Leon to see to my family.\nYou can eat very well, go to our beautifull beaches, you can visit the monuments, and we have a good weather!!!\nI like Spain, but I´d like to live in other countries, I know other people, to learn languages, customs, houses, cars...\nbut always with my home in Spain.\nYou must to visit my country, I´m sure you like it!!!",
+            "output": "Spain, my country... (1)\nI was born in Leon, a small city in Spain, but when I was eighteen years old, I moved to Madrid.\nNow I live in Madrid and I go to Leon to visit my family.\nYou can eat delicious food, go to our beautiful beaches, visit our monuments, and we have good weather!\nI like Spain, but I'd like to live in other countries, I want to meet other people and learn languages, customs, houses, cars...\nBut always my home will be in Spain.\nYou must visit my country, I'm sure you will like it!",
+            "llm_output": "Spain, my country...\n\nI was born in León, a small city in Spain. However, when I turned eighteen, I moved to Madrid. Currently, I live in Madrid but I visit León frequently to see my family. In Spain, you can enjoy delicious food, beautiful beaches, and visit historical monuments. Additionally, we have great weather! Although I love Spain, I would like to live in other countries, meet new people, learn different languages, customs, and experience different lifestyles. Nevertheless, Spain will always be my home. I highly recommend visiting my country, I am sure you will love it!",
+            "score": 0.2456225899505228
+        },
+        {
+            "id": 88,
+            "name": "English_Japanese_6",
+            "input": "The World's Highest Longevity Country?\nIt is said that Japan is the world's highest longevity country.\nI've believed it until hearing the recent news.\nA body of a man who 111 years old was found in Tokyo.\nBut the police said he probably died more than 30 years ago.\nHis body was mummified and his family was living with the body for long years.\nThe same cases have occurred in rapid sequence since the case in Tokyo.\nMany old people who are more than 100 years old is missing.\nWe don't know whether they are living or not.\nThough the government undertook the investigation of the case, more the same cases may be uncovered.\nHearing these news, I doubt that Japan is really the world highest longevity country?",
+            "output": "The Country with the World's Highest Life Expectancy?\nIt is said that Japan is the country with the highest life expectancy in the world.\nI believed this until I saw the news.\nThe 111-year-old body of a man has been found in Tokyo.\nPolice have revealed that the man probably died more than 30 years ago.\nHis body was mummified, and his family kept the body for many years.\nSimilar cases have been reported one after another in Tokyo since.\nA number of people over 100 years of age are missing.\nWe don't know whether they are still alive or not.\nThe government has undertaken to investigate the case, and more cases like this may be uncovered.\nOn hearing this news, I now doubt whether Japan really has the highest life expectancy in the world.",
+            "llm_output": "Is Japan Really the World's Longest-Living Country?\nIt has been widely believed that Japan is the world's longest-living country, but recent news has cast doubt on this claim. In Tokyo, the mummified body of a man who was believed to be 111 years old was discovered, but police suspect that he died more than 30 years ago. Shockingly, his family had been living with the body for many years. Similar cases have been reported in quick succession since the Tokyo incident, with many people over 100 years old reported missing. It is unclear whether they are still alive. Although the government has launched an investigation into these cases, it is possible that more will be uncovered. Given these developments, one must question whether Japan is truly the world's longest-living country.",
+            "score": 0.2399307809288755
+        },
+        {
+            "id": 37,
+            "name": "English_Other_0",
+            "input": "Does it Make Sence\nI have a feeling when I hear someone say \"does it make sence\" that it is either the peron is getting impatient or just being rude.\nWhat do you think.\nIf I were for me I wouldn't say so instead I would say something like \"Is it clear\".\nHowever, I am not a native speak, my opionion is not for certain.\nAny one there can give an opinion?",
+            "output": "Does That Make Sense?\nWhen I hear someone say, \"Does it make sense?\", I have a feeling that the person is either getting impatient or just being rude.\nWhat do you think?\nIf I were speaking, I wouldn't say it that way; instead, I would say something like, \"Is it clear?\".\nHowever, I am not a native speaker, so I am not sure about my opinion.\nCan anyone give me an opinion?",
+            "llm_output": "Does it Make Sense?\n\nI have a feeling that when someone says \"does it make sense,\" it may indicate impatience or rudeness. In my opinion, it would be better to say something like \"Is it clear?\" instead. However, as a non-native speaker, my opinion may not be certain. Can anyone else provide their opinion?",
+            "score": 0.2039527572785779
+        },
+        {
+            "id": 62,
+            "name": "English_Korean_3",
+            "input": "I always want to express natural phrase.\nWhen I can't say what i want to express, I feel stuffy, stifling, suffocating,\n( What is more natural verb ?)\nI always want to express natural phrase.",
+            "output": "I always want to express myself using natural phrases.\nWhen I can't say what I want to express, I feel stuffy, stifling, suffocating.\n(What is a more natural verb?)\nI always want to express myself using natural phrases.",
+            "llm_output": "I always want to use natural phrases. When I am unable to articulate what I want to convey, I feel frustrated and suffocated. (Using \"articulate\" instead of \"say\" makes the sentence sound more natural.)",
+            "score": 0.2035102460861953
+        },
+        {
+            "id": 67,
+            "name": "English_English_4",
+            "input": "Happy New Year\nHappy New Year for all people.\nI hope i can get my whises.\nI should graduated from my collage and get a work in this year.\nMany friend and many knowladge that i have.",
+            "output": "Happy New Year!\nHappy New Year to everyone.\nI hope my wishes are granted.\nI should graduate from college and find work this year.\nI have many friends and much knowledge.",
+            "llm_output": "Happy New Year to all!\n\nI hope that I can fulfill my wishes this year. I am looking forward to graduating from college and finding a job. I am grateful for my friends and the knowledge that I have gained.",
+            "score": 0.13972499077032602
+        },
+        {
+            "id": 32,
+            "name": "English_French_0",
+            "input": "The spring.\nToday, the spring comes back.\nFinally, I cutted my forsythias,  my Japanese apple tree, my lilac and my thuyas.\nEverything around me, in the district, it was only noise of lawn mowers, sizes-hedges in the middle of birdsongs and laughters  of the children.",
+            "output": "The Spring.\nToday, the spring has finally come back.\nI was finally able to trim my forsythias, my Japanese apple tree, my lilacs, and my thuyas.\nAll around me, in my area, there were only the noises of lawn mowers and hedge trimmers amid the singing of the birds and laughter of children.",
+            "llm_output": "Spring has arrived today. Finally, I have pruned my forsythias, Japanese apple tree, lilac, and thuyas. The district is filled with the noise of lawn mowers and hedge trimmers amidst the birdsongs and children's laughter.",
+            "score": 0.13644634186480606
+        },
+        {
+            "id": 54,
+            "name": "English_Mandarin_2",
+            "input": "He walked, but can come back\nHe came back to give me big pleasantly surprised!\nJapan leaves China very to be actually near, But felt so is actually\nremote, separates year after the meet to let us excitedly not already.\nAgain separates, I have not cried.\nDoes not want to let him be sad, does not want to let him worry, I must let him see strong me.\nIn the future day will be able to be very difficult, to promise me\nregardless of difficult, do not have to give up our love!",
+            "output": "He walked away, but he came back.\nHe came back to pleasantly surprise me!\nJapan and China are actually very near each other, but it feels so\nremote, to separate a year after meeting it is too soon.\nWe separated again and I did not cry.\nI do not want him to be sad, do not want him to worry, and I must let him see the strong side of me.\nIn the future, it will be very difficult to promise me that he will see me again.\nRegardless of how difficult the situation is, we do not have to give up our love!",
+            "llm_output": "He walked, but he can come back.\nHe came back to give me a big, pleasant surprise!\nAlthough Japan is very close to China geographically, it actually feels quite remote. After being separated for a year, our reunion was very exciting.\nNow that we are separated again, I have not cried.\nI don't want to make him sad or worried. I must show him that I am strong.\nThe future may be difficult, but promise me that no matter how hard it gets, we won't give up on our love!",
+            "score": 0.08924562984422178
+        },
+        {
+            "id": 35,
+            "name": "English_Korean_0",
+            "input": "New Lang-8\nI got an mail last a week.\nIt's from lang-8.\nI wonder about renewed lang-8.\nSo I run fast and come.\nLang-8 changed clean and in good trim.",
+            "output": "New Lang-8\nI got some mail last week.\nIt was from Lang-8.\nI was wondering about the renewed Lang-8.\nSo, I quickly came to renew it.\nI found that it had changed into a clean design.",
+            "llm_output": "New Lang-8\n\nI received an email last week from Lang-8 and I was curious about the renewed website. I quickly logged in to see the changes and was pleasantly surprised to find that Lang-8 had been revamped and looked much cleaner and more organized.",
+            "score": 3.037469306766286e-78
+        },
+        {
+            "id": 113,
+            "name": "English_French_9",
+            "input": "help\nhello, i use lang-8 for first time my level an english is bad",
+            "output": "Help!\nHello, I am using Lang-8 for the first time. My level of English is bad!",
+            "llm_output": "Hello, this is my first time using Lang-8 and my English level is not very good. Can you please help me?",
+            "score": 6.968148412761692e-155
+        }
+    ]
+}

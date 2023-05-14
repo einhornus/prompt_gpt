@@ -1,0 +1,4 @@
+openai
+nltk
+numpy
+matplotlib
