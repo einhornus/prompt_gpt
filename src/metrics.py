@@ -39,4 +39,3 @@ def calculate_bleu(expected, actual):
     reference_list = [tokenized_reference]
     bleu_score = sentence_bleu(reference_list, tokenized_candidate)
     return bleu_score
-
