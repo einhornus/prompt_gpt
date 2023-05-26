@@ -1,0 +1,333 @@
+{
+    "system_message_file": "6",
+    "model": "deep_l",
+    "parameters": {
+        "src": "English",
+        "dest": "Russian"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.47629024917812746
+    ],
+    "prompt": [],
+    "median": 0.47629024917812746,
+    "average": 0.48983830440913934,
+    "std": 0.273359917322706,
+    "percentiles": {
+        "10": 0.1558417803079493,
+        "20": 0.22685213662990314,
+        "25": 0.2944643226851159,
+        "30": 0.3423011752978147,
+        "40": 0.38224660156699847,
+        "50": 0.47629024917812746,
+        "60": 0.5164668884386076,
+        "70": 0.6185095302341446,
+        "75": 0.645804510985929,
+        "80": 0.743512545667625,
+        "90": 0.8842540285185787
+    },
+    "n_tests": 50,
+    "tests": [
+        {
+            "input": "Every spider is a versatile genius: It plans its web like an architect and then carries out this plan like the proficient weaver it is. It is also a chemist who can synthesize silk employing a computer-controlled manufacturing process, and then use the silk for spinning.",
+            "output": "Каждый паук - разносторонний гений: он планирует свою паутину, как архитектор, а затем осуществляет этот план, как искусный ткач. Он также является химиком, который может синтезировать шелк с помощью управляемого компьютером производственного процесса, а затем использовать его для прядения.",
+            "llm_output": "Каждый паук - разносторонний гений: он планирует свою паутину, как архитектор, а затем осуществляет этот план, как искусный ткач. Он также является химиком, который может синтезировать шелк с помощью управляемого компьютером производственного процесса, а затем использовать его для прядения.",
+            "score": 1.0
+        },
+        {
+            "input": "Life is synonymous with chemical engineering of inconceivable complexity, compartmentalization, and incredibly precise organization. It is absolutely impossible to attribute it to the god Chance and the unconscious and blind action of the goddess Natural Selection.",
+            "output": "Жизнь - это синоним химической инженерии немыслимой сложности, компартментализации и невероятно точной организации. Совершенно невозможно приписать это богу Случаю и бессознательному и слепому действию богини Естественного Отбора.",
+            "llm_output": "Жизнь - это синоним химической инженерии немыслимой сложности, компартментализации и невероятно точной организации. Совершенно невозможно приписать это богу Случаю и бессознательному и слепому действию богини Естественного Отбора.",
+            "score": 1.0
+        },
+        {
+            "input": "The fathers of modern science – Copernicus, Galileo, Kepler, Newton, Boyle, and many others – saw clear evidence of design in the universe and, in fact, were inspired to discover the laws of nature by their faith in a transcendent lawgiver.",
+            "output": "Отцы современной науки – Коперник, Галилей, Кеплер, Ньютон, Бойль и многие другие – видели явные доказательства замысла во Вселенной и, по сути, были вдохновлены на открытие законов природы своей верой в трансцендентного законодателя.",
+            "llm_output": "Отцы современной науки - Коперник, Галилей, Кеплер, Ньютон, Бойль и многие другие - видели явные доказательства замысла во Вселенной и, по сути, были вдохновлены на открытие законов природы своей верой в трансцендентного Законодателя.",
+            "score": 1.0
+        },
+        {
+            "input": "The match for the FIDE 2023 World Chess Championship is tied (6 X 6), with Ding Liren (White) winning the twelfth game. Only two more games remain for one of the competitors to achieve the decisive advantage.",
+            "output": "В матче за звание чемпиона мира ФИДЕ 2023 по шахматам ничья (6 X 6), Дин Лирен (белые) выиграла двенадцатую партию. Осталось еще две партии, чтобы один из участников добился решающего преимущества.",
+            "llm_output": "В матче за звание чемпиона мира ФИДЕ 2023 по шахматам ничья (6 X 6), Дин Лирен (белые) выиграла двенадцатую партию. Осталось еще две партии, чтобы один из участников добился решающего преимущества.",
+            "score": 1.0
+        },
+        {
+            "input": "Signaling systems transmit information within cells, between cells, between organs, between entire organisms, between populations of organisms, and even between different species in entire ecosystems.",
+            "output": "Сигнальные системы передают информацию внутри клеток, между клетками, между органами, между целыми организмами, между популяциями организмов и даже между различными видами в целых экосистемах.",
+            "llm_output": "Сигнальные системы передают информацию внутри клеток, между клетками, между органами, между целыми организмами, между популяциями организмов и даже между различными видами в целых экосистемах.",
+            "score": 1.0
+        },
+        {
+            "input": "J. J. Thomson and his son George Thomson were both awarded the Nobel Prize in Physics: the former in 1906 for demonstrating that the electron is a particle, and the latter in 1937 for showing that the electron is a wave.",
+            "output": "Дж. Дж. Томсон и его сын Джордж Томсон были удостоены Нобелевских премий по физике: первый в 1906 году за демонстрацию того, что электрон является частицей, а второй в 1937 году за демонстрацию того, что электрон является волной.",
+            "llm_output": "J. Дж. Томсон и его сын Джордж Томсон были удостоены Нобелевской премии по физике: первый в 1906 году за демонстрацию того, что электрон является частицей, а второй в 1937 году за демонстрацию того, что электрон является волной.",
+            "score": 0.8713933650206428
+        },
+        {
+            "input": "The first official contest for the title of World Chess Champion (a 24-game match) took place in New York, Saint Louis, and New Orleans between Wilhelm Steinitz (the winner) and Johannes Zukertort, in 1886.",
+            "output": "Первое официальное соревнование за звание чемпиона мира по шахматам (матч из 24 игр) состоялось в 1886 году в Нью-Йорке, Сент-Луисе и Новом Орлеане между Вильгельмом Стейницем (победителем) и Йоханнесом Цукертортом.",
+            "llm_output": "Первое официальное соревнование за звание чемпиона мира по шахматам (матч из 24 партий) состоялось в Нью-Йорке, Сент-Луисе и Новом Орлеане между Вильгельмом Стейницем (победителем) и Йоханнесом Цукертортом в 1886 году.",
+            "score": 0.8445622656078097
+        },
+        {
+            "input": "According to Tom, the theory of evolution by random mutations and natural selection is not convincing for several reasons, the most important of which is the existence of DNA. Among other unacceptable points, Tom adds, this theory claims that the human mind – Socrates, Plato, Aristotle, Galileo, Newton, Shakespeare, Descartes, Da Vinci, Mozart, Einstein, Darwin himself – evolved from the mind of an unidentified primate, which would be our ancestor.",
+            "output": "По мнению Тома, теория эволюции путем случайных мутаций и естественного отбора неубедительна по нескольким причинам, самой важной из которых является существование ДНК. Среди прочих неприемлемых пунктов, добавляет Том, эта теория утверждает, что человеческий разум – Сократа, Платона, Аристотеля, Галилея, Ньютона, Шекспира, Декарта, да Винчи, Моцарта, Эйнштейна, самого Дарвина – развился из разума неизвестного примата, который якобы был нашим предком.",
+            "llm_output": "По словам Тома, теория эволюции путем случайных мутаций и естественного отбора неубедительна по нескольким причинам, самой важной из которых является существование ДНК. Среди других неприемлемых моментов, добавляет Том, эта теория утверждает, что человеческий разум - Сократа, Платона, Аристотеля, Галилея, Ньютона, Шекспира, Декарта, да Винчи, Моцарта, Эйнштейна, самого Дарвина - развился из разума неизвестного примата, который был бы нашим предком.",
+            "score": 0.8347647288201488
+        },
+        {
+            "input": "Thomas understands that natural laws and forces, space-time, electromagnetic and gravitational fields, energy, atoms, stars, galaxies, life, everything, in short, had its origin in an indescribable singularity that mysteriously exploded: the Big Bang.",
+            "output": "Томас понимает, что природные законы и силы, пространство-время, электромагнитные и гравитационные поля, энергия, атомы, звезды, галактики, жизнь - словом, все зародилось в неописуемой сингулярности, которая таинственным образом взорвалась: Большой взрыв.",
+            "llm_output": "Томас понимает, что природные законы и силы, пространство-время, электромагнитные и гравитационные поля, энергия, атомы, звезды, галактики, жизнь, все, короче говоря, возникло в неописуемой сингулярности, которая таинственным образом взорвалась: Большой взрыв.",
+            "score": 0.8114217758899006
+        },
+        {
+            "input": "The algorithm a cell follows when making a protein is extremely complex. Roughly speaking, the coded information – four-letter words – stored in the DNA is copied, translated into a language whose alphabet has twenty letters, edited, and transmitted to the area where the protein is assembled.",
+            "output": "Алгоритм, которому следует клетка при создании белка, чрезвычайно сложен. Грубо говоря, закодированная информация - четырехбуквенные слова - хранящаяся в ДНК, копируется, переводится на язык, алфавит которого состоит из двадцати букв, редактируется и передается в область сборки белка.",
+            "llm_output": "Алгоритм, которому следует клетка при создании белка, чрезвычайно сложен. Грубо говоря, закодированная информация - слова из четырех букв - хранящаяся в ДНК, копируется, переводится на язык, алфавит которого состоит из двадцати букв, редактируется и передается в область, где происходит сборка белка.",
+            "score": 0.7563378253711999
+        },
+        {
+            "input": "From the 26th to the 28th of September 2015, nine people from five countries gathered in Brno (Czech Republic) to have fun together learning and using the Toki Pona language. In this video they are in a university botanical garden and talk about what they see.",
+            "output": "С 26 по 28 сентября 2015 года девять человек из пяти стран собрались в Брно, Чешская Республика, чтобы вместе весело провести время, изучая язык токипона. В этом видео они находятся в университетском ботаническом саду и рассказывают о том, что видят.",
+            "llm_output": "С 26 по 28 сентября 2015 года девять человек из пяти стран собрались в Брно (Чешская Республика), чтобы вместе весело провести время, изучая и используя язык Токи Пона. В этом видео они находятся в университетском ботаническом саду и рассказывают о том, что видят.",
+            "score": 0.7403062257417312
+        },
+        {
+            "input": "I have not read it, but someone who has read the book \"On the origin of species\" by Charles Darwin guarantees that he claims that all living beings – plants, insects, reptiles, birds, dinosaurs, whales, man – descend from a common ancestor, from which they evolved, diversifying according to a law he calls \"natural selection\".",
+            "output": "Я не читал его, но любой, кто читал книгу Чарльза Дарвина «О происхождении видов», подтвердит, что он утверждает, что все живые существа – растения, насекомые, рептилии, птицы, динозавры, киты, человек – происходят от общего предка, от которого они произошли, изменяясь в соответствии с законом, который он называет «естественным отбором».",
+            "llm_output": "Я не читал ее, но тот, кто читал книгу Чарльза Дарвина \"О происхождении видов\", гарантирует, что он утверждает, что все живые существа - растения, насекомые, рептилии, птицы, динозавры, киты, человек - происходят от общего предка, от которого они эволюционировали, изменяясь в соответствии с законом, который он называет \"естественным отбором\".",
+            "score": 0.663305625356991
+        },
+        {
+            "input": "If Darwin lived today, would he have imagined that the highly sophisticated information-processing system that our advanced technology allows us to see in action in cells came about randomly and blindly and by natural selection?",
+            "output": "Если бы Дарвин был жив сегодня, смог ли бы он вообразить, что очень сложная система обработки информации, которую наши передовые технологии позволяют нам увидеть в действии в клетках, возникла случайно, вслепую и путем естественного отбора?",
+            "llm_output": "Если бы Дарвин жил сегодня, мог ли он представить, что сложнейшая система обработки информации, которую наши передовые технологии позволяют нам увидеть в действии в клетках, возникла случайно, вслепую и путем естественного отбора?",
+            "score": 0.6482581184589173
+        },
+        {
+            "input": "Scientists define the beginning of interstellar space as the place where the sun’s constant flow of material and magnetic field stop affecting its surroundings. This place is called the heliopause. It marks the end of a region created by our sun that is called the heliosphere.",
+            "output": "Ученые определяют начало межзвездного пространства как место, где постоянный поток вещества и магнитное поле Солнца перестают влиять на его окружающую среду. Это место называют гелиопаузой. Она отмечает конец области, созданной нашим солнцем, которая называется гелиосферой.",
+            "llm_output": "Ученые определяют начало межзвездного пространства как место, где постоянный поток вещества и магнитное поле Солнца перестают воздействовать на окружающее пространство. Это место называется гелиопаузой. Она является концом области, созданной нашим Солнцем, которая называется гелиосферой.",
+            "score": 0.638443688566964
+        },
+        {
+            "input": "And the angel said unto them, Fear not: for, behold, I bring you good tidings of great joy, which shall be to all people. For unto you is born this day in the city of David a Saviour, which is Christ the Lord. And this shall be a sign unto you; Ye shall find the babe wrapped in swaddling clothes, lying in a manger. And suddenly there was with the angel a multitude of the heavenly host praising God, and saying, Glory to God in the highest, and on earth peace, good will toward men.",
+            "output": "И сказал им Ангел: не бойтесь; я возвещаю вам великую радость, которая будет всем людям: ибо ныне родился вам в городе Давидовом Спаситель, Который есть Христос Господь; и вот вам знак: вы найдете Младенца в пеленах, лежащего в яслях. И внезапно явилось с Ангелом многочисленное воинство небесное, славящее Бога и взывающее: слава в вышних Богу, и на земле мир, в человеках благоволение!",
+            "llm_output": "И сказал им Ангел: не бойтесь, ибо вот, Я возвещаю вам великую радость, которая будет всем людям. Ибо ныне родился вам в городе Давидовом Спаситель, Который есть Христос Господь. И сие будет вам знамением; вы найдете Младенца, обвитого пеленами, лежащего в яслях. И вдруг явилось с Ангелом множество воинства небесного, славящего Бога и говорящего: слава в вышних Богу, и на земле мир, в человеках благоволение.",
+            "score": 0.6369665095778879
+        },
+        {
+            "input": "It is encouraging to see by reading some modern books that scientists are beginning to realize that not all the amazingly intelligent processes of the creation, maintenance, and evolution of life arose solely by chance and natural selection.",
+            "output": "Читая некоторые современные книги, мы с облегчением отмечаем, что учёные начинают понимать, что не все удивительно разумные процессы создания, поддержания и эволюции жизни возникли исключительно благодаря случайности и естественному отбору.",
+            "llm_output": "Отрадно видеть, читая некоторые современные книги, что ученые начинают понимать, что не все удивительные интеллектуальные процессы создания, поддержания и эволюции жизни возникли исключительно благодаря случайности и естественному отбору.",
+            "score": 0.6105993962296832
+        },
+        {
+            "input": "This is a proxy conflict between the former president and the former vice president, William A. Galston, a senior fellow in Brookings' Governance Studies program, told VOA as ballots were being cast on Tuesday.",
+            "output": "Это опосредственный конфликт между бывшим президентом и бывшим вице-президентом, - сказал \"Голосу Америки\" Уильям А. Галстон, старший научный сотрудник программы исследований управления Брукингса, во время голосования во вторник.",
+            "llm_output": "Это конфликт по доверенности между бывшим президентом и бывшим вице-президентом, сказал \"Голосу Америки\" Уильям А. Галстон, старший научный сотрудник программы Брукингса по изучению управления, когда во вторник проходило голосование.",
+            "score": 0.6087149984319751
+        },
+        {
+            "input": "This is a proxy conflict between the former president and the former vice president, William A. Galston, a senior fellow in Brookings' Governance Studies program, told VOA as ballots were being cast on Tuesday.",
+            "output": "Это опосредованный конфликт между бывшим президентом и бывшим вице-президентом, - сказал \"Голосу Америки\" Уильям А. Галстон, старший научный сотрудник программы исследований управления Брукингса, во время голосования во вторник.",
+            "llm_output": "Это конфликт по доверенности между бывшим президентом и бывшим вице-президентом, сказал \"Голосу Америки\" Уильям А. Галстон, старший научный сотрудник программы Брукингса по изучению управления, когда во вторник проходило голосование.",
+            "score": 0.6087149984319751
+        },
+        {
+            "input": "A Darwinist's reaction when reading about the human fertilization process in a molecular biology textbook: – How powerful natural selection is! The mind of the author of this book evolved from a primate's mind!",
+            "output": "Реакция дарвиниста, читающего о процессе оплодотворения человека в учебнике молекулярной биологии: - Насколько силен естественный отбор! Разум автора этой книги произошел из разума приматов!",
+            "llm_output": "Реакция дарвиниста, прочитавшего в учебнике молекулярной биологии о процессе оплодотворения человека: - Как силен естественный отбор! Разум автора этой книги произошел от разума примата!",
+            "score": 0.5440577076934588
+        },
+        {
+            "input": "The digital information in DNA is only part of a complex information-processing system, an advanced form of nanotechnology that mirrors and excels our own in its complexity, storage density, and logic of design.",
+            "output": "Цифровая информация, содержащаяся в ДНК, - всего лишь часть сложной системы обработки информации, передовой формы нанотехнологии, которая отражает и превосходит нашу по сложности, плотности хранения и логике проектирования.",
+            "llm_output": "Цифровая информация в ДНК - это лишь часть сложной информационно-процессорной системы, передовой формы нанотехнологии, которая отражает и превосходит нашу собственную по сложности, плотности хранения и логике построения.",
+            "score": 0.5216024124762749
+        },
+        {
+            "input": "Ruy López de Segura, a priest and a famous Spanish chess player of the 16th century, wrote a book of 150 pages, called Libro del Ajedrez, about exhaustive studies he made on the opening (1. e4 e5 2. ♘f3 ♘c6 3. ♗b5) that is named after him.",
+            "output": "Руи Лопес де Сегура, священник и известный испанский шахматист XVI века, написал книгу на 150 страниц под названием Libro del Ajedrez, посвящённую подробному исследованию им дебюта 1. e4 e5 2. ♘f3 ♞c6 3. ♗b5, названного в его честь.",
+            "llm_output": "Руй Лопес де Сегура, священник и известный испанский шахматист XVI века, написал книгу в 150 страниц под названием Libro del Ajedrez об исчерпывающих исследованиях, проведенных им по дебюту (1. e4 e5 2. ♘f3 ♘c6 3. ♗b5), который назван в его честь.",
+            "score": 0.5130432057468294
+        },
+        {
+            "input": "Of two balls of the same size (one made of iron, the other of wood) falling from the top of a tower, the iron one, because it has a greater gravitational charge (being heavier), is attracted with greater force, but, on the other hand, precisely because it has more mass (inertia), it offers greater resistance to falling. The result: both touch the ground at the same time, as Galileo demonstrated.",
+            "output": "Из двух шаров одинакового размера (один железный, другой деревянный), падающих с вершины башни, железный шар, поскольку он имеет больший гравитационный заряд (потому что он тяжелее), притягивается с большей силой, но, с другой стороны, именно благодаря большей массе (инерции) он оказывает большее сопротивление падению. В результате, оба касаются земли одновременно, как продемонстрировал Галилей.",
+            "llm_output": "Из двух одинаковых по размеру шаров (один из железа, другой из дерева), падающих с вершины башни, железный, поскольку он имеет больший гравитационный заряд (будучи тяжелее), притягивается с большей силой, но, с другой стороны, именно потому, что он имеет большую массу (инерцию), он оказывает большее сопротивление падению. В результате оба они касаются земли одновременно, что и продемонстрировал Галилей.",
+            "score": 0.511656349751131
+        },
+        {
+            "input": "Ding Liren is the new World Chess Champion. In the tiebreaker, the first three games ended in a draw, and the fourth, with Ding leading the black pieces in a Spanish opening, was sensationally won by the Chinese Dragon, who thus overcame the Russian Bear, Ian Nepomniachtchi. The top of the chess universe has a new face.",
+            "output": "Дин Лижэнь — новый чемпион мира по шахматам. На тай-брейке первые три партии закончились вничью, а четвертую, когда Дин вел черными в испанском дебюте, сенсационно выиграл китайский дракон, который таким образом победил русского медведя Яна Непомнящего. У вершины шахматной вселенной новое лицо.",
+            "llm_output": "Дин Лирен - новый чемпион мира по шахматам. На тай-брейке первые три партии закончились вничью, а четвертая, в которой Дин вела черные фигуры в испанском дебюте, была сенсационно выиграна китайским Драконом, который таким образом одолел русского Медведя Яна Непомнящего. У вершины шахматной вселенной появилось новое лицо.",
+            "score": 0.4974000057452364
+        },
+        {
+            "input": "If someone who doesn't know your background says that you sound like a native speaker, it means they probably noticed something about your speaking that made them realize you weren't a native speaker. In other words, you don't really sound like a native speaker.",
+            "output": "Если кто-то незнакомый говорит, что вы говорите как носитель языка, это значит, что он, вероятно, заметил что-то в вашей речи, что дало ему понять, что вы не носитель. Другими словами, вы не говорите как носитель.",
+            "llm_output": "Если кто-то, не зная вашей биографии, говорит, что вы говорите как носитель языка, это означает, что он, вероятно, заметил что-то в вашей речи, что заставило его понять, что вы не являетесь носителем языка. Другими словами, на самом деле вы не говорите как носитель языка.",
+            "score": 0.4857856587372204
+        },
+        {
+            "input": "Thomas was an atheist. Now he is studying biochemistry and has become convinced that something like DNA and RNA molecules cannot be the product of natural laws and forces generated by the Big Bang.",
+            "output": "Томас был атеистом. Теперь он изучает биохимию и убедился, что что-то вроде молекул ДНК и РНК не может быть продуктом естественных законов и сил, порожденных Большим взрывом.",
+            "llm_output": "Томас был атеистом. Сейчас он изучает биохимию и убедился, что такие вещи, как молекулы ДНК и РНК, не могут быть продуктом природных законов и сил, порожденных Большим взрывом.",
+            "score": 0.47901455811287486
+        },
+        {
+            "input": "I've heard that you should never date anyone who is less than half your age plus seven. Tom is now 30 years old and Mary is 17. How many years will Tom need to wait until he can start dating Mary?",
+            "output": "Я слышал, что никогда не следует встречаться с кем-то вдвое младше вас плюс семь лет. Тому 30 лет, a Мэри 17. Сколько лет Тому нужно ждать до тех пор, пока он сможет начать встречаться с Мэри?",
+            "llm_output": "Я слышал, что никогда не следует встречаться с теми, кто младше тебя на половину возраста плюс семь лет. Тому сейчас 30 лет, а Мэри - 17. Сколько лет Тому придется ждать, прежде чем он сможет начать встречаться с Мэри?",
+            "score": 0.47356594024338
+        },
+        {
+            "input": "Russia’s nuclear saber-rattling has the attention of top U.S. intelligence officials, some of whom are expressing growing concern about the Kremlin’s willingness to unleash some of its nuclear arsenal as it faces “potential desperation” in Ukraine.",
+            "output": "Бряцание ядерным оружием со стороны России привлекло внимание высших должностных лиц американской разведки, некоторые из которых выражают растущую обеспокоенность готовностью Кремля задействовать часть своего ядерного потенциала вследствие \"возможной безысходности\" на Украине.",
+            "llm_output": "Ядерные сабли России привлекли внимание высших должностных лиц американской разведки, некоторые из которых выражают растущую обеспокоенность готовностью Кремля развязать часть своего ядерного арсенала, поскольку он сталкивается с \"потенциальным отчаянием\" в Украине.",
+            "score": 0.46278037229563734
+        },
+        {
+            "input": "I've known Jeff for 15 years. Terrific guy. He's a lot of fun to be with. It is even said that he likes beautiful women as much as I do, and many of them are on the younger side. No doubt about it — Jeffrey enjoys his social life.",
+            "output": "Я знаю Джеффа пятнадцать лет. Отличный мужик. С ним очень весело. Говорят даже, что ему нравятся красотки настолько же, как и мне, и многие из них помладше. Можно сказать без сомнений: с общением у Джеффри всё прекрасно.",
+            "llm_output": "Я знаю Джеффа уже 15 лет. Потрясающий парень. С ним очень весело. Говорят даже, что ему нравятся красивые женщины, как и мне, и многие из них моложе. Нет сомнений - Джеффри наслаждается своей общественной жизнью.",
+            "score": 0.41226386485873157
+        },
+        {
+            "input": "Hey Tom, remember when we were kids, and we climbed that big tree in the park and hung on a branch by our knees to see who could stay on the longest? \"Yeah, I do. It felt weird as the blood rushed to our heads, but it made us laugh so hard we almost fall off.\" \"We should try that again sometime.\"",
+            "output": "Эй, Том, помнишь, как мы в детстве залезали на то большое дерево в парке и висели на коленках вниз головой, чтобы посмотреть, кто дольше продержится? - \"Ага, помню. Странное было ощущение, когда кровь приливала к голове, но мы так смеялись, что чуть не падали на землю\". - \"Надо будет как-нибудь ещё раз попробовать\".",
+            "llm_output": "Эй, Том, помнишь, когда мы были детьми, мы забирались на большое дерево в парке и висели на ветке, держась за колени, чтобы посмотреть, кто сможет продержаться дольше всех? \"Да, помню. Было странное ощущение, когда кровь приливала к голове, но мы так смеялись, что чуть не свалились\". \"Мы должны как-нибудь попробовать это снова\".",
+            "score": 0.397578514662381
+        },
+        {
+            "input": "When I was three, 'tomorrow' to me meant 'in a nearly infinite amount of time', so when my parents would tell me I was going to get something tomorrow, I would start crying since it meant I could never get what I wanted. Now, though, at the wise age of seven, waiting for the following day to come was much easier, and I was even able to comprehend that the onset of winter would not last forever.",
+            "output": "В три года слово «завтра» означало для меня «через почти бесконечно много времени», поэтому, когда родители говорили мне, что я получу что-то завтра, то я начинал плакать, потому что это означало, что я никогда не получу того, чего хотел. Теперь же, в умудрённом семилетнем возрасте, дождаться следующего дня было гораздо легче, и я даже мог осмыслить, что, когда приходила зима, это было не навсегда.",
+            "llm_output": "Когда мне было три года, \"завтра\" для меня означало \"через почти бесконечное количество времени\", поэтому, когда родители говорили мне, что я получу что-то завтра, я начинал плакать, потому что это означало, что я никогда не смогу получить то, что хочу. Теперь же, в мудром возрасте семи лет, ждать наступления следующего дня стало гораздо легче, и я даже смог понять, что наступление зимы не будет длиться вечно.",
+            "score": 0.38355115941096457
+        },
+        {
+            "input": "Magnus Carlsen retained his title of World Chess Champion. With four wins and seven draws in eleven games, he subdued by 7.5 x 3.5 the challenger Ian Nepomniachtchi, who throughout the competition made some serious mistakes.",
+            "output": "Магнус Карлсен сохранил титул чемпиона мира по шахматам. С четырьмя победами и семью ничьими в одиннадцати матчах он победил со счетом 7,5 : 3,5 претендента Яна Непомнящего, который на протяжении всего соревнования допускал серьезные ошибки.",
+            "llm_output": "Магнус Карлсен сохранил свой титул чемпиона мира по шахматам. Одержав четыре победы и семь ничьих в одиннадцати партиях, он со счетом 7,5 х 3,5 уступил претенденту Яну Непомнящему, который на протяжении всего соревнования допускал серьезные ошибки.",
+            "score": 0.38028976480104937
+        },
+        {
+            "input": "When I was little, I once broke my mom's favorite necklace, and all the little pieces spilled onto the road. \"Was she mad at you?\" \"I don't really remember.\" \"Then how do you know you did that?\" \"She told me about it several times.\" \"She's probably holding it against you.\" \"You think?\" \"Maybe. Once you start making money, you should buy her another one to make up for it.\" \"Alright, I will.\"",
+            "output": "Когда я был маленьким, я однажды порвал мамино любимое колье, и все маленькие бусины рассыпались по дороге. - \"Она тогда сильно на тебя разозлилась?\" - \"Я точно не помню\". \"Тогда откуда ты узнал эту историю?\" - \"Мама рассказывала мне ее несколько раз\". - \"Она, должно быть, до сих пор злится на тебя\". - \"Ты так считаешь?\" - \"Наверное. Когда ты станешь зарабатывать, ты должен купить ей другое, чтобы извиниться\". \"Хорошо, я так и сделаю\".",
+            "llm_output": "Когда я была маленькой, я однажды сломала любимое мамино ожерелье, и все мелкие кусочки рассыпались по дороге. \"Она злилась на тебя?\" \"Я точно не помню\". \"Тогда откуда ты знаешь, что ты это сделала?\" \"Она говорила мне об этом несколько раз\". \"Возможно, она держит на тебя зуб\". \"Ты думаешь?\" \"Может быть. Как только ты начнешь зарабатывать деньги, ты должен купить ей еще один, чтобы загладить свою вину\". \"Хорошо, я так и сделаю\".",
+            "score": 0.3711479767658362
+        },
+        {
+            "input": "That Linus once reproached Hercules for not being studious; then, in a rage, the boy suddenly took up the lyre and struck with all his might the head of the unfortunate teacher, who, prostrated by the blow, soon after died. And no one after that wanted to take charge of such an office.",
+            "output": "Однажды Линус упрекнул Геракла в неусидчивости; тогда мальчик в ярости поднял свою лиру и со всей силы ударил по голове несчастного учителя, который, распростершись от удара, вскоре умер. И с тех пор никто не хотел браться за такую задачу.",
+            "llm_output": "Этот Линус однажды упрекнул Геракла в том, что тот не прилежен в учебе; тогда мальчик в ярости вдруг взял лиру и со всей силы ударил по голове несчастного учителя, который от удара скончался. И никто после этого не хотел брать на себя такую должность.",
+            "score": 0.35121296579439637
+        },
+        {
+            "input": "Many heretics, witches, and atheists were burned at the stake of the Inquisition. Today, the scientist who unwittingly declares that he believes in a supernatural intelligence will be discriminated against by his materialistic peers and persecuted in his professional career.",
+            "output": "Многие еретики, ведьмы и атеисты были сожжены на кострах инквизиции. Сегодня ученый, который по неосторожности заявляет, что верит в сверхъестественный интеллект, будет подвергнут дискриминации со стороны его сверстников-материалистов и будет иметь неприятности в своей профессиональной деятельности.",
+            "llm_output": "Многие еретики, ведьмы и атеисты были сожжены на костре инквизиции. Сегодня ученый, который невольно заявляет о своей вере в сверхъестественный разум, подвергается дискриминации со стороны своих коллег-материалистов и преследованиям в своей профессиональной карьере.",
+            "score": 0.3440711542177077
+        },
+        {
+            "input": "If we see that Germany is winning the war we ought to help Russia, and if Russia is winning we ought to help Germany, and that way let them kill as many as possible, although I don't want to see Hilter victorious under any circumstances.",
+            "output": "Если мы видим, что побеждает Германия, надо помочь России, а если побеждает Россия – надо помочь Германии, и таким образом позволить им убивать друг друга как можно больше, хотя победу Гитлера я не желаю видеть ни при каких обстоятельствах.",
+            "llm_output": "Если мы видим, что Германия выигрывает войну, мы должны помочь России, а если Россия выигрывает, мы должны помочь Германии, и таким образом пусть они убьют как можно больше, хотя я ни при каких обстоятельствах не хочу видеть Хилтера победителем.",
+            "score": 0.343416540895195
+        },
+        {
+            "input": "With high-precision performances from both players, the eleventh match of the FIDE World Chess Championship 2023 ended in a draw. Now (April 24): Nepo 6, Ding Liren 5. Three more draws will be enough for the Russian to reach the tally (7.5) which will give him the title of World Champion",
+            "output": "Благодаря высокоточным выступлениям обоих игроков ничьей завершился одиннадцатый матч чемпионата мира по шахматам ФИДЕ 2023. Сейчас (24 апреля): Непомнящий 6, Дин Лижэнь 5. Еще трех ничьих будет достаточно, чтобы россиянин вышел в счет (7.5) что даст ему титул чемпиона мира.",
+            "llm_output": "При высокоточном исполнении обоих игроков одиннадцатый матч чемпионата мира ФИДЕ по шахматам 2023 года завершился вничью. Сейчас (24 апреля): Непо 6, Динь Лирен 5. Еще трех ничьих будет достаточно, чтобы россиянин достиг показателя (7,5), который обеспечит ему звание чемпиона мира.",
+            "score": 0.3396986555705939
+        },
+        {
+            "input": "I'm glad that I have been to war and have personally seen all the horrors that are inevitably connected with war, and after that I think that anyone with a heart cannot wish for war, and any ruler whom God entrusted his people to must take every measure to avoid the horrors of war.",
+            "output": "Я рад, что был на войне и видел сам все ужасы, неизбежно связанные с войной, и после этого я думаю, что всякий человек с сердцем не может желать войны, а всякий правитель, которому Богом вверен народ, должен принимать все меры, для того чтобы избегать ужасов войны.",
+            "llm_output": "Я рад, что побывал на войне и лично видел все ужасы, которые неизбежно связаны с войной, и после этого считаю, что любой человек с сердцем не может желать войны, и любой правитель, которому Бог доверил свой народ, должен принять все меры, чтобы избежать ужасов войны.",
+            "score": 0.3108257461523475
+        },
+        {
+            "input": "Here's a screenshot of their store page from a week ago, and here's what it looks like today. They have the exact same prices listed, but the current one claims they're all 50% off. Strange, isn't it?",
+            "output": "Вот здесь скриншот страницы их магазина недельной давности, а вот здесь то, как она же выглядит сегодня. На них указан один и тот же ценник, но текущая версия утверждает, что всё идёт с 50% скидкой. Странно, не находишь?",
+            "llm_output": "Вот скриншот страницы их магазина недельной давности, а вот как она выглядит сегодня. На них указаны точно такие же цены, но на текущей странице утверждается, что на все товары действует скидка 50%. Странно, не правда ли?",
+            "score": 0.28901051486270535
+        },
+        {
+            "input": "What the hell? You can't kick me out of my house! That is illegal, you know. \"Uh, I might have gotten drunk and put the castle on eBay.\" \"You... you did what?\" \"I think he said he put the castle on eBay.\" \"I know what he said!\" \"Do not worry, my friends, I'm going to take care of this situation. We're going to crash at Duke Onkled's!\" \"...You've got to be kidding.\"",
+            "output": "«Чёрт возьми, нельзя выгонять меня из собственного дома! Это незаконно, знаете ли». – «Э, я, наверно, напился и выставил замок на eBay». – «Ты что сделал?» – «По-моему, он сказал, что выставил замок на eBay». – «Да знаю я, что он сказал!» – «Не волнуйтесь, друзья мои, я разрулю эту ситуацию. Мы заявимся к герцогу Онкледу!» – «...Ты, поди, шутишь».",
+            "llm_output": "Какого черта? Вы не можете выгнать меня из моего дома! Это незаконно, знаешь ли. \"Возможно, я напился и выставил замок на eBay\". \"Ты... ты сделал что?\" \"Кажется, он сказал, что выставил замок на eBay\". \"Я знаю, что он сказал!\" \"Не волнуйтесь, друзья мои, я разберусь с этой ситуацией. Мы собираемся переночевать у герцога Онкледа!\" \"...Ты, наверное, шутишь.\"",
+            "score": 0.2545477677965796
+        },
+        {
+            "input": "The French biathlete Martin Fourcade is a seven-time champion of the Overall World Cup. In the 2010s, he won the big crystal globe seven consecutive times, which no other man or woman could manage.",
+            "output": "Французский биатлонист Мартен Фуркад – семикратный обладатель Кубка мира в общем зачёте. В 2010-х он взял БХГ семь раз подряд, что больше не удавалось никому среди мужчин или женщин.",
+            "llm_output": "Французский биатлонист Мартен Фуркад - семикратный чемпион общего зачета Кубка мира. В 2010-х годах он семь раз подряд выигрывал большой хрустальный глобус, что не удавалось ни одному мужчине или женщине.",
+            "score": 0.23368936312986366
+        },
+        {
+            "input": "Guys, better not bring up this topic. You're young and playful, and everything's easy for you. It's not what you think. It's not Chikatilo, and not even FBI archives. Better not venture here. I'm serious: you will regret it. Better abandon the topic and forget everything written here. I quite understand this message provokes more interest, but I want to warn the curious: stop. Those who don't will never be found again.",
+            "output": "Ребята, не стоит вскрывать эту тему. Вы молодые, шутливые, вам все легко. Это не то. Это не Чикатило и даже не архивы спецслужб. Сюда лучше не лезть. Серьезно, любой из вас будет жалеть. Лучше закройте тему и забудьте, что тут писалось. Я вполне понимаю, что данным сообщением вызову дополнительный интерес, но хочу сразу предостеречь пытливых – стоп. Остальных просто не найдут.",
+            "llm_output": "Парни, лучше не поднимайте эту тему. Вы молоды и игривы, и вам все дается легко. Это не то, что вы думаете. Это не Чикатило, и даже не архивы ФБР. Лучше сюда не соваться. Я серьезно: вы об этом пожалеете. Лучше откажитесь от этой темы и забудьте все, что здесь написано. Я вполне понимаю, что это сообщение вызывает больший интерес, но хочу предупредить любопытных: остановитесь. Тех, кто этого не сделает, уже никогда не найти.",
+            "score": 0.19950323063006092
+        },
+        {
+            "input": "I like this board a lot, but one of the most frustrating things about it is the amount of posters here who have a serious lack of understanding of any form of humour and who consequently take things too seriously. It is a real annoyance but one has to live with it.",
+            "output": "Мне очень нравится этот форум, но один из самых бесячих моментов – количество здесь людей, которые принципиально не понимают ни в какой форме юмор и потому относятся ко всему слишком серьёзно. Это весьма раздражает, но приходится с этим жить.",
+            "llm_output": "Мне очень нравится этот форум, но одна из самых неприятных вещей в нем - это количество постеры, которые имеют серьезное непонимание любой формы юмора и, следовательно, воспринимают все слишком серьезно. Это действительно раздражает, но с этим приходится жить.",
+            "score": 0.18158284737203628
+        },
+        {
+            "input": "Although King Harkinian is pretty much an omnivore, as much as a human being could ever be, his favourite food is by far the fabled Munf Munf cereal. One curious exception to his habit of eating everything that's on the dinner table is spaghetti, which he loathes deeply, decreeing that nobody bring it into Hyrule Castle. Luigi and Mario are the only people banned from the Hyrule Kingdom for life for violating this order.",
+            "output": "Хотя король Харкиниан, в сущности, всеяден, насколько это вообще возможно для человека, его бесспорно любимая еда — легендарная овсянка Munf Munf. Любопытным исключением из его привычки сметать всё, что выложено на обеденный стол, является спагетти, к которому он питает глубокую неприязнь, и своим указом запретил кому бы то ни было проносить его в замок Хайрул. Марио и Луиджи — единственные, кому за нарушение сего указа въезд в королевство Хайрул запрещён пожизненно.",
+            "llm_output": "Хотя король Харкиниан практически всеяден, насколько это вообще возможно для человека, его любимая еда - легендарные хлопья Мунф-Мунф. Любопытное исключение из его привычки есть все, что есть на обеденном столе, - спагетти, которые он глубоко ненавидит и приказал никому не приносить их в замок Хайрул. Луиджи и Марио - единственные люди, которым пожизненно запрещено появляться в королевстве Хайрул за нарушение этого приказа.",
+            "score": 0.17937399135457657
+        },
+        {
+            "input": "Then he called the bridegroom aside and said, \"Everyone brings out the choice wine first and then the cheaper wine after the guests have had too much to drink, but you have saved the best till now.\"",
+            "output": "Затем он отвел жениха в сторону и сказал ему: \"Все предлагают сначала самое качественное вино, оставляя самое дешевое на потом, когда гости наедятся, но ты пока зарезервировал самое лучшее.",
+            "llm_output": "Затем он отозвал жениха в сторону и сказал: \"Все сначала выносят отборное вино, а потом более дешевое, когда гости уже слишком много выпили, но ты приберег лучшее до этого момента\".",
+            "score": 0.17787737198601233
+        },
+        {
+            "input": "Hey! That old guy woke up. \"Where am I?\" \"In Hyrule. You were in a coma.\" \"How long?\" \"A month.\" \"I see. What happened during the time I—\" \"Enough! I'm going to Subway for dinner.\" \"Yeah, we're going — Link, are you going too?\" \"Yeah. I'm so hungry I could eat a dinosaur!\"",
+            "output": "«О! Старик очнулся». — «Где я?» — «В Хайруле. Ты был в коме». — «И сколько?» — «Месяц». — «Понятно. Что случилось, пока я...» — «Довольно! Я отправляюсь в Сабвей поужинать». — «Да, мы идём — Линк, ты тоже с нами?» — «Да. Я так проголодался, что динозавра съел бы!»",
+            "llm_output": "Эй! Этот старик проснулся. \"Где я?\" \"В Хайруле. Ты был в коме\". \"Как долго?\" \"Месяц\". \"Понятно. Что произошло за то время, пока я...\" \"Хватит! Я иду в Subway на ужин\". \"Да, мы идем - Линк, ты тоже идешь?\" \"Да. Я так голоден, что могу съесть динозавра!\"",
+            "score": 0.156043821285832
+        },
+        {
+            "input": "Your Majesty, Ganon and his minions have released the coronavirus! \"Great, I'll grab my toilet paper.\" \"There is no time.\" \"How can we help?\" \"It is written: do NOT touch your face.\" \"Hmm... (The King rests his chin on his hand thoughtfully.) ...What?\" \"You're fucked.\" \"Oah! Link, save me!\" \"I guess I'd better get quarantined,\" Link says and flies away on a magic carpet.",
+            "output": "«Ваше Величество, Гэнон и его прислужники выпустили в мир коронавирус!» – «Здорово, я захвачу туалетную бумагу». – «Нет времени». – «Чем мы можем помочь?» – «Как написано: НЕ трогайте лицо». – «Хмм... (Король задумчиво подпирает рукой подбородок.) ...Что?» – «Вам пиздец». – «Ой! Линк, спаси меня!» – «Мне, верно, надо поместить себя в карантин», – говорит Линк и улетает прочь на ковре-самолёте.",
+            "llm_output": "Ваше Величество, Ганон и его приспешники выпустили коронавирус! \"Отлично, я захвачу свою туалетную бумагу\". \"Нет времени.\" \"Чем мы можем помочь?\" \"Написано: НЕ прикасайтесь к лицу\". \"Хм... (Король задумчиво опирается подбородком на руку.) ...Что?\" \"Ты в жопе\". \"Oah! Линк, спаси меня!\" \"Думаю, мне лучше пройти карантин\", - говорит Линк и улетает на волшебном ковре.",
+            "score": 0.15402341150700483
+        },
+        {
+            "input": "You prick! Have you lost your mind?! \"Probably. That miserable little twerp—\" \"So what? You lost your lair? Stop whining and make a greater lair next time.\" \"There probably won't be a next time...\" \"Bring the castle back, or else!\"",
+            "output": "«Ты что, гад, из ума выжил?» – «Видимо. Эта поганая мелкая тварь...» – «И что? Ты лишился логова? Хватит ныть, в следующий раз сделай логово получше». – «Следующего раза, наверно, не будет...» – «Верни замок, а не то!..»",
+            "llm_output": "Ты урод! Ты что, с ума сошел?! \"Возможно. Этот жалкий маленький придурок...\" \"И что? Ты потерял свое логово? Перестань ныть и в следующий раз сделай логово побольше\". \"Наверное, следующего раза не будет...\" \"Верни замок, иначе!\"",
+            "score": 0.15064612297897795
+        },
+        {
+            "input": "“Well, my Prince, so Genoa and Lucca are now just endowments, family estates of the Bonapartes. But I warn you, if you don't tell me that we will have war, if you still try to soften all the infamies, all the horrors perpetrated by that Antichrist — I really believe he is Antichrist — I will have nothing more to do with you, and you are no longer my friend, no longer my ‘faithful slave,’ as you call yourself! But how do you do? I see I have frightened you; sit down and tell me all the news.”",
+            "output": "“Ну, князь, Генуя и Лукка — поместья фамилии Бонапарте. Нет, я вам вперед говорю, если вы мне не скажете, что у нас война, если вы еще позволите себе защищать все гадости, все ужасы этого Антихриста — право, я верю, что он Антихрист — я вас больше не знаю, вы уж не друг мой, вы уж не мой верный раб, как вы говорите! Ну, здравствуйте, здравствуйте. Я вижу, что я вас пугаю; садитесь и рассказывайте.”",
+            "llm_output": "\"Что ж, мой принц, Генуя и Лукка - это теперь только наделы, родовые поместья Бонапартов. Но предупреждаю вас, если вы не скажете мне, что у нас будет война, если вы по-прежнему будете пытаться смягчить все подлости, все ужасы, совершенные этим Антихристом - я действительно верю, что он Антихрист, - я больше не буду иметь с вами ничего общего, и вы больше не мой друг, не мой \"верный раб\", как вы себя называете! Но что вы делаете? Я вижу, что напугал тебя; садись и расскажи мне все новости\".",
+            "score": 0.11886470211624553
+        },
+        {
+            "input": "The eternal paradox of peak performance in chess, or any endeavor, really, is how to learn from your failures while still carrying on as if you are invincible. You must learn and forget simultaneously.",
+            "output": "Извечный парадокс успеха в шахматах или в любом другом начинании - это умение учиться на своих неудач и при этом двигаться дальше, как если бы вы были непобедимы. Надо одновременно и учиться, и забывать.",
+            "llm_output": "Вечный парадокс пиковой производительности в шахматах, да и в любом другом деле, заключается в том, как учиться на своих неудачах и при этом продолжать жить так, будто вы непобедимы. Вы должны учиться и забывать одновременно.",
+            "score": 4.494216673617911e-78
+        },
+        {
+            "input": "Oh boy! It sure is a beautiful morning around here! In fact, I can't wait to–huh? What happened? \"What's up, Link?\" \"Morshu, what is going on?\" \"Hah, simple. With all the money I made from my successful businesses and my successful beatboxing career, I got rich!\" \"Wow, so you threw us a party?\" \"Hah, nope. Security, get those motherfuckers out.\"",
+            "output": "«Ух ты! Такое красивое утро у нас здесь сегодня! Мне в самом деле не терпится – а? Что такое?» – «Как дела, Линк?» – «Моршу, в чём дело?» – «Ха, всё просто. Благодаря денежному успеху моих предприятий и карьеры в битбоксе я разбогател!» – «Ого, и ты решил устроить нам вечеринку?» – «Ха, нет. Охрана, вышвырните этих гондонов».",
+            "llm_output": "О, Боже! Какое прекрасное утро! На самом деле, я не могу дождаться... а? Что случилось? \"Что случилось, Линк?\" \"Моршу, что происходит?\" \"Хах, все просто. Со всеми деньгами, которые я заработал на своем успешном бизнесе и успешной карьере битбоксера, я разбогател!\" \"Вау, так ты устроил нам вечеринку?\" \"Ха, неа. Охрана, выведите этих ублюдков\".",
+            "score": 5.409768949830864e-155
+        }
+    ]
+}

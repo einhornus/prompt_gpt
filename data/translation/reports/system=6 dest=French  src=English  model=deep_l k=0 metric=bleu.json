@@ -1,0 +1,333 @@
+{
+    "system_message_file": "6",
+    "model": "deep_l",
+    "parameters": {
+        "src": "English",
+        "dest": "French"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.46870295193171707
+    ],
+    "prompt": [],
+    "median": 0.46870295193171707,
+    "average": 0.4998811010868164,
+    "std": 0.24041151748436204,
+    "percentiles": {
+        "10": 0.1954840371364998,
+        "20": 0.3021891356623039,
+        "25": 0.3586491976147757,
+        "30": 0.3779174428994817,
+        "40": 0.4334180066919467,
+        "50": 0.46870295193171707,
+        "60": 0.515530244320718,
+        "70": 0.6386674698877716,
+        "75": 0.6622878101918896,
+        "80": 0.6952525159135144,
+        "90": 0.7815256806496425
+    },
+    "n_tests": 50,
+    "tests": [
+        {
+            "input": "The match for the FIDE 2023 World Chess Championship is tied (6 X 6), with Ding Liren (White) winning the twelfth game. Only two more games remain for one of the competitors to achieve the decisive advantage.",
+            "output": "Le match pour le Championnat du monde d'échecs FIDE 2023 est à égalité (6 X 6), Ding Liren (Blancs) ayant remporté la douzième partie. Il ne reste plus que deux parties pour que l'un des concurrents prenne l'avantage décisif.",
+            "llm_output": "Le match pour le Championnat du monde d'échecs FIDE 2023 est à égalité (6 X 6), Ding Liren (Blancs) ayant remporté la douzième partie. Il ne reste plus que deux parties pour que l'un des concurrents prenne l'avantage décisif.",
+            "score": 1.0
+        },
+        {
+            "input": "Poland is located in Central Europe and shares its borders with Germany on the west, the Czech Republic and Slovakia in the south, and Ukraine, Belarus, Lithuania, and a bit of Russia on the east.",
+            "output": "La Pologne est située en Europe centrale et partage ses frontières avec l'Allemagne à l'ouest, la République tchèque et la Slovaquie au sud, et l'Ukraine, le Belarus, la Lituanie et un peu de Russie à l'est.",
+            "llm_output": "La Pologne est située en Europe centrale et partage ses frontières avec l'Allemagne à l'ouest, la République tchèque et la Slovaquie au sud, et l'Ukraine, le Belarus, la Lituanie et un peu de Russie à l'est.",
+            "score": 1.0
+        },
+        {
+            "input": "The American cinema is marked by great Jewish actors such as Paul Newman, Harrisson Ford, Sean Penn, Kirk Douglas, Woody Allen, Jake Gyllenhaal, Dustin Hoffman, Scarlett Johansson ...",
+            "output": "Le cinéma américain est marqué par de grands acteurs juifs tels que Paul Newman, Harrisson Ford, Sean Penn, Kirk Douglas, Woody Allen, Jake Gyllenhaal, Dustin Hoffman, Scarlett Johansson...",
+            "llm_output": "Le cinéma américain est marqué par de grands acteurs juifs tels que Paul Newman, Harrisson Ford, Sean Penn, Kirk Douglas, Woody Allen, Jake Gyllenhaal, Dustin Hoffman, Scarlett Johansson ...",
+            "score": 1.0
+        },
+        {
+            "input": "The reciprocal rights and duties that must exist between humans and robots were outlined in the World Declaration on Robots' Rights, drafted and approved in 2004, in Fukuoka, Japan.",
+            "output": "Les droits et devoirs réciproques qui doivent exister entre les humains et les robots ont été délimités dans la Déclaration mondiale sur les droits des robots, rédigée et approuvée en 2004, à Fukuoka, au Japon.",
+            "llm_output": "Les droits et devoirs réciproques qui doivent exister entre les humains et les robots ont été décrits dans la déclaration mondiale sur les droits des robots, rédigée et approuvée en 2004 à Fukuoka, au Japon.",
+            "score": 0.9234732618882052
+        },
+        {
+            "input": "The Kabyle Academy, an institution created on June 14, 2022, date which corresponds to the day of the Kabyle nation, is in charge of defining the Kabyle language by elaborating its dictionary which fixes the use of Kabyle.",
+            "output": "L'Académie kabyle, institution créée le 14 juin 2022, date qui correspond à la journée de la nation kabyle, est chargée de définir la langue kabyle par l'élaboration de son dictionnaire qui fixe l'usage du kabyle.",
+            "llm_output": "L'Académie kabyle, institution créée le 14 juin 2022, date qui correspond à la journée de la nation kabyle, est chargée de définir la langue kabyle en élaborant son dictionnaire qui fixe l'usage du kabyle.",
+            "score": 0.8643729226327674
+        },
+        {
+            "input": "Castling is a special move in chess whereby the king moves two squares to the left or right, and in the same move, the rook on that side is placed on the first square crossed by the king. There are several conditions for castling to take place.",
+            "output": "Le roque est un mouvement spécial aux échecs dans lequel le roi se déplace de deux cases vers la gauche ou la droite et, dans le même mouvement, la tour de ce côté est placée sur la première case traversée par le roi. Il existe plusieurs conditions dans lesquelles le roque peut avoir lieu.",
+            "llm_output": "Le roque est un mouvement spécial aux échecs par lequel le roi se déplace de deux cases vers la gauche ou la droite et, dans le même mouvement, la tour de ce côté est placée sur la première case traversée par le roi. Plusieurs conditions doivent être remplies pour que le roque ait lieu.",
+            "score": 0.7723204315404062
+        },
+        {
+            "input": "The father's heart rejoiced to see that son who, eager for knowledge, learned so quickly and grew surely to become a learned priest, a true prince among the men of knowledge of his caste.",
+            "output": "Le cœur du père se réjouissait de voir son fils qui, avide de connaissances, apprenait si vite et grandissait pour devenir un prêtre érudit, un véritable prince parmi les hommes de savoir de sa caste.",
+            "llm_output": "Le cœur du père se réjouissait de voir ce fils qui, avide de connaissances, apprenait si vite et grandissait sûrement pour devenir un prêtre érudit, un vrai prince parmi les hommes de savoir de sa caste.",
+            "score": 0.7721060576667053
+        },
+        {
+            "input": "That Linus once reproached Hercules for not being studious; then, in a rage, the boy suddenly took up the lyre and struck with all his might the head of the unfortunate teacher, who, prostrated by the blow, soon after died. And no one after that wanted to take charge of such an office.",
+            "output": "Ce Linus reprocha un jour à Hercule de ne pas être studieux ; alors, dans sa rage, le garçon prit soudain la lyre et frappa de toutes ses forces la tête du malheureux instituteur qui, prostré par le coup, mourut peu après. Et personne, après cela, ne voulut se charger d'une telle tâche.",
+            "llm_output": "Ce Linus reprocha un jour à Hercule de ne pas être studieux ; alors, de rage, le garçon prit soudain la lyre et frappa de toutes ses forces la tête du malheureux professeur, qui, prostré par le coup, mourut peu après. Depuis, personne ne voulut se charger d'une telle charge.",
+            "score": 0.7516549748818773
+        },
+        {
+            "input": "With high-precision performances from both players, the eleventh match of the FIDE World Chess Championship 2023 ended in a draw. Now (April 24): Nepo 6, Ding Liren 5. Three more draws will be enough for the Russian to reach the tally (7.5) which will give him the title of World Champion",
+            "output": "Avec des performances de haute précision des deux joueurs, le onzième match du Championnat du monde d'échecs FIDE 2023 s'est terminé par un match nul. Maintenant (24 avril) : Nepo 6, Ding Liren 5. Trois matchs nuls supplémentaires suffiront au Russe pour atteindre le décompte (7.5) qui lui donnera le titre de Champion du Monde.",
+            "llm_output": "Avec des performances de haute précision de la part des deux joueurs, le onzième match du Championnat du monde d'échecs FIDE 2023 s'est terminé par un match nul. Aujourd'hui (24 avril) : Nepo 6, Ding Liren 5. Trois autres nuls suffiront au Russe pour atteindre le score (7,5) qui lui donnera le titre de champion du monde",
+            "score": 0.7446522170672236
+        },
+        {
+            "input": "Surely, in the present-day society, we might as well consider it natural that consumption plays an important role in the life of man and is closely related to his well-being and happiness.",
+            "output": "Assurément, dans la société actuelle, autant considérer comme naturel que la consommation joue un rôle important dans la vie de l'homme et soit étroitement liée à son bien-être et son bonheur.",
+            "llm_output": "Dans la société actuelle, nous pourrions considérer comme naturel que la consommation joue un rôle important dans la vie de l'homme et qu'elle soit étroitement liée à son bien-être et à son bonheur.",
+            "score": 0.726809733716234
+        },
+        {
+            "input": "With a rook-to-knight exchange on d4, when the game was even, Ding Liren (white) easily won the fourth game of the FIDE 2023 World Chess Championship, tying the match (Nepo 2, Ding 2).",
+            "output": "Grâce à un échange entre la tour et le cavalier sur d4, alors que la partie était égale, Ding Liren (blanc) a facilement remporté la quatrième partie du Championnat du monde d'échecs de la FIDE 2023, en égalisant le match (Nepo 2, Ding 2).",
+            "llm_output": "Grâce à un échange tour-cavalier sur d4, alors que la partie était égale, Ding Liren (blanc) a facilement remporté la quatrième partie du Championnat du monde d'échecs FIDE 2023, égalisant ainsi le match (Nepo 2, Ding 2).",
+            "score": 0.6873632114628344
+        },
+        {
+            "input": "The great elaboration and variety in the form and structure of the house-roof almost merits the dignity of a separate section. For it is mainly to the roof that the Japanese house owes its picturesque appearance; it is the roof which gives to the houses that novelty and variety which is so noticeable among them in different parts of the country. The lines of a well-made thatched roof are something quite remarkable in their proportions.",
+            "output": "La grande élaboration et la variété de la forme et de la structure de la toiture de la maison méritent presque la dignité d'une section distincte. En effet, c'est principalement au toit que la maison japonaise doit son aspect pittoresque ; c'est le toit qui confère aux maisons cette nouveauté et cette variété qui est si marquante dans les différentes régions du pays. Les lignes d'un toit de chaume bien fait sont tout à fait remarquables pour leurs proportions.",
+            "llm_output": "La grande élaboration et la variété de la forme et de la structure du toit de la maison méritent presque la dignité d'une section séparée. Car c'est principalement au toit que la maison japonaise doit son aspect pittoresque ; c'est le toit qui donne aux maisons cette nouveauté et cette variété que l'on remarque tant dans les différentes parties du pays. Les lignes d'un toit de chaume bien fait ont des proportions tout à fait remarquables.",
+            "score": 0.6680719214384098
+        },
+        {
+            "input": "For many years, I have been trying to contribute to the resurrection of the Kabyle language of our elders: words here, proverbs there. This is how it will be reborn from its ashes.",
+            "output": "Cela fait belle lurette que j'essaie de contribuer à la résurrection de la langue kabyle de nos anciens : des mots par-ci, des proverbes par-là. C'est ainsi qu'elle renaîtra de ses cendres.",
+            "llm_output": "Depuis de nombreuses années, j'essaie de contribuer à la résurrection de la langue kabyle de nos anciens : des mots ici, des proverbes là. C'est ainsi qu'elle renaîtra de ses cendres.",
+            "score": 0.6629320430377792
+        },
+        {
+            "input": "Palestinians and Israeli Jews should communicate more, work together to end Zionism and religious extremism, and try to set up a single state that would stop Jewish immigration in the name of Zionism and allow the Palestinian refugees and their descendants back into their country.",
+            "output": "Les Palestiniens et les Juifs israéliens devraient communiquer plus, travailler ensemble pour mettre un terme au sionisme et à l'extrémisme religieux et essayer d'établier un seul État qui mettrait fin à l'immigration juive au nom du sionisme et permettre aux réfugiés palestiniens et leurs descendants de revenir dans leur pays.",
+            "llm_output": "Les Palestiniens et les Juifs israéliens devraient communiquer davantage, travailler ensemble pour mettre fin au sionisme et à l'extrémisme religieux, et essayer de créer un État unique qui mettrait fin à l'immigration juive au nom du sionisme et permettrait aux réfugiés palestiniens et à leurs descendants de revenir dans leur pays.",
+            "score": 0.6603551116542209
+        },
+        {
+            "input": "I have modified the French sentence, because the English sentence it was a translation of was changed to be a bit more natural. As a consequence, the translation in Esperanto needs to be checked.",
+            "output": "J’ai modifié la phrase française car la phrase anglaise dont elle était la traduction a été elle-même modifiée pour être un peu plus naturelle. Par conséquent, il faut peut-être revoir cette traduction en esperanto.",
+            "llm_output": "J'ai modifié la phrase française, car la phrase anglaise dont elle était la traduction a été modifiée pour être un peu plus naturelle. Par conséquent, la traduction en espéranto doit être vérifiée.",
+            "score": 0.6434696716348624
+        },
+        {
+            "input": "The 2023 Women's World Chess Championship will be contested from 5 to 25 July 2023 by the defending champion, Ju Wenjun, and her challenger, Lei Tingjie, both from China.",
+            "output": "Le Championnat du monde d'échecs féminin 2023 sera disputé du 5 au 25 juillet 2023 par la tenante du titre, Ju Wenjun, et sa challenger, Lei Tingjie, toutes deux chinoises.",
+            "llm_output": "Le championnat du monde d'échecs féminin 2023 sera disputé du 5 au 25 juillet 2023 par la championne en titre, Ju Wenjun, et son challenger, Lei Tingjie, tous deux originaires de Chine.",
+            "score": 0.6366093834247326
+        },
+        {
+            "input": "Ding Liren is the new World Chess Champion. In the tiebreaker, the first three games ended in a draw, and the fourth, with Ding leading the black pieces in a Spanish opening, was sensationally won by the Chinese Dragon, who thus overcame the Russian Bear, Ian Nepomniachtchi. The top of the chess universe has a new face.",
+            "output": "Ding Liren est le nouveau champion du monde d'échecs. Au bris d'égalité, les trois premiers matchs se sont soldés par un match nul, et le quatrième, avec Ding en tête des pièces noires dans une ouverture espagnole, a été remporté de manière sensationnelle par le Dragon chinois, qui a ainsi vaincu l'Ours russe, Ian Nepomniachtchi. Le sommet de l'univers des échecs a un nouveau visage.",
+            "llm_output": "Ding Liren est le nouveau champion du monde d'échecs. Les trois premières parties se sont soldées par un match nul et la quatrième, où Ding menait les pièces noires dans une ouverture espagnole, a été remportée de manière sensationnelle par le dragon chinois, qui a ainsi battu l'ours russe, Ian Nepomniachtchi. Le sommet de l'univers des échecs a un nouveau visage.",
+            "score": 0.625698911019021
+        },
+        {
+            "input": "He who thinks is. The contrapositive thereof is: he who is not does not think. But does the converse of this hold as well: that he who does not think is not? \"That rock over there does not think, and yet it is.\"",
+            "output": "« Celui qui pense, est. Inversement : celui qui n'est pas, ne pense pas. Cependant, peut-on également opposer à cette affirmation que celui qui ne pense pas, n'est pas ? » « Le rocher là-bas ne pense pas, et pourtant il est. »",
+            "llm_output": "Celui qui pense est. La contrapositive est : celui qui n'est pas ne pense pas. Mais la réciproque est-elle aussi vraie : celui qui ne pense pas n'est pas ? \"Le rocher là-bas ne pense pas, et pourtant il est.",
+            "score": 0.5454493642879494
+        },
+        {
+            "input": "Fancy seeing you here! She stood at the top of the steps to the library, clutching a binder, grinning down at him. \"Emerging blinking into the sunlight! After last night, I thought we'd see neither hide nor hair of you for, oh, I don't know, at least a couple of days!\" \"Don't start,\" he sighed, trudging past her up the steps.",
+            "output": "« Ravie de te voir ici ! » Elle se tenait en haut des marches de la bibliothèque, tenant un classeur, et lui adressait un sourire. « Tu émerges en clignant des yeux à la lumière du soleil ! Après la nuit dernière, je pensais que nous ne te reverrions plus pendant, oh, je ne sais pas, au moins deux jours ! » « Ne commence pas », soupira-t-il en remontant les marches péniblement devant elle.",
+            "llm_output": "Je suis ravie de vous voir ici ! Elle se tenait en haut des marches de la bibliothèque, serrant un classeur, et lui souriait. \"Vous émergez en clignant des yeux à la lumière du soleil ! Après la nuit dernière, je pensais que nous ne verrions ni peau ni cheveux de toi pendant, oh, je ne sais pas, au moins deux jours !\" \"Ne commence pas\", soupira-t-il en la dépassant pour monter les marches.",
+            "score": 0.5382603337816673
+        },
+        {
+            "input": "I was talking to Tom Cruise once (a really close friend of mine), and I was telling him about the latest antics of my pal Charlie Sheen. We sat there talking for about an hour when I got a call from Jay Leno. He wanted me to be on his show next week. I was pretty busy, but I told Jay I would find time in my schedule for his show. Oh, I have to be off. \"Here are your bags and change, sir.\" \"Thanks.\" \"Thank you, sir, have a great day.\"",
+            "output": "« Un jour, je discutais avec Tom Cruise (un ami très proche), et je lui parlais des dernières frasques de mon pote Charlie Sheen. Nous sommes restés là à bavarder pendant une heure quand j'ai reçu un appel de Jay Leno. Il voulait que je vienne dans son émission la semaine prochaine. J'étais très occupé, mais j'ai dit à Jay que je trouverais le temps dans mon agenda pour son émission. Oh, il faut que j'y aille. » « Voici vos sacs et votre monnaie, monsieur. » « Merci. » « Merci, monsieur, passez une bonne journée. »",
+            "llm_output": "Un jour, je parlais à Tom Cruise (un ami très proche) et je lui racontais les dernières frasques de mon ami Charlie Sheen. Nous sommes restés assis à discuter pendant environ une heure quand j'ai reçu un appel de Jay Leno. Il voulait que je participe à son émission la semaine prochaine. J'étais très occupé, mais j'ai dit à Jay que je trouverais du temps dans mon emploi du temps pour son émission. Oh, je dois partir. \"Voici vos bagages et votre monnaie, monsieur.\" \"Merci.\" \"Merci, monsieur, bonne journée.\"",
+            "score": 0.5224228449879715
+        },
+        {
+            "input": "Siobhan is sitting reading a book. The door is pushed open, and Terry comes panting into the room, so out of breath that his attempts to speak hardly produce a word between gasps. A moment or two passes before Siobhan looks up and speaks, saving Terry the trouble. \"You've been running,\" she says. \"Yes,\" he wheezes.",
+            "output": "Siobhan est assise devant un livre. La porte s'ouvre et Terry entre dans la pièce, essoufflé, à tel point que ses tentatives de parler ne produisent qu'un mot entre deux halètements. Un ou deux instants s'écoulent avant que Siobhan ne lève les yeux et ne prenne la parole, épargnant à Terry tout effort. « Tu as couru », dit-elle. « Oui », répond-il en sifflant.",
+            "llm_output": "Siobhan est assise en train de lire un livre. La porte est poussée et Terry entre dans la pièce, haletant, si essoufflé que ses tentatives de parler produisent à peine un mot entre deux halètements. Un ou deux instants s'écoulent avant que Siobhan ne lève les yeux et ne prenne la parole, évitant ainsi à Terry de s'embêter. \"Tu as couru\", dit-elle. \"Oui\", souffle-t-il.",
+            "score": 0.5109351772092158
+        },
+        {
+            "input": "What's the score with you and Céline? \"What do you mean?\" \"Are you two...? You know.\" \"No, I don't know.\" \"I mean: are you two seeing each other?\" \"Oh. Yeah, we are... sort of.\" \"What do you mean, 'sort of'?\" \"I mean: mind your own business, Gwynn!\"",
+            "output": "« Qu'est-ce qui se passe entre toi et Céline ? » « Que veux-tu dire ? » « Vous êtes deux... ? Tu sais. » « Non, je ne sais pas. » « Je veux dire : est-ce que vous sortez ensemble ? » « Oh. Oui... en quelque sorte. » « Qu'est-ce que tu veux dire par 'en quelque sorte' ? » « Je veux dire : occupe-toi de tes affaires, Gwynn ! »",
+            "llm_output": "Qu'est-ce qui se passe entre toi et Céline ? \"Qu'est-ce que tu veux dire ?\" \"Vous êtes deux... ? Tu sais.\" \"Non, je ne sais pas.\" \"Je veux dire : est-ce que vous vous voyez ?\" \"Oh. Oui, on l'est... en quelque sorte.\" \"Qu'est-ce que tu veux dire par 'en quelque sorte' ?\" \"Je veux dire : occupe-toi de tes affaires, Gwynn !\"",
+            "score": 0.49691236944898065
+        },
+        {
+            "input": "Russia needs to control Western Europe to deprive the US of its allies in western Eurasia, whereas China needs to kick the US out of the Far East. This way, the US will be put in its place and would spend more money on fighting poverty and building schools for its kids rather that destroying impoverished countries like Iraq, Afghanistan, and Yemen to the ground.",
+            "output": "La Russie doit contrôler l'Europe occidentale pour priver les États-Unis de ses alliés dans la partie occidentale de l'Eurasie, pendant que la Chine doit chasser les États-Unis de l'Extrême-Orient. De cette façon, les États-Unis seront remis à leur place et s'occuperaient plus à dépenser de l'argent pour combattre la pauvreté et contruire des écoles pour ses enfants au lieu de détruire jusqu'aux fondaitons des pays appauvris tels que l'Iraq, l'Afghanistan et le Yémen.",
+            "llm_output": "La Russie doit contrôler l'Europe occidentale pour priver les États-Unis de leurs alliés en Eurasie occidentale, tandis que la Chine doit chasser les États-Unis de l'Extrême-Orient. De cette façon, les États-Unis seront remis à leur place et dépenseront plus d'argent pour lutter contre la pauvreté et construire des écoles pour leurs enfants plutôt que de détruire des pays pauvres comme l'Irak, l'Afghanistan et le Yémen.",
+            "score": 0.49233893592569516
+        },
+        {
+            "input": "You're our new guest, are you? I wasn't expecting you so soon. \"The man with the supply ship, Ole Jansen, ferried me over. He doesn't say much, does he, that Mr Jansen?\" \"Yes, well, that's what we're like up here, us islanders.\"",
+            "output": "« Vous êtes notre nouvelle invité, n'est-ce pas ? Je ne vous attendais pas si tôt. » « L'homme du bateau de ravitaillement, Ole Jansen, m'a amené ici. Il n'est pas très bavard, ce M. Jansen ? » « Oui, eh bien, nous sommes comme ça ici, nous les insulaires. »",
+            "llm_output": "Vous êtes notre nouvel invité, n'est-ce pas ? Je ne vous attendais pas si tôt. \"L'homme du bateau de ravitaillement, Ole Jansen, m'a fait venir. Il ne parle pas beaucoup, ce M. Jansen ?\" \"Oui, eh bien, c'est comme ça que nous sommes ici, nous les insulaires.\"",
+            "score": 0.4818353066483886
+        },
+        {
+            "input": "Can you tell me what you're doing in my room? \"Nothing. I just wanted to see how your flowers were. I know how important they are to you.\" \"And I'm the Queen of Sheba. Out! Now!\"",
+            "output": "« Pouvez-vous me dire ce que vous faites dans ma chambre ? » « Rien. Je tenais juste à vérifier l'état de vos fleurs. Je sais à quel point elles sont importantes pour vous. » « Et moi, je suis la reine de Saba. Sortez ! Tout de suite ! »",
+            "llm_output": "Pouvez-vous me dire ce que vous faites dans ma chambre ? \"Rien. Je voulais juste voir comment étaient tes fleurs. Je sais à quel point elles sont importantes pour toi.\" \"Et je suis la reine de Saba. Dehors ! Maintenant !\"",
+            "score": 0.47628987369122106
+        },
+        {
+            "input": "So, what kind of story would you like to hear? \"A story featuring a squirrel.\" \"All right. I've just thought of one, actually. It's about a squirrel called Tom.\" \"Did he have a bushy tail and pointy ears? And did he like eating nuts?\"",
+            "output": "« Alors, quel genre d'histoire aimerais-tu entendre ? » « Une histoire avec un écureuil. » « Très bien. Justement, je viens d'en inventer une. C'est l'histoire d'un écureuil qui s'appelle Tom. » « Avait-il une queue touffue et des oreilles pointues ? Et aimait-il manger des noisettes ? »",
+            "llm_output": "Alors, quel genre d'histoire aimeriez-vous entendre ? \"Une histoire mettant en scène un écureuil.\" \"D'accord. Je viens d'en trouver une, en fait. C'est l'histoire d'un écureuil qui s'appelle Tom.\" \"Avait-il une queue touffue et des oreilles pointues ? Et aimait-il manger des noix ?\"",
+            "score": 0.46111603017221314
+        },
+        {
+            "input": "You're our new guest, are you? I wasn't expecting you so soon. \"The man with the supply ship, Ole Jansen, ferried me over. He doesn't say much, does he, that Mr Jansen?\" \"Yes, well, that's what we're like up here, us islanders.\"",
+            "output": "« Vous êtes notre nouvelle invitée, n'est-ce pas ? Je ne vous attendais pas si tôt. » « L'homme du bateau de ravitaillement, Ole Jansen, m'a amenée ici. Il n'est pas très bavard, ce M. Jansen ? » « Oui, eh bien, nous sommes comme ça ici, nous les insulaires. »",
+            "llm_output": "Vous êtes notre nouvel invité, n'est-ce pas ? Je ne vous attendais pas si tôt. \"L'homme du bateau de ravitaillement, Ole Jansen, m'a fait venir. Il ne parle pas beaucoup, ce M. Jansen ?\" \"Oui, eh bien, c'est comme ça que nous sommes ici, nous les insulaires.\"",
+            "score": 0.4596627547530729
+        },
+        {
+            "input": "Can you tell me what you're doing in my room? \"Nothing. I just wanted to see how your flowers were. I know how important they are to you.\" \"And I'm the Queen of Sheba. Out! Now!\"",
+            "output": "« Tu peux me dire ce que tu fous dans ma chambre ? » « Rien. Je voulais juste voir comment allaient tes fleurs. Je sais à quel point elles comptent pour toi. » « Et moi, je suis la reine de Saba. Dégage ! Fissa ! »",
+            "llm_output": "Pouvez-vous me dire ce que vous faites dans ma chambre ? \"Rien. Je voulais juste voir comment étaient tes fleurs. Je sais à quel point elles sont importantes pour toi.\" \"Et je suis la reine de Saba. Dehors ! Maintenant !\"",
+            "score": 0.445460647245517
+        },
+        {
+            "input": "I can speak a bit of German. 'Das ist fantastisch!' \"Haha, wunderbar.\" \"Wunderbar.\" \"Even the locals sound better when they speak German, okay?\" \"Haha, is nobody gonna get my accent?\" \"No, not really, 'cause, you know...\" \"To be honest, I only learned my German from watching DVDs when I was younger.\" \"Hahaha, be sure to send me those DVDs!\"",
+            "output": "« Je parle un peu l'allemand. 'Das ist fantastisch!' » « Haha, wunderbar. » « Wunderbar. » « Les locaux ont un meilleur accent quand ils parlent allemand, hein ? » « Haha, personne ne va comprendre mon accent ? » « Non, pas vraiment, parce que, tu sais... » « Pour être honnête, je n'ai appris l'allemand qu'en regardant des DVD quand j'étais plus jeune. » « Hahaha, pense à m'envoyer ces DVD ! »",
+            "llm_output": "Je peux parler un peu d'allemand. Das ist fantastisch ! \"Haha, wunderbar.\" \"Wunderbar.\" \"Même les locaux sonnent mieux quand ils parlent allemand, d'accord ?\" \"Haha, personne ne va comprendre mon accent ?\" \"Non, pas vraiment, parce que, tu sais...\" \"Pour être honnête, je n'ai appris l'allemand qu'en regardant des DVD quand j'étais plus jeune.\" \"Hahaha, n'oublie pas de m'envoyer ces DVD !\"",
+            "score": 0.43916767871231943
+        },
+        {
+            "input": "Now, Marzio is one of around 50,000 people whose lives are on hold after they were placed under quarantine as Italy tries to contain Europe's worst outbreak of coronavirus that flared up in the regions of Lombardy and Veneto.",
+            "output": "Marzio fait actuellement partie des quelque 50 000 personnes dont la vie est en suspens après avoir été placées en quarantaine au moment où l'Italie tente de contenir la pire épidémie de coronavirus d'Europe, qui s'est déclarée dans les régions de Lombardie et de Vénétie.",
+            "llm_output": "Aujourd'hui, M. Marzio fait partie des quelque 50 000 personnes dont la vie est suspendue depuis qu'elles ont été placées en quarantaine, alors que l'Italie tente d'endiguer la plus grave épidémie de coronavirus en Europe, qui s'est déclarée dans les régions de la Lombardie et de la Vénétie.",
+            "score": 0.43451294688485903
+        },
+        {
+            "input": "5,000 euros? This is crazy, I can't afford this! \"Have you been living under a rock? It's the year 2030, this is as cheap as cameras get.\" \"But I don't have any more money. I'm a translator. Well, was a translator. Ever since those Tesla bots have been out walking around, I've been out of a job.\"",
+            "output": "« 5 000 euros ? C'est du délire, je ne peux pas me le permettre ! » « Tu as vécu sous un rocher ? On est en 2030, il n'y a pas moins cher comme appareil photo. » « Mais je n'ai plus d'argent. Je suis traducteur. Ou plutôt, j'étais traducteur. Depuis qu'il y a ces robots Tesla partout, je n'ai plus de travail. »",
+            "llm_output": "5 000 euros ? C'est de la folie, je ne peux pas me le permettre ! \"Vous avez vécu sous un rocher ? On est en 2030, c'est le moins cher des appareils photo\". \"Mais je n'ai plus d'argent. Je suis traducteur. Enfin, j'étais traducteur. Depuis que ces robots Tesla se promènent, je n'ai plus de travail.\"",
+            "score": 0.4317755964025781
+        },
+        {
+            "input": "The Nakba serves as a constant reminder of the urgent need for a just and lasting resolution to the Israeli-Palestinian conflict, based on respect for human rights and international law, not Zionist and Biblical myths.",
+            "output": "La Nakba nous rappelle en permanence la nécessité d'adopter une solution juste et durable pour le conflit israélo-palestinien, solution qui repose sur le respect des droits humains et la légalité internationale et non sur les mythes sionistes et bibliques.",
+            "llm_output": "La Nakba nous rappelle constamment qu'il est urgent de trouver une solution juste et durable au conflit israélo-palestinien, fondée sur le respect des droits de l'homme et du droit international, et non sur les mythes sionistes et bibliques.",
+            "score": 0.4287337205044686
+        },
+        {
+            "input": "It's a very strange feeling for someone like me, writing in a diary. Not only because I've never written before, but also because later on, neither me nor anyone will care about a thirteen year old schoolgirl's secrets.",
+            "output": "C'est une sensation très étrange, pour quelqu'un dans mon genre, d'écrire un journal intime. Non seulement parce que, auparavant, je n'ai jamais écrit, mais il me semble que plus tard, ni moi ni personne d'autre ne s'intéressera aux confidences d'une écolière de treize ans.",
+            "llm_output": "C'est un sentiment très étrange pour quelqu'un comme moi que d'écrire dans un journal. Non seulement parce que je n'ai jamais écrit auparavant, mais aussi parce que plus tard, ni moi ni personne ne s'intéressera aux secrets d'une écolière de treize ans.",
+            "score": 0.4198447391146817
+        },
+        {
+            "input": "Dad, come play tag with the two of us. You're it. \"Grrr, where are the naughty kids? I'm gonna catch them and eat them up. Aha, gotcha!\" \"Ahh! Don't eat me, I'm too skinny! Mary tastes better!\" \"Tom, you traitor!\"",
+            "output": "« Papa, viens jouer à chat avec nous deux. C'est toi qui l'es. » « Grrr, où sont les petits chenapans ? Je vais les attraper et les manger. Aha, je te tiens ! » « Ahh ! Ne me mange pas, je suis trop maigre ! Marie a meilleur goût ! » « Tom, espèce de cafteur ! »",
+            "llm_output": "Papa, viens jouer au chat avec nous deux. C'est toi. \"Grrr, où sont les vilains enfants ? Je vais les attraper et les manger. Aha, je t'ai eu !\" \"Ahh ! Ne me mangez pas, je suis trop maigre ! Mary a meilleur goût !\" \"Tom, traître !\"",
+            "score": 0.4022375470509931
+        },
+        {
+            "input": "I went drinking with one of my boyfriend's friends, and now he's furious at me. \"Was this friend a guy or a girl?\" \"A guy, obviously. Why would I go drinking with his female friends?\" \"Yeah, you're right.\" \"His name is Tom. He's really hot, and I really want to go drinking with him again.\"",
+            "output": "« Je suis allée boire avec un ami de mon compagnon, et voilà qu'il est furieux contre moi. » « Était-ce un gars ou une fille ? » « Un gars, bien évidemment. Pourquoi irais-je boire avec ses amies ? » « Ouais, ça se comprend. » « Il s'appelle Tom. Il est trop canon, et j'ai tellement envie d'aller prendre un verre avec lui à nouveau. »",
+            "llm_output": "Je suis allée boire un verre avec un ami de mon copain, et maintenant il est furieux contre moi. \"Cet ami était-il un gars ou une fille ?\" \"Un mec, évidemment. Pourquoi irais-je boire avec ses amies femmes ?\" \"Oui, tu as raison.\" \"Il s'appelle Tom. Il est très sexy, et j'ai vraiment envie d'aller boire avec lui à nouveau.\"",
+            "score": 0.38163309113713373
+        },
+        {
+            "input": "Tom's sitting down there. \"It's a free country.\" \"Don't you want to go and speak to him? He's definitely waiting for you.\" \"Then he can keep waiting. If he wants something, he can come here.\"",
+            "output": "« Tom est assis là-bas. » « On est dans un pays libre. » « Tu ne veux pas aller lui parler ? Ça se voit qu'il attend. » « Dans ce cas, il peut continuer à attendre. S'il veut quelque chose, il n'a qu'à venir ici. »",
+            "llm_output": "Tom est assis là-bas. \"C'est un pays libre.\" \"Tu ne veux pas aller lui parler ? Il t'attend certainement.\" \"Alors il peut continuer à attendre. S'il veut quelque chose, il peut venir ici.\"",
+            "score": 0.369247597011627
+        },
+        {
+            "input": "Tom, you've got to give me that book back. \"But didn't you give it to me as a present?\" \"I did, but it wasn't mine to give. I borrowed it from Mary years ago, and now she wants it back.\"",
+            "output": "« Tom, il faut que tu me rendes ce livre. » « Mais ne me l'as-tu pas donné en cadeau ? » « Oui, mais ce n'était pas le mien. Je l'ai emprunté à Marie il y a des années, et maintenant elle veut le récupérer. »",
+            "llm_output": "Tom, tu dois me rendre ce livre. \"Mais tu ne me l'as pas offert ?\" \"Si, mais ce n'était pas à moi de le donner. Je l'ai emprunté à Mary il y a des années, et maintenant elle veut le récupérer.\"",
+            "score": 0.36301472002011176
+        },
+        {
+            "input": "Today in the blue-sky morning of the 2nd of July of 2022, walking back from a Lulu Island corner convenience store, I saw Michael the Dane-French. He said that he was fighting nicotine. Then, he said that it struck him to find out that I have been a great traveller of this world. \"I've seen everything!\" I boasted. Michael said that the best thing is \"great literature whilst travelling.\" As a musician, Michael himself has travelled across North America, the Caribbean, and Mexico. He said that he has never been to Europe. \"It's a whole different planet!\" I said.",
+            "output": "Aujourd'hui, dans la matinée du ciel bleu du 2 juillet de 2022, en revenant d'un dépanneur d'un coin sur l'île Lulu, j'ai vu Michel le Danois-Français. Il a dit qu'il combattait la nicotine. Ensuite, il a dit que cela l'avait frappé de découvrir que j'avais été un grand voyageur de ce monde. « J'ai tout vu ! » Je me suis vanté. Michel a dit que la meilleure chose est « la grande littérature en voyage ». En tant que musicien, Michel lui-même a voyagé à travers l'Amérique du Nord, les Caraïbes et le Mexique. Il a dit qu'il n'était jamais allé en Europe. « C'est une toute autre planète ! » J'ai dit.",
+            "llm_output": "Aujourd'hui, dans le ciel bleu du matin du 2 juillet 2022, en revenant de la supérette du coin de Lulu Island, j'ai vu Michael le Danois-Français. Il m'a dit qu'il luttait contre la nicotine. Puis, il m'a dit qu'il avait été frappé de découvrir que j'avais été un grand voyageur de ce monde. \"J'ai tout vu ! me suis-je vanté. Michael a répondu que la meilleure chose à faire était de \"lire de la bonne littérature en voyageant\". En tant que musicien, Michael a parcouru l'Amérique du Nord, les Caraïbes et le Mexique. Il précise qu'il n'est jamais allé en Europe. \"C'est une toute autre planète ! lui ai-je dit.",
+            "score": 0.35719402347966367
+        },
+        {
+            "input": "Excuse me! Do you happen to know where the nearest corner shop is? \"I do. It's not far. Just go left at that postbox over there and keep going until you come to a side street, and you'll see it there.\"",
+            "output": "« Pardon ! Sauriez-vous par hasard où se trouve la supérette la plus proche ? » « Oui. Ce n'est pas loin. Il suffit d'aller à gauche à la boîte aux lettres là-bas et de continuer jusqu'à ce que vous tombez sur une rue secondaire, et c'est là que vous la trouverez. »",
+            "llm_output": "Excusez-moi ! Savez-vous par hasard où se trouve le magasin du coin le plus proche ? \"Oui, je le sais. Ce n'est pas loin. Il suffit de prendre la boîte postale à gauche et de continuer jusqu'à ce que vous arriviez dans une petite rue, et vous la verrez.\"",
+            "score": 0.333876372441586
+        },
+        {
+            "input": "Hey, said Mary, stopping to speak as she passed Tom's table, \"would you like to come and sit with us?\" \"That's very kind of you,\" replied Tom, getting up from his seat to join them.",
+            "output": "« Salut », dit Marie, en passant devant la table de Tom, « ça te dirait de venir t'asseoir avec nous ? » « C'est bien gentil de ta part », répond Tom qui se lève de son siège pour les rejoindre.",
+            "llm_output": "Hé, dit Mary en passant devant la table de Tom, voulez-vous venir vous asseoir avec nous ? \"C'est très gentil de votre part\", répond Tom en se levant de son siège pour les rejoindre.",
+            "score": 0.3035056318133515
+        },
+        {
+            "input": "Have you seen Tom? \"I can tell you where he isn't.\" \"Where?\" \"Buying an engagement ring for Mary at the mall downtown.\" \"Thanks!\" \"Shoot! Wait, you didn't hear that from me!\"",
+            "output": "« Avez-vous vu Tom ? » « Je peux vous dire où il n'est pas. » « Où ? » « Il est allé acheter une bague de fiançailles pour Marie au centre commercial. » « Merci ! » « Mince ! Attendez, vous ne l'avez pas appris de moi ! »",
+            "llm_output": "Avez-vous vu Tom ? \"Je peux vous dire où il n'est pas.\" \"Où ?\" \"Il achète une bague de fiançailles pour Mary au centre commercial.\" \"Merci !\" \"Mince ! Attendez, ce n'est pas moi qui vous l'ai dit !\"",
+            "score": 0.2969231510581134
+        },
+        {
+            "input": "That jumper's got a hole in the arm. I can't let you go anywhere in that. \"Where's there a hole?\" \"There!\" \"Oh, no one'll see that.\" \"You're not leaving my house looking like that. End of!\"",
+            "output": "« Il y a un trou dans la manche de ce pull. Je ne peux pas te laisser partir avec ça. » « Où est-ce qu'il y a un trou ? » « Là ! » « Oh, personne ne le verra. » « Tu ne sortiras pas de chez moi dans cet état. Fin de la discussion ! »",
+            "llm_output": "Ce pull a un trou dans le bras. Je ne peux pas te laisser aller n'importe où avec ça. \"Où y a-t-il un trou ?\" \"Là !\" \"Oh, personne ne le verra.\" \"Tu ne quitteras pas ma maison dans cet état. Fin de l'histoire !\"",
+            "score": 0.2822833607795525
+        },
+        {
+            "input": "Have you seen Tom? \"I can tell you where he isn't.\" \"Where?\" \"Buying an engagement ring for Mary at the mall downtown.\" \"Thanks!\" \"Shoot! Wait, you didn't hear that from me!\"",
+            "output": "« As-tu vu Tom ? » « Je peux te dire où il n'est pas. » « Où ? » « Il est allé acheter une bague de fiançailles pour Marie au centre commercial. » « Merci ! » « Et zut ! Attends, ce n'est pas moi qui t'ai dit ça ! »",
+            "llm_output": "Avez-vous vu Tom ? \"Je peux vous dire où il n'est pas.\" \"Où ?\" \"Il achète une bague de fiançailles pour Mary au centre commercial.\" \"Merci !\" \"Mince ! Attendez, ce n'est pas moi qui vous l'ai dit !\"",
+            "score": 0.26407113360258394
+        },
+        {
+            "input": "PARENTAL ADVISORY: If your children use TATOEBA to study languages, please take the time to search any choice words you wouldn't want them to read - and don't be shy! You won't believe some of the uncensored filth they allow on here, since they feel \"language is language.\"",
+            "output": "AVIS AUX PARENTS : Si vos enfants utilisent TATOEBA pour étudier les langues, il est conseillé de prendre le temps de faire tourner la recherche sur un échantillon de mots que vous estimez inconvenants ; et allez-y sans retenue ! Vous n'avez pas idée du niveau d'ordure qui s'y étale sans la moindre censure, dans l'idée que « c'est du langage, après tout ».",
+            "llm_output": "AVIS AUX PARENTS : Si vos enfants utilisent TATOEBA pour étudier les langues, prenez le temps de rechercher les mots que vous ne voudriez pas qu'ils lisent - et ne soyez pas timides ! Vous n'en reviendrez pas de la saleté non censurée qu'ils autorisent ici, car ils estiment que \"le langage est le langage\".",
+            "score": 0.23535388958940395
+        },
+        {
+            "input": "Then he called the bridegroom aside and said, \"Everyone brings out the choice wine first and then the cheaper wine after the guests have had too much to drink, but you have saved the best till now.\"",
+            "output": "Puis il prit le marié à part et lui dit : « Tout le monde offre d'abord le vin de la meilleure qualité, laissant le moins cher pour après que les invités en aient eu assez, mais tu as réservé le meilleur jusqu'à présent. »",
+            "llm_output": "Puis il appela l'époux à l'écart et lui dit : \"Tout le monde sort d'abord le meilleur vin, puis le moins cher après que les invités ont trop bu, mais toi, tu as gardé le meilleur jusqu'à maintenant\".",
+            "score": 0.19712144344963495
+        },
+        {
+            "input": "Tom's sitting down there. \"It's a free country.\" \"Don't you want to go and speak to him? He's definitely waiting for you.\" \"Then he can keep waiting. If he wants something, he can come here.\"",
+            "output": "« Tom est assis là-bas. » « On est dans un pays libre. » « Vous ne voulez pas vous adresser à lui ? On voit bien qu'il patiente. » « Dans ce cas, il peut continuer à patienter. S'il veut quelque chose, qu'il vienne ici. »",
+            "llm_output": "Tom est assis là-bas. \"C'est un pays libre.\" \"Tu ne veux pas aller lui parler ? Il t'attend certainement.\" \"Alors il peut continuer à attendre. S'il veut quelque chose, il peut venir ici.\"",
+            "score": 0.18074738031828338
+        },
+        {
+            "input": "Then, as it was necessary to let the smoking mass cool, Neb and Pencroff, directed by Mr. Smith, brought, on a hurdle made of branches, numerous loads of limestone which they found scattered in abundance to the north of the lake.",
+            "output": "Il fallut alors laisser refroidir la masse fumante, et, pendant ce temps, Nab et Pencroff, guidés par Cyrus Smith, charrièrent, sur une claie faite de branchages entrelacés, plusieurs charges de carbonate de chaux, pierres très communes, qui se trouvaient abondamment au nord du lac.",
+            "llm_output": "Puis, comme il fallait laisser refroidir la masse fumante, Neb et Pencroff, dirigés par M. Smith, apportèrent, sur une haie de branchages, de nombreuses charges de calcaire qu'ils trouvèrent éparpillées en abondance au nord du lac.",
+            "score": 0.1781661003402091
+        },
+        {
+            "input": "Your Majesty, here I come — uh-oh, ah! \"Ow! You shitface! You crashed into me!\" \"Has your face been harmed? I'm sorry.\" \"No shit, Sherlock! Look at my face.\" \"Your face looks fine to me.\" \"It hurts.\" \"Whatever.\" \"Fix my face.\" \"...\" \"Fix it!\" \"Whatever.\"",
+            "output": "« Votre Majesté, me voilà - euh-oh, ah ! » « Aïe ! Espèce de merdeux ! Tu m'as percuté ! » « Votre visage a-t-il été abîmé ? Je suis navré. » « Sans blague, Sherlock ! Regarde mon visage. » « Je ne vois rien à votre visage. » « Ça fait mal. » « Quoi qu'il en soit. » « Soigne mon visage. » « ... » « Soigne-le ! » « Comme vous voulez. »",
+            "llm_output": "Votre Majesté, me voici - uh-oh, ah ! \"Aïe ! Face de merde ! Tu m'as percuté !\" \"Votre visage a-t-il été blessé ? Je suis désolé. \"Sans déconner, Sherlock ! Regarde mon visage.\" \"Votre visage m'a l'air d'aller bien.\" \"Ça fait mal.\" \"Peu importe.\" \"Répare mon visage.\" \"Répare-le !\" \"Peu importe.\"",
+            "score": 0.12407143941249316
+        },
+        {
+            "input": "I look at the sunlight coming in at the open door through the porch, and there I see a stray sheep—I don’t mean a sinner, but mutton—half making up his mind to come into the church.",
+            "output": "Je regarde le rayon de soleil qui pénètre sous le portique, et je vois une brebis égarée, ce n’est pas un pécheur que je veux dire, c’est un mouton qui est sur le point d’entrer dans l’église.",
+            "llm_output": "Je regarde la lumière du soleil qui entre par la porte ouverte du porche, et je vois un mouton errant - je ne veux pas dire un pécheur, mais un mouton - qui se décide à entrer dans l'église.",
+            "score": 3.073197050456669e-78
+        },
+        {
+            "input": "The argument continues about the \"white-collar exemption\" that exempts specific white-collar workers from the \"eight hours per day, 40 hours per week\" working hours, as fixed by labour standards legislation.",
+            "output": "La polémique se poursuit quant à « l'exemption des Cols Blancs » qui exempte des travailleurs cols blancs spécifiques du temps de travail « 8 heures par jours, 40 heures semaines » prévu par la loi sur le temps de travail.",
+            "llm_output": "Le débat se poursuit au sujet de l'\"exemption pour les cols blancs\", qui exempte certains cols blancs de l'obligation de travailler \"huit heures par jour, 40 heures par semaine\", comme le prévoit la législation sur les normes du travail.",
+            "score": 7.485783184290646e-155
+        }
+    ]
+}

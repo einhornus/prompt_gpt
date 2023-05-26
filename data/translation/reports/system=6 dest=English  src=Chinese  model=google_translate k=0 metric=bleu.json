@@ -1,0 +1,333 @@
+{
+    "system_message_file": "6",
+    "model": "google_translate",
+    "parameters": {
+        "src": "Chinese",
+        "dest": "English"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.23528635541638965
+    ],
+    "prompt": [],
+    "median": 0.23528635541638965,
+    "average": 0.26715221853280846,
+    "std": 0.21949541693042615,
+    "percentiles": {
+        "10": 3.184962620935052e-78,
+        "20": 0.09643978737388492,
+        "25": 0.12482189155433034,
+        "30": 0.15120614302372237,
+        "40": 0.20310641231325938,
+        "50": 0.23528635541638965,
+        "60": 0.2815408647259139,
+        "70": 0.3463955635463128,
+        "75": 0.360539300839962,
+        "80": 0.3966116017678176,
+        "90": 0.5061009273199847
+    },
+    "n_tests": 50,
+    "tests": [
+        {
+            "input": "信息不是知识，知识不是智慧，智慧不是真相，真相不是美貌，美貌不是爱，爱不是音乐，音乐是最好的。",
+            "output": "Information is not knowledge, knowledge is not wisdom, wisdom is not truth, truth is not beauty, beauty is not love, love is not music, music is the best.",
+            "llm_output": "Information is not knowledge, knowledge is not wisdom, wisdom is not truth, truth is not beauty, beauty is not love, love is not music, music is the best.",
+            "score": 1.0
+        },
+        {
+            "input": "有时我会在一瞬间忽然迷失说话的脉络，像是忽然刮来一阵狂风，将正在演奏的乐谱吹得无影无踪。",
+            "output": "Sometimes I will lose the context of my speech in an instant, as if a sudden gust of wind blows away the music score being played without leaving a trace.",
+            "llm_output": "Sometimes I will suddenly lose the context of my speech in an instant, as if a sudden gust of wind blows away the music score being played without a trace.",
+            "score": 0.8626196702874389
+        },
+        {
+            "input": "这意味着对利用能源、耗费资金和制造污染的空调的使用有了大幅增长。",
+            "output": "It means a huge increase in the use of air conditioning which uses energy, which costs money and creates pollution.",
+            "llm_output": "This means a huge increase in the use of air conditioning which uses energy, costs money and creates pollution.",
+            "score": 0.8056920633274978
+        },
+        {
+            "input": "这意味着一种轻松有趣的工作氛围，团队成就受到高度重视，沟通很重要，传统的3小时会议已被排队喝咖啡的非正式聊天取代。",
+            "output": "This implies a fun and relaxed working atmosphere where team achievement is highly valued, communication is extremely important and traditional 3-hour meetings have been replaced by informal chats in the queue for coffee.",
+            "llm_output": "This means a relaxed and fun working atmosphere, where team achievements are highly valued, communication is important, and traditional 3-hour meetings have been replaced by informal chats in line for coffee.",
+            "score": 0.5260299892791469
+        },
+        {
+            "input": "到了四十年代，旗袍有了种类繁多的图案和面料，也有了同样种类繁多的饰品。",
+            "output": "By the 1940s, the qipao came in a wide variety of designs and fabrics, with an equally wide variety of accessories.",
+            "llm_output": "By the 1940s, cheongsams came in a wide variety of patterns and fabrics, as well as an equally wide variety of accessories.",
+            "score": 0.5106109398471469
+        },
+        {
+            "input": "我認識的一個基督教變性者說：“相比於制定讓人用哪箇衛生間的規則，上帝有更好的事情去做。”",
+            "output": "A Christian transgendered person I know said: \"God has better things to do than to make up rules on who can use which bathroom.\"",
+            "llm_output": "A Christian transgender person I know said, \"God has better things to do than make rules about which bathroom people use.\"",
+            "score": 0.5055998148169667
+        },
+        {
+            "input": "其實愛情是人生唯一的、真正珍貴的;也是唯一的、真正值得追求的東西。",
+            "output": "In fact, love is the only genuinely precious thing in life; it's also the only thing worthy of pursuit.",
+            "llm_output": "In fact, love is the only and truly precious thing in life; it is also the only thing that is really worth pursuing.",
+            "score": 0.4624519493253227
+        },
+        {
+            "input": "但是CNN获悉，由于她丈夫的指导，凱薩琳感觉已经适应了新的生活。",
+            "output": "But CNN has learned that, due to her husband's guidance, Kate feels she has already adapted to her new life.",
+            "llm_output": "But CNN has learned that Kathleen feels she has settled into her new life thanks to her husband's guidance.",
+            "score": 0.45605983089973623
+        },
+        {
+            "input": "我要感謝我的選舉搭檔，這位先生全心全意競選，為與他在史克蘭頓街頭一起長大的男男女女代言，并和我一起乘火車回德拉瓦州，他就是副總統當選人，拜登先生。",
+            "output": "I want to thank my partner in this journey, a man who campaigned from his heart, and spoke for the men and women he grew up with on the streets of Scranton, and rode with on the train home to Delaware, the vice president-elect of the United States, Joe Biden.",
+            "llm_output": "I want to thank my electoral mate, the gentleman who campaigned with all his heart, spoke for the men and women he grew up with on the streets of Scranton, and took the train back to Delaware with me, the Vice President-elect, Mr. Biden.",
+            "score": 0.4527749691918423
+        },
+        {
+            "input": "我们知道貓科動物的眼睛能夠接受比人類的眼睛多得多的光線，所以夜裡的時候能看得清楚。",
+            "output": "We know that a cat, whose eyes take in much more light than human eyes, can see clearly at night.",
+            "llm_output": "We know that the eyes of cats can receive much more light than human eyes, so they can see clearly at night.",
+            "score": 0.44033133386391016
+        },
+        {
+            "input": "如果有人早期对俾斯麦说他是个很好的演说家，他会很生气。那也太平淡了，他会说自己不是个好演说家，我说话结巴。我是个政治家，不是个好演说家。",
+            "output": "If someone told Bismarck early on that he's a great public speaker, he would be very angry. That's so plain, he would say he is not a good public speaker, I talk with a stammer. I'm a politician, not a good public speaker.",
+            "llm_output": "If someone told Bismarck early on that he was a good speaker, he would have been offended. That was too bland, he would say he was not a good speaker and I would stutter. I'm a politician, not a good orator.",
+            "score": 0.3856816687437943
+        },
+        {
+            "input": "湯姆害羞到當他用細小的、幾乎聽不見的聲音問瑪麗她是否願意和他一起去影院時，看都沒看她一眼。",
+            "output": "Tom was so shy that he didn't even look at Mary when he asked her in a thin, barely audible voice whether she might possibly consider going to the cinema with him.",
+            "llm_output": "Tom was so shy that when he asked Mary in a small, barely audible voice if she would go to the theater with him, he didn't even look at her.",
+            "score": 0.3720040926204593
+        },
+        {
+            "input": "你可知道,當女人被男人脫去自己的衣服,一絲不掛的在他面前,需要多少的愛?",
+            "output": "Do you know how much love it takes for a woman to be undressed by a man, becoming nude in front of him?",
+            "llm_output": "Do you know how much love a woman needs when a man takes off her clothes and stands naked in front of him?",
+            "score": 0.36076605997271954
+        },
+        {
+            "input": "我找不到任何英文拼寫的邏輯。\"Ghoti\" 可以被發音成\"fish\"。",
+            "output": "I can't find any logic to English spelling. “Ghoti” can be pronounced as “fish.”",
+            "llm_output": "I can't find any logic for the English spelling. \"Ghoti\" can be pronounced \"fish\".",
+            "score": 0.3598590234416894
+        },
+        {
+            "input": "我不想分析这事实的原因，因为那样我就不得不进入政治领域，这是我所想避免的。我只是实话实说。",
+            "output": "I do not want to examine the cause, because then I would have to cross into politics. I would like to avoid that. I'm just telling the truth as it is.",
+            "llm_output": "I don't want to analyze the reasons for this fact, because then I would have to enter the political field, which I want to avoid. I'm just telling the truth.",
+            "score": 0.34677351063240636
+        },
+        {
+            "input": "在科隆一家疗养院的附近有一个公交车站。这一站没有任何公交车停靠。它是为更加容易地寻找逃跑的精神病患者而设立的。",
+            "output": "There is a bus stop near a nursing home in Cologne. No bus ever stops there. It's created for the purpose of finding mental patients on the run more easily.",
+            "llm_output": "There is a bus stop near a nursing home in Cologne. There are no buses stopping at this stop. It was created to make it easier to find fleeing psychopaths.",
+            "score": 0.34623358622370126
+        },
+        {
+            "input": "每一個男孩子都可 以說:『雖然我不是世界上最好的男人,但我是世界對妳最好的男人』。",
+            "output": "Every guy can say: \"Although I'm not the greatest man in the world, I am the man who is best to you.\"",
+            "llm_output": "Every boy can say: \"Although I am not the best man in the world, but I am the best man in the world to you\".",
+            "score": 0.33073910244428156
+        },
+        {
+            "input": "“汤姆，说你爱我。”“什，什么？”“说你爱我。”“为什么？”“说就行了。\"“......我爱你。”“谢谢。”“到底怎么回事？”“没什么，别担心。”",
+            "output": "Tom, say 'I love you'. \"Er, what?\" \"Say 'I love you'.\" \"Why?\" \"Just because!\" \"I love you.\" \"Ta!\" \"What's that all about?\" \"Oh, nothing! Think nothing of it.\"",
+            "llm_output": "\"Tom, say you love me.\" \"What, what?\" \"Say you love me.\" \"Why?\" \"Just say it.\" \"...I love you.\" \"Thank you.\" \"What the hell What's going on?\" \"Nothing, don't worry.\"",
+            "score": 0.297951566330751
+        },
+        {
+            "input": "我习惯于收集琐碎的物件，像是集市上卖的香膏，小蜡烛与烛台，只要是那种小巧又可爱的东西，我都会很喜欢。",
+            "output": "I tend to collect tiny little objects, like balms sold on the market, little candles and candlesticks. As long as they are tiny and cutesy, I like them.",
+            "llm_output": "I am used to collecting trivial objects, such as balms sold in the market, small candles and candlesticks, as long as they are small and cute, I will like them very much.",
+            "score": 0.2850762141829077
+        },
+        {
+            "input": "所以之前我認為我的約會，或者更確切的說，下線後的網聚將只有我和她，但是事情並非那麼簡單。",
+            "output": "So I thought my date, er rather, offline-meeting was going to be just me and her but things aren't that easy.",
+            "llm_output": "So before I thought my date, or more precisely, the online meeting after offline would be just me and her, but it's not that simple.",
+            "score": 0.2830789070123405
+        },
+        {
+            "input": "事情已经定下来了，我们再怎么努力也无济于事了，一切都是马后炮了。",
+            "output": "The matter can't be changed. No matter how hard we try, everything is fruitless.",
+            "llm_output": "The matter has been settled, no matter how hard we try, it will be useless, everything will be an afterthought.",
+            "score": 0.28051550320162943
+        },
+        {
+            "input": "知情者说，“她从来不会评判自己的成就，但是她成功地做好了她第一年决心做的事。”",
+            "output": "She would never judge her own accomplishments, but she has succeeded in achieving what she set out to do in her first year, the source said.",
+            "llm_output": "\"She never judges her accomplishments, but she managed to do what she set out to do the first year,\" the insider said.",
+            "score": 0.2710121970860678
+        },
+        {
+            "input": "被判严重违反新的行为准则的青少年将失去免费乘坐公交车的权利，如果想重新取得必须做无报酬的社区工作。",
+            "output": "Youths who are caught violating the new rules on behaviour will lose their right to free travel, and will have to complete unpaid community work to earn it back.",
+            "llm_output": "Teenagers convicted of serious breaches of the new code of conduct will lose their right to free public transport and must do unpaid community work to regain it.",
+            "score": 0.2702564958897879
+        },
+        {
+            "input": "一些人只买有机的食物，他们认为这样可以使他们的健康不受污染的损害。",
+            "output": "Some people only buy organic food; they think that in this way their body will not be damaged by pollutants.",
+            "llm_output": "Some people only buy organic food, thinking that it will protect their health from pollution.",
+            "score": 0.25674242527758556
+        },
+        {
+            "input": "而且要記住，從此後不要再到海邊去。（永遠相信，我已經找到最大、最好、最適合我的那一顆。）",
+            "output": "What's more, from now on you must remember that you cannot go to the seaside again (by believing forever that I have already found the biggest, best and most fitting one for me).",
+            "llm_output": "And remember, never go to the sea again from now on. (Always believe that I have found the biggest, best, and best one for me.)",
+            "score": 0.24384933380964557
+        },
+        {
+            "input": "「我昨天首次見到了一個我網上認識的朋友。」「就是老是在妳口頭的那個叫湯姆的小伙子？」「沒錯。」「然後怎麼樣呢？」「他沒我想像中那樣好看。」",
+            "output": "I met a friend for the first time yesterday who I'd got to know online. \"Ah, this Tom fella you're always going on about.\" \"That's the one!\" \"And how was it?\" \"He wasn't as good-looking as I thought he'd be.\"",
+            "llm_output": "\"I met a friend I met online for the first time yesterday.\" \"It's that guy named Tom you keep talking about?\" \"Yeah.\" \"And then?\" \"He's not as good-looking as I thought. \"",
+            "score": 0.22672337702313372
+        },
+        {
+            "input": "任何境遇都是宇宙给你的机会，假如你懂得利用、抓紧它。它将是你一生的财富。假如你遗漏、放弃或者没有做出积极的响应，宇宙会让这次机会在下一个时间、地点，和其他人重新来过。但在其中，你失去的是最宝贵的时间！知错就改，把握当下；在合适的尺度下，能跳就跳吧，能唱就唱吧，能疯就疯吧，能闹就闹吧。",
+            "output": "Every situation is an opportunity given to you by the universe. If you know how to make the most out of that situation, do it. It will be a wealth that lasts you a lifetime. If you missed out, gave up, or didn't even attempt to take advantage of the opportunity, the universe will set this chance aside for the next person, in a different time and place. But what's most important is that you lost precious time. Understand what you did wrong, and control the present. Then with proper restraint, if you can dance, dance. If you can sing, sing. If you can be wild, be wild. If you can be lively, be lively.",
+            "llm_output": "Any situation is an opportunity the universe gives you, if you know how to take advantage of it and seize it. It will be the wealth of your life. If you miss, give up, or don't respond positively, the universe will make the opportunity anew at the next time, place, and with someone else. But in it, what you lose is the most precious time! If you know a mistake, correct it, and grasp the present moment; under the right scale, dance if you can dance, sing if you can sing, go crazy if you can, and make trouble if you can.",
+            "score": 0.22255491452441808
+        },
+        {
+            "input": "如果人類的物質生活一年比一年富足，蛋糕的推出越來越精緻，科技越來越便利，同時沒有前人種樹就不可能有後人乘涼，那麼我便可以肯定“富有”的人生，肯定是由熱愛吃苦的前輩，那群帶有苦味的食客開創出來的。",
+            "output": "If humanity's material life becomes richer year by year, cakes become more and more elaborate, technology becomes more and more convenient, and at the same time, without earlier generations planting trees, later generations would not be able to enjoy their shade, then I am sure that the \"rich\" life must've been brought about by our industrious forefathers, those who were unafraid to taste the bitterness of hardship.",
+            "llm_output": "If the material life of human beings is getting richer every year, the cakes are more and more refined, the technology is more and more convenient, and at the same time, it is impossible for future generations to enjoy the shade without the predecessors planting trees, then I can be sure of a \"rich\" life , must have been created by the predecessors who love to eat bitterness, the group of eaters with bitter taste.",
+            "score": 0.2181195557889589
+        },
+        {
+            "input": "一個人如果條件很好,有一百分,可是這一百分之中,他只給你三四十分,或一二十分;相反地,另一 個人也許只有七八十分,可是他卻是全心全意的對待你,那你應該選擇那一個?",
+            "output": "If one person's qualities are really good, say this means they have one hundred points, but of those hundred they only give you thirty or forty, or even ten or twenty. Inversely, another person maybe only has seventy or eighty points, but they treat you with their heart and soul, then which person should you choose?",
+            "llm_output": "If a person's conditions are very good, he has one hundred points, but out of this one percent, he only gives you thirty or forty points, or one or twenty points; on the contrary, another person may only have seventy or eighty points, but he is Treat you wholeheartedly, so which one should you choose?",
+            "score": 0.21005487749377225
+        },
+        {
+            "input": "有人说过，不论黑猫白猫，能捉到老鼠就是好猫。但是，现在一般人里很难见到老鼠了。那么，怎样的猫才是好猫呢？",
+            "output": "Some people say, regardless of whether it is a black cat or a white cat, if it can catch mice it is a good cat. However, nowadays ordinary people rarely ever have mice. Therefore, how can a cat be a good cat?",
+            "llm_output": "Someone once said that it doesn't matter whether a cat is black or white, as long as it catches mice, it is a good cat. However, it is difficult to see mice among ordinary people now. So, what kind of cat is a good cat?",
+            "score": 0.2049642241639589
+        },
+        {
+            "input": "大地直到四月底才得以從冬季冰冷的握持中掙脫出來。天漸暖了，雪和冰也都融化成溪了。",
+            "output": "It was not until the end of April that winter began to release the land from its icy grip. The days became warmer; snow and ice turned into streams of meltwater.",
+            "llm_output": "The earth did not break free from the icy grip of winter until the end of April. The weather is getting warmer, and the snow and ice are melting into streams.",
+            "score": 0.2003196945372101
+        },
+        {
+            "input": "人類食衣住行娛樂用的每一件東西都是全世界的人一起幫我們做出來的，而且參與的每個人都只知道怎麼創造一小部分，沒有例外。因此當我們決定幫自己一把來幫助全世界，只要全力關注創造，全世界的人都會幫我們。",
+            "output": "Humanity's food, cloth, place of living, transport, entertainment are all created together by people around the globe. Also, people who partake in these activities only know a fraction of how the parts are created, without exception. Therefore, when we decide to help ourselves to help the entire world, as long as we focus with our entire being to create, the entire world will help us.",
+            "llm_output": "Every thing used for human food, clothing, housing, transportation and entertainment is made by people all over the world, and everyone involved only knows how to create a small part, without exception. So when we decide to help ourselves to help the world, just focus on creating and the whole world will help us.",
+            "score": 0.1929283160347858
+        },
+        {
+            "input": "在我的世界上，人人都是小馬駒，他們吃了彩虹之後就會啪地一下拉出蝴蝶。",
+            "output": "In my world everyone’s a pony and they all eat rainbows and poop butterflies.",
+            "llm_output": "In my world, everyone is a foal who snaps a butterfly after eating a rainbow.",
+            "score": 0.17395797375642233
+        },
+        {
+            "input": "我们照例寒暄了一阵，闲扯扯队里的新闻以后，他在不知不觉中就把谈话引入了正题。",
+            "output": "We exchanged pleasantries, and chatted cordially about news in the team, and he moved the conversation naturally on to the main topic.",
+            "llm_output": "We chatted for a while as usual, and after chatting about the news in the team, he unknowingly led the conversation into the main topic.",
+            "score": 0.1697362853134327
+        },
+        {
+            "input": "富贵不能迷乱他的思想，贫贱不能改变他的操守，威武不能压服他的意志，这就是大丈夫的本分。",
+            "output": "Wealth could not muddle his thoughts, poverty could not change his integrity, force could not oppress his will, this is what it means to be a man.",
+            "llm_output": "Riches and honors cannot confuse his thoughts, poverty and lowliness cannot change his conduct, and might cannot subdue his will. This is the duty of a man.",
+            "score": 0.16155084779373866
+        },
+        {
+            "input": "俗話說：人不犯我，我不犯人；可俗話又說：先下手為強，後下手遭殃!",
+            "output": "As the saying goes: As long as you don't offend me, I won't offend you. But there's another saying: To strike first means victory, to strike second means tragedy.",
+            "llm_output": "As the saying goes: People do not offend me, I will not offend others; but the common saying goes: the first to attack is strong, and the second to attack will suffer!",
+            "score": 0.1270684985603511
+        },
+        {
+            "input": "湯姆晚上在酒吧裡和他的哥們兒們高興了一通以後回家發現前門上貼著一張字條，上有他妻子的筆跡，寫著：「絕對別覺得我可能會再回來，我跟你從此斷絕了！」",
+            "output": "Returning home from an evening down the pub with his mates, Tom found a handwritten note stuck to the front door; the handwriting was his wife's. It read: \"You can forget any idea that I might come back – I've left you!\"",
+            "llm_output": "Tom came home after a night of fun with his buddies in the pub to find a note taped to the front door in his wife's handwriting: \"Never think I might ever come back, I'm with you from now on. Cut off!\"",
+            "score": 0.12640874819987347
+        },
+        {
+            "input": "两只老虎, 两只老虎, 跑得快, 跑得快。 一只没有眼睛, 一只没有尾巴。 真奇怪, 真奇怪。",
+            "output": "Two tigers, two tigers. They run very fast, run very fast. One doesn't have eyes, the other doesn't have a tail. It is very strange, very strange.",
+            "llm_output": "Two tigers, two tigers, run fast, run fast. One has no eyes and one has no tail. It's weird, it's weird.",
+            "score": 0.1242929393391493
+        },
+        {
+            "input": "總是聽到有人說何時會碰到貴人，也許我們應該問，誰不是我們的貴人？",
+            "output": "We always hear people asking when they'll meet someone who'll help turn their life around, but why not ask instead who isn't that someone?",
+            "llm_output": "We always hear people say when we will meet noble people, maybe we should ask, who is not our noble person?",
+            "score": 0.11544350658778209
+        },
+        {
+            "input": "但是如果有一個人本身已經很好了,對你又是真心真意, 真心愛你,那麼你真的可以把一生托付給他。",
+            "output": "But having someone is already good in and of itself, and if they treat you with sincerity and love you from the bottom of their heart, then you really can entrust your life to them.",
+            "llm_output": "But if there is a person who is already very good, who treats you sincerely and loves you, then you can really entrust your life to him.",
+            "score": 0.10380733901825441
+        },
+        {
+            "input": "孔子說：\"像夏禹的為人，我找不到可以指責的漏洞。自己吃著菲薄的飲食，而卻用豐厚祭品祭拜祖先與神明；自己平時穿粗劣的衣裳，而在祭祀時穿戴華服禮帽；自己住小房子，卻盡力開通水道溝渠。像夏禹這樣的人，我實在找不到可以指責的漏洞了。\"",
+            "output": "Confucius said: \" Yu the Great's conduct, I could not point out any flaws. He consumes meager amount of food, while offering boastful riches to the Gods and ancestors; He always don the crudest attire, but wears lavish garments when worshipping; He resides in a small house, yet forges water ways and ditches with all his might. Figures like Yu the Great, I honestly cannot point out any reprehensible flaws.\"",
+            "llm_output": "Confucius said: \"Like Xia Yu, I can't find any flaws to criticize. I eat meager food, but use rich sacrifices to worship ancestors and gods; I usually wear poor clothes, but when I sacrifice Wearing fancy clothes and hats; living in a small house by myself, but trying my best to open waterways and ditches. People like Xia Yu, I really can't find a loophole to blame.\"",
+            "score": 0.0669695807964068
+        },
+        {
+            "input": "即使她没生病，到了规定的日期她也完成不了她的博士论文， 因为论文题目涉及的内容太广泛。",
+            "output": "Even if she wasn't sick, she couldn't complete her doctoral thesis by the deadline because the thesis problem contains a vast amount of detail.",
+            "llm_output": "Even if she hadn't been ill, she would not have been able to complete her doctoral dissertation by the due date because the topic was too broad.",
+            "score": 3.6453855821907046e-78
+        },
+        {
+            "input": "我們親愛的父親每週都會給我們閱讀散文，好讓我們認識到世界的美好之處。",
+            "output": "Our beloved father would read us some prose every week to better our understanding of the world's beauty.",
+            "llm_output": "Our dear father read us essays every week so that we could see the beauty of the world.",
+            "score": 3.47346783985863e-78
+        },
+        {
+            "input": "这个老师总是拖堂，占用同学们课间休息的时间，后来他被举报了，真过瘾啊。",
+            "output": "This teacher always drags his class time, taking up the students' rest time, later he got reported, it felt amazing.",
+            "llm_output": "This teacher is always procrastinating and occupying the students' recess time. Later, he was reported, which is really enjoyable.",
+            "score": 3.250389241730517e-78
+        },
+        {
+            "input": "世界上任何人的独自活动，都是清醒而目标明确的，然而一旦被生活的洪流聚在一起，就变得混沌不清了。",
+            "output": "All individuals in the world act with clear goals and distinct intentions. But once these actions are brought together by the great torrents of life, clarity recedes and chaos ensues.",
+            "llm_output": "Anyone's solitary activities in the world are clear-headed and purposeful, but once they are gathered together by the torrent of life, they become chaotic.",
+            "score": 3.195935919797949e-78
+        },
+        {
+            "input": "一件传统式样的旗袍是完全手工制作的，也需要劳动密集的裁缝业技术，为了增加而显示每种独一无二的女性体态。",
+            "output": "A qipao in the traditional style is made entirely by hand and requires labour-intensive manual tailoring techniques to enhance and exhibit every unique female form.",
+            "llm_output": "A traditional style cheongsam is entirely handmade, also requiring labor-intensive tailoring techniques, in order to enhance and show each unique female figure.",
+            "score": 3.086202931168975e-78
+        },
+        {
+            "input": "教導學生，不到他想瞭解而不得其解的時候，不去開導他；不到他想表達意見卻說不出來的時候，不去啟發他。教給他一個方面的東西，他卻不能由此而推知其它三個方面的東西，那就不再教他了。",
+            "output": "When teaching a student, do not enlighten him until he wishes to understand what he could not. Do not inspire him until he wishes to express but could not. When teaching him one side of a solution, if he could not discover the other three sides, then do not teach him again.",
+            "llm_output": "Teach a student, don't enlighten him when he wants to understand but can't understand it; don't enlighten him when he wants to express his opinion but can't express it. If you teach him one aspect, but he cannot deduce the other three aspects from it, then don't teach him any more.",
+            "score": 2.902530029017982e-78
+        },
+        {
+            "input": "世界上沒有一個壞男人會有一個好女人;同樣的,也沒有一個壞女人會有一個好男 人。",
+            "output": "There isn't a bad man in the world who has been able to get a good woman; similarly, there isn't a bad woman in the world who has been able to get a good man.",
+            "llm_output": "There is no bad man who can have a good woman; likewise, there is no bad woman who can have a good man.",
+            "score": 2.617884509935784e-78
+        },
+        {
+            "input": "世界上任何人的独自活动，都是清醒而目标明确的，然而一旦被生活的洪流聚在一起，就变得混沌不清了。",
+            "output": "Everyone in the world starts off with goals set out and a clear purpose. But once these are jumbled up by the torrents of life, everything descends into chaos.",
+            "llm_output": "Anyone's solitary activities in the world are clear-headed and purposeful, but once they are gathered together by the torrent of life, they become chaotic.",
+            "score": 2.614989151628208e-78
+        },
+        {
+            "input": "尼采认为，哲学家应该少一点自命不凡，多关注人的价值问题，而不是抽象的体系。",
+            "output": "Nietzsche believes philosophers should stop riding their high horse and focus more on people's differences in values, instead of abstract systems.",
+            "llm_output": "Nietzsche believed that philosophers should be less pretentious and more concerned with questions of human value than with abstract systems.",
+            "score": 6.114020126442295e-155
+        }
+    ]
+}

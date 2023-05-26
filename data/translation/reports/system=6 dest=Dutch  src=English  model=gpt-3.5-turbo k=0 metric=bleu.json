@@ -1,0 +1,448 @@
+{
+    "system_message_file": "6",
+    "model": "gpt-3.5-turbo",
+    "parameters": {
+        "src": "English",
+        "dest": "Dutch"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.39150742663509763,
+        0.39150742663509763,
+        0.39150742663509763,
+        0.39150742663509763,
+        0.39150742663509763,
+        0.39150742663509763,
+        0.39150742663509763,
+        0.39150742663509763,
+        0.39150742663509763,
+        0.39150742663509763
+    ],
+    "median": 0.39150742663509763,
+    "average": 0.41878938299495816,
+    "std": 0.2404769598421926,
+    "percentiles": {
+        "10": 3.9113405347504133e-78,
+        "20": 0.25397097538884766,
+        "25": 0.2661437108037504,
+        "30": 0.3304476754916802,
+        "40": 0.3616380511789332,
+        "50": 0.39150742663509763,
+        "60": 0.496734714412214,
+        "70": 0.5752991761743699,
+        "75": 0.5841116635592547,
+        "80": 0.6037171921804703,
+        "90": 0.7055777824530285
+    },
+    "n_tests": 50,
+    "prompt": [
+        {
+            "role": "system",
+            "content": "Please translate the user message from English to Dutch. Make the translation sound as natural as possible."
+        }
+    ],
+    "tests": [
+        {
+            "id": 3526,
+            "name": "en_nl_48",
+            "input": "During a cardiac arrest, the defibrillator can deliver a shock to the heart to restore its normal rhythm.",
+            "output": "Bij een hartstilstand kan de defibrillator een schok aan het hart toedienen om het normale ritme te herstellen.",
+            "llm_output": "Tijdens een hartstilstand kan de defibrillator een schok aan het hart toedienen om het normale ritme te herstellen.",
+            "score": 0.9391044157537525
+        },
+        {
+            "id": 3514,
+            "name": "en_nl_36",
+            "input": "The sun is yellow. The sky is blue. The snow is white. The cherry is red. The grass is green. The water is colorless.",
+            "output": "De zon is geel. De lucht is blauw. Sneeuw is wit. De kers is rood. Het gras is groen. Het water is kleurloos.",
+            "llm_output": "De zon is geel. De lucht is blauw. De sneeuw is wit. De kers is rood. Het gras is groen. Het water is kleurloos.",
+            "score": 0.8843865924896842
+        },
+        {
+            "id": 3487,
+            "name": "en_nl_9",
+            "input": "Pluto has more in common with Triton, Neptune's largest moon, than it does with any of the eight planets in our solar system. Pluto is actually smaller than Triton.",
+            "output": "Pluto heeft meer gemeen met Triton, de grootste maan van Neptunus, dan enkele van de acht planeten in ons zonnestelsel. Pluto is eigenlijk kleiner dan Triton.",
+            "llm_output": "Pluto heeft meer gemeen met Triton, de grootste maan van Neptunus, dan met een van de acht planeten in ons zonnestelsel. Pluto is eigenlijk kleiner dan Triton.",
+            "score": 0.8590888738245122
+        },
+        {
+            "id": 3509,
+            "name": "en_nl_31",
+            "input": "I can't fix all the world's problems. All I can do is try and improve myself, and hopefully inspire others to do the same.",
+            "output": "Ik kan niet alle problemen van de wereld oplossen. Het enige wat ik kan doen is mezelf proberen te verbeteren en hopelijk anderen inspireren hetzelfde te doen.",
+            "llm_output": "Ik kan niet alle problemen van de wereld oplossen. Het enige wat ik kan doen is proberen mezelf te verbeteren en hopelijk anderen inspireren om hetzelfde te doen.",
+            "score": 0.7785853346081361
+        },
+        {
+            "id": 3512,
+            "name": "en_nl_34",
+            "input": "When one part of an object is on fire, other parts of that object tend to light on fire as well. This is called a fire.",
+            "output": "Toen één deel van een object in brand staat, hebben andere delen van dat object de neiging om ook in brand te steken. Dit heet brand.",
+            "llm_output": "Wanneer een deel van een object in brand staat, hebben andere delen van dat object de neiging om ook in brand te vliegen. Dit wordt een brand genoemd.",
+            "score": 0.7142753111280397
+        },
+        {
+            "id": 3507,
+            "name": "en_nl_29",
+            "input": "It's cheaper for me to go to community college, and then transfer to a four-year university, so that's what I'm going to do.",
+            "output": "Het is goedkoper voor mij om naar een community college te gaan en dan over te stappen naar een vierjarige universiteit, dus ga ik dat doen.",
+            "llm_output": "Het is goedkoper voor mij om naar een community college te gaan en daarna over te stappen naar een vierjarige universiteit, dus dat is wat ik ga doen.",
+            "score": 0.7046113903780272
+        },
+        {
+            "id": 3527,
+            "name": "en_nl_49",
+            "input": "The surgeon carefully used the medical scissors to make a precise incision during the surgical procedure.",
+            "output": "De chirurg gebruikte zorgvuldig de medische schaar om nauwkeurig een incisie te maken tijdens de operatie.",
+            "llm_output": "De chirurg gebruikte zorgvuldig de medische schaar om een precieze incisie te maken tijdens de chirurgische ingreep.",
+            "score": 0.641975224568211
+        },
+        {
+            "id": 3517,
+            "name": "en_nl_39",
+            "input": "Should I kill off characters in my book to make it more exciting? \"What type of book is it?\" \"An autobiography.\"",
+            "output": "Zou ik wat karakters in mijn boek doden om het spanneder te maken? \"Wat soort boek is het?\" \"Een autobiografie.\"",
+            "llm_output": "Moet ik personages in mijn boek doden om het spannender te maken? \"Wat voor soort boek is het?\" \"Een autobiografie.\"",
+            "score": 0.635518312561919
+        },
+        {
+            "id": 3498,
+            "name": "en_nl_20",
+            "input": "The legal system is designed to ensure that everyone is treated fairly and that disputes are resolved in a just and equitable manner.",
+            "output": "Het rechtsstelsel is zo opgebouwd dat iedereen eerlijk wordt behandeld en dat geschillen op een rechtvaardige en billijke manier worden opgelost.",
+            "llm_output": "Het juridische systeem is ontworpen om ervoor te zorgen dat iedereen eerlijk wordt behandeld en dat geschillen op een rechtvaardige en billijke manier worden opgelost.",
+            "score": 0.6342834010525137
+        },
+        {
+            "id": 3521,
+            "name": "en_nl_43",
+            "input": "The secret to productivity in so many fields -- and in origami -- is letting dead people do your work for you.",
+            "output": "Het geheim van productiviteit op zoveel gebieden - en in origami - is om dode mensen je werk voor je te laten doen.",
+            "llm_output": "Het geheim van productiviteit in zoveel vakgebieden - en in origami - is om dode mensen het werk voor je te laten doen.",
+            "score": 0.6268331472593015
+        },
+        {
+            "id": 3482,
+            "name": "en_nl_4",
+            "input": "Tom went to Mary's office on the off-chance that she might be there, and in fact she was. \"I'm really glad I've found you here,\" he said, relieved. \"There's something important I have to discuss with you.\"",
+            "output": "Tom ging naar Marias kantoor met de kans dat ze daar zou zijn, en dat was ze ook. \"Ik ben echt blij dat ik je hier heb gevonden,\" zei hij, tevreden. \"Er is iets belangrijks dat ik met je moet bespreken.\"",
+            "llm_output": "Tom ging naar het kantoor van Mary in de hoop dat ze er zou zijn, en inderdaad was ze er. \"Ik ben echt blij dat ik je hier heb gevonden,\" zei hij opgelucht. \"Er is iets belangrijks dat ik met je moet bespreken.\"",
+            "score": 0.5979382034107623
+        },
+        {
+            "id": 3491,
+            "name": "en_nl_13",
+            "input": "Some high school students take advantage of dual enrollment programs to take college courses at a community college to finish their degree faster.",
+            "output": "Sommige middelbare scholieren profiteren van programma's voor dubbele inschrijving om college-cursussen te volgen aan een community college om hun diploma sneller af te ronden.",
+            "llm_output": "Sommige middelbare scholieren maken gebruik van dual enrollment programma's om collegecursussen te volgen aan een community college om hun diploma sneller af te ronden.",
+            "score": 0.5868136174076833
+        },
+        {
+            "id": 3519,
+            "name": "en_nl_41",
+            "input": "The law is a living document, constantly being shaped and reshaped to reflect the values and needs of society.",
+            "output": "Het recht is een levend document dat regelmatig wordt bijgewerkt om de waarden en behoeften van de samenleving te weerspiegelen.",
+            "llm_output": "De wet is een levend document dat voortdurend wordt gevormd en hervormd om de waarden en behoeften van de samenleving te weerspiegelen.",
+            "score": 0.5852187596735429
+        },
+        {
+            "id": 3493,
+            "name": "en_nl_15",
+            "input": "We all have those “must-remembers”: turning in an assignment, stopping for milk on the way home, or studying a certain topic before a big test.",
+            "output": "We hebben allemaal die \"te-onthoudens\": Een opdracht inleveren, stoppen voor melk op weg naar huis, of een bepaald onderwerp studeren voor een grote toets.",
+            "llm_output": "We hebben allemaal van die \"moet-onthouden\" dingen: een opdracht inleveren, stoppen voor melk op weg naar huis, of een bepaald onderwerp bestuderen voor een belangrijke toets.",
+            "score": 0.5807903752163901
+        },
+        {
+            "id": 3480,
+            "name": "en_nl_2",
+            "input": "In the central portion of the great North American Continent there lies an arid and repulsive desert, which for many a long year served as a barrier against the advance of civilization. From the Sierra Nevada to Nebraska, and from the Yellowstone River in the north to the Colorado upon the south, is a region of desolation and silence.",
+            "output": "In het middelste gedeelte van het grote Noord-Amerikaanse continent ligt er een dorre en weerzinwekkende woestijn, die voor vele lange jaren heeft gezorgt als een barrière tegen de voortgang van de beschaving. Van de Sierra Nevada tot Nebraska, en van de Yellowstone rivier in het noorden tot de Colorado in het zuiden, is er een gebied van verlatenheid en stilte.",
+            "llm_output": "In het centrale deel van het grote Noord-Amerikaanse continent ligt een droge en afstotelijke woestijn, die vele lange jaren diende als een barrière tegen de vooruitgang van de beschaving. Van de Sierra Nevada tot Nebraska, en van de Yellowstone-rivier in het noorden tot de Colorado in het zuiden, is een gebied van verlatenheid en stilte.",
+            "score": 0.5778952175666344
+        },
+        {
+            "id": 3524,
+            "name": "en_nl_46",
+            "input": "After chopping the vegetables, it's important to rinse them under cold water to remove any dirt or debris.",
+            "output": "Na het snijden van de groenten is het belangrijk om ze af te spoelen onder koud water om al het vuil te verwijderen.",
+            "llm_output": "Na het snijden van de groenten is het belangrijk om ze onder koud water af te spoelen om eventueel vuil of afval te verwijderen.",
+            "score": 0.5741865870062566
+        },
+        {
+            "id": 3513,
+            "name": "en_nl_35",
+            "input": "The story's titular character was a brave young woman who confronted her fears and demonstrated extraordinary courage.",
+            "output": "Het hoofdpersonage van het verhaal was een dappere jonge vrouw die haar angsten onder ogen zag en uitzonderlijke moed vertoonde.",
+            "llm_output": "Het titulaire personage van het verhaal was een moedige jonge vrouw die haar angsten onder ogen zag en buitengewone moed toonde.",
+            "score": 0.5718458251358622
+        },
+        {
+            "id": 3505,
+            "name": "en_nl_27",
+            "input": "If the rice is not fully cooked, you can cover the pot and let it simmer on low heat for a few more minutes until it's done.",
+            "output": "Als de rijst niet helemaal gaar is, kun je de pan afdekken en nog een paar minuten op laag vuur laten sudderen tot hij gaar is.",
+            "llm_output": "Als de rijst niet volledig gaar is, kun je de pan afdekken en het op laag vuur laten sudderen voor nog een paar minuten totdat het gaar is.",
+            "score": 0.5603221136840577
+        },
+        {
+            "id": 3508,
+            "name": "en_nl_30",
+            "input": "I could hear the voices of several other guests who had arrived and were already eating together in the main dinning room.",
+            "output": "I kon de stemmen van verschillende andere gasten horen die waren aangekomen en al samen aan het eten waren in de hoofd eetzaal.",
+            "llm_output": "Ik kon de stemmen horen van verschillende andere gasten die waren gearriveerd en al samen aan het eten waren in de hoofdeetzaal.",
+            "score": 0.545315532193484
+        },
+        {
+            "id": 3495,
+            "name": "en_nl_17",
+            "input": "After my surgery, I was given a suture removal kit by the hospital staff and was instructed on how to use it to remove the stitches at home.",
+            "output": "Na mijn operatie kreeg ik van het ziekenhuispersoneel een kit om de hechtingen te verwijderen samen met instructies over hoe ik die thuis kon gebruiken.",
+            "llm_output": "Na mijn operatie kreeg ik van het ziekenhuispersoneel een hechtingverwijderingsset en werd ik geïnstrueerd over hoe ik deze thuis moest gebruiken om de hechtingen te verwijderen.",
+            "score": 0.5053915409642312
+        },
+        {
+            "id": 3500,
+            "name": "en_nl_22",
+            "input": "You should always use a cutting board when slicing fruits, vegetables, and meats to prevent damaging your knives and countertops.",
+            "output": "U dient altijd een snijplank te gebruiken bij het snijden van fruit, groenten en vlees om beschadiging van uw messen en aanrecht te voorkomen.",
+            "llm_output": "Je zou altijd een snijplank moeten gebruiken bij het snijden van fruit, groenten en vlees om te voorkomen dat je je messen en aanrecht beschadigt.",
+            "score": 0.4909634967108692
+        },
+        {
+            "id": 3525,
+            "name": "en_nl_47",
+            "input": "I don't have a food processor, so I use a fork to puree my avocado for guacamole, and it works just fine.",
+            "output": "Ik heb geen foodprocessor, dus gebruik ik een vork om mijn avocado te pureren voor de guacamole, en dat werkt prima.",
+            "llm_output": "Ik heb geen keukenmachine, dus ik gebruik een vork om mijn avocado te pureren voor guacamole, en het werkt prima.",
+            "score": 0.4699940163063243
+        },
+        {
+            "id": 3489,
+            "name": "en_nl_11",
+            "input": "After her surgery, the patient needed an ostomy bag to collect waste from her intestine that was redirected through an opening in her abdominal wall.",
+            "output": "Na haar operatie had de patiënte een stoma-zakje nodig om de afvalstoffen uit haar darmen op te vangen die via een opening in haar buikwand werden omgeleid.",
+            "llm_output": "Na haar operatie had de patiënt een stoma zak nodig om afvalstoffen op te vangen van haar darmen die werden omgeleid via een opening in haar buikwand.",
+            "score": 0.41817385373712795
+        },
+        {
+            "id": 3523,
+            "name": "en_nl_45",
+            "input": "I went to Mr. Jackson's office hours, and he helped me with the homework problem I was having trouble with.",
+            "output": "Ik ging naar het spreekuur van meneer Jackson, en hij hielp mij met het huiswerkprobleem waar ik moeite mee had.",
+            "llm_output": "Ik ben naar de kantooruren van meneer Jackson gegaan en hij heeft me geholpen met het huiswerkprobleem waar ik moeite mee had.",
+            "score": 0.41584686600540666
+        },
+        {
+            "id": 3484,
+            "name": "en_nl_6",
+            "input": "Although an appeal to popularity is in fact a logical fallacy, a religious person may sometimes speak of an ecumenical truth as being right or true because everyone believes it.",
+            "output": "Hoewel een beroep op populariteit in feite een drogreden is, kan een gelovige soms van een oecumenische waarheid als juist of waar spreken omdat iedereen erin gelooft.",
+            "llm_output": "Hoewel een beroep op populariteit eigenlijk een logische drogreden is, kan een religieus persoon soms spreken van een oecumenische waarheid als zijnde juist of waar omdat iedereen het gelooft.",
+            "score": 0.39929494397353266
+        },
+        {
+            "id": 3478,
+            "name": "en_nl_0",
+            "input": "Since I don't speak Spanish that often, I can speak (or rather, write) more or less correctly, but I don't have a lot of color or variety in my language. I always use the same structures, the ones I know, in order to avoid making up ways to express things and sounding like I'm speaking English. I say the same thing over and over again, without many idiomatic expressions, and whenever I try to use the ones I know, I screw up. Meanwhile, with English, though I don't speak it perfectly either, I do introduce that variety, and I have the experience of speaking it with same-age peers, learning different ways to express myself.",
+            "output": "Omdat ik Spaans vaak niet praat, kan ik min of meer juist praten (of beter, schrijven), maar ik heb niet te veel kleur of verscheidenheid in mijn taal. Ik gebruik altijd dezelfde zinsopbouwen, diegenen die ik ken, om te voorkomen dat ik manieren verzin om dingen uit te drukken en te klinken alsof ik Engels spreek. Ik zeg hetzelfde ding opnieuw en opnieuw, zonder veel idiomatische uitdrukkingen, en wanneer ik probeer om diegenen die ik ken gebruiken, ik verpest. Inmiddels, met het Engels, hoewel ik het perfect niet spreek, ik stel de verscheidenheid wel voor, en ik heb de ervaring om het met leeftijdsgenoten te praten, leren verschillende manieren om me uit te drukken.",
+            "llm_output": "Aangezien ik niet vaak Spaans spreek, kan ik min of meer correct spreken (of schrijven), maar ik heb niet veel kleur of variatie in mijn taal. Ik gebruik altijd dezelfde structuren, degene die ik ken, om het verzinnen van manieren om dingen uit te drukken en klinken als ik Engels spreek te vermijden. Ik zeg steeds hetzelfde, zonder veel idiomatische uitdrukkingen, en telkens als ik probeer degene te gebruiken die ik ken, maak ik fouten. Ondertussen, met Engels, hoewel ik het ook niet perfect spreek, introduceer ik die variëteit wel, en ik heb de ervaring om het met leeftijdsgenoten te spreken en verschillende manieren te leren om mezelf uit te drukken.",
+            "score": 0.38371990929666266
+        },
+        {
+            "id": 3502,
+            "name": "en_nl_24",
+            "input": "Hey, did you finish your homework yet? \"No, I'm still working on it. How about you?\" \"Yeah, I finished mine a few hours ago.\"",
+            "output": "Hé, heb je je huiswerk al gemaakt? \"Nee, ik zit er nog aan. En jij?\" \"Ja, die van mij is een paar uur geleden af.\"",
+            "llm_output": "Hey, heb je je huiswerk al af? \"Nee, ik ben er nog mee bezig. En jij?\" \"Ja, ik heb het een paar uur geleden al afgerond.\"",
+            "score": 0.37659946525824206
+        },
+        {
+            "id": 3479,
+            "name": "en_nl_1",
+            "input": "I know that adding sentences only in your native or strongest language is probably not as much fun as practicing writing foreign languages, but please don't add sentences to the Tatoeba Corpus if you are not absolutely sure they are correct. If you want to practice languages that you are studying, please do so by using a website designed for that purpose such as www.lang-8.com.",
+            "output": "Ik weet dat het waarschijnlijk niet zo leuk is om zinnen in je moeder- of sterkste taal toe te voegen als het oefenen van vreemde talen, maar voeg alsjeblieft geen zinnen toe aan het Tatoeba-Corpus als je er niet helemaal zeker van bent dat ze juist zijn. Als je de talen die je studeert wilt oefenen, doe dat dan liever met een website die voor dat doel is ontworpen, zoals www.lang-8.com.",
+            "llm_output": "Ik weet dat het toevoegen van zinnen alleen in je moedertaal of sterkste taal waarschijnlijk niet zo leuk is als het oefenen van het schrijven van vreemde talen, maar voeg alsjeblieft geen zinnen toe aan de Tatoeba Corpus als je niet absoluut zeker weet dat ze correct zijn. Als je talen wilt oefenen die je studeert, doe dit dan door een website te gebruiken die daarvoor is ontworpen, zoals www.lang-8.com.",
+            "score": 0.37144232041790315
+        },
+        {
+            "id": 3516,
+            "name": "en_nl_38",
+            "input": "What kind of plants do you grow? \"I really love succulents. I have a few different varieties that I take care of.\"",
+            "output": "Wat voor soort planten kweek je? \"Ik houd van vetplanten. Ik heb een aantal verschillende soorten die ik verzorg.\"",
+            "llm_output": "Welke soorten planten kweek je? \"Ik hou echt van vetplanten. Ik heb een paar verschillende soorten waar ik voor zorg.\"",
+            "score": 0.36857838224116973
+        },
+        {
+            "id": 3520,
+            "name": "en_nl_42",
+            "input": "While robots have many benefits, they also raise concerns about job displacement and potential ethical issues.",
+            "output": "Hoewel robots veel voordelen hebben, zijn er ook zorgen over baanverlies en potentiële ethische kwesties.",
+            "llm_output": "Hoewel robots veel voordelen hebben, roepen ze ook zorgen op over baanverlies en mogelijke ethische kwesties.",
+            "score": 0.3641410562218426
+        },
+        {
+            "id": 3485,
+            "name": "en_nl_7",
+            "input": "In fact, the difference between British English and American English is probably more significant than that between standard Flemish and the standard Dutch of the Netherlands.",
+            "output": "Trouwens, het verschil tussen Engels en Amerikaans is waarschijnlijk groter dan dat tussen standaard Nederlands in Vlaanderen en in Nederland.",
+            "llm_output": "Eigenlijk is het verschil tussen Brits Engels en Amerikaans Engels waarschijnlijk groter dan dat tussen standaard Vlaams en standaard Nederlands uit Nederland.",
+            "score": 0.35788354361456914
+        },
+        {
+            "id": 3510,
+            "name": "en_nl_32",
+            "input": "I never thought I'd be into yoga, but after trying it for the first time I realized how much it helps me relax and focus.",
+            "output": "Ik had nooit verwacht dat ik van yoga zou houden, maar toen ik het voor de eerste keer probeerde besefte ik hoeveel het me helpt te ontspannen en me te concentreren.",
+            "llm_output": "Ik had nooit gedacht dat ik geïnteresseerd zou zijn in yoga, maar na het voor de eerste keer te proberen, besefte ik hoeveel het me helpt ontspannen en focussen.",
+            "score": 0.35130301509983397
+        },
+        {
+            "id": 3518,
+            "name": "en_nl_40",
+            "input": "When commenting on German sentences, you should probably use German to talk with German speakers about German.",
+            "output": "Als je commentaar geeft op Duitse zinnen, zal je waarschijnlijk Duits gebruiken om met Duitstaligen over het Duits te praten.",
+            "llm_output": "Bij het reageren op Duitse zinnen, kun je waarschijnlijk het beste Duits gebruiken om met Duitstalige mensen over het Duits te praten.",
+            "score": 0.346133586314057
+        },
+        {
+            "id": 3481,
+            "name": "en_nl_3",
+            "input": "Look here, a spherical thing. \"Kick it.\" \"That would cause mass depression, unnecessarily bite away the global economy due to international investments, and take away the peoples' handy time.\" \"Just kick it.\"",
+            "output": "Kijk hier, een bolletje. \"Schop het.\" \"Dat zou een massadepressie veroorzaken, de economie onnodig vanwege internationale investeringen afbijten, en de handige tijd van het volk afhalen.\" \"Schop het maar.\"",
+            "llm_output": "Kijk hier, een bolvormig ding. \"Schop het.\" \"Dat zou leiden tot massale depressie, onnodig knagen aan de wereldeconomie vanwege internationale investeringen en de handige tijd van de mensen wegnemen.\" \"Gewoon schoppen.\"",
+            "score": 0.33804910449231423
+        },
+        {
+            "id": 3503,
+            "name": "en_nl_25",
+            "input": "Having access to accurate, up-to-date health information can make a huge difference in how you manage your medical condition.",
+            "output": "Toegang hebben tot nauwkeurige, actuele informatie over uw gezondheid kan een enorm verschil maken in de manier waarop u met uw persoonlijke gezondheidstoestand omgaat.",
+            "llm_output": "Toegang hebben tot nauwkeurige, actuele gezondheidsinformatie kan een enorm verschil maken in hoe je jouw medische aandoening beheert.",
+            "score": 0.33394720687377305
+        },
+        {
+            "id": 3501,
+            "name": "en_nl_23",
+            "input": "After his hip surgery, the doctor recommended that Tom use a cane to help support his weight and prevent falls while walking.",
+            "output": "Na zijn heupoperatie raadde de dokter Tom aan een wandelstok te gebruiken om zijn gewicht te ondersteunen en te voorkomen dat hij tijdens het lopen zou vallen.",
+            "llm_output": "Na zijn heupoperatie heeft de dokter aanbevolen dat Tom een wandelstok gebruikt om zijn gewicht te ondersteunen en vallen te voorkomen tijdens het lopen.",
+            "score": 0.3222821022667969
+        },
+        {
+            "id": 3496,
+            "name": "en_nl_18",
+            "input": "The inhabitants of Earth are so primitive and violent, they seem to be on the point of blowing themselves up. Should we save them? \"Nah.\"",
+            "output": "De inwoners van Aarde zijn zo primitief en gewelddadig, ze lijken op het punt staan waar ze zich opblazen. Moeten we hen sparen? \"Neen.\"",
+            "llm_output": "De bewoners van de Aarde zijn zo primitief en gewelddadig, het lijkt erop dat ze op het punt staan zichzelf op te blazen. Moeten we ze redden? \"Nee.\"",
+            "score": 0.2772817600273212
+        },
+        {
+            "id": 3506,
+            "name": "en_nl_28",
+            "input": "When meeting a person for the first time, be sure to pay attention to the distance placed between yourself and your partner.",
+            "output": "Wanneer je een persoon voor de allereerste tijd ontmoet, zorg dat je op het afstand tussen jou en je partner let.",
+            "llm_output": "Bij het ontmoeten van iemand voor de eerste keer, let erop dat je aandacht besteedt aan de afstand tussen jou en je partner.",
+            "score": 0.2624310277292268
+        },
+        {
+            "id": 3490,
+            "name": "en_nl_12",
+            "input": "From the beaches of Bali to the streets of Tokyo, traveling is a great way to explore the diversity of the world and experience different cultures.",
+            "output": "Of het nu gaat om de stranden van Bali of de straten van Tokio, door te reizen ontdek je de diversiteit van de wereld en maak je kennis met verschillende culturen.",
+            "llm_output": "Van de stranden van Bali tot de straten van Tokyo, reizen is een geweldige manier om de diversiteit van de wereld te verkennen en verschillende culturen te ervaren.",
+            "score": 0.2621766948355512
+        },
+        {
+            "id": 3497,
+            "name": "en_nl_19",
+            "input": "After cleaning the wound, the nurse applied some antiseptic and covered it with sterile gauze pads to keep it clean and promote healing.",
+            "output": "Na het reinigen van de wond heeft de verpleegkundige wat ontsmettingsmiddel aangebracht en de wond afgedekt met steriele gaasjes om de wond schoon te houden en de genezing te bevorderen.",
+            "llm_output": "Nadat de wond schoongemaakt was, heeft de verpleegkundige er wat antiseptisch middel op aangebracht en het bedekt met steriele gaasjes om het schoon te houden en genezing te bevorderen.",
+            "score": 0.2575723052041591
+        },
+        {
+            "id": 3499,
+            "name": "en_nl_21",
+            "input": "To make homemade pesto, you can use a blender to mix together fresh basil, pine nuts, garlic, and olive oil until it forms a paste.",
+            "output": "Voor zelfgemaakte pesto kunt u met een blender verse basilicum, pijnboompitten, knoflook en olijfolie fijnmixen.",
+            "llm_output": "Om zelfgemaakte pesto te maken, kun je een blender gebruiken om verse basilicum, pijnboompitten, knoflook en olijfolie te mengen tot het een pasta vormt.",
+            "score": 0.23956565612760206
+        },
+        {
+            "id": 3494,
+            "name": "en_nl_16",
+            "input": "I swear, I've never had food as good as this before. \"But that's a reheated week-old McDouble. What were your parents feeding you? Poor thing.\"",
+            "output": "Ik zweer, ik heb nooit voedsel zo goed als dit gehad. \"Maar dat is een opnieuw verwarmd week oud McDouble. Wat voedden je je ouders? Arm ding.\"",
+            "llm_output": "Ik zweer het, ik heb nog nooit zulk lekker eten gehad. \"Maar dat is een opgewarmde week oude McDouble. Wat gaven jouw ouders jou te eten? Arme jij.\"",
+            "score": 0.2198302945899783
+        },
+        {
+            "id": 3483,
+            "name": "en_nl_5",
+            "input": "The heliocentric view of the world, in which the Sun is at the centre of the universe, is also described as the Copernican system. It represents a step forward from the geocentric view of Ptolemy.",
+            "output": "Het heliocentrische uitzicht van de wereld, waar de zon zich in het centrum van het heelal vindt, is ook als het Copernicaanse systeem beschreven. Het stelt een stap vooruit van het geocentrische uitzicht van Ptolemaeus.",
+            "llm_output": "De heliocentrische visie op de wereld, waarbij de zon in het centrum van het universum staat, wordt ook wel het Copernicaanse systeem genoemd. Het vertegenwoordigt een stap vooruit ten opzichte van de geocentrische visie van Ptolemaeus.",
+            "score": 0.2078787665206437
+        },
+        {
+            "id": 3504,
+            "name": "en_nl_26",
+            "input": "To make baby food at home, you can puree cooked fruits and vegetables in a blender until they're smooth and easy to swallow.",
+            "output": "Om thuis babyvoeding te maken, kunt u gekookt fruit en groenten in een blender pureren tot ze smeuïg zijn en gemakkelijk kunnen worden doorgeslikt.",
+            "llm_output": "Om babyvoeding thuis te maken, kun je gekookte vruchten en groenten pureren in een blender tot ze glad zijn en gemakkelijk te slikken zijn.",
+            "score": 4.500986110897104e-78
+        },
+        {
+            "id": 3522,
+            "name": "en_nl_44",
+            "input": "The room was in chaos. Papers were strewn everywhere, chairs were overturned, and the window was shattered.",
+            "output": "De kamer verkeerde in chaos. Er lagen overal papieren, stoelen lagen omver en het raam lag aan diggelen.",
+            "llm_output": "De kamer was in chaos. Papieren lagen overal verspreid, stoelen waren omgevallen en het raam was verbrijzeld.",
+            "score": 3.9238735661000027e-78
+        },
+        {
+            "id": 3515,
+            "name": "en_nl_37",
+            "input": "For many years, the abbey was turned into a fortress, happily joining in itself martial and religious architecture.",
+            "output": "Jarenlang werd de abdij gevormd tot een fort, dat gelukkig samenging met krijgshafte en godsdientige architectuur.",
+            "llm_output": "Voor vele jaren werd de abdij omgebouwd tot een fort, waarbij het op gelukkige wijze militaire en religieuze architectuur combineerde.",
+            "score": 3.7985432526041085e-78
+        },
+        {
+            "id": 3511,
+            "name": "en_nl_33",
+            "input": "Our eyes have the ability to adapt to different levels of light, allowing us to see in both bright and dim environments.",
+            "output": "Onze ogen kunnen zich aan verschillende lichtniveaus aanpassen zodat we zowel in heldere als in donkere omgevingen kunnen zien.",
+            "llm_output": "Onze ogen hebben de mogelijkheid om zich aan te passen aan verschillende niveaus van licht, waardoor we kunnen zien in zowel heldere als donkere omgevingen.",
+            "score": 9.12439808360066e-155
+        },
+        {
+            "id": 3492,
+            "name": "en_nl_14",
+            "input": "The doctor instructed the patient to clip the pulse oximeter onto their finger so that they could measure their blood oxygen saturation levels.",
+            "output": "De dokter droeg de patiënt op de pulsoxymeter om zijn vinger te klemmen zodat hij zijn zuurstofgehalte in het bloed kon meten.",
+            "llm_output": "De dokter gaf de patiënt instructies om de pulsoximeter aan hun vinger te bevestigen zodat ze hun bloedzuurstofverzadigingsniveaus konden meten.",
+            "score": 7.154465306595929e-155
+        },
+        {
+            "id": 3488,
+            "name": "en_nl_10",
+            "input": "Lawyers play a vital role in the legal system, providing representation and guidance to individuals and organizations in a wide range of legal matters.",
+            "output": "Advocaten spelen in het rechtsstelsel een vitale rol doordat zij particulieren en ondernemingen in uiteenlopende juridische kwesties vertegenwoordigen en begeleiden.",
+            "llm_output": "Advocaten spelen een essentiële rol in het juridische systeem door vertegenwoordiging en begeleiding te bieden aan individuen en organisaties bij een breed scala aan juridische kwesties.",
+            "score": 6.913917455205786e-155
+        },
+        {
+            "id": 3486,
+            "name": "en_nl_8",
+            "input": "If you want to sound like a native speaker, it's easier if you choose one dialect and stick with it. Native speakers don't usually mix dialects in everyday speaking.",
+            "output": "Als je als moedertaalspreker wilt klinken, het is beter om een dialect te kiezen en ermee te blijven. Moedertaalsprekers verwisselen dialecten meestal niet in het alledaagse spreken.",
+            "llm_output": "Als je wilt klinken als een moedertaalspreker, is het makkelijker als je één dialect kiest en daarbij blijft. Moedertaalsprekers mengen doorgaans geen dialecten in hun dagelijkse spraak.",
+            "score": 6.666186281285167e-155
+        }
+    ],
+    "history_criterion": "median"
+}

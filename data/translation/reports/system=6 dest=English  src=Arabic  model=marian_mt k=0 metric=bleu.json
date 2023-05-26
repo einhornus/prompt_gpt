@@ -1,0 +1,333 @@
+{
+    "system_message_file": "6",
+    "model": "marian_mt",
+    "parameters": {
+        "src": "Arabic",
+        "dest": "English"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.21882457459034826
+    ],
+    "prompt": [],
+    "median": 0.21882457459034826,
+    "average": 0.22991805774861157,
+    "std": 0.23920131753021637,
+    "percentiles": {
+        "10": 6.8905976432159295e-155,
+        "20": 3.355702169130776e-78,
+        "25": 3.8550185506980006e-78,
+        "30": 4.2312206915615377e-78,
+        "40": 5.456941457372176e-78,
+        "50": 0.21882457459034826,
+        "60": 0.27749082433255423,
+        "70": 0.3397631287075063,
+        "75": 0.3837965928076824,
+        "80": 0.4110094173149257,
+        "90": 0.5458533977642521
+    },
+    "n_tests": 50,
+    "tests": [
+        {
+            "input": "لقد تغيّرت الصّين كثيرا منذ 1995 و على الغرب أن يعترف بذلك.",
+            "output": "China has changed a lot since 1995 and the West has to acknowledge that.",
+            "llm_output": "China has changed a lot since 1995 and the West has to admit it.",
+            "score": 0.8385766789076257
+        },
+        {
+            "input": "نسي توم قائمة التسوق الخاصة به ولم يحصل إلا على نصف ما كان ينوي الحصول عليه عندما ذهب للتسوق.",
+            "output": "Tom forgot his shopping list and only got half of what he had intended to get when he went shopping.",
+            "llm_output": "Tom forgot his shopping list and only got half of what he was going to get when he went shopping.",
+            "score": 0.803154665668484
+        },
+        {
+            "input": "في بعض المناطق من العالم، تستعمل مستنقعات المنغروف لتربية المحار و الحيوانات البحرية الأخرى.",
+            "output": "In some parts of the world, mangrove swamps are used to cultivate oysters and other shellfish.",
+            "llm_output": "In some parts of the world, mangrove swamps are used to raise oysters and other marine animals.",
+            "score": 0.6964705665515707
+        },
+        {
+            "input": "أنت تعلم أنّك لا تحتاج لتكون ذكيّا كي تصبح رئيس منظّمة عنصريّة.",
+            "output": "You know that you don't need to be smart to be the president of a racist organization.",
+            "llm_output": "You know you don't need to be smart to be the head of a racist organization.",
+            "score": 0.6926989774939867
+        },
+        {
+            "input": "في بعض المناطق من العالم، مستنقعات المنغروف مهددة بالزوال بسبب قطع الأشجار و مشاريع التنمية.",
+            "output": "In some parts of the world, mangrove swamps are threatened by deforestation and development.",
+            "llm_output": "In some parts of the world, mangrove swamps are threatened with extinction by logging and development projects.",
+            "score": 0.5974970909115025
+        },
+        {
+            "input": "مستنقعات المنغروف نظام بيئي فريد بقع في المناطق التي يلتقي فيها البر بالبحر.",
+            "output": "Mangrove swamps are a unique ecosystem that exist in areas where the land meets the sea.",
+            "llm_output": "Mangrove swamps are a unique ecosystem with spots in areas where land meets the sea.",
+            "score": 0.5401152096367797
+        },
+        {
+            "input": "كان الطابور يتقدم ببطء فقرر زيري أن يشاهد فيلما على هاتفه.",
+            "output": "The queue was moving so slowly that Ziri decided to watch a movie on his phone.",
+            "llm_output": "The line was moving slowly and Zeri decided to watch a movie on his phone.",
+            "score": 0.5094002845309816
+        },
+        {
+            "input": "حضر كارلوس منعم حفل افتتاح الألعاب الأولمبيّة سنة 1992 في برشلونة، إسبانيا.",
+            "output": "Carlos Menem attended the opening ceremony of the 1992 Olympics held in Barcelona, Spain.",
+            "llm_output": "Carlos Menem attended the 1992 opening ceremony of the Olympic Games in Barcelona, Spain.",
+            "score": 0.460462862587273
+        },
+        {
+            "input": "هناك الكثير من الأشياء التي بإمكانها التّأثير على قدرة المرأ على السّياقة.",
+            "output": "There are many things that can affect a person's ability to drive.",
+            "llm_output": "There are a lot of things that can affect a woman's ability to drive.",
+            "score": 0.4480304273880272
+        },
+        {
+            "input": "تحدث زيري عن الصعوبات التي يعيشها الفلسطينيون في الضفة الغربية و غزة.",
+            "output": "Ziri spoke about the hardships endured by the Palestinians in the West Bank and Gaza.",
+            "llm_output": "Zeri spoke of the difficulties faced by Palestinians in the West Bank and Gaza.",
+            "score": 0.4401624063197168
+        },
+        {
+            "input": "كان مستنقع المنغروف موطنا للعديد من أنواع أشجار المنغروف و كل نوع كانت له ميزاته الخاصة.",
+            "output": "The mangrove swamp was home to many different species of mangrove trees, each with its own unique characteristics.",
+            "llm_output": "The mangrove swamp was home to many species of mangroves and each species had its own advantages.",
+            "score": 0.40372117006372776
+        },
+        {
+            "input": "قاموا بتنظيم إفطار جماعي لمعتنقي الإسلام في اليوم الأول من رمضان.",
+            "output": "They organized an iftar event for converts on the first day of Ramadan.",
+            "llm_output": "They organized a group breakfast for converts of Islam on the first day of Ramadan.",
+            "score": 0.40016016019225
+        },
+        {
+            "input": "ليس على العالم التوقف في شهر رمضان. المسلمون يقومون بأعمالهم المعتادة أثناء صيامهم.",
+            "output": "The world doesn't have to stop because of Ramadan. Muslims work their normal jobs while they're fasting.",
+            "llm_output": "The world doesn't have to stop in Ramadan. Muslims do their usual work while they fast.",
+            "score": 0.388351793875677
+        },
+        {
+            "input": "يتمتع والدي بخبرة كبيرة في الحياة ، وأنا دائمًا أتبع نصيحته.",
+            "output": "My dad has got so much experience in life, and I always follow his advice.",
+            "llm_output": "My father has a lot of life experience, and I always follow his advice.",
+            "score": 0.37013098960369883
+        },
+        {
+            "input": "يتّهم بعض النّاشطين المغرب بارتكاب تصفية عرقيّة في الصّحراء الغربيّة.",
+            "output": "Activists accuse Morocco of carrying out ethnic cleansing in Western Sahara.",
+            "llm_output": "Some activists accuse Morocco of committing ethnic cleansing in the Western Sahara.",
+            "score": 0.34172334076593075
+        },
+        {
+            "input": "الملايين من العراقيين اضطروا للفرار من منازلهم بسبب الغزو الأمريكي.",
+            "output": "Because of the US invasion, millions of Iraqis were forced to flee their homes.",
+            "llm_output": "Millions of Iraqis had to flee their homes because of the American invasion.",
+            "score": 0.3389230378253244
+        },
+        {
+            "input": "تعلم أنّك لست مضطرّا كي تكون ذكيّا كي تصبح رئيس تنظيم عنصري.",
+            "output": "You know that you don't need to be smart to be the president of a racist organization.",
+            "llm_output": "You know you don't have to be smart enough to be the head of a racist organization.",
+            "score": 0.31789386661558194
+        },
+        {
+            "input": "كانت الصحراء الكبرى فسيفساءا من الأنهار و المستنقعات في عصور ما قبل التاريخ.",
+            "output": "In prehistory, Sahara was a patchwork of rivers and swamps.",
+            "llm_output": "The Sahara was a philosopher of rivers and swamps in prehistoric times.",
+            "score": 0.317023313852343
+        },
+        {
+            "input": "توفر الجذور الغليظة لأشجار المنغروف ملجأ آمنا و مكانا للتكاثر للعديد من أنواع الأسماك.",
+            "output": "The thick mangrove roots of the swamp provide shelter and breeding grounds for many species of fish.",
+            "llm_output": "The thick roots of mangroves provide a safe haven and breeding ground for many species of fish.",
+            "score": 0.3064859599765908
+        },
+        {
+            "input": "الكثير من الحاخامات يعتقدون أن الديانة اليهودية تتنافى مع الصهيونية.",
+            "output": "Many rabbis think that Judaism is incompatible with Zionism.",
+            "llm_output": "Many rabbis believe that the Jewish religion is incompatible with Zionism.",
+            "score": 0.28997844147152074
+        },
+        {
+            "input": "كان مستنقع المنغروف مكانا مشهورا عند مراقبي الطيور حيث كانوا يراقبون فيه العديد من أنواع الطيور.",
+            "output": "The mangrove swamp was a popular spot for birdwatchers, as many different species of birds could be seen there.",
+            "llm_output": "The mangrove swamp was a famous place for bird watchers where they watched many species of birds.",
+            "score": 0.26916574623990996
+        },
+        {
+            "input": "إن الكلاب السياسية النابحة كأمثال نعيمة صالحي و لخضر بن كولة يحضون بدعم من طرف مسؤولين فاسدين يجندون جيوشا من الذباب الإلكتروني من أجل دعم كلابهم النابحين العنصريين.",
+            "output": "Political barking dogs like Naima Salhi and Lakhdar Benkoula are sponsored by corrupt officials that are also mobilizing armies of Internet trolls to support their racist barking dogs.",
+            "llm_output": "The barking political dogs, such as Naima Salehi and Lakhdar Benkula, are being supported by corrupt officials who are recruiting armies of e-fly to support their racist barking dogs.",
+            "score": 0.258999280145969
+        },
+        {
+            "input": "يأوي النظام البيئي الفريد لمستنقعات المنغروف تنوعا أحيائيا واسعا.",
+            "output": "The unique ecosystem of the mangrove swamp supports a wide range of biodiversity.",
+            "llm_output": "The unique ecosystem of mangrove swamps is home to a wide biodiversity.",
+            "score": 0.24925832743644716
+        },
+        {
+            "input": "مستنقعات المنغروف في منطقة سوندابان في بنغلاداش موطن لببر البنغال المهدد بالانقراض.",
+            "output": "The mangrove swamps of the Sundarbans in Bangladesh are home to the endangered Bengal tiger.",
+            "llm_output": "Mangrove swamps in the Sundaban region of Bangladesh are home to endangered Bengal.",
+            "score": 0.2426075514825175
+        },
+        {
+            "input": "في فترة التزاوج، تغني ذكور الحياتان أغاني معقدة لجذب الإناث.",
+            "output": "During mating season, male whales will sing complex songs to attract females.",
+            "llm_output": "In matrimony, male life sings complicated songs to attract females.",
+            "score": 0.22741221234802106
+        },
+        {
+            "input": "مستنقع المنغروف مكان هادئ و مناسب لممارسة رياضة الكاياك و الرياضات المائية الأخرى.",
+            "output": "The mangrove swamp provided a tranquil and peaceful environment for kayaking and other water sports.",
+            "llm_output": "Mangrove swamp is a quiet and convenient place to practice kayaks and other water sports.",
+            "score": 0.2102369368326755
+        },
+        {
+            "input": "أدرَكْنَا أنَّهُم كانواْ صَحِيحاً وَلَم نُملِكْ مَكاناً لِلَّعْبِ أو حَتَّى لِلتَّمَرُّنِ.",
+            "output": "We realised they were right: we had nowhere to play or even practise.",
+            "llm_output": "We realized they were right and we didn't have a place to play or even go through.",
+            "score": 0.20706193828327604
+        },
+        {
+            "input": "العديد من أنواع البرمائيات لديها اماكن تكاثر خاصة كالأحواض و المستنقعات.",
+            "output": "Many amphibian species will breed in specific breeding grounds, such as shallow ponds or marshes.",
+            "llm_output": "Many amphibians have special breeding grounds, such as basins and swamps.",
+            "score": 0.1724541906163268
+        },
+        {
+            "input": "يعرف زيري أهمّيّة القدرة على إنهاء وظيفة منزليّة و المرور إلى الوظيفة التّالية.",
+            "output": "Ziri knows the value of being able to finish a chore and move on to the next.",
+            "llm_output": "Zerry knows how important it is to be able to finish a home job and go through the next job.",
+            "score": 0.1577454598068419
+        },
+        {
+            "input": "قليلة هي الحشرات التي تصل إلى مستوى معقد من التنظيم كالنمل و الأرضات.",
+            "output": "Few insects reach the level of complexity as ants and termites.",
+            "llm_output": "Few insects reach a complex level of organization such as ants and floors.",
+            "score": 5.675175336138377e-78
+        },
+        {
+            "input": "مستنقعات المنغروف لولاية فلوريدا وهجة مشهورة للسياح و محبي الطبيعة.",
+            "output": "The mangrove swamps of Florida are a popular destination for tourists and nature enthusiasts.",
+            "llm_output": "Mangrove swamps in Florida are a famous glow for tourists and naturalists.",
+            "score": 5.129590639222874e-78
+        },
+        {
+            "input": "كان الغطاء النباتي الكثيف لمستنقعات المنغروف يوفر ملاذ آمنا للحيوانات الصغيرة التي تفر من المفترسين.",
+            "output": "The dense vegetation of the mangrove swamp provided excellent cover for small animals trying to evade predators.",
+            "llm_output": "The dense vegetation cover of mangrove swamps provided a safe haven for small animals fleeing predators.",
+            "score": 4.615604110246276e-78
+        },
+        {
+            "input": "زيري يكره الحديث مع العجزة لأنه لا يعرف عن ماذا يتحدث معهم.",
+            "output": "Ziri hates talking to elderly people because he never knows what to talk about with them.",
+            "llm_output": "Zerry hates talking to old people because he doesn't know what he's talking about.",
+            "score": 4.537287325458483e-78
+        },
+        {
+            "input": "النظام البيئي للغابات المطرية في تنوع أحيائي ثري و يأوي الكثير من الأنواع المهددة بالانقراض.",
+            "output": "The rainforest ecosystem is rich in biodiversity and is home to many endangered species.",
+            "llm_output": "The rain forest ecosystem is in a rich biodiversity and hosts many endangered species.",
+            "score": 4.493015814012153e-78
+        },
+        {
+            "input": "كان مستنقع المنغروف ذاك يعج بالحياة، حيث كانت تعيش فيه حيوانات مختلفة، من بينها السلطعونات و الجمبري و الثعابين و السحليات.",
+            "output": "The mangrove swamp was teeming with life, from crabs and shrimp to snakes and lizards.",
+            "llm_output": "That mangrove swamp was full of life, where different animals lived, including crabs, shrimps, snakes and lizards.",
+            "score": 4.322311482097194e-78
+        },
+        {
+            "input": "بإمكان ملكة النمل أن تعيش ثلاثين سنة و تلد الملايين من البيضات.",
+            "output": "A queen ant can live for thirty years and deliver millions of eggs.",
+            "llm_output": "The queen of ants can live 30 years and give birth to millions of eggs.",
+            "score": 4.0186755136450062e-78
+        },
+        {
+            "input": "يعطي التانين الموجود في مستنقعات المنغروف الماء لونا بنيا متميزا.",
+            "output": "The tannins in the water of the mangrove swamp give it a distinct brownish color.",
+            "llm_output": "The dragon in the mangrove swamp gives water a distinct brown color.",
+            "score": 3.8654016683813426e-78
+        },
+        {
+            "input": "علينا أن نكشف تستّر الحكومة بشأن ظاهرة الأجسام الطّائرة المجهولة.",
+            "output": "We need to expose the government cover-up of the UFO phenomenon.",
+            "llm_output": "We need to uncover the government's cover-up on the phenomenon of unknown flying objects.",
+            "score": 3.85155751147022e-78
+        },
+        {
+            "input": "الإنسان، إذا لم يكن الأكبر، فبالتأكيد هو أخطر الحيوانات المفترسة. إنه يقتل من أجل المتعة.",
+            "output": "Man, if he is not the largest, is certainly the most dangerous of ferocious animals. He kills for pleasure.",
+            "llm_output": "Man, if he's not the oldest, he's definitely the most dangerous predator.",
+            "score": 3.8501566920030103e-78
+        },
+        {
+            "input": "ما قتلته الحروب الصّليبيّة من اليهود و شرّدوه منهم في ما كان سيُعرف في ما بعد بفلسطين أكبر من ما قتلوه الصّليبيّون من اليهود في أوروبا.",
+            "output": "The Crusades killed and displaced even more Jews from what had by then become known as Palestine, at the same time as Crusaders killed many European Jews.",
+            "llm_output": "What the Crusaders killed and displaced Jews in what would have been later known as Palestine is greater than what the Crusaders killed than the Jews in Europe.",
+            "score": 3.4829573793098684e-78
+        },
+        {
+            "input": "مستنقعات المنغروف موطن أساسي للكثير من الحيوانات و النباتات.",
+            "output": "The mangrove swamps along the coast provide critical habitats for many species of animals and plants.",
+            "llm_output": "Mangrove swamps are an essential home to many animals and plants.",
+            "score": 2.846681328414405e-78
+        },
+        {
+            "input": "أشجار المنغروف مكيفة للعيش في المياه المالحة، لذا فهي تستطيع العيش في المناطق الساحلية.",
+            "output": "The mangrove trees in the swamp are adapted to living in salty water, which is why they are able to survive in coastal areas.",
+            "llm_output": "Mangroves are adapted to live in saltwater, so they can live in coastal areas.",
+            "score": 2.473760203925375e-78
+        },
+        {
+            "input": "كان الأطفال يهربون واحدا واحدا من الغابة و يقولون أنّهم رأوا دبّا.",
+            "output": "The kids, one by one, came running out of the woods, saying that they had seen a bear.",
+            "llm_output": "The kids were running one from the woods and they said they saw a bear.",
+            "score": 7.31306505291937e-155
+        },
+        {
+            "input": "تساهم مستنقعات المنغروف في حماية السواحل من العواصف و الكوارث الطبيعية.",
+            "output": "Mangrove swamps can help to protect coastal areas from storm surges and other natural disasters.",
+            "llm_output": "Mangrove swamps contribute to the protection of coasts from storms and natural disasters.",
+            "score": 7.000169231490497e-155
+        },
+        {
+            "input": "بعض المناطق الرطبة مثل مستنقعات المنغروف تحمي السواحل من العواصف و الانجراف.",
+            "output": "Some wetlands, such as mangrove swamps, provide important coastal protection against storms and erosion.",
+            "llm_output": "Some humid areas like mangrove swamps protect the coasts from storms and drifts.",
+            "score": 6.949983896044272e-155
+        },
+        {
+            "input": "ذهب ماثيو إلى الغابة كي يجمع الحطب من أجل إشعال النار في المخيم.",
+            "output": "Matthew went into the forest to gather firewood for the campfire.",
+            "llm_output": "Matthew went to the woods to collect firewood to set the camp on fire.",
+            "score": 6.356121367760845e-155
+        },
+        {
+            "input": "تلعب مستنقعات المنغروف أيضا دور مصافي تطهر الماء من المواد الملوثة.",
+            "output": "Mangrove swamps can also act as natural filters, helping to clean the water of pollutants.",
+            "llm_output": "Mangrove swamps also play the role of filters that purify water from contaminated materials.",
+            "score": 6.150463482648932e-155
+        },
+        {
+            "input": "تأوي مستنقعات المنغروف في الغابات المطرية للأمازون تنوعا أحيائيا كبيرا و من الحيوانات التي تعيش هناك، يوجد اليغور و ثعبان الأناكوندا.",
+            "output": "The mangrove swamps of the Amazon rainforest are home to a diverse array of wildlife, including jaguars and anacondas.",
+            "llm_output": "Mangrove swamps are sheltered in the Amazon rain forest with a great biodiversity and from the animals that live there, there are yogurs and anaconda snake.",
+            "score": 5.908454183811211e-155
+        },
+        {
+            "input": "عرض أحدهم منديلا على ريمة و حين رفعت رأسها لترى من، رأت زيري.",
+            "output": "Someone offered his handkerchief and when Rima looked up, it was Ziri.",
+            "llm_output": "Someone offered a napkin to a napkin and when she raised her head to see who, she saw Zeri.",
+            "score": 5.833620671964792e-155
+        },
+        {
+            "input": "كانت شبكة القنوات و المجاري المائية لمستنقع المنغروف تمثل نظاما بيئيا مذهلا للاستكشاف.",
+            "output": "The intricate network of channels and waterways in the mangrove swamp provided a unique and fascinating ecosystem to explore.",
+            "llm_output": "The mangrove network of canals and waterways was an amazing environmental exploration system.",
+            "score": 5.479811069890323e-155
+        }
+    ]
+}

@@ -1,0 +1,333 @@
+{
+    "system_message_file": "6",
+    "model": "google_translate",
+    "parameters": {
+        "src": "Russian",
+        "dest": "English"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.4992822785252875
+    ],
+    "prompt": [],
+    "median": 0.4992822785252875,
+    "average": 0.49815254742067966,
+    "std": 0.22619191515468148,
+    "percentiles": {
+        "10": 0.24199190496538758,
+        "20": 0.2933633409870313,
+        "25": 0.305912819014165,
+        "30": 0.326727031306645,
+        "40": 0.3919314681378208,
+        "50": 0.4992822785252875,
+        "60": 0.5787772728078456,
+        "70": 0.6250957942946966,
+        "75": 0.6629564087940645,
+        "80": 0.7154665135076029,
+        "90": 0.8135837464447285
+    },
+    "n_tests": 50,
+    "tests": [
+        {
+            "input": "Агрессивная антиреклама - одно из лучших маркетинговых средств по продвижению товаров на российский рынок. Качество и другие потребительские свойства продукции при этом не имеют значения. Эта \"уму непостижимая\" истина понятна теперь уже и прогрессивно мыслящим европейским производителям.",
+            "output": "Aggressive anti-advertising is one of the best marketing tools for promoting goods on the Russian market. The quality and other consumer properties of products do not matter. This \"incomprehensible\" truth is now clear to progressively thinking European manufacturers.",
+            "llm_output": "Aggressive anti-advertising is one of the best marketing tools for promoting goods on the Russian market. The quality and other consumer properties of the products do not matter. This \"incomprehensible\" truth is now clear to progressively thinking European manufacturers.",
+            "score": 0.9353695731020621
+        },
+        {
+            "input": "Человечество зашло в тупик, оно катастрофически катится в бездну, впереди нет ничего, кроме безумия и тьмы, возврата к первобытному варварству - такова перспектива, расписываемая буржуазными смертяшкиными.",
+            "output": "Humanity has reached a dead end; it is catastrophically rolling into the abyss; there is nothing ahead but madness and darkness, a return to primitive barbarism — such is the perspective painted by bourgeois mortals.",
+            "llm_output": "Mankind has reached a dead end, it is catastrophically rolling into the abyss, there is nothing ahead but madness and darkness, a return to primitive barbarism - such is the perspective painted by the bourgeois mortals.",
+            "score": 0.9016857283765338
+        },
+        {
+            "input": "Однако мы должны добиться избавления от сегодняшней безнравственности не на основе образцов, преподносимых \"молодыми душами\" с юга, а собственно по тюрко-татарски, то есть с помощью опыта зрелых душ.",
+            "output": "However, we must achieve deliverance from today's immorality not on the basis of the examples presented by \"young souls\" from the south, but in the Turkic-Tatar way, that is, with the help of the experience of mature souls.",
+            "llm_output": "However, we must achieve deliverance from today's immorality not on the basis of the samples presented by \"young souls\" from the south, but actually in the Turkic-Tatar way, that is, with the help of the experience of mature souls.",
+            "score": 0.8729435194251833
+        },
+        {
+            "input": "Государство, которое доверит свою защиту наёмникам, рано или поздно погибнет, как погиб Древний Рим, чьи жители хотели только есть и развлекаться, а защиту родной земли оставили германцам. Те предали своих нанимателей, как только это стало выгодно. Настоящий, сильный враг только тогда отступает, когда против него готовы встать все жители страны.",
+            "output": "A state that entrusts its protection to mercenaries will sooner or later perish, as did ancient Rome, whose inhabitants only wanted to eat and entertain themselves, and left the protection of their native land to the Germanic tribes. The latter betrayed their employers as soon as it became profitable. A real, strong enemy retreats only when all the inhabitants of the country are ready to stand up against it.",
+            "llm_output": "A state that entrusts its protection to mercenaries will sooner or later perish, as did Ancient Rome, whose inhabitants only wanted to eat and have fun, and left the protection of their native land to the Germans. They betrayed their employers as soon as it became profitable. A real, strong enemy retreats only when all the inhabitants of the country are ready to stand up against him.",
+            "score": 0.8507165227731552
+        },
+        {
+            "input": "Эксплуатируемый и угнетаемый класс — пролетариат — не сможет освободиться от эксплуатирующего и угнетающего класса — буржуазии — без того, чтобы навсегда освободить всё общество от эксплуатации, угнетения и классовой борьбы.",
+            "output": "The exploited and oppressed class — the proletariat — will not be able to free itself from the exploiting and oppressive class — the bourgeoisie — without first freeing the whole of society from exploitation, oppression and class struggle.",
+            "llm_output": "The exploited and oppressed class - the proletariat - will not be able to free itself from the exploiting and oppressive class - the bourgeoisie - without liberating the whole of society forever from exploitation, oppression and class struggle.",
+            "score": 0.8452785147119855
+        },
+        {
+            "input": "По мнению Тома, теория эволюции путем случайных мутаций и естественного отбора неубедительна по нескольким причинам, самой важной из которых является существование ДНК. Среди прочих неприемлемых пунктов, добавляет Том, эта теория утверждает, что человеческий разум – Сократа, Платона, Аристотеля, Галилея, Ньютона, Шекспира, Декарта, да Винчи, Моцарта, Эйнштейна, самого Дарвина – развился из разума неизвестного примата, который якобы был нашим предком.",
+            "output": "According to Tom, the theory of evolution by random mutations and natural selection is not convincing for several reasons, the most important of which is the existence of DNA. Among other unacceptable points, Tom adds, this theory claims that the human mind – Socrates, Plato, Aristotle, Galileo, Newton, Shakespeare, Descartes, Da Vinci, Mozart, Einstein, Darwin himself – evolved from the mind of an unidentified primate, which would be our ancestor.",
+            "llm_output": "According to Tom, the theory of evolution by random mutation and natural selection is unconvincing for several reasons, the most important of which is the existence of DNA. Among other unacceptable points, Tom adds, this theory claims that the human mind - Socrates, Plato, Aristotle, Galileo, Newton, Shakespeare, Descartes, da Vinci, Mozart, Einstein, Darwin himself - evolved from the mind of an unknown primate that supposedly was ours. ancestor.",
+            "score": 0.8100621055261443
+        },
+        {
+            "input": "Благодаря высокоточным выступлениям обоих игроков ничьей завершился одиннадцатый матч чемпионата мира по шахматам ФИДЕ 2023. Сейчас (24 апреля): Непомнящий 6, Дин Лижэнь 5. Еще трех ничьих будет достаточно, чтобы россиянин вышел в счет (7.5) что даст ему титул чемпиона мира.",
+            "output": "With high-precision performances from both players, the eleventh match of the FIDE World Chess Championship 2023 ended in a draw. Now (April 24): Nepo 6, Ding Liren 5. Three more draws will be enough for the Russian to reach the tally (7.5) which will give him the title of World Champion",
+            "llm_output": "Thanks to the high-precision performances of both players, the eleventh match of the FIDE World Chess Championship 2023 ended in a draw. Now (April 24): Nepomniachtchi 6, Ding Liren 5. Three more draws will be enough for the Russian to reach the score (7.5), which will give him the world title.",
+            "score": 0.7792781086614702
+        },
+        {
+            "input": "Томас понимает, что природные законы и силы, пространство-время, электромагнитные и гравитационные поля, энергия, атомы, звезды, галактики, жизнь - словом, все зародилось в неописуемой сингулярности, которая таинственным образом взорвалась: Большой взрыв.",
+            "output": "Thomas understands that natural laws and forces, space-time, electromagnetic and gravitational fields, energy, atoms, stars, galaxies, life, everything, in short, had its origin in an indescribable singularity that mysteriously exploded: the Big Bang.",
+            "llm_output": "Thomas understands that natural laws and forces, space-time, electromagnetic and gravitational fields, energy, atoms, stars, galaxies, life - in a word, everything originated in an indescribable singularity that mysteriously exploded: the Big Bang.",
+            "score": 0.7735561630602302
+        },
+        {
+            "input": "Жизнь - это синоним химической инженерии немыслимой сложности, компартментализации и невероятно точной организации. Совершенно невозможно приписать это богу Случаю и бессознательному и слепому действию богини Естественного Отбора.",
+            "output": "Life is synonymous with chemical engineering of inconceivable complexity, compartmentalization, and incredibly precise organization. It is absolutely impossible to attribute it to the god Chance and the unconscious and blind action of the goddess Natural Selection.",
+            "llm_output": "Life is synonymous with chemical engineering of unthinkable complexity, compartmentalization, and incredibly precise organization. It is quite impossible to attribute this to the god Chance and the unconscious and blind action of the goddess Natural Selection.",
+            "score": 0.7721060576667053
+        },
+        {
+            "input": "Дж. Дж. Томсон и его сын Джордж Томсон были удостоены Нобелевских премий по физике: первый в 1906 году за демонстрацию того, что электрон является частицей, а второй в 1937 году за демонстрацию того, что электрон является волной.",
+            "output": "J. J. Thomson and his son George Thomson were both awarded the Nobel Prize in Physics: the former in 1906 for demonstrating that the electron is a particle, and the latter in 1937 for showing that the electron is a wave.",
+            "llm_output": "J. J. Thomson and his son George Thomson were awarded the Nobel Prize in Physics, the first in 1906 for demonstrating that the electron is a particle, and the second in 1937 for demonstrating that the electron is a wave.",
+            "score": 0.7339216430148746
+        },
+        {
+            "input": "Отцы современной науки – Коперник, Галилей, Кеплер, Ньютон, Бойль и многие другие – видели явные доказательства замысла во Вселенной и, по сути, были вдохновлены на открытие законов природы своей верой в трансцендентного законодателя.",
+            "output": "The fathers of modern science – Copernicus, Galileo, Kepler, Newton, Boyle, and many others – saw clear evidence of design in the universe and, in fact, were inspired to discover the laws of nature by their faith in a transcendent lawgiver.",
+            "llm_output": "The fathers of modern science—Copernicus, Galileo, Kepler, Newton, Boyle, and many others—saw clear evidence of design in the universe and, in fact, were inspired to discover the laws of nature by their belief in a transcendent legislator.",
+            "score": 0.710852731130785
+        },
+        {
+            "input": "В университете разрабатывается механизм широкого внедрения корпоративной системы управления по типу Назарбаев Университета, прорабатывается переход к предоставлению автономии вузу поэтапно - с 2014 года; с 2012 года у нас функционирует наблюдательный совет с большими законодательно установленными полномочиями.",
+            "output": "The university is developing a mechanism for the widespread introduction of a corporate management system similar to that of Nazarbayev University. Since 2014, a transition to granting autonomy to the university has been worked out in stages. Since 2012, we have had a supervisory board with extensive legislative powers.",
+            "llm_output": "The university is developing a mechanism for the widespread introduction of a corporate management system similar to Nazarbayev University, the transition to granting autonomy to the university is being worked out in stages - from 2014; Since 2012, we have had a Supervisory Board with large legislative powers.",
+            "score": 0.676944398760555
+        },
+        {
+            "input": "Если бы Дарвин был жив сегодня, смог ли бы он вообразить, что очень сложная система обработки информации, которую наши передовые технологии позволяют нам увидеть в действии в клетках, возникла случайно, вслепую и путем естественного отбора?",
+            "output": "If Darwin lived today, would he have imagined that the highly sophisticated information-processing system that our advanced technology allows us to see in action in cells came about randomly and blindly and by natural selection?",
+            "llm_output": "If Darwin were alive today, would he have imagined that the highly complex information processing system that our advanced technology allows us to see in action in cells came about by chance, blindly, and by natural selection?",
+            "score": 0.6734493290339736
+        },
+        {
+            "input": "Можно ли поверить, что субатомные частицы, а также весьма своеобразные силы, которые заставляют их объединяться для образования материи, не являются результатом работы Сверхъестественного Разума?",
+            "output": "Is it possible to believe that subatomic particles, as well as the very peculiar forces that lead them to combine to generate matter, are not the work of a Supernatural Intelligence?",
+            "llm_output": "Is it possible to believe that subatomic particles, as well as the very peculiar forces that cause them to combine to form matter, are not the result of the work of the Supernatural Mind?",
+            "score": 0.6314776480743369
+        },
+        {
+            "input": "Многие еретики, ведьмы и атеисты были сожжены на кострах инквизиции. Сегодня ученый, который по неосторожности заявляет, что верит в сверхъестественный интеллект, будет подвергнут дискриминации со стороны его сверстников-материалистов и будет иметь неприятности в своей профессиональной деятельности.",
+            "output": "Many heretics, witches, and atheists were burned at the stake of the Inquisition. Today, the scientist who unwittingly declares that he believes in a supernatural intelligence will be discriminated against by his materialistic peers and persecuted in his professional career.",
+            "llm_output": "Many heretics, witches and atheists were burned at the stake of the Inquisition. Today, a scientist who inadvertently claims to believe in supernatural intelligence will be discriminated against by his materialistic peers and will have trouble in his professional activities.",
+            "score": 0.6310262448604393
+        },
+        {
+            "input": "В Луганске и Донецке (Украина) воюет сейчас немало российских наёмников, которые на деле являются неплатёжеспособными должниками по кредитам. Москва погашает долги этих \"добровольцев\" из расчёта 100 долларов за сутки.",
+            "output": "In Lugansk and Donetsk, Ukraine, there are now quite a few Russian mercenaries who are actually insolvent debtors. Moscow repays the debts of these \"volunteers\" at the rate of a hundred dollars a day.",
+            "llm_output": "In Lugansk and Donetsk (Ukraine) there are now quite a few Russian mercenaries fighting who are actually insolvent debtors on loans. Moscow repays the debts of these \"volunteers\" at the rate of $100 per day.",
+            "score": 0.6225541726236641
+        },
+        {
+            "input": "Дин Лижэнь — новый чемпион мира по шахматам. На тай-брейке первые три партии закончились вничью, а четвертую, когда Дин вел черными в испанском дебюте, сенсационно выиграл китайский дракон, который таким образом победил русского медведя Яна Непомнящего. У вершины шахматной вселенной новое лицо.",
+            "output": "Ding Liren is the new World Chess Champion. In the tiebreaker, the first three games ended in a draw, and the fourth, with Ding leading the black pieces in a Spanish opening, was sensationally won by the Chinese Dragon, who thus overcame the Russian Bear, Ian Nepomniachtchi. The top of the chess universe has a new face.",
+            "llm_output": "Ding Liren is the new world chess champion. On the tie-break, the first three games ended in a draw, and the fourth, when Ding was leading with black in the Spanish opening, was won by the Chinese dragon in a sensational way, which thus defeated the Russian bear Ian Nepomniachtchi. The top of the chess universe has a new face.",
+            "score": 0.6220408347039592
+        },
+        {
+            "input": "Кто неприятелю пароль, или лозунг объявит, хотя офицер или рядовой, или даст оному иные какие изменнические сигналы, стрельбою, пением, криком, огнем и сему подобное, оный яко изменник казнен будет.",
+            "output": "Whoever, whether it be an officer or a private, announces a password or slogan to the enemy, or gives it some other treacherous signals, by shooting, singing, shouting, fire, or the like, will be executed as a traitor.",
+            "llm_output": "Whoever announces a password or slogan to the enemy, although an officer or a private, or gives it some other treacherous signals, by shooting, singing, shouting, fire, and the like, this traitor will be executed.",
+            "score": 0.6166404787066538
+        },
+        {
+            "input": "С 26 по 28 сентября 2015 года девять человек из пяти стран собрались в Брно, Чешская Республика, чтобы вместе весело провести время, изучая язык токипона. В этом видео они находятся в университетском ботаническом саду и рассказывают о том, что видят.",
+            "output": "From the 26th to the 28th of September 2015, nine people from five countries gathered in Brno (Czech Republic) to have fun together learning and using the Toki Pona language. In this video they are in a university botanical garden and talk about what they see.",
+            "llm_output": "From 26 to 28 September 2015, nine people from five countries gathered in Brno, Czech Republic to have fun together while learning the Toki Pona language. In this video, they are in the university botanical garden and talk about what they see.",
+            "score": 0.5994525142540541
+        },
+        {
+            "input": "Ученые определяют начало межзвездного пространства как место, где постоянный поток вещества и магнитное поле Солнца перестают влиять на его окружающую среду. Это место называют гелиопаузой. Она отмечает конец области, созданной нашим солнцем, которая называется гелиосферой.",
+            "output": "Scientists define the beginning of interstellar space as the place where the sun’s constant flow of material and magnetic field stop affecting its surroundings. This place is called the heliopause. It marks the end of a region created by our sun that is called the heliosphere.",
+            "llm_output": "Scientists define the beginning of interstellar space as the place where the constant flow of matter and the Sun's magnetic field ceases to affect its environment. This place is called the heliopause. It marks the end of the region created by our sun, called the heliosphere.",
+            "score": 0.5990561980768843
+        },
+        {
+            "input": "— Я школьная учительница. Получаю на руки пятнадцать тысяч рублей в месяц. А в полиции никто не получает меньше пятидесяти тысяч. Почему такая несправедливость? — Потому что полиция исправляет ваши ошибки.",
+            "output": "I am a school teacher. I receive fifteen thousand rubles a month, while in the police, nobody gets less than fifty thousand. Why such injustice? \"Because the police fixes your faults.\"",
+            "llm_output": "- I'm a school teacher. I receive fifteen thousand rubles a month. And in the police, no one gets less than fifty thousand. Why such injustice? “Because the police correct your mistakes.",
+            "score": 0.5652579892951533
+        },
+        {
+            "input": "Вот здесь скриншот страницы их магазина недельной давности, а вот здесь то, как она же выглядит сегодня. На них указан один и тот же ценник, но текущая версия утверждает, что всё идёт с 50% скидкой. Странно, не находишь?",
+            "output": "Here's a screenshot of their store page from a week ago, and here's what it looks like today. They have the exact same prices listed, but the current one claims they're all 50% off. Strange, isn't it?",
+            "llm_output": "Here's a screenshot of their store page from a week ago, and here's what it looks like today. They all have the same price tag, but the current version says everything comes with a 50% discount. Strange, don't you think?",
+            "score": 0.5397309968633839
+        },
+        {
+            "input": "Каждый паук - разносторонний гений: он планирует свою паутину, как архитектор, а затем осуществляет этот план, как искусный ткач. Он также является химиком, который может синтезировать шелк с помощью управляемого компьютером производственного процесса, а затем использовать его для прядения.",
+            "output": "Every spider is a versatile genius: It plans its web like an architect and then carries out this plan like the proficient weaver it is. It is also a chemist who can synthesize silk employing a computer-controlled manufacturing process, and then use the silk for spinning.",
+            "llm_output": "Every spider is a versatile genius: he plans his web like an architect and then carries out that plan like a skilled weaver. He is also a chemist who can synthesize silk through a computer-controlled manufacturing process and then use it to spin.",
+            "score": 0.5328317639791835
+        },
+        {
+            "input": "«Ваше Величество, Гэнон и его прислужники выпустили в мир коронавирус!» – «Здорово, я захвачу туалетную бумагу». – «Нет времени». – «Чем мы можем помочь?» – «Как написано: НЕ трогайте лицо». – «Хмм... (Король задумчиво подпирает рукой подбородок.) ...Что?» – «Вам пиздец». – «Ой! Линк, спаси меня!» – «Мне, верно, надо поместить себя в карантин», – говорит Линк и улетает прочь на ковре-самолёте.",
+            "output": "Your Majesty, Ganon and his minions have released the coronavirus! \"Great, I'll grab my toilet paper.\" \"There is no time.\" \"How can we help?\" \"It is written: do NOT touch your face.\" \"Hmm... (The King rests his chin on his hand thoughtfully.) ...What?\" \"You're fucked.\" \"Oah! Link, save me!\" \"I guess I'd better get quarantined,\" Link says and flies away on a magic carpet.",
+            "llm_output": "“Your Majesty, Ganon and his minions have released the coronavirus into the world!” \"Hey, I'll grab the toilet paper.\" - \"No time\". “How can we help?” “As it says: DO NOT touch your face.” \"Hmm... (The King rests his chin thoughtfully on his hand.) ...What?\" - \"You're fucked.\" - \"Oh! Link, save me!\" “I should probably quarantine myself,” Link says, and flies away on a magic carpet.",
+            "score": 0.5310916162370617
+        },
+        {
+            "input": "«О! Старик очнулся». — «Где я?» — «В Хайруле. Ты был в коме». — «И сколько?» — «Месяц». — «Понятно. Что случилось, пока я...» — «Довольно! Я отправляюсь в Сабвей поужинать». — «Да, мы идём — Линк, ты тоже с нами?» — «Да. Я так проголодался, что динозавра съел бы!»",
+            "output": "Hey! That old guy woke up. \"Where am I?\" \"In Hyrule. You were in a coma.\" \"How long?\" \"A month.\" \"I see. What happened during the time I—\" \"Enough! I'm going to Subway for dinner.\" \"Yeah, we're going — Link, are you going too?\" \"Yeah. I'm so hungry I could eat a dinosaur!\"",
+            "llm_output": "\"ABOUT! The old man woke up. - \"Where I am?\" “In Hyrule. You were in a coma.\" - \"And how many?\" - \"Month\". - \"It's clear. What happened while I…” “Enough! I'm going to Subway for dinner.\" \"Yes, we're going - Link, are you with us too?\" - \"Yes. I'm so hungry I could eat a dinosaur!\"",
+            "score": 0.5171574759924347
+        },
+        {
+            "input": "Сулла начал убивать своих врагов, и Цезарь значился в списке тех, кому было суждено умереть. Семья матери Цезаря умоляла о его пощаде, и Сулла неохотно согласился. Затем Цезарь вступил в римскую армию и возвратился после смерти Суллы.",
+            "output": "Sulla began to kill his enemies, and Caesar was on the list of the people that he was going to kill. Caesar’s mother’s family begged for his life, and Sulla, reluctantly, spared him. Then Caesar joined the Roman army and returned after Sulla’s death.",
+            "llm_output": "Sulla began to kill his enemies, and Caesar was on the list of those who were destined to die. Caesar's mother's family begged for his mercy, and Sulla reluctantly agreed. Caesar then joined the Roman army and returned after the death of Sulla.",
+            "score": 0.4814070810581404
+        },
+        {
+            "input": "Если мы видим, что побеждает Германия, надо помочь России, а если побеждает Россия – надо помочь Германии, и таким образом позволить им убивать друг друга как можно больше, хотя победу Гитлера я не желаю видеть ни при каких обстоятельствах.",
+            "output": "If we see that Germany is winning the war we ought to help Russia, and if Russia is winning we ought to help Germany, and that way let them kill as many as possible, although I don't want to see Hilter victorious under any circumstances.",
+            "llm_output": "If we see that Germany is winning, we must help Russia, and if Russia is winning, we must help Germany, and thus allow them to kill each other as much as possible, although I do not want to see Hitler win under any circumstances.",
+            "score": 0.43982798805038775
+        },
+        {
+            "input": "Читая некоторые современные книги, мы с облегчением отмечаем, что учёные начинают понимать, что не все удивительно разумные процессы создания, поддержания и эволюции жизни возникли исключительно благодаря случайности и естественному отбору.",
+            "output": "It is encouraging to see by reading some modern books that scientists are beginning to realize that not all the amazingly intelligent processes of the creation, maintenance, and evolution of life arose solely by chance and natural selection.",
+            "llm_output": "Reading some modern books, we are relieved that scientists are beginning to realize that not all amazingly intelligent processes of creating, maintaining, and evolving life arose solely due to chance and natural selection.",
+            "score": 0.4312066626536161
+        },
+        {
+            "input": "Бряцание ядерным оружием со стороны России привлекло внимание высших должностных лиц американской разведки, некоторые из которых выражают растущую обеспокоенность готовностью Кремля задействовать часть своего ядерного потенциала вследствие \"возможной безысходности\" на Украине.",
+            "output": "Russia’s nuclear saber-rattling has the attention of top U.S. intelligence officials, some of whom are expressing growing concern about the Kremlin’s willingness to unleash some of its nuclear arsenal as it faces “potential desperation” in Ukraine.",
+            "llm_output": "Russia's nuclear rattling has caught the attention of top US intelligence officials, some of whom are expressing growing concern about the Kremlin's willingness to deploy some of its nuclear capability in the wake of \"possible desperation\" in Ukraine.",
+            "score": 0.41789642118628356
+        },
+        {
+            "input": "Вода выполняет несколько важных функций в организме человека. Она служит в качестве транспортного средства для питательных веществ, регулирует температуру тела и играет важную роль в обмене веществ.",
+            "output": "Water fulfills several vital functions in a human organism. It serves as a means for transport of nutrients, regulates body temperature, and plays an important part in metabolism.",
+            "llm_output": "Water performs several important functions in the human body. It serves as a vehicle for nutrients, regulates body temperature and plays an important role in metabolism.",
+            "score": 0.3919608974178345
+        },
+        {
+            "input": "Две клетки (сперматозоид и яйцеклетка) соединяются вместе, образуя новую клетку (эмбрион), которая размножается путем деления в геометрической прогрессии, образуя человеческое существо, насчитывающее около 37 триллионов клеток.",
+            "output": "Two cells (a sperm and an egg) come together to form a new cell (the embryo), which replicates by division in geometric progression to form a human being, which has about 37 trillion cells.",
+            "llm_output": "Two cells (sperm and egg) fuse together to form a new cell (embryo), which reproduces by dividing exponentially to form a human being of about 37 trillion cells.",
+            "score": 0.3918873242178003
+        },
+        {
+            "input": "«Только подумай, чего мы могли бы добиться совместными усилиями! Ты мог бы править этой могучей империей рядом со мной! Но вместо того ты решил защитить человечество. Как это жалко». Злодей усмехнулся.",
+            "output": "Just imagine what we could have done if we had joined forces! You could have ruled this mighty empire by my side! Instead you chose to protect humanity. How pathetic. The villain smirked.",
+            "llm_output": "“Just think what we could accomplish together! You could rule this mighty empire by my side! But instead, you chose to protect humanity. How pitiful it is.\" The villain chuckled.",
+            "score": 0.38754613066735566
+        },
+        {
+            "input": "Если кто-то незнакомый говорит, что вы говорите как носитель языка, это значит, что он, вероятно, заметил что-то в вашей речи, что дало ему понять, что вы не носитель. Другими словами, вы не говорите как носитель.",
+            "output": "If someone who doesn't know your background says that you sound like a native speaker, it means they probably noticed something about your speaking that made them realize you weren't a native speaker. In other words, you don't really sound like a native speaker.",
+            "llm_output": "If someone unfamiliar says that you are speaking like a native speaker, it means that he probably noticed something in your speech that made him understand that you are not a native speaker. In other words, you are not speaking like a native speaker.",
+            "score": 0.3474934238801288
+        },
+        {
+            "input": "Я рад, что был на войне и видел сам все ужасы, неизбежно связанные с войной, и после этого я думаю, что всякий человек с сердцем не может желать войны, а всякий правитель, которому Богом вверен народ, должен принимать все меры, для того чтобы избегать ужасов войны.",
+            "output": "I'm glad that I have been to war and have personally seen all the horrors that are inevitably connected with war, and after that I think that anyone with a heart cannot wish for war, and any ruler whom God entrusted his people to must take every measure to avoid the horrors of war.",
+            "llm_output": "I am glad that I was in the war and saw for myself all the horrors inevitably connected with the war, and after that I think that every person with a heart cannot desire war, and every ruler to whom the people are entrusted by God must take all measures to to avoid the horrors of war.",
+            "score": 0.3439822478900904
+        },
+        {
+            "input": "Хотя король Харкиниан, в сущности, всеяден, насколько это вообще возможно для человека, его бесспорно любимая еда — легендарная овсянка Munf Munf. Любопытным исключением из его привычки сметать всё, что выложено на обеденный стол, является спагетти, к которому он питает глубокую неприязнь, и своим указом запретил кому бы то ни было проносить его в замок Хайрул. Марио и Луиджи — единственные, кому за нарушение сего указа въезд в королевство Хайрул запрещён пожизненно.",
+            "output": "Although King Harkinian is pretty much an omnivore, as much as a human being could ever be, his favourite food is by far the fabled Munf Munf cereal. One curious exception to his habit of eating everything that's on the dinner table is spaghetti, which he loathes deeply, decreeing that nobody bring it into Hyrule Castle. Luigi and Mario are the only people banned from the Hyrule Kingdom for life for violating this order.",
+            "llm_output": "Although King Harkinian is essentially an omnivore, as humanly possible, his undeniably favorite food is the legendary Munf Munf oatmeal. A curious exception to his habit of sweeping away everything laid out on the dinner table is spaghetti, which he has a deep dislike for, and by decree forbade anyone to bring it into Hyrule Castle. Mario and Luigi are the only ones who are banned from entering the kingdom of Hyrule for life for violating this decree.",
+            "score": 0.3283228801009457
+        },
+        {
+            "input": "Они все одинаковые! - \"Что ты, Стёпа! Такое впечатление, что ты никогда не ебался!\" - \"Профессор, у меня нет времени, чтобы ебаться!\" - \"Лох, это большое удовольствие!\" - \"Профессор, я хочу с вами!\" - \"Ну да, да! Ты сейчас как всегда соснёшь!\" - \"Да, вы правы\".",
+            "output": "They're all the same! \"Come on, Styopa – looks like you've never fucked!\" \"Professor, I have no time for fucking.\" \"You dummy, it's a great pleasure.\" \"Professor, I want to do it with you.\" \"Yeah, say that again! You're gonna suck just like always.\" \"Yes, you're right.\"",
+            "llm_output": "They are all the same! - \"What are you, Styopa! It seems that you have never fucked!\" - \"Professor, I don't have time to fuck!\" - \"Loh, this is great fun!\" - \"Professor, I want to go with you!\" - \"Well, yes, yes! You are now sleeping like always!\" - \"Yes you are right\".",
+            "score": 0.32300338411994345
+        },
+        {
+            "input": "В матче за звание чемпиона мира ФИДЕ 2023 по шахматам ничья (6 X 6), Дин Лирен (белые) выиграла двенадцатую партию. Осталось еще две партии, чтобы один из участников добился решающего преимущества.",
+            "output": "The match for the FIDE 2023 World Chess Championship is tied (6 X 6), with Ding Liren (White) winning the twelfth game. Only two more games remain for one of the competitors to achieve the decisive advantage.",
+            "llm_output": "In the 2023 FIDE World Chess Championship match (6 X 6), Ding Liren (White) won the twelfth game. There are still two games left for one of the participants to achieve a decisive advantage.",
+            "score": 0.3200808356402526
+        },
+        {
+            "input": "Это опосредственный конфликт между бывшим президентом и бывшим вице-президентом, - сказал \"Голосу Америки\" Уильям А. Галстон, старший научный сотрудник программы исследований управления Брукингса, во время голосования во вторник.",
+            "output": "This is a proxy conflict between the former president and the former vice president, William A. Galston, a senior fellow in Brookings' Governance Studies program, told VOA as ballots were being cast on Tuesday.",
+            "llm_output": "It's a proxy conflict between a former president and a former vice president, William A. Galston, senior fellow at the Brookings Management Research Program, told VOA during a vote Tuesday.",
+            "score": 0.30119014680546913
+        },
+        {
+            "input": "Это опосредованный конфликт между бывшим президентом и бывшим вице-президентом, - сказал \"Голосу Америки\" Уильям А. Галстон, старший научный сотрудник программы исследований управления Брукингса, во время голосования во вторник.",
+            "output": "This is a proxy conflict between the former president and the former vice president, William A. Galston, a senior fellow in Brookings' Governance Studies program, told VOA as ballots were being cast on Tuesday.",
+            "llm_output": "It's a proxy conflict between a former president and a former vice president, William A. Galston, senior fellow at the Brookings Management Research Program, told VOA during a vote Tuesday.",
+            "score": 0.30119014680546913
+        },
+        {
+            "input": "Ты поверишь, он всё ещё выступает в восемьдесят лет? Сэр Пол никогда не останавливается. Возможно, он будет здесь и в 90, кто знает!\" - \"Не может быть\". - \"Мы так говорили, когда ему было семьдесят!\"",
+            "output": "Can you believe he is still performing at eighty years old? Sir Paul never stops. He might be out here at ninety, who knows! \"No way.\" \"That's what we said when he was seventy!\"",
+            "llm_output": "Would you believe he's still performing at eighty? Sir Paul never stops. Maybe he'll be here at 90, who knows!\" - \"It can't be.\" - \"We said that when he was seventy!\"",
+            "score": 0.29471295100640243
+        },
+        {
+            "input": "«Чёрт возьми, нельзя выгонять меня из собственного дома! Это незаконно, знаете ли». – «Э, я, наверно, напился и выставил замок на eBay». – «Ты что сделал?» – «По-моему, он сказал, что выставил замок на eBay». – «Да знаю я, что он сказал!» – «Не волнуйтесь, друзья мои, я разрулю эту ситуацию. Мы заявимся к герцогу Онкледу!» – «...Ты, поди, шутишь».",
+            "output": "What the hell? You can't kick me out of my house! That is illegal, you know. \"Uh, I might have gotten drunk and put the castle on eBay.\" \"You... you did what?\" \"I think he said he put the castle on eBay.\" \"I know what he said!\" \"Do not worry, my friends, I'm going to take care of this situation. We're going to crash at Duke Onkled's!\" \"...You've got to be kidding.\"",
+            "llm_output": "“Damn it, you can’t kick me out of my own house! It's illegal, you know.\" “Uh, I must have gotten drunk and put the padlock on eBay.” - \"What did you do?\" “I think he said he put the lock up on eBay.” “Yes, I know what he said!” “Don't worry, my friends, I'll sort this situation out. We'll report to the Duke of Onkled!\" - \"... You're kidding me.\"",
+            "score": 0.2879649009095468
+        },
+        {
+            "input": "Руи Лопес де Сегура, священник и известный испанский шахматист XVI века, написал книгу на 150 страниц под названием Libro del Ajedrez, посвящённую подробному исследованию им дебюта 1. e4 e5 2. ♘f3 ♞c6 3. ♗b5, названного в его честь.",
+            "output": "Ruy López de Segura, a priest and a famous Spanish chess player of the 16th century, wrote a book of 150 pages, called Libro del Ajedrez, about exhaustive studies he made on the opening (1. e4 e5 2. ♘f3 ♘c6 3. ♗b5) that is named after him.",
+            "llm_output": "Ruy López de Segura, a 16th-century clergyman and renowned Spanish chess player, wrote a 150-page book called Libro del Ajedrez, which was a detailed study of the opening 1. e4 e5 2. ♘f3 ♞c6 3. ♗b5, named after him.",
+            "score": 0.2682350638229283
+        },
+        {
+            "input": "«Ты что, гад, из ума выжил?» – «Видимо. Эта поганая мелкая тварь...» – «И что? Ты лишился логова? Хватит ныть, в следующий раз сделай логово получше». – «Следующего раза, наверно, не будет...» – «Верни замок, а не то!..»",
+            "output": "You prick! Have you lost your mind?! \"Probably. That miserable little twerp—\" \"So what? You lost your lair? Stop whining and make a greater lair next time.\" \"There probably won't be a next time...\" \"Bring the castle back, or else!\"",
+            "llm_output": "\"Are you out of your mind, you bastard?\" – “Apparently. This filthy little creature ... \"-\" So what? Have you lost your lair? Stop whining, make a better lair next time.\" – “There probably won’t be a next time…” – “Give back the castle, otherwise!..”",
+            "score": 0.2487427977998702
+        },
+        {
+            "input": "Однажды Линус упрекнул Геракла в неусидчивости; тогда мальчик в ярости поднял свою лиру и со всей силы ударил по голове несчастного учителя, который, распростершись от удара, вскоре умер. И с тех пор никто не хотел браться за такую задачу.",
+            "output": "That Linus once reproached Hercules for not being studious; then, in a rage, the boy suddenly took up the lyre and struck with all his might the head of the unfortunate teacher, who, prostrated by the blow, soon after died. And no one after that wanted to take charge of such an office.",
+            "llm_output": "Once Linus reproached Hercules for restlessness; then the boy, in a rage, raised his lyre and with all his strength hit the head of the unfortunate teacher, who, prostrate from the blow, soon died. And since then, no one wanted to take on such a task.",
+            "score": 0.24793113348492624
+        },
+        {
+            "input": "“Ну, князь, Генуя и Лукка — поместья фамилии Бонапарте. Нет, я вам вперед говорю, если вы мне не скажете, что у нас война, если вы еще позволите себе защищать все гадости, все ужасы этого Антихриста — право, я верю, что он Антихрист — я вас больше не знаю, вы уж не друг мой, вы уж не мой верный раб, как вы говорите! Ну, здравствуйте, здравствуйте. Я вижу, что я вас пугаю; садитесь и рассказывайте.”",
+            "output": "“Well, my Prince, so Genoa and Lucca are now just endowments, family estates of the Bonapartes. But I warn you, if you don't tell me that we will have war, if you still try to soften all the infamies, all the horrors perpetrated by that Antichrist — I really believe he is Antichrist — I will have nothing more to do with you, and you are no longer my friend, no longer my ‘faithful slave,’ as you call yourself! But how do you do? I see I have frightened you; sit down and tell me all the news.”",
+            "llm_output": "“Well, prince, Genoa and Lucca are the estates of the Bonaparte family. No, I’m telling you ahead of time, if you don’t tell me that we are at war, if you still allow yourself to defend all the nasty things, all the horrors of this Antichrist - really, I believe that he is the Antichrist - I don’t know you anymore, you don’t my friend, you are no longer my faithful slave, as you say! Well, hello, hello. I see that I scare you; sit down and talk.\"",
+            "score": 0.24604039210864276
+        },
+        {
+            "input": "«Том, что у тебя за отношения с горностаями?» — «Да, в общем, ничего особенного, просто они мне кажутся очень занимательными». — «Но ты постоянно в разговорах упоминаешь горностаев и большую часть свободного времени проводишь, изучая их поведение. Может, это немного чересчур?» — «Это просто у меня такое хобби. Может у человека быть хобби?\"",
+            "output": "Tom, what is this between you and stoats? \"Nothing much, really. I simply find them very fascinating.\" \"But you're making references to stoats all the time in your speech, and spend most of your free time studying stoat behaviour. Isn't that a bit obsessive?\" \"It's just my personal hobby. Can't a man have a hobby?\"",
+            "llm_output": "\"Tom, what's your relationship with the stoats?\" - \"Yes, in general, nothing special, they just seem to me very entertaining.\" “But you constantly mention stoats in conversations and spend most of your free time studying their behavior. Maybe it's a little too much?\" “It's just my hobby. Can a person have a hobby?",
+            "score": 0.20555552067609095
+        },
+        {
+            "input": "В три года слово «завтра» означало для меня «через почти бесконечно много времени», поэтому, когда родители говорили мне, что я получу что-то завтра, то я начинал плакать, потому что это означало, что я никогда не получу того, чего хотел. Теперь же, в умудрённом семилетнем возрасте, дождаться следующего дня было гораздо легче, и я даже мог осмыслить, что, когда приходила зима, это было не навсегда.",
+            "output": "When I was three, 'tomorrow' to me meant 'in a nearly infinite amount of time', so when my parents would tell me I was going to get something tomorrow, I would start crying since it meant I could never get what I wanted. Now, though, at the wise age of seven, waiting for the following day to come was much easier, and I was even able to comprehend that the onset of winter would not last forever.",
+            "llm_output": "At the age of three, the word \"tomorrow\" for me meant \"in almost infinite time\", so when my parents told me that I would get something tomorrow, I started crying, because it meant that I would never get it, what he wanted. Now, at the wise age of seven, it was much easier to wait until the next day, and I could even comprehend that when winter came, it was not forever.",
+            "score": 0.1972590912636283
+        },
+        {
+            "input": "Ребята, не стоит вскрывать эту тему. Вы молодые, шутливые, вам все легко. Это не то. Это не Чикатило и даже не архивы спецслужб. Сюда лучше не лезть. Серьезно, любой из вас будет жалеть. Лучше закройте тему и забудьте, что тут писалось. Я вполне понимаю, что данным сообщением вызову дополнительный интерес, но хочу сразу предостеречь пытливых – стоп. Остальных просто не найдут.",
+            "output": "Guys, better not bring up this topic. You're young and playful, and everything's easy for you. It's not what you think. It's not Chikatilo, and not even FBI archives. Better not venture here. I'm serious: you will regret it. Better abandon the topic and forget everything written here. I quite understand this message provokes more interest, but I want to warn the curious: stop. Those who don't will never be found again.",
+            "llm_output": "Guys, don't open this thread. You are young, playful, everything is easy for you. This is not it. This is not Chikatilo and not even the archives of the special services. It's better not to go here. Seriously, any of you will be sorry. It's better to close the topic and forget what was written here. I fully understand that this message will cause additional interest, but I want to immediately warn the inquisitive - stop. The rest just won't be found.",
+            "score": 0.18638865094392365
+        },
+        {
+            "input": "Мне очень нравится этот форум, но один из самых бесячих моментов – количество здесь людей, которые принципиально не понимают ни в какой форме юмор и потому относятся ко всему слишком серьёзно. Это весьма раздражает, но приходится с этим жить.",
+            "output": "I like this board a lot, but one of the most frustrating things about it is the amount of posters here who have a serious lack of understanding of any form of humour and who consequently take things too seriously. It is a real annoyance but one has to live with it.",
+            "llm_output": "I really like this forum, but one of the most annoying moments is the number of people here who fundamentally do not understand humor in any form and therefore take everything too seriously. It's quite annoying, but you have to live with it.",
+            "score": 0.17331896961343865
+        },
+        {
+            "input": "«Ух ты! Такое красивое утро у нас здесь сегодня! Мне в самом деле не терпится – а? Что такое?» – «Как дела, Линк?» – «Моршу, в чём дело?» – «Ха, всё просто. Благодаря денежному успеху моих предприятий и карьеры в битбоксе я разбогател!» – «Ого, и ты решил устроить нам вечеринку?» – «Ха, нет. Охрана, вышвырните этих гондонов».",
+            "output": "Oh boy! It sure is a beautiful morning around here! In fact, I can't wait to–huh? What happened? \"What's up, Link?\" \"Morshu, what is going on?\" \"Hah, simple. With all the money I made from my successful businesses and my successful beatboxing career, I got rich!\" \"Wow, so you threw us a party?\" \"Hah, nope. Security, get those motherfuckers out.\"",
+            "llm_output": "\"Wow! Such a beautiful morning we have here today! I really can't wait - huh? What's happened?\" \"How are you, Link?\" “Morshu, what’s the matter?” “Ha, it's simple. Thanks to the monetary success of my ventures and career in beatboxing, I became rich!” – “Wow, and you decided to throw us a party?” “Ha, no. Security, throw out these condoms.",
+            "score": 2.8401479942845623e-78
+        }
+    ]
+}

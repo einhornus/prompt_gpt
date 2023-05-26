@@ -1,0 +1,333 @@
+{
+    "system_message_file": "6",
+    "model": "google_translate",
+    "parameters": {
+        "src": "English",
+        "dest": "Hindi"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.25042066265026647
+    ],
+    "prompt": [],
+    "median": 0.25042066265026647,
+    "average": 0.3324661718357358,
+    "std": 0.3687821927935954,
+    "percentiles": {
+        "10": 7.522999005481245e-155,
+        "20": 2.947456065102457e-78,
+        "25": 3.782007512555119e-78,
+        "30": 4.265120239723981e-78,
+        "40": 5.115643041139184e-78,
+        "50": 0.25042066265026647,
+        "60": 0.36498285220435633,
+        "70": 0.47029870267673884,
+        "75": 0.49908153048882625,
+        "80": 0.6645501777969285,
+        "90": 1.0
+    },
+    "n_tests": 50,
+    "tests": [
+        {
+            "input": "Tom can't take a hint. You really have to spell it out to him.",
+            "output": "टॉम कोई संकेत नहीं ले सकता। आपको वास्तव में उसे इसका जादू करना होगा।",
+            "llm_output": "टॉम कोई संकेत नहीं ले सकता। आपको वास्तव में उसे इसका जादू करना होगा।",
+            "score": 1.0
+        },
+        {
+            "input": "The moment that I met Tom, I just knew that we'd get along.",
+            "output": "जिस क्षण मैं टॉम से मिला, मुझे बस इतना पता था कि हम साथ रहेंगे।",
+            "llm_output": "जिस क्षण मैं टॉम से मिला, मुझे बस इतना पता था कि हम साथ रहेंगे।",
+            "score": 1.0
+        },
+        {
+            "input": "The last time I saw Tom he was heading towards the beach.",
+            "output": "आखिरी बार जब मैंने टॉम को देखा तो वह समुद्र तट की ओर जा रहा था।",
+            "llm_output": "आखिरी बार जब मैंने टॉम को देखा तो वह समुद्र तट की ओर जा रहा था।",
+            "score": 1.0
+        },
+        {
+            "input": "Tom has been thinking about emigrating for a while now.",
+            "output": "टॉम कुछ समय से विदेश जाने के बारे में सोच रहा है।",
+            "llm_output": "टॉम कुछ समय से विदेश जाने के बारे में सोच रहा है।",
+            "score": 1.0
+        },
+        {
+            "input": "Tom looked through the peephole, but didn't see anyone.",
+            "output": "टॉम ने झाँक कर देखा, लेकिन किसी को नहीं देखा।",
+            "llm_output": "टॉम ने झाँक कर देखा, लेकिन किसी को नहीं देखा।",
+            "score": 1.0
+        },
+        {
+            "input": "Tom has written three books in the last three years.",
+            "output": "टॉम ने पिछले तीन सालों में तीन किताबें लिखी हैं।",
+            "llm_output": "टॉम ने पिछले तीन सालों में तीन किताबें लिखी हैं।",
+            "score": 1.0
+        },
+        {
+            "input": "Tom lived a year on the street, scrounging for food.",
+            "output": "टॉम एक साल सड़क पर रहा, भोजन के लिए छटपटाता रहा।",
+            "llm_output": "टॉम एक साल सड़क पर रहा, भोजन के लिए छटपटाता रहा।",
+            "score": 1.0
+        },
+        {
+            "input": "Thanks to your recommendation, Tom got that job.",
+            "output": "आपकी सिफारिश के लिए धन्यवाद, टॉम को वह नौकरी मिल गई।",
+            "llm_output": "आपकी सिफारिश के लिए धन्यवाद, टॉम को वह नौकरी मिल गई।",
+            "score": 1.0
+        },
+        {
+            "input": "Lincoln's biography is read by children all around the world.",
+            "output": "लिंकन की जीवनी दुनिया भर के बच्चे पढ़ते हैं.",
+            "llm_output": "लिंकन की जीवनी दुनिया भर के बच्चे पढ़ते हैं।",
+            "score": 0.8633400213704505
+        },
+        {
+            "input": "Tom wasn't the only one who was one drunk at the party.",
+            "output": "टॉम ही अकेला नहीं था जो पार्टी में नशे में था।",
+            "llm_output": "टॉम अकेला नहीं था जो पार्टी में नशे में था।",
+            "score": 0.8176129038784518
+        },
+        {
+            "input": "Can you tell me what time it is in your country?",
+            "output": "क्या आप मुझे बता सकते हैं कि आपके देश में कितने बजे हैं?",
+            "llm_output": "क्या आप मुझे बता सकते हैं कि आपके देश में इस समय क्या समय है?",
+            "score": 0.6262844962765469
+        },
+        {
+            "input": "There is much opposition to this decision of the Government of India.",
+            "output": "भारत सरकार के इस फैसले का बहुत ज़्यादा विरोध हो रहा है।",
+            "llm_output": "भारत सरकार के इस फैसले का काफी विरोध हो रहा है.",
+            "score": 0.5366551979187751
+        },
+        {
+            "input": "Tom wasn't the only one who was one drunk at the party.",
+            "output": "टॉम ही अकेला नहीं था जो पार्टी में पिया हुआ था।",
+            "llm_output": "टॉम अकेला नहीं था जो पार्टी में नशे में था।",
+            "score": 0.502658727004553
+        },
+        {
+            "input": "For a while now, Tom has been thinking about emigrating.",
+            "output": "कुछ समय के लिए, टॉम उत्प्रवास के बारे में सोच रहा है।",
+            "llm_output": "कुछ समय से टॉम प्रवास के बारे में सोच रहा है।",
+            "score": 0.4883499409416459
+        },
+        {
+            "input": "It's not that Ali's fat. It's that he's got big bones.",
+            "output": "ऐसा नहीं है कि अली मोटा है। उसकी बस हड्डियां बड़ी हैं।",
+            "llm_output": "ऐसा नहीं है कि अली मोटा है। यह है कि उसकी बड़ी हड्डियाँ हैं।",
+            "score": 0.4727526606311562
+        },
+        {
+            "input": "It's been two months since Sami escaped from jail.",
+            "output": "सामी को जेल से भागे हुए दो महीने हो गए है।",
+            "llm_output": "सामी को जेल से फरार हुए दो महीने हो चुके हैं।",
+            "score": 0.46924700641056
+        },
+        {
+            "input": "Our parents took care of us and now it's our turn to take care of them.",
+            "output": "हमारे माता-पिता ने हमारी देखभाल की थी और अब हमारी बारी है उनकी देखभाल करने की।",
+            "llm_output": "हमारे माता-पिता ने हमारी देखभाल की और अब उनकी देखभाल करने की हमारी बारी है।",
+            "score": 0.45007028605391647
+        },
+        {
+            "input": "Can you tell me what time it is in your country?",
+            "output": "क्या आप मुझे बता सकतीं हैं कि आपके देश में कितने बजे हैं?",
+            "llm_output": "क्या आप मुझे बता सकते हैं कि आपके देश में इस समय क्या समय है?",
+            "score": 0.4121183751323027
+        },
+        {
+            "input": "She wanted to have her hair cut, but her mother wouldn't let her.",
+            "output": "वह अपने बाल कटवाना चाहती थी, पर उसकी मम्मी राज़ी नहीं थी।",
+            "llm_output": "वह अपने बाल कटवाना चाहती थी, लेकिन उसकी मां ने ऐसा नहीं होने दिया।",
+            "score": 0.3759663529467017
+        },
+        {
+            "input": "If the coffee is too strong, add some more water.",
+            "output": "अगर कॉफ़ी ज़्यादा कड़वी है तो थोड़ा और पानी डाल लो।",
+            "llm_output": "अगर कॉफी बहुत तीखी है, तो थोड़ा और पानी डालें।",
+            "score": 0.37200908038405156
+        },
+        {
+            "input": "Do you have cash worth more than ten thousand euros?",
+            "output": "क्या आप के पास दस हजार यूरो से ज़्यादा की नकद है?",
+            "llm_output": "क्या आपके पास दस हजार यूरो से अधिक की नकदी है?",
+            "score": 0.36029870008455955
+        },
+        {
+            "input": "Tom thought Mary already knew how to drive a car.",
+            "output": "टॉम को लगा मैरी को पहले से ही कार चलाना आती थी।",
+            "llm_output": "टॉम ने सोचा कि मैरी पहले से ही कार चलाना जानती है।",
+            "score": 0.3448444257953326
+        },
+        {
+            "input": "I know that I haven't been doing what I should've been doing.",
+            "output": "मुझे पाता ही जो मुझे करना चाहिए वो मैं नहीं कर रहा हूं।",
+            "llm_output": "मुझे पता है कि मुझे जो करना चाहिए था वह मैं नहीं कर रहा हूं।",
+            "score": 0.30934588294313714
+        },
+        {
+            "input": "It gets cold in the mornings and evenings, so I want to take care how I dress.",
+            "output": "सुबह-शाम को ठंड हो जाती है, इसलिए मैं ढंग से कपड़े पहनना चाहती हूँ।",
+            "llm_output": "सुबह और शाम को ठंड हो जाती है, इसलिए मैं इस बात का ध्यान रखना चाहता हूं कि मैं कैसे कपड़े पहनूं।",
+            "score": 0.2719326877457978
+        },
+        {
+            "input": "Tom didn't know what to do so he didn't do anything.",
+            "output": "टॉम को पता नहीं था करना क्या है तो उसने कुछ नहीं किया।",
+            "llm_output": "टॉम को नहीं पता था कि क्या करना है इसलिए उसने कुछ नहीं किया।",
+            "score": 0.2514238535304504
+        },
+        {
+            "input": "When you can't do what you want, you do what you can.",
+            "output": "जब वह नहीं कर सकते जो करना चाहते हो, तो वह करो जो कर सकते हो।",
+            "llm_output": "जब आप वह नहीं कर सकते जो आप चाहते हैं, तो आप वह करें जो आप कर सकते हैं।",
+            "score": 0.24941747177008258
+        },
+        {
+            "input": "I told Tom what he should do, but he didn't do it.",
+            "output": "मैंने टॉम को बताया उसे क्या करना चाहिए पर उसने वैसा नहीं किया।",
+            "llm_output": "मैंने टॉम से कहा कि उसे क्या करना चाहिए, लेकिन उसने ऐसा नहीं किया।",
+            "score": 0.24739977342883948
+        },
+        {
+            "input": "I saw a red car and a white one. The red one was nicer looking than the white one.",
+            "output": "मैंने एक लाल कार और सफ़ेद कार देखी. लाल कार सफ़ेद कार से दिखने में ज़्यादा अच्छी थी.",
+            "llm_output": "मैंने एक लाल कार और एक सफेद कार देखी। सफेद वाले की तुलना में लाल वाला अच्छा लग रहा था।",
+            "score": 0.20158074753947833
+        },
+        {
+            "input": "Algiers is an important cultural capital in Algeria.",
+            "output": "अल्जीयर्स अल्जेरिया में एक महत्त्वपूर्ण सांस्कृतिक राजधानी है।",
+            "llm_output": "अल्जीयर्स अल्जीरिया में एक महत्वपूर्ण सांस्कृतिक राजधानी है।",
+            "score": 5.87583260478785e-78
+        },
+        {
+            "input": "I'll be staying here in Australia for three months.",
+            "output": "मैं तीन महीने के लिए यहां ऑस्ट्रेलिया में रहूंगा।",
+            "llm_output": "मैं यहां तीन महीने ऑस्ट्रेलिया में रहूंगा।",
+            "score": 5.1612152302653315e-78
+        },
+        {
+            "input": "Spanish is spoken in most countries of South America.",
+            "output": "दक्षिण अमरिका के ज़्यादातर देशों में स्पेनी बोली जाती है।",
+            "llm_output": "दक्षिण अमेरिका के अधिकांश देशों में स्पेनिश बोली जाती है।",
+            "score": 5.047284757449962e-78
+        },
+        {
+            "input": "John asked Mary whether she would like to go shopping in the afternoon.",
+            "output": "जॉन ने मेरी से पूछा कि वह दोपहर में उसके साथ बाज़ार जाना चाहती है क्या।",
+            "llm_output": "जॉन ने मैरी से पूछा कि क्या वह दोपहर में खरीदारी के लिए जाना चाहेंगी।",
+            "score": 4.868588938103062e-78
+        },
+        {
+            "input": "With the coming of winter, days are getting shorter.",
+            "output": "सर्दियों के आने से दिन छोटे होते जाते हैं।",
+            "llm_output": "सर्दियों के आने के साथ ही दिन छोटे होने लगते हैं।",
+            "score": 4.484824319939061e-78
+        },
+        {
+            "input": "She handed him his jacket then opened the door and asked him to leave.",
+            "output": "उसने उसे उसका जैकेट हाथ में दे दिया, फिर दरवाज़ा खोला और उसे चले जाने के लिए कहां।",
+            "llm_output": "उसने उसे अपनी जैकेट सौंपी और फिर दरवाजा खोला और उसे जाने के लिए कहा।",
+            "score": 4.374581879847242e-78
+        },
+        {
+            "input": "Unfortunately, I don't understand English well.",
+            "output": "दुर्भाग्यवश, मुझे अंग्रेज़ी अच्छी तरह से समझ नहीं आती।",
+            "llm_output": "दुर्भाग्य से, मैं अंग्रेजी अच्छी तरह से नहीं समझता।",
+            "score": 4.335118471269586e-78
+        },
+        {
+            "input": "Unfortunately, I don't understand English well.",
+            "output": "बदकिस्मती से, मुझे अंग्रेज़ी अच्छी तरह से समझ नहीं आती।",
+            "llm_output": "दुर्भाग्य से, मैं अंग्रेजी अच्छी तरह से नहीं समझता।",
+            "score": 4.101791032784236e-78
+        },
+        {
+            "input": "Traveling by boat takes longer than going by car.",
+            "output": "नाव के सफ़र में कार से ज़्यादा समय लगता है.",
+            "llm_output": "नाव से यात्रा करने में कार से जाने में अधिक समय लगता है।",
+            "score": 3.908633169762327e-78
+        },
+        {
+            "input": "Can you tell me what time it is in your country?",
+            "output": "क्या तुम मुझे बता सकते हो कि तुम्हारे देश में कितने बजे हैं?",
+            "llm_output": "क्या आप मुझे बता सकते हैं कि आपके देश में इस समय क्या समय है?",
+            "score": 3.739798960152716e-78
+        },
+        {
+            "input": "If you press this button the window opens automatically.",
+            "output": "यह बटन दबा कर खिड़की अपनेआप खुल जाती है।",
+            "llm_output": "यदि आप इस बटन को दबाते हैं तो विंडो अपने आप खुल जाती है।",
+            "score": 3.00466076572634e-78
+        },
+        {
+            "input": "She handed him his jacket then opened the door and asked him to leave.",
+            "output": "उन्होंने उन्हें उनका जैकेट हाथ में दे दिया, फिर दरवाज़ा खोला और उन्हें चले जाने के लिए कहां।",
+            "llm_output": "उसने उसे अपनी जैकेट सौंपी और फिर दरवाजा खोला और उसे जाने के लिए कहा।",
+            "score": 2.9613611418396576e-78
+        },
+        {
+            "input": "The impact of the challenging environment in the economy has greatly impacted the already troubled textile sector.",
+            "output": "इकॉनमी में चुनौतीपूर्ण माहौल का असर पहले से परेशानी में चल रहे टेक्सटाइल सेक्टर पर बहुत ही ज़्यादा हुआ है।",
+            "llm_output": "अर्थव्यवस्था में चुनौतीपूर्ण माहौल के प्रभाव ने पहले से ही संकटग्रस्त कपड़ा क्षेत्र को बहुत प्रभावित किया है।",
+            "score": 2.8918357581536547e-78
+        },
+        {
+            "input": "America is a lovely place to be, if you are here to earn money.",
+            "output": "अमेरिका बढ़िया जगह है रहने के लिए, अगर तुम यहां पैसे कमाने के लिए हो तो।",
+            "llm_output": "अगर आप यहां पैसे कमाने आए हैं तो अमेरिका एक प्यारी जगह है।",
+            "score": 2.8040147573870336e-78
+        },
+        {
+            "input": "Your people are killing Muslims in Afghanistan.",
+            "output": "तुम्हारे लोग अफग़ानिस्तान में मुसलमानों का क़त्ल कर रहे हैं।",
+            "llm_output": "आपके लोग अफगानिस्तान में मुसलमानों को मार रहे हैं।",
+            "score": 8.148621569148421e-155
+        },
+        {
+            "input": "The British defeated the French in North America in 1763.",
+            "output": "ब्रिटिशों ने १७६३ में फ़्रांसीसीयों को उत्तर अमेरिका में हराया।",
+            "llm_output": "1763 में अंग्रेजों ने उत्तरी अमेरिका में फ्रांसीसियों को हराया।",
+            "score": 7.57965434483665e-155
+        },
+        {
+            "input": "Can you tell me what time it is in your country?",
+            "output": "क्या तुम मुझे बता सकती हो कि तुम्हारे देश में कितने बजे हैं?",
+            "llm_output": "क्या आप मुझे बता सकते हैं कि आपके देश में इस समय क्या समय है?",
+            "score": 7.57965434483665e-155
+        },
+        {
+            "input": "Your sentence was not added because the following already exists.",
+            "output": "निम्न वाक्य पहले से ही मौजूद होने के कारण आपका वाक्य जोड़ा नहीं गया।",
+            "llm_output": "आपका वाक्य नहीं जोड़ा गया क्योंकि निम्न पहले से मौजूद है।",
+            "score": 7.013100951282603e-155
+        },
+        {
+            "input": "It's a well-known fact that spiders aren't insects.",
+            "output": "यह जानि मानि बात है कि मकड़ियां कीड़े नहि होति है ।",
+            "llm_output": "यह एक सर्वविदित तथ्य है कि मकड़ियाँ कीट नहीं होती हैं।",
+            "score": 6.061838450024688e-155
+        },
+        {
+            "input": "You are saying you intentionally hide your good looks?",
+            "output": "तुम कह रहे हो तुम जानबूझकर अपनी सुन्दरता छुपाते हो?",
+            "llm_output": "आप कह रहे हैं कि आप जानबूझकर अपने अच्छे दिखने को छुपाते हैं?",
+            "score": 5.969061643530969e-155
+        },
+        {
+            "input": "Bitcoin is divisible by 100 million. 1 part is called satoshi.",
+            "output": "एक बिटकॉइन के दास करोड़ भाग हैं। एक भाग को सतोशी कहते हैं।",
+            "llm_output": "बिटकॉइन 100 मिलियन से विभाज्य है। 1 भाग को सातोशी कहा जाता है।",
+            "score": 5.554837769749797e-155
+        },
+        {
+            "input": "It isn't like you to not listen to other people's opinions.",
+            "output": "तुम तो किसी की बात नहीं सुनने वालों में से नहीं थे।",
+            "llm_output": "ऐसा नहीं है कि आप दूसरे लोगों की राय नहीं सुनते हैं।",
+            "score": 1.2882297539194154e-231
+        }
+    ]
+}

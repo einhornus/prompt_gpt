@@ -1,0 +1,333 @@
+{
+    "system_message_file": "6",
+    "model": "marian_mt",
+    "parameters": {
+        "src": "English",
+        "dest": "Indonesian"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.3907805609918594
+    ],
+    "prompt": [],
+    "median": 0.3907805609918594,
+    "average": 0.4246881135311439,
+    "std": 0.2789626390371955,
+    "percentiles": {
+        "10": 3.4668375778291724e-78,
+        "20": 0.22377365376481706,
+        "25": 0.2946007566041248,
+        "30": 0.3289019573183722,
+        "40": 0.3696701006190319,
+        "50": 0.3907805609918594,
+        "60": 0.4638591999713553,
+        "70": 0.5527575063063266,
+        "75": 0.5749861790178836,
+        "80": 0.6101534396591589,
+        "90": 0.8517134822407839
+    },
+    "n_tests": 50,
+    "tests": [
+        {
+            "input": "January, February, March, April, May, June, July, August, September, October, November and December are the twelve months of the year.",
+            "output": "Januari, Februari, Maret, April, Mei, Juni, Juli, Agustus, September, Oktober, November, dan Desember adalah dua belas bulan dalam setahun.",
+            "llm_output": "Januari, Februari, Maret, April, Mei, Juni, Juli, Agustus, September, Oktober, November dan Desember adalah dua belas bulan dalam setahun.",
+            "score": 1.0
+        },
+        {
+            "input": "The official languages of the UN are Arabic, Chinese, English, French, Russian, and Spanish.",
+            "output": "Bahasa resmi PBB adalah bahasa Arab, Cina, Inggris, Prancis, Rusia, dan Spanyol.",
+            "llm_output": "Bahasa resmi PBB adalah bahasa Arab, Cina, Inggris, Prancis, Rusia, dan Spanyol.",
+            "score": 1.0
+        },
+        {
+            "input": "In this very useful dictionary you will find all the words, definitions and alternatives you need.",
+            "output": "Dalam kamus yang sangat berguna ini Anda akan menemukan semua kata, definisi, dan alternatif yang Anda perlukan.",
+            "llm_output": "Dalam kamus yang sangat berguna ini Anda akan menemukan semua kata, definisi dan alternatif yang Anda butuhkan.",
+            "score": 0.9351334836242398
+        },
+        {
+            "input": "Esperanto is a modern language that is very suitable for international communication.",
+            "output": "Bahasa Esperanto adalah bahasa modern yang sangat cocok untuk komunikasi internasional.",
+            "llm_output": "Esperanto adalah bahasa modern yang sangat cocok untuk komunikasi internasional.",
+            "score": 0.9048374180359595
+        },
+        {
+            "input": "Tokyo, the largest city and capital of Japan, is located on the eastern coast of Honshu, the largest of the four main islands of the Japanese archipelago.",
+            "output": "Tokyo, kota terbesar dan ibu kota Jepang, terletak di pesisir timur Honshu, pulau terbesar dari empat pulau utama di kepulauan Jepang.",
+            "llm_output": "Tokyo, kota terbesar dan ibu kota Jepang, terletak di pesisir timur Honshu, pulau terbesar dari empat pulau utama kepulauan Jepang.",
+            "score": 0.8831560649744244
+        },
+        {
+            "input": "I did not buy it, answered the old woman. \"I found it in the river where I was washing.\"",
+            "output": "Saya tidak membelinya, jawab wanita tua itu. \"Saya menemukannya di sungai tempat saya mencuci.\"",
+            "llm_output": "Saya tidak membelinya, jawab wanita tua itu, \"Saya menemukannya di sungai tempat saya sedang mencuci.\"",
+            "score": 0.848219861937046
+        },
+        {
+            "input": "Everyone has the right to be stupid. Some people just abuse that privilege.",
+            "output": "Semua orang memiliki hak untuk menjadi bodoh. Beberapa orang hanya menyalahgunakan hak itu saja.",
+            "llm_output": "Setiap orang memiliki hak untuk menjadi bodoh Beberapa orang hanya menyalahgunakan hak istimewa itu.",
+            "score": 0.7744031410142033
+        },
+        {
+            "input": "Java and Javascript are like India and Indonesia, they aren't the same thing.",
+            "output": "Java dan JavaScript itu seperti India dan Indonesia, mereka bukan hal yang sama.",
+            "llm_output": "Java dan Javascript seperti India dan Indonesia, mereka bukan hal yang sama.",
+            "score": 0.7677331684336531
+        },
+        {
+            "input": "Portugal was the first country in the world to abolish the death penalty.",
+            "output": "Portugal adalah negara pertama di dunia yang meniadakan hukuman mati.",
+            "llm_output": "Portugal adalah negara pertama di dunia yang menghapus hukuman mati.",
+            "score": 0.7071067811865475
+        },
+        {
+            "input": "As you're trying to figure out how all this time has passed, time keeps passing.",
+            "output": "Ketika kamu sedang mencari tahu bagaimana semua waktu ini telah berlalu, waktu terus berjalan.",
+            "llm_output": "Saat kau mencoba untuk mencari tahu bagaimana semua waktu ini telah berlalu, waktu terus berlalu.",
+            "score": 0.6262844962765469
+        },
+        {
+            "input": "When Tom realized there was no way out of the room, he sat down on the floor and started crying.",
+            "output": "Ketika Tom menyadari bahwa tidak ada jalan keluar dari ruangan itu, dia duduk di lantai dan mulai menangis.",
+            "llm_output": "Ketika Tom menyadari tidak ada jalan keluar dari ruangan, ia duduk di lantai dan mulai menangis.",
+            "score": 0.6061206755048119
+        },
+        {
+            "input": "Irene Pepperberg holds a round tray in front of a parrot she has named Alex.",
+            "output": "Irene Pepperberg memegang nampan bundar di depan seekor burung beo yang ia beri nama Alex.",
+            "llm_output": "Irene Pepperberg memegang nampan bundar di depan burung beo yang ia namai Alex.",
+            "score": 0.5873934418709089
+        },
+        {
+            "input": "History is like quantum physics: the observer affects the event observed. Is the Kennedy assassination a particle or a wave?",
+            "output": "Sejarah itu seperti fisika kuantum: pengamat memengaruhi peristiwa yang diamati. Apakah pembunuhan Kennedy sebuah partikel atau sebuah gelombang?",
+            "llm_output": "Sejarah itu seperti fisika kuantum: pengamat mempengaruhi peristiwa yang diamati apakah pembunuhan Kennedy itu partikel atau gelombang?",
+            "score": 0.5753571460350173
+        },
+        {
+            "input": "Tom Jackson lives on Park Street in Boston, Australia with his wife Mary, three children, and pet dog Cookie. He speaks French, is 30 years old, and celebrates his birthday on October the 20th.",
+            "output": "Tom Jackson tinggal di Park Street di Boston, Australia bersama istrinya Mary, tiga anak, dan anjing peliharaanya, Cookie. Dia bisa berbahasa Prancis, berusia 30 tahun, dan merayakan ulang tahunnya pada tanggal 20 Oktober.",
+            "llm_output": "Tom Jackson tinggal di Park Street di Boston, Australia dengan istrinya Mary, tiga anak, dan anjing peliharaan Cookie. dan merayakan ulang tahunnya pada tanggal 20 Oktober.",
+            "score": 0.5738732779664827
+        },
+        {
+            "input": "More than 100,000 orangutans in Borneo died between 1999 and 2015 due to deforestation.",
+            "output": "Lebih dari 100.000 orangutan di Kalimantan mati antara tahun 1999 dan 2015 akibat deforestasi.",
+            "llm_output": "Lebih dari 100.000 orangutan di Kalimantan meninggal antara tahun 1999 dan 2015 karena penggundulan hutan.",
+            "score": 0.5702822264405542
+        },
+        {
+            "input": "The police found Tom lying on the floor with a bullet hole in the middle of his forehead.",
+            "output": "Polisi menemukan Tom tergeletak di lantai dengan lubang peluru di dahinya.",
+            "llm_output": "Polisi menemukan Tom terbaring di lantai dengan lubang peluru di tengah dahinya.",
+            "score": 0.5452469119630863
+        },
+        {
+            "input": "Dima... Al-Sayib said. \"That's the most ridiculous thing I've ever heard.\"",
+            "output": "Dima... kata Al-Sayib. \"Itu hal paling konyol yang pernah kudengar.\"",
+            "llm_output": "Dima... Al-Sayib berkata. \"Itu hal paling konyol yang pernah saya dengar.\"",
+            "score": 0.5031747626530138
+        },
+        {
+            "input": "In 1987, the United States established diplomatic relations with Mongolia, best known as the birthplace of the Mongol emperor Genghis Khan.",
+            "output": "Pada tahun 1987, Amerika Serikat menjalin hubungan diplomatik dengan Mongolia, negara yang terkenal sebagai tempat kelahiran kaisar Mongol Jenghis Khan.",
+            "llm_output": "Pada tahun 1987, Amerika Serikat mendirikan hubungan diplomatik dengan Mongolia, yang paling dikenal sebagai tempat kelahiran kaisar Mongol Genghis Khan.",
+            "score": 0.49604024006723946
+        },
+        {
+            "input": "Afghanistan has borders with six countries: China, Iran, Pakistan, Tajikistan, Turkmenistan and Uzbekistan.",
+            "output": "Afganistan berbatasan dengan enam negara: Tiongkok, Iran, Pakistan, Tajikistan, Turkmenistan, dan Uzbekistan.",
+            "llm_output": "Afghanistan memiliki perbatasan dengan enam negara: Cina, Iran, Pakistan, Tajikistan, Turkmenistan dan Uzbekistan.",
+            "score": 0.48442732379638637
+        },
+        {
+            "input": "What happened to you yesterday reminded me of something that happened to me a year ago.",
+            "output": "Yang terjadi padamu kemarin mengingatkanku akan sesuatu yang terjadi padaku satu tahun yang lalu.",
+            "llm_output": "Apa yang terjadi padamu kemarin mengingatkanku pada sesuatu yang terjadi padaku setahun yang lalu.",
+            "score": 0.48415247130346006
+        },
+        {
+            "input": "They've been in France, Germany, Spain, Portugal, United States, Canada, and Porto Rico.",
+            "output": "Mereka sudah pernah ke Prancis, Jerman, Spanyol, Portugal, Amerika Serikat, Kanada, dan Puerto Riko.",
+            "llm_output": "Mereka berada di Perancis, Jerman, Spanyol, Portugal, Amerika Serikat, Kanada, dan Porto Rico.",
+            "score": 0.45033035241661884
+        },
+        {
+            "input": "Tom usually fasts about 18 hours a day, from dinner until the following day's lunch.",
+            "output": "Tom biasanya berpuasa sekitar 18 jam sehari, mulai dari waktu makan malam sampai waktu makan siang keesokan harinya.",
+            "llm_output": "Tom biasanya berpuasa sekitar 18 jam sehari, dari makan malam sampai makan siang hari berikutnya.",
+            "score": 0.44300069361967526
+        },
+        {
+            "input": "Hydrogen, carbon, nitrogen, phosphorus, oxygen, sulfur and selenium are nonmetals.",
+            "output": "Hidrogen, karbon, nitrogen, fosfor, oksigen, belerang, dan selenium adalah unsur bukan logam.",
+            "llm_output": "Hidrogen, karbon, nitrogen, fosfor, oksigen, sulfur dan selenium adalah nonmetal.",
+            "score": 0.4301463832259786
+        },
+        {
+            "input": "Out of milk? Try enjoying your favorite breakfast cereal with tap water or orange juice instead.",
+            "output": "Kehabisan susu? Coba nikmati sereal sarapan favorit Anda dengan air keran atau jus jeruk.",
+            "llm_output": "Cobalah menikmati sereal sarapan kesukaanmu dengan air keran atau jus jeruk.",
+            "score": 0.395348755325422
+        },
+        {
+            "input": "Saudi Arabia is called \"Al-Mamlakah Al-‘Arabiyyah As-Sa‘ūdiyyah\" in Arabic.",
+            "output": "Arab Saudi disebut \"Al-Mamlakah Al-‘Arabiyyah As-Sa‘ūdiyyah\" dalam bahasa Arab.",
+            "llm_output": "Arab Saudi disebut \"Al-Mamlah Al-Arabiyayah As-Saódiyyah\" dalam bahasa Arab.",
+            "score": 0.3912360608928473
+        },
+        {
+            "input": "Every sixty seconds in Africa, a minute passes. Together, we can stop this. Please spread the word. Thank you for your attention.",
+            "output": "Setiap enam puluh detik di Afrika, satu menit berlalu. Bersama-sama, kita bisa menghentikan ini. Tolong sebarkan berita ini. Terima kasih atas perhatian Anda.",
+            "llm_output": "Setiap 60 detik di Afrika, satu menit berlalu bersama-sama, kita bisa menghentikan ini.",
+            "score": 0.3903250610908716
+        },
+        {
+            "input": "If we don't take the threat of meteor strikes seriously, we'll all die.",
+            "output": "Jika kita tidak menganggap ancaman dari serangan meteor dengan serius, kita semua akan mati.",
+            "llm_output": "Jika kita tidak menganggap serius ancaman meteor, kita semua akan mati.",
+            "score": 0.38684165766345335
+        },
+        {
+            "input": "I'll leave it to Mr. Bakir to decide on a suitable punishment for this kind of irresponsibility.",
+            "output": "Saya serahkan kepada Pak Bakir untuk memutuskan hukuman yang sesuai untuk ketidakbertanggungjawaban semacam ini.",
+            "llm_output": "Aku akan menyerahkan kepada Mr Bakir untuk memutuskan hukuman yang sesuai untuk jenis tidak bertanggung jawab.",
+            "score": 0.3850322886878713
+        },
+        {
+            "input": "The book Tom wrote in Esperanto has been translated into many languages around the world.",
+            "output": "Buku yang Tom tulis dalam bahasa Esperanto telah diterjemahkan ke banyak bahasa di seluruh dunia.",
+            "llm_output": "Buku Tom dalam bahasa Esperanto diterjemahkan ke dalam banyak bahasa di seluruh dunia.",
+            "score": 0.3814156086719434
+        },
+        {
+            "input": "Tom told Mary that he was going to Boston, but he told John that he was going to Chicago.",
+            "output": "Tom memberi tahu Mary bahwa dia akan pergi ke Boston, tetapi dia memberi tahu John bahwa dia akan pergi ke Chicago.",
+            "llm_output": "Tom bilang pada Mary kalau dia akan pergi ke Boston, tapi dia bilang pada John kalau dia akan pergi ke Chicago.",
+            "score": 0.3698609382069886
+        },
+        {
+            "input": "Tom took a folded piece of paper out of his pocket and put it on the table in front of Mary.",
+            "output": "Tom mengeluarkan selembar kertas yang terlipat dari kantongnya dan meletakkannya di atas meja di depan Mary.",
+            "llm_output": "Tom mengambil selembar kertas dari sakunya dan menaruhnya di atas meja di depan Mary.",
+            "score": 0.36938384423709675
+        },
+        {
+            "input": "Since 9.11 large scale acts of terrorism have occurred all over the world.",
+            "output": "Sejak peristiwa 9/11 aksi terorisme berskala besar telah terjadi di seluruh dunia.",
+            "llm_output": "Sejak 9,11 tindakan besar terorisme telah terjadi di seluruh dunia.",
+            "score": 0.36170855168907595
+        },
+        {
+            "input": "Under a microscope, coronaviruses look like round blobs surrounded by spikes, much like the corona, or crown, surrounding the sun.",
+            "output": "Di bawah mikroskop, virus corona terlihat seperti gumpalan bulat yang dikelilingi oleh duri-duri, seperti korona, atau mahkota, yang mengelilingi matahari.",
+            "llm_output": "Di bawah mikroskop, coronavirus terlihat seperti gumpalan bulat dikelilingi oleh paku, seperti korona, atau mahkota, mengelilingi matahari.",
+            "score": 0.33743145327120677
+        },
+        {
+            "input": "It can take years for people who migrate to a country to gain an understanding of the social and cultural mores of that country.",
+            "output": "Butuh waktu bertahun-tahun bagi orang yang bermigrasi ke suatu negara untuk mendapatkan pemahaman tentang adat istiadat sosial dan budaya negara tersebut.",
+            "llm_output": "Dibutuhkan waktu bertahun-tahun bagi orang-orang yang bermigrasi ke sebuah negara untuk mendapatkan pemahaman tentang tingkat sosial dan budaya di negara itu.",
+            "score": 0.3345794609803645
+        },
+        {
+            "input": "But Dima would never wear the glasses. Suddenly, his body went limp and he collapsed to the floor.",
+            "output": "Tetapi Dima tidak pernah memakai kacamata itu. Tiba-tiba, tubuhnya lemas dan ia jatuh ke lantai.",
+            "llm_output": "Tapi Dima tidak akan pernah memakai kacamata, tiba-tiba tubuhnya lemas dan dia jatuh ke lantai.",
+            "score": 0.3290385879986622
+        },
+        {
+            "input": "Nutella is not very well known in Japan. However, in America and Europe it's a popular spread and various sized jars of Nutella may be seen lined up inside many grocery stores and supermarkets.",
+            "output": "Nutella tidak terlalu terkenal di Jepang. Namun, di Amerika dan Eropa, Nutella adalah olesan yang populer, dan berbagai macam ukuran botol Nutella dapat terlihat berjejer di banyak toko bahan makanan dan supermarket.",
+            "llm_output": "Nutella tidak begitu terkenal di Jepang, namun di Amerika dan Eropa, itu adalah botol yang populer dan berukuran banyak Nutella dapat dilihat berjajar di dalam banyak toko kelontong dan supermarket.",
+            "score": 0.32858315239769553
+        },
+        {
+            "input": "The last time that happened, Tom, was just before you started to dig the big tunnel.",
+            "output": "Terakhir kali hal itu terjadi, Tom, tepat sebelum kamu mulai menggali terowongan besar.",
+            "llm_output": "Terakhir kali itu terjadi, Tom, sebelum kau mulai menggali terowongan besar.",
+            "score": 0.32372347808478036
+        },
+        {
+            "input": "In January 2023, the U.S. government's No Fly List was leaked by a trans Swiss hacker named maia arson crimew (sic).",
+            "output": "Pada bulan Januari 2023, Daftar Larangan Terbang pemerintah AS dibocorkan oleh peretas transgender asal Swiss bernama maia arson crimew (sic).",
+            "llm_output": "Pada bulan Januari 2023, No Fly List milik pemerintah AS dibocorkan oleh seorang hacker trans Swiss bernama maia pembakaran kejahatan kejahatan (sic).",
+            "score": 0.28489318277723963
+        },
+        {
+            "input": "Everybody has a right to his own opinion. However, sometimes it's better not to tell anybody what that opinion is.",
+            "output": "Setiap orang berhak atas pendapatnya sendiri. Namun, terkadang lebih baik tidak memberi tahu siapa pun tentang pendapat itu.",
+            "llm_output": "Semua orang punya hak atas pendapatnya sendiri, tapi terkadang lebih baik tidak memberitahu siapa pun apa pendapat itu.",
+            "score": 0.24202875575621302
+        },
+        {
+            "input": "Tom bought a new kite since his old one got stuck in a tree and he couldn't get it down.",
+            "output": "Tom membeli layang-layang baru karena layang-layang lamanya tersangkut di pohon dan dia tidak bisa menurunkannya.",
+            "llm_output": "Tom membeli layang-layang baru sejak yang lama nya terjebak di pohon dan ia tidak bisa mendapatkannya turun.",
+            "score": 0.23077125078149244
+        },
+        {
+            "input": "Tom is sweeping the floors, Mary is playing chess, and John is riding his bike outside. What is Alice doing?",
+            "output": "Tom sedang menyapu lantai, Mary sedang bermain catur, dan John sedang bersepeda di luar. Apa yang sedang dilakukan Alice?",
+            "llm_output": "Tom menyapu lantai, Mary bermain catur, dan John mengendarai sepedanya di luar",
+            "score": 0.19578326569811536
+        },
+        {
+            "input": "Just like the picture on your television set, satellite images are made up of tiny squares.",
+            "output": "Seperti gambar di TV, citra satelit tersusun dari kotak-kotak kecil.",
+            "llm_output": "Sama seperti gambar di televisimu, gambar satelit terdiri dari kotak-kotak kecil.",
+            "score": 5.956269172906508e-78
+        },
+        {
+            "input": "Liberia's new electrical system will be compatible with 220 volt European systems.",
+            "output": "Sistem listrik baru Liberia akan kompatibel dengan sistem 220 volt Eropa.",
+            "llm_output": "Sistem listrik Liberia yang baru akan kompatibel dengan 220 volt sistem Eropa.",
+            "score": 5.218621439957678e-78
+        },
+        {
+            "input": "Tom likes Mary, but Mary likes John. To make matters even more interesting, John likes Alice, but Alice likes Tom.",
+            "output": "Tom menyukai Mary, tetapi Mary menyukai John. Yang lebih menarik lagi, John menyukai Alice, tetapi Alice menyukai Tom.",
+            "llm_output": "Tom menyukai Mary, tapi Mary menyukai John. tapi Alice menyukai Tom.",
+            "score": 4.110899381283748e-78
+        },
+        {
+            "input": "Certain parts of the show have been toned down to make it suitable for a family audience.",
+            "output": "Bagian-bagian tertentu pertunjukan telah dipotong agar cocok bagi pemirsa semua umur.",
+            "llm_output": "Bagian - bagian tertentu dari pertunjukan itu telah diturunkan agar cocok bagi hadirin keluarga.",
+            "score": 3.5318487635731415e-78
+        },
+        {
+            "input": "An investigation determined that extrinsic factors caused the building to collapse, rather than a flaw in its internal structure or materials.",
+            "output": "Sebuah investigasi menentukan bahwa runtuhnya bangunan tersebut disebabkan oleh faktor ekstrinsik, bukan cacat pada struktur internal atau materialnya.",
+            "llm_output": "Sebuah penyelidikan yang ditentukan bahwa faktor-faktor ekstrinsik menyebabkan bangunan runtuh, bukannya cacat dalam struktur internal atau bahan-bahan.",
+            "score": 2.881736906133446e-78
+        },
+        {
+            "input": "By studying Lojban, I am testing the Sapir-Whorf Hypothesis, linguistic relativity.",
+            "output": "Dengan mempelajari bahasa Lojban, saya menguji Hipotesis Sapir-Whorf, relativitas linguistik.",
+            "llm_output": "Dengan mempelajari Lojban, aku sedang menguji Sapir-Worf Hipotesis, relativitas linguistik.",
+            "score": 9.367929145127228e-155
+        },
+        {
+            "input": "The subject for the evening was \"Black Cats and Four Leaf Clovers: Stories about Good and Bad Luck\".",
+            "output": "Topik bahasan untuk malam itu adalah \"Kucing Hitam dan Semanggi Berdaun Empat: Kisah-kisah tentang Nasib Baik dan Nasib Buruk\".",
+            "llm_output": "Subjek malam ini adalah \"Black Cats and Four Leaf Clovers: cerita tentang Good and Bad Luck.\"",
+            "score": 4.514419846366382e-155
+        },
+        {
+            "input": "When is her birthday? - \"I have no idea. Why don't you ask her yourself?\"",
+            "output": "Ulang tahunnya kapan? \"Gak tau. Coba kamu tanya aja sama dia.\"",
+            "llm_output": "Kapan ulang tahunnya?&lt;/font&gt; &lt;font color=\"#ffff00\"&gt;\"Aku tidak tahu.&lt;/font&gt; &lt;font color=\"#ffff00\"&gt;Mengapa kau tidak bertanya sendiri padanya?\"&lt;/font&gt; &lt;font color=\"#ffff00\"&gt;Kenapa kau tidak bertanya langsung padanya?&lt;/font&gt; &lt;font color=\"#ffff00\"&gt;Aku tidak tahu.&lt;/font&gt; &lt;font color=\"#ffff00\"&gt;Kenapa kau tidak bertanya sendiri?&lt;/font&gt; &lt;font color=\"#ffff00\"&gt;- Aku tidak tahu",
+            "score": 2.0319970012632208e-155
+        },
+        {
+            "input": "I watched Doraemon a lot when I was a kid. But I had no idea he was so large!",
+            "output": "Waktu kecil saya sering nonton Doraemon. Tapi saya tidak mengira badannya sangat besar.",
+            "llm_output": "aku sering melihat Doraemon ketika aku masih kecil tapi aku tidak tahu dia begitu besar!",
+            "score": 1.4488496539373276e-231
+        }
+    ]
+}

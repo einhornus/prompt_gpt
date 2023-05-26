@@ -1,0 +1,432 @@
+{
+    "system_message_file": "6",
+    "model": "gpt-3.5-turbo",
+    "parameters": {
+        "src": "Hindi",
+        "dest": "English"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.44834831261698516,
+        0.44834831261698516,
+        0.44834831261698516,
+        0.44834831261698516,
+        0.44834831261698516,
+        0.44834831261698516,
+        0.44834831261698516,
+        0.44834831261698516,
+        0.44834831261698516,
+        0.44834831261698516
+    ],
+    "median": 0.44834831261698516,
+    "average": 0.4505772581103809,
+    "std": 0.35260221234813127,
+    "percentiles": {
+        "10": 7.991023434110626e-155,
+        "20": 3.969401589754406e-78,
+        "25": 6.013879637735028e-78,
+        "30": 0.2981839337989138,
+        "40": 0.37057398952302417,
+        "50": 0.44834831261698516,
+        "60": 0.5194191612601097,
+        "70": 0.5637426224819925,
+        "75": 0.7071067811865475,
+        "80": 0.871421681931391,
+        "90": 1.0
+    },
+    "n_tests": 48,
+    "prompt": [
+        {
+            "role": "system",
+            "content": "Please translate the user message from Hindi to English. Make the translation sound as natural as possible."
+        }
+    ],
+    "tests": [
+        {
+            "id": 6407,
+            "name": "hi_en_13",
+            "input": "ब्रिटिशों ने १७६३ में फ़्रांसीसीयों को उत्तर अमेरिका में हराया।",
+            "output": "The British defeated the French in North America in 1763.",
+            "llm_output": "The British defeated the French in North America in 1763.",
+            "score": 1.0
+        },
+        {
+            "id": 6409,
+            "name": "hi_en_15",
+            "input": "अल्जीयर्स अल्जेरिया में एक महत्त्वपूर्ण सांस्कृतिक राजधानी है।",
+            "output": "Algiers is an important cultural capital in Algeria.",
+            "llm_output": "Algiers is an important cultural capital in Algeria.",
+            "score": 1.0
+        },
+        {
+            "id": 6412,
+            "name": "hi_en_18",
+            "input": "क्या तुम मुझे बता सकते हो कि तुम्हारे देश में कितने बजे हैं?",
+            "output": "Can you tell me what time it is in your country?",
+            "llm_output": "Can you tell me what time it is in your country?",
+            "score": 1.0
+        },
+        {
+            "id": 6413,
+            "name": "hi_en_19",
+            "input": "क्या तुम मुझे बता सकती हो कि तुम्हारे देश में कितने बजे हैं?",
+            "output": "Can you tell me what time it is in your country?",
+            "llm_output": "Can you tell me what time it is in your country?",
+            "score": 1.0
+        },
+        {
+            "id": 6417,
+            "name": "hi_en_23",
+            "input": "क्या आप मुझे बता सकते हैं कि आपके देश में कितने बजे हैं?",
+            "output": "Can you tell me what time it is in your country?",
+            "llm_output": "Can you tell me what time it is in your country?",
+            "score": 1.0
+        },
+        {
+            "id": 6419,
+            "name": "hi_en_25",
+            "input": "टॉम को पता नहीं था करना क्या है तो उसने कुछ नहीं किया।",
+            "output": "Tom didn't know what to do so he didn't do anything.",
+            "llm_output": "Tom didn't know what to do, so he didn't do anything.",
+            "score": 1.0
+        },
+        {
+            "id": 6423,
+            "name": "hi_en_29",
+            "input": "टॉम अपना ज्यादातर समय मैरी की मदद करने में बिताता है।",
+            "output": "Tom spends most of his time helping Mary.",
+            "llm_output": "Tom spends most of his time helping Mary.",
+            "score": 1.0
+        },
+        {
+            "id": 6432,
+            "name": "hi_en_38",
+            "input": "टॉम ने पिछले तीन सालों में तीन किताबें लिखी हैं।",
+            "output": "Tom has written three books in the last three years.",
+            "llm_output": "Tom has written three books in the last three years.",
+            "score": 1.0
+        },
+        {
+            "id": 6405,
+            "name": "hi_en_11",
+            "input": "आखिरी बार जब मैंने टॉम को देखा तो वह समुद्र तट की ओर जा रहा था।",
+            "output": "The last time I saw Tom he was heading towards the beach.",
+            "llm_output": "The last time I saw Tom, he was heading towards the seaside.",
+            "score": 0.9036020036098448
+        },
+        {
+            "id": 6397,
+            "name": "hi_en_3",
+            "input": "हमारे माता-पिता ने हमारी देखभाल की थी और अब हमारी बारी है उनकी देखभाल करने की।",
+            "output": "Our parents took care of us and now it's our turn to take care of them.",
+            "llm_output": "\"Our parents took care of us and now it's our turn to take care of them.\"",
+            "score": 0.8852140475440834
+        },
+        {
+            "id": 6408,
+            "name": "hi_en_14",
+            "input": "मैंने टॉम को बताया उसे क्या करना चाहिए पर उसने वैसा नहीं किया।",
+            "output": "I told Tom what he should do, but he didn't do it.",
+            "llm_output": "I told Tom what he should do, but he didn't do it that way.",
+            "score": 0.8507331335123524
+        },
+        {
+            "id": 6421,
+            "name": "hi_en_27",
+            "input": "दुर्भाग्यवश, मुझे अंग्रेज़ी अच्छी तरह से समझ नहीं आती।",
+            "output": "Unfortunately, I don't understand English well.",
+            "llm_output": "Unfortunately, I don't understand English very well.",
+            "score": 0.7071067811865475
+        },
+        {
+            "id": 6429,
+            "name": "hi_en_35",
+            "input": "रीमा ने कहा कि उसका उसके बॉयफ्रेंड से झगड़ा हुआ था।",
+            "output": "Rima said she had a fight with her boyfriend.",
+            "llm_output": "Rima said that she had a fight with her boyfriend.",
+            "score": 0.7071067811865475
+        },
+        {
+            "id": 6411,
+            "name": "hi_en_17",
+            "input": "तुम्हारे लोग अफग़ानिस्तान में मुसलमानों का क़त्ल कर रहे हैं।",
+            "output": "Your people are killing Muslims in Afghanistan.",
+            "llm_output": "\"You people are killing Muslims in Afghanistan.\"",
+            "score": 0.5873949094699213
+        },
+        {
+            "id": 6406,
+            "name": "hi_en_12",
+            "input": "जिस क्षण मैं टॉम से मिला, मुझे बस इतना पता था कि हम साथ रहेंगे।",
+            "output": "The moment that I met Tom, I just knew that we'd get along.",
+            "llm_output": "The moment I met Tom, I just knew that we would be together.",
+            "score": 0.566260439529554
+        },
+        {
+            "id": 6431,
+            "name": "hi_en_37",
+            "input": "क्या आप के पास दस हजार यूरो से ज़्यादा की नकद है?",
+            "output": "Do you have cash worth more than ten thousand euros?",
+            "llm_output": "Do you have more than ten thousand euros in cash?",
+            "score": 0.5410822690539396
+        },
+        {
+            "id": 6398,
+            "name": "hi_en_4",
+            "input": "मैं हार कैसे सकता हूँ? शैतान ने जवाब दिया। \"सभी अंपायर तो यहीं नर्क में हैं।\"",
+            "output": "How can I lose? answered Satan. \"All the umpires are down here in Hell.\"",
+            "llm_output": "How can I lose? The devil replied, \"All the umpires are here in hell.\"",
+            "score": 0.537284965911771
+        },
+        {
+            "id": 6436,
+            "name": "hi_en_42",
+            "input": "टॉम ही अकेला नहीं था जो पार्टी में नशे में था।",
+            "output": "Tom wasn't the only one who was one drunk at the party.",
+            "llm_output": "Tom was not the only one who was drunk at the party.",
+            "score": 0.5311878904526515
+        },
+        {
+            "id": 6410,
+            "name": "hi_en_16",
+            "input": "जब वह नहीं कर सकते जो करना चाहते हो, तो वह करो जो कर सकते हो।",
+            "output": "When you can't do what you want, you do what you can.",
+            "llm_output": "\"When you can't do what you want to do, then do what you can do.\"",
+            "score": 0.5292031904718659
+        },
+        {
+            "id": 6437,
+            "name": "hi_en_43",
+            "input": "वे बोलते रहे, और लड़के इत्मीनान से सुनते रहे।",
+            "output": "They kept talking, and the boys comfortably kept listening.",
+            "llm_output": "\"They kept talking and the boys listened attentively.\"",
+            "score": 0.5169731539571706
+        },
+        {
+            "id": 6394,
+            "name": "hi_en_0",
+            "input": "उन्होंने उन्हें उनका जैकेट हाथ में दे दिया, फिर दरवाज़ा खोला और उन्हें चले जाने के लिए कहां।",
+            "output": "She handed him his jacket then opened the door and asked him to leave.",
+            "llm_output": "They handed them their jacket, then opened the door and asked them to leave.",
+            "score": 0.4913270548144421
+        },
+        {
+            "id": 6395,
+            "name": "hi_en_1",
+            "input": "मैंने एक लाल कार और सफ़ेद कार देखी. लाल कार सफ़ेद कार से दिखने में ज़्यादा अच्छी थी.",
+            "output": "I saw a red car and a white one. The red one was nicer looking than the white one.",
+            "llm_output": "I saw a red car and a white car. The red car looked better than the white car.",
+            "score": 0.47194589278723603
+        },
+        {
+            "id": 6425,
+            "name": "hi_en_31",
+            "input": "क़ानून ने लोगों को फ़ुटबॉल खेलने से बहुत देर तक रोका।",
+            "output": "The law kept people from playing football for a while.",
+            "llm_output": "The law has prevented people from playing football for a long time.",
+            "score": 0.46924700641055994
+        },
+        {
+            "id": 6438,
+            "name": "hi_en_44",
+            "input": "टॉम ने झाँक कर देखा, लेकिन किसी को नहीं देखा।",
+            "output": "Tom looked through the peephole, but didn't see anyone.",
+            "llm_output": "Tom looked around but didn't see anyone.",
+            "score": 0.4630777161991027
+        },
+        {
+            "id": 6401,
+            "name": "hi_en_7",
+            "input": "निम्न वाक्य पहले से ही मौजूद होने के कारण आपका वाक्य जोड़ा नहीं गया।",
+            "output": "Your sentence was not added because the following already exists.",
+            "llm_output": "\"Your sentence was not added because it was already present.\"",
+            "score": 0.43361890903486755
+        },
+        {
+            "id": 6396,
+            "name": "hi_en_2",
+            "input": "उसने उसे उसका जैकेट हाथ में दे दिया, फिर दरवाज़ा खोला और उसे चले जाने के लिए कहां।",
+            "output": "She handed him his jacket then opened the door and asked him to leave.",
+            "llm_output": "\"He handed him his jacket and then opened the door and told him to leave.\"",
+            "score": 0.4295136946366521
+        },
+        {
+            "id": 6416,
+            "name": "hi_en_22",
+            "input": "वह अपने बाल कटवाना चाहती थी, पर उसकी मम्मी राज़ी नहीं थी।",
+            "output": "She wanted to have her hair cut, but her mother wouldn't let her.",
+            "llm_output": "She wanted to get her hair cut, but her mother was not happy with it.",
+            "score": 0.4121183751323027
+        },
+        {
+            "id": 6430,
+            "name": "hi_en_36",
+            "input": "टॉम कुछ समय से विदेश जाने के बारे में सोच रहा है।",
+            "output": "Tom has been thinking about emigrating for a while now.",
+            "llm_output": "Tom has been thinking about going abroad for some time.",
+            "score": 0.4111336169005197
+        },
+        {
+            "id": 6428,
+            "name": "hi_en_34",
+            "input": "अगर कॉफ़ी ज़्यादा कड़वी है तो थोड़ा और पानी डाल लो।",
+            "output": "If the coffee is too strong, add some more water.",
+            "llm_output": "If the coffee is too bitter, then add a little more water.",
+            "score": 0.37700638045494705
+        },
+        {
+            "id": 6424,
+            "name": "hi_en_30",
+            "input": "कुछ समय के लिए, टॉम उत्प्रवास के बारे में सोच रहा है।",
+            "output": "For a while now, Tom has been thinking about emigrating.",
+            "llm_output": "For some time, Tom has been thinking about going on a trip.",
+            "score": 0.3448444257953326
+        },
+        {
+            "id": 6414,
+            "name": "hi_en_20",
+            "input": "आपको एक समय में केवल पांच पुस्तकों को ले जाने की इजाज़त है.",
+            "output": "You are allowed to check out not more than five books at a time.",
+            "llm_output": "You are only allowed to take five books at a time.",
+            "score": 0.3423820654663739
+        },
+        {
+            "id": 6420,
+            "name": "hi_en_26",
+            "input": "वह आग जला नहीं सकता था, इसलिए उसने मछली को कच्चा खाया।",
+            "output": "As he had no way of making fire, he ate the fish raw.",
+            "llm_output": "He couldn't light a fire, so he ate the fish raw.",
+            "score": 0.31727218786905187
+        },
+        {
+            "id": 6426,
+            "name": "hi_en_32",
+            "input": "आपकी सिफारिश के लिए धन्यवाद, टॉम को वह नौकरी मिल गई।",
+            "output": "Thanks to your recommendation, Tom got that job.",
+            "llm_output": "Thank you for your recommendation, Tom got the job.",
+            "score": 0.3155984539112945
+        },
+        {
+            "id": 6403,
+            "name": "hi_en_9",
+            "input": "सुबह-शाम को ठंड हो जाती है, इसलिए मैं ढंग से कपड़े पहनना चाहती हूँ।",
+            "output": "It gets cold in the mornings and evenings, so I want to take care how I dress.",
+            "llm_output": "The weather gets cold in the morning and evening, so I want to wear clothes properly.",
+            "score": 0.2962489871197604
+        },
+        {
+            "id": 6400,
+            "name": "hi_en_6",
+            "input": "टॉम कोई संकेत नहीं ले सकता। आपको वास्तव में उसे इसका जादू करना होगा।",
+            "output": "Tom can't take a hint. You really have to spell it out to him.",
+            "llm_output": "Tom cannot take any hints. You really have to work your magic on him.",
+            "score": 0.1892240568795935
+        },
+        {
+            "id": 6402,
+            "name": "hi_en_8",
+            "input": "अगर आपके पास थोड़ा समय हो, तो कृपया निम्न वाक्यों का अनुवाद करेंगे?",
+            "output": "If you have time, could you translate some sentences below, please?",
+            "llm_output": "If you have some time, could you please translate the following sentences?",
+            "score": 6.0598953153840875e-78
+        },
+        {
+            "id": 6404,
+            "name": "hi_en_10",
+            "input": "क्या आप किसी ऐसे व्यक्ति को जानते हैं जो टॉम की मदद कर सकता है?",
+            "output": "Do you know anybody who could help Tom?",
+            "llm_output": "Do you know anyone who can help Tom?",
+            "score": 5.87583260478785e-78
+        },
+        {
+            "id": 6427,
+            "name": "hi_en_33",
+            "input": "घर लौटने पर मुझसे शादी करने की उसने प्रतिज्ञा की थी।",
+            "output": "He pledged to marry me when he returned home.",
+            "llm_output": "When I return home, he had promised to marry me.",
+            "score": 4.38832006142665e-78
+        },
+        {
+            "id": 6399,
+            "name": "hi_en_5",
+            "input": "जॉन ने मेरी से पूछा कि वह दोपहर में उसके साथ बाज़ार जाना चाहती है क्या।",
+            "output": "John asked Mary whether she would like to go shopping in the afternoon.",
+            "llm_output": "John asked me if I wanted to go to the market with him in the afternoon.",
+            "score": 3.690122608639576e-78
+        },
+        {
+            "id": 6433,
+            "name": "hi_en_39",
+            "input": "टॉम एक साल सड़क पर रहा, भोजन के लिए छटपटाता रहा।",
+            "output": "Tom lived a year on the street, scrounging for food.",
+            "llm_output": "Tom lived on the streets for a year, struggling to find food.",
+            "score": 9.740506563602454e-155
+        },
+        {
+            "id": 6422,
+            "name": "hi_en_28",
+            "input": "एक फ़ुकुओका में रहती है, और बाकी निइगाता में रहते हैं।",
+            "output": "One lives in Fukuoka, and the others live in Niigata.",
+            "llm_output": "She lives in a bubble, and the rest of us live in reality.",
+            "score": 8.693790938244096e-155
+        },
+        {
+            "id": 6440,
+            "name": "hi_en_46",
+            "input": "नाव के सफ़र में कार से ज़्यादा समय लगता है.",
+            "output": "Traveling by boat takes longer than going by car.",
+            "llm_output": "It takes more time to travel by boat than by car.",
+            "score": 8.57273414893938e-155
+        },
+        {
+            "id": 6439,
+            "name": "hi_en_45",
+            "input": "लिंकन की जीवनी दुनिया भर के बच्चे पढ़ते हैं.",
+            "output": "Lincoln's biography is read by children all around the world.",
+            "llm_output": "Children all over the world read the biography of Lincoln.",
+            "score": 8.476452820020735e-155
+        },
+        {
+            "id": 6418,
+            "name": "hi_en_24",
+            "input": "अगर तुम मदद चाहते हो, तो मैं मदद करने के लिए तैयार हूँ।",
+            "output": "I'm willing to help you if you want me to.",
+            "llm_output": "If you need help, I am ready to assist you.",
+            "score": 6.858354866987037e-155
+        },
+        {
+            "id": 6434,
+            "name": "hi_en_40",
+            "input": "तुम हर काम केवल अपनी मर्ज़ी से ही नहीं कर सकते।",
+            "output": "You shall not have your own way in everything.",
+            "llm_output": "\"You cannot do everything according to your own will.\"",
+            "score": 6.5806869883189804e-155
+        },
+        {
+            "id": 6435,
+            "name": "hi_en_41",
+            "input": "हमारी हाँग काँग की ट्रिप को कैनसल कर दोगे क्या?",
+            "output": "Would you please call off our trip to Hong Kong?",
+            "llm_output": "Will you cancel our Hong Kong trip?",
+            "score": 5.707897789452821e-155
+        },
+        {
+            "id": 6441,
+            "name": "hi_en_47",
+            "input": "सर्दियों के आने से दिन छोटे होते जाते हैं।",
+            "output": "With the coming of winter, days are getting shorter.",
+            "llm_output": "As winter approaches, the days seem to get shorter.",
+            "score": 1.4875195904069663e-231
+        },
+        {
+            "id": 6415,
+            "name": "hi_en_21",
+            "input": "एक बिटकॉइन के दास करोड़ भाग हैं। एक भाग को सतोशी कहते हैं।",
+            "output": "Bitcoin is divisible by 100 million. 1 part is called satoshi.",
+            "llm_output": "One Bitcoin consists of one hundred million parts called Satoshis.",
+            "score": 1.2199981975731961e-231
+        }
+    ],
+    "history_criterion": "median"
+}

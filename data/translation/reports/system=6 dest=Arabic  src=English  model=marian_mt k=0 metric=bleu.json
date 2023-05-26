@@ -1,0 +1,333 @@
+{
+    "system_message_file": "6",
+    "model": "marian_mt",
+    "parameters": {
+        "src": "English",
+        "dest": "Arabic"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        1.2668566764632493e-78
+    ],
+    "prompt": [],
+    "median": 1.2668566764632493e-78,
+    "average": 0.12216910486403382,
+    "std": 0.21042065167559004,
+    "percentiles": {
+        "10": 1.1407695655835412e-231,
+        "20": 1.4254718027119512e-231,
+        "25": 5.003785715891702e-155,
+        "30": 5.205060716268287e-155,
+        "40": 6.152559076837892e-155,
+        "50": 1.2668566764632493e-78,
+        "60": 3.7429500772141653e-78,
+        "70": 0.1977348419934945,
+        "75": 0.23800936476253878,
+        "80": 0.26538490253230507,
+        "90": 0.4128144990350791
+    },
+    "n_tests": 50,
+    "tests": [
+        {
+            "input": "Tom forgot his shopping list and only got half of what he had intended to get when he went shopping.",
+            "output": "نسي توم قائمة التسوق الخاصة به ولم يحصل إلا على نصف ما كان ينوي الحصول عليه عندما ذهب للتسوق.",
+            "llm_output": "نسي توم قائمة التسوق الخاصة به ولم يحصل إلا على نصف ما كان ينوي الحصول عليه عندما ذهب للتسوق.",
+            "score": 1.0
+        },
+        {
+            "input": "It's not that I dislike horror movies per se. I just think many of them are poorly done.",
+            "output": "ليس الأمر أنني أكره أفلام الرعب في حد ذاتها. أنا فقط أعتقد أن الكثير منها تمَّ أداؤُها بشكل سيء.",
+            "llm_output": "ليس الأمر أنني أكره أفلام الرعب في حد ذاتها. أنا فقط أعتقد أن العديد منهم سيئون.",
+            "score": 0.6563393582823707
+        },
+        {
+            "input": "Lakhdar Benkoula is another pseudo-intellectual who writes disgusting racist articles.",
+            "output": "لخضر بن كولة مثقف زائف آخر يكتب مقالات عنصرية مقرفة.",
+            "llm_output": "الأخضر بينكولا هو مثقف زائف آخر يكتب مقالات عنصرية مثيرة للاشمئزاز.",
+            "score": 0.4617366309441026
+        },
+        {
+            "input": "The flag of the separatist group should not represent the Algerian region of Kabylie.",
+            "output": "لا ينبغي أن تمثل راية الجماعة الانفصالية منطقة القبائل الجزائرية.",
+            "llm_output": "ولا ينبغي أن يمثل علم الجماعة الانفصالية منطقة القبائل الجزائرية.",
+            "score": 0.4518010018049224
+        },
+        {
+            "input": "Lakhdar Benkoula is another pseudo-intellectual who writes articles to question the existence of the Berber language.",
+            "output": "لخضر بن كولة هو مثقف زائف آخر يكتب مقالات للتشكيك في وجود اللغة الأمازيغية.",
+            "llm_output": "الأخضر بينكولا هو آخر مثقف زائف يكتب مقالات للتشكيك في وجود اللغة البربرية.",
+            "score": 0.41907961416006645
+        },
+        {
+            "input": "I'm very sorry about what the U.S. has done in Iraq. This war has been a tragedy for everyone.",
+            "output": "أعتذر بشدة على ما قامت به الولايات المتحدة في العراق. كانت هذه الحرب مأساة للجميع.",
+            "llm_output": "أنا آسف جداً لما فعلته الولايات المتحدة في العراق. لقد كانت هذه الحرب مأساة للجميع.",
+            "score": 0.4121183751323027
+        },
+        {
+            "input": "Every Muslim is responsible for acquiring the information that they need to make them a better Muslim.",
+            "output": "كل مسلم مسؤول عن الحصول على المعرفة التي يحتاجها كي يصبح مسلما أحسن.",
+            "llm_output": "كل مسلم مسؤول عن الحصول على المعلومات التي يحتاجونها لجعلهم مسلمين أفضل.",
+            "score": 0.3989486553351905
+        },
+        {
+            "input": "There are sentences whose translation into certain languages doesn't make sense and, therefore, should be avoided.",
+            "output": "هناك جمل لا معنى لترجمتها إلى لغات معينة ، وبالتالي يجب تجنبها.",
+            "llm_output": "هناك جمل ترجمتها إلى لغات معينة لا معنى لها ، وبالتالي يجب تجنبها.",
+            "score": 0.3406227682100307
+        },
+        {
+            "input": "Carlos Menem attended the opening ceremony of the 1992 Olympics held in Barcelona, Spain.",
+            "output": "حضر كارلوس منعم حفل افتتاح الألعاب الأولمبيّة سنة 1992 في برشلونة، إسبانيا.",
+            "llm_output": "حضر كارلوس منعم حفل افتتاح دورة الألعاب الأولمبية 1992 التي عقدت في برشلونة ، إسبانيا.",
+            "score": 0.284955776032203
+        },
+        {
+            "input": "In a desperate attempt to escape, Tom hijacked a school bus but was quickly captured by the police.",
+            "output": "في محاولة يائسة للهروب، اختطف توم حافلة مدرسية لكن الشرطة سرعان ما ألقت القبض عليه.",
+            "llm_output": "في محاولة يائسة للهروب ، اختطف توم حافلة مدرسية ولكن سرعان ما استولت عليه الشرطة.",
+            "score": 0.27882410979222033
+        },
+        {
+            "input": "Ziri spoke about the hardships endured by the Palestinians in the West Bank and Gaza.",
+            "output": "تحدث زيري عن الصعوبات التي يعيشها الفلسطينيون في الضفة الغربية و غزة.",
+            "llm_output": "وتحدث زيري عن المصاعب التي يعاني منها الفلسطينيون في الضفة الغربية وغزة.",
+            "score": 0.2620251007173262
+        },
+        {
+            "input": "Good morning. Are you Mr. Mellal? \"Hi. Yes. Who's asking?\" \"My name is Skura Nani. Please tell your wife not to call my husband again.\" \"My wife?\" \"Yes, your wife, Nuja!\" \"What do you mean?\" \"My husband has been having an affair with her for four months and I'm willing to put an end to this, so please tell her not to call him again.\" \"Wait, wait, wait...\" \"This is all I've got to say. Bye.\"",
+            "output": "صباح الخير. هل أنت السيد ملال؟ \"أهلا. من السائل؟\" \"اسمي سكورة ناني. من فضلك، قل لزوجتك ألا تتصل بزوجي مجددا.\" \"زوجتي؟\" \"نعم، زوجتك نوجة!\" \"ماذا تقصدين؟\" \"زوجي لديه علاقة غير شرعية معها منذ أربعة أشهر و أريد أن أنهي هذا، إذا، من فضلك، اطلب منها ألا تتصل به مجددا.\" انتظري، انتظري، ...\" \"هذا كل ما عندي كي أقوله. الوداع.\"",
+            "llm_output": "صباح الخير. هل أنت السيد ملال؟ \"مرحبا. نعم. من يسأل؟\" \"اسمي سكورا ناني. من فضلك قل لزوجتك ألا تتصل بزوجي مرة أخرى.\" \"زوجتي؟\" \"نعم ، زوجتك ، نوجا!\" \"ماذا تعني؟\" \"زوجي كان على علاقة غرامية معها لمدة أربعة أشهر وأنا على استعداد لوضع حد لهذا ، لذا من فضلك أخبرها ألا تتصل به مرة أخرى\". \"انتظر ، انتظر\". \"هذا هو\"",
+            "score": 0.26109922600725216
+        },
+        {
+            "input": "The rainforest ecosystem is rich in biodiversity and is home to many endangered species.",
+            "output": "النظام البيئي للغابات المطرية في تنوع أحيائي ثري و يأوي الكثير من الأنواع المهددة بالانقراض.",
+            "llm_output": "النظام البيئي للغابات المطيرة غني بالتنوع البيولوجي وموطن للعديد من الأنواع المهددة بالانقراض.",
+            "score": 0.23980236847348307
+        },
+        {
+            "input": "Human rights activists accuse Israel of using barbaric methods in the occupied territories.",
+            "output": "يتّهم نشطاء حقوق الإنسان إسرائيل باتّباع طرق وحشيّة ضد المدنيّين في الأراضي المحتلّة.",
+            "llm_output": "يتهم نشطاء حقوق الإنسان إسرائيل باستخدام أساليب بربرية في الأراضي المحتلة.",
+            "score": 0.23263035362970594
+        },
+        {
+            "input": "The mangrove swamp was a popular spot for birdwatchers, as many different species of birds could be seen there.",
+            "output": "كان مستنقع المنغروف مكانا مشهورا عند مراقبي الطيور حيث كانوا يراقبون فيه العديد من أنواع الطيور.",
+            "llm_output": "كان مستنقع المنغروف مكانًا شهيرًا لمراقبي الطيور ، حيث يمكن رؤية العديد من أنواع الطيور المختلفة هناك.",
+            "score": 0.2204887282071633
+        },
+        {
+            "input": "The thick mangrove roots of the swamp provide shelter and breeding grounds for many species of fish.",
+            "output": "توفر الجذور الغليظة لأشجار المنغروف ملجأ آمنا و مكانا للتكاثر للعديد من أنواع الأسماك.",
+            "llm_output": "توفر جذور أشجار المانغروف الكثيفة في المستنقع المأوى ومناطق التكاثر للعديد من أنواع الأسماك.",
+            "score": 0.18798317647335086
+        },
+        {
+            "input": "Kabyle is a Berber dialect spoken in the mountainous region of Kabylie, in northeastern Algeria.",
+            "output": "القبائلية هي لهجة أمازيغية يتكلمونها في منطقة القبائل الجبلية شمال شرق الجزائر.",
+            "llm_output": "القبائل هي لهجة بربرية يتحدث بها في منطقة القبائل الجبلية، في شمال شرق الجزائر.",
+            "score": 5.343126373842921e-78
+        },
+        {
+            "input": "The president's car arrived at the headquarters of the national intelligence service.",
+            "output": "وصلت سيارة الرئيس إلى المركز الوطني للمخابرات.",
+            "llm_output": "ووصلت سيارة الرئيس إلى مقر جهاز المخابرات الوطني.",
+            "score": 4.797597231912944e-78
+        },
+        {
+            "input": "Mangrove swamps are a unique ecosystem that exist in areas where the land meets the sea.",
+            "output": "مستنقعات المنغروف نظام بيئي فريد بقع في المناطق التي يلتقي فيها البر بالبحر.",
+            "llm_output": "مستنقعات المانغروف هي نظام بيئي فريد من نوعه موجود في المناطق التي تلتقي فيها الأرض بالبحر.",
+            "score": 4.672877677722847e-78
+        },
+        {
+            "input": "The mangrove swamps of the Sundarbans in Bangladesh are home to the endangered Bengal tiger.",
+            "output": "مستنقعات المنغروف في منطقة سوندابان في بنغلاداش موطن لببر البنغال المهدد بالانقراض.",
+            "llm_output": "تعد مستنقعات المنغروف في سونداربانس في بنغلاديش موطنا للببر البنغالي المهدد بالانقراض.",
+            "score": 4.1735993043546123e-78
+        },
+        {
+            "input": "Ziri hates talking to elderly people because he never knows what to talk about with them.",
+            "output": "زيري يكره الحديث مع العجزة لأنه لا يعرف عن ماذا يتحدث معهم.",
+            "llm_output": "يكره زيري التحدث إلى كبار السن لأنه لا يعرف أبدًا ما يتحدث عنه معهم.",
+            "score": 3.4558505924538693e-78
+        },
+        {
+            "input": "The unique ecosystem of the mangrove swamp supports a wide range of biodiversity.",
+            "output": "يأوي النظام البيئي الفريد لمستنقعات المنغروف تنوعا أحيائيا واسعا.",
+            "llm_output": "النظام البيئي الفريد لمستنقع المانغروف يدعم مجموعة واسعة من التنوع البيولوجي.",
+            "score": 3.4077295621678842e-78
+        },
+        {
+            "input": "The mangrove trees in the swamp are adapted to living in salty water, which is why they are able to survive in coastal areas.",
+            "output": "أشجار المنغروف مكيفة للعيش في المياه المالحة، لذا فهي تستطيع العيش في المناطق الساحلية.",
+            "llm_output": "يتم تكييف أشجار المانغروف في المستنقع للعيش في المياه المالحة ، وهذا هو السبب في أنها قادرة على البقاء على قيد الحياة في المناطق الساحلية.",
+            "score": 3.0825728073849316e-78
+        },
+        {
+            "input": "The dense vegetation of the mangrove swamp provided excellent cover for small animals trying to evade predators.",
+            "output": "كان الغطاء النباتي الكثيف لمستنقعات المنغروف يوفر ملاذ آمنا للحيوانات الصغيرة التي تفر من المفترسين.",
+            "llm_output": "وتوفر النباتات الكثيفة في مستنقعات المانغروف غطاء ممتازا للحيوانات الصغيرة التي تحاول التهرب من الحيوانات المفترسة.",
+            "score": 2.697887185123482e-78
+        },
+        {
+            "input": "Berber is divided into many dialects, including Kabyle, Shawi, Riffian, and Tuareg.",
+            "output": "تنقسم اللغة الأمازيغية إلى العديد من اللهجات بما فيها القبائلية و الشاوية و الريفية و التارقية.",
+            "llm_output": "ينقسم البربر إلى العديد من اللهجات، بما في ذلك القبائل والشاوي والرفي والطوارق.",
+            "score": 2.5337133529264986e-78
+        },
+        {
+            "input": "Mangrove swamps can help to protect coastal areas from storm surges and other natural disasters.",
+            "output": "تساهم مستنقعات المنغروف في حماية السواحل من العواصف و الكوارث الطبيعية.",
+            "llm_output": "يمكن أن تساعد مستنقعات المانغروف في حماية المناطق الساحلية من العواصف والكوارث الطبيعية الأخرى.",
+            "score": 7.55874475436192e-155
+        },
+        {
+            "input": "The roots of the mangrove trees in the swamp help to prevent erosion of the coastline.",
+            "output": "تساهم جذور أشجار المنغروف في منع حدوث انجراف التربة.",
+            "llm_output": "تساعد جذور أشجار المانغروف في المستنقع على منع تآكل الساحل.",
+            "score": 6.8489908526642754e-155
+        },
+        {
+            "input": "The mangrove swamp was home to many different species of mangrove trees, each with its own unique characteristics.",
+            "output": "كان مستنقع المنغروف موطنا للعديد من أنواع أشجار المنغروف و كل نوع كانت له ميزاته الخاصة.",
+            "llm_output": "كان مستنقع المانغروف موطنًا للعديد من الأنواع المختلفة من أشجار المانغروف ، ولكل منها خصائصه الفريدة.",
+            "score": 6.7393716283177006e-155
+        },
+        {
+            "input": "We are living through some really sad moments because our land has suffered a very serious loss. And it will take a long time before it returns to its former glory.",
+            "output": "نحن نعيشُ بعض اللحظاتِ الحزينةِ حقًا لأن بِلادَنا عانت من خسارةٍ جسيمة. وسوف يستغرق وقتا طويلا قبل أن تعود إلى مجدها السابق.",
+            "llm_output": "نحن نعيش بعض اللحظات الحزينة حقا لأن أرضنا عانت من خسارة خطيرة للغاية. وسيستغرق الأمر وقتًا طويلاً قبل أن يعود إلى مجده السابق.",
+            "score": 6.4781755519555515e-155
+        },
+        {
+            "input": "What Lakhdar Benkoula writes about history, anthropology, and linguistics is total nonsense.",
+            "output": "ما يكتبه بن كولة عن التاريخ، الأنثروبولوجيا و اللسانيات هو هراء تام.",
+            "llm_output": "ما يكتبه الأخضر بينكولا عن التاريخ والأنثروبولوجيا واللغويات هو محض هراء.",
+            "score": 6.2890526274212064e-155
+        },
+        {
+            "input": "The kids, one by one, came running out of the woods, saying that they had seen a bear.",
+            "output": "كان الأطفال يهربون واحدا واحدا من الغابة و يقولون أنّهم رأوا دبّا.",
+            "llm_output": "خرج الأطفال واحداً تلو الآخر من الغابة قائلين إنهم رأوا دباً.",
+            "score": 5.94781875096292e-155
+        },
+        {
+            "input": "Some wetlands, such as mangrove swamps, provide important coastal protection against storms and erosion.",
+            "output": "بعض المناطق الرطبة مثل مستنقعات المنغروف تحمي السواحل من العواصف و الانجراف.",
+            "llm_output": "توفر بعض الأراضي الرطبة ، مثل مستنقعات المانغروف ، حماية ساحلية مهمة ضد العواصف والتآكل.",
+            "score": 5.859491021246916e-155
+        },
+        {
+            "input": "When I told my father about Islam, he thought that I was being brainwashed by my Muslim girlfriend.",
+            "output": "حين حدثت أبي عن الإسلام، قال لي أن صديقتي المسلمة هي من كانت تغسل دماغي.",
+            "llm_output": "عندما أخبرت والدي عن الإسلام ، اعتقد أنني كنت أغسل دماغي من قبل صديقتي المسلمة.",
+            "score": 5.859491021246916e-155
+        },
+        {
+            "input": "The world doesn't have to stop because of Ramadan. Muslims work their normal jobs while they're fasting.",
+            "output": "ليس على العالم التوقف في شهر رمضان. المسلمون يقومون بأعمالهم المعتادة أثناء صيامهم.",
+            "llm_output": "العالم لا يجب أن يتوقف بسبب رمضان. المسلمون يعملون وظائفهم العادية بينما هم صائمون.",
+            "score": 5.3448396730677054e-155
+        },
+        {
+            "input": "The Crusades killed and displaced even more Jews from what had by then become known as Palestine, at the same time as Crusaders killed many European Jews.",
+            "output": "ما قتلته الحروب الصّليبيّة من اليهود و شرّدوه منهم في ما كان سيُعرف في ما بعد بفلسطين أكبر من ما قتلوه الصّليبيّون من اليهود في أوروبا.",
+            "llm_output": "قتلت الحروب الصليبية وشردت المزيد من اليهود مما أصبح يعرف آنذاك باسم فلسطين، في نفس الوقت الذي قتل فيه الصليبيون العديد من اليهود الأوروبيين.",
+            "score": 5.26976866755109e-155
+        },
+        {
+            "input": "The mangrove swamp provided a tranquil and peaceful environment for kayaking and other water sports.",
+            "output": "مستنقع المنغروف مكان هادئ و مناسب لممارسة رياضة الكاياك و الرياضات المائية الأخرى.",
+            "llm_output": "يوفر مستنقع المانغروف بيئة هادئة وسلمية للتجديف بالكاياك والرياضات المائية الأخرى.",
+            "score": 5.054075496608413e-155
+        },
+        {
+            "input": "You don't need to be Pakistani to look Muslim. In fact, there are even Muslims with blue eyes and red curly hair.",
+            "output": "لست مضطرّا أن تكون باكستانيّا كي تبدو مسلما. في الحقيقة، هناك حتّى مسلمون ذي عيون زرقاء و شعر أحمر مجعّد.",
+            "llm_output": "لست بحاجة إلى أن تكون باكستانيًا لتبدو مسلمًا. في الواقع ، هناك حتى المسلمين ذوي العيون الزرقاء والشعر المجعد الأحمر.",
+            "score": 5.052063697963686e-155
+        },
+        {
+            "input": "Many amphibian species will breed in specific breeding grounds, such as shallow ponds or marshes.",
+            "output": "العديد من أنواع البرمائيات لديها اماكن تكاثر خاصة كالأحواض و المستنقعات.",
+            "llm_output": "سوف تتكاثر العديد من الأنواع البرمائية في مناطق تكاثر محددة ، مثل البرك الضحلة أو الأهوار.",
+            "score": 4.987693055201041e-155
+        },
+        {
+            "input": "The mangrove swamp was teeming with life, from crabs and shrimp to snakes and lizards.",
+            "output": "كان مستنقع المنغروف ذاك يعج بالحياة، حيث كانت تعيش فيه حيوانات مختلفة، من بينها السلطعونات و الجمبري و الثعابين و السحليات.",
+            "llm_output": "كان مستنقع المانغروف يعج بالحياة ، من السرطانات والروبيان إلى الثعابين والسحالي.",
+            "score": 3.108496427339887e-155
+        },
+        {
+            "input": "The mangrove swamps of Florida are a popular destination for tourists and nature enthusiasts.",
+            "output": "مستنقعات المنغروف لولاية فلوريدا وهجة مشهورة للسياح و محبي الطبيعة.",
+            "llm_output": "تعد مستنقعات المانغروف في فلوريدا وجهة شهيرة للسياح وهواة الطبيعة.",
+            "score": 1.4488496539373276e-231
+        },
+        {
+            "input": "Algeria is home to some of the most endangered animals in the Mediterranean region.",
+            "output": "تأوي الجزائر بعضا من الحيوانات الأكثر تهديدا في المنطقة المتوسطية.",
+            "llm_output": "الجزائر هي موطن لبعض من أكثر الحيوانات المهددة بالانقراض في منطقة البحر الأبيض المتوسط.",
+            "score": 1.331960397810445e-231
+        },
+        {
+            "input": "The mangrove swamps along the coast provide critical habitats for many species of animals and plants.",
+            "output": "مستنقعات المنغروف موطن أساسي للكثير من الحيوانات و النباتات.",
+            "llm_output": "توفر مستنقعات المانغروف على طول الساحل موائل حرجة للعديد من أنواع الحيوانات والنباتات.",
+            "score": 1.2627076138080564e-231
+        },
+        {
+            "input": "In some parts of the world, mangrove swamps are threatened by deforestation and development.",
+            "output": "في بعض المناطق من العالم، مستنقعات المنغروف مهددة بالزوال بسبب قطع الأشجار و مشاريع التنمية.",
+            "llm_output": "وفي بعض أنحاء العالم، تتعرض مستنقعات المانغروف للتهديد من جراء إزالة الغابات والتنمية.",
+            "score": 1.16338362758752e-231
+        },
+        {
+            "input": "You know that you don't need to be smart to be the president of a racist organization.",
+            "output": "أنت تعلم أنّك لا تحتاج لتكون ذكيّا كي تصبح رئيس منظّمة عنصريّة.",
+            "llm_output": "أنت تعرف أنك لست بحاجة إلى أن تكون ذكيًا لتكون رئيسًا لمنظمة عنصرية.",
+            "score": 1.1409851298103347e-231
+        },
+        {
+            "input": "You know that you don't need to be smart to be the president of a racist organization.",
+            "output": "تعلم أنّك لست مضطرّا كي تكون ذكيّا كي تصبح رئيس تنظيم عنصري.",
+            "llm_output": "أنت تعرف أنك لست بحاجة إلى أن تكون ذكيًا لتكون رئيسًا لمنظمة عنصرية.",
+            "score": 1.1409851298103347e-231
+        },
+        {
+            "input": "In some parts of the world, mangrove swamps are used to cultivate oysters and other shellfish.",
+            "output": "في بعض المناطق من العالم، تستعمل مستنقعات المنغروف لتربية المحار و الحيوانات البحرية الأخرى.",
+            "llm_output": "وفي بعض أنحاء العالم، تستخدم مستنقعات المانغروف لزراعة المحار والمحار الأخرى.",
+            "score": 1.1388294875424009e-231
+        },
+        {
+            "input": "The intricate network of channels and waterways in the mangrove swamp provided a unique and fascinating ecosystem to explore.",
+            "output": "كانت شبكة القنوات و المجاري المائية لمستنقع المنغروف تمثل نظاما بيئيا مذهلا للاستكشاف.",
+            "llm_output": "توفر الشبكة المعقدة من القنوات والممرات المائية في مستنقعات المانغروف نظامًا بيئيًا فريدًا ورائعًا لاستكشافه.",
+            "score": 1.1008876702055895e-231
+        },
+        {
+            "input": "Mangrove swamps can also act as natural filters, helping to clean the water of pollutants.",
+            "output": "تلعب مستنقعات المنغروف أيضا دور مصافي تطهر الماء من المواد الملوثة.",
+            "llm_output": "يمكن أن تعمل مستنقعات المانغروف أيضًا كمرشحات طبيعية ، مما يساعد على تنظيف المياه من الملوثات.",
+            "score": 1.0832677820940877e-231
+        },
+        {
+            "input": "The separatists would accuse you of insulting them for simply talking to them, and they would threaten to kill you if you dared contradict them.",
+            "output": "سيتّهمك الانفصاليّون بشتمهم بمجرّد الحديث معهم و سيهدّدون بقتلك إن تجرّأت على تكذيبك لهم.",
+            "llm_output": "سيتهمك الانفصاليون بإهانتهم لمجرد التحدث إليهم ، وسيهددون بقتلك إذا تجرأت على متناقضتهم.",
+            "score": 1.0565078215140205e-231
+        },
+        {
+            "input": "The mangrove swamps of the Amazon rainforest are home to a diverse array of wildlife, including jaguars and anacondas.",
+            "output": "تأوي مستنقعات المنغروف في الغابات المطرية للأمازون تنوعا أحيائيا كبيرا و من الحيوانات التي تعيش هناك، يوجد اليغور و ثعبان الأناكوندا.",
+            "llm_output": "تعد مستنقعات المانغروف في غابات الأمازون المطيرة موطنًا لمجموعة متنوعة من الحياة البرية ، بما في ذلك الجاغوار والأناكوندا.",
+            "score": 1.0336774173282523e-231
+        }
+    ]
+}

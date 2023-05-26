@@ -1,0 +1,848 @@
+{
+    "system_message_file": "6",
+    "model": "gpt-3.5-turbo",
+    "parameters": {
+        "src": "English",
+        "dest": "Portuguese"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.4338295953509549,
+        0.4338295953509549,
+        0.4338295953509549,
+        0.4338295953509549,
+        0.4338295953509549,
+        0.4338295953509549,
+        0.4338295953509549,
+        0.4338295953509549,
+        0.4338295953509549,
+        0.4338295953509549
+    ],
+    "median": 0.4338295953509549,
+    "average": 0.4502505432931172,
+    "std": 0.13529075157617715,
+    "percentiles": {
+        "10": 0.2800117744609675,
+        "20": 0.3332816466926357,
+        "25": 0.35638711913386256,
+        "30": 0.3667091904714423,
+        "40": 0.39059132096033,
+        "50": 0.4338295953509549,
+        "60": 0.47594441360259265,
+        "70": 0.5175912754605685,
+        "75": 0.5291235814285533,
+        "80": 0.5642588089794291,
+        "90": 0.6406795592747938
+    },
+    "n_tests": 100,
+    "prompt": [
+        {
+            "role": "system",
+            "content": "Please translate the user message from English to Portuguese. Make the translation sound as natural as possible."
+        }
+    ],
+    "tests": [
+        {
+            "id": 3653,
+            "name": "en_pt_45",
+            "input": "The blood supply of the lower extremity comes from the external iliac artery, a branch of the common iliac, which passes obliquely downward and outward along the border of the psoas muscle to Poupart’s ligament, where it enters the thigh and becomes the femoral artery.",
+            "output": "O fornecimento de sangue à extremidade inferior provém da artéria ilíaca externa, um ramo da ilíaca comum, que passa obliquamente para baixo e para fora ao longo da borda do músculo psoas até ao ligamento de Poupart, onde entra na coxa e se torna a artéria femoral.",
+            "llm_output": "O suprimento sanguíneo da extremidade inferior vem da artéria ilíaca externa, um ramo da ilíaca comum, que passa obliquamente para baixo e para fora ao longo da borda do músculo psoas até o ligamento de Poupart, onde entra na coxa e se torna a artéria femoral.",
+            "score": 0.7883872012120476
+        },
+        {
+            "id": 3613,
+            "name": "en_pt_5",
+            "input": "It is evident from what has been said, that before 500 A.D. literary chronology, even in the Sanskrit period, is almost entirely relative, priority or posteriority being determined by such criteria as development of style or thought, the mention of earlier authors by name, stray political references as to the Greeks or to some well-known dynasty, and allusions to astronomical facts which cannot have been known before a certain epoch.",
+            "output": "É evidente, a partir do que foi dito, que antes de 500 d.C., a cronologia literária, mesmo no período sânscrito, é quase inteiramente relativa, a prioridade ou posterioridade sendo determinada por critérios como o desenvolvimento do estilo ou pensamento, a menção de autores anteriores pelo nome, referências políticas dispersas, como as aos gregos ou a alguma dinastia bem conhecida, e alusões a factos astronómicos que não podem ter sido conhecidos antes de uma certa época.",
+            "llm_output": "É evidente a partir do que foi dito que antes de 500 A.C., a cronologia literária, mesmo no período sânscrito, é quase inteiramente relativa, com a prioridade ou posterioridade sendo determinada por critérios como o desenvolvimento de estilo ou pensamento, a menção de autores anteriores pelo nome, referências políticas isoladas aos gregos ou a alguma dinastia bem conhecida, e alusões a fatos astronômicos que não poderiam ter sido conhecidos antes de uma certa época.",
+            "score": 0.7655873423986513
+        },
+        {
+            "id": 3615,
+            "name": "en_pt_7",
+            "input": "If adequate and well-controlled studies in pregnant women have failed to demonstrate a risk to the fetus in the first trimester of pregnancy (and there is no evidence of a risk in later trimesters), the labeling shall state: \"Studies in pregnant women have not shown that (name of drug) increases the risk of fetal abnormalities if administered during the first (second, third, or all) trimester(s) of pregnancy.",
+            "output": "Se estudos adequados e bem controlados em mulheres grávidas não tiverem demonstrado um risco para o feto no primeiro trimestre de gravidez (e não houver evidência de risco em trimestres posteriores), a rotulagem deverá declarar: \"Estudos em mulheres grávidas não demonstraram que (nome do medicamento) aumenta o risco de anomalias fetais se administrado durante o primeiro (segundo, terceiro ou todos os) trimestre(s) de gravidez.",
+            "llm_output": "Se estudos adequados e bem controlados em mulheres grávidas não demonstraram risco para o feto no primeiro trimestre de gravidez (e não há evidência de risco nos trimestres posteriores), a rotulagem deve indicar: \"Estudos em mulheres grávidas não mostraram que (nome do medicamento) aumenta o risco de anomalias fetais se administrado durante o primeiro (segundo, terceiro ou todos) trimestre(s) de gravidez\".",
+            "score": 0.7580619906050917
+        },
+        {
+            "id": 3658,
+            "name": "en_pt_50",
+            "input": "In a presidential order read out on state television, Kiir announced the addition of ministries of Veterans Affairs; Trade, Industry and Investment; Labor; Tourism and Wildlife Conservation; Livestock and Fisheries; and Humanitarian Affairs and Disaster Management.",
+            "output": "Numa ordem presidencial lida na televisão estatal, Kiir anunciou a adição de ministérios dos Assuntos dos Veteranos; Comércio, Indústria e Investimento; Trabalho; Turismo e Conservação da Vida Selvagem; Pecuária e Pescas; e Assuntos Humanitários e Gestão de Catástrofes.",
+            "llm_output": "Numa ordem presidencial lida na televisão estatal, Kiir anunciou a adição dos ministérios de Assuntos de Veteranos; Comércio, Indústria e Investimento; Trabalho; Turismo e Conservação da Vida Selvagem; Pecuária e Pesca; e Assuntos Humanitários e Gestão de Desastres.",
+            "score": 0.7426911089691813
+        },
+        {
+            "id": 3681,
+            "name": "en_pt_73",
+            "input": "The life of Sam Bolger reads like a romance, tinged with all the vicissitudes of life, livened by the carefree days when gold was more plentiful in Cripple Creek than to-day, shadowed by more sorrows than falls to the lot of the average man.",
+            "output": "A vida de Sam Bolger parece um romance, tingido com todas as vicissitudes da vida, animado pelos dias despreocupados quando o ouro era mais abundante em Cripple Creek do que atualmente, ensombrado por mais tristezas do que as que recaem sobre o homem comum.",
+            "llm_output": "A vida de Sam Bolger parece um romance, tingido com todas as vicissitudes da vida, animado pelos dias despreocupados em que o ouro era mais abundante em Cripple Creek do que hoje, sombreado por mais tristezas do que cai na sorte do homem comum.",
+            "score": 0.7101888765406308
+        },
+        {
+            "id": 3665,
+            "name": "en_pt_57",
+            "input": "Indeed, if we are strictly logical on the point of the euphony of language, the Italian dialect, which we deem so soft and liquid, sounds quite harsh, I’m told, in comparison with the labial syllables that the Polynesian islanders use in the South Seas.",
+            "output": "De facto, se formos estritamente lógicos quanto à questão da eufonia dos idiomas, o dialeto italiano, que consideramos tão suave e líquido, soa bastante áspero, segundo me dizem, em comparação com as sílabas labiais que os insulares polinésios usam nos Mares do Sul.",
+            "llm_output": "De fato, se formos estritamente lógicos em relação à eufonia da linguagem, o dialeto italiano, que consideramos tão suave e líquido, soa bastante áspero, segundo me dizem, em comparação com as sílabas labiais que os habitantes das ilhas polinésias usam nos mares do Sul.",
+            "score": 0.6616249144865718
+        },
+        {
+            "id": 3617,
+            "name": "en_pt_9",
+            "input": "Since the introduction of the process of gas-singeing in finishing textiles, many improvements have been made in the construction of the machines for this purpose as well as in that of the burners, for the object of the latter must be to effect the singeing not only evenly and thoroughly, but at the same time with a complete combustion of the gas and avoidance of sooty deposits upon the cloth.",
+            "output": "Desde a introdução do processo de chamuscagem a gás no acabamento de têxteis, foram feitos muitos melhoramentos na construção das máquinas para este fim, bem como na dos queimadores, pois o objetivo destes últimos deve ser o de efetuar a chamuscagem não só de forma uniforme e completa, mas ao mesmo tempo com uma combustão completa do gás e evitando depósitos de fuligem no tecido.",
+            "llm_output": "Desde a introdução do processo de queima de gás na finalização de têxteis, muitas melhorias foram feitas na construção das máquinas para esse fim, bem como na dos queimadores, pois o objetivo destes últimos deve ser efetuar a queima não apenas de forma uniforme e completa, mas ao mesmo tempo com uma combustão completa do gás e evitando depósitos de fuligem no tecido.",
+            "score": 0.6594574516374909
+        },
+        {
+            "id": 3660,
+            "name": "en_pt_52",
+            "input": "Generation Z, the cohort of Americans born roughly between 1990 and the early 2010s, are the most diverse generation in U.S. history, and right now, they do not see that reflected in the makeup of political leadership, at either the local or federal level.",
+            "output": "A geração Z, a coorte de americanos nascidos aproximadamente entre 1990 e o início da década de 2010, é a geração mais diversa da história dos Estados Unidos e, neste momento, eles não veem isso refletido na composição da liderança política, seja a nível local ou federal.",
+            "llm_output": "A Geração Z, a coorte de americanos nascidos aproximadamente entre 1990 e o início dos anos 2010, é a geração mais diversa da história dos Estados Unidos e, atualmente, não vê essa diversidade refletida na composição da liderança política, seja em nível local ou federal.",
+            "score": 0.6569503265208247
+        },
+        {
+            "id": 3652,
+            "name": "en_pt_44",
+            "input": "Greek Cypriot President Nicos Anastasiades and Turkish Cypriot leader Mustafa Akinci agreed to meet in Geneva to discuss the state of the negotiations and to exchange views on how to move forward in the interest of reaching a comprehensive settlement as soon as possible.",
+            "output": "O presidente cipriota grego, Nicos Anastasiades, e o líder cipriota turco, Mustafa Akinci, concordaram em reunir-se em Genebra para debater o estado das negociações e trocar opiniões sobre como avançar no sentido de alcançar uma solução abrangente o mais rapidamente possível.",
+            "llm_output": "O presidente cipriota grego Nicos Anastasiades e o líder cipriota turco Mustafa Akinci concordaram em se encontrar em Genebra para discutir o estado das negociações e trocar opiniões sobre como avançar no interesse de alcançar um acordo abrangente o mais rápido possível.",
+            "score": 0.6525854454591505
+        },
+        {
+            "id": 3651,
+            "name": "en_pt_43",
+            "input": "At an event Thursday in Tesla's design studio in Los Angeles, Musk unveiled a new battery swapping system that automatically replaces a discharged battery with a fully charged one in about the same time it takes to fill up a 50-liter gas tank, and for about the same price.",
+            "output": "Num evento realizado na quinta-feira no estúdio de design da Tesla, em Los Angeles, Musk anunciou um novo sistema de mudança de bateria que substitui automaticamente uma bateria descarregada por uma totalmente carregada, aproximadamente no mesmo tempo necessário para encher um depósito de gasolina de 50 litros, e por aproximadamente o mesmo preço.",
+            "llm_output": "Em um evento na quinta-feira no estúdio de design da Tesla em Los Angeles, Musk revelou um novo sistema de troca de bateria que substitui automaticamente uma bateria descarregada por uma totalmente carregada em cerca do mesmo tempo que leva para encher um tanque de gasolina de 50 litros, e por aproximadamente o mesmo preço.",
+            "score": 0.6518062906638046
+        },
+        {
+            "id": 3641,
+            "name": "en_pt_33",
+            "input": "With high-precision performances from both players, the eleventh match of the FIDE World Chess Championship 2023 ended in a draw. Now (April 24): Nepo 6, Ding Liren 5. Three more draws will be enough for the Russian to reach the tally (7.5) which will give him the title of World Champion",
+            "output": "Com performances de alta precisão de ambos os jogadores, terminou empatada a décima primeira partida do Campeonato Mundial de Xadrez FIDE 2023. Agora (24 de abril): Nepo 6, Ding Liren 5. Ao russo, serão suficientes mais três empates para aingir a contagem (7,5) que lhe dará o título de Campeão Mundial.",
+            "llm_output": "Com performances de alta precisão de ambos os jogadores, a décima primeira partida do Campeonato Mundial de Xadrez da FIDE 2023 terminou em empate. Agora (24 de abril): Nepo 6, Ding Liren 5. Três empates a mais serão suficientes para o russo alcançar a pontuação (7,5) que lhe dará o título de Campeão Mundial.",
+            "score": 0.6394432557871258
+        },
+        {
+            "id": 3649,
+            "name": "en_pt_41",
+            "input": "Such a reply can only be given by a sociology which has arrived at scientific conclusions on the life-history of different types of society, and has risen above the empirical and merely interrogative point of view which, for want of a better, I have adopted in this address.",
+            "output": "Uma tal resposta só pode ser dada por uma sociologia que tenha chegado a conclusões científicas sobre a história vivencial de diferentes tipos de sociedade e que tenha ultrapassado o ponto de vista empírico e meramente interrogativo que, por não dispor de melhor, eu adotei neste discurso.",
+            "llm_output": "Uma resposta desse tipo só pode ser dada por uma sociologia que tenha chegado a conclusões científicas sobre a história de vida de diferentes tipos de sociedade e tenha superado o ponto de vista empírico e meramente interrogativo que, por falta de algo melhor, adotei nesta abordagem.",
+            "score": 0.6263837387101506
+        },
+        {
+            "id": 3647,
+            "name": "en_pt_39",
+            "input": "Sparta was deprived of her share in the Amphictyonic privileges; the two votes in the council possessed by the Phocians were transferred to the kings of Macedonia; and Philip was to share with the Thebans and Thessalians the honour of presiding at the Pythian games (B.C. 346).",
+            "output": "Esparta foi privada da sua parte nos privilégios anfictiónicos; os dois votos no conselho detidos pelos Fócios foram transferidos para os reis da Macedónia; e Filipe iria partilhar com os Tebanos e Tessálios a honra de presidir nos Jogos Píticos (346 a.C.).",
+            "llm_output": "Esparta foi privada de sua parte nos privilégios anfictiônicos; os dois votos no conselho possuídos pelos Fócios foram transferidos para os reis da Macedônia; e Filipe iria compartilhar com os tebanos e tessálios a honra de presidir os jogos píticos (346 a.C.).",
+            "score": 0.6197446603009347
+        },
+        {
+            "id": 3636,
+            "name": "en_pt_28",
+            "input": "Nevertheless, timber, with lath and plaster, and thatch for the roofs, constituted the chief materials in the dwellings of the English from an early period till near the close of the fourteenth century and beginning of the fifteenth, when bricks began to be used in the better sort of houses.",
+            "output": "No entanto, a madeira, com ripas e estuque, e o colmo para os telhados, constituíam os principais materiais das habitações dos ingleses desde um período remoto até perto do final do século XIV e início do século XV, quando começaram a ser utilizados tijolos nas casas de melhor qualidade.",
+            "llm_output": "No entanto, madeira, com ripas e gesso, e palha para os telhados, constituíam os principais materiais nas habitações dos ingleses desde um período inicial até perto do final do século XIV e início do século XV, quando tijolos começaram a ser usados nas casas de melhor qualidade.",
+            "score": 0.613876215776199
+        },
+        {
+            "id": 3611,
+            "name": "en_pt_3",
+            "input": "Both Decadence and Æstheticism, as intellectual movements, have fallen into the nadir of oblivion, and the dust lies heavy upon them, but they left a little leaven to lighten the heavy inertness of correct and academic literature; and now Symbolism, a greater movement than either, is in the ascendant, giving another turn to the wheel, and to all who think deeply about such matters it seems as though Symbolist literature is to be the literature of the future.",
+            "output": "Tanto a Decadência como o Esteticismo, enquanto movimentos intelectuais, caíram no nadir do esquecimento, e a poeira repousa pesadamente sobre eles, mas eles deixaram um pouco de fermento para aliviar a pesada inércia da literatura correta e acadêmica; e agora o Simbolismo, um movimento maior do que ambos, está no ascendente, dando outro giro à roda, e a todos os que pensam profundamente sobre tais assuntos parece que a literatura simbolista está para ser a literatura do futuro.",
+            "llm_output": "Tanto o Decadentismo quanto o Esteticismo, como movimentos intelectuais, caíram no nadir do esquecimento, e a poeira pesa sobre eles, mas deixaram um pouco de fermento para aliviar a pesada inércia da literatura correta e acadêmica; e agora o Simbolismo, um movimento maior do que qualquer um dos dois, está em ascensão, dando outra volta na roda, e para todos que pensam profundamente sobre tais assuntos, parece que a literatura simbolista será a literatura do futuro.",
+            "score": 0.6094997544106511
+        },
+        {
+            "id": 3664,
+            "name": "en_pt_56",
+            "input": "The ADB is warning that unless the world weans itself from dependence on fossil fuels, South Asia could lose an equivalent 1.8 percent of its annual gross domestic product by 2050, progressively increasing to 8.8 percent by the turn of the next century.",
+            "output": "O BAD adverte que, a menos que o mundo se liberte da dependência dos combustíveis fósseis, a Ásia Meridional poderá perder o equivalente a 1,8 por cento do seu produto interno bruto anual até 2050, aumentando progressivamente para 8,8 por cento até ao virar do próximo século.",
+            "llm_output": "O ADB está alertando que, a menos que o mundo se livre da dependência dos combustíveis fósseis, a Ásia do Sul poderá perder o equivalente a 1,8% do seu produto interno bruto anual até 2050, aumentando progressivamente para 8,8% até o final do próximo século.",
+            "score": 0.6000577176616491
+        },
+        {
+            "id": 3627,
+            "name": "en_pt_19",
+            "input": "Jaffa’s experiments and observations on the fruitarians and nutarians of California “showed in every case (two women and three children) that though the diet had a low protein and energy value, the subjects were apparently in excellent health and had been so during the five to eight years they had been living in this manner.”",
+            "output": "As experiências e observações de Jaffa sobre os frugívoros e nucívoros da Califórnia \"mostraram em todos os casos (duas mulheres e três crianças) que, embora a dieta tivesse um baixo valor proteico e energético, os indivíduos estavam aparentemente em excelente saúde e tinham estado assim durante os cinco a oito anos em que tinham vivido desta forma.\"",
+            "llm_output": "\"As experiências e observações de Jaffa sobre os frutarianos e nozarianos da Califórnia \"demonstraram em todos os casos (duas mulheres e três crianças) que, embora a dieta tivesse um baixo valor de proteína e energia, os sujeitos aparentemente estavam em excelente saúde e assim tinham sido durante os cinco a oito anos em que viveram dessa maneira.\"",
+            "score": 0.5878143324315204
+        },
+        {
+            "id": 3691,
+            "name": "en_pt_83",
+            "input": "In 1960, linguists predicted that compulsory education, mass media, foreign immigration and the “mobility of restless Americans” would ultimately standardize English, and in only a few generations, regional accents would disappear.",
+            "output": "Em 1960, os linguistas previram que a escola obrigatória, os meios de comunicação em massa, a imigração estrangeira e a \"mobilidade dos irrequietos americanos\" acabariam por uniformizar o inglês e que, em apenas algumas gerações, os sotaques regionais desapareceriam.",
+            "llm_output": "Em 1960, os linguistas previram que a educação obrigatória, a mídia em massa, a imigração estrangeira e a \"mobilidade dos americanos inquietos\" acabariam por padronizar o inglês e, em apenas algumas gerações, os sotaques regionais desapareceriam.",
+            "score": 0.5869231887482952
+        },
+        {
+            "id": 3657,
+            "name": "en_pt_49",
+            "input": "The effects may be less dramatic in the short term than the destruction that could be wrought by nuclear explosions, but over the next three to four decades, climate change could cause irremediable harm to the habitats upon which human societies depend for survival.",
+            "output": "Os efeitos podem ser menos dramáticos a curto prazo do que a destruição que poderia ser provocada por explosões nucleares, mas nas próximas três a quatro décadas, as alterações climáticas poderão causar danos irremediáveis aos habitats de que as sociedades humanas dependem para sobreviver.",
+            "llm_output": "Os efeitos podem ser menos dramáticos a curto prazo do que a destruição que poderia ser causada por explosões nucleares, mas ao longo dos próximos três a quatro décadas, as mudanças climáticas podem causar danos irreparáveis aos habitats dos quais as sociedades humanas dependem para sobreviver.",
+            "score": 0.5842148803157107
+        },
+        {
+            "id": 3643,
+            "name": "en_pt_35",
+            "input": "In simple, truthful words she reproached him for having neglected her to the verge of incivility the evening before, but there was no trace of bitterness or resentment in the accusation, and she gave Hermon little time for apology, but quickly gladdened him with words of forgiveness.",
+            "output": "Com palavras simples e verdadeiras, ela censurou-o por a ter negligenciado quase até ao ponto da incivilidade na noite anterior, mas não havia qualquer vestígio de amargura ou ressentimento na acusação, e ela deu a Hermon pouco tempo para se desculpar, mas rapidamente o alegrou com palavras de perdão.",
+            "llm_output": "Com palavras simples e verdadeiras, ela o repreendeu por tê-la negligenciado até o limite da incivilidade na noite anterior, mas não havia traço de amargura ou ressentimento na acusação, e ela deu pouco tempo para que Hermon se desculpasse, mas rapidamente o alegrou com palavras de perdão.",
+            "score": 0.564606697668812
+        },
+        {
+            "id": 3624,
+            "name": "en_pt_16",
+            "input": "My love is like a spring among the hills whose brimming waters may not be confined, but pour one torrent through the ways that wind down to a garden; there the rose distills its nectar; there a tall, white lily fills night with anointing of two lovers, blind, dumb, deaf, of body, spirit, and of mind from breathless blending of far-sundered wills.",
+            "output": "O meu amor é como uma nascente entre as colinas cujas águas transbordantes não podem ser confinadas, mas vertem uma torrente através dos caminhos que serpenteiam até um jardim; lá a rosa destila o seu néctar; lá um lírio alto e branco enche a noite com a unção de dois amantes, cegos, mudos, surdos, de corpo, espírito e de mente, pela mescla arrebatadora de vontades desencontradas.",
+            "llm_output": "Meu amor é como uma fonte entre as colinas cujas águas transbordantes não podem ser contidas, mas despejam um torrente pelos caminhos que descem até um jardim; lá a rosa destila seu néctar; lá um lírio branco e alto enche a noite com a unção de dois amantes, cegos, mudos, surdos, de corpo, espírito e mente, da mistura sem fôlego de vontades distantes.",
+            "score": 0.5641718368070834
+        },
+        {
+            "id": 3668,
+            "name": "en_pt_60",
+            "input": "The COVID-19 global pandemic is impacting most people around the world, but it is having a disproportionately negative effect on migrants, their children and families according to a report by the Organization for Economic Co-operation and Development.",
+            "output": "A pandemia global de COVID-19 está a afetar a maior parte das pessoas ao redor do mundo, mas está a ter um efeito desproporcionadamente negativo nos migrantes, seus filhos e famílias, segundo um relatório da Organização para a Cooperação e Desenvolvimento Económico.",
+            "llm_output": "A pandemia global de COVID-19 está afetando a maioria das pessoas ao redor do mundo, mas está tendo um efeito negativo desproporcional sobre os migrantes, seus filhos e famílias, de acordo com um relatório da Organização para a Cooperação e Desenvolvimento Econômico.",
+            "score": 0.5556106413195552
+        },
+        {
+            "id": 3677,
+            "name": "en_pt_69",
+            "input": "In the second Vase-room of the British Museum the painting on one of these vases represents two persons sitting on a couch, upon which is a cushion of rich material, while for the comfort of the sitters there is a footstool, probably of ivory.",
+            "output": "Na segunda sala de vasos do Museu Britânico, a pintura num destes vasos representa duas pessoas sentadas num sofá, sobre o qual se encontra uma almofada de material rico, enquanto para o conforto dos sentados existe um escabelo, provavelmente de marfim.",
+            "llm_output": "Na segunda sala de vasos do Museu Britânico, a pintura em um desses vasos representa duas pessoas sentadas em um sofá, sobre o qual há uma almofada de material rico, enquanto para o conforto dos assentos há um apoio para os pés, provavelmente de marfim.",
+            "score": 0.5525118442877954
+        },
+        {
+            "id": 3639,
+            "name": "en_pt_31",
+            "input": "European Portuguese, Portuguese of Portugal, Lusitanian Portuguese, or Continental Portuguese is the designation given to the original language spoken in Portugal and by Portuguese immigrants scattered around the world, encompassing its regional dialects, vocabulary, grammar, and spelling.",
+            "output": "O português europeu, português de Portugal, português lusitano, ou português continental é a designação dada ao original linguístico da língua portuguesa falada em Portugal e pelos emigrantes portugueses espalhados pelo mundo, englobando os seus dialectos regionais, vocabulário, gramática e ortografia.",
+            "llm_output": "Português Europeu, Português de Portugal, Português Lusitano ou Português Continental é a designação dada à língua original falada em Portugal e por imigrantes portugueses espalhados pelo mundo, abrangendo seus dialetos regionais, vocabulário, gramática e ortografia.",
+            "score": 0.5452286881835781
+        },
+        {
+            "id": 3703,
+            "name": "en_pt_95",
+            "input": "Although he remained wealthy for most of his life, Jefferson was deeply in debt when he died, in part because income from farming was unreliable and also because Jefferson was a big spender who lived beyond his means.",
+            "output": "Embora ele tivesse permanecido rico durante a maior parte da sua vida, Jefferson estava profundamente endividado quando morreu, em parte porque os rendimentos da agricultura não eram estáveis e também porque Jefferson era um grande esbanjador que vivia além dos seus recursos.",
+            "llm_output": "Embora tenha permanecido rico durante a maior parte de sua vida, Jefferson estava profundamente endividado quando morreu, em parte porque a renda proveniente da agricultura era pouco confiável e também porque Jefferson era um grande gastador que vivia além de seus meios.",
+            "score": 0.5300477710016684
+        },
+        {
+            "id": 3700,
+            "name": "en_pt_92",
+            "input": "U.S. astronaut John Glenn first orbited the Earth 50 years ago on February 20, 1962, and when he returned, an adoring public greeted him, along with a burgeoning U.S. space program that propelled men to the Moon in 1969.",
+            "output": "O astronauta americano John Glenn orbitou a Terra pela primeira vez há 50 anos, a 20 de fevereiro de 1962, e quando regressou, foi recebido por um público adorador, juntamente com um programa espacial americano em expansão que impulsionou o homem para a Lua em 1969.",
+            "llm_output": "O astronauta americano John Glenn orbitou a Terra pela primeira vez há 50 anos, em 20 de fevereiro de 1962, e quando ele retornou, um público adorador o recebeu, juntamente com um crescente programa espacial americano que levou homens à Lua em 1969.",
+            "score": 0.5288155182375149
+        },
+        {
+            "id": 3622,
+            "name": "en_pt_14",
+            "input": "The translucent and shining waters of the calm sea covered fragments of old Roman villas, which were interlaced by sea-weed, and received diamond tints from the chequering of the sun-beams; the blue and pellucid element was such as Galatea might have skimmed in her car of mother of pearl; or Cleopatra, more fitly than the Nile, have chosen as the path of her magic ship.",
+            "output": "As águas translúcidas e brilhantes do mar calmo cobriam fragmentos de velhas moradias romanas que eram entrelaçadas por algas marinhas e recebiam tons diamantinos do enxadrezar dos feixes de sol; o elemento azul e pelúcido era tal como pelo qual Galateia poderia ter deslizado no seu carro de madrepérola; ou Cleópatra, mais apropriadamente do que o Nilo, poderia ter escolhido como rota do seu navio mágico.",
+            "llm_output": "As translúcidas e brilhantes águas do mar calmo cobriam fragmentos de antigas vilas romanas, que eram entrelaçadas por algas marinhas e recebiam tons de diamante do xadrez dos raios de sol; o elemento azul e pélucido era tal como Galatea poderia ter esquiado em seu carro de madrepérola; ou Cleópatra, mais apropriadamente do que o Nilo, ter escolhido como o caminho de seu navio mágico.",
+            "score": 0.5275518199289457
+        },
+        {
+            "id": 3667,
+            "name": "en_pt_59",
+            "input": "By his new conquest the Channel Isles were included in Normandy, and oddly enough it was thus they became attached to the English crown, for when the Norman dukes, as kings of England, lost all their other French possessions, they retained the islands.",
+            "output": "Com a nova conquista, as Ilhas do Canal foram incluídas na Normandia e estranhamente foi assim que elas ficaram vinculadas à coroa inglesa, pois quando os duques normandos, enquanto reis de Inglaterra, perderam todas as outras posses francesas, eles retiveram as ilhas.",
+            "llm_output": "Com sua nova conquista, as Ilhas do Canal foram incluídas na Normandia e, curiosamente, foi assim que elas se tornaram ligadas à coroa inglesa, pois quando os duques normandos, como reis da Inglaterra, perderam todas as suas outras possessões francesas, eles mantiveram as ilhas.",
+            "score": 0.5221885882298593
+        },
+        {
+            "id": 3672,
+            "name": "en_pt_64",
+            "input": "Each underwent a ten-minute microsurgery barely 24 hours earlier, in temporary field hospitals where medical teams worked with assembly-line efficiency: making tiny slits in eyeballs, delicately removing cataracts, and inserting artificial lenses.",
+            "output": "Cada um foi submetido a uma microcirurgia de dez minutos pouco mais de 24 horas atrás, em hospitais de campanha temporários onde as equipas médicas trabalharam com uma eficiência de linha de montagem: fazendo pequenos cortes nos globos oculares, removendo delicadamente as cataratas e inserindo lentes artificiais.",
+            "llm_output": "Cada um passou por uma microcirurgia de dez minutos há menos de 24 horas, em hospitais de campanha temporários onde as equipes médicas trabalharam com eficiência de linha de produção: fazendo pequenas incisões nos globos oculares, removendo delicadamente as cataratas e inserindo lentes artificiais.",
+            "score": 0.5219071111266027
+        },
+        {
+            "id": 3699,
+            "name": "en_pt_91",
+            "input": "A pure sea-breeze pervades the whole surrounding country, the evenness of temperature producing a very genial and happy influence in pulmonic diseases, more than all the drugs compounded by any pharmaceutist in the world.",
+            "output": "Uma brisa marítima pura permeia toda a região circundante, a uniformidade da temperatura produzindo uma influência muito agradável e feliz nas doenças pulmonares, mais do que todos os medicamentos preparados por qualquer farmacêutico no mundo.",
+            "llm_output": "Uma brisa marinha pura permeia todo o país ao redor, a uniformidade de temperatura produzindo uma influência muito agradável e feliz em doenças pulmonares, mais do que todos os medicamentos compostos por qualquer farmacêutico no mundo.",
+            "score": 0.5183499255444525
+        },
+        {
+            "id": 3689,
+            "name": "en_pt_81",
+            "input": "The U.N. high commissioner for human rights has issued a warning about the misuse of surveillance technology in the wake of reports spyware was used to hack smartphones of human rights activists, business executives and journalists.",
+            "output": "O alto-comissário das Nações Unidas para os direitos humanos emitiu um aviso sobre o uso indevido da tecnologia de espionagem após relatos de que spyware tinha sido utilizado para infiltrar os telemóveis de ativistas de direitos humanos, executivos de empresas e jornalistas.",
+            "llm_output": "O alto comissário das Nações Unidas para os Direitos Humanos emitiu um alerta sobre o uso indevido da tecnologia de vigilância após relatos de que um software espião foi usado para hackear smartphones de ativistas de direitos humanos, executivos de negócios e jornalistas.",
+            "score": 0.5172661397103325
+        },
+        {
+            "id": 3685,
+            "name": "en_pt_77",
+            "input": "In Sandton Square, a shopping space dominated by a huge statue of Nelson Mandela, an oinking, tail-wagging pig and a wide-eyed plastic soldier beating a drum compete for children’s attention as they race into a toy store in Johannesburg.",
+            "output": "Na praça Sandton, um espaço comercial dominado por uma enorme estátua de Nelson Mandela, um porquinho que grunhe e abana a cauda e um soldadinho de plástico com olhos grandes a rufar um tambor competem pela atenção das crianças que entram a correr numa loja de brinquedos em Joanesburgo.",
+            "llm_output": "Na Praça Sandton, um espaço comercial dominado por uma enorme estátua de Nelson Mandela, um porco que rosna e abana o rabo e um soldado de plástico de olhos arregalados batendo um tambor competem pela atenção das crianças enquanto elas correm para uma loja de brinquedos em Joanesburgo.",
+            "score": 0.5150575292506694
+        },
+        {
+            "id": 3679,
+            "name": "en_pt_71",
+            "input": "At a televised press conference Thursday, government authorities attributed the spike to an influx of returnees from South Africa and also a laxity in observing preventive measures imposed in May during the first wave of the coronavirus cases.",
+            "output": "Numa conferência de imprensa televisiva na quinta-feira, as autoridades governamentais atribuíram o aumento a um afluxo de pessoas retornadas da África do Sul e também a um laxismo na observação das medidas preventivas impostas em maio durante a primeira vaga de casos de coronavírus.",
+            "llm_output": "Em uma coletiva de imprensa televisionada na quinta-feira, autoridades governamentais atribuíram o aumento a um influxo de retornados da África do Sul e também a uma falta de observância das medidas preventivas impostas em maio durante a primeira onda de casos de coronavírus.",
+            "score": 0.5146280353824421
+        },
+        {
+            "id": 3628,
+            "name": "en_pt_20",
+            "input": "She hadn’t forgotten the fun she had playing on the beach in Florida, and while this beach was different—it didn’t have any of the pretty shells or funny little crawdads she had found on the Florida beach—still it had lovely white sand and dainty little waves and was quite the nicest place for play that Mary Jane had seen.",
+            "output": "Ela não se tinha esquecido da diversão que tinha tido a brincar na praia na Flórida e, embora esta praia fosse diferente—não tinha nenhuma das conchas bonitas ou dos pequenos lagostins engraçados que ela tinha encontrado na praia da Flórida—ainda assim tinha areia branca maravilhosa e pequenas ondas graciosas e era o lugar mais agradável para brincar que a Mary Jane já tinha visto.",
+            "llm_output": "Ela não tinha esquecido a diversão que teve brincando na praia na Flórida, e embora esta praia fosse diferente - não tinha nenhuma das conchas bonitas ou pequenos caranguejos engraçados que ela tinha encontrado na praia da Flórida - ainda tinha uma areia branca adorável e ondas delicadas e era o lugar mais agradável para brincar que Mary Jane já tinha visto.",
+            "score": 0.5143221689776822
+        },
+        {
+            "id": 3644,
+            "name": "en_pt_36",
+            "input": "Researchers at the University of British Columbia in Vancouver think they might have discovered a formula for a pill that effectively delivers a full dose of insulin to a patient’s liver—where it is needed to regulate blood sugar levels—without dissipating uselessly in the stomach.",
+            "output": "Pesquisadores da Universidade da Colúmbia Britânica, em Vancôver, acham que podem ter descoberto a fórmula para um comprimido que administra eficazmente uma dose completa de insulina no fígado do paciente—onde esta é necessária para regular os níveis de açúcar no sangue—sem se dissipar inutilmente no estômago.",
+            "llm_output": "Pesquisadores da Universidade da Colúmbia Britânica, em Vancouver, acreditam ter descoberto uma fórmula para um comprimido que entrega efetivamente uma dose completa de insulina ao fígado do paciente - onde é necessário para regular os níveis de açúcar no sangue - sem se dissipar inutilmente no estômago.",
+            "score": 0.49526399082177924
+        },
+        {
+            "id": 3706,
+            "name": "en_pt_98",
+            "input": "Despite being ranked a not-so-lofty 116 in the FIFA World Ranking Table, Vietnamese fans at any big soccer match can attest to high enthusiasm when it comes to supporting their country in international events.",
+            "output": "Apesar de estarem posicionados num não tão elevado 116º lugar na Tabela de Classificações Mundiais da FIFA, os adeptos vietnamitas em qualquer grande jogo de futebol podem atestar um grande entusiasmo quando se trata de apoiar o seu país em eventos internacionais.",
+            "llm_output": "Apesar de estar classificado em uma posição não tão alta, em 116º lugar na Tabela de Classificação Mundial da FIFA, os fãs vietnamitas em qualquer grande jogo de futebol podem atestar o alto entusiasmo quando se trata de apoiar seu país em eventos internacionais.",
+            "score": 0.49337697931215174
+        },
+        {
+            "id": 3707,
+            "name": "en_pt_99",
+            "input": "An American company began offering brown-toned slippers last year, and last month, Britain's oldest ballet apparel supplier began offering shoes made to better match the skin color of nonwhite dancers.",
+            "output": "No ano passado, uma empresa americana começou a disponibilizar sapatilhas de balé em tons de castanho e, no mês passado, o fornecedor mais antigo da Grã-Bretanha de artigos de balé começou a disponibilizar sapatos concebidos para combinar melhor com a cor da pele de bailarinas não-caucasianas.",
+            "llm_output": "Uma empresa americana começou a oferecer chinelos em tons de marrom no ano passado e, no mês passado, o fornecedor mais antigo de roupas de balé da Grã-Bretanha começou a oferecer sapatos feitos para combinar melhor com a cor da pele de dançarinos não brancos.",
+            "score": 0.4865485739407589
+        },
+        {
+            "id": 3675,
+            "name": "en_pt_67",
+            "input": "Born and bred on Poland's soil, son of a French father and a Polish mother, Frédéric Chopin (1809-1849) combined within himself two natures, each complementing the other, both uniting to form a personality not understood by every casual observer.",
+            "output": "Nascido e criado em solo polaco, filho de pai francês e mãe polaca, Frédéric Chopin (1809-1849) combinava em si duas naturezas, cada uma complementando a outra, ambas unindo-se para formar uma personalidade não compreendida por todos os observadores casuais.",
+            "llm_output": "Nascido e criado no solo da Polônia, filho de um pai francês e uma mãe polonesa, Frédéric Chopin (1809-1849) combinou em si duas naturezas, cada uma complementando a outra, ambas se unindo para formar uma personalidade não compreendida por todo observador casual.",
+            "score": 0.484624872285585
+        },
+        {
+            "id": 3690,
+            "name": "en_pt_82",
+            "input": "While the Duke of Alba in the Netherlands ruled with the axe of the executioner, Cervantes, in Spain, wrote his Don Quixote, and Lope de Vega, who himself held a post connected with the Inquisition, produced his admirable comedies.",
+            "output": "Enquanto o duque de Alba, nos Países Baixos, governava com um machado de carrasco, Cervantes, em Espanha, escrevia o seu Dom Quixote, e Lope de Vega, que ocupava ele próprio um cargo ligado à Inquisição, produzia as suas admiráveis comédias.",
+            "llm_output": "Enquanto o Duque de Alba governava nos Países Baixos com o machado do executor, Cervantes, na Espanha, escrevia seu Dom Quixote, e Lope de Vega, que ele próprio ocupava um cargo ligado à Inquisição, produzia suas admiráveis comédias.",
+            "score": 0.4794009886155993
+        },
+        {
+            "id": 3678,
+            "name": "en_pt_70",
+            "input": "The study based on UCLA research found that obese children—those with a Body Mass Index (BMI) in the 95th percentile or above—are nearly two times more likely to have three or more physical or mental conditions than kids with a healthy weight.",
+            "output": "O estudo baseado em pesquisa da UCLA constatou que as crianças obesas—aquelas com um Índice de Massa Corporal (IMC) no percentil 95 ou acima—têm uma probabilidade quase duas vezes superior de ter três ou mais problemas físicos ou mentais do que as crianças com um peso saudável.",
+            "llm_output": "O estudo baseado em pesquisas da UCLA descobriu que crianças obesas - aquelas com um Índice de Massa Corporal (IMC) no percentil 95 ou acima - têm quase duas vezes mais chances de ter três ou mais condições físicas ou mentais do que crianças com peso saudável.",
+            "score": 0.4783556908462364
+        },
+        {
+            "id": 3674,
+            "name": "en_pt_66",
+            "input": "This element, considered to be radioactive and classified as a metal, is artificially produced by bombarding atoms of americium-243—an isotope of the element Americium (Am)—with ions of a rare isotope calcium-48 using a device called a cyclotron.",
+            "output": "Este elemento, considerado radioativo e classificado como metal, é produzido artificialmente através do bombardeamento de átomos de amerício-243—um isótopo do elemento amerício (Am)—com iões de um isótopo raro, o cálcio-48, utilizando um aparelho chamado ciclotrão.",
+            "llm_output": "Este elemento, considerado radioativo e classificado como metal, é produzido artificialmente bombardeando átomos de amerício-243 - um isótopo do elemento Amerício (Am) - com íons de um raro isótopo de cálcio-48 usando um dispositivo chamado ciclotron.",
+            "score": 0.4743368954401635
+        },
+        {
+            "id": 3693,
+            "name": "en_pt_85",
+            "input": "Last August, astronomers, using the Hubble Space Telescope to observe Betelgeuse, found evidence that the star was ejecting so much material into space that it formed a dust cloud, which blocked all light coming from its surface.",
+            "output": "Em agosto passado, os astrónomos, usando o Telescópio Espacial Hubble para observar Betelgeuse, encontraram indícios de que a estrela estava a ejetar tanto material para o espaço que se tinha formado uma nuvem de poeira, a qual bloqueava toda a luz proveniente da superfície do astro.",
+            "llm_output": "Em agosto passado, astrônomos, usando o Telescópio Espacial Hubble para observar Betelgeuse, encontraram evidências de que a estrela estava ejetando tanto material para o espaço que formou uma nuvem de poeira, que bloqueou toda a luz proveniente de sua superfície.",
+            "score": 0.4715471051222561
+        },
+        {
+            "id": 3648,
+            "name": "en_pt_40",
+            "input": "And as concerns my Herdegen, I must confess that when he had well drunk his spirits were higher, his mind clearer, and his song more glad; and this is not so save in those dragon-slayers who have been blessed with a fine temper and a strong brain inherited from their parents.",
+            "output": "E no que diz respeito ao meu Herdegen, devo confessar que, depois de ele ter bebido bem, o seu ânimo ficava mais elevado, a sua mente mais clara e a sua canção mais alegre; e isto não é assim exceto naqueles exterminadores de dragões que foram abençoados com um bom temperamento e um cérebro forte herdados dos seus pais.",
+            "llm_output": "E no que diz respeito ao meu Herdegen, devo confessar que quando ele bebia bem, seu espírito ficava mais elevado, sua mente mais clara e sua canção mais alegre; e isso não é diferente dos matadores de dragões que foram abençoados com um temperamento fino e um cérebro forte herdado de seus pais.",
+            "score": 0.47132174810833116
+        },
+        {
+            "id": 3686,
+            "name": "en_pt_78",
+            "input": "Anthropologist and journalist Akbar Ahmed, a former Pakistani ambassador to Great Britain, says such interfaith meetings need to take place not only at the level of heads of state but also among religious leaders at the community level.",
+            "output": "O antropólogo e jornalista Akbar Ahmed, antigo embaixador paquistanês na Grã-Bretanha, afirma que estas conferências inter-religiosas devem ter lugar não só ao nível de chefes de Estado, mas também entre líderes religiosos a nível comunitário.",
+            "llm_output": "O antropólogo e jornalista Akbar Ahmed, ex-embaixador do Paquistão na Grã-Bretanha, afirma que tais reuniões inter-religiosas precisam acontecer não apenas no nível de chefes de estado, mas também entre líderes religiosos no nível da comunidade.",
+            "score": 0.46786617631832317
+        },
+        {
+            "id": 3692,
+            "name": "en_pt_84",
+            "input": "The first scientific study to look at the role of cigarette smoke in the development of Alzheimer’s disease finds it may trigger or worsen the condition in older people who are at risk for this most common form of senile dementia.",
+            "output": "O primeiro estudo científico a analisar o papel do fumo dos cigarros no aparecimento da doença de Alzheimer constata que este pode desencadear ou agravar a patologia em pessoas mais velhas que estão em risco de contrair esta forma mais comum de demência senil.",
+            "llm_output": "O primeiro estudo científico a examinar o papel da fumaça do cigarro no desenvolvimento da doença de Alzheimer descobriu que ela pode desencadear ou piorar a condição em pessoas mais velhas que estão em risco para esta forma mais comum de demência senil.",
+            "score": 0.46717297916018813
+        },
+        {
+            "id": 3650,
+            "name": "en_pt_42",
+            "input": "Industrial neighborhoods that included residential shacks and stables, belching smokestacks and a huge gas-storage tank, the city’s most opulent brothel, and a muddy lane called “Louse Alley” — as in the bloodsucking insect — rose just across the Capitol’s reflecting pool.",
+            "output": "Bairros industriais que incluíam barracos residenciais e estábulos, chaminés fumarentas de fábricas e um enorme tanque de armazenamento de gasolina, o bordel mais opulento da cidade e uma faixa lamacenta chamada o \"Beco do Piolho\"—em referência ao inseto sugador de sangue—ergueram-se do outro lado da piscina refletiva do Capitólio.",
+            "llm_output": "Bairros industriais que incluíam barracos residenciais e estábulos, chaminés expelindo fumaça e um enorme tanque de armazenamento de gás, o bordel mais opulento da cidade e uma rua lamacenta chamada \"Louse Alley\" - como o inseto sugador de sangue - surgiram logo do outro lado do espelho d'água do Capitólio.",
+            "score": 0.466733613917021
+        },
+        {
+            "id": 3663,
+            "name": "en_pt_55",
+            "input": "It's a quiet scene compared to Ellis Island's heyday between 1892 and 1924, during which 12 million immigrants passed through the facility's ornate, red-brick buildings, usually with little more than a satchel tied with rope and their loved ones in tow.",
+            "output": "É um ambiente calmo comparado com o apogeu da ilha Ellis entre 1892 e 1924, durante o qual 12 milhões de imigrantes passaram pelos edifícios de tijolo vermelho ornamentados da instalação, normalmente com pouco mais do que uma mochila atada com corda e os entes amados a acompanhar.",
+            "llm_output": "É uma cena tranquila em comparação com o auge da Ilha Ellis entre 1892 e 1924, durante o qual 12 milhões de imigrantes passaram pelos prédios ornamentados de tijolos vermelhos da instalação, geralmente com pouco mais do que uma bolsa amarrada com corda e seus entes queridos seguindo junto.",
+            "score": 0.4664729228845432
+        },
+        {
+            "id": 3625,
+            "name": "en_pt_17",
+            "input": "Nearly one half of the north side of this street was occupied by the churchyard and church; the remaining portion, as well as the opposite side of the way, being composed of small low, two-story cottages with thatched roofs (and most of them having little projecting dormer-windows), a couple of public-houses, and a small grocery establishment.",
+            "output": "Quase metade do lado norte desta rua era ocupada pelo adro e igreja; a parte restante, bem como o lado oposto da via, sendo composta por pequenas e baixas cabanas de dois andares com telhados de colmo (e a maior parte delas tendo pequenas lucarnas salientes), um par de tascas e uma pequena mercearia.",
+            "llm_output": "Quase metade do lado norte desta rua era ocupada pelo cemitério e pela igreja; a porção restante, assim como o lado oposto da rua, era composta por pequenas casas de dois andares com telhados de palha (e a maioria delas com pequenas janelas salientes), um par de bares e uma pequena mercearia.",
+            "score": 0.46620331053964104
+        },
+        {
+            "id": 3704,
+            "name": "en_pt_96",
+            "input": "Chinese New Year in New York is about more than fireworks, dragon parades and red good luck bunting: there's also the erhu, the pipa and other traditional Chinese instruments that remain unfamiliar to many Americans.",
+            "output": "O Ano Novo Chinês em Nova Iorque é muito mais do que o fogo-de-artifício, os desfiles de dragões e as bandeirinhas vermelhas de boa sorte: há também o erhu, a pipa e outros instrumentos tradicionais chineses que ainda não são familiares a muitos americanos.",
+            "llm_output": "O Ano Novo Chinês em Nova York é mais do que fogos de artifício, desfiles de dragões e faixas vermelhas de boa sorte: também há o erhu, a pipa e outros instrumentos tradicionais chineses que permanecem desconhecidos para muitos americanos.",
+            "score": 0.46282847170806474
+        },
+        {
+            "id": 3655,
+            "name": "en_pt_47",
+            "input": "Tomorrow (04.30), we will have tiebreakers – four 25-minute games with 10 seconds of added time per move for each player, followed, if necessary, by \"blitzes\" until the decision – to meet the new World Chess Champion. The 14-game match ended today at a 7-7 point tie.",
+            "output": "Amanhã (30.04), teremos desempate – quatro partidas de 25 minutos com 10 segundos de acréscimo por lance para cada jogador, seguidas, se necessário, por \"blitzes\" até a decisão – para se conhecer o novo Campeão Mundial de Xadrez. O match de 14 partidas chegou hoje ao empate de 7 a 7 pontos.",
+            "llm_output": "Amanhã (04.30), teremos desempates - quatro jogos de 25 minutos com 10 segundos de tempo adicional por jogada para cada jogador, seguidos, se necessário, por \"blitzes\" até a decisão - para conhecer o novo Campeão Mundial de Xadrez. A partida de 14 jogos terminou hoje empatada em 7-7 pontos.",
+            "score": 0.4388936955046631
+        },
+        {
+            "id": 3630,
+            "name": "en_pt_22",
+            "input": "Ding Liren is the new World Chess Champion. In the tiebreaker, the first three games ended in a draw, and the fourth, with Ding leading the black pieces in a Spanish opening, was sensationally won by the Chinese Dragon, who thus overcame the Russian Bear, Ian Nepomniachtchi. The top of the chess universe has a new face.",
+            "output": "Ding Liren é o novo Campeão Mundial de Xadrez. No desempate, as três primeiras partidas terminaram empatadas, e a quarta, com Ding conduzindo as peças negras numa abertura espanhola, foi ganha sensacionalmente pelo Dragão Chinês, que superou assim o Urso Russo, Ian Nepomniachtchi. Tem nova face o topo do universo do xadrez.",
+            "llm_output": "Ding Liren é o novo Campeão Mundial de Xadrez. No desempate, os três primeiros jogos terminaram em empate, e o quarto, com Ding liderando as peças pretas em uma abertura espanhola, foi sensacionalmente vencido pelo Dragão Chinês, que assim superou o Urso Russo, Ian Nepomniachtchi. O topo do universo do xadrez tem um novo rosto.",
+            "score": 0.4287654951972467
+        },
+        {
+            "id": 3609,
+            "name": "en_pt_1",
+            "input": "As the expeditions against the Pannonians and the Germans were, as it were, a repetition of the Raetian campaign on a more extended scale, so the leaders, who were put at their head with the title of imperial legates, were the same—once more the two princes of the imperial house, Tiberius, who, in the place of Agrippa, took up the command in Illyricum, and Drusus, who went to the Rhine, both now no longer inexperienced youths, but men in the prime of their years, and well fitted to take in hand severe work.",
+            "output": "Tal como as expedições contra os Panónios e os Germanos eram, por assim dizer, uma repetição da campanha rética a uma escala mais alargada, também os líderes, que foram colocados no comando com o título de legados imperiais, eram os mesmos—mais uma vez os dois príncipes da casa imperial, Tibério, que, em lugar de Agripa, assumiu o comando no Ilírico, e Druso, que foi para o Reno, ambos já não sendo rapazes inexperientes, mas sim homens na flor da idade e bem preparados para levar a cabo trabalhos severos.",
+            "llm_output": "Como as expedições contra os Pannonians e os Germans foram, por assim dizer, uma repetição da campanha Raetian em uma escala mais ampla, os líderes, que foram colocados à frente com o título de legados imperiais, eram os mesmos - mais uma vez os dois príncipes da casa imperial, Tiberius, que, no lugar de Agrippa, assumiu o comando na Ilíria, e Drusus, que foi para o Reno, ambos agora não mais jovens inexperientes, mas homens no auge de suas vidas e bem preparados para assumir trabalhos severos.",
+            "score": 0.42713888101275876
+        },
+        {
+            "id": 3683,
+            "name": "en_pt_75",
+            "input": "When the vast Central plains of the United States darken with thunderhead clouds, and rain and hailstones begin to pelt the ground, everyone and everything takes cover, except the pilots of the armor-plated T-28 Storm Penetrator airplane.",
+            "output": "Quando as vastas planícies centrais dos Estados Unidos escurecem com cúmulos-nimbo de trovoada, e a chuva e as pedras de granizo começam a fustigar o solo, tudo e todos procuram abrigo, exceto os pilotos do avião Penetrador de Tempestades T-28 blindado.",
+            "llm_output": "Quando as vastas planícies centrais dos Estados Unidos escurecem com nuvens de tempestade e chuva e pedras de granizo começam a cair no chão, todos e tudo se abrigam, exceto os pilotos do avião T-28 Storm Penetrator blindado.",
+            "score": 0.426503336575601
+        },
+        {
+            "id": 3638,
+            "name": "en_pt_30",
+            "input": "But Gregory exorted them to persevere in their purpose, advised them to choose some interpreters from among the Franks, who still spoke the same language with the Saxons, and recommended them to the good offices of Queen Brunhilda, who had at this time usurped the sovereign power in France.",
+            "output": "Mas Gregório exortou-os a perseverar no propósito deles, aconselhou-os a escolher alguns intérpretes de entre os Francos, que ainda falavam o mesmo idioma com os Saxões, e recomendou-os aos bons ofícios da rainha Brunilda, que na altura tinha usurpado o poder soberano em França.",
+            "llm_output": "Mas Gregory os exortou a perseverar em seu propósito, aconselhou-os a escolher alguns intérpretes entre os francos, que ainda falavam a mesma língua dos saxões, e recomendou-os aos bons ofícios da rainha Brunhilda, que havia usurpado o poder soberano na França naquele momento.",
+            "score": 0.4245469345257398
+        },
+        {
+            "id": 3645,
+            "name": "en_pt_37",
+            "input": "The whole school is here seen in epitome: the “stoker” typifies the student toiling at the forge, and in the polished engine, exhibiting both grace and power in its automatic action, we see the student’s graduating project, a machine, the joint creation of brain, eye, and hand.",
+            "output": "A escola inteira é vista aqui em epítome: o \"fogueiro\" tipifica o estudante que labuta na forja, e no motor polido, exibindo tanto graciosidade como potência na sua ação automática, vemos o projeto de graduação do estudante, uma máquina, a criação conjunta de cérebro, olho e mão.",
+            "llm_output": "Toda a escola é vista aqui em epitome: o \"stoker\" tipifica o estudante trabalhando na forja, e na máquina polida, exibindo graça e poder em sua ação automática, vemos o projeto de formatura do estudante, uma máquina, a criação conjunta do cérebro, olho e mão.",
+            "score": 0.42374206498655725
+        },
+        {
+            "id": 3673,
+            "name": "en_pt_65",
+            "input": "The National Weather Service said Wednesday some 25 million people will face temperatures that cause near-instant frostbite in New England (the northeastern United States) and the Midwest—states such as Wisconsin, Minnesota, Illinois and Michigan.",
+            "output": "O Serviço Meteorológico Nacional disse na quarta-feira que cerca de 25 milhões de pessoas irão enfrentar temperaturas que causam geladuras quase instantâneas na Nova Inglaterra (o nordeste dos Estados Unidos) e no Centro-Oeste—Estados como o Wisconsin, Minesota, Ilinois e Michigan.",
+            "llm_output": "O Serviço Nacional de Meteorologia informou na quarta-feira que cerca de 25 milhões de pessoas enfrentarão temperaturas que causam congelamento quase instantâneo em Nova Inglaterra (nordeste dos Estados Unidos) e no Meio-Oeste - estados como Wisconsin, Minnesota, Illinois e Michigan.",
+            "score": 0.4207791967698767
+        },
+        {
+            "id": 3662,
+            "name": "en_pt_54",
+            "input": "Viewed as Science, Civics is that branch of Sociology which deals with Cities—their origin and distribution; their development and structure; their functioning, internal and external, material and psychological; their evolution, individual and associated.",
+            "output": "Vista como uma Ciência, a Educação Cívica é o ramo da Sociologia que trata das Cidades—a origem e distribuição delas; o desenvolvimento e estrutura delas; o funcionamento delas, interno e externo, material e psicológico; a evolução delas, individual e associada.",
+            "llm_output": "Vista como uma ciência, a Cidadania é o ramo da Sociologia que lida com as Cidades - sua origem e distribuição; seu desenvolvimento e estrutura; seu funcionamento, interno e externo, material e psicológico; sua evolução, individual e associada.",
+            "score": 0.41126869185080517
+        },
+        {
+            "id": 3659,
+            "name": "en_pt_51",
+            "input": "But while many governments say they support a homegrown innovation economy, policy decisions may hamper entrepreneurial growth, according to a report out this week by the Consumer Technology Association (CTA), which puts on the marquee Las Vegas technology show.",
+            "output": "Mas embora muitos governos afirmem que apoiam uma economia de inovação nacional, as decisões políticas podem dificultar o crescimento empreendedor, de acordo com um relatório publicado esta semana pela Associação da Tecnologia do Consumidor (ATC), que organiza a prestigiada feira de tecnologia em Las Vegas.",
+            "llm_output": "Mas embora muitos governos afirmem apoiar uma economia de inovação local, decisões políticas podem prejudicar o crescimento empreendedor, de acordo com um relatório divulgado esta semana pela Consumer Technology Association (CTA), que organiza a principal feira de tecnologia de Las Vegas.",
+            "score": 0.4036286944928209
+        },
+        {
+            "id": 3669,
+            "name": "en_pt_61",
+            "input": "There were icicles on the fences, a rime of silver on the windward bark of maples, and occasional bare spots on the rocky protuberances of the road, as if Nature had worn herself out at the knees and elbows through long waiting for the tardy spring.",
+            "output": "Havia sincelo nas cercas, uma escarcha de prata na casca dos bordos a barlavento, e ocasionais partes despidas nas protuberâncias rochosas da estrada, como se a Natureza se tivesse desgastado nos joelhos e cotovelos ao esperar longamente pela primavera tardia.",
+            "llm_output": "Havia pingentes de gelo nas cercas, uma camada prateada na casca dos bordos expostos ao vento, e ocasionalmente áreas sem neve nas protuberâncias rochosas da estrada, como se a Natureza tivesse se desgastado nos joelhos e cotovelos de tanto esperar pela primavera tardia.",
+            "score": 0.39786071747164214
+        },
+        {
+            "id": 3697,
+            "name": "en_pt_89",
+            "input": "They retained the \"u\" in the name, which most others, like the captain's descendants, laid aside; as Bonaparte did during his triumphant campaign in Italy, in order to un-Italianise and Frenchify his patronymic Buonaparte.",
+            "output": "Eles mantiveram o \"u\" no nome, que a maioria das pessoas, como os descendentes do capitão, punham de lado; tal como Bonaparte fez durante a sua campanha triunfante em Itália, a fim de desitalianizar e afrancesar o seu patronímico Buonaparte.",
+            "llm_output": "Eles mantiveram o \"u\" no nome, o que a maioria dos outros, como os descendentes do capitão, deixaram de lado; assim como Bonaparte fez durante sua campanha triunfante na Itália, para desitalianizar e francesizar seu sobrenome Buonaparte.",
+            "score": 0.3936505678344801
+        },
+        {
+            "id": 3661,
+            "name": "en_pt_53",
+            "input": "“Now ef ye alls don’t quit fussin’, I’ll set the boogers arter ye ter-night,” which was a dire and telling threat, for, to the mountain children, “boogers” meant ghosts, witches, hobgoblins, thieves, or any other terrible, mysterious creature of the night.",
+            "output": "Olhem que se vocês todos não param de fazer barulho, eu boto os papões atrás de vocês hoje à noite, o que era uma ameaça horrível e eficaz, pois, para as crianças da montanha, \"papões\" significava fantasmas, bruxas, duendes, ladrões ou qualquer outra criatura terrível e misteriosa da noite.",
+            "llm_output": "\"Se vocês não pararem de brigar agora, eu vou chamar os boogers para pegar vocês esta noite\", era uma ameaça séria e assustadora, pois para as crianças das montanhas, \"boogers\" significava fantasmas, bruxas, duendes, ladrões ou qualquer outra criatura terrível e misteriosa da noite.",
+            "score": 0.3860024506491048
+        },
+        {
+            "id": 3631,
+            "name": "en_pt_23",
+            "input": "I think that because the world demographics foretell a shifting to a much older population, it may help foster a global trend towards sustainability instead of expansionism. Such an outlook may affect phenomena like space colonization. If the population gets too old, would people still be motivated to colonize space?",
+            "output": "Acho que como a demografia mundial prenuncia uma transição para uma população muito mais velha, isso poderá ajudar a promover uma tendência global em direção à sustentabilidade em vez de ao expansionismo. Tal previsão poderá afetar fenómenos como a colonização espacial. Se a população envelhecer demasiado, será que as pessoas continuarão a sentir-se motivadas para colonizar o espaço?",
+            "llm_output": "Eu acredito que, devido às previsões demográficas mundiais que indicam uma mudança para uma população muito mais velha, isso pode ajudar a promover uma tendência global em direção à sustentabilidade em vez do expansionismo. Essa perspectiva pode afetar fenômenos como a colonização do espaço. Se a população ficar muito velha, as pessoas ainda teriam motivação para colonizar o espaço?",
+            "score": 0.3847647827768881
+        },
+        {
+            "id": 3702,
+            "name": "en_pt_94",
+            "input": "When the U.S. Census Bureau makes racial distinctions, it says they are a reflection of the country's prevailing social attitudes, rather than an attempt to define race \"biologically, anthropologically, or genetically.\"",
+            "output": "Quando o Gabinete de Recenseamento dos Estados Unidos faz distinções raciais, este afirma que elas são um reflexo das atitudes sociais prevalecentes no país e não uma tentativa de definir a raça em termos \"biológicos, antropológicos ou genéticos\".",
+            "llm_output": "Quando o Departamento do Censo dos Estados Unidos faz distinções raciais, ele diz que elas são um reflexo das atitudes sociais predominantes do país, em vez de uma tentativa de definir raça \"biologicamente, antropologicamente ou geneticamente\".",
+            "score": 0.3821908670547276
+        },
+        {
+            "id": 3618,
+            "name": "en_pt_10",
+            "input": "After years of election postponements and stalled negotiations, the last week has seen two hopeful developments: first, the nation’s special electoral court cut three prominent and controversial figures from the ballot—the coup leader, who had reneged on a promise not to run; the wife of the president who was overthrown in that 2009 coup; and the man who served as president before that.",
+            "output": "Após anos de adiamento das eleições e negociações paralisadas, a última semana assistiu a dois desenvolvimentos esperançosos: primeiro, o tribunal eleitoral especial da nação excluiu da votação três figuras proeminentes e controversas—o líder golpista, que tinha renegado a promessa de não concorrer; a esposa do presidente que foi derrubado nesse golpe em 2009; e o homem que exerceu o cargo anteriormente a isso.",
+            "llm_output": "Depois de anos de adiamentos eleitorais e negociações paralisadas, a última semana viu dois desenvolvimentos promissores: primeiro, o tribunal eleitoral especial do país retirou três figuras proeminentes e controversas da cédula eleitoral - o líder do golpe, que havia renegado uma promessa de não concorrer; a esposa do presidente que foi deposto no golpe de 2009; e o homem que serviu como presidente antes disso.",
+            "score": 0.3817910475217636
+        },
+        {
+            "id": 3608,
+            "name": "en_pt_0",
+            "input": "Glorious London! Leviathan of human greed; palpitating hot-bed of iniquity and joy; Greek, Roman, Spanish, Saxon, Kelt, Scot, Pict, Norman and Dane have swept over thee like winter storms; and the mighty Cæsar, Julius of old, with a myriad of bucklered warriors and one hundred galleons of sailors, triple-oared mariners, defying wave and fate, have ploughed the placid face of Father Thames, startling the loud cry of hawk and bittern as his royal prows grated on thy strand, or skimmed over the marshes of thy infancy.",
+            "output": "Londres gloriosa! Leviatã da ganância humana; antro palpitante de iniquidade e alegria; o Grego, Romano, Espanhol, Saxão, Celta, Escocês, Picto, Normando e Dinamarquês assolaram-vos como tempestades de inverno; e o poderoso César, Júlio de outrora, com uma miríade de guerreiros broquelados e cem galeões de navegantes, marinheiros trirremes, desafiando onda e destino, atravessaram a face plácida do Pai Tamisa, assustando o grito estridente do falcão e do abetouro quando as proas reais dele raspavam no vosso areal, ou deslizavam sobre os sapais da vossa infância.",
+            "llm_output": "Gloriosa Londres! Leviatã da ganância humana; berço palpitante de iniquidade e alegria; gregos, romanos, espanhóis, saxões, celtas, escoceses, pictos, normandos e dinamarqueses varreram-te como tempestades de inverno; e o poderoso César, Júlio de outrora, com uma miríade de guerreiros escudados e cem galeras de marinheiros, remadores triplos, desafiando ondas e destino, sulcaram a face plácida do Pai Tâmisa, assustando o alto grito do falcão e do bittern enquanto suas proas reais rangiam em tuas praias, ou deslizavam sobre os pântanos de tua infância.",
+            "score": 0.379833474429862
+        },
+        {
+            "id": 3698,
+            "name": "en_pt_90",
+            "input": "India’s ambitions to create a domestic semiconductor manufacturing capability got a boost with this week's announcement of a $19.5 billion investment by Taiwanese electronic company Foxconn and local conglomerate Vedanta.",
+            "output": "As ambições da Índia de criar uma indústria nacional de fabrico de semicondutores ganharam um impulso com o anúncio, esta semana, de um investimento de 19,5 mil milhões de dólares por parte da empresa eletrónica taiwanesa Foxconn e do conglomerado local Vedanta.",
+            "llm_output": "As ambições da Índia de criar uma capacidade de fabricação de semicondutores domésticos receberam um impulso com o anúncio desta semana de um investimento de US$ 19,5 bilhões pela empresa eletrônica taiwanesa Foxconn e pelo conglomerado local Vedanta.",
+            "score": 0.37887056702277294
+        },
+        {
+            "id": 3619,
+            "name": "en_pt_11",
+            "input": "These poems might nearly all have been written by one man, were it possible for one man to vary from absolute platitude to something like genius, so homogeneous is their tone: everywhere do we meet the same simplicity of diction struggling with the same complication and subtlety of thought, the same abstract speculation strangely mingled with most individual and personal pathos.",
+            "output": "Estes poemas poderiam ter sido quase todos escritos por um só homem, se fosse possível a um só homem variar entre a platitude absoluta e algo parecido ao génio, tão homogéneo é o tom deles: por todo o lado encontramos a mesma simplicidade de dicção a debater-se com a mesma complicação e subtileza de pensamento, a mesma especulação abstrata estranhamente misturada com o páthos mais individual e pessoal.",
+            "llm_output": "Estes poemas poderiam ter sido escritos por um único homem, se fosse possível para um homem variar de uma platitude absoluta para algo como genialidade, tão homogêneo é o seu tom: em todos os lugares encontramos a mesma simplicidade de dicção lutando com a mesma complicação e sutileza de pensamento, a mesma especulação abstrata estranhamente misturada com um pathos pessoal e individual.",
+            "score": 0.37099560976073376
+        },
+        {
+            "id": 3637,
+            "name": "en_pt_29",
+            "input": "Sir Robert Saville writing to Sir Robert Cotton, appointing an interview with the founder of the Bodleian Library, cautions Sir Robert, that “If he held any book so dear as that he would be loath to lose it, he should not let Sir Thomas out of his sight, but set ‘the boke’ aside beforehand.”",
+            "output": "Sir Robert Saville ao escrever a Sir Robert Cotton, marcando uma entrevista com o fundador da Biblioteca Bodleiana, adverte Sir Robert, que \"Se ele guardasse algum livro com tanta estima que fosse odioso perdê-lo, ele não deveria deixar Sir Thomas sair da sua vista, mas deveria pôr 'o líber' de lado antecipadamente.\"",
+            "llm_output": "Sir Robert Saville escrevendo para Sir Robert Cotton, marcando uma entrevista com o fundador da Biblioteca Bodleian, alerta Sir Robert que \"Se ele tiver algum livro tão querido que não queira perdê-lo, não deve deixar Sir Thomas fora de sua vista, mas separar 'o livro' com antecedência\".",
+            "score": 0.3689250304790554
+        },
+        {
+            "id": 3680,
+            "name": "en_pt_72",
+            "input": "Little-remembered now is that Grand Central Terminal was the target of a Nazi plot during WWII: Two German agents were dispatched to sabotage the giant rotary convertors in a deep subbasement that supplied electrical current for the railways.",
+            "output": "Poucos se recordam agora que o Grande Terminal Central foi alvo de uma conspiração nazi durante a Segunda Guerra Mundial: Dois agentes alemães tinham sido enviados para sabotar os gigantescos conversores rotativos numa subcave profunda que forneciam corrente elétrica às ferrovias.",
+            "llm_output": "Pouco lembrado agora é que o Grand Central Terminal foi alvo de um plano nazista durante a Segunda Guerra Mundial: dois agentes alemães foram enviados para sabotar os gigantescos conversores rotativos em um sub-basement profundo que fornecia corrente elétrica para as ferrovias.",
+            "score": 0.3685697379787662
+        },
+        {
+            "id": 3640,
+            "name": "en_pt_32",
+            "input": "Clarke was one of more than 200 students who hunted through rows and rows of tulle, satin, sequins and feathers for the perfect dress to wear to her prom, courtesy of TLC’s Say Yes to the Dress reality show franchise, Macy’s department store, clothing retailer Men’s Warehouse, and others.",
+            "output": "Clarke foi uma das mais de 200 estudantes que vasculhou fileiras e fileiras de tule, cetim, lantejoulas e penas em busca do vestido perfeito para usar no baile de finalistas, por cortesia do programa de realidade televisiva Diga Sim ao Vestido produzido pela TLC, da loja de departamento da Macy, da retalhista de vestuário Armazém dos Homens, entre outros.",
+            "llm_output": "Clarke foi uma das mais de 200 estudantes que procuraram através de fileiras e fileiras de tule, cetim, lantejoulas e penas pelo vestido perfeito para usar em seu baile, cortesia da franquia de reality show Say Yes to the Dress da TLC, da loja de departamentos Macy's, da loja de roupas Men's Warehouse e outros.",
+            "score": 0.3677800730451738
+        },
+        {
+            "id": 3682,
+            "name": "en_pt_74",
+            "input": "With the children’s playroom already busy elsewhere in the Khora center, language lessons, soap-making and self-defense classes are planned for later in the day, while work continues to complete the dentist facilities on the fourth floor.",
+            "output": "Com a sala de jogos para crianças já ocupada noutra parte do centro Khora, aulas de línguas, fabrico de sabão e autodefesa estão planeadas para o final do dia, enquanto prosseguem os trabalhos para finalizar as instalações de dentista no quarto andar.",
+            "llm_output": "Com a sala de jogos para crianças já ocupada em outro lugar do centro Khora, aulas de idiomas, fabricação de sabão e aulas de defesa pessoal estão planejadas para mais tarde no dia, enquanto o trabalho continua para concluir as instalações do dentista no quarto andar.",
+            "score": 0.3642104644660688
+        },
+        {
+            "id": 3676,
+            "name": "en_pt_68",
+            "input": "Other European countries have already introduced laws making vaccinations compulsory, including Italy which two years ago passed a law making 10 vaccines obligatory for children who enrolled in Italian schools, including chickenpox and measles.",
+            "output": "Outros países europeus já adotaram leis que tornam as vacinas obrigatórias, incluindo a Itália, que há dois anos aprovou uma lei que torna obrigatórias 10 vacinas para as crianças que se inscrevem nas escolas italianas, incluindo a da varicela e a do sarampo.",
+            "llm_output": "Outros países europeus já introduziram leis tornando as vacinações obrigatórias, incluindo a Itália, que há dois anos aprovou uma lei tornando 10 vacinas obrigatórias para crianças matriculadas em escolas italianas, incluindo varicela e sarampo.",
+            "score": 0.3608919016527455
+        },
+        {
+            "id": 3614,
+            "name": "en_pt_6",
+            "input": "Then they planted this garden with all manner fruit-bearing trees and fragrant herbs and flowers and firstlings of every kind and hue and they trained the branches after a wonderful fashion, leading under their shade leats and runnels of cool water; and the boughs were cunningly dispread so as to veil the ground which was planted with grains of divers sorts and greens and all of vegetation that serveth for the food of man.",
+            "output": "Depois eles plantaram este jardim com todo o tipo de árvores frutíferas e ervas aromáticas e flores e primícias de todo o género e matiz e moldaram os ramos de uma forma maravilhosa, guiando sob a sua sombra canais e calhas de água fresca; e os ramos foram astutamente espalhados de forma a encobrir o solo que foi plantado com grãos de espécies diversas e verduras e toda a vegetação que serve de alimento para o homem.",
+            "llm_output": "Então eles plantaram este jardim com todas as espécies de árvores frutíferas, ervas e flores perfumadas e primeiras de cada tipo e matiz, e treinaram os galhos de uma maneira maravilhosa, conduzindo sob sua sombra canais e correntes de água fresca; e os galhos foram habilmente espalhados para cobrir o solo que foi plantado com grãos de diferentes tipos e verduras e toda a vegetação que serve para a alimentação do homem.",
+            "score": 0.35912368010553314
+        },
+        {
+            "id": 3694,
+            "name": "en_pt_86",
+            "input": "America's next National Security Advisor, Michael Flynn, said adversaries around the world are presenting challenges to the U.S. “at warp speed” and acknowledged that the prospects of assuming the position next week are daunting.",
+            "output": "O próximo conselheiro de Segurança Nacional da América, Michael Flynn, disse que há adversários espalhados por todo o mundo a apresentar desafios aos EUA “à velocidade da luz” e reconheceu que a expetativa de assumir o cargo na próxima semana é intimidante.",
+            "llm_output": "O próximo Conselheiro de Segurança Nacional dos Estados Unidos, Michael Flynn, disse que adversários ao redor do mundo estão apresentando desafios aos EUA \"em velocidade de dobra\" e reconheceu que as perspectivas de assumir o cargo na próxima semana são assustadoras.",
+            "score": 0.35803822843870353
+        },
+        {
+            "id": 3646,
+            "name": "en_pt_38",
+            "input": "His tight blue frock-coat and his grey trousers were models for the most fastidious dandies; his kindness and gentleness to everyone except professional politicians was extreme; he quoted Horace freely and had a complete knowledge of political history with a prodigious memory.",
+            "output": "A sobrecasaca azul e justa dele e as calças cinzentas dele serviam de modelo para os dândis mais exigentes; a bondade e a gentileza dele para com toda a gente exceto políticos profissionais era extrema; ele citava Horácio livremente e tinha um conhecimento completo de história política com uma memória prodigiosa.",
+            "llm_output": "Seu apertado casaco azul e suas calças cinzas eram modelos para os dândis mais exigentes; sua bondade e gentileza com todos, exceto políticos profissionais, eram extremas; ele citava Horácio livremente e tinha um conhecimento completo da história política com uma memória prodigiosa.",
+            "score": 0.35797573032346913
+        },
+        {
+            "id": 3635,
+            "name": "en_pt_27",
+            "input": "Giles Headley the younger was a fine tall youth, but clumsy and untrained in the use of his limbs, and he rode a large, powerful brown horse, which brooked no companionship, lashing out with its shaggy hoofs at any of its kind that approached it, more especially at poor, plump, mottled Poppet.",
+            "output": "Giles Headley, o mais novo, era um jovem alto e atraente, mas desajeitado e destreinado no uso dos membros do corpo, e ele montava um grande e poderoso cavalo castanho, que não suportava companhia, atacando com os cascos desgrenhados qualquer um da sua espécie que se aproximasse, muito especialmente o pobre e roliço e malhado Poppet.",
+            "llm_output": "Giles Headley, o mais jovem, era um jovem alto e elegante, mas desajeitado e sem treino no uso de seus membros, e ele montava um grande e poderoso cavalo marrom, que não tolerava companhia, chutando com seus cascos peludos qualquer um de sua espécie que se aproximasse, especialmente a pobre, rechonchuda e malhada Poppet.",
+            "score": 0.35162128556504296
+        },
+        {
+            "id": 3626,
+            "name": "en_pt_18",
+            "input": "The potential for surprise in the cyber realm will increase in the next year and beyond as billions more digital devices are connected—with relatively little built-in security—and both nation states and malign actors become more emboldened and better equipped in the use of increasingly widespread cyber toolkits, the report said.",
+            "output": "O potencial para a surpresa no domínio cibernético aumentará no próximo ano e além à medida que mais alguns milhares de milhões de dispositivos digitais são ligados—com relativamente pouca segurança integrada—e tanto Estados-nação como atores malignos se tornam mais arrojados e melhor equipados na utilização de ciberferramentas cada vez mais disseminadas, indicava o relatório.",
+            "llm_output": "O potencial de surpresa no mundo cibernético aumentará no próximo ano e além, à medida que bilhões de dispositivos digitais adicionais são conectados - com relativamente pouca segurança embutida - e tanto os estados-nação quanto os atores malignos se tornam mais audaciosos e melhor equipados no uso de ferramentas cibernéticas cada vez mais difundidas, disse o relatório.",
+            "score": 0.3502057206603801
+        },
+        {
+            "id": 3620,
+            "name": "en_pt_12",
+            "input": "He writes his history upon his field; how many ties, how many resources, he has,—his friendships with his cattle, his team, his dog, his trees, the satisfaction in his growing crops, in his improved fields; his intimacy with nature, with bird and beast, and with the quickening elemental forces; his cooperations with the clouds, the sun, the seasons, heat, wind, rain, frost!",
+            "output": "Ele escreve sobre a história dele no campo; quantos laços, quantos recursos ele tem,—as amizades com o gado, a equipa, o cão, as árvores; a satisfação com os cultivos em crescimento, com os terrenos melhorados; a intimidade com a natureza, com ave e besta, e com as forças elementares revitalizantes; as cooperações com as nuvens, o sol, as estações, calor, vento, chuva, geada!",
+            "llm_output": "Ele escreve sua história em seu campo; quantos laços, quantos recursos ele tem - suas amizades com seu gado, sua equipe, seu cachorro, suas árvores, a satisfação em suas colheitas crescentes, em seus campos melhorados; sua intimidade com a natureza, com pássaros e animais, e com as forças elementares que dão vida; suas cooperações com as nuvens, o sol, as estações, o calor, o vento, a chuva, a geada!",
+            "score": 0.3406683939407665
+        },
+        {
+            "id": 3671,
+            "name": "en_pt_63",
+            "input": "These hazards, and the fact that the city was trashing roughly 180 million plastic bags a year, are what prompted San Francisco Supervisor Ross Mirkarimi to write a bill banning plastic carrier bags from all major chain supermarkets and pharmacies.",
+            "output": "Estes perigos, e o facto de a cidade estar a deitar fora cerca de 180 milhões de sacos de plástico por ano, foram o que levou o supervisor de São Francisco, Ross Mirkarimi, a escrever uma lei a proibir os sacos de plástico em todas as grandes cadeias de supermercados e farmácias.",
+            "llm_output": "Esses riscos, e o fato de que a cidade estava descartando cerca de 180 milhões de sacolas plásticas por ano, foram o que levou o Supervisor de San Francisco, Ross Mirkarimi, a escrever um projeto de lei proibindo sacolas plásticas de todos os principais supermercados e farmácias.",
+            "score": 0.33927211854337613
+        },
+        {
+            "id": 3656,
+            "name": "en_pt_48",
+            "input": "The December vote was marred by disorganization at many polling stations, including missing voter rolls and malfunctioning electronic voting machines that pushed the vote well into nighttime hours, forcing election officials to conduct their activities by flashlight.",
+            "output": "A votação de dezembro foi prejudicada pela desorganização em muitas assembleias de voto, incluindo o desaparecimento de cadernos eleitorais e a avaria de máquinas de voto eletrónico que prolongaram a votação até horas noturnas, obrigando os funcionários eleitorais a realizar as suas atividades à luz de lanternas.",
+            "llm_output": "A votação de dezembro foi prejudicada pela desorganização em muitas seções eleitorais, incluindo listas de eleitores ausentes e máquinas de votação eletrônica com mau funcionamento que estenderam a votação até altas horas da noite, obrigando os funcionários eleitorais a conduzir suas atividades com lanternas.",
+            "score": 0.3339781936733484
+        },
+        {
+            "id": 3695,
+            "name": "en_pt_87",
+            "input": "If Rosetta's small lander successfully touches down this fall, tools aboard the 220-pound landing unit will analyze material below the comet's surface along with its internal temperature fluctuations as it hurtles through space.",
+            "output": "Se o pequeno aterrador do Roseta pousar com sucesso este outono, as ferramentas a bordo do módulo de aterragem de 100 quilos analisarão o material abaixo da superfície do cometa, bem como as oscilações de temperatura interna enquanto este se desloca a grande velocidade pelo espaço.",
+            "llm_output": "Se o pequeno módulo de aterrissagem da Rosetta tocar com sucesso o solo neste outono, as ferramentas a bordo da unidade de pouso de 220 libras analisarão o material abaixo da superfície do cometa, juntamente com suas flutuações de temperatura interna enquanto ele se precipita pelo espaço.",
+            "score": 0.3304954587697848
+        },
+        {
+            "id": 3616,
+            "name": "en_pt_8",
+            "input": "He attempted his door; it was locked on the outside; and his perplexity and anxiety became extreme, when suddenly the lock was turned, and in an underdress, hastily assumed in the moment of alarm, her hair streaming on her shoulders, her eyes gleaming betwixt fear and resolution, Alice Bridgenorth rushed into his apartment, and seized his hand with the fervent exclamation, “Julian, save my father!”",
+            "output": "Ele tentou abrir a porta de casa; estava trancada do lado de fora; e a perplexidade e ansiedade dele tornaram-se extremas quando, de repente, a fechadura foi aberta e, num vestido interior, adotado apressadamente no momento de alarme, com o cabelo a cair sobre os ombros dela e os olhos a brilharem entre o medo e a resolução, Alice Bridgenorth entrou apressadamente no apartamento dele e agarrou-lhe a mão com a exclamação fervorosa: \"Julian, salva o meu pai!\"",
+            "llm_output": "Ele tentou a porta; ela estava trancada por fora; e sua perplexidade e ansiedade se tornaram extremas, quando de repente a fechadura foi virada e, em um traje simples, rapidamente assumido no momento de alarme, com o cabelo solto nos ombros e os olhos brilhando entre o medo e a resolução, Alice Bridgenorth correu para o seu quarto e agarrou sua mão com a fervorosa exclamação: \"Julian, salve meu pai!\"",
+            "score": 0.3223917326007894
+        },
+        {
+            "id": 3623,
+            "name": "en_pt_15",
+            "input": "The road which was made under the superintendence of Captain (afterwards Colonel) Guthrie, of the Bengal Engineers between 1837 and 1844, at the joint expense of the British and Manipuri Governments, the former paying the larger share, was excellent for foot passengers and pack animals, but not wide enough and too steep for wheeled traffic on a large scale.",
+            "output": "A estrada que foi construída sob a superintendência do capitão (depois coronel) Guthrie, dos Engenheiros Bengaleses entre 1837 e 1844, à custa conjunta dos Governos Britânico e Manipuri, o primeiro pagando a maior parte, era excelente para peões e azémolas, mas não era suficientemente larga e era demasiado íngreme para o trânsito sobre rodas a grande escala.",
+            "llm_output": "A estrada que foi construída sob a supervisão do Capitão (mais tarde Coronel) Guthrie, dos Engenheiros de Bengala, entre 1837 e 1844, com despesas conjuntas dos governos britânico e manipuri, sendo o primeiro responsável pela maior parte dos custos, era excelente para pedestres e animais de carga, mas não era larga o suficiente e muito íngreme para o tráfego de veículos em grande escala.",
+            "score": 0.3193597901497221
+        },
+        {
+            "id": 3632,
+            "name": "en_pt_24",
+            "input": "I am currently holding down a professorship at a small, privately endowed Tech college, have some mentionable background in both nuclear physics and biochemistry, possess a choice collection of rather good jazz records, have a particular fondness for barbecued spareribs—and, of late, have become an inventor.",
+            "output": "Atualmente, exerço funções de professor num pequeno colégio tecnológico com financiamento privado, tenho alguma experiência mencionável em física nuclear e bioquímica, possuo uma coleção seletiva de discos de jazz bastante bons, tenho uma queda especial por entrecosto grelhado—e, recentemente, tornei-me inventor.",
+            "llm_output": "Atualmente, ocupo uma cátedra em uma pequena faculdade de tecnologia privada, tenho alguma experiência notável em física nuclear e bioquímica, possuo uma coleção escolhida de discos de jazz bastante bons, tenho um carinho especial por costelas de porco assadas na churrasqueira - e, recentemente, me tornei um inventor.",
+            "score": 0.31694997126470525
+        },
+        {
+            "id": 3633,
+            "name": "en_pt_25",
+            "input": "When it is remembered that these cases outnumber all others—that there are more species of parasites than there are species of all other animals put together—it will be seen that the expression \"survivorship of the better\" is wholly inappropriate, and the argument Mr. Martineau bases upon it quite untenable.",
+            "output": "Quando é recordado que estes casos são mais numerosos do que todos os outros—que existem mais espécies de parasitas do que espécies de todos os outros animais somados—verifica-se que a expressão \"sobrevivência dos melhores\" é totalmente inapropriada e que a argumentação que o sr. Martineau baseia nela é bastante insustentável.",
+            "llm_output": "Quando se lembra que esses casos superam todos os outros - que há mais espécies de parasitas do que há espécies de todos os outros animais juntos - será visto que a expressão \"sobrevivência do melhor\" é totalmente inadequada e o argumento do Sr. Martineau baseado nela é completamente insustentável.",
+            "score": 0.3126999872705368
+        },
+        {
+            "id": 3684,
+            "name": "en_pt_76",
+            "input": "I have, therefore, no further apology to make for presenting you with the work (my object being the advancement of truth), and I earnestly submit for your best consideration its subject matter rather than its literary merits or demerits.",
+            "output": "Não tenho, portanto, mais desculpas a oferecer por vos apresentar a obra (o meu objetivo sendo a divulgação da verdade) e submeto sinceramente à vossa melhor consideração o seu tema, mais do que os seus méritos ou deméritos literários.",
+            "llm_output": "Portanto, não tenho mais desculpas a apresentar por lhe apresentar este trabalho (meu objetivo sendo o avanço da verdade), e submeto sinceramente para sua melhor consideração o assunto tratado, em vez de seus méritos ou deméritos literários.",
+            "score": 0.30725843825563404
+        },
+        {
+            "id": 3687,
+            "name": "en_pt_79",
+            "input": "I do not wish to recall this bad time nor the worse that ante-dated my departure, when I was at the mercy of venal doctors and indifferent nurses, dependent on grudged bad service and overpaid inattention, taking a so-called rest cure.",
+            "output": "Não desejo recordar esse mau momento nem o pior que antecedeu a minha partida, quando estive à mercê de médicos venais e enfermeiros indiferentes, dependente de um serviço mau e rancoroso e de uma desatenção excessivamente remunerada, a fazer o que se chama uma cura de repouso.",
+            "llm_output": "Eu não desejo relembrar este momento ruim nem o pior que antecedeu minha partida, quando eu estava à mercê de médicos venais e enfermeiras indiferentes, dependente de um serviço ruim e mal remunerado, fazendo uma suposta cura de descanso.",
+            "score": 0.2951576840088499
+        },
+        {
+            "id": 3634,
+            "name": "en_pt_26",
+            "input": "Down the street, at the High Point Museum, they can watch as skilled carpenters, upholsterers, and other craftspeople show how some of the nation’s finest furniture is assembled—from the cutting of trees to the making of frames, to the gluing and application of veneers and stains and polishes.",
+            "output": "Ao fundo da rua, no Museu de Ponto Alto, eles podem assistir enquanto carpinteiros, estofadores e outros artesãos habilidosos mostram como é montada alguma da mobília mais requintada do país—desde o corte de árvores ao fabrico de molduras, até à colagem e aplicação de folheados, corantes e vernizes.",
+            "llm_output": "Na rua, no Museu High Point, eles podem assistir enquanto carpinteiros habilidosos, estofadores e outros artesãos mostram como alguns dos melhores móveis do país são montados - desde o corte de árvores até a fabricação de molduras, colagem e aplicação de folheados, manchas e polimentos.",
+            "score": 0.292808529333557
+        },
+        {
+            "id": 3629,
+            "name": "en_pt_21",
+            "input": "It is not undeservedly that the Pyrenean guides have acquired the reputation they enjoy for intelligence and civility; and Charlet, of the Hôtel de France, is certainly a most favourable specimen: frugal in his habits, modest in his demeanour, and of great activity of body, he forms the beau ideal of a mountain cicerone.",
+            "output": "Não é desmerecidamente que os guias pireneus adquiriram a reputação de inteligência e civilidade de que eles desfrutam; e Charlet, do Hotel de França, é certamente um espécime muito apreciado: frugal nos seus hábitos, modesto na sua conduta, e de grande atividade do corpo, ele forma o ideal belo de um cicerone montanhês.",
+            "llm_output": "Não é sem razão que os guias dos Pirenéus adquiriram a reputação que desfrutam de inteligência e civilidade; e Charlet, do Hôtel de France, é certamente um exemplo muito favorável: frugal em seus hábitos, modesto em sua conduta e de grande atividade física, ele forma o belo ideal de um cicerone de montanha.",
+            "score": 0.28901734734157486
+        },
+        {
+            "id": 3696,
+            "name": "en_pt_88",
+            "input": "For several years now, Wang has been expanding on his earlier efforts, sponsoring a carpool campaign during the Chinese New Year to help link up drivers and commuters, taking advantage of social media networks and the Internet.",
+            "output": "Há vários anos que Wang tem vindo a expandir os esforços anteriores dele na organização de uma campanha de partilha de boleias durante o Ano Novo Chinês para ajudar a ligar condutores e passageiros, tirando partido das redes sociais e da Internet.",
+            "llm_output": "Há vários anos, Wang tem expandido seus esforços anteriores, patrocinando uma campanha de carona durante o Ano Novo Chinês para ajudar a conectar motoristas e passageiros, aproveitando as redes sociais e a internet.",
+            "score": 0.2801157058167737
+        },
+        {
+            "id": 3621,
+            "name": "en_pt_13",
+            "input": "Camels are known for their ability to travel long distances across the desert without water, but they’re also becoming an increasingly important source of milk for people in drought-prone regions, including East African countries like Kenya, where populations of camels, the single-humped kind technically known as dromedaries, have grown rapidly over the past few decades.",
+            "output": "Os camelos são conhecidos pela sua capacidade de percorrer longas distâncias através do deserto sem água, mas estão também a tornar-se uma fonte de leite cada vez mais importante para as pessoas em regiões propensas a secas, incluindo países da África Oriental como o Quénia, onde as populações de camelos, do tipo com uma só bossa, tecnicamente conhecidos como dromedários, têm aumentado rapidamente ao longo das últimas décadas.",
+            "llm_output": "Os camelos são conhecidos por sua habilidade de viajar longas distâncias pelo deserto sem água, mas também estão se tornando uma fonte cada vez mais importante de leite para pessoas em regiões propensas à seca, incluindo países do leste africano como o Quênia, onde as populações de camelos, do tipo de uma corcova conhecido tecnicamente como dromedários, cresceram rapidamente nas últimas décadas.",
+            "score": 0.27907639225871167
+        },
+        {
+            "id": 3688,
+            "name": "en_pt_80",
+            "input": "For his first state visit to China, South Korean President Moon Jae-in came with an entourage of more than 300 business people, an actress who is wildly popular here and heartthrob boy band EXO, which sings in both Korean and Chinese.",
+            "output": "Por ocasião da primeira visita de Estado deste à China, o presidente sul-coreano Jae-in Moon veio com uma comitiva de mais de 300 homens de negócios, com uma atriz que é extremamente popular por aqui e com os EXO, uma banda de rapazes ídolos que cantam tanto em coreano como em chinês.",
+            "llm_output": "Para sua primeira visita de estado à China, o presidente sul-coreano Moon Jae-in veio acompanhado de mais de 300 empresários, uma atriz que é extremamente popular aqui e a boy band EXO, que é um ídolo de corações e canta em coreano e chinês.",
+            "score": 0.2762574650872425
+        },
+        {
+            "id": 3610,
+            "name": "en_pt_2",
+            "input": "At night the savage cry of the wolf too often disturbed the rest of the scattered dwellers in that vast forest, and made a belated traveller look well to the sharpness of his weapons and the temper of his bowstring; but by day and in the sunlight the forest was beautiful and quiet enough—something too quiet, perhaps, for the taste of the two handsome lads who were pacing the dim aisles together, their arms entwined and their curly heads in close proximity as they walked and talked.",
+            "output": "À noite, o uivo selvagem do lobo perturbava demasiadas vezes o descanso dos habitantes dispersos daquela vasta floresta, e fazia o viajante tardio olhar bem para a acutilância das suas armas e para a tensão da corda do seu arco; mas, de dia e à luz do sol, a floresta era suficientemente bela e tranquila — um tanto tranquila demais, talvez, para o gosto dos dois moços charmosos que passeavam juntos pelos corredores sombrios, com os braços entrelaçados e as suas cabeças encaracoladas muito próximas enquanto caminhavam e conversavam.",
+            "llm_output": "Durante a noite, o grito selvagem do lobo muitas vezes perturbava o descanso dos habitantes dispersos naquela vasta floresta, fazendo com que um viajante atrasado verificasse bem a afiação de suas armas e a tensão de sua corda de arco. Mas durante o dia e sob a luz do sol, a floresta era bonita e tranquila o suficiente - algo até demais para o gosto dos dois rapazes bonitos que caminhavam juntos pelos corredores escuros, com os braços entrelaçados e as cabeças cacheadas próximas enquanto conversavam.",
+            "score": 0.27301724320044973
+        },
+        {
+            "id": 3654,
+            "name": "en_pt_46",
+            "input": "“Existing buildings already have a lot of embodied energy that has gone into creating them, and as long as we can get them a new lease on life, then that can be a very sustainable thing to do,” says Strachan Forgan, an architect and principal at Solomon Cordwell Buenz.",
+            "output": "“Os edifícios existentes já têm muita energia consagrada que foi investida na sua criação e, enquanto pudermos dar-lhes um novo fôlego de vida, isso pode ser algo muito sustentável de fazer”, diz Strachan Forgan, arquiteto e administrador da Solomon Cordwell Buenz.",
+            "llm_output": "\"Os edifícios existentes já possuem muita energia incorporada que foi utilizada para criá-los, e desde que possamos dar a eles uma nova vida, isso pode ser uma coisa muito sustentável a se fazer\", diz Strachan Forgan, arquiteto e principal da Solomon Cordwell Buenz.",
+            "score": 0.26636207669526585
+        },
+        {
+            "id": 3612,
+            "name": "en_pt_4",
+            "input": "It will sometimes grow to a height of fifteen feet, and in swampy places is so dense that it is difficult to keep even a few horses in sight when driving through it; after it dries and the seeds fall to the ground, the stalks break off, and the sweep of the water over the plains during the succeeding year gathers these dry stems against the trees in enormous masses like small haystacks, and there they remain until a bushfire reduces them to ashes.",
+            "output": "Por vezes, atinge uma altura de quinze pés e, em locais pantanosos, é tão densa que é difícil não perder de vista nem mesmo uns poucos cavalos quando se conduz por entre elas; depois de secar e de as sementes caírem ao solo, as hastes partem-se e o varrimento da água sobre as planícies durante o ano seguinte acumula estas hastes secas contra as árvores em massas enormes, como pequenas medas de feno, e aí permanecem até um incêndio florestal as reduzir a cinzas.",
+            "llm_output": "Às vezes, ela cresce até quinze pés de altura e, em lugares pantanosos, é tão densa que é difícil manter até mesmo alguns cavalos à vista ao atravessá-la. Depois que ela seca e as sementes caem no chão, os caules se quebram e a varredura da água sobre as planícies durante o ano seguinte reúne esses caules secos contra as árvores em enormes massas como pequenos montes de feno, e lá eles permanecem até que um incêndio reduza-os a cinzas.",
+            "score": 0.2569595024032356
+        },
+        {
+            "id": 3642,
+            "name": "en_pt_34",
+            "input": "NCCAM Director Dr. Josephine Briggs says the new survey provides the most current, comprehensive and reliable source of information on Americans' use of unconventional remedies such as medicinal herbs, acupuncture, yoga, meditation, massage and chiropractic or osteopathic manipulation.",
+            "output": "A dra. Josephine Briggs, diretora do NCCAM, afirma que a nova sondagem constitui a fonte de informação mais atual, abrangente e fiável sobre a utilização de remédios não convencionais por parte dos americanos, como as ervas medicinais, a acupuntura, o ioga, a meditação, as massagens e a manipulação quiroprática ou osteopática.",
+            "llm_output": "A diretora do NCCAM, Dra. Josephine Briggs, afirma que a nova pesquisa fornece a fonte mais atual, abrangente e confiável de informações sobre o uso de remédios não convencionais pelos americanos, como ervas medicinais, acupuntura, yoga, meditação, massagem e manipulação quiroprática ou osteopática.",
+            "score": 0.2555824549004552
+        },
+        {
+            "id": 3701,
+            "name": "en_pt_93",
+            "input": "A recent contest in Angola, Indiana, consisted of a series of events to display skill of arms and horsemanship, such as spearing rings onto a lance or splitting a cabbage in half with a sword while riding at full speed.",
+            "output": "Uma competição recente em Angola, no Indiana, consistiu numa série de provas destinadas à demonstração de perícia em armas e equitação, incluindo enfiar argolas numa lança ou partir uma couve ao meio com uma espada enquanto se cavalga a toda a velocidade.",
+            "llm_output": "Um concurso recente em Angola, Indiana, consistiu em uma série de eventos para exibir habilidades de armas e equitação, como enfiar anéis em uma lança ou partir um repolho ao meio com uma espada enquanto cavalga em alta velocidade.",
+            "score": 0.2267454723298501
+        },
+        {
+            "id": 3666,
+            "name": "en_pt_58",
+            "input": "Any individual Wi-Fi device doesn't reach very far, but if you can chain many of them together, then you can provide access over a wider area, said Joshua King, lead developer at Commotion Wireless, an open-source software initiative for mesh networks.",
+            "output": "Nenhum dispositivo de rede sem fios tem individualmente muito alcance, mas se se puder interligar muitos deles, então é possível fornecer acesso a uma área mais alargada, disse Joshua King, desenvolvedor principal da Commotion Wireless, uma iniciativa de programação de código aberto no domínio das redes distribuídas.",
+            "llm_output": "\"Qualquer dispositivo Wi-Fi individual não alcança muito longe, mas se você puder conectá-los em cadeia, então poderá fornecer acesso em uma área mais ampla\", disse Joshua King, desenvolvedor líder da Commotion Wireless, uma iniciativa de software de código aberto para redes mesh.",
+            "score": 0.2261803899410027
+        },
+        {
+            "id": 3670,
+            "name": "en_pt_62",
+            "input": "It has seemed to me that while the full enjoyment of La Fontaine must always be reserved for those who can read him in French, it might be possible at least to convey something of his originality and blithe spirit through the medium of light verse.",
+            "output": "Parece-me que embora a plena apreciação de La Fontaine deva sempre estar reservada a quem o possa ler em francês, talvez seja possível, pelo menos, transmitir algo da originalidade e do espírito jovial dele através do meio da rima lúdica.",
+            "llm_output": "Pareceu-me que, embora o pleno desfrute de La Fontaine deva ser sempre reservado para aqueles que podem lê-lo em francês, seria possível pelo menos transmitir algo de sua originalidade e espírito alegre por meio de versos leves.",
+            "score": 0.1898826798394284
+        },
+        {
+            "id": 3705,
+            "name": "en_pt_97",
+            "input": "The United Nations' Food and Agriculture Organization (FAO) is procuring a fleet of new aircraft it hopes will have the record desert locust swarms that have plagued East Africa under control by the end of the year.",
+            "output": "A Organização para a Alimentação e Agricultura (OAA) das Nações Unidas vai adquirir uma frota de aeronaves novas que espera venham a controlar, até ao final do ano, o número recorde de enxames de gafanhotos-do-deserto que têm devastado a África Oriental.",
+            "llm_output": "A Organização das Nações Unidas para Alimentação e Agricultura (FAO) está adquirindo uma frota de novas aeronaves que espera controlar os recordes de enxames de gafanhotos do deserto que têm assolado a África Oriental até o final do ano.",
+            "score": 0.18663104622035845
+        }
+    ],
+    "history_criterion": "median"
+}

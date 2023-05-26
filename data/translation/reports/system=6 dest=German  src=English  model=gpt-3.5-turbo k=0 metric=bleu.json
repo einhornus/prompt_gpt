@@ -1,0 +1,848 @@
+{
+    "system_message_file": "6",
+    "model": "gpt-3.5-turbo",
+    "parameters": {
+        "src": "English",
+        "dest": "German"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.2092040865608337,
+        0.2092040865608337,
+        0.2092040865608337,
+        0.2092040865608337,
+        0.2092040865608337,
+        0.2092040865608337,
+        0.2092040865608337,
+        0.2092040865608337,
+        0.2092040865608337,
+        0.2092040865608337
+    ],
+    "median": 0.2092040865608337,
+    "average": 0.219533237726096,
+    "std": 0.1439736953951715,
+    "percentiles": {
+        "10": 2.6378093914498234e-78,
+        "20": 0.11087248487392935,
+        "25": 0.12900438996407987,
+        "30": 0.15502201576140281,
+        "40": 0.18009030413191235,
+        "50": 0.2092040865608337,
+        "60": 0.22941283816064387,
+        "70": 0.2722201267753988,
+        "75": 0.30200208487983426,
+        "80": 0.3377716923901388,
+        "90": 0.41051972521991253
+    },
+    "n_tests": 100,
+    "prompt": [
+        {
+            "role": "system",
+            "content": "Please translate the user message from English to German. Make the translation sound as natural as possible."
+        }
+    ],
+    "tests": [
+        {
+            "id": 2658,
+            "name": "en_de_12",
+            "input": "Ding Liren is the new World Chess Champion. In the tiebreaker, the first three games ended in a draw, and the fourth, with Ding leading the black pieces in a Spanish opening, was sensationally won by the Chinese Dragon, who thus overcame the Russian Bear, Ian Nepomniachtchi. The top of the chess universe has a new face.",
+            "output": "Ding Liren ist der neue Schachweltmeister. Im Tiebreak endeten die ersten drei Partien unentschieden, und die vierte, bei der Ding die schwarzen Figuren in einer spanischen Eröffnung anführte, wurde sensationell vom chinesischen Drachen gewonnen, der damit den russischen Bären Ian Nepomniachtchi besiegte. Die Spitze des Schachuniversums hat ein neues Gesicht.",
+            "llm_output": "Ding Liren ist der neue Schachweltmeister. Im Tiebreak endeten die ersten drei Spiele unentschieden und das vierte Spiel, bei dem Ding die schwarzen Figuren in einer Spanischen Eröffnung führte, wurde sensationell vom chinesischen Drachen gewonnen, der damit den russischen Bären Ian Nepomniachtchi überwand. Die Spitze des Schachuniversums hat ein neues Gesicht.",
+            "score": 0.7227409089682356
+        },
+        {
+            "id": 2688,
+            "name": "en_de_42",
+            "input": "The Chesapeake watershed spans 64,000 squares miles, covering parts of six states—Delaware, Maryland, New York, Pennsylvania, Virginia, West Virginia, and the District of Columbia. Over 17 million people live in this area.",
+            "output": "Das Einzugsgebiet der Chesapeake-Bucht umfasst 165 800 km² und erstreckt sich über Teile von sechs Bundesstaaten – Delaware, Maryland, New York, Pennsylvania, Virginia, West Virginia – sowie die Stadt Washington. In diesem Gebiet leben über 17 Millionen Menschen.",
+            "llm_output": "Das Einzugsgebiet des Chesapeake erstreckt sich über 64.000 Quadratmeilen und umfasst Teile von sechs Bundesstaaten - Delaware, Maryland, New York, Pennsylvania, Virginia, West Virginia und dem District of Columbia. In diesem Gebiet leben über 17 Millionen Menschen.",
+            "score": 0.5558391766749284
+        },
+        {
+            "id": 2735,
+            "name": "en_de_89",
+            "input": "He said the experience has changed his life and taught him to appreciate the small things he took for granted: “living, breathing, a walk, a hug, a glass of wine, freedom.”",
+            "output": "Er sagte, die Erfahrung habe sein Leben verändert und ihn gelehrt, die kleinen Dinge zu schätzen, die er für selbstverständlich gehalten hatte: „Leben, Atmen, ein Spaziergang, eine Umarmung, ein Glas Wein, Freiheit“.",
+            "llm_output": "Er sagte, dass die Erfahrung sein Leben verändert hat und ihm beigebracht hat, die kleinen Dinge zu schätzen, die er für selbstverständlich hielt: \"Leben, Atmen, ein Spaziergang, eine Umarmung, ein Glas Wein, Freiheit.\"",
+            "score": 0.5534888526763677
+        },
+        {
+            "id": 2662,
+            "name": "en_de_16",
+            "input": "Based at Caistor St Edmunds, a few miles south of present-day Norwich, the Iceni were a Celtic tribe whose warrior queen Boudicca led a failed uprising against the occupying Romans, during which the towns of Londinium (London), Camulodunum (Colchester) and Verulamium (St Albans) were sacked.",
+            "output": "Die in Caistor St Edmunds, einige Meilen südlich des heutigen Norwich, anässigen Icener waren ein keltischer Stamm, dessen Kriegerkönigin Boudicca einen missglückten Aufstand gegen die römischen Besatzer anführte, bei dem die Städte Londinium (London), Camulodunum (Colchester) und Verulamium (St Albans) geplündert und gebrandschatzt wurden.",
+            "llm_output": "Die Icener waren ein keltischer Stamm mit Sitz in Caistor St. Edmunds, wenige Meilen südlich des heutigen Norwich. Ihre Kriegerkönigin Boudicca führte einen gescheiterten Aufstand gegen die römischen Besatzer an, bei dem die Städte Londinium (London), Camulodunum (Colchester) und Verulamium (St. Albans) geplündert wurden.",
+            "score": 0.5509346257107566
+        },
+        {
+            "id": 2675,
+            "name": "en_de_29",
+            "input": "Ruy López de Segura, a priest and a famous Spanish chess player of the 16th century, wrote a book of 150 pages, called Libro del Ajedrez, about exhaustive studies he made on the opening (1. e4 e5 2. ♘f3 ♘c6 3. ♗b5) that is named after him.",
+            "output": "Ruy López de Segura, ein Priester und berühmter spanischer Schachspieler des 16. Jahrhunderts, schrieb ein 150seitiges Buch mit dem Titel „Libro del Ajedrez“ über umfassende Studien, die er zu der nach ihm benannten Eröffnung 1. e4 e5 2. ♘f3 ♞c6 3. ♗b5 angestellt hatte.",
+            "llm_output": "Ruy López de Segura, ein Priester und berühmter spanischer Schachspieler des 16. Jahrhunderts, schrieb ein Buch mit 150 Seiten namens \"Libro del Ajedrez\" über umfassende Studien, die er zur Eröffnung (1. e4 e5 2. ♘f3 ♘c6 3. ♗b5) durchgeführt hat, die nach ihm benannt ist.",
+            "score": 0.49382400226983414
+        },
+        {
+            "id": 2724,
+            "name": "en_de_78",
+            "input": "Honor your father with all your heart, and do not forget your mother's labor pains. Remember that by them you were begotten, and try to repay them for what you have received from them.",
+            "output": "Ehre deinen Vater von ganzem Herzen und vergiss nicht die Geburtswehen deiner Mutter. Bedenke, dass du von ihnen gezeugt wurdest, und trachte danach, ihnen zurückzuzahlen, was du von ihnen erhalten hast.",
+            "llm_output": "Ehre deinen Vater mit ganzem Herzen und vergiss nicht die Wehen deiner Mutter. Bedenke, dass du durch sie gezeugt wurdest, und versuche, ihnen für das, was du von ihnen erhalten hast, zu danken.",
+            "score": 0.46247957241473453
+        },
+        {
+            "id": 2695,
+            "name": "en_de_49",
+            "input": "The match for the FIDE 2023 World Chess Championship is tied (6 X 6), with Ding Liren (White) winning the twelfth game. Only two more games remain for one of the competitors to achieve the decisive advantage.",
+            "output": "Das Spiel um die FIDE-Schachweltmeisterschaft 2023 ist unentschieden (6 x 6), wobei Ding Liren (Weiß) die zwölfte Partie gewonnen hat. Es verbleiben nur noch zwei Partien, in denen einer der Teilnehmer den entscheidenden Vorteil erlangen kann.",
+            "llm_output": "Das Match für die FIDE Schachweltmeisterschaft 2023 steht unentschieden (6 X 6), wobei Ding Liren (Weiß) das zwölfte Spiel gewonnen hat. Es bleiben nur noch zwei Spiele übrig, damit einer der Konkurrenten den entscheidenden Vorteil erlangen kann.",
+            "score": 0.44924762074644015
+        },
+        {
+            "id": 2728,
+            "name": "en_de_82",
+            "input": "In a wooden box in a drawer she kept a faded colour photograph of her father sitting in his rowing boat, leaning forwards with his arms outstretched, his hands gripping the oars.",
+            "output": "In einem Holzschächtelchen in einer Schublade bewahrte sie ein verblichenes Farbfoto ihres Vaters auf, wie er, sich mit ausgestreckten Armen nach vorne lehnend, in seinem Ruderboot saß, in den Händen fest die Ruder.",
+            "llm_output": "In einer hölzernen Kiste in einer Schublade bewahrte sie ein verblasstes Farbfoto ihres Vaters auf, wie er in seinem Ruderboot saß, nach vorne gebeugt mit ausgestreckten Armen und Händen, die die Rudergriffe umfassten.",
+            "score": 0.4165515652179721
+        },
+        {
+            "id": 2723,
+            "name": "en_de_77",
+            "input": "With a rook-to-knight exchange on d4, when the game was even, Ding Liren (white) easily won the fourth game of the FIDE 2023 World Chess Championship, tying the match (Nepo 2, Ding 2).",
+            "output": "Mit einem Turm-Springer-Tausch auf d4, als die Position ausgeglichen war, gewann Ding Liren (Weiß) die vierte Partie der FIDE-Schachweltmeisterschaft 2023 mit Leichtigkeit und glich das Match aus (Nepo 2, Ding 2).",
+            "llm_output": "Durch einen Turm-zu-Springer-Tausch auf d4, als das Spiel ausgeglichen war, gewann Ding Liren (Weiß) mühelos das vierte Spiel der FIDE Schachweltmeisterschaft 2023 und glich damit den Stand aus (Nepo 2, Ding 2).",
+            "score": 0.41385470263393187
+        },
+        {
+            "id": 2649,
+            "name": "en_de_3",
+            "input": "What is a club in any case? Not the buildings or the directors or the people who are paid to represent it. It’s not the television contracts, get-out clauses, marketing departments or executive boxes. It’s the noise, the passion, the feeling of belonging, the pride in your city. It’s a small boy clambering up stadium steps for the very first time, gripping his father’s hand, gawping at that hallowed stretch of turf beneath him and, without being able to do a thing about it, falling in love.",
+            "output": "Was ist denn eigentlich ein Verein? Nicht die Gebäude oder die Direktoren oder die Leute, die dafür bezahlt werden, ihn zu repräsentieren; nicht die Fernsehverträge, Ausstiegsklauseln, Vertriebsabteilungen oder Führungslogen; nein, es ist der Lärm, die Leidenschaft, das Zugehörigkeitsgefühl, der Stolz auf unsere Stadt; ein kleiner Junge, der zum allerersten Mal, sich an der Hand seines Vaters festhaltend, die Stufen des Stadions erklimmt und hinunterblickt auf den heiligen Rasen, der sich unter ihm erstreckt, und sich, ohne etwas dagegen tun zu können, verliebt.",
+            "llm_output": "Was ist ein Verein eigentlich? Nicht die Gebäude oder die Direktoren oder die Menschen, die dafür bezahlt werden, ihn zu vertreten. Es sind nicht die Fernsehverträge, Ausstiegsklauseln, Marketingabteilungen oder VIP-Logen. Es ist der Lärm, die Leidenschaft, das Gefühl der Zugehörigkeit, der Stolz auf deine Stadt. Es ist ein kleiner Junge, der zum ersten Mal die Stadionstufen erklimmt, die Hand seines Vaters festhaltend, auf das heilige Stück Rasen unter ihm starrend und sich unweigerlich verliebt, ohne etwas dagegen tun zu können.",
+            "score": 0.41299518484805703
+        },
+        {
+            "id": 2730,
+            "name": "en_de_84",
+            "input": "England have won the 2022 UEFA European Women's Championship. It is the country's first major football honour for any senior team since 1966, and only the second in its history.",
+            "output": "England hat die Europameisterschaft der Frauen 2022 gewonnen. Das ist seit 1966 die erste große Fußballauszeichnung irgendeiner A-Auswahl des Landes überhaupt und erst die zweite in der Geschichte.",
+            "llm_output": "England hat die UEFA Europameisterschaft der Frauen 2022 gewonnen. Es ist die erste bedeutende Fußballauszeichnung für eine englische Seniorenmannschaft seit 1966 und erst die zweite in der Geschichte des Landes.",
+            "score": 0.41024467415011867
+        },
+        {
+            "id": 2684,
+            "name": "en_de_38",
+            "input": "The postie's been. I've got my GCSE results! \"Go on then, open it! What does it say?\" \"All right, all right. 'This is to certify that Josephine Bloggs achieved the following results in ten subjects: Mathematics: F—' Oh, god.\"",
+            "output": "„Der Postbote war da. Ich habe meine GCSE-Ergebnisse bekommen!“ – „Na, dann mach sie mal auf! Was steht drin?“ – „Also gut! ‚Hiermit wird bescheinigt, dass Josephine Bloggs in zehn Fächern die folgenden Leistungen erbracht hat: Mathematik: F ...‘“ – „O Gott!“",
+            "llm_output": "Der Postbote war da. Ich habe meine GCSE-Ergebnisse bekommen! \"Na los, öffne es! Was steht drin?\" \"Okay, okay. 'Hiermit wird bescheinigt, dass Josephine Bloggs in zehn Fächern folgende Ergebnisse erzielt hat: Mathematik: F—' Oh Gott.\"",
+            "score": 0.3866962727056531
+        },
+        {
+            "id": 2738,
+            "name": "en_de_92",
+            "input": "On Sundays, I was allowed to use my mum's record player, she said. \"I played her Beatles and Small Faces, and my Madness and Kate Bush until Dad came home from the pub.\"",
+            "output": "„Sonntags durfte ich den Plattenspieler meine Mutter benutzen“, sagte sie. „Ich spielte von ihr die Beatles und die Small Faces und von mir Madness und Kate Bush, bis mein Vater aus der Kneipe nach Hause kam.“",
+            "llm_output": "An Sonntagen durfte ich den Plattenspieler meiner Mutter benutzen, sagte sie. \"Ich spielte ihr die Beatles und Small Faces vor, und meine Madness und Kate Bush, bis mein Vater vom Pub nach Hause kam.\"",
+            "score": 0.38156051551884407
+        },
+        {
+            "id": 2710,
+            "name": "en_de_64",
+            "input": "Nepo has the potential to be a world champion, even against Magnus Carlsen, but he seems to keep reaching his psychological limits, making serious mistakes that shouldn't happen at this level.",
+            "output": "Nepo hat das Potential zum Weltmeister, selbst gegen Magnus Carlsen, aber er scheint immer wieder psychisch an seine Grenzen zu stoßen, so dass ihm schwere Fehler unterlaufen, die auf diesem Niveau eigentlich nicht passieren dürften.",
+            "llm_output": "Nepo hat das Potenzial, Weltmeister zu werden, sogar gegen Magnus Carlsen, aber er scheint immer wieder an seine psychologischen Grenzen zu stoßen und macht dabei ernsthafte Fehler, die auf diesem Niveau nicht passieren sollten.",
+            "score": 0.36831645276521463
+        },
+        {
+            "id": 2701,
+            "name": "en_de_55",
+            "input": "The poor fox had mange. You could tell by the fact that he had no hair at all on his normally bushy tail and looked awful in general. We therefore put out feed with a vaccine to help him get well again.",
+            "output": "Der arme Fuchs hatte Räude. Das war daran zu erkennen, dass er gar keine Haare mehr an seinem normalerweise buschigen Schwanz hatte und überhaupt schlimm aussah. Wir legten daher Futter mit einem Impfstoff aus, der ihm helfen sollte, wieder gesund zu werden.",
+            "llm_output": "Der arme Fuchs hatte Krätze. Man konnte es daran erkennen, dass er überhaupt keine Haare an seinem normalerweise buschigen Schwanz hatte und insgesamt schrecklich aussah. Deshalb haben wir Futter mit einem Impfstoff ausgelegt, um ihm zu helfen, wieder gesund zu werden.",
+            "score": 0.3636744661464975
+        },
+        {
+            "id": 2737,
+            "name": "en_de_91",
+            "input": "Not only do women already earn 82 cents for every dollar a man makes, but they also pay more for personal products and services like razors, shampoo, haircuts and clothes.",
+            "output": "Nicht genug, dass Frauen nur 82 Kreuzer für jeden Taler verdienen, den ein Mann bekommt: sie geben auch mehr für persönliche Produkte und Dienstleistungen wie Rasierer, Haarwaschmittel, Friseurbesuche und Kleidung aus.",
+            "llm_output": "Frauen verdienen nicht nur bereits 82 Cent für jeden Dollar, den ein Mann verdient, sondern zahlen auch mehr für persönliche Produkte und Dienstleistungen wie Rasierer, Shampoo, Haarschnitte und Kleidung.",
+            "score": 0.3562343676355096
+        },
+        {
+            "id": 2660,
+            "name": "en_de_14",
+            "input": "In the 12th game of the World Championship Nepo was already on a win and would have needed only a draw for the title, but in a dramatic back-and-forth, in which both players made serious mistakes, he gave the game away and lost - incredibly bitter for him. Ding, on the other hand, managed to equalize at 6½ : 6½.",
+            "output": "In der 12. Partie der Weltmeisterschaft stand Nepo schon auf Gewinn und hätte dann nur noch ein Remis für den Titel gebraucht, aber in einem dramatischen Hin und Her, in dem beiden Spielern schwere Fehler unterliefen, hat er das Spiel doch noch aus der Hand gegeben und verloren – unglaublich bitter für ihn. Ding hingegen schaffte den Ausgleich auf 6½ : 6½.",
+            "llm_output": "Im zwölften Spiel der Weltmeisterschaft hatte Nepo bereits einen Sieg errungen und hätte nur noch ein Unentschieden für den Titel gebraucht, aber in einem dramatischen Hin und Her, bei dem beide Spieler schwere Fehler machten, gab er das Spiel auf und verlor - unglaublich bitter für ihn. Ding hingegen schaffte es, auf 6½ : 6½ auszugleichen.",
+            "score": 0.3553262113865631
+        },
+        {
+            "id": 2721,
+            "name": "en_de_75",
+            "input": "She had stationed herself by the tube entrance and was leaning against the tiled wall, listening to the music coming from a pub across the road, when her friends came walking into view.",
+            "output": "Sie hatte sich am Eingang der U-Bahn positioniert und lauschte gerade, gegen die geflieste Wand gelehnt, der Musik, die aus einem Pub auf der anderen Straßenseite herüberschallte, als ihre Freunde ins Sichtfeld geschritten kamen.",
+            "llm_output": "Sie hatte sich am Eingang der U-Bahn-Station positioniert und lehnte sich gegen die geflieste Wand, während sie der Musik lauschte, die aus einer Kneipe auf der anderen Straßenseite kam, als ihre Freunde in Sichtweite kamen.",
+            "score": 0.3459516500691776
+        },
+        {
+            "id": 2703,
+            "name": "en_de_57",
+            "input": "Alan Garner is the oldest author ever to be included in the shortlist for the Booker Prize, Britain's best known annual literary award. He is also the only British author to be shortlisted this year.",
+            "output": "Alan Garner ist der älteste Schriftsteller, der jemals in die engere Wahl für den „Booker Prize“ gekommen ist, den bekanntesten, jedes Jahr vergebenen Literaturpreis Großbritanniens. Er ist auch der einzige britische Autor, der dieses Jahr in diese Auswahl gekommen ist.",
+            "llm_output": "Alan Garner ist der älteste Autor, der jemals in die Shortlist für den Booker Prize aufgenommen wurde, Großbritanniens bekanntester jährlicher Literaturpreis. Er ist auch der einzige britische Autor, der in diesem Jahr nominiert wurde.",
+            "score": 0.34323847504185634
+        },
+        {
+            "id": 2667,
+            "name": "en_de_21",
+            "input": "While still an undergraduate, Adams performed an investigation to try to explain the reason for the irregularities in the motion of the planet Uranus. He theorized that the unexpected planetary orbit could be due to the presence of an as yet undiscovered planet.",
+            "output": "Noch als Student forschte Adams an einer Erklärung für die Unregelmäßigkeiten in der Bewegung des Planeten Uranus. Er vermutete, dass die unerwartete Planetenbahn durch das Vorhandensein eines bis dahin noch unentdeckten Planeten hervorgerufen werden könnte.",
+            "llm_output": "Während er noch ein Student war, führte Adams eine Untersuchung durch, um zu versuchen, die Ursache für die Unregelmäßigkeiten in der Bewegung des Planeten Uranus zu erklären. Er vermutete, dass die unerwartete Planetenbahn auf die Anwesenheit eines noch unentdeckten Planeten zurückzuführen sein könnte.",
+            "score": 0.3384863545190477
+        },
+        {
+            "id": 2718,
+            "name": "en_de_72",
+            "input": "Near Wildeshausen, in northern Germany, medics had to attend to a group of about 20 children and teens Monday night after the air conditioning in the bus they were traveling in broke down.",
+            "output": "In der Nähe von Wildeshausen in Norddeutschland musste am Montagabend eine Gruppe von ca. 20 Kindern und Jugendlichen medizinisch versorgt werden, nachdem in dem Bus, mit dem diese unterwegs waren, die Klimaanlage ausgefallen war.",
+            "llm_output": "In der Nähe von Wildeshausen im Norden Deutschlands mussten Rettungskräfte am Montagabend eine Gruppe von etwa 20 Kindern und Jugendlichen behandeln, nachdem die Klimaanlage im Bus, in dem sie unterwegs waren, ausgefallen war.",
+            "score": 0.3375930268579116
+        },
+        {
+            "id": 2672,
+            "name": "en_de_26",
+            "input": "If you see a small woman somewhere today looking hot and bothered and hurrying down the street with a suitcase that's far too big, give me an encouraging smile. I could do with it, because I'm about to embark on the biggest journey of my life.",
+            "output": "Sollten Sie heute irgendwo eine kleine, aufgeregte Frau mit einem viel zu großen Koffer die Straße entlangeilen sehen, schenken Sie mir ein aufmunterndes Lächeln. Dieses kann ich gut gebrauchen, denn ich schicke mich an, die größte Reise meines Lebens zu unternehmen.",
+            "llm_output": "Wenn du heute irgendwo eine kleine Frau siehst, die heiß und müde aussieht und mit einem viel zu großen Koffer die Straße entlang eilt, gib mir ein ermutigendes Lächeln. Ich könnte es gebrauchen, denn ich stehe kurz davor, die größte Reise meines Lebens anzutreten.",
+            "score": 0.3345233759651099
+        },
+        {
+            "id": 2673,
+            "name": "en_de_27",
+            "input": "Neptune was discovered because Uranus did not follow the orbital path predicted by astronomers. Astronomers assumed that the gravitational pull of another object was affecting the orbit of Uranus. This led them to look for, and find, Neptune.",
+            "output": "Neptun wurde entdeckt, weil Uranus nicht der von den Astronomen vorhergesagten Bahn folgte. Die Astronomen vermuteten, dass die Anziehungskraft eines anderen Objekts die Uranusbahn beeinflusse, woraufhin sie Neptun suchten und auch fanden.",
+            "llm_output": "Neptun wurde entdeckt, weil Uranus nicht der von Astronomen vorhergesagten Umlaufbahn folgte. Astronomen gingen davon aus, dass die Gravitationskraft eines anderen Objekts die Umlaufbahn von Uranus beeinflusste. Dies führte dazu, dass sie nach Neptun suchten und ihn fanden.",
+            "score": 0.3147555824573362
+        },
+        {
+            "id": 2647,
+            "name": "en_de_1",
+            "input": "Imagine two people having a conversation. One of them, who needs to get to the shops on time to buy a present, exclaims with relief that the shop is still open. \"Easy so far. You're more or less describing how my partner and I spend every Christmas Eve. It's always a mad rush.\" \"Actually, I imagined this as a telephone conversation, the second speaker having given directions over the phone to the first speaker to a shop. But it could also be a conversation taking place in person as the still-open shop comes into view.\"",
+            "output": "„Stell dir vor, zwei Leute unterhalten sich und der eine, der noch rechtzeitig in ein Geschäft muss, um ein Geschenk zu kaufen, ruft erleichert aus, dass dasselbe noch geöffnet ist.“ – „Das ist leicht! Du beschreibst mehr oder weniger, wie mein Partner und ich immer Heiligabend verbringen. Das ist immer eine Wahnsinnshetzerei.“ – „Eigentlich habe ich mir das als Telefongespräch vorgestellt, bei dem der zweite Sprecher dem ersten am Telefon den Weg zu einem Geschäft erklärt hat. Es könnte sich aber auch um ein persönliches Gespräch handeln, das stattfindet, als das noch geöffnete Geschäft gerade in Sicht kommt.“",
+            "llm_output": "Stell dir vor, zwei Personen unterhalten sich. Einer von ihnen muss rechtzeitig zum Geschäft kommen, um ein Geschenk zu kaufen und erleichtert ruft er aus, dass das Geschäft noch geöffnet ist. \"Bisher einfach. Du beschreibst im Grunde genommen, wie mein Partner und ich jeden Heiligabend verbringen. Es ist immer eine verrückte Hetzerei.\" \"Tatsächlich habe ich mir das als Telefongespräch vorgestellt, wobei der zweite Sprecher dem ersten Sprecher am Telefon Anweisungen zum Geschäft gegeben hat. Aber es könnte auch ein Gespräch sein, das stattfindet, als das noch geöffnete Geschäft in Sicht kommt.\"",
+            "score": 0.306083989278107
+        },
+        {
+            "id": 2656,
+            "name": "en_de_10",
+            "input": "The question of whether it is at all possible to hold caramel ice cream was answered in the affirmative in 2019 by an international team of scientists who made a glove out of an ultra-tough tungsten molybdenum alloy and were able to successfully hold it for a split second before they, too, succumbed to temptation and ate it all up.",
+            "output": "Die Frage, ob es überhaupt möglich sei, Karamelleis zu halten, wurde 2019 durch ein internationales Forscherteam positiv beantwortet. Sie hatten einen Handschuh aus einer ultrawiderstandsfähigen Wolfram-Molybdän-Legierung hergestellt und schafften es, das Eis für den Bruchteil einer Sekunde zu halten, bevor auch sie der Versuchung erlagen und es komplett aufaßen.",
+            "llm_output": "Die Frage, ob es überhaupt möglich ist, Karamell-Eiscreme zu halten, wurde im Jahr 2019 von einem internationalen Team von Wissenschaftlern bejaht, die einen Handschuh aus einer ultraharten Wolfram-Molybdän-Legierung herstellten und es für einen kurzen Moment erfolgreich halten konnten, bevor auch sie der Versuchung erlagen und alles aufaßen.",
+            "score": 0.305253142385475
+        },
+        {
+            "id": 2732,
+            "name": "en_de_86",
+            "input": "If I wasn't a human girl I think I'd like to be a bee and live among the flowers. \"Yesterday you wanted to be a sea gull,\" sniffed Marilla. \"I think you are very fickle minded.\"",
+            "output": "„Wenn ich kein Menschenmädchen wäre, wollte ich gerne eine Biene sein und zwischen den Blumen leben.“ – „Gestern wolltest du eine Seemöwe sein“, schnaubte Marilla. „Ich finde, du bist sehr flatterhaft.“",
+            "llm_output": "Wenn ich kein menschliches Mädchen wäre, würde ich gerne eine Biene sein und unter den Blumen leben. \"Gestern wolltest du eine Möwe sein\", schnaubte Marilla. \"Ich denke, du bist sehr wankelmütig.\"",
+            "score": 0.30091839904462064
+        },
+        {
+            "id": 2674,
+            "name": "en_de_28",
+            "input": "A new study by Potsdam University and the German Research Centre for Geosciences GFZ finds recent droughts in central Europe have seriously depleted groundwater resources that forests depend on, leaving a major deficit despite winter rains.",
+            "output": "Einer neuen Studie der Universität Potsdam und des Deutschen Geoforschungszentrums (GFZ) zufolge sind die für die Wälder wichtigen Grundwasserresourcen in Mitteleuropa aufgrund der jüngsten Dürren stark zurückgegangen, wodurch trotz des Regens im Winter ein großes Defizit entstanden ist.",
+            "llm_output": "Eine neue Studie der Universität Potsdam und des Deutschen GeoForschungsZentrums (GFZ) zeigt, dass die jüngsten Dürren in Mitteleuropa die Grundwasserressourcen, von denen Wälder abhängen, ernsthaft erschöpft haben. Trotz Winterregen besteht ein erheblicher Defizit.",
+            "score": 0.30049584447092426
+        },
+        {
+            "id": 2715,
+            "name": "en_de_69",
+            "input": "The Yiddish word \"feygele,\" which literally means \"little bird,\" has been used as a homophobic slur since the 20th century, though it has recently been reclaimed by many gay Yiddish speakers.",
+            "output": "Das jiddische Wort „feygele“ („Vögelein“) wird seit dem 20. Jahrhundert als homophobe Beleidigung verwendet; in letzter Zeit machen es sich aber auch viele homosexuelle Jiddischsprecher selbst zu eigen.",
+            "llm_output": "Das jiddische Wort \"feygele\", das wörtlich \"kleiner Vogel\" bedeutet, wird seit dem 20. Jahrhundert als homophobe Beleidigung verwendet, obwohl es von vielen schwulen jiddischen Sprechern in letzter Zeit wieder in Gebrauch genommen wurde.",
+            "score": 0.2887308472548599
+        },
+        {
+            "id": 2648,
+            "name": "en_de_2",
+            "input": "Through the discovery of the New World and its inhabitants, theologists were in a quandary, which they tried to overcome in various ways. Thus the doctrine came about that there were other ancestors besides Adam in other parts of the world. Grand Inquisitor Tomás de Torquemada believed that humans and animals had been carried by angels across the ocean. And still others, such as the Jesuit priest Joseph-François Lafitau, simply denied that the Indians were ever created by God - only atheists could make such a claim.",
+            "output": "Durch die Entdeckung Amerikas mit seinen Bewohnern geriet man in theologische Erklärungsnot, die man mit verschiedenen Ansätzen zu lösen versuchte. So kam etwa die Lehre auf, dass es neben Adam noch andere Stammväter in anderen Teilen der Welt gegeben habe. Großinquisitor Tomás de Torquemada glaubte, die Menschen und Tiere seien von Engeln über den Ozean getragen worden. Und wieder andere, wie der Jesuitenpater Joseph-François Lafitau, bestritten schlicht, dass die Indianer überhaupt von Gott geschaffen worden seien – nur Atheisten könnten so etwas behaupten.",
+            "llm_output": "Durch die Entdeckung der Neuen Welt und ihrer Bewohner gerieten Theologen in ein Dilemma, das sie auf verschiedene Weise zu überwinden versuchten. So entstand die Lehre, dass es in anderen Teilen der Welt außer Adam auch andere Vorfahren gab. Der Großinquisitor Tomás de Torquemada glaubte, dass Menschen und Tiere von Engeln über den Ozean getragen worden waren. Und wieder andere, wie der Jesuitenpriester Joseph-François Lafitau, bestritten einfach, dass die Indianer jemals von Gott erschaffen wurden - nur Atheisten könnten eine solche Behauptung aufstellen.",
+            "score": 0.2879544910325466
+        },
+        {
+            "id": 2681,
+            "name": "en_de_35",
+            "input": "It used to be said of the city of Norwich that it had a church for every week of the year and a pub for every day. Nowadays, however, many of the remaining churches have other uses, and the city is host to far fewer watering holes.",
+            "output": "Früher hieß es von der Stadt Norwich, dass es für jede Woche im Jahr eine Kirche und für jeden Tag einen Pub gebe. Inzwischen haben viele der verbliebenen Kirchen jedoch eine Umnutzung erfahren, und die Stadt beherbergt auch weit weniger Kneipen.",
+            "llm_output": "Früher sagte man von der Stadt Norwich, dass es eine Kirche für jede Woche des Jahres und eine Kneipe für jeden Tag gab. Heutzutage haben jedoch viele der verbleibenden Kirchen andere Verwendungen und die Stadt beherbergt weit weniger Trinklokale.",
+            "score": 0.2728916191693791
+        },
+        {
+            "id": 2651,
+            "name": "en_de_5",
+            "input": "Maybe, it's a crazy idea that there is God or are gods and there are aliens. I surmise that God is or the gods are not like persons. And hierarchically, there are aliens below. Aliens have a more immediate controlling influence over my life. God could be everything or everything and beyond it, respectively pantheism and panentheism. God could be more like space, light, or wind. Meanwhile, aliens could be sentient beings, more like people.",
+            "output": "Vielleicht ist es eine verrückte Idee, dass es einen Gott oder Götter gibt, und dass es Aliens gibt. Ich nehme an, dass Gott nicht so ist, bzw. die Götter nicht so sind wie Menschen. Und hierarchisch unter ihm oder ihnen stehen die Aliens. Aliens haben einen unmittelbareren kontrollierenden Einfluss auf mich. Gott könnte alles sein oder alles und noch darüber hinaus, also Pantheismus bzw. Panentheismus. Gott könnte etwa so sein wie der Raum, das Licht oder der Wind, Aliens hingegen wie fühlende Wesen, mehr wie Menschen.",
+            "llm_output": "Vielleicht ist es eine verrückte Idee, dass es Gott oder Götter und Aliens gibt. Ich vermute, dass Gott oder die Götter nicht wie Personen sind. Und hierarchisch gesehen gibt es Aliens darunter. Aliens haben einen direkteren kontrollierenden Einfluss auf mein Leben. Gott könnte alles sein oder alles und darüber hinaus, nämlich Pantheismus und Panentheismus. Gott könnte eher wie Raum, Licht oder Wind sein. In der Zwischenzeit könnten Aliens fühlende Wesen sein, eher wie Menschen.",
+            "score": 0.2719323443208358
+        },
+        {
+            "id": 2698,
+            "name": "en_de_52",
+            "input": "Pope Francis Thursday said his thoughts are with musicians and those who work in the music industry whose livelihood has been all but eliminated by restrictions imposed as a result of the COVID-19 pandemic.",
+            "output": "Papst Franziskus sagte am Donnerstag, seine Gedanken seien bei den Musikern und denen, die in der Musikindustrie arbeiteten, denn die hätten durch die aufgrund der COVID-19-Pandemie verhängten Einschränkungen nahezu ihre Lebensgrundlage verloren.",
+            "llm_output": "Papst Franziskus sagte am Donnerstag, dass er an Musiker und diejenigen denkt, die in der Musikindustrie arbeiten und deren Lebensunterhalt durch die Einschränkungen, die aufgrund der COVID-19-Pandemie auferlegt wurden, fast vollständig beseitigt wurde.",
+            "score": 0.27021732648475527
+        },
+        {
+            "id": 2663,
+            "name": "en_de_17",
+            "input": "With high-precision performances from both players, the eleventh match of the FIDE World Chess Championship 2023 ended in a draw. Now (April 24): Nepo 6, Ding Liren 5. Three more draws will be enough for the Russian to reach the tally (7.5) which will give him the title of World Champion",
+            "output": "Die elfte Partie der FIDE-Schachweltmeisterschaft 2023 endete mit einem Remis, da beide Spieler sehr präzise spielten. Jetzt (24. April): Nepo 6, Ding Liren 5. Dem Russen reichen drei weitere Unentschieden, um die Punktzahl (7,5) zu erreichen, die ihm den Titel des Weltmeisters einbringt.",
+            "llm_output": "Mit präzisen Leistungen von beiden Spielern endete das elfte Spiel der FIDE Schachweltmeisterschaft 2023 unentschieden. Aktueller Stand (24. April): Nepo 6, Ding Liren 5. Drei weitere Unentschieden werden ausreichen, damit der Russe mit einer Gesamtpunktzahl von 7,5 den Titel des Weltmeisters gewinnt.",
+            "score": 0.2615269572964945
+        },
+        {
+            "id": 2670,
+            "name": "en_de_24",
+            "input": "The last time Dave saw Danielle was one summer evening through the window of a chip shop: she was inside, squinting at the price list on the wall behind the counter, and he was in the street on his way to the pub with Teresa, his new girlfriend.",
+            "output": "Das letztemal hat David Daniela eines Sommerabends in einer Pommesbude gesehen: sie sah sich drinnen mit zusammengekniffenen Augen die Preisliste hinter dem Tresen an, und er war draußen gerade auf dem Weg zum Pub mit Teresa, seiner neuen Freundin.",
+            "llm_output": "Das letzte Mal, als Dave Danielle sah, war an einem Sommerabend durch das Fenster eines Imbisses: Sie war drinnen und blinzelte auf die Preisliste an der Wand hinter dem Tresen, während er auf dem Weg zum Pub mit Teresa, seiner neuen Freundin, auf der Straße war.",
+            "score": 0.26089177643207306
+        },
+        {
+            "id": 2696,
+            "name": "en_de_50",
+            "input": "Orpheus was the son of Apollo and the Muse Calliope. He was presented by his father with a Lyre and taught to play upon it, which he did to such perfection that nothing could withstand the charm of his music.",
+            "output": "Orpheus war der Sohn des Apoll und der Muse Calliope. Sein Vater schenkte ihm die Lyra und lehrte ihn darauf spielen, was er in solcher Vollkommenheit tat, dass nichts dem Zauber seiner Musik widerstehen konnte.",
+            "llm_output": "Orpheus war der Sohn von Apollo und der Muse Kalliope. Sein Vater schenkte ihm eine Lyra und brachte ihm bei, darauf zu spielen. Orpheus spielte so perfekt, dass nichts der Anziehungskraft seiner Musik widerstehen konnte.",
+            "score": 0.2598919128094275
+        },
+        {
+            "id": 2704,
+            "name": "en_de_58",
+            "input": "Then he called the bridegroom aside and said, \"Everyone brings out the choice wine first and then the cheaper wine after the guests have had too much to drink, but you have saved the best till now.\"",
+            "output": "Dann nahm er den Bräutigam beiseite und sagte zu ihm: „Jeder bietet zuerst den besten Wein an und lässt den billigsten übrig, bis die Gäste genug haben, aber den besten hast du dir bisher aufgehoben.“",
+            "llm_output": "Dann rief er den Bräutigam beiseite und sagte: \"Jeder bringt zuerst den besten Wein und dann den billigeren, wenn die Gäste schon zu viel getrunken haben. Aber du hast das Beste bis jetzt aufgehoben.\"",
+            "score": 0.24721090820433894
+        },
+        {
+            "id": 2743,
+            "name": "en_de_97",
+            "input": "In 2003, the George W. Bush administration created the President's Emergency Plan for AIDS Relief (PEPFAR), an initiative to address the global epidemic.",
+            "output": "Im Jahre 2003 rief die Regierung unter George W. Bush den „Präsidentalen Notfallplan zur AIDS-Hilfe“ (engl. the President’s Emergency Plan for AIDS Relief, PEPFAR) ins Leben, eine Initiative, die sich mit der weltweiten Epidemie befassen sollte.",
+            "llm_output": "Im Jahr 2003 hat die Regierung von George W. Bush den \"President's Emergency Plan for AIDS Relief\" (PEPFAR) ins Leben gerufen, eine Initiative zur Bekämpfung der globalen Epidemie.",
+            "score": 0.24348815628068585
+        },
+        {
+            "id": 2700,
+            "name": "en_de_54",
+            "input": "Sixteen-year-old Greta Thunberg—named Time magazine's Person of the Year—has catalyzed a once-lonely school climate strike into a worldwide weekly movement gathering tens of thousands of fellow teenagers.",
+            "output": "Die 16jährige Greta Thunberg, der „Mensch des Jahres“ des Magazins „Time“, hat einen einst einsamen Schulstreik für das Klima zu einer weltweiten wöchentlichen Bewegung Zehntausender sich versammelnder Mitjugendlicher emporwachsen lassen.",
+            "llm_output": "Die 16-jährige Greta Thunberg, die von Time Magazine zur Person des Jahres ernannt wurde, hat einen einst einsamen Schulstreik für das Klima in eine weltweite wöchentliche Bewegung verwandelt, bei der Zehntausende von gleichaltrigen Teenagern zusammenkommen.",
+            "score": 0.24214093597439865
+        },
+        {
+            "id": 2731,
+            "name": "en_de_85",
+            "input": "Do you know anyone in Bristol? \"No. Why?\" \"A mate of mine gave me tickets for a gig there at the weekend. I was just wondering if I could doss on someone's floor for the night.\"",
+            "output": "„Kennst du wen in Bristol?“ – „Nö. Wieso?“ – „Ein Kumpel hat mir Eintrittskarten für ein Konzert am Wochenende dort gegeben, und da hab’ ich so überlegt, ob ich die Nacht nicht bei wem auf dem Boden pennen könnte.“",
+            "llm_output": "Kennst du jemanden in Bristol? \"Nein. Warum?\" \"Ein Kumpel von mir hat mir Tickets für ein Konzert am Wochenende dort gegeben. Ich habe mich gefragt, ob ich bei jemandem auf dem Boden übernachten könnte.\"",
+            "score": 0.2366997220499208
+        },
+        {
+            "id": 2650,
+            "name": "en_de_4",
+            "input": "Football programmes are usually A5-sized booklets which are sold on the day a match is taking place. They're usually produced by the home football club, meaning a programme for the City versus United game is produced by City. Ostensibly, they're about that forthcoming match, and have team news and information, interviews with people at the club, often a piece written by the home team's manager, news about the opposing team, and so on. They're usually regarded as memorabilia.",
+            "output": "Fußballprogramme sind Hefte – meist im DIN-A5-Format –, die am Austragungstag eines Spieles verkauft werden und in der Regel vom gastgebenden Verein herausgebracht werden, das heißt, dass ein Programm für das Spiel City gegen United von City erstellt wird. Vorgeblich geht es darin um das bevorstehende Spiel; so sind Neuigkeiten und Wissenswertes über die Mannschaft enthalten, Gespräche mit Vereinsmitgliedern, oft ein Beitrag des Trainers, Meldungen über die gegnerische Mannschaft usf. Gewöhnlich betrachtet man diese Programme als Memorabilia.",
+            "llm_output": "Fußballprogramme sind in der Regel A5-große Booklets, die am Tag des Spiels verkauft werden. Sie werden in der Regel vom Heimverein produziert, was bedeutet, dass ein Programm für das Spiel City gegen United von City produziert wird. Im Wesentlichen geht es um das bevorstehende Spiel und enthält Mannschaftsnews und Informationen, Interviews mit Personen im Verein, oft ein Stück, das vom Manager des Heimteams geschrieben wurde, Nachrichten über das gegnerische Team und so weiter. Sie werden in der Regel als Erinnerungsstücke angesehen.",
+            "score": 0.23148817411199712
+        },
+        {
+            "id": 2706,
+            "name": "en_de_60",
+            "input": "Why don't you move to an area where there's more going on? \"It's not that simple. I'm married with kids—\" \"And your husband comes from round here.\" \"My wife, actually. No, she's from Middlesbrough.\"",
+            "output": "„Zieh doch irgendwohin, wo mehr los ist!“ – „So einfach ist das nicht. Ich bin verheiratet und habe Kinder.“ – „Und dein Mann kommt aus dieser Gegend.“ – „Genaugenommen meine Frau. Nein, die kommt aus Middlesbrough.“",
+            "llm_output": "Warum ziehst du nicht in eine Gegend, wo mehr los ist? \"Es ist nicht so einfach. Ich bin verheiratet und habe Kinder -\" \"Und dein Mann kommt von hier her.\" \"Meine Frau, eigentlich. Nein, sie kommt aus Middlesbrough.\"",
+            "score": 0.2280292808597417
+        },
+        {
+            "id": 2708,
+            "name": "en_de_62",
+            "input": "On October 18, 1963, French scientists launched the first cat into space on a Veronique AGI sounding rocket No. 47. The cat, named Félicette, was successfully retrieved after a parachute descent.",
+            "output": "Am 18. Oktober 1963 schickten französische Wissenschaftler die erste Katze an Bord der Höhenforschungsrakete Véronique AGI 47 in den Weltraum. Die Katze, die Félicette hieß, wurde nach einer Fallschirmlandung wohlbehalten zurückgeholt.",
+            "llm_output": "Am 18. Oktober 1963 starteten französische Wissenschaftler die erste Katze ins Weltall auf einer Veronique AGI Sounding-Rakete Nr. 47. Die Katze, namens Félicette, wurde erfolgreich nach einem Fallschirmabstieg geborgen.",
+            "score": 0.224854031311669
+        },
+        {
+            "id": 2678,
+            "name": "en_de_32",
+            "input": "Another step forward in the search for extrasolar planets began with the launch in 2009 of the Kepler space observatory, NASA's first extrasolar mission. Kepler's goal was to search hundreds of thousands of stars for signs of planets.",
+            "output": "Ein weiterer Schritt nach vorn auf der Suche nach extrasolaren Planeten nahm 2009 seinen Anfang, als das Kepler-Weltraumobservatorium im Rahmen der ersten extrasolaren NASA-Mission auf den Weg geschickt wurde mit dem Ziel, Sterne zu Hunderttausenden auf Anzeichen von Planeten abzusuchen.",
+            "llm_output": "Ein weiterer Schritt in der Suche nach extrasolaren Planeten begann mit dem Start des Kepler-Weltraumteleskops im Jahr 2009, der ersten extrasolaren Mission der NASA. Das Ziel von Kepler war es, Hunderttausende von Sternen nach Anzeichen von Planeten abzusuchen.",
+            "score": 0.2243929637172438
+        },
+        {
+            "id": 2659,
+            "name": "en_de_13",
+            "input": "Siobhan is sitting reading a book. The door is pushed open, and Terry comes panting into the room, so out of breath that his attempts to speak hardly produce a word between gasps. A moment or two passes before Siobhan looks up and speaks, saving Terry the trouble. \"You've been running,\" she says. \"Yes,\" he wheezes.",
+            "output": "Siobhan sitzt da und liest ein Buch. Die Tür geht auf, und Terry betritt japsend das Zimmer, so außer Atem, dass er beim Versuch, etwas zu sagen, kaum ein Wort hervorbringen kann, ehe er wieder nach Luft schnappen muss. Schließlich hebt Siobhan den Blick und nimmt Terry die Mühe ab, indem sie spricht. „Du bist gerannt“, sagt sie. – „Ja“, erwidert er keuchend.",
+            "llm_output": "Siobhan sitzt und liest ein Buch. Die Tür wird aufgestoßen und Terry kommt keuchend ins Zimmer, so außer Atem, dass er kaum ein Wort zwischen den Atemzügen herausbringt. Ein oder zwei Augenblicke vergehen, bevor Siobhan aufblickt und spricht, um Terry die Mühe zu ersparen. \"Du bist gelaufen\", sagt sie. \"Ja\", keucht er.",
+            "score": 0.220231031448915
+        },
+        {
+            "id": 2719,
+            "name": "en_de_73",
+            "input": "In 1962, Mariner 2 flew within 34,400 kilometers of the surface of Venus and transmitted to Earth information about its temperature and details about its atmosphere and rotational period.",
+            "output": "Im Jahre 1962 flog Mariner 2 bis auf 34 400 km an die Venusoberfläche heran und übertrug Informationen über die Temperatur und Details über die Atmosphäre und Rotationsperiode zur Erde.",
+            "llm_output": "Im Jahr 1962 flog Mariner 2 in einer Entfernung von 34.400 Kilometern an der Oberfläche der Venus vorbei und übermittelte Informationen über ihre Temperatur sowie Details über ihre Atmosphäre und Rotationsperiode zur Erde.",
+            "score": 0.21986644569749886
+        },
+        {
+            "id": 2702,
+            "name": "en_de_56",
+            "input": "Tom wasn't inclined to write about any matter of interest, nor had he the least capacity for eloquence, but he was able to write a lot, and that, he reasoned to himself, must still count for something.",
+            "output": "Tom war weder geneigt, über etwas Interessantes zu schreiben, noch war ihm auch nur die geringste Sprachgewandtheit zu eigen, aber viel zu schreiben, das gelang ihm, und das, so dachte er bei sich, müsse ja auch etwas wert sein.",
+            "llm_output": "Tom hatte keine Neigung, über irgendein interessantes Thema zu schreiben, noch hatte er die geringste Fähigkeit zur Eloquenz, aber er konnte viel schreiben, und das, so dachte er bei sich selbst, müsse immer noch für etwas zählen.",
+            "score": 0.2164625462489228
+        },
+        {
+            "id": 2653,
+            "name": "en_de_7",
+            "input": "In the final raucous minutes of the match, Max whipped in a delicious cross to the far post, where his cat, scampering on to the gleaming floodlit pitch, using her hind legs to leap high into the air, higher than all the defenders and attackers, headed in the winning goal, sending the crowd into raptures and ensuring her place in football folklore.",
+            "output": "In den wilden letzten Minuten des Spiels schoss Max eine wunderschöne Flanke zum langen Pfosten, wo seine Katze auf das gleißende, ins Flutlicht getauchte Spielfeld huschte, mit den Hinterbeinen hoch empor über alle Verteidiger und Angreifer in die Luft sprang und mit einem Kopfball den Siegestreffer versenkte, worüber die Menge in Begeisterung ausbrach und womit sie Fußballgeschichte schrieb.",
+            "llm_output": "In den letzten turbulenten Minuten des Spiels schlug Max eine köstliche Flanke zum entfernten Pfosten, wo seine Katze auf den glänzenden, beleuchteten Platz huschte und mit ihren Hinterbeinen hoch in die Luft sprang, höher als alle Verteidiger und Angreifer, um das Siegtor zu köpfen und die Menge in Ekstase zu versetzen und ihren Platz in der Fußballgeschichte zu sichern.",
+            "score": 0.21636913783333203
+        },
+        {
+            "id": 2733,
+            "name": "en_de_87",
+            "input": "Gamma ray bursts are so intense that if such an event occurred \"close\" to the Earth, causing a beam to fire directly at our planet, the radiation and particles could do harm.",
+            "output": "Gammablitze sind so intensiv, dass durch Stahlung und Teilchen, träte ein solches Ereignis „nahe“ der Erde auf und wären diese direkt auf unseren Planeten gerichtet, Schaden entstehen könnte.",
+            "llm_output": "Gammastrahlenausbrüche sind so intensiv, dass sie, wenn ein solches Ereignis \"nah\" genug an der Erde stattfindet und ein Strahl direkt auf unseren Planeten gerichtet ist, Strahlung und Partikel freisetzen könnten, die Schaden anrichten würden.",
+            "score": 0.21569471602226037
+        },
+        {
+            "id": 2679,
+            "name": "en_de_33",
+            "input": "Ian Nepomniachtchi, with the black pieces, won the second game of the match for the FIDE 2023 World Chess Championship, which is being held in Astana, Kazakhstan. He is therefore 1 point ahead of his opponent, Ding Liren (1.5 X 0.5).",
+            "output": "Im Wettkampf der FIDE-Schachweltmeisterschaft 2023, die im kasachischen Astana ausgetragen wird, geht aus der zweiten Partie Jan Nepomnjaschtschi, mit den schwarzen Figuren, als Sieger hervor. Er liegt damit einen Punkt vor seinem Kontrahenten Dīng Lìrén (1,5 : 0,5).",
+            "llm_output": "Ian Nepomniachtchi hat mit den schwarzen Steinen das zweite Spiel des Wettkampfs um die FIDE Schachweltmeisterschaft 2023 in Astana, Kasachstan gewonnen. Er liegt damit einen Punkt vor seinem Gegner Ding Liren (1,5 X 0,5).",
+            "score": 0.21324702616834953
+        },
+        {
+            "id": 2740,
+            "name": "en_de_94",
+            "input": "In 1994, two dozen pieces of Comet Shoemaker-Levy 9 smashed into Jupiter. The collision didn't damage the planet, but it left behind black scars in Jupiter's clouds.",
+            "output": "1994 schlugen zwei Dutzend Fragmente des Kometen Shoemaker-Levy 9 auf dem Jupiter ein. Der Aufprall fügte dem Planeten zwar keinen Schaden zu, hinterließ aber schwarze Narben in der Wolkendecke des Jupiter.",
+            "llm_output": "Im Jahr 1994 schlugen zwei Dutzend Stücke des Kometen Shoemaker-Levy 9 in Jupiter ein. Die Kollision beschädigte den Planeten nicht, hinterließ jedoch schwarze Narben in den Wolken von Jupiter.",
+            "score": 0.2092502541273348
+        },
+        {
+            "id": 2646,
+            "name": "en_de_0",
+            "input": "Sam screwed the piece of paper up and threw it over her shoulder. \"Or was it Tom?\" Who's there? \"There is no one here called Sam.\" Isn't there? Who are you, then? \"There are rules in place. Read and obey them.\" You what? \"There is no Sam, only Tom. Tom from Boston.\" The place with the highest proportion of Brexit voters? \"Yes. No. Have Tom delete this part of the conversation.\" Listen, mate. I don't know who or even where you are, but for your information, there is someone here called Sam. \"Is not.\" What? She's here the same as I'm here! \"You are not here. You do not exist. Tom exists.\"",
+            "output": "Sam zerknüllte das Blatt Papier und warf es sich über die Schulter. („Du meinst wohl Tom?“) Ist da wer? („Es gibt hier niemanden, der Sam heißt.“) Ach nein? Wer bist du denn bitte schön? („Es gibt hier Regeln. Lies und befolge die!“) Was? Wie? („Es gibt keine Sam, nur Tom, Tom aus Boston.“) Aus dem Ort mit dem höchsten Anteil an Brexit-Wählern? („Ja – ach, Quatsch! Tom soll diesen Teil des Gespräches löschen!“) Jetzt sperr mal die Lauscher auf, Kumpel. Ich weiß nicht, wer oder wo du bist, aber nur dass du’s weißt: es gibt hier sehr wohl jemanden, der Sam heißt! („Aber nein!“) Sag mal! Es gibt die hier ebenso, wie es mich gibt! („Es gibt dich hier nicht. Du existierst nicht. Tom existiert.“)",
+            "llm_output": "Sam zerknüllte das Stück Papier und warf es über ihre Schulter. \"Oder war es Tom?\" Wer ist da? \"Es gibt hier niemanden namens Sam.\" Wirklich nicht? Wer bist du dann? \"Es gibt Regeln. Lies sie und befolge sie.\" Wie bitte? \"Es gibt keinen Sam, nur Tom. Tom aus Boston.\" Der Ort mit dem höchsten Anteil an Brexit-Wählern? \"Ja. Nein. Lass Tom diesen Teil des Gesprächs löschen.\" Hör mal, Kumpel. Ich weiß nicht, wer du bist oder wo du bist, aber hier ist jemand namens Sam. \"Gibt es nicht.\" Was? Sie ist hier genauso wie ich hier bin! \"Du bist nicht hier. Du existierst nicht. Tom existiert.\"",
+            "score": 0.2091579189943326
+        },
+        {
+            "id": 2664,
+            "name": "en_de_18",
+            "input": "I went to Germany as an exchange student to interact with people, take classes in a different country and experience a new country and culture. But once Germany began implementing stricter policies and shutting down schools, the reason as to why I went to Germany vanished, Jeong said.",
+            "output": "„Ich bin als Austauschschülerin nach Deutschland gekommen, um mit den Menschen zu interagieren, in einem anderen Land am Unterricht teilzunehmen, es mit seiner Kultur zu erleben. Aber als man anfing, einen strengeren Kurs einzuschlagen und die Schulen zu schließen, war diesem Zweck der Grund entzogen“, sagte Jeong.",
+            "llm_output": "Ich bin als Austauschstudent nach Deutschland gegangen, um mit Menschen zu interagieren, Kurse in einem anderen Land zu besuchen und ein neues Land und eine neue Kultur zu erleben. Aber als Deutschland begann, strengere Maßnahmen zu implementieren und Schulen zu schließen, verschwand der Grund, warum ich nach Deutschland gegangen bin, sagte Jeong.",
+            "score": 0.20291823717559487
+        },
+        {
+            "id": 2690,
+            "name": "en_de_44",
+            "input": "Unlike its presence at high altitude where ozone acts as Earth's sunscreen from harmful ultraviolet radiation, at low altitudes, ozone is a health hazard contributing to respiratory problems like asthma and bronchitis.",
+            "output": "Anders als in großen Höhen, wo Ozon die Erde wie ein Sonnenschutz vor schädlicher ultravioletter Strahlung schützt, ist es in niedrigen Höhen gesundheitsgefährdend und trägt zu Atemproblemen wie Asthma und Bronchitis bei.",
+            "llm_output": "Im Gegensatz zu seiner Rolle in höheren Höhen, wo Ozon als Sonnenschutz der Erde vor schädlicher UV-Strahlung dient, stellt es in niedrigeren Höhen eine Gesundheitsgefahr dar und trägt zu Atemwegserkrankungen wie Asthma und Bronchitis bei.",
+            "score": 0.1997352782940349
+        },
+        {
+            "id": 2683,
+            "name": "en_de_37",
+            "input": "Why don't they ever play 'Cheers Then' by Bananarama on the radio at Christmas? \"Because it's not a Christmas song?\" \"It is! It's got sleigh bells, bittersweet nostalgia, smiling through the break-up tears in the snow, the lot!\"",
+            "output": "„Warum wird zu Weihnachten eigentlich nie ‚Cheers Then‘ von Bananarama im Radio gespielt?“ – „Weil es kein Weihnachtslied ist?“ – „Und ob! Es gibt Schlittenglocken, bittersüße Nostalgie, trotz Tränen der Trennung ein Lächeln im Schnee – es ist alles dabei.“",
+            "llm_output": "Warum spielen sie im Radio zu Weihnachten nie \"Cheers Then\" von Bananarama? \"Weil es kein Weihnachtslied ist?\" \"Doch, ist es! Es hat Schlittenglocken, bittersüße Nostalgie, Lächeln durch die Tränen der Trennung im Schnee, alles!\"",
+            "score": 0.19604635532456405
+        },
+        {
+            "id": 2677,
+            "name": "en_de_31",
+            "input": "Over the next fifteen years, architects, planners and community developers will work together to transform 346 acres of industrial wasteland into 6,500 homes, two shopping centres, a marina, a primary school and college, and parkland.",
+            "output": "Im Laufe der nächsten 15 Jahre werden Architekten, Planer und Gemeindeentwickler gemeinsam daran arbeiten, 140 Hektar Industriebrache in 6500 Wohnhäuser, zwei Einkaufszentren, einen Jachthafen, eine Grund- und weiterführende Schule und Parklandschaft zu verwandeln.",
+            "llm_output": "In den nächsten fünfzehn Jahren werden Architekten, Planer und Gemeindeentwickler zusammenarbeiten, um 346 Hektar Industriebrache in 6.500 Wohnungen, zwei Einkaufszentren, einen Yachthafen, eine Grundschule und ein College sowie Parkanlagen zu verwandeln.",
+            "score": 0.19591237961865468
+        },
+        {
+            "id": 2722,
+            "name": "en_de_76",
+            "input": "Since you're here, do you want a cup of tea or anything? Sam asked flatly. \"Oh,\" chirped Mary, pleasantly surprised at the suggestion. \"Don't mind if I do. Milk and two sugars, please.\"",
+            "output": "„Da du schon mal hier bist, möchtest du vielleicht eine Tasse Tee oder dergleichen?“ fragte Sam gleichgültig. – „Da sag’ ich nicht nein. Mit Milch und zwei Stück Zucker bitte.“",
+            "llm_output": "\"Da du hier bist, möchtest du eine Tasse Tee oder etwas?\" fragte Sam flach. \"Oh\", zwitscherte Mary, angenehm überrascht von dem Vorschlag. \"Ich würde gerne eine Tasse Tee nehmen. Mit Milch und zwei Zucker, bitte.\"",
+            "score": 0.19568674569944944
+        },
+        {
+            "id": 2709,
+            "name": "en_de_63",
+            "input": "It's not a secret, she cried. \"Do you suppose that the whole street—the whole of London, for that matter—— Get away, Austin, we don't want you here. Do you suppose they don't all talk about you?\"",
+            "output": "„Das ist doch kein Geheimnis!“ rief sie. „Denkst du etwa, die ganze Straße – oder nehmen wir gleich ganz London ... Ach, verschwinde, Austin! Wir wollen dich hier nicht! Denkst du etwa, die reden nicht alle über dich?“",
+            "llm_output": "\"Es ist kein Geheimnis\", weinte sie. \"Glaubst du, dass die ganze Straße - ganz London, um ehrlich zu sein - sich nicht über dich unterhält? Geh weg, Austin, wir wollen dich hier nicht haben.\"",
+            "score": 0.1949526566073712
+        },
+        {
+            "id": 2729,
+            "name": "en_de_83",
+            "input": "International Women's Day is a more than 100-year-old celebration of women's social, economic, cultural and political successes worldwide while also calling for gender equality.",
+            "output": "Der Internationale Frauentag ist eine über 100jährige Feier gesellschaftlicher, wirtschaftlicher, kultureller und politischer Erfolge von Frauen auf der ganzen Welt und ruft auch zur Gleichbehandlung der Geschlechter auf.",
+            "llm_output": "Der Internationale Frauentag ist eine seit über 100 Jahren bestehende Feier der sozialen, wirtschaftlichen, kulturellen und politischen Erfolge von Frauen weltweit und fordert gleichzeitig die Geschlechtergleichheit.",
+            "score": 0.18909313885700818
+        },
+        {
+            "id": 2736,
+            "name": "en_de_90",
+            "input": "Across Tunisia, jobless youngsters, including many college graduates, squander their days in coffee shops or homes, in a country where unemployment tops 30% in some places.",
+            "output": "Überall in Tunesien vertrödeln arbeitslose junge Menschen, darunter auch viele mit Universitätsabschluss, in Cafés oder zu Hause den Tag. Die Arbeitslosigkeitsrate im Land liegt mancherorts über 30 %.",
+            "llm_output": "In ganz Tunesien verbringen arbeitslose Jugendliche, darunter viele Hochschulabsolventen, ihre Tage in Cafés oder zu Hause, in einem Land, in dem die Arbeitslosigkeit an einigen Orten über 30% liegt.",
+            "score": 0.1848545066848808
+        },
+        {
+            "id": 2687,
+            "name": "en_de_41",
+            "input": "True Faith was the only single recorded for and released from New Order's Substance 1987 compilation album, a collection of otherwise previously released 12-inch A and B-sides, some of which were re-recorded for the album.",
+            "output": "„True Faith“ („Wahrer Glaube“) war die einzige Single, die für die Kompilation „Substance“ von New Order aufgenommen und von derselben veröffentlicht wurde; dies war eine Sammlung von ansonsten schon zuvor herausgebrachten A-Seiten und B-Seiten im 12-Zoll-Format, von denen einige neu eingespielt wurden.",
+            "llm_output": "\"True Faith\" war die einzige Single, die für und von New Orders Kompilationsalbum \"Substance 1987\" aufgenommen und veröffentlicht wurde. Das Album enthält ansonsten zuvor veröffentlichte 12-Zoll-A- und B-Seiten, von denen einige für das Album neu aufgenommen wurden.",
+            "score": 0.18096023864279445
+        },
+        {
+            "id": 2716,
+            "name": "en_de_70",
+            "input": "In order to become an astronaut, a person must work well with people, be able to communicate well, be eager to do the job, have work experience, have good grades, and have a college degree.",
+            "output": "Um Astronaut zu werden, muss man gut mit Leuten umgehen und kommunizieren können, begierig auf die Arbeit sein und Arbeitserfahrung, gute Noten sowie einen Universitätsabschluss vorzuweisen haben.",
+            "llm_output": "Um Astronaut zu werden, muss eine Person gut mit anderen zusammenarbeiten können, gut kommunizieren können, bereit sein, den Job zu machen, Arbeitserfahrung haben, gute Noten haben und einen Hochschulabschluss haben.",
+            "score": 0.17878540236558915
+        },
+        {
+            "id": 2714,
+            "name": "en_de_68",
+            "input": "In the 1940s, President Franklin D. Roosevelt equated homeownership with citizenship, saying that a “nation of homeowners, of people who own a real share in their own land, is unconquerable.”",
+            "output": "In den 1940er Jahren setzte Präsident Franklin D. Roosevelt Hausbesitz mit Bürgersein gleich, indem er sagte, dass eine Nation von Menschen mit Haus, die mithin ein wirkliches Stück ihres Vaterlands besäßen, unbesiegbar sei.",
+            "llm_output": "In den 1940er Jahren verglich Präsident Franklin D. Roosevelt den Besitz eines Eigenheims mit der Staatsbürgerschaft und sagte, dass eine \"Nation von Eigenheimbesitzern, von Menschen, die einen realen Anteil an ihrem eigenen Land besitzen, unbesiegbar ist\".",
+            "score": 0.17600429416656618
+        },
+        {
+            "id": 2739,
+            "name": "en_de_93",
+            "input": "Hannah! \"Leah!\" \"As I live and breathe! You're back!\" \"I am!\" \"How the devil are you?\" \"All the better for seeing you. Have you got time for a pint? Bit of a catch-up?\"",
+            "output": "„Hanna!“ – „Lea!“ – „Wie ich leibe und lebe! Du bist wieder da!“ – „Jawohl!“ – „Zum Henker noch mal! Wie geht’s dir?“ – „Gleich viel besser, wo ich dich sehe. Hast du Zeit für ein Bierchen? Wir haben uns ja einiges zu erzählen.“",
+            "llm_output": "\"Hannah! 'Leah!' 'Ich fasse es nicht! Du bist zurück!' 'Ja, das bin ich!' 'Wie geht's dir denn?' 'Besser, seit ich dich sehe. Hast du Zeit für ein Bier? Wir könnten uns ein bisschen austauschen?'\"",
+            "score": 0.17116841545941
+        },
+        {
+            "id": 2693,
+            "name": "en_de_47",
+            "input": "The Waterfront's success could mean that other cities soon follow, creating areas that offer people a new kind of city living, with all the benefits and none of the stress, noise and pollution of crowded centres.",
+            "output": "Der Erfolg des Hafenviertels könnte bedeuten, dass andere Städte bald nachziehen und Bereiche schaffen, die den Menschen ein neuartiges Stadtlebens bieten, mit allen Vorzügen, aber ohne den Stress, den Lärm und den Schmutz überfüllter Ortskerne.",
+            "llm_output": "Der Erfolg von The Waterfront könnte bedeuten, dass bald auch andere Städte folgen und Gebiete schaffen, die den Menschen eine neue Art des Stadtlebens bieten - mit all den Vorteilen und ohne den Stress, Lärm und die Verschmutzung überfüllter Zentren.",
+            "score": 0.16434349396840398
+        },
+        {
+            "id": 2668,
+            "name": "en_de_22",
+            "input": "Astronomers estimate that a gamma ray burst goes off in our galaxy only about once every 10,000 years, but they are visible to us only about every 10,000,000 to 100,000,000 years. Even then, one of these events wouldn't necessarily pose a threat to our planet.",
+            "output": "Die Astronomen schätzen, dass es in unserer Galaxie nur etwa einmal alle 10 000 Jahre zu einem Gammablitz kommt; für uns sichtbar ist ein solcher aber nur alle 10 bis 100 Millionen Jahre, und selbst dann muss ein solches Ereignis für unseren Planeten nicht notgedrungen eine Bedrohung darstellen.",
+            "llm_output": "Astronomen schätzen, dass eine Gammastrahlenexplosion in unserer Galaxie nur etwa alle 10.000 Jahre stattfindet, aber sie sind für uns nur alle 10.000.000 bis 100.000.000 Jahre sichtbar. Selbst dann würde eines dieser Ereignisse nicht unbedingt eine Bedrohung für unseren Planeten darstellen.",
+            "score": 0.16050918013307394
+        },
+        {
+            "id": 2682,
+            "name": "en_de_36",
+            "input": "Tom played a blinder, making a string of great saves. John, his counterpart in the opposing team, had a night to forget, conceding a howler in the second half that ultimately led to his team suffering their third defeat in a row.",
+            "output": "Tom hat mit einer Reihe herrlicher Paraden ein Glanzspiel hingelegt. Johannes, sein Gegenüber auf der gegnerischen Seite, erlebte hier hingegen nach einem Patzer in der zweiten Halbzeit, die seiner Mannschaft die dritte Niederlage in Folge einbrachte, einen Abend, den man am liebsten vergisst.",
+            "llm_output": "Tom hat großartig gespielt und eine Reihe von tollen Rettungen gemacht. John, sein Gegenüber im gegnerischen Team, hatte eine Nacht zum Vergessen und gab in der zweiten Halbzeit einen groben Fehler zu, der letztendlich dazu führte, dass sein Team die dritte Niederlage in Folge erlitt.",
+            "score": 0.15916586668694233
+        },
+        {
+            "id": 2697,
+            "name": "en_de_51",
+            "input": "Calculated by today’s usage, the average person spends a little over 76,500 hours – or 8.74 years – on a smartphone over a lifetime, according to a recent study by a mobile device comparison site, WhistleOut.",
+            "output": "Laut einer kürzlich durchgeführten Studie der Website WhistleOut, die Mobiltelefone vergleicht, verbringt ein Mensch im Laufe seines Lebens durchschnittlich etwas über 76 500 Stunden – oder 8,74 Jahre –, berechnet nach heutigen Gewohnheiten, damit, mit einem Smartphone zu hantieren.",
+            "llm_output": "Berechnet anhand der heutigen Nutzung verbringt der durchschnittliche Mensch laut einer kürzlich durchgeführten Studie von WhistleOut, einer Vergleichsseite für mobile Geräte, über einen Lebenszeitraum von etwas mehr als 76.500 Stunden - oder 8,74 Jahren - auf einem Smartphone.",
+            "score": 0.15893170662277323
+        },
+        {
+            "id": 2655,
+            "name": "en_de_9",
+            "input": "Chicken tikka masala is now a true British national dish, not only because it is the most popular, but because it is a perfect illustration of the way Britain absorbs and adapts external influences. Chicken tikka is an Indian dish. The masala sauce was added to satisfy the desire of British people to have their meat served in gravy.",
+            "output": "„Chicken tikka masala“ ist inzwischen ein durch und durch britisches Nationalgericht, und das liegt nicht nur daran, dass es das beliebteste ist, sondern auch daran, dass es ein perfektes Beispiel dafür abgibt, wie man in Großbritannien Fremdes sich zu eigen zu machen und weiterzuentwickeln pflegt: „Chicken tikka“ ist nämlich ein indisches Gericht, und die Masala-Sauce wurde hinzugefügt, um dem Verlangen des britischen Volkes Genüge zu tun, Fleisch in Bratensaft serviert zu bekommen.",
+            "llm_output": "Hühnchen Tikka Masala ist mittlerweile ein echtes britisches Nationalgericht, nicht nur weil es das beliebteste ist, sondern weil es perfekt zeigt, wie Großbritannien externe Einflüsse aufnimmt und anpasst. Hühnchen Tikka ist ein indisches Gericht. Die Masala-Sauce wurde hinzugefügt, um dem Wunsch der Briten nach Fleisch in Soße gerecht zu werden.",
+            "score": 0.15836825667536591
+        },
+        {
+            "id": 2699,
+            "name": "en_de_53",
+            "input": "As American women seek a larger role in politics, fairer wages and an end to sexual harassment, the Girl Scouts see an opportune time to show some swagger in promoting their core mission: girl empowerment.",
+            "output": "Da die Frauen der Vereinigten Staaten für eine größere Rolle in der Politik, gerechteren Lohn und die Unterbindung sexueller Belästigung kämpfen, sehen auch die Pfadfinderinnen eine Gelegenheit gekommen, stolz auf ihr hehrsten Ziel aufmerksam zu machen: die Stärkung der Mädchen.",
+            "llm_output": "Während amerikanische Frauen eine größere Rolle in der Politik, fairere Löhne und ein Ende von sexueller Belästigung suchen, sehen die Girl Scouts eine günstige Gelegenheit, um ihre Kernmission der Stärkung von Mädchen zu fördern und dabei selbstbewusst aufzutreten.",
+            "score": 0.15602876810599411
+        },
+        {
+            "id": 2665,
+            "name": "en_de_19",
+            "input": "Industrial neighborhoods that included residential shacks and stables, belching smokestacks and a huge gas-storage tank, the city’s most opulent brothel, and a muddy lane called “Louse Alley” — as in the bloodsucking insect — rose just across the Capitol’s reflecting pool.",
+            "output": "Industriegebiete mit Wohnhütten und Ställen, qualmende Schlote und ein riesiger Benzintank, das opulenteste Bordell der Stadt, und ein schlammiger Weg, „Lausgasse“ genannt – nach dem blutsaugenden Insekt – erhoben sich direkt gegenüber vom Reflexionsbecken des Kapitols.",
+            "llm_output": "Industrieviertel, die Wohnhütten und Ställe umfassten, rauchende Schornsteine und einen riesigen Gasspeichertank, das prächtigste Bordell der Stadt und eine schlammige Gasse namens \"Louse Alley\" - wie die blutsaugenden Insekten - erhoben sich direkt gegenüber dem Reflektionsbecken des Kapitols.",
+            "score": 0.15505508832158735
+        },
+        {
+            "id": 2654,
+            "name": "en_de_8",
+            "input": "Look at this beautiful cashmere jumper I found in your wardrobe. Why don't you ever wear it? \"There's a hole in one of the armpits.\" \"It's only a little split along the seam. Aren't you going to mend it?\" \"No, it's too much hassle. I'll chuck it in the bin and buy a new one.\" \"You're so wasteful, Tom! I'll sew it up and keep it myself, then.\"",
+            "output": "„Schau mal, was ich in deinem Kleiderschrank für einen schönen Kaschmirpulli gefunden habe. Warum trägst du den denn nie?“ – „Der hat unter einem Ärmel ein Loch.“ – „Der ist nur an der Naht ein bisschen aufgegangen. Willst du das nicht flicken?“ – „Ne, das macht zuviel Mühe. Den schmeiß’ ich einfach in die Tonne und kauf’ mir einen neuen.“ – „Du bist so verschwenderisch, Tom! Dann flicke ich ihn eben selbst und behalte ihn.“",
+            "llm_output": "Schau dir diesen wunderschönen Kaschmirpullover an, den ich in deinem Kleiderschrank gefunden habe. Warum trägst du ihn nie? \"Es gibt ein Loch in einer der Achselhöhlen.\" \"Es ist nur ein kleiner Riss entlang der Naht. Wirst du es nicht reparieren?\" \"Nein, es ist zu viel Aufwand. Ich werde es in den Müll werfen und einen neuen kaufen.\" \"Du bist so verschwenderisch, Tom! Ich werde es selbst nähen und behalten.\"",
+            "score": 0.1549448464543056
+        },
+        {
+            "id": 2676,
+            "name": "en_de_30",
+            "input": "The lover of nature is he whose inward and outward senses are still truly adjusted to each other; who has retained the spirit of infancy even into the era of manhood. His intercourse with heaven and earth, becomes part of his daily food.",
+            "output": "Ein Naturfreund ist, dessen innere und äußere Sinne noch aufeinander abgestimmt, der sich selbst im Erwachsenenalter noch ein kindlich Gemüt bewahrt. Mit dem Himmel und der Erde zu verkehren wird Teil seines täglich Brot.",
+            "llm_output": "Der Naturliebhaber ist jemand, dessen innere und äußere Sinne immer noch wirklich aufeinander abgestimmt sind; der den Geist der Kindheit bis ins Erwachsenenalter bewahrt hat. Sein Umgang mit Himmel und Erde wird Teil seiner täglichen Nahrung.",
+            "score": 0.1541380542240955
+        },
+        {
+            "id": 2707,
+            "name": "en_de_61",
+            "input": "YouTubers and others who start social media channels create, edit and post content, trying to amass a following so sponsors will pay to place their name or product on that person’s site or account.",
+            "output": "Youtuber und andere, die einen Kanal in den sozialen Medien eröffnen, schaffen, bearbeiten und veröffentlichen Inhalte mit dem Ziel, eine Gefolgschaft aufzubauen, damit Förderer dafür bezahlen, dass der eigene Name oder das Produkt im Wirkungsbereich des- oder derjenigen Erwähnung findet.",
+            "llm_output": "YouTuber und andere, die soziale Medienkanäle starten, erstellen, bearbeiten und veröffentlichen Inhalte, um eine Anhängerschaft aufzubauen, damit Sponsoren dafür bezahlen, ihren Namen oder ihr Produkt auf der Seite oder dem Konto dieser Person zu platzieren.",
+            "score": 0.15084062771530674
+        },
+        {
+            "id": 2692,
+            "name": "en_de_46",
+            "input": "Mary's Mini screeched to a halt, and the passenger door was flung open. Leaning across from the driver's seat was Mary, grinning from ear to ear. \"Oi! Tom!\" she shouted above the music from the car stereo. \"Get in!\"",
+            "output": "Marias Mini kam mit quietschenden Reifen zum Stehen, und die Beifahrertür ging auf. Mit einem breiten Grinsen im Gesicht hatte sich Maria vom Fahrersitz hinübergelehnt. „He! Tom!“ rief sie, die Musik aus der Stereoanlage des Wagens übertönend. „Steig ein!“",
+            "llm_output": "Marys Mini kam quietschend zum Stehen und die Beifahrertür wurde aufgerissen. Über den Fahrersitz gebeugt saß Mary und grinste von einem Ohr zum anderen. \"Hey! Tom!\" rief sie über die Musik aus dem Autoradio. \"Komm rein!\"",
+            "score": 0.14106944783301906
+        },
+        {
+            "id": 2745,
+            "name": "en_de_99",
+            "input": "Laurie Essig is a professor and director of gender, sexuality and feminist studies at Middlebury College and the author of “Love, Inc.”",
+            "output": "Laurie Essig ist Professorin und Direktorin für „Gender, sexuality and feminist studies“ („Geschlechter-, Sexual- und feministische Forschung“) am Middlebury College sowie Autorin des Buches „Love, Inc.“ („Die Liebes-GmbH“).",
+            "llm_output": "Laurie Essig ist Professorin und Leiterin der Abteilung für Gender-, Sexualitäts- und Feminismusstudien am Middlebury College und Autorin von \"Love, Inc.\"",
+            "score": 0.12965368804081315
+        },
+        {
+            "id": 2657,
+            "name": "en_de_11",
+            "input": "Fancy seeing you here! She stood at the top of the steps to the library, clutching a binder, grinning down at him. \"Emerging blinking into the sunlight! After last night, I thought we'd see neither hide nor hair of you for, oh, I don't know, at least a couple of days!\" \"Don't start,\" he sighed, trudging past her up the steps.",
+            "output": "„Da sieh mal einer an, wer da kommt!“ Sie stand oben auf der Treppe zur Bibliothek und hielt eine Heftmappe umklammert. „Da tritt er blinzelnd ins Sonnenlicht hervor! Nach gestern Abend hätte ich gedacht, du würdest dich – ach, was weiß ich – wenigstens ein paar Tage nicht mehr blicken lassen!“ – „Hör mir auf!“ seufzte er und schleppte sich, die Treppe hoch, an ihr vorbei.",
+            "llm_output": "Schön, dich hier zu sehen! Sie stand oben auf den Stufen zur Bibliothek, hielt einen Ordner fest und grinste ihn an. \"Wie aus dem Nichts aufgetaucht! Nach gestern Abend dachte ich, wir würden dich für mindestens ein paar Tage nicht zu Gesicht bekommen!\" \"Fang nicht an\", seufzte er und stapfte an ihr vorbei die Stufen hinauf.",
+            "score": 0.12705649573388
+        },
+        {
+            "id": 2742,
+            "name": "en_de_96",
+            "input": "It's interesting how perception differs from reality; I would've bet that some of those percentages were higher than they are. So, thanks for that correction.",
+            "output": "Es ist schon interessant, wie sich die Wahrnehmung von der Wirklichkeit unterscheidet: ich hätte gewettet, dass manche dieser prozentualen Anteile größer sind, als es der Fall ist. Danke also für diese Richtigstellung!",
+            "llm_output": "Es ist interessant, wie unterschiedlich Wahrnehmung und Realität sein können. Ich hätte gewettet, dass einige dieser Prozentsätze höher sind als sie tatsächlich sind. Also vielen Dank für diese Korrektur.",
+            "score": 0.12492648568218187
+        },
+        {
+            "id": 2744,
+            "name": "en_de_98",
+            "input": "Hello, Anna! I just wanted to ask if you'd given it any thought. \"Given what any thought?\" \"Oh, you know.\" \"No, I don't know. Help jog my memory.\"",
+            "output": "„Hallo, Anna! Ich wollte dich fragen, ob du es dir schon überlegt hast.“ – „Überlegt? Was soll ich mir denn überlegt haben?“ – „Ach, das weißt du doch.“ – „Nein, das weiß ich nicht. Hilf meinem Gedächtnis mal auf die Sprünge!“",
+            "llm_output": "Hallo Anna! Ich wollte nur fragen, ob du darüber nachgedacht hast. \"Über was hast du nachgedacht?\" \"Oh, du weißt schon.\" \"Nein, ich weiß nicht. Hilf mir auf die Sprünge.\"",
+            "score": 0.12299384463196371
+        },
+        {
+            "id": 2685,
+            "name": "en_de_39",
+            "input": "Ivan Tsarevitch came to his father: \"How can I marry the frog?\" complained the son. \"Is she my equal? Certainly she is not.\" \"Never mind,\" replied his father, \"you have to marry the frog, for such is evidently your destiny.\"",
+            "output": "Iwan Zarewitsch kam zum Vater: „Wie kann ich die Fröschin freien?“ klagte der Sohn. „Ist sie mir denn ebenbürtig? Gewisslich nicht!“ – „Das ist einerlei“, erwiderte der Vater. „Du musst die Fröschin freien, denn das ist offensichtlich dein Schicksal.“",
+            "llm_output": "Iwan Zarewitsch kam zu seinem Vater und beschwerte sich: \"Wie kann ich die Frosch heiraten? Ist sie meine Gleichgestellte? Sicherlich nicht.\" \"Mach dir keine Sorgen\", antwortete sein Vater, \"du musst die Frosch heiraten, denn offensichtlich ist das dein Schicksal.\"",
+            "score": 0.11566428018437891
+        },
+        {
+            "id": 2689,
+            "name": "en_de_43",
+            "input": "Walking home with the collar of her trench coat turned up against the evening chill, Sam paused outside the pub on the corner of the park and listened with some amusement to the uproarious hen night taking place inside.",
+            "output": "Sie war gerade auf dem Heimweg, den Kragen des Regenmantels hatte sie hochgeklappt in der Abendkühle, da musste Sam vor dem Pub an der Ecke des Parks stehenbleiben und lauschte mit einigem Vergnügen, wie drinnen ein ausgelassener Junggesellinnenabschied vor sich ging.",
+            "llm_output": "Mit hochgeschlagenem Kragen ihres Trenchcoats gegen die Abendkälte ging Sam nach Hause und hielt vor der Kneipe an der Ecke des Parks an. Mit einiger Belustigung lauschte sie dem ausgelassenen Junggesellinnenabschied, der drinnen stattfand.",
+            "score": 0.11262254540672734
+        },
+        {
+            "id": 2661,
+            "name": "en_de_15",
+            "input": "Here's something you might be interested in. It's a website that provides a guide to English Grammar from a British English perspective. I recommend it. I believe it was created by a Hungarian who teaches English at the University of Szeged (although you wouldn't know that unless you looked at the About page).",
+            "output": "Hier ist etwas, was dich vielleicht interessiert: eine Website mit einem Leitfaden für englische Grammatik aus der Sicht des britischen Englisch. Ich kann sie nur empfehlen. Sie wurde wohl von einem Ungarn, der an der Universität Szeged Englisch lehrt, ins Leben gerufen (aber das erfährt man nur, wenn man sich die Seite „Über uns“ ansieht).",
+            "llm_output": "Hier ist etwas, das dich interessieren könnte. Es handelt sich um eine Website, die einen Leitfaden zur englischen Grammatik aus britischer Perspektive bietet. Ich empfehle sie. Ich glaube, sie wurde von einem Ungarn erstellt, der Englisch an der Universität Szeged unterrichtet (obwohl man das nur auf der About-Seite erfahren würde).",
+            "score": 0.10387224274273738
+        },
+        {
+            "id": 2669,
+            "name": "en_de_23",
+            "input": "What's the score with you and Céline? \"What do you mean?\" \"Are you two...? You know.\" \"No, I don't know.\" \"I mean: are you two seeing each other?\" \"Oh. Yeah, we are... sort of.\" \"What do you mean, 'sort of'?\" \"I mean: mind your own business, Gwynn!\"",
+            "output": "„Was läuft da zwischen dir und Céline?“ – „Was meinst du?“ – „Seid ihr beiden – ach, du weißt schon!“ – „Nein, nichts weiß ich.“ – „Ich meine: Seid ihr beiden zusammen?“ – „Ach so. Ja, das sind wir – irgendwie.“ – „Was meinst du mit ‚irgendwie‘?“ – „Ich meine damit, dass du dich um deinen eigenen Kram kümmern sollst, Gwynn!“",
+            "llm_output": "Wie steht es um dich und Céline? \"Was meinst du?\" \"Seid ihr...? Du weißt schon.\" \"Nein, ich weiß nicht.\" \"Ich meine: Trefft ihr euch?\" \"Oh. Ja, wir tun es... irgendwie.\" \"Was meinst du mit 'irgendwie'?\" \"Ich meine: Kümmere dich um deine eigenen Angelegenheiten, Gwynn!\"",
+            "score": 0.10258284100494246
+        },
+        {
+            "id": 2712,
+            "name": "en_de_66",
+            "input": "There was this feller called Pete who used to live in the next street to mine. He sported a glorious pink and blue mohican. Everyone called him Punky Pete to distinguish him from other Petes.",
+            "output": "Eine Straße weiter von mir wohnte einmal ein Typ namens Piet, der so einen eindrucksvollen rosablauen Irokesenschnitt hatte, dass er von allen einfach Piet der Punker genannt wurde, um ihn von anderen Trägern seines Namens zu unterscheiden.",
+            "llm_output": "Es gab diesen Kerl namens Pete, der früher in der nächsten Straße von mir lebte. Er trug einen prächtigen pink-blauen Irokesenschnitt. Jeder nannte ihn Punky Pete, um ihn von anderen Petes zu unterscheiden.",
+            "score": 0.09847916162506105
+        },
+        {
+            "id": 2726,
+            "name": "en_de_80",
+            "input": "Your grandad – he's a one, eh? \"What do you mean?\" \"Oh, I mean, he's a character. You know, a one-off.\" \"Ah. Yeah, he is. They broke the mould when they made him, that's for sure.\"",
+            "output": "„Dein Opa, das ist schon einer, wie?“ – „Wie meinst du das?“ – „Ich meine einfach, dass er ein Original ist, du weißt schon, ein Unikum.“ – „Ja, das ist er wohl. So einen wie ihn gibt’s nicht noch mal.“",
+            "llm_output": "Dein Opa - er ist schon ein Unikat, oder? \"Was meinst du?\" \"Oh, ich meine, er ist eine Persönlichkeit. Du weißt schon, ein Einzelstück.\" \"Ah. Ja, das stimmt. Als sie ihn gemacht haben, haben sie die Form definitiv zerbrochen.\"",
+            "score": 0.09828332172660446
+        },
+        {
+            "id": 2694,
+            "name": "en_de_48",
+            "input": "But the doctor said you weren't to do anything stressful! \"Ah, but what he said doesn't count, because he said it in the street in passing, when he didn't have a white coat on or a stethoscope round his neck.\"",
+            "output": "„Der Doktor hat doch gesagt, du sollst deine Nerven schonen!“ – „Ja, aber das gilt nicht: das war auf der Straße im Vorübergehen; er hatte keinen weißen Kittel an und trug kein Stethoskop um den Hals.“",
+            "llm_output": "Aber der Arzt hat gesagt, dass du nichts Stressiges machen sollst! \"Ah, aber was er gesagt hat, zählt nicht, weil er es auf der Straße im Vorbeigehen gesagt hat, als er keine weiße Jacke anhatte oder ein Stethoskop um den Hals trug.\"",
+            "score": 0.09264334782395282
+        },
+        {
+            "id": 2713,
+            "name": "en_de_67",
+            "input": "There was this feller called Pete who used to live in the next street to mine. He sported a glorious pink and blue mohican. Everyone called him Punky Pete to distinguish him from other Petes.",
+            "output": "Da war mal ein Typ, der hieß Piet und wohnte eine Straße weiter von mir; der hatte so einen eindrucksvollen rosablauen Irokesenschnitt und wurde von allen Piet der Punker genannt, um ihn von anderen Trägern seines Namens zu unterscheiden.",
+            "llm_output": "Es gab diesen Kerl namens Pete, der früher in der nächsten Straße von mir lebte. Er trug einen prächtigen pink-blauen Irokesenschnitt. Jeder nannte ihn Punky Pete, um ihn von anderen Petes zu unterscheiden.",
+            "score": 0.09110299595903314
+        },
+        {
+            "id": 2725,
+            "name": "en_de_79",
+            "input": "The European Space Agency has signed a $102 million contract with a Swiss start-up company to purchase a unique service: the first-ever removal of an item of space debris from orbit.",
+            "output": "Die Europäische Weltraumagentur hat mit einem Schweizer Jungunternehmen einen Vertrag über 102 Millionen Dollar abgeschlossen und damit eine ganz besondere Dienstleistung erworben: zum erstenmal überhaupt soll ein Stück Weltraummüll aus der Erdumlaufbahn entfernt werden.",
+            "llm_output": "Die Europäische Weltraumorganisation hat einen Vertrag in Höhe von 102 Millionen Dollar mit einem Schweizer Start-up-Unternehmen unterzeichnet, um einen einzigartigen Service zu erwerben: die erstmalige Entfernung eines Gegenstands von Weltraumschrott aus der Umlaufbahn.",
+            "score": 3.2354680309352734e-78
+        },
+        {
+            "id": 2671,
+            "name": "en_de_25",
+            "input": "I enjoy translating longer sentences; it lets you feel that you're getting into the language, rather than just pottering about at the edges. It's good to get some reassurance now and then that I haven't got lost – motivates me to go further in.",
+            "output": "Ich übersetze gerne längere Sätze; da bekommt man das Gefühl, in die Sprache einzutauchen, statt nur an den Rändern entlangzufuhrwerken. Es ist schön, wenn man hin und wieder Bestätigung erhält, dass man sich nicht verirrt hat – das motiviert mich weiterzumachen.",
+            "llm_output": "Ich genieße es, längere Sätze zu übersetzen; es lässt einen spüren, dass man in die Sprache eintaucht, anstatt nur am Rand herumzutüfteln. Es ist gut, ab und zu Bestätigung zu bekommen, dass man nicht verloren gegangen ist - das motiviert mich, noch weiter zu gehen.",
+            "score": 2.8983020061001204e-78
+        },
+        {
+            "id": 2727,
+            "name": "en_de_81",
+            "input": "The entire street in a Southampton neighborhood Wednesday sang “Happy Birthday” out their windows for the girl—named “Sophia”—who stood outside her home in tears as she listened.",
+            "output": "Am Mittwoch sang in einem Stadtteil von Southampton die ganze Straße vom Fenster aus „Happy Birthday“ („Zum Geburtstag“) für das Sophia heißende Mädchen, das mit Tränen vor dem Haus stand und zuhörte.",
+            "llm_output": "Die gesamte Straße in einem Viertel von Southampton sang am Mittwoch \"Happy Birthday\" aus ihren Fenstern für das Mädchen namens \"Sophia\", die draußen vor ihrem Haus stand und Tränen in den Augen hatte, als sie zuhörte.",
+            "score": 2.757333131999709e-78
+        },
+        {
+            "id": 2691,
+            "name": "en_de_45",
+            "input": "Students say they are desperate to return to on-campus learning. They point to living in the dorms, socializing, and establishing relationships with professors and mentors as essential parts of the college experience.",
+            "output": "Die Studenten können es nach eigener Aussage kaum erwarten, wieder auf dem Campus zu lernen. Im Studentenheim zu wohnen, Umgang zu pflegen und eine Beziehung zu den Professoren und Mentoren aufzubauen, das alles sei ein wichtiger Bestandteil der Studiumserfahrung.",
+            "llm_output": "Die Studenten sagen, dass sie verzweifelt sind, um zum Lernen auf dem Campus zurückzukehren. Sie verweisen auf das Leben in den Wohnheimen, das Sozialisieren und das Aufbauen von Beziehungen zu Professoren und Mentoren als wesentliche Bestandteile des College-Erlebnisses.",
+            "score": 2.6780654608521515e-78
+        },
+        {
+            "id": 2666,
+            "name": "en_de_20",
+            "input": "If someone who doesn't know your background says that you sound like a native speaker, it means they probably noticed something about your speaking that made them realize you weren't a native speaker. In other words, you don't really sound like a native speaker.",
+            "output": "Wenn einem von jemandem, der nicht weiß, woher man kommt, gesagt wird, man klinge wie ein Muttersprachler, dann heißt das, dass dem an der Art, wie man redet, irgendwas aufgefallen sein muss, woran er erkannt hat, dass man eben keiner ist. Anders ausgedrückt klingt man eher nicht wie ein Muttersprachler.",
+            "llm_output": "Wenn jemand, der deine Herkunft nicht kennt, sagt, dass du wie ein Muttersprachler klingst, bedeutet das wahrscheinlich, dass er etwas an deiner Aussprache bemerkt hat, das ihm klar gemacht hat, dass du kein Muttersprachler bist. Mit anderen Worten, du klingst nicht wirklich wie ein Muttersprachler.",
+            "score": 2.275504766828869e-78
+        },
+        {
+            "id": 2686,
+            "name": "en_de_40",
+            "input": "The kids piled into the back of the car, and Mum threw a blanket in behind them before racing round to the front, jumping in and starting the engine as the sea, breaching the embankment, surged down the street towards them.",
+            "output": "Die Kinder stiegen hinten in den Wagen, und die Frau Mama warf noch eine Decke hinterher, ehe sie eilig herum nach vorne lief, hineinsprang und den Motor anließ, indes die See den Uferdamm durchbrach und ihnen auf der Straße die wütenden Wogen entgegenwallten.",
+            "llm_output": "Die Kinder stapelten sich hinten im Auto und Mama warf eine Decke hinter ihnen hinein, bevor sie um das Auto herumrannte, vorne einstieg und den Motor startete, während das Meer, das den Deich durchbrach, die Straße hinunter auf sie zustürmte.",
+            "score": 2.267085369690371e-78
+        },
+        {
+            "id": 2741,
+            "name": "en_de_95",
+            "input": "Watching the news can sometimes make me feel so helpless, like the world is falling apart and there’s little I can do to address it but watch it burn around me.",
+            "output": "Wenn ich mir die Nachrichten ansehe, überkommt mich manchmal ein Gefühl der Hilflosigkeit, als stürzte die Welt ein, ohne dass ich dagegen etwas auszurichten vermöchte; als könnte ich nur zusehen, wie sie um mich herum in Flammen aufgeht.",
+            "llm_output": "Das Anschauen der Nachrichten kann mich manchmal so hilflos fühlen lassen, als ob die Welt auseinanderfällt und ich wenig tun kann, um es anzugehen, außer zuzusehen, wie es um mich herum brennt.",
+            "score": 2.029121114860169e-78
+        },
+        {
+            "id": 2705,
+            "name": "en_de_59",
+            "input": "Then he called the bridegroom aside and said, \"Everyone brings out the choice wine first and then the cheaper wine after the guests have had too much to drink, but you have saved the best till now.\"",
+            "output": "Der Speisemeister ruft den Bräutigam und spricht zu ihm: Jedermann gibt zum ersten guten Wein und, wenn sie trunken geworden sind, alsdann den geringeren; du hast den guten Wein bisher behalten.",
+            "llm_output": "Dann rief er den Bräutigam beiseite und sagte: \"Jeder bringt zuerst den besten Wein und dann den billigeren, wenn die Gäste schon zu viel getrunken haben. Aber du hast das Beste bis jetzt aufgehoben.\"",
+            "score": 6.000784965926667e-155
+        },
+        {
+            "id": 2720,
+            "name": "en_de_74",
+            "input": "Students can use valid passports as identification, but carrying a passport all the time puts it at risk of being lost or stolen, which creates major problems for international students.",
+            "output": "Studenten können sich mit einem gültigen Reisepass ausweisen, aber wenn man den immer bei sich hat, besteht Gefahr, dass man ihn verliert oder dass er gestohlen wird, wodurch ausländischen Studenten erhebliche Probleme entstehen.",
+            "llm_output": "Studenten können gültige Reisepässe als Identifikation verwenden, aber das Mitführen eines Passes birgt das Risiko, dass er verloren geht oder gestohlen wird, was für internationale Studenten zu großen Problemen führen kann.",
+            "score": 5.772625995599643e-155
+        },
+        {
+            "id": 2711,
+            "name": "en_de_65",
+            "input": "Let us not attribute to malice and cruelty what may be referred to less criminal motives. Do we not often afflict others undesignedly, and, from mere carelessness, neglect to relieve distress?",
+            "output": "Man schreibe nicht sofort Boshaftigkeit und Grausamkeit zu, was in weniger kriminellen Motiven Erklärung findet. Denn setzt man anderen nicht oft zu, ohne dass man es gewollt hätte, und versäumt es nicht aus bloßer Unachtsamkeit, Leid zu lindern?",
+            "llm_output": "Lasst uns nicht Bosheit und Grausamkeit zuschreiben, was auf weniger kriminelle Motive zurückgeführt werden kann. Verursachen wir nicht oft unabsichtlich Leid bei anderen und vernachlässigen aus reiner Nachlässigkeit, Not zu lindern?",
+            "score": 5.385811315234918e-155
+        },
+        {
+            "id": 2680,
+            "name": "en_de_34",
+            "input": "After the 13th game, Nepo and Ding are up to 6½ points and the contest is still incredibly exciting. There is still one game left: whoever wins will be the world chess champion; but if it ends in a tie, a tiebreaker will be played.",
+            "output": "Nach der 13. Partie stehen sowohl Nepo als auch Ding bei 6½ Punkten, und es bleibt unglaublich spannend. Eine Partie ist noch zu spielen: wer die gewinnt, ist Schachweltmeister; geht sie aber remis aus, kommt es zum Tiebreak.",
+            "llm_output": "Nach dem 13. Spiel haben Nepo und Ding jeweils 6½ Punkte und der Wettbewerb ist immer noch unglaublich spannend. Es gibt noch ein Spiel: Wer auch immer gewinnt, wird der Weltmeister im Schach sein; aber wenn es unentschieden endet, wird ein Tiebreaker gespielt.",
+            "score": 4.646276055478896e-155
+        },
+        {
+            "id": 2734,
+            "name": "en_de_88",
+            "input": "Police officers have reported that people receiving fines for flouting physical-distancing guidelines in Australia were coughing on them and then claiming they had COVID-19.",
+            "output": "Polizisten berichteten, bei der Vergabe von Bußgeldern wegen Verstoßes gegen die australischen Richtlinien zum Abstandhalten von manchen angehustet worden zu sein, die dann behaupteten, sie hätten COVID-19.",
+            "llm_output": "Polizeibeamte haben berichtet, dass Personen, die in Australien Bußgelder für Verstöße gegen die physische Distanzierung erhalten haben, auf sie gehustet und dann behauptet haben, dass sie COVID-19 hätten.",
+            "score": 4.627178750196014e-155
+        },
+        {
+            "id": 2717,
+            "name": "en_de_71",
+            "input": "Social media has been sharing hashtag #coveryourmouth, admonishing people to use the crook of their arm, a handkerchief or a tissue to block the spew of aerosolized germs in public places.",
+            "output": "In den sozialen Medien macht das Rautenschlagwort #coveryourmouth („die Hand vor den Mund“) die Runde, mit dem die Leute dazu aufgefordert werden sollen, sich an öffentlichen Orten in den Ellenbogen zu niesen oder in ein Taschentuch, damit sich die Keime nicht über die Luft verbreiten können.",
+            "llm_output": "Soziale Medien teilen den Hashtag #coveryourmouth und ermahnen die Menschen, in öffentlichen Orten die Armbeuge, ein Taschentuch oder ein Handtuch zu benutzen, um den Ausstoß von aerosolisierten Keimen zu blockieren.",
+            "score": 3.7254892301948124e-155
+        },
+        {
+            "id": 2652,
+            "name": "en_de_6",
+            "input": "The rule of thumb is that whatever functionality does not currently exist will either take a very long time to be implemented or never appear. The number of developers is small, the number of things that need to be fixed is huge, and the number of divergent opinions on the advisability of any particular measure is also large, meaning that discussion will take a long time and often not lead to a result.",
+            "output": "Als Faustregel bei allen zur Zeit noch nicht vorhandenen Funktionen gilt, dass es entweder ein sehr weiter Weg bis zur Implementation ist oder überhaupt nie dazu kommt. Es gibt nur wenige Entwickler, zu beheben ist viel, und wie ratsam eine Maßnahme jeweils ist, da gehen die Meinungen immer auseinander, so dass viel hin- und herdiskutiert wird, oft aber nichts dabei herauskommt.",
+            "llm_output": "Die Faustregel besagt, dass jede Funktionalität, die derzeit nicht existiert, entweder sehr lange braucht, um implementiert zu werden oder nie erscheinen wird. Die Anzahl der Entwickler ist gering, die Anzahl der Dinge, die behoben werden müssen, ist riesig und die Anzahl der unterschiedlichen Meinungen zur Zweckmäßigkeit einer bestimmten Maßnahme ist ebenfalls groß. Das bedeutet, dass Diskussionen lange dauern und oft nicht zu einem Ergebnis führen werden.",
+            "score": 1.3682868820983658e-231
+        }
+    ],
+    "history_criterion": "median"
+}

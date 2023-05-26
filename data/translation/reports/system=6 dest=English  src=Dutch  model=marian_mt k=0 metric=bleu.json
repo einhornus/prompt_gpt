@@ -1,0 +1,333 @@
+{
+    "system_message_file": "6",
+    "model": "marian_mt",
+    "parameters": {
+        "src": "Dutch",
+        "dest": "English"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.42315307943462177
+    ],
+    "prompt": [],
+    "median": 0.42315307943462177,
+    "average": 0.4105816053299809,
+    "std": 0.20579644456821136,
+    "percentiles": {
+        "10": 0.12118709799801843,
+        "20": 0.25696522492302376,
+        "25": 0.2876803372384449,
+        "30": 0.2985825709383808,
+        "40": 0.38538569180303145,
+        "50": 0.42315307943462177,
+        "60": 0.4602972946574888,
+        "70": 0.5105149179405212,
+        "75": 0.5321532124909973,
+        "80": 0.615436150854299,
+        "90": 0.6809864762709069
+    },
+    "n_tests": 50,
+    "tests": [
+        {
+            "input": "In mijn \"Agenda voor stedelijke mobiliteit\", die ik morgen zal presenteren op een congres van de Wereldvereniging van Steden, zal ik een aantal van de noodzakelijke maatregelen aan de orde stellen.",
+            "output": "In my \"Agenda for urban mobility\", which I will present tomorrow at a congress of the World Association of Cities, I will highlight some of the necessary measures.",
+            "llm_output": "In my \"Agenda for Urban Mobility\", which I will present tomorrow at a conference of the World Association of Cities, I will discuss some of the necessary measures.",
+            "score": 0.8166920319485289
+        },
+        {
+            "input": "Een goede opleiding maakt geen goede mens, maar een goede mens met de juiste opleiding kan de wereld voor vele mensen veranderen.",
+            "output": "A good education doesn't make a good person, but a good person with the right education can change the world for a lot of people.",
+            "llm_output": "A good education does not make a good person, but a good person with the right education can change the world for many people.",
+            "score": 0.7397630673919846
+        },
+        {
+            "input": "Het rechtsstelsel is zo opgebouwd dat iedereen eerlijk wordt behandeld en dat geschillen op een rechtvaardige en billijke manier worden opgelost.",
+            "output": "The legal system is designed to ensure that everyone is treated fairly and that disputes are resolved in a just and equitable manner.",
+            "llm_output": "The legal system is structured in such a way that everyone is treated fairly and that disputes are resolved in a just and equitable manner.",
+            "score": 0.7178970818142898
+        },
+        {
+            "input": "In het midden is het ijs mooi donker en glad, maar langs de rand van de wetering ligt bomijs. Als je daarop gaat staan, breekt het en hoor je een boel lawaai.",
+            "output": "In the middle the ice is nicely dark and smooth, but along the edge of the canal there is bomb ice. If you step on it, it breaks and you hear a lot of noise.",
+            "llm_output": "In the middle the ice is pretty dark and smooth, but along the edge of the wetering lies bomb ice. If you stand on it, it breaks and you hear a lot of noise.",
+            "score": 0.7047708740701131
+        },
+        {
+            "input": "De \"Grijze Wolven\" zijn een Turkse, ultranationalistisch, neofasistisch, anti-Koerdische beweging, die de volkerenmoord van de Armenische bevolking ontkennen.",
+            "output": "The \"Grey Wolves\" are a Turkish ultranationalist, neofascist, anti-Kurd movement, that denies the genocide of the Armenian people.",
+            "llm_output": "The \"Grey Wolves\" are a Turkish, ultra-nationalist, neo-fascist, anti-Kurdish movement that denies the genocide of the Armenian population.",
+            "score": 0.693395566222006
+        },
+        {
+            "input": "Sommige dingen zijn gemakkelijk voor sommige mensen, en niet voor anderen. Dat is te verwachten. Ik weet niet waarom veel scholen dat niet begrijpen en proberen alle leerlingen hetzelfde te behandelen.",
+            "output": "Some things come easy to some people, and not to others. That's to be expected. I don't know why a lot of schools don't understand that, and try to treat all students the same.",
+            "llm_output": "Some things are easy for some people, and not for others. That's to be expected. I don't know why many schools don't understand that and try to treat all students the same.",
+            "score": 0.6796076884985626
+        },
+        {
+            "input": "U dient altijd een snijplank te gebruiken bij het snijden van fruit, groenten en vlees om beschadiging van uw messen en aanrecht te voorkomen.",
+            "output": "You should always use a cutting board when slicing fruits, vegetables, and meats to prevent damaging your knives and countertops.",
+            "llm_output": "You should always use a cutting board when cutting fruits, vegetables and meats to prevent damage to your knives and countertops.",
+            "score": 0.6712403123245675
+        },
+        {
+            "input": "Eén spreker beschreef brexit als de belangrijkste grondwettelijke gebeurtenis na 1660, omdat ze aantoont dat, wat Europa betreft, de soevereiniteit van het volk die van het parlement overtreft.",
+            "output": "One speaker described Brexit as the most important constitutional event after 1660, because she demonstrates that, as far as Europe concerns, the sovereignty of the people surpasses the parliament.",
+            "llm_output": "One speaker described Brexit as the most important constitutional event after 1660, as it demonstrates that, as far as Europe is concerned, the sovereignty of the people exceeds that of parliament.",
+            "score": 0.6236555681133301
+        },
+        {
+            "input": "Het recht is een levend document dat regelmatig wordt bijgewerkt om de waarden en behoeften van de samenleving te weerspiegelen.",
+            "output": "The law is a living document, constantly being shaped and reshaped to reflect the values and needs of society.",
+            "llm_output": "The law is a living document that is regularly updated to reflect the values and needs of society.",
+            "score": 0.6187129112191097
+        },
+        {
+            "input": "Bij olympische competities is een gouden medaille voor de eerste plaats, een zilveren medaille voor de tweede plaats en een bronzen medaille voor de derde plaats.",
+            "output": "In Olympic competitions, a gold medal is for first place, a silver medal for second, and a bronze medal is for third place.",
+            "llm_output": "At Olympic competitions, a gold medal for first place, a silver medal for second place and a bronze medal for third place.",
+            "score": 0.6180281424664379
+        },
+        {
+            "input": "Electriciteit wordt gebruikt om allerlei apparaten aan te drijven, van gloeilampen tot televisietoestellen en computers.",
+            "output": "Electricity is used to power a variety of devices, from light bulbs to televisions to computers.",
+            "llm_output": "Electricity is used to power all kinds of devices, from light bulbs to televisions and computers.",
+            "score": 0.6147881529512643
+        },
+        {
+            "input": "Om thuis babyvoeding te maken, kunt u gekookt fruit en groenten in een blender pureren tot ze smeuïg zijn en gemakkelijk kunnen worden doorgeslikt.",
+            "output": "To make baby food at home, you can puree cooked fruits and vegetables in a blender until they're smooth and easy to swallow.",
+            "llm_output": "To make baby food at home, you can purify boiled fruits and vegetables in a blender until they are supple and can easily be swallowed.",
+            "score": 0.5538142279874649
+        },
+        {
+            "input": "Zou Lodewijk XV niet heel zijn koninkrijk hebben opgegeven om op te staan uit zijn doodskist en drie dagen van jeugd en het leven te hebben?",
+            "output": "Would Louis XV not have given up all his kingdom to rise from his coffin and have three days of youth and life?",
+            "llm_output": "Wouldn’t Louis XV have given up all of his kingdom to get out of his coffin and have three days of youth and life?",
+            "score": 0.5361131269495502
+        },
+        {
+            "input": "Na het snijden van de groenten is het belangrijk om ze af te spoelen onder koud water om al het vuil te verwijderen.",
+            "output": "After chopping the vegetables, it's important to rinse them under cold water to remove any dirt or debris.",
+            "llm_output": "After cutting the vegetables, it is important to rinse them under cold water to remove all the dirt.",
+            "score": 0.5202734691153391
+        },
+        {
+            "input": "10.000 jaren geleden, de Tomariërs reisden door de melkweg en koloniseerden planeten. Vandaag, ze leven weer als jager-verzamelaars, overleven op wat de natuur hen geeft in hun geadopteerde huis. De oude wetenschap is langs de nevels van tijd verloren. Ze hebben naar een eenvoudigere, vervullendere levenswijze.",
+            "output": "Ten thousand years ago, the Tomarians travelled through the galaxy in their spaceships, colonising planets. Today, they live again as hunter-gatherers, surviving on what nature provides them here in their adopted home. The old knowledge is lost in the mists of time. They have returned to a simpler, more fulfilling way of life.",
+            "llm_output": "10,000 years ago, the Tomarians traveled through the galaxy and colonized planets. Today, they live again as hunter-gatherers, surviving on what nature gives them in their adopted home. Ancient science has been lost along the mists of time. They have gone to a simpler, more fulfilling way of life.",
+            "score": 0.5141280359037569
+        },
+        {
+            "input": "Toegang hebben tot nauwkeurige, actuele informatie over uw gezondheid kan een enorm verschil maken in de manier waarop u met uw persoonlijke gezondheidstoestand omgaat.",
+            "output": "Having access to accurate, up-to-date health information can make a huge difference in how you manage your medical condition.",
+            "llm_output": "Having access to accurate, up-to-date information about your health can make a huge difference in how you handle your personal health condition.",
+            "score": 0.5089664388134202
+        },
+        {
+            "input": "Ik had nooit verwacht dat ik van yoga zou houden, maar toen ik het voor de eerste keer probeerde besefte ik hoeveel het me helpt te ontspannen en me te concentreren.",
+            "output": "I never thought I'd be into yoga, but after trying it for the first time I realized how much it helps me relax and focus.",
+            "llm_output": "I never expected to love yoga, but when I tried it for the first time, I realized how much it helps me to relax and concentrate.",
+            "score": 0.5082389299069682
+        },
+        {
+            "input": "Ik heb geen foodprocessor, dus gebruik ik een vork om mijn avocado te pureren voor de guacamole, en dat werkt prima.",
+            "output": "I don't have a food processor, so I use a fork to puree my avocado for guacamole, and it works just fine.",
+            "llm_output": "I don’t have a food processor, so I use a fork to purify my avocado for the guacamole, and that works fine.",
+            "score": 0.5030354865235552
+        },
+        {
+            "input": "Na haar operatie had de patiënte een stoma-zakje nodig om de afvalstoffen uit haar darmen op te vangen die via een opening in haar buikwand werden omgeleid.",
+            "output": "After her surgery, the patient needed an ostomy bag to collect waste from her intestine that was redirected through an opening in her abdominal wall.",
+            "llm_output": "After her surgery, the patient needed a stoma bag to collect the wastes from her intestines that were diverted through an opening in her abdominal wall.",
+            "score": 0.4772894233335957
+        },
+        {
+            "input": "Tom keek rond in zijn appartement in Boston om inspiratie op te doen voor een nieuwe zin. En toen zag hij zijn Franse lesboek.",
+            "output": "Tom looked around in his Boston apartment to find a theme for a new sentence, and then he caught sight of his French textbook.",
+            "llm_output": "Tom looked around in his apartment in Boston to get inspiration for a new sentence, and then he saw his French textbook.",
+            "score": 0.46357944175177535
+        },
+        {
+            "input": "Na het reinigen van de wond heeft de verpleegkundige wat ontsmettingsmiddel aangebracht en de wond afgedekt met steriele gaasjes om de wond schoon te houden en de genezing te bevorderen.",
+            "output": "After cleaning the wound, the nurse applied some antiseptic and covered it with sterile gauze pads to keep it clean and promote healing.",
+            "llm_output": "After cleaning the wound, the nurse applied some disinfectant and covered the wound with sterile gauzes to keep the wound clean and promote healing.",
+            "score": 0.4581091965946312
+        },
+        {
+            "input": "De natie is duidelijk diep gesplitst tussen voor- en tegenstanders van de brexit: Engeland en Wales tegen Schotland en Noord-Ierland, platteland tegen de stad, ouderen tegen jongeren, mensen met een basisopleiding tegen hen met een hogere opleiding, zelfs familielid tegen familielid.",
+            "output": "The nation is clearly divided deep between the proponents and opponents of Brexit: England and Wales against Scotland and North Ireland, rural against urban, the elderly against the youth, people with a basic education against those with a higher upbringing, even family members against family members.",
+            "llm_output": "The nation is clearly deeply divided between proponents and opponents of Brexit: England and Wales against Scotland and Northern Ireland, countryside against the city, the elderly against the young, people with basic education against those with higher education, even relatives against family members.",
+            "score": 0.4557483578999205
+        },
+        {
+            "input": "Ik heb een volwassen man gezien die op handen en voeten boven op een muur kroop. Ofwel was hij dronken, ofwel wou hij weer eens jong zijn.",
+            "output": "I have seen an adult man who crept above a wall on hands and feet. Either he was drunk, or he wanted to be young again.",
+            "llm_output": "I've seen a grown man crawling on his hands and feet on top of a wall, either he was drunk, or he wanted to be young again.",
+            "score": 0.45358328887808014
+        },
+        {
+            "input": "Als de rijst niet helemaal gaar is, kun je de pan afdekken en nog een paar minuten op laag vuur laten sudderen tot hij gaar is.",
+            "output": "If the rice is not fully cooked, you can cover the pot and let it simmer on low heat for a few more minutes until it's done.",
+            "llm_output": "If the rice is not completely cooked, you can cover the pan and simmer for a few more minutes on low heat until it is cooked.",
+            "score": 0.4487928415757052
+        },
+        {
+            "input": "Ik controleer zinnen meestal niet meer actief, aangezien de persoonlijke aanvallen van een paar kwaadwillende mensen mij opbrandden voor de taak. Gebrek aan moderatie leidt tot zinnen van lagere kwaliteit.",
+            "output": "I don't actively check sentences most of the time anymore, as a few malicious people's personal attacks burned me out on the task. Lack of moderation leads to lower quality sentences.",
+            "llm_output": "I usually no longer actively check sentences, as the personal attacks of a few malicious people burned me up for the task. Lack of moderation leads to lower quality sentences.",
+            "score": 0.4352070837557877
+        },
+        {
+            "input": "Als je bang bent voor slangen, kom dan niet in mijn kamer omdat ik er vijf van heb losgelaten. I doe ze allen terug in de terrarium wanneer het etenstijd is.",
+            "output": "If you're scared of snakes, don't come in my room because I have five of them roaming around. I only put them in the terrarium when it's time to eat.",
+            "llm_output": "If you're afraid of snakes, don't come into my room because I've released five of them. I'll put them all back in the terrarium when it's dinner time.",
+            "score": 0.41109907511345584
+        },
+        {
+            "input": "Na zijn heupoperatie raadde de dokter Tom aan een wandelstok te gebruiken om zijn gewicht te ondersteunen en te voorkomen dat hij tijdens het lopen zou vallen.",
+            "output": "After his hip surgery, the doctor recommended that Tom use a cane to help support his weight and prevent falls while walking.",
+            "llm_output": "After his hip surgery, the doctor advised Tom to use a walking stick to support his weight and prevent him from falling while walking.",
+            "score": 0.40025074540692385
+        },
+        {
+            "input": "Advocaten spelen in het rechtsstelsel een vitale rol doordat zij particulieren en ondernemingen in uiteenlopende juridische kwesties vertegenwoordigen en begeleiden.",
+            "output": "Lawyers play a vital role in the legal system, providing representation and guidance to individuals and organizations in a wide range of legal matters.",
+            "llm_output": "Lawyers play a vital role in the legal system by representing and guiding individuals and businesses on a variety of legal issues.",
+            "score": 0.397417903312888
+        },
+        {
+            "input": "Hun ambitie en droom is om de Siberische wolharige mammoet — die ongeveer zesduizend jaar geleden is uitgestorven — weer tot leven te brengen door middel van een stukje weefsel dat bewaard is in de ondergrondse permafrost.",
+            "output": "Their ambition and dream is to bring the Siberian wooly mammoth, that became extinct six thousand years ago, back to life, using a piece of tissue that is kept in the underground permafrost.",
+            "llm_output": "Their ambition and dream is to bring back to life the Siberian wool-haired mammoth which died out about 6,000 years ago through a piece of tissue preserved in the underground permafrost.",
+            "score": 0.3876778818781821
+        },
+        {
+            "input": "Egyptisch vormt een eigen tak van de Afro-Aziatisch taalfamilie, waartoe onder andere ook het Arabisch, Hebreeuws en de Berbertalen behoren.",
+            "output": "Egyptian is a branch of the Afro-Asiatic language family, which also includes Arabic, Hebrew and Berber languages.",
+            "llm_output": "Egyptian forms a branch of the Afro-Asian language family, which includes Arabic, Hebrew and the Berber languages.",
+            "score": 0.38538569180303145
+        },
+        {
+            "input": "Toen ik het koffiehuis binnenkwam, waren er twee jonge mannen die naar een worstelwedstrijd aan het kijken waren op de televisie.",
+            "output": "When I entered the coffee shop, two young men were watching a wrestling match on television.",
+            "llm_output": "When I entered the coffee house, there were two young men watching a wrestling game on television.",
+            "score": 0.38538569180303145
+        },
+        {
+            "input": "Ik begrijp niet waarom u hier zo negatief en vervelend over doet. Laten we blij zijn met elkaar! Laten wij optimistisch zijn! Laten we zeggen: Nederland kan het weer! Die VOC-mentaliteit, over grenzen heen kijken, dynamiek! Toch?",
+            "output": "I do not understand why you are so negative and annoyed about this. Let us be happy with each other! Let us be optimistic! Let us say: The Netherlands can do it again! The VOC mentality, looking over borders, powerful! Hmm?",
+            "llm_output": "I don’t understand why you are doing this so negatively and annoyingly. Let’s be happy with each other! Let’s be optimistic! Let’s say: The Netherlands can do it again! That VOC mentality, look across borders, dynamics! Right?",
+            "score": 0.37029387929479246
+        },
+        {
+            "input": "Of het nu gaat om de stranden van Bali of de straten van Tokio, door te reizen ontdek je de diversiteit van de wereld en maak je kennis met verschillende culturen.",
+            "output": "From the beaches of Bali to the streets of Tokyo, traveling is a great way to explore the diversity of the world and experience different cultures.",
+            "llm_output": "Whether it is the beaches of Bali or the streets of Tokyo, by traveling you will discover the diversity of the world and get acquainted with different cultures.",
+            "score": 0.3641410562218427
+        },
+        {
+            "input": "Het hoofdpersonage van het verhaal was een dappere jonge vrouw die haar angsten onder ogen zag en uitzonderlijke moed vertoonde.",
+            "output": "The story's titular character was a brave young woman who confronted her fears and demonstrated extraordinary courage.",
+            "llm_output": "The main character of the story was a brave young woman who faced her fears and showed exceptional courage.",
+            "score": 0.3598590234416894
+        },
+        {
+            "input": "Honger en extreme armoede, dat wil de internationale gemeenschap uitroeien door middel van een ambitieus plan van de Verenigde Naties (VN) dat in Wenen werd goedgekeurd.",
+            "output": "Hunger and extreme poverty; the international community wants to exterminate that through the means of an ambitious plan from the United Nations (VN) that was approved in Vienna.",
+            "llm_output": "Hunger and extreme poverty, the aim of which is to eradicate the international community through an ambitious plan adopted by the United Nations (UN) in Vienna.",
+            "score": 0.2999336111785083
+        },
+        {
+            "input": "Ik heb al jaren een insectenhotel. Maar voornamelijk wespen hebben er hun nest. Lieveheersbeestjes, die ik daar hoopte te zien, zijn spijtig genoeg nooit gekomen.",
+            "output": "I have a bug hotel for years. But mainly wasps have there their nests. Ladybugs, that I hoped to see there, unfortunately have never come.",
+            "llm_output": "I've had an insect hotel for years, but mostly wasps have their nests. Unfortunately, ladybugs, which I hoped to see there, never came.",
+            "score": 0.29543014371141674
+        },
+        {
+            "input": "Men zou kunnen aanvoeren dat God met het dikke, complexe en contradictorische boek dat de Bijbel is niets anders beoogd heeft dan zijn vereerders duidelijk te maken dat er niet zoiets als de Ene Waarheid bestaat.",
+            "output": "One could argue that with the thick, complex, contradictory book which is the Bible, God intended nothing more than to make clear to his devotees that there is nothing has the One Truth.",
+            "llm_output": "One might argue that with the thick, complex, and contradictory book that the Bible is, God intended nothing but to make it clear to his worshipers that there is no such thing as the One Truth.",
+            "score": 0.28989137392185715
+        },
+        {
+            "input": "Onze ogen kunnen zich aan verschillende lichtniveaus aanpassen zodat we zowel in heldere als in donkere omgevingen kunnen zien.",
+            "output": "Our eyes have the ability to adapt to different levels of light, allowing us to see in both bright and dim environments.",
+            "llm_output": "Our eyes can adapt to different levels of light so that we can see both in bright and dark environments.",
+            "score": 0.2869433250106408
+        },
+        {
+            "input": "De taal Esperanto met haar rijke literatuur en haar 130 jaar geschiedenis, kan men zich eigen maken in een tiende van de tijd, die men nodig heeft voor het leren van de verspreide grote nationale talen.",
+            "output": "The Esperanto language, with its rich literature and 130 years of history, can be mastered in one-tenth of the time it takes one to learn the major national languages.",
+            "llm_output": "The language of Esperanto with its rich literature and its 130 years of history, one can make oneself in a tenth of the time, which one needs to learn the scattered major national languages.",
+            "score": 0.28639493079153333
+        },
+        {
+            "input": "Na mijn operatie kreeg ik van het ziekenhuispersoneel een kit om de hechtingen te verwijderen samen met instructies over hoe ik die thuis kon gebruiken.",
+            "output": "After my surgery, I was given a suture removal kit by the hospital staff and was instructed on how to use it to remove the stitches at home.",
+            "llm_output": "After my surgery, the hospital staff gave me a kit to remove the stitches along with instructions on how to use them at home.",
+            "score": 0.2629867887684298
+        },
+        {
+            "input": "De infuuspomp piepte terwijl hij de toevoer van vloeistoffen en medicijnen naar de bloedbaan van de patiënt regelde.",
+            "output": "The IV pump beeped as it regulated the flow of fluids and medications into the patient's bloodstream.",
+            "llm_output": "The infusion pump squealed as it regulated the supply of fluids and medicines to the patient’s bloodstream.",
+            "score": 0.23287896954139942
+        },
+        {
+            "input": "Kijk hier, een bolletje. \"Schop het.\" \"Dat zou een massadepressie veroorzaken, de economie onnodig vanwege internationale investeringen afbijten, en de handige tijd van het volk afhalen.\" \"Schop het maar.\"",
+            "output": "Look here, a spherical thing. \"Kick it.\" \"That would cause mass depression, unnecessarily bite away the global economy due to international investments, and take away the peoples' handy time.\" \"Just kick it.\"",
+            "llm_output": "Look here, a ball. \"Get it.\" \"That would cause a mass depression, unnecessarily biting off the economy because of international investment, and picking up the convenient time of the people.\" \"Get it.\"",
+            "score": 0.22516935828610693
+        },
+        {
+            "input": "Trouwens, het verschil tussen Engels en Amerikaans is waarschijnlijk groter dan dat tussen standaard Nederlands in Vlaanderen en in Nederland.",
+            "output": "In fact, the difference between British English and American English is probably more significant than that between standard Flemish and the standard Dutch of the Netherlands.",
+            "llm_output": "By the way, the difference between English and American is probably greater than that between standard Dutch in Flanders and in the Netherlands.",
+            "score": 0.2117561663985565
+        },
+        {
+            "input": "Het schandaal werd opgewekt door de keuze de panelen niet alleen, zoals gebruikelijk, in het Engels en het Frans te vertalen maar ook ik het Roemeens, Albanees en Arabisch.",
+            "output": "The scandal was generated not only through the choice translating the panels to the usual English or French, but also in Romanian, Albanian and Arabic.",
+            "llm_output": "The scandal was sparked by the choice not only to translate the panels, as usual, into English and French, but also to translate Romanian, Albanian and Arabic.",
+            "score": 0.2061015734961037
+        },
+        {
+            "input": "Het spijt me, maar ik heb strikte bevelen om niemand binnen te laten zonder een uitnodiging. Als jullie er geen hebben, moeten jullie buiten blijven.",
+            "output": "I'm sorry, but I'm under strict instructions not to let in anyone who doesn't have an invitation. If you haven't got one, you'll have to stay outside.",
+            "llm_output": "I'm sorry, but I have strict orders not to let anyone in without an invitation.",
+            "score": 0.1346523311089093
+        },
+        {
+            "input": "Rokeren is een bijzondere schaakzet waarbij een toren wordt verplaatst naar het veld dat door de koning wordt overstoken.",
+            "output": "Castling is a special move in chess whereby a rook is transferred to the square crossed by the king.",
+            "llm_output": "Smoking is a special form of chess in which a tower is moved to the field that is stolen by the king.",
+            "score": 4.123000871113193e-78
+        },
+        {
+            "input": "Medeklinkers zijn spraakklanken die door het blokkeren of belemmeren van de spraaklucht in het spraakkanaal worden geproduceerd.",
+            "output": "Consonants are speech sounds produced by obstructing or restricting the airflow in the vocal tract.",
+            "llm_output": "Consonants are voice sounds produced by blocking or blocking the voice air in the voice channel.",
+            "score": 3.9294060881161865e-78
+        },
+        {
+            "input": "De dokter droeg de patiënt op de pulsoxymeter om zijn vinger te klemmen zodat hij zijn zuurstofgehalte in het bloed kon meten.",
+            "output": "The doctor instructed the patient to clip the pulse oximeter onto their finger so that they could measure their blood oxygen saturation levels.",
+            "llm_output": "The doctor carried the patient on the pulse oxymeter to clamp his finger so that he could measure his oxygen level in the blood.",
+            "score": 3.5222119786445393e-78
+        },
+        {
+            "input": "Onze maatschappij heeft liever dat mensen maar sterven als ze geen goed tandwieltje van de winstmachine kunnen worden.",
+            "output": "Our society would rather people just die if they can't be a good little cog in the machine of profit.",
+            "llm_output": "Our society prefers that people die if they can’t become a good gear of the profit machine.",
+            "score": 3.253146723337255e-78
+        },
+        {
+            "input": "Ik heb de stukken van de gescheurde foto zorgvuldig bij elkaar gevoegd en ervoor gezorgd dat alle randen naadloos op elkaar pasten.",
+            "output": "I meticulously pieced the torn photograph back together, ensuring that the edges were perfectly matched.",
+            "llm_output": "I carefully put together the pieces of the torn photo and made sure that all the edges fit together seamlessly.",
+            "score": 6.535191609613723e-155
+        }
+    ]
+}

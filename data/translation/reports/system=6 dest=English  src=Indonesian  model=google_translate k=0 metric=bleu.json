@@ -1,0 +1,333 @@
+{
+    "system_message_file": "6",
+    "model": "google_translate",
+    "parameters": {
+        "src": "Indonesian",
+        "dest": "English"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.5561358214783831
+    ],
+    "prompt": [],
+    "median": 0.5561358214783831,
+    "average": 0.5108690866728981,
+    "std": 0.33848924789598184,
+    "percentiles": {
+        "10": 3.822947426171783e-78,
+        "20": 0.13173623884676727,
+        "25": 0.2673341364014964,
+        "30": 0.3467901535958404,
+        "40": 0.4013232515637969,
+        "50": 0.5561358214783831,
+        "60": 0.6953754455955672,
+        "70": 0.7432522307213719,
+        "75": 0.7825422900366437,
+        "80": 0.7986345640971254,
+        "90": 1.0
+    },
+    "n_tests": 50,
+    "tests": [
+        {
+            "input": "Setiap enam puluh detik di Afrika, satu menit berlalu. Bersama-sama, kita bisa menghentikan ini. Tolong sebarkan berita ini. Terima kasih atas perhatian Anda.",
+            "output": "Every sixty seconds in Africa, a minute passes. Together, we can stop this. Please spread the word. Thank you for your attention.",
+            "llm_output": "Every sixty seconds in Africa, a minute passes. Together, we can stop this. Please spread the word. Thank you for your attention.",
+            "score": 1.0
+        },
+        {
+            "input": "Januari, Februari, Maret, April, Mei, Juni, Juli, Agustus, September, Oktober, November, dan Desember adalah dua belas bulan dalam setahun.",
+            "output": "January, February, March, April, May, June, July, August, September, October, November and December are the twelve months of the year.",
+            "llm_output": "January, February, March, April, May, June, July, August, September, October, November and December are the twelve months of the year.",
+            "score": 1.0
+        },
+        {
+            "input": "Dalam kamus yang sangat berguna ini Anda akan menemukan semua kata, definisi, dan alternatif yang Anda perlukan.",
+            "output": "In this very useful dictionary you will find all the words, definitions and alternatives you need.",
+            "llm_output": "In this very useful dictionary you will find all the words, definitions and alternatives you need.",
+            "score": 1.0
+        },
+        {
+            "input": "Di Malaysia, saya sering menonton sinetron Indonesia dengan subtitle bahasa Melayu.",
+            "output": "In Malaysia, I often watch Indonesian soap operas with Malay subtitles.",
+            "llm_output": "In Malaysia, I often watch Indonesian soap operas with Malay subtitles.",
+            "score": 1.0
+        },
+        {
+            "input": "Saat dia sedang menurunkan barang dari truk, seekor anjing menggigit kakinya.",
+            "output": "While he was unloading goods from the truck, a dog bit his leg.",
+            "llm_output": "While he was unloading goods from the truck, a dog bit his leg.",
+            "score": 1.0
+        },
+        {
+            "input": "Pasteurisasi tidak membunuh semua organisme, tetapi mengurangi jumlahnya.",
+            "output": "Pasteurization does not kill all organisms, but reduces their number.",
+            "llm_output": "Pasteurization does not kill all organisms, but reduces their number.",
+            "score": 1.0
+        },
+        {
+            "input": "Kehabisan susu? Coba nikmati sereal sarapan favorit Anda dengan air keran atau jus jeruk.",
+            "output": "Out of milk? Try enjoying your favorite breakfast cereal with tap water or orange juice instead.",
+            "llm_output": "Out of milk? Try enjoying your favorite breakfast cereal with tap water or orange juice.",
+            "score": 0.9355069850316178
+        },
+        {
+            "input": "Tom Jackson tinggal di Park Street di Boston, Australia bersama istrinya Mary, tiga anak, dan anjing peliharaanya, Cookie. Dia bisa berbahasa Prancis, berusia 30 tahun, dan merayakan ulang tahunnya pada tanggal 20 Oktober.",
+            "output": "Tom Jackson lives on Park Street in Boston, Australia with his wife Mary, three children, and pet dog Cookie. He speaks French, is 30 years old, and celebrates his birthday on October the 20th.",
+            "llm_output": "Tom Jackson lives on Park Street in Boston, Australia with his wife Mary, three children, and his pet dog, Cookie. He speaks French, is 30 years old, and celebrates his birthday on October 20.",
+            "score": 0.8901732118131125
+        },
+        {
+            "input": "Afganistan berbatasan dengan enam negara: Tiongkok, Iran, Pakistan, Tajikistan, Turkmenistan, dan Uzbekistan.",
+            "output": "Afghanistan has borders with six countries: China, Iran, Pakistan, Tajikistan, Turkmenistan and Uzbekistan.",
+            "llm_output": "Afghanistan shares borders with six countries: China, Iran, Pakistan, Tajikistan, Turkmenistan and Uzbekistan.",
+            "score": 0.842362674378975
+        },
+        {
+            "input": "Yang terjadi padamu kemarin mengingatkanku akan sesuatu yang terjadi padaku satu tahun yang lalu.",
+            "output": "What happened to you yesterday reminded me of something that happened to me a year ago.",
+            "llm_output": "What happened to you yesterday reminded me of something that happened to me one year ago.",
+            "score": 0.8371170098777919
+        },
+        {
+            "input": "Dia berbicara bahasa Indonesia dan juga berbicara bahasa Kanton, karena dia suku Jawa dari Kabupaten Nunukan, Kalimantan Utara dekat di perbatasan wilayah Malaysia.",
+            "output": "He speaks Indonesian and also speaks Cantonese, because he is Javanese from Nunukan Regency, North Kalimantan is close to the Malaysian border.",
+            "llm_output": "He speaks Indonesian and also speaks Cantonese, because he is Javanese from the Nunukan Regency, North Kalimantan, close to the Malaysian border.",
+            "score": 0.7890139526519586
+        },
+        {
+            "input": "Bagaimana kalau kamu ajarkan saya bahasa Berber dan saya bantu kamu memperlancar bahasa Inggris?",
+            "output": "How about you teach me Berber and I can help you improve your English?",
+            "llm_output": "How about you teach me Berber and I help you improve your English?",
+            "score": 0.7881929718099911
+        },
+        {
+            "input": "Nama saya tidak bisa diucapkan oleh penduduk Bumi, tetapi Anda bisa memanggil saya Tom.",
+            "output": "My name cannot be pronounced by Earthlings, but you may call me Tom.",
+            "llm_output": "My name cannot be pronounced by Earthlings, but you can call me Tom.",
+            "score": 0.7825422900366437
+        },
+        {
+            "input": "Java dan JavaScript itu seperti India dan Indonesia, mereka bukan hal yang sama.",
+            "output": "Java and Javascript are like India and Indonesia, they aren't the same thing.",
+            "llm_output": "Java and JavaScript are like India and Indonesia, they are not the same thing.",
+            "score": 0.7825422900366437
+        },
+        {
+            "input": "Saya tidak membelinya, jawab wanita tua itu. \"Saya menemukannya di sungai tempat saya mencuci.\"",
+            "output": "I did not buy it, answered the old woman. \"I found it in the river where I was washing.\"",
+            "llm_output": "I didn't buy it, replied the old woman. \"I found it in the river where I was washing.\"",
+            "score": 0.7580200557466953
+        },
+        {
+            "input": "Tom dengan mobilnya akan pergi melewati Boston dalam perjalanan mengunjungi Mary.",
+            "output": "Tom will be driving through Boston on his way to visit Mary.",
+            "llm_output": "Tom is driving through Boston on his way to visit Mary.",
+            "score": 0.7369231628533763
+        },
+        {
+            "input": "Para ahli kesehatan masyarakat berkata bahwa mereka khawatir varian tersebut dapat memperberat sistem pelayanan kesehatan Zimbabwe yang sudah runtuh.",
+            "output": "Public health experts say they fear the variant could overwhelm Zimbabwe's collapsed health care system.",
+            "llm_output": "Public health experts say they fear the variant could overwhelm Zimbabwe's already crumbling healthcare system.",
+            "score": 0.7367565054628357
+        },
+        {
+            "input": "Saya tidak mengetahui jika itu benar, tetapi banyak orang berpikir itu benar.",
+            "output": "I don't know if it's true, but a lot of people think it is.",
+            "llm_output": "I don't know if that's true, but a lot of people think it's true.",
+            "score": 0.7276817202342092
+        },
+        {
+            "input": "Anakku bersikeras tidak ingin tidur karena ada monster di bawah tempat tidur.",
+            "output": "My son insisted he wouldn't go to sleep because there was a monster under the bed.",
+            "llm_output": "My son insisted he didn't want to sleep because there was a monster under the bed.",
+            "score": 0.708587641194393
+        },
+        {
+            "input": "Aku mencoba menerjemahkan sebuah kalimat yang indah ke bahasa Toki Pona. Aku tahu guruku akan mengoreksi kesalahanku sebentar lagi.",
+            "output": "I tried to translate a beautiful sentence into Toki Pona. I know my teacher will soon correct the mistakes.",
+            "llm_output": "I tried to translate a beautiful sentence into Toki Pona. I know my teacher will correct my mistake in a moment.",
+            "score": 0.7023026466283672
+        },
+        {
+            "input": "Pada tahun 1987, Amerika Serikat menjalin hubungan diplomatik dengan Mongolia, negara yang terkenal sebagai tempat kelahiran kaisar Mongol Jenghis Khan.",
+            "output": "In 1987, the United States established diplomatic relations with Mongolia, best known as the birthplace of the Mongol emperor Genghis Khan.",
+            "llm_output": "In 1987, the United States established diplomatic relations with Mongolia, a country famous for being the birthplace of the Mongol emperor Genghis Khan.",
+            "score": 0.6907573115737006
+        },
+        {
+            "input": "Peneliti di Selandia Baru telah mengembangkan teknologi baru yang bisa membuat jembatan lebih tahan gempa.",
+            "output": "Researchers in New Zealand have developed new technology that could make bridges more resilient to earthquakes.",
+            "llm_output": "Researchers in New Zealand have developed a new technology that could make bridges more earthquake resistant.",
+            "score": 0.6739047062564734
+        },
+        {
+            "input": "Buku yang Tom tulis dalam bahasa Esperanto telah diterjemahkan ke banyak bahasa di seluruh dunia.",
+            "output": "The book Tom wrote in Esperanto has been translated into many languages around the world.",
+            "llm_output": "The books that Tom wrote in Esperanto have been translated into many languages around the world.",
+            "score": 0.6147881529512643
+        },
+        {
+            "input": "Pada bulan Januari 2023, Daftar Larangan Terbang pemerintah AS dibocorkan oleh peretas transgender asal Swiss bernama maia arson crimew (sic).",
+            "output": "In January 2023, the U.S. government's No Fly List was leaked by a trans Swiss hacker named maia arson crimew (sic).",
+            "llm_output": "In January 2023, the US government's No-fly List was leaked by a transgender Swiss hacker named maia arson crimew (sic).",
+            "score": 0.6080105469061642
+        },
+        {
+            "input": "Apakah kucing Tom berwarna abu-abu? \"Tidak, kucingnya berwarna hitam dan putih.\"",
+            "output": "Is Tom's cat grey? \"No, his cat is black and white.\"",
+            "llm_output": "Is Tom's cat gray? \"No, the cat is black and white.\"",
+            "score": 0.5731224484094262
+        },
+        {
+            "input": "Topik bahasan untuk malam itu adalah \"Kucing Hitam dan Semanggi Berdaun Empat: Kisah-kisah tentang Nasib Baik dan Nasib Buruk\".",
+            "output": "The subject for the evening was \"Black Cats and Four Leaf Clovers: Stories about Good and Bad Luck\".",
+            "llm_output": "The topic for the evening was \"Black Cats and Four-Leaf Clover: Tales of Good and Bad Luck\".",
+            "score": 0.5391491945473402
+        },
+        {
+            "input": "Ada beberapa syarat yang harus dipenuhi sebelum melanjutkan ke tahap berikutnya.",
+            "output": "There are several requirements that must be fulfilled before proceeding to the next step.",
+            "llm_output": "There are several conditions that must be met before proceeding to the next stage.",
+            "score": 0.43748114312246444
+        },
+        {
+            "input": "Jika setelah enam bulan aku tidak mendapat pekerjaan, aku akan pergi keluar negeri.",
+            "output": "If in six months I still can't find a job, I will go abroad.",
+            "llm_output": "If after six months I don't get a job, I will go abroad.",
+            "score": 0.4359765514726485
+        },
+        {
+            "input": "Mulai pekan depan, semua pegawai negeri dan swasta di Italia harus memiliki sertifikat kesehatan COVID-19 digital atau berisiko dipulangkan tanpa bayaran dan didenda hingga $1.730.",
+            "output": "Starting next week, all public and private workers in Italy will be required to have a digital COVID-19 health certificate or face being sent home on unpaid leave and fined up to $1,730.",
+            "llm_output": "From next week, all public and private employees in Italy must have a digital COVID-19 health certificate or risk being sent home without pay and a fine of up to $1,730.",
+            "score": 0.42900352561544236
+        },
+        {
+            "input": "Banyak hal yang didengar oleh Pizzaro tentang imperium Inca itu benar adanya.",
+            "output": "Many of the things Pizzaro had heard about the Inca treasure were true.",
+            "llm_output": "Much of what Pizzaro had heard about the Inca empire was true.",
+            "score": 0.41249148923121126
+        },
+        {
+            "input": "Sebuah investigasi menentukan bahwa runtuhnya bangunan tersebut disebabkan oleh faktor ekstrinsik, bukan cacat pada struktur internal atau materialnya.",
+            "output": "An investigation determined that extrinsic factors caused the building to collapse, rather than a flaw in its internal structure or materials.",
+            "llm_output": "An investigation determined that the collapse of the building was caused by extrinsic factors, not defects in its internal structure or materials.",
+            "score": 0.38457089506267517
+        },
+        {
+            "input": "Nenek tua itu tinggal di sebuah gang sempit di belakang pusat perbelanjaan.",
+            "output": "The old woman lives in a narrow alley behind the shopping centre.",
+            "llm_output": "The old grandmother lived in a narrow alley behind a shopping center.",
+            "score": 0.37700638045494705
+        },
+        {
+            "input": "Dengan mempelajari bahasa Lojban, saya menguji Hipotesis Sapir-Whorf, relativitas linguistik.",
+            "output": "By studying Lojban, I am testing the Sapir-Whorf Hypothesis, linguistic relativity.",
+            "llm_output": "By learning the Lojban language, I tested the Sapir-Whorf Hypothesis, linguistic relativity.",
+            "score": 0.35655062085592504
+        },
+        {
+            "input": "Aku sudah melakukan yang aku bisa, biarkan mereka yang lebih ahli melakukan yang lebih baik.",
+            "output": "I did what I could; let those who are more capable do better.",
+            "llm_output": "I've done what I can, let those who are more skilled do better.",
+            "score": 0.3498761149110956
+        },
+        {
+            "input": "Pemilik rumah telah memberi tahu Tom: \"Kamu akan terlihat lebih baik dengan topi fedora - saya kira topi bulu abu-abu muda. Kamu tinggi, dan kamu bisa mengambilnya.\"",
+            "output": "The landlady had told Tom: “You'd look better with a fedora hat — a light-grey felted wool one, I think. You're tall, and you could carry it off.\"",
+            "llm_output": "The landlord had told Tom: \"You'd look better in a fedora - a light gray fur hat I think. You're tall, and you can take that.\"",
+            "score": 0.34803173866586445
+        },
+        {
+            "input": "Kamu harus melaporkan bug ini di GitHub. Di situlah segala sesuatu diselesaikan.",
+            "output": "You should report this bug on GitHub. It's where things get done.",
+            "llm_output": "You must report this bug on GitHub. That's where everything gets resolved.",
+            "score": 0.3438931217657843
+        },
+        {
+            "input": "Aku seorang esperantis, karena tak cukup bagiku untuk menjadi orang swiss.",
+            "output": "I am an Esperantist, because being Swiss is not enough for me.",
+            "llm_output": "I'm an Esperantist, because it's not enough for me to be Swiss.",
+            "score": 0.2737928561916526
+        },
+        {
+            "input": "Agar hidup kita bahagia, kita harus mencintai hal-hal kecil di sekitar kita.",
+            "output": "To live a happy life, we need to appreciate the little things around us.",
+            "llm_output": "In order for our life to be happy, we must love the little things around us.",
+            "score": 0.26518122980477765
+        },
+        {
+            "input": "Popcorn sangat murah jika dibandingkan dengan banyak camilan lainnya, dan biasanya juga lebih sehat.",
+            "output": "Popcorn is very inexpensive when compared to many other snack foods. It's also usually healthier.",
+            "llm_output": "Popcorn is very cheap compared to many other snacks, and usually healthier too.",
+            "score": 0.24747288953097432
+        },
+        {
+            "input": "Diperkirakan ada lebih dari 5 juta penganut agama Baha'i di seluruh dunia.",
+            "output": "More than 5 million Baha'is are estimated to live around the world.",
+            "llm_output": "It is estimated that there are more than 5 million adherents of the Baha'i faith worldwide.",
+            "score": 0.16467029855845897
+        },
+        {
+            "input": "Terakhir kali hal itu terjadi, Tom, tepat sebelum kamu mulai menggali terowongan besar.",
+            "output": "The last time that happened, Tom, was just before you started to dig the big tunnel.",
+            "llm_output": "The last time it happened, Tom, was right before you started digging the big tunnel.",
+            "score": 6.997216099673707e-78
+        },
+        {
+            "input": "Sayangnya, banyak umat Islam yang tak menyadari, mengapa ia beragama Islam. Banyak Muslim yang menjadi Muslim hanya karena orang tua mereka Muslim.",
+            "output": "Unfortunately, many Muslims are not aware of why they are Muslim. Many Muslims became Muslim just because their parents are Muslims.",
+            "llm_output": "Unfortunately, many Muslims do not realize why they are Muslims. Many Muslims become Muslims simply because their parents were Muslims.",
+            "score": 5.369032178270873e-78
+        },
+        {
+            "input": "Penerjemah menggunakan kata ganti orang pertama dan kata ganti orang ketiga dalam terjemahannya.",
+            "output": "The translator uses first-person and third-person pronouns in his translations.",
+            "llm_output": "The translator uses first person pronouns and third person pronouns in his translation.",
+            "score": 5.191033047549162e-78
+        },
+        {
+            "input": "Saya bisa menyelesaikan proyek ini dalam waktu paling lambat tiga minggu.",
+            "output": "I can finish that project within three weeks at most.",
+            "llm_output": "I can complete this project in three weeks at the latest.",
+            "score": 4.484824319939061e-78
+        },
+        {
+            "input": "Dalam konsep panpsikisme animistik, segala sesuatu dan setiap orang memiliki beberapa aspek \"pikiran\", pada tingkat tertentu, meskipun terkadang hampir tidak ada.",
+            "output": "In the Animistic concept of panpsychism, everything and everybody have some aspect of \"mind,\" at some level, even though sometimes scarcely.",
+            "llm_output": "In animistic panpsychism, everything and everyone has some \"mind\" aspect, to some degree, though sometimes almost absent.",
+            "score": 3.8262449713036154e-78
+        },
+        {
+            "input": "Kami mengerti Anda pasti mau cari properti bagus dengan harga miring, oleh karena itu Tim Hargamiring selalu memburu properti dengan harga di bawah harga pasar.",
+            "output": "We understand you want to look for a good property with low prices, so we always search for properties below the market price.",
+            "llm_output": "We understand that you want to find a good property at a low price, that's why the Hargamiring Team is always looking for properties at below market prices.",
+            "score": 3.793269519985293e-78
+        },
+        {
+            "input": "Kita mendapatkan kemampuan berbahasa sama seperti ayam makan: sebutir demi sebutir.",
+            "output": "We acquire language skills just like the chicken eats: grain by grain.",
+            "llm_output": "We acquire language abilities the same way a chicken eats: one piece at a time.",
+            "score": 3.480275084383042e-78
+        },
+        {
+            "input": "Mesin-mesin penelusuran telah teracuni oleh spam blog terjemahan otomatis yang terus bertambah.",
+            "output": "Search engines are plagued with an increasing amount of automatically translated blog spam.",
+            "llm_output": "Search engines have been poisoned by the growing spam of auto-translation blogs.",
+            "score": 5.726015560822316e-155
+        },
+        {
+            "input": "Biaya pengobatan yang mahal mengakibatkan masyarakat enggan memeriksakan dirinya ke rumah sakit.",
+            "output": "The high cost of treatment makes people avoid getting examined at the hospital.",
+            "llm_output": "Expensive medical expenses make people reluctant to go to the hospital.",
+            "score": 5.054075496608413e-155
+        },
+        {
+            "input": "Basi deh lo! Baru ngomong sekarang kalau dia itu ternyata punya perasaan juga sama gue.",
+            "output": "Come on, why don't you tell me earlier that she also has a crush on me? Now, it's too late!",
+            "llm_output": "Bast you! I'm just telling you now that he has feelings for me too.",
+            "score": 9.085578041857428e-232
+        }
+    ]
+}

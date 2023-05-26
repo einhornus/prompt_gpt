@@ -1,0 +1,448 @@
+{
+    "system_message_file": "6",
+    "model": "gpt-3.5-turbo",
+    "parameters": {
+        "src": "English",
+        "dest": "Korean"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        6.298666834057407e-155,
+        6.298666834057407e-155,
+        6.298666834057407e-155,
+        6.298666834057407e-155,
+        6.298666834057407e-155,
+        6.298666834057407e-155,
+        6.298666834057407e-155,
+        6.298666834057407e-155,
+        6.298666834057407e-155,
+        6.298666834057407e-155
+    ],
+    "median": 6.298666834057407e-155,
+    "average": 0.04319455180866902,
+    "std": 0.12249090414878779,
+    "percentiles": {
+        "10": 7.556545094059378e-232,
+        "20": 1.1126861354417506e-231,
+        "25": 1.2991624148921728e-231,
+        "30": 1.347818472888394e-231,
+        "40": 5.217409488761129e-155,
+        "50": 6.298666834057407e-155,
+        "60": 7.130861168233239e-155,
+        "70": 8.250009862764298e-155,
+        "75": 9.667397489338054e-155,
+        "80": 3.763291146063472e-78,
+        "90": 0.20831516395656446
+    },
+    "n_tests": 50,
+    "prompt": [
+        {
+            "role": "system",
+            "content": "Please translate the user message from English to Korean. Make the translation sound as natural as possible."
+        }
+    ],
+    "tests": [
+        {
+            "id": 3385,
+            "name": "en_ko_23",
+            "input": "Tom finally gathered up his courage and asked Mary out on a date.",
+            "output": "톰은 마침내 용기를 내어 메리에게 데이트 신청을 했다.",
+            "llm_output": "톰은 마침내 용기를 내어 메리에게 데이트를 제안했다.",
+            "score": 0.5329462628216854
+        },
+        {
+            "id": 3395,
+            "name": "en_ko_33",
+            "input": "Scientists can easily compute the distance between planets.",
+            "output": "과학자들은 행성 간의 거리를 쉽게 계산할 수 있다.",
+            "llm_output": "과학자들은 행성 간 거리를 쉽게 계산할 수 있습니다.",
+            "score": 0.4111336169005197
+        },
+        {
+            "id": 3373,
+            "name": "en_ko_11",
+            "input": "He was found guilty of attempted murder for attacking his mother with a knife.",
+            "output": "그는 칼로 어머니를 공격한 살인 미수 혐의로 유죄 판결을 받았다.",
+            "llm_output": "그는 칼로 어머니를 공격한 혐의로 유죄 판결을 받았습니다.",
+            "score": 0.38940039153570244
+        },
+        {
+            "id": 3369,
+            "name": "en_ko_7",
+            "input": "Science fiction has undoubtedly been the inspiration for many of the technologies that exist today.",
+            "output": "공상 과학은 의심의 여지 없이 오늘날 존재하는 많은 기술에 영감을 주었어.",
+            "llm_output": "과학 소설은 의심할 여지 없이 오늘날 존재하는 많은 기술들의 영감이 되었습니다.",
+            "score": 0.3508439695638686
+        },
+        {
+            "id": 3363,
+            "name": "en_ko_1",
+            "input": "When we watch a movie, play a video game, or read a book, we become emotionally attached to certain characters and gradually become like them.",
+            "output": "영화를 보거나 게임을 하거나 책을 읽을 때 우린 특정한 캐릭터에 애착을 갖게 되고 점차 닮아간다.",
+            "llm_output": "영화를 보거나 비디오 게임을 하거나 책을 읽을 때, 우리는 특정한 캐릭터에 감정적으로 연결되며 서서히 그들과 같아지게 됩니다.",
+            "score": 0.2744348133674281
+        },
+        {
+            "id": 3362,
+            "name": "en_ko_0",
+            "input": "And the good news is that today the economy is growing again. Wages, incomes, home values and retirement accounts are all rising again. Poverty is falling again.",
+            "output": "다음으로 좋은 소식은 오늘 경제가 재성장한다는 것입니다. 임금, 소득, 집값, 퇴직금이 모두 다시 오르고 있습니다. 빈곤도 다시 줄어들고 있습니다.",
+            "llm_output": "그리고 좋은 소식은 오늘 경제가 다시 성장하고 있다는 것입니다. 임금, 소득, 주택 가치 및 연금 계좌가 모두 다시 상승하고 있습니다. 빈곤도 다시 감소하고 있습니다.",
+            "score": 0.20096853624424618
+        },
+        {
+            "id": 3393,
+            "name": "en_ko_31",
+            "input": "All the doctor's efforts were in vain and the man soon died.",
+            "output": "의사의 모든 노력이 헛수고로 돌아가고, 그 남자는 곧 세상을 떠났다.",
+            "llm_output": "의사의 모든 노력이 헛되었고 그 남자는 곧 죽었습니다.",
+            "score": 5.84773895554066e-78
+        },
+        {
+            "id": 3371,
+            "name": "en_ko_9",
+            "input": "If we don't thoroughly examine the cause of bullying, bullying will probably never go away.",
+            "output": "우리가 따돌림의 원인을 철저히 조사하지 않는다면, 따돌림은 결코 사라지지 않을 것이다.",
+            "llm_output": "우리가 괴롭힘의 원인을 철저히 조사하지 않으면, 괴롭힘이 아마도 결코 사라지지 않을 것입니다.",
+            "score": 5.542933034426911e-78
+        },
+        {
+            "id": 3377,
+            "name": "en_ko_15",
+            "input": "Making a plan and actually following through are two separate problems.",
+            "output": "계획을 세우는 것과 그것을 실행하는 것은 별개의 문제다.",
+            "llm_output": "계획을 세우는 것과 실제로 실행하는 것은 두 가지 별개의 문제입니다.",
+            "score": 4.856474469839072e-78
+        },
+        {
+            "id": 3380,
+            "name": "en_ko_18",
+            "input": "If you were to win the lottery, what would you buy with the money?",
+            "output": "로또에 당첨되면 그 돈으로 무엇을 사실 건가요?",
+            "llm_output": "당신이 복권에 당첨된다면, 그 돈으로 무엇을 살 것인가요?",
+            "score": 4.4646672960328985e-78
+        },
+        {
+            "id": 3394,
+            "name": "en_ko_32",
+            "input": "She watches the other kids playing, but she never joins in.",
+            "output": "그녀는 다른 아이들이 노는 것을 지켜보기만 했을 뿐, 함께 하지는 않았다.",
+            "llm_output": "그녀는 다른 아이들이 놀 때 지켜보지만, 절대로 함께 하지 않아요.",
+            "score": 3.5879471085711124e-78
+        },
+        {
+            "id": 3368,
+            "name": "en_ko_6",
+            "input": "In this game, no matter what nationality you choose for your character, they will still speak in an American accent.",
+            "output": "이 게임에선 말야, 네가 만들 캐릭터의 국적을 무엇으로 고르든 간에 모두 미국식 억양으로 말하게 될 거야.",
+            "llm_output": "이 게임에서는 캐릭터의 국적을 무엇으로 선택하더라도, 여전히 미국식 억양으로 말할 것입니다.",
+            "score": 2.846681328414405e-78
+        },
+        {
+            "id": 3387,
+            "name": "en_ko_25",
+            "input": "Cadmium poisoning is a very common cause of death in the south.",
+            "output": "카드뮴 중독은 남쪽 지역에서 매우 흔한 사인이다.",
+            "llm_output": "카드뮴 중독은 남부에서 매우 흔한 사망 원인입니다.",
+            "score": 9.85444998995587e-155
+        },
+        {
+            "id": 3384,
+            "name": "en_ko_22",
+            "input": "Once you have formed a bad habit, you can't get rid of it easily.",
+            "output": "나쁜 습관을 한번 들이면 쉽게 고칠 수 없다.",
+            "llm_output": "한 번 나쁜 습관을 들이면 쉽게 버릴 수 없습니다.",
+            "score": 9.106239987484608e-155
+        },
+        {
+            "id": 3392,
+            "name": "en_ko_30",
+            "input": "I'll give you a lesson that you'll remember for a long time.",
+            "output": "오랫동안 기억할 수업을 해 줄게.",
+            "llm_output": "오랫동안 기억할 수 있는 수업을 줄게요.",
+            "score": 8.38826642100846e-155
+        },
+        {
+            "id": 3376,
+            "name": "en_ko_14",
+            "input": "To be a good translator, I think Tom needs to hone his skills a bit more.",
+            "output": "좋은 번역가가 되려면 톰은 기술을 좀 더 연마할 필요가 있다고 생각한다.",
+            "llm_output": "좋은 번역가가 되기 위해서는, Tom은 좀 더 기술을 연마해야 한다고 생각합니다.",
+            "score": 8.190757052088229e-155
+        },
+        {
+            "id": 3411,
+            "name": "en_ko_49",
+            "input": "Romania is a Balkan country. Its capital is Bucharest.",
+            "output": "루마니아는 발칸 국가이다. 수도는 부쿠레슈티이다.",
+            "llm_output": "루마니아는 발칸 반도에 위치한 나라입니다. 수도는 부쿠레슈티입니다.",
+            "score": 7.711523862191631e-155
+        },
+        {
+            "id": 3402,
+            "name": "en_ko_40",
+            "input": "Polish girls didn't want Justin Bieber to come to Poland.",
+            "output": "폴란드 소녀들은 저스틴 비버가 폴란드를 방문하는 것을 원치 않았다.",
+            "llm_output": "폴란드 여성들은 저스틴 비버가 폴란드에 오는 것을 원하지 않았습니다.",
+            "score": 7.241926111174567e-155
+        },
+        {
+            "id": 3409,
+            "name": "en_ko_47",
+            "input": "I've done all I can to help you. The rest is up to you.",
+            "output": "내가 도울 수 있는 것은 다 했어. 나머지는 너에게 달렸어.",
+            "llm_output": "나는 너를 돕기 위해 내가 할 수 있는 모든 것을 했다. 나머지는 너에게 달려있다.",
+            "score": 7.221948193667952e-155
+        },
+        {
+            "id": 3389,
+            "name": "en_ko_27",
+            "input": "I'm not nice even though I'm rich; I'm nice because I'm rich.",
+            "output": "부자인데 착한 게 아니라, 부자라서 착한 것이다.",
+            "llm_output": "저는 부자라서 착한 것이 아니라, 착하기 때문에 부자입니다.",
+            "score": 7.176381577237209e-155
+        },
+        {
+            "id": 3374,
+            "name": "en_ko_12",
+            "input": "The administration decided to move the home office of the company to Hawaii.",
+            "output": "경영과에서 회사의 본 사옥을 하와이로 이전하기로 결정했다.",
+            "llm_output": "행정부는 회사의 본사를 하와이로 이전하기로 결정했습니다.",
+            "score": 7.100514228897259e-155
+        },
+        {
+            "id": 3366,
+            "name": "en_ko_4",
+            "input": "In 2019, Suga gained notoriety as well as the nickname “Uncle Reiwa,” after unveiling the name of Japan’s new imperial era.",
+            "output": "2019년, 스가 총리는 일본의 새 연호를 공개하면서 \"레이와 아저씨\"라는 별명과 함께 악명을 얻었다.",
+            "llm_output": "2019년, 슈가는 일본의 새로운 황실 시대 이름을 발표한 후에 \"레이와 삼촌\"이라는 별명과 함께 유명세를 얻었습니다.",
+            "score": 6.898804976972959e-155
+        },
+        {
+            "id": 3364,
+            "name": "en_ko_2",
+            "input": "Once you've picked up a stone that you like, take it home as soon as you can and treat it well, because that's the only stone you've got.",
+            "output": "마음에 드는 돌멩이를 집었으면, 얼른 집으로 가져가 잘 돌보도록 한다. 그게 그대가 가진 유일한 돌멩이이기 때문이다.",
+            "llm_output": "당신이 마음에 드는 돌을 골랐다면, 가능한 빨리 집으로 가져가서 잘 다뤄주세요. 왜냐하면 그것이 당신이 가진 유일한 돌이기 때문입니다.",
+            "score": 6.6379988158219165e-155
+        },
+        {
+            "id": 3381,
+            "name": "en_ko_19",
+            "input": "If you were to win the lottery, what would you buy with the money?",
+            "output": "로또에 당첨되면 그 돈으로 뭘 사고 싶어?",
+            "llm_output": "당신이 복권에 당첨된다면, 그 돈으로 무엇을 살 것인가요?",
+            "score": 6.484592771860512e-155
+        },
+        {
+            "id": 3375,
+            "name": "en_ko_13",
+            "input": "I was very surprised to see students cleaning their classroom after school.",
+            "output": "나는 방과후에 교실을 청소하는 학생들을 보고 몹시 놀랐다.",
+            "llm_output": "저는 방과 후 학생들이 교실을 청소하는 것을 보고 매우 놀랐습니다.",
+            "score": 6.373704167435469e-155
+        },
+        {
+            "id": 3372,
+            "name": "en_ko_10",
+            "input": "Mexican drug cartels are vying over lucrative drug-trafficking routes to the U.S.",
+            "output": "멕시코의 마약 카르텔은 수익이 나는 미국행 마약 거래 루트를 놓고 경쟁하고 있다.",
+            "llm_output": "멕시코 마약 카르텔들은 미국으로의 수익성 높은 마약 밀수 노선을 놓고 경쟁하고 있습니다.",
+            "score": 6.223629500679345e-155
+        },
+        {
+            "id": 3379,
+            "name": "en_ko_17",
+            "input": "I thought about writing you a message, but never got around to it.",
+            "output": "당신에게 메시지를 쓸까 했지만, 그럴 새가 전혀 없었다.",
+            "llm_output": "당신에게 메시지를 쓰려고 생각했지만, 결국 그것을 할 시간이 없었습니다.",
+            "score": 6.08970970641905e-155
+        },
+        {
+            "id": 3382,
+            "name": "en_ko_20",
+            "input": "I know it's very difficult to understand why Tom did what he did.",
+            "output": "톰이 왜 그런 짓을 했는지 이해하기 너무 어렵다는 것을 안다.",
+            "llm_output": "Tom이 왜 그런 행동을 했는지 이해하기가 매우 어려운 것은 알고 있습니다.",
+            "score": 6.061838450024688e-155
+        },
+        {
+            "id": 3398,
+            "name": "en_ko_36",
+            "input": "You think you're awake, but you may, in fact, be dreaming.",
+            "output": "넌 네가 깨어있는 줄 알지만, 사실은 꿈꾸고 있을 수도 있어.",
+            "llm_output": "당신은 깨어있다고 생각하지만, 사실 꿈을 꾸고 있을 수도 있습니다.",
+            "score": 5.4493116732898584e-155
+        },
+        {
+            "id": 3365,
+            "name": "en_ko_3",
+            "input": "Once you've picked up a stone that you like, take it home as soon as you can and treat it well, because that's the only stone you've got.",
+            "output": "마음에 드는 돌멩이를 집었으면, 얼른 집으로 가져가 잘 돌보도록 한다. 그게 그대의 유일한 돌멩이이기 때문이다.",
+            "llm_output": "당신이 마음에 드는 돌을 골랐다면, 가능한 빨리 집으로 가져가서 잘 다뤄주세요. 왜냐하면 그것이 당신이 가진 유일한 돌이기 때문입니다.",
+            "score": 5.333156893552256e-155
+        },
+        {
+            "id": 3400,
+            "name": "en_ko_38",
+            "input": "A long, low moan, indescribably sad, swept over the moor.",
+            "output": "황야를 휩쓸은, 이 길고, 말로 형용할 수 없는 슬픔이 담긴, 낮은 신음.",
+            "llm_output": "모래 지역 위에 퍼져나가는 긴, 낮은 신음 소리가 들려왔다. 그 소리는 말로 표현할 수 없을 만큼 슬프게 느껴졌다.",
+            "score": 5.0437883815744365e-155
+        },
+        {
+            "id": 3383,
+            "name": "en_ko_21",
+            "input": "Does Mary live next door to the bus driver that John worked with?",
+            "output": "메리는 존과 함께 일했던 버스 기사의 옆집에 사나요?",
+            "llm_output": "메리는 존이 함께 일한 버스 운전사 옆집에 살까요?",
+            "score": 1.5319719891192393e-231
+        },
+        {
+            "id": 3391,
+            "name": "en_ko_29",
+            "input": "I'll give you a lesson that you'll remember for a long time.",
+            "output": "오랫동안 기억에 남을 수업을 하겠습니다.",
+            "llm_output": "오랫동안 기억할 수 있는 수업을 줄게요.",
+            "score": 1.384292958842266e-231
+        },
+        {
+            "id": 3397,
+            "name": "en_ko_35",
+            "input": "Tom was diagnosed with autism when he was three years old.",
+            "output": "톰은 세 살 때 자폐증으로 진단받았어.",
+            "llm_output": "톰은 3살 때 자폐증 진단을 받았습니다.",
+            "score": 1.384292958842266e-231
+        },
+        {
+            "id": 3388,
+            "name": "en_ko_26",
+            "input": "I saw her at the station five days ago, that is, last Friday.",
+            "output": "나는 그녀를 닷새 전, 그러니까 지난 금요일에 역에서 봤다.",
+            "llm_output": "저는 그녀를 역에서 다섯 일 전에 봤습니다. 즉, 지난 금요일이었습니다.",
+            "score": 1.3483065280626046e-231
+        },
+        {
+            "id": 3370,
+            "name": "en_ko_8",
+            "input": "Why didn't you invite me to the party? \"I did invite you! Haven't you looked at your email?\"",
+            "output": "왜 날 파티에 초대하지 않은 거야? \"초대했어! 이메일 못 본 거야?\"",
+            "llm_output": "파티에 왜 나를 초대하지 않았어요? \"나는 초대했는데요! 이메일을 확인하지 않으셨나요?\"",
+            "score": 1.3466796774819026e-231
+        },
+        {
+            "id": 3406,
+            "name": "en_ko_44",
+            "input": "Machines that his company produces are superior to ours.",
+            "output": "그의 회사가 생산하는 기계가 우리것보다 뛰어나다.",
+            "llm_output": "그의 회사에서 생산하는 기계들은 우리들 것보다 우수합니다.",
+            "score": 1.331960397810445e-231
+        },
+        {
+            "id": 3396,
+            "name": "en_ko_34",
+            "input": "Every day, when I get up, I pray to God and brush my teeth.",
+            "output": "매일 나는 일어나서 신께 기도하고 이빨을 닦는다.",
+            "llm_output": "매일 아침 일어나면, 저는 하나님께 기도하고 이를 닦습니다.",
+            "score": 1.2882297539194154e-231
+        },
+        {
+            "id": 3410,
+            "name": "en_ko_48",
+            "input": "I can't believe that Tom actually spent money on this.",
+            "output": "톰이 정말로 이런 데에 돈을 썼다니 믿을 수가 없다.",
+            "llm_output": "Tom이 이것에 실제로 돈을 썼다는 것을 믿을 수 없어요.",
+            "score": 1.2508498911928379e-231
+        },
+        {
+            "id": 3399,
+            "name": "en_ko_37",
+            "input": "Living abroad is the best way to learn a foreign language.",
+            "output": "해외에서 사는 것은 외국어를 배우기에 최선의 방법이다.",
+            "llm_output": "해외 생활은 외국어를 배우는 가장 좋은 방법입니다.",
+            "score": 1.1200407237786664e-231
+        },
+        {
+            "id": 3403,
+            "name": "en_ko_41",
+            "input": "He told the truth, otherwise he would have been punished.",
+            "output": "그는 사실대로 털어놓았다. 그렇지 않았다면 처벌받았을 것이다.",
+            "llm_output": "그는 진실을 말했기 때문에 그가 처벌받지 않았을 뿐이다.",
+            "score": 1.0832677820940877e-231
+        },
+        {
+            "id": 3367,
+            "name": "en_ko_5",
+            "input": "Starting from the thumb, your fingers are called the \"thumb\", \"index finger\", \"middle finger\", \"ring finger\", and \"pinky\".",
+            "output": "우리의 손가락은 엄지부터 차례대로 '엄지손가락', '집게손가락', '가운데손가락', '약손가락', '새끼손가락'이라고 부른다.",
+            "llm_output": "엄지부터 시작해서, 손가락은 \"엄지손가락\", \"검지손가락\", \"중지손가락\", \"약지손가락\", 그리고 \"새끼손가락\"이라고 불립니다.",
+            "score": 1.012071042130996e-231
+        },
+        {
+            "id": 3408,
+            "name": "en_ko_46",
+            "input": "I've been living in Australia for the past three years.",
+            "output": "나는 지난 3년 동안 오스트레일리아에서 살았다.",
+            "llm_output": "저는 지난 3년간 호주에 살았습니다.",
+            "score": 9.97486269044271e-232
+        },
+        {
+            "id": 3405,
+            "name": "en_ko_43",
+            "input": "Don't worry. Someone will come and rescue us eventually.",
+            "output": "걱정하지 마. 결국 누군가 와서 우리를 구출할 거야.",
+            "llm_output": "걱정 마세요. 언젠가는 누군가가 우리를 구해줄 거예요.",
+            "score": 9.709385502639237e-232
+        },
+        {
+            "id": 3401,
+            "name": "en_ko_39",
+            "input": "She became scared when she noticed the man following her.",
+            "output": "그녀는 그 남자가 자신을 따라온다는 것을 알아차렸을 때 무서워했다.",
+            "llm_output": "그녀는 자신을 따라오는 남자를 발견하자 무서워졌다.",
+            "score": 8.396161215621529e-232
+        },
+        {
+            "id": 3378,
+            "name": "en_ko_16",
+            "input": "High-functioning autism isn't an official medical term or diagnosis.",
+            "output": "'고기능 자폐증'은 의학용어나 진단명이 아니야.",
+            "llm_output": "고기능 자폐증은 공식적인 의학 용어나 진단 용어가 아닙니다.",
+            "score": 0
+        },
+        {
+            "id": 3386,
+            "name": "en_ko_24",
+            "input": "I don't think that Tom will be ready to do that until next year.",
+            "output": "나는 톰이 내년까지 그에 대해 준비될 거라고 생각하지 않는다.",
+            "llm_output": "내 생각에는 Tom이 그것을 다음 해까지 준비할 준비가 될 것 같지 않아요.",
+            "score": 0
+        },
+        {
+            "id": 3390,
+            "name": "en_ko_28",
+            "input": "Hrmmm, to judge from their looks they might be from Shanghai.",
+            "output": "흐음, 겉으로 보기에는 상하이에서 왔을지도 몰라.",
+            "llm_output": "그들의 외모로 보면 상하이 출신인 것 같아요.",
+            "score": 0
+        },
+        {
+            "id": 3404,
+            "name": "en_ko_42",
+            "input": "Use kitchen scissors to remove the skin from the chicken.",
+            "output": "부엌가위를 써서 닭고기에서 껍질을 제거합시다.",
+            "llm_output": "닭의 피부를 제거하기 위해서는 부엌 가위를 사용하세요.",
+            "score": 0
+        },
+        {
+            "id": 3407,
+            "name": "en_ko_45",
+            "input": "How many kinds of vegetables do you grow in your garden?",
+            "output": "정원에서 키우는 야채의 종류가 얼마나 되나요?",
+            "llm_output": "당신의 정원에서는 몇 종류의 채소를 재배하고 있나요?",
+            "score": 0
+        }
+    ],
+    "history_criterion": "median"
+}

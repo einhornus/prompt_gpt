@@ -1,0 +1,848 @@
+{
+    "system_message_file": "6",
+    "model": "gpt-4",
+    "parameters": {
+        "src": "Spanish",
+        "dest": "English"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.5190914086025636,
+        0.5190914086025636,
+        0.5190914086025636,
+        0.5190914086025636,
+        0.5190914086025636,
+        0.5190914086025636,
+        0.5190914086025636,
+        0.5190914086025636,
+        0.5190914086025636,
+        0.5190914086025636
+    ],
+    "median": 0.5190914086025636,
+    "average": 0.5377016746383966,
+    "std": 0.19093223064437592,
+    "percentiles": {
+        "10": 0.29603628336331494,
+        "20": 0.37096219588139095,
+        "25": 0.39614573704166955,
+        "30": 0.42609897995657825,
+        "40": 0.4849718916957136,
+        "50": 0.5190914086025636,
+        "60": 0.579249304494209,
+        "70": 0.6706417880503197,
+        "75": 0.699578074910088,
+        "80": 0.7188086190804976,
+        "90": 0.7901780860461748
+    },
+    "n_tests": 100,
+    "prompt": [
+        {
+            "role": "system",
+            "content": "Please translate the user message from Spanish to English. Make the translation sound as natural as possible."
+        }
+    ],
+    "tests": [
+        {
+            "id": 4139,
+            "name": "es_en_38",
+            "input": "Los sistemas de señalización transmiten información dentro de las células, entre las células, entre los órganos, entre organismos enteros, entre poblaciones de organismos e incluso entre diferentes especies en ecosistemas enteros.",
+            "output": "Signaling systems transmit information within cells, between cells, between organs, between entire organisms, between populations of organisms, and even between different species in entire ecosystems.",
+            "llm_output": "Signaling systems transmit information within cells, between cells, between organs, between entire organisms, between populations of organisms, and even between different species in entire ecosystems.",
+            "score": 1.0
+        },
+        {
+            "id": 4114,
+            "name": "es_en_13",
+            "input": "Ding Liren es el nuevo Campeón Mundial de Ajedrez. En el desempate, las tres primeras partidas terminaron en empate, y la cuarta, con Ding liderando las piezas negras en una apertura española, fue sensacionalmente ganada por el Dragón Chino, que superó así al Oso Ruso, Ian Nepomniachtchi. La cima del universo del ajedrez tiene una nueva cara.",
+            "output": "Ding Liren is the new World Chess Champion. In the tiebreaker, the first three games ended in a draw, and the fourth, with Ding leading the black pieces in a Spanish opening, was sensationally won by the Chinese Dragon, who thus overcame the Russian Bear, Ian Nepomniachtchi. The top of the chess universe has a new face.",
+            "llm_output": "Ding Liren is the new World Chess Champion. In the tiebreaker, the first three games ended in a draw, and the fourth, with Ding leading the black pieces in a Spanish opening, was sensationally won by the Chinese Dragon, who thus overcame the Russian Bear, Ian Nepomniachtchi. The pinnacle of the chess world has a new face.",
+            "score": 0.9080821798911972
+        },
+        {
+            "id": 4135,
+            "name": "es_en_34",
+            "input": "La vida es sinónimo de ingeniería química de inconcebible complejidad, compartimentación y organización maravillosamente precisa. Es absolutamente imposible atribuirla al dios Azar y a la acción inconsciente y ciega de la diosa Selección Natural.",
+            "output": "Life is synonymous with chemical engineering of inconceivable complexity, compartmentalization, and incredibly precise organization. It is absolutely impossible to attribute it to the god Chance and the unconscious and blind action of the goddess Natural Selection.",
+            "llm_output": "Life is synonymous with chemical engineering of inconceivable complexity, compartmentalization, and wonderfully precise organization. It is absolutely impossible to attribute it to the god of Chance and the unconscious and blind action of the goddess Natural Selection.",
+            "score": 0.8543474855325977
+        },
+        {
+            "id": 4154,
+            "name": "es_en_53",
+            "input": "La tarea del traductor es encontrar el poder en su lengua que evoca un eco del original; el eco de la lengua del traductor también debe proporcionar una reverberación del trabajo, el eco de la lengua extranjera.",
+            "output": "The translator's task is to find the power in their language that evokes an echo of the originals; the echo of the translator's language must also provide a reverberation of the work, the echo of the foreign language.",
+            "llm_output": "The task of the translator is to find the power in their language that evokes an echo of the original; the echo of the translator's language must also provide a reverberation of the work, the echo of the foreign language.",
+            "score": 0.8314431093726985
+        },
+        {
+            "id": 4162,
+            "name": "es_en_61",
+            "input": "Las enzimas son responsables de la digestión, la respiración, la fotosíntesis y el metabolismo. Son los encargados de formarnos a todos y de mantenernos vivos. Son los motores de la vida.",
+            "output": "Enzymes are responsible for digestion, respiration, photosynthesis, and metabolism. They are responsible for forming all of us and keeping us alive. They are the engines of life.",
+            "llm_output": "Enzymes are responsible for digestion, respiration, photosynthesis, and metabolism. They are in charge of forming all of us and keeping us alive. They are the engines of life.",
+            "score": 0.8266114125804572
+        },
+        {
+            "id": 4148,
+            "name": "es_en_47",
+            "input": "J. J. Thomson y su hijo George Thomson recibieron el Premio Nobel de Física: el primero, en 1906, por haber demostrado que el electrón es una partícula; el segundo, en 1937, por demostrar que el electrón es una onda.",
+            "output": "J. J. Thomson and his son George Thomson were both awarded the Nobel Prize in Physics: the former in 1906 for demonstrating that the electron is a particle, and the latter in 1937 for showing that the electron is a wave.",
+            "llm_output": "J. J. Thomson and his son George Thomson both received the Nobel Prize in Physics: the former in 1906 for demonstrating that the electron is a particle, and the latter in 1937 for proving that the electron is a wave.",
+            "score": 0.8247279592389116
+        },
+        {
+            "id": 4120,
+            "name": "es_en_19",
+            "input": "Con actuaciones de alta precisión de ambos jugadores, el undécimo encuentro del Campeonato Mundial de Ajedrez FIDE 2023 terminó en empate. Ahora (24 de abril): Nepo 6, Ding Liren 5. Tres empates más serán suficientes para que el ruso llegue a la cuenta (7.5) que le otorgará el título de Campeón del Mundo.",
+            "output": "With high-precision performances from both players, the eleventh match of the FIDE World Chess Championship 2023 ended in a draw. Now (April 24): Nepo 6, Ding Liren 5. Three more draws will be enough for the Russian to reach the tally (7.5) which will give him the title of World Champion",
+            "llm_output": "With high-precision performances from both players, the eleventh match of the FIDE World Chess Championship 2023 ended in a draw. Now (April 24th): Nepo 6, Ding Liren 5. Three more draws will be enough for the Russian to reach the score (7.5) that will grant him the title of World Champion.",
+            "score": 0.8223966035809185
+        },
+        {
+            "id": 4128,
+            "name": "es_en_27",
+            "input": "Cada araña es un genio versátil: planea su red como un arquitecto y luego lleva a cabo este plan como el hábil tejedor que es. También es un químico que puede sintetizar seda empleando un proceso de fabricación controlado por computadora y luego usar la seda para hilar.",
+            "output": "Every spider is a versatile genius: It plans its web like an architect and then carries out this plan like the proficient weaver it is. It is also a chemist who can synthesize silk employing a computer-controlled manufacturing process, and then use the silk for spinning.",
+            "llm_output": "Each spider is a versatile genius: it plans its web like an architect and then carries out this plan like the skillful weaver it is. It is also a chemist who can synthesize silk using a computer-controlled manufacturing process and then use the silk to spin.",
+            "score": 0.8170027147601195
+        },
+        {
+            "id": 4191,
+            "name": "es_en_90",
+            "input": "Ayer tuvimos una gran noticia para el ajedrez brasileño. Renato Quintiliano logró su norma definitiva y se convirtió en el 15º gran maestro brasileño. Enhorabuena.",
+            "output": "Yesterday we had great news for Brazilian chess. Renato Quintiliano achieved his definitive standard and became the 15th Brazilian grandmaster. Congratulations!",
+            "llm_output": "Yesterday we had great news for Brazilian chess. Renato Quintiliano achieved his final norm and became the 15th Brazilian grandmaster. Congratulations.",
+            "score": 0.8137489370974955
+        },
+        {
+            "id": 4141,
+            "name": "es_en_40",
+            "input": "Con un intercambio de torre a caballo en d4, cuando la partida estaba igualada, Ding Liren (blancas) ganó fácilmente la cuarta partida del Campeonato Mundial de Ajedrez de la FIDE 2023, empatando el encuentro (Nepo 2, Ding 2).",
+            "output": "With a rook-to-knight exchange on d4, when the game was even, Ding Liren (white) easily won the fourth game of the FIDE 2023 World Chess Championship, tying the match (Nepo 2, Ding 2).",
+            "llm_output": "With a rook to knight exchange on d4, when the game was evenly matched, Ding Liren (white) easily won the fourth game of the FIDE 2023 World Chess Championship, tying the match (Nepo 2, Ding 2).",
+            "score": 0.7951836950334612
+        },
+        {
+            "id": 4127,
+            "name": "es_en_26",
+            "input": "El enroque es un movimiento especial en el ajedrez, por el cual el rey se mueve dos casillas, a la derecha o a la izquierda, y, en el mismo movimiento, la torre de ese flanco se coloca en la primera casilla atravesada por el rey. Hay varias condiciones para que ocurra el enroque.",
+            "output": "Castling is a special move in chess whereby the king moves two squares to the left or right, and in the same move, the rook on that side is placed on the first square crossed by the king. There are several conditions for castling to take place.",
+            "llm_output": "Castling is a special move in chess, in which the king moves two squares to the right or to the left, and, in the same move, the rook on that side is placed on the first square crossed by the king. There are several conditions for castling to occur.",
+            "score": 0.7896219072698096
+        },
+        {
+            "id": 4199,
+            "name": "es_en_98",
+            "input": "¿Mary es tu novia? \"No, nomás somos compas.\" \"Sí, claro, ¡como si nunca hubiera visto la manera en la que se abrazan!\" \"¿Acaso nunca abrazas a tus amigos?\"",
+            "output": "Is Mary your girlfriend? \"No, we're just buddies.\" \"Yeah, right, as if I've never seen the way you two hug each other!\" \"Don't you ever hug your friends?\"",
+            "llm_output": "\"Is Mary your girlfriend?\" \"No, we're just friends.\" \"Yeah, right, as if I've never seen the way you hug each other!\" \"Don't you ever hug your friends?\"",
+            "score": 0.7853104347425136
+        },
+        {
+            "id": 4133,
+            "name": "es_en_32",
+            "input": "Del 26 al 28 de septiembre de 2015, nueve personas de cinco países se reunieron en Brno (República Checa) para divertirse juntos aprendiendo a usar la lengua toki pona. En este vídeo están en un jardín botánico universitario y hablan de lo que ven.",
+            "output": "From the 26th to the 28th of September 2015, nine people from five countries gathered in Brno (Czech Republic) to have fun together learning and using the Toki Pona language. In this video they are in a university botanical garden and talk about what they see.",
+            "llm_output": "From September 26 to 28, 2015, nine people from five countries gathered in Brno (Czech Republic) to have fun together learning to use the Toki Pona language. In this video, they are in a university botanical garden and talk about what they see.",
+            "score": 0.7658260123703593
+        },
+        {
+            "id": 4107,
+            "name": "es_en_6",
+            "input": "¿De dónde eres? \"Mi país ya no existe.\" \"¿Qué quieres decir?\" \"Nací, crecí, y pasé la mayoría de mi vida adulta en la Unión Soviética. Ya no está. Cuando el país se derrumbó, estaba en Algeria, así que decidí quedarme aquí para siempre.\" \"¿Eres ruso?\" \"No. De hecho, soy una mezcla de varias culturas, muchas más de las que puedas imaginar.\" \"¿Por qué no te regresas a Rusia?\" \"Ni siquiera soy de Rusia. No tengo país al que volver.\"",
+            "output": "Where are you from? \"My country no longer exists.\" \"What do you mean?\" \"I was born, raised and spent most of my adult life in the Soviet Union. It's not there anymore. When the country collapsed, I was in Algeria, so I decided to stay here for good.\" \"Are you Russian?\" \"No. In fact, I'm a mix of several cultures, way more than you can imagine.\" \"Why don't you return to Russia?\" \"I'm not even from Russia. There is no country I could return to.\"",
+            "llm_output": "\"Where are you from?\" \"My country no longer exists.\" \"What do you mean?\" \"I was born, raised, and spent most of my adult life in the Soviet Union. It's gone now. When the country collapsed, I was in Algeria, so I decided to stay here forever.\" \"Are you Russian?\" \"No. In fact, I am a mix of several cultures, many more than you can imagine.\" \"Why don't you go back to Russia?\" \"I'm not even from Russia. I have no country to return to.\"",
+            "score": 0.7621137225445994
+        },
+        {
+            "id": 4130,
+            "name": "es_en_29",
+            "input": "Es alentador ver en algunos libros modernos que los científicos empiezan a darse cuenta de que no todos los procesos asombrosamente inteligentes de la creación, el mantenimiento y la evolución de la vida surgieron únicamente por el azar y la selección natural.",
+            "output": "It is encouraging to see by reading some modern books that scientists are beginning to realize that not all the amazingly intelligent processes of the creation, maintenance, and evolution of life arose solely by chance and natural selection.",
+            "llm_output": "It is encouraging to see in some modern books that scientists are beginning to realize that not all the amazingly intelligent processes of creation, maintenance, and evolution of life arose solely from chance and natural selection.",
+            "score": 0.7581946723382588
+        },
+        {
+            "id": 4176,
+            "name": "es_en_75",
+            "input": "En la última década se ha empezado a descubrir que las relaciones simbióticas entre árboles y hongos son mucho más complejas y ricas de lo que se había pensado tradicionalmente.",
+            "output": "In the last decade, it has been discovered that the symbiotic relationships between trees and fungi are far more complex and rich than had traditionally been thought.",
+            "llm_output": "In the last decade, it has been discovered that the symbiotic relationships between trees and fungi are much more complex and rich than what was traditionally thought.",
+            "score": 0.756896227518374
+        },
+        {
+            "id": 4125,
+            "name": "es_en_24",
+            "input": "Thomas entiende que las leyes y fuerzas naturales, el espacio-tiempo, los campos electromagnéticos y gravitatorios, la energía, los átomos, las estrellas, las galaxias, la vida... en definitiva, todo se originó en una singularidad indescriptible que explotó misteriosamente: el Big Bang.",
+            "output": "Thomas understands that natural laws and forces, space-time, electromagnetic and gravitational fields, energy, atoms, stars, galaxies, life, everything, in short, had its origin in an indescribable singularity that mysteriously exploded: the Big Bang.",
+            "llm_output": "Thomas understands that natural laws and forces, space-time, electromagnetic and gravitational fields, energy, atoms, stars, galaxies, life... in short, everything originated from an indescribable singularity that mysteriously exploded: the Big Bang.",
+            "score": 0.7557327396462376
+        },
+        {
+            "id": 4188,
+            "name": "es_en_87",
+            "input": "Tatoeba es un diccionario de idiomas. Puedes buscar palabras y obtener traducciones. Pero no es exactamente un diccionario típico. Se trata de frases, no de palabras.",
+            "output": "Tatoeba is a language dictionary. You can search for words and get translations. However, it's not exactly a typical dictionary. It's all about sentences, not words.",
+            "llm_output": "Tatoeba is a language dictionary. You can search for words and get translations. But it's not exactly a typical dictionary. It's about phrases, not words.",
+            "score": 0.7459004623502753
+        },
+        {
+            "id": 4113,
+            "name": "es_en_12",
+            "input": "Guerra tenía una parra, y Parra tenía una perra, y la perra de Parra mordió la parra de Guerra. y Guerra le pegó con la porra a la perra de Parra. —Diga usted, señor Guerra: ¿Por qué le ha pegado con la porra a la perra? —Porque si la perra de Parra no hubiera mordido la parra de Guerra, Guerra no le hubiera pegado con la porra a la perra de Parra.",
+            "output": "Guerra had a grapevine, and Parra had a dog, and Parra's dog bit Guerra's grapevine, so Guerra beat Parra's dog with a club. —Tell me, Mister Guerra: Why have you beaten the dog with your club? —Because if Parra's dog hadn't bitten Guerra's grapevine, Guerra wouldn't have beaten Parra's dog with the club.",
+            "llm_output": "Guerra had a grapevine, and Parra had a dog, and Parra's dog bit Guerra's grapevine. And Guerra hit Parra's dog with a club. —Tell me, Mr. Guerra: Why did you hit the dog with the club? —Because if Parra's dog hadn't bitten Guerra's grapevine, Guerra wouldn't have hit Parra's dog with the club.",
+            "score": 0.7259047431503602
+        },
+        {
+            "id": 4182,
+            "name": "es_en_81",
+            "input": "La Madre Tierra representa la fertilidad, la maternidad y la creación. Es el gran vientre sagrado del que venimos y al que volveremos después de nuestra existencia actual.",
+            "output": "Mother Earth represents fertility, motherhood and creation. She is the great sacred womb from which we came and to which we will return after our present existence.",
+            "llm_output": "Mother Earth represents fertility, motherhood, and creation. It is the great sacred womb from which we come and to which we will return after our current existence.",
+            "score": 0.7216597075217096
+        },
+        {
+            "id": 4190,
+            "name": "es_en_89",
+            "input": "¿Cuál de estas dos maravillas es más impresionante: la deslumbrante belleza de la cola abierta de un pavo real o el ojo humano capaz de percibirla e interpretarla?",
+            "output": "Which of these two wonders is more impressive: the stunning beauty of a peacock's open tail, or the human eye capable of perceiving and interpreting it?",
+            "llm_output": "Which of these two wonders is more impressive: the dazzling beauty of an open peacock's tail or the human eye capable of perceiving and interpreting it?",
+            "score": 0.7180958469701947
+        },
+        {
+            "id": 4138,
+            "name": "es_en_37",
+            "input": "El match por el Campeonato Mundial de Ajedrez FIDE 2023 está empatado (6 X 6), con victoria de Ding Liren (blancas) en la duodécima partida. Solo quedan dos partidas más para que uno de los contendientes logre la ventaja decisiva.",
+            "output": "The match for the FIDE 2023 World Chess Championship is tied (6 X 6), with Ding Liren (White) winning the twelfth game. Only two more games remain for one of the competitors to achieve the decisive advantage.",
+            "llm_output": "The FIDE 2023 World Chess Championship match is tied (6 X 6), with Ding Liren (white) winning the twelfth game. There are only two more games left for one of the contenders to achieve the decisive advantage.",
+            "score": 0.7124690485246944
+        },
+        {
+            "id": 4169,
+            "name": "es_en_68",
+            "input": "Algunos estudiantes de prepa toman ventaja de programas de matrícula doble para tomar cursos universitarios en una universidad comunitaria y así terminar su licenciatura más pronto.",
+            "output": "Some high school students take advantage of dual enrollment programs to take college courses at a community college to finish their degree faster.",
+            "llm_output": "Some high school students take advantage of dual enrollment programs to take college courses at a community college and thus finish their bachelor's degree sooner.",
+            "score": 0.7091084355894958
+        },
+        {
+            "id": 4196,
+            "name": "es_en_95",
+            "input": "«¿De verdad crees que si añades una -o al final de cada palabra estás hablando español?» «No, pero si no sé cómo se dice una palabra vale la pena intentarlo.»",
+            "output": "Do you really think that when you add an -o at the end of every word, you're speaking Spanish? \"No, but if I don't know how to say something, it's worth a shot.\"",
+            "llm_output": "\"Do you really think that if you add an -o at the end of every word, you're speaking Spanish?\" \"No, but if I don't know how to say a word, it's worth trying.\"",
+            "score": 0.7020674797074318
+        },
+        {
+            "id": 4160,
+            "name": "es_en_59",
+            "input": "En México, se cree que en el Día de los Muertos, si pones una foto de tu ancestro en un altar con ofrendas, su alma cruzará desde la tierra de los muertos para visitar la tierra de los vivos.",
+            "output": "In Mexico, it is believed that on the Day of the Dead, if you put your ancestor's picture on an altar with offerings for them, or \"ofrenda\", their soul will cross from the land of the dead to visit the land of the living.",
+            "llm_output": "In Mexico, it is believed that on the Day of the Dead, if you place a photo of your ancestor on an altar with offerings, their soul will cross from the land of the dead to visit the land of the living.",
+            "score": 0.7013676373951389
+        },
+        {
+            "id": 4185,
+            "name": "es_en_84",
+            "input": "Decir palabrotas nunca ha sido cosa mía, pero creo que hace una diferencia en el lenguaje. Por ejemplo, entre amigos, demuestra la bondad que tienen el uno con el otro.",
+            "output": "Swearing has never been my thing, but I think it makes a difference in language. For instance, among friends, it shows the bonds they have with each other.",
+            "llm_output": "Swearing has never been my thing, but I think it makes a difference in language. For example, among friends, it shows the kindness they have for one another.",
+            "score": 0.6989815540817378
+        },
+        {
+            "id": 4187,
+            "name": "es_en_86",
+            "input": "Lich es un púlsar ubicado a unos 2.300 años luz del sol, en la constelación de Virgo, que tiene tres planetas orbitando a su alrededor: Draugr, Poltergeist y Phobetor.",
+            "output": "Lich is a pulsar located approximately 2,300 light-years from the Sun, in the constellation of Virgo, which has three planets orbiting around it: Draugr, Poltergeist and Phobetor.",
+            "llm_output": "Lich is a pulsar located about 2,300 light-years away from the sun, in the constellation of Virgo, with three planets orbiting around it: Draugr, Poltergeist, and Phobetor.",
+            "score": 0.697756759594737
+        },
+        {
+            "id": 4105,
+            "name": "es_en_4",
+            "input": "En resumen, fue solamente después de muchos fracasos, y después de muchas épocas estériles durante las cuales, por diversas razones, se descuidó la empresa, que los Cuartos Hombres finalmente formaron dos individuos casi exactamente del tipo que habían diseñado originalmente. Estos se produjeron a partir de un único óvulo fertilizado, en condiciones de laboratorio. Gemelos idénticos, pero de sexos opuestos, se convirtieron en Adán y Eva de una nueva y gloriosa especie humana, los Quintos Hombres.",
+            "output": "In short it was only after many failures, and after many barren epochs during which, for a variety of reasons, the enterprise was neglected, that the Fourth Men did at length fashion two individuals almost precisely of the type they had originally designed. These were produced from a single fertilized ovum, in laboratory conditions. Identical twins, but of opposite sexes, they became the Adam and Eve of a new and glorious human species, the Fifth Men.",
+            "llm_output": "In summary, it was only after many failures, and after many barren periods during which, for various reasons, the project was neglected, that the Fourth Men finally created two individuals almost exactly of the type they had originally designed. These were produced from a single fertilized egg, under laboratory conditions. Identical twins, but of opposite sexes, they became the Adam and Eve of a new and glorious human species, the Fifth Men.",
+            "score": 0.6899005266714733
+        },
+        {
+            "id": 4151,
+            "name": "es_en_50",
+            "input": "En las profundidades del inconsciente colectivo de la humanidad hay que encontrar la forma de pensar de los trogloditas. El toki pona es una herramienta útil para llevar esto a la superficie de nuestra conciencia.",
+            "output": "In the depths of humanity's collective unconscious, the troglodytes' way of thinking must be found. Toki Pona is a useful tool to bring this to the surface of our consciousness.",
+            "llm_output": "In the depths of humanity's collective unconscious, we must find the way of thinking of the cavemen. Toki Pona is a useful tool to bring this to the surface of our consciousness.",
+            "score": 0.6871546336787117
+        },
+        {
+            "id": 4166,
+            "name": "es_en_65",
+            "input": "La reclusión me ha hecho olvidar cosas que nadie pensaría que podrían olvidarse, ya que son cosas que comúnmente usamos para interactuar día a día. Por ejemplo, la forma de socializar.",
+            "output": "Isolation has made me forget things that no one would think could be forgotten since they are things we commonly use to interact day by day. For example, how to socialize.",
+            "llm_output": "Confinement has made me forget things that nobody would think could be forgotten, as they are things we commonly use to interact day by day. For example, the way to socialize.",
+            "score": 0.6724812869548744
+        },
+        {
+            "id": 4147,
+            "name": "es_en_46",
+            "input": "Cuando mi familia vivía en una casa alquilada, en el patio trasero de la misma, yo jugaba con cáscaras de coco en la arena. Los imaginé como hábitats en un planeta diferente. El agua del grifo se convirtió en un río.",
+            "output": "When my family lived in a rented house, in the backyard of it, I played with coconut shells on the sand. I imagined them as habitats on a different planet. The water from the faucet became a river.",
+            "llm_output": "When my family lived in a rented house, in the backyard of it, I used to play with coconut shells in the sand. I imagined them as habitats on a different planet. The tap water turned into a river.",
+            "score": 0.6698534313769392
+        },
+        {
+            "id": 4149,
+            "name": "es_en_48",
+            "input": "Los investigadores dicen que las células pueden ser las responsables de la hipersensibilidad química característica de las enfermedades respiratorias como la enfermedad pulmonar obstructiva crónica (EPOC) y el asma.",
+            "output": "The researchers say the cells might be responsible for the chemical hypersensitivity that characterizes respiratory diseases such as chronic obstructive pulmonary disease (COPD) and asthma.",
+            "llm_output": "Researchers say that cells may be responsible for the chemical hypersensitivity characteristic of respiratory diseases such as chronic obstructive pulmonary disease (COPD) and asthma.",
+            "score": 0.6627381873533481
+        },
+        {
+            "id": 4101,
+            "name": "es_en_0",
+            "input": "Sé algunas cosas sobre la lectura cuando se trata de filipinos. Cuando muchos filipinos leen, especialmente la élite, leen en inglés, a pesar de que comúnmente hablan en un idioma indígena todos los días. Filipinas es muy aural-oral cuando se trata de la lengua indígena. Hay, sin embargo, algunos cómics y otra literatura en tagalo para las masas. Muchos filipinos realmente no quieren leer en inglés, ya que tal vez no les atraiga, por lo que rara vez leen, sino que ven televisión, videos o cine, más comúnmente en el idioma indígena. Sospecho que las letras romanas no atraen a algunos filipinos. El tagalo ya no se escribe en la antigua escritura Baybayin, pero el estándar Unicode conserva los silabogramas. La literatura tagalo aún no es muy amplia, como lo es la literatura indonesia vecina. El inglés es como un refresco rosa con gas, mientras que el tagalo es como un pastel de mandioca de color marrón amarillento. (Algunos franceses han expresado que el tagalo es más como un tiburón gris en el mar. Pero podría imaginarme a algunos italianos equiparando el tagalo con los espaguetis con tinta de calamar. Tal vez, el tagalo es como el español \"jamón de pata negra\", un manjar caro.)",
+            "output": "I know some things about reading when it comes to Filipinos. When many Filipinos read, especially the elite, they read in English, although they commonly speak an indigenous language every day. The Philippines is highly aural-oral when it comes to the indigenous language. There are, nevertheless, some comics and other literature in Tagalog for the masses. Many Filipinos do not really want to read in English, as maybe it does not attract them, so they seldom read, but instead watch television, videos, or cinema, most commonly in the indigenous language. I suspect that Roman letters do not attract some Filipinos. Tagalog is no longer written in the ancient Baybayin script, but the Unicode Standard conserves the syllabograms. Tagalog literature is not yet extensive, as is that of neighbouring Indonesia. English is like a fizzy pink soda, whilst Tagalog is like a yellow-brown cassava cake. (Some French have stated that Tagalog is more like a grey shark in the sea. But I could imagine some Italians equating Tagalog with squid ink spaghetti. Maybe Tagalog is like Spanish \"jamón de pata negra,\" an expensive delicacy.)",
+            "llm_output": "I know a few things about reading when it comes to Filipinos. When many Filipinos read, especially the elite, they read in English, even though they commonly speak in an indigenous language every day. The Philippines is very aural-oral when it comes to the indigenous language. There are, however, some comics and other literature in Tagalog for the masses. Many Filipinos don't really want to read in English, as it may not appeal to them, so they rarely read, but instead watch television, videos, or movies, more commonly in the indigenous language. I suspect that Roman letters don't appeal to some Filipinos. Tagalog is no longer written in the ancient Baybayin script, but the Unicode standard preserves the syllabograms. Tagalog literature is still not as extensive as the neighboring Indonesian literature. English is like a pink fizzy soda, while Tagalog is like a yellowish-brown cassava cake. (Some French people have expressed that Tagalog is more like a gray shark in the sea. But I could imagine some Italians equating Tagalog with squid ink spaghetti. Perhaps, Tagalog is like the Spanish \"jamón de pata negra\", an expensive delicacy.)",
+            "score": 0.6526317723905722
+        },
+        {
+            "id": 4111,
+            "name": "es_en_10",
+            "input": "El aprendizaje de un idioma es mucho más que un desafío intelectual o cognitivo, es un medio para crecer y madurar a través de la experiencia de otras culturas. Amplía nuestros horizontes y profundiza nuestra personalidad, nos permite una aproximación diferente a los problemas, porque experimentamos diferentes mundos, nos permite, como dice Proust, ver con nuevos ojos.",
+            "output": "Learning a language is much more than an intellectual or cognitive challenge; it's a way to grow and to mature through the experience of other cultures. It broadens our horizons and deepens our personality. It allows us to approach problems differently because we experience different worlds. It allows us, as Proust says, to see with new eyes.",
+            "llm_output": "Learning a language is much more than an intellectual or cognitive challenge; it is a means to grow and mature through the experience of other cultures. It broadens our horizons and deepens our personality, allowing us a different approach to problems because we experience different worlds. As Proust says, it enables us to see with new eyes.",
+            "score": 0.6351341914343781
+        },
+        {
+            "id": 4143,
+            "name": "es_en_42",
+            "input": "Anoche comí tanto que me dolía el estómago, y pasé la noche pegado al inodoro. \"¿Estás bien? ¿Quieres descansar hoy?\" \"Ya estoy bien, gracias. Solo me pondré las pilas y listo.\" \"No te esfuerces demasiado, ¿ok?\" \"Vale.\"",
+            "output": "Last night I ate so much that my stomach hurt and I spent the night glued to the toilet. \"Are you alright?\" \"Do you want to rest today?\" \"I'm alright now, thanks. I'll just stick it out and I'll be fine.\" \"Don't force yourself too much, okay?\" \"Okay.\"",
+            "llm_output": "Last night I ate so much that my stomach hurt, and I spent the night glued to the toilet. \"Are you okay? Do you want to rest today?\" \"I'm fine now, thanks. I'll just get myself together and that's it.\" \"Don't push yourself too hard, okay?\" \"Alright.\"",
+            "score": 0.6295026121705933
+        },
+        {
+            "id": 4193,
+            "name": "es_en_92",
+            "input": "También fue instruido en música por Linus el centauro (los centauros eran caballos con cabeza de hombre); sin embargo, se dedicó con menos interés a este arte.",
+            "output": "He was also instructed in music by Linus the centaur (centaurs were horses with a man's head); however, he devoted himself with less interest to this art.",
+            "llm_output": "He was also instructed in music by Linus the centaur (centaurs were horses with the head of a man); however, he dedicated himself less enthusiastically to this art.",
+            "score": 0.6063726457410499
+        },
+        {
+            "id": 4186,
+            "name": "es_en_85",
+            "input": "Puedo hacer matemáticas de nivel universitario, pero no puedo lavar la ropa sin arruinarla. Puedo traducir entre cuatro idiomas diferentes, pero no me puedo bañar bien.",
+            "output": "I can do college-level math, but I can't do the laundry without ruining the clothes. I can translate between four different languages, but I can't shower properly.",
+            "llm_output": "I can do university-level math, but I can't do laundry without ruining it. I can translate between four different languages, but I can't take a proper shower.",
+            "score": 0.6027523487572131
+        },
+        {
+            "id": 4145,
+            "name": "es_en_44",
+            "input": "¡No me vengas con zarandajas, Manuel! ¿Eres un hombre o no? Pues entonces, deja de buscar excusas y haz lo que tienes que hacer: cazar un jabalí para dar de comer a tu familia y demostrar tu hombría ante tu prometida.",
+            "output": "Don't give me that nonsense, Manuel! Are you a man or aren't you? Well then, stop looking for excuses and do what you must do: hunt a wild boar to feed your family and prove your manliness to your fiancée.",
+            "llm_output": "Don't give me any nonsense, Manuel! Are you a man or not? Well then, stop making excuses and do what you have to do: hunt a wild boar to feed your family and prove your manhood to your fiancée.",
+            "score": 0.5947065189666922
+        },
+        {
+            "id": 4179,
+            "name": "es_en_78",
+            "input": "En contraste con los abrasadores infiernos que abundan en religiones de todo el mundo, existen textos budistas que además mencionan infiernos y purgatorios cubiertos de hielo.",
+            "output": "In contrast to the scorching hells prevalent in religions around the world, there are Buddhist texts that mention ice-covered hells and purgatories.",
+            "llm_output": "In contrast to the scorching hells that abound in religions around the world, there are Buddhist texts that also mention hells and purgatories covered in ice.",
+            "score": 0.583526016818016
+        },
+        {
+            "id": 4155,
+            "name": "es_en_54",
+            "input": "El rover de Mercurio evita el lado diurno donde las temperaturas pueden superar los 400 grados centígrados, pero viaja por el lado nocturno donde las temperaturas son más bajas que menos 100 grados centígrados.",
+            "output": "The Mercury rover avoids the day side where temperatures can be over 400 degrees Celsius, but travels on the night side where temperatures are colder than minus 100 degrees Celsius.",
+            "llm_output": "The Mercury rover avoids the daytime side where temperatures can exceed 400 degrees Celsius, but travels on the nighttime side where temperatures are lower than minus 100 degrees Celsius.",
+            "score": 0.5818571276422116
+        },
+        {
+            "id": 4183,
+            "name": "es_en_82",
+            "input": "¿Crees que una campesina que lleva una vida más orgánica que tú en un país abandonado, mientras usa estiércol de vaca para hacer fuego, es en cierto modo más rica que tú?",
+            "output": "Do you think a peasant girl living a more organic life than you in a forsaken country, as she uses cow dung to make fire, is in a way richer than you?",
+            "llm_output": "Do you think a peasant woman who leads a more organic life than you in a forsaken country, while using cow manure to make fire, is in some way richer than you?",
+            "score": 0.5775107557288739
+        },
+        {
+            "id": 4156,
+            "name": "es_en_55",
+            "input": "Segunda victoria de Ding Liren (blancas) en el Campeonato Mundial de Ajedrez FIDE 2023, empatando el encuentro en 3 X 3. Hasta ahora, 3 victorias para las blancas, 1 victoria para las negras y solo 2 empates.",
+            "output": "Second win for Ding Liren (White) at the 2023 FIDE World Chess Championship, tying the match at 3 X 3. So far, 3 wins for White, 1 win for Black, and only 2 draws.",
+            "llm_output": "Ding Liren (playing white) secures his second victory in the 2023 FIDE World Chess Championship, tying the match at 3-3. So far, there have been 3 wins for white, 1 win for black, and only 2 draws.",
+            "score": 0.5770499568543841
+        },
+        {
+            "id": 4102,
+            "name": "es_en_1",
+            "input": "Como no hablo español tan frecuentemente, puedo hablar (o, mejor dicho, escribir) de una manera más o menos correcta, pero no tengo mucho color o variedad en mi lenguaje. Siempre uso las mismas estructuras, las que sé, para no estar inventándome maneras de expresar algo y sonar como que estoy hablando inglés. Digo lo mismo una y otra vez, sin muchas expresiones idiomáticas, y cuando intento usar las que sé, la riego. Mientras tanto, con el inglés, que tampoco domino perfectamente, sí tengo esa variedad, y esa experiencia de hablarlo mucho con compañeros de mi edad, conocer maneras de expresarse.",
+            "output": "Since I don't speak Spanish that often, I can speak (or rather, write) more or less correctly, but I don't have a lot of color or variety in my language. I always use the same structures, the ones I know, in order to avoid making up ways to express things and sounding like I'm speaking English. I say the same thing over and over again, without many idiomatic expressions, and whenever I try to use the ones I know, I screw up. Meanwhile, with English, though I don't speak it perfectly either, I do introduce that variety, and I have the experience of speaking it with same-age peers, learning different ways to express myself.",
+            "llm_output": "Since I don't speak Spanish very frequently, I can speak (or rather, write) in a more or less correct way, but I don't have much color or variety in my language. I always use the same structures, the ones I know, so as not to be inventing ways to express something and sound like I'm speaking English. I say the same thing over and over again, without many idiomatic expressions, and when I try to use the ones I know, I mess up. Meanwhile, with English, which I also don't master perfectly, I do have that variety, and that experience of speaking it a lot with peers my age, getting to know ways to express myself.",
+            "score": 0.5643569586052842
+        },
+        {
+            "id": 4123,
+            "name": "es_en_22",
+            "input": "Idiomas que nunca se hubieran encontrado juntos en sistemas tradicionales se pueden conectar en Tatoeba. Genial, ¿no es así? Pero, ¿de dónde sacamos esas frases, y cómo las traducimos? Obviamente, esto no puede ser el trabajo de una persona. Es por esto que Tatoeba se hace desde colaboración.",
+            "output": "Languages that would have never found each other in traditional systems can be connected in Tatoeba. Awesome, right? But where do we get those sentences, and how do we translate them? Obviously, this cannot be the work of one person. This is why Tatoeba is collaborative.",
+            "llm_output": "Languages that would never have been found together in traditional systems can be connected in Tatoeba. Cool, isn't it? But, where do we get these phrases, and how do we translate them? Obviously, this cannot be the work of one person. That's why Tatoeba is built on collaboration.",
+            "score": 0.5588491465871135
+        },
+        {
+            "id": 4106,
+            "name": "es_en_5",
+            "input": "La India, Bhārat, todavía está llena de misterio para mí. Todavía no puedo diferenciar el hindi del punjabi al escuchar una conversación. De los idiomas de la India, mis favoritos son el pali, el sánscrito y el tamil. El pali es el idioma litúrgico del budismo del sur, mientras que el sánscrito es el idioma litúrgico del budismo del norte y el hinduismo. El tamil es oficial en Singapur, junto con el mandarín, el malayo y el inglés.",
+            "output": "India—Bhārat—is still full of mystery to me. I still cannot differentiate Hindi from Punjabi upon overhearing a conversation. Of East Indian languages, my favourites are Pali, Sanskrit, and Tamil. Pali is the liturgical language of Southern Buddhism, whilst Sanskrit is the liturgical language of Northern Buddhism and Hinduism. Tamil is official in Singapore, along with Mandarin, Malay, and English.",
+            "llm_output": "India, Bhārat, is still full of mystery to me. I still can't differentiate between Hindi and Punjabi when listening to a conversation. Out of the languages of India, my favorites are Pali, Sanskrit, and Tamil. Pali is the liturgical language of Southern Buddhism, while Sanskrit is the liturgical language of Northern Buddhism and Hinduism. Tamil is an official language in Singapore, along with Mandarin, Malay, and English.",
+            "score": 0.5522759517824295
+        },
+        {
+            "id": 4158,
+            "name": "es_en_57",
+            "input": "Mi meta como profesor de idiomas no es hacer que mis estudiantes solo digan frases gramaticalmente perfectas. Es ayudarles a desarrollar la seguridad para expresarse en otro idioma, sea cual sea el método.",
+            "output": "My goal as a language teacher isn't to get my students to only say grammatically perfect phrases. It's to help them build the confidence to express themselves in another language, however that may be.",
+            "llm_output": "My goal as a language teacher is not to make my students only say grammatically perfect sentences. It's to help them develop the confidence to express themselves in another language, whatever the method may be.",
+            "score": 0.5425498232654633
+        },
+        {
+            "id": 4129,
+            "name": "es_en_28",
+            "input": "En el caso de la teoría del big-bang, se supone que toda la materia y la energía del universo, y todo el espacio y el tiempo, fueron empaquetados en un punto infinitesimalmente pequeño. De esta \"singularidad\", como se le llama, es que de un salto brotó todo el universo.",
+            "output": "In the case of the big-bang theory, they assume the existence of all the matter and energy of the universe, and all of space and time, wrapped up into an infinitesimally small point. From this \"singularity\", as it is called, the whole universe sprang forth.",
+            "llm_output": "In the case of the Big Bang theory, it is assumed that all the matter and energy of the universe, as well as all space and time, were packed into an infinitesimally small point. From this \"singularity,\" as it is called, the entire universe suddenly emerged.",
+            "score": 0.5413818219943671
+        },
+        {
+            "id": 4177,
+            "name": "es_en_76",
+            "input": "Afirmo que ambos somos ateos. Resulta que creo en un dios menos que tú. Cuando entiendas por qué rechazas todos los demás dioses posibles, entenderás por qué yo rechazo el tuyo.",
+            "output": "I contend that we are both atheists. I just believe in one fewer god than you do. When you understand why you dismiss all the other possible gods, you will understand why I dismiss yours.",
+            "llm_output": "I assert that we are both atheists. It turns out that I believe in one less god than you do. When you understand why you reject all other possible gods, you will understand why I reject yours.",
+            "score": 0.5398083461302212
+        },
+        {
+            "id": 4168,
+            "name": "es_en_67",
+            "input": "El restrictivo papel que la comunidad desempeñó una vez está perdiendo su fuerza a medida que los adultos se están volviendo reacios a reprimir los niños revoltosos de otras personas.",
+            "output": "The restraining role that the community once played is losing its force as adults become reluctant to reprimand other people's unruly children.",
+            "llm_output": "The restrictive role that the community once played is losing its strength as adults are becoming reluctant to discipline other people's unruly children.",
+            "score": 0.5374618498751262
+        },
+        {
+            "id": 4163,
+            "name": "es_en_62",
+            "input": "Sin renunciar nunca a tu intimidad, te aconsejo también que compartas con él lo que hacés cuando él no está, con naturalidad, de manera que él entienda que no hay razones para sus celos.",
+            "output": "Without giving up your privacy, I would also advise you to share with him what you do when he's not there, naturally, so he'll understand that there's no reason to be jealous.",
+            "llm_output": "Without ever giving up your privacy, I also advise you to share with him what you do when he's not around, naturally, so that he understands that there are no reasons for his jealousy.",
+            "score": 0.5261840388706241
+        },
+        {
+            "id": 4119,
+            "name": "es_en_18",
+            "input": "Colocar el acento en la primera sílaba de una palabra tiene obvias ventajas, como que deja claro dónde están los límites entre las palabras dentro de una frase cuando alguien está hablando en voz alta en toki pona. Se puede saber fácilmente cuándo empieza una nueva palabra, porque se acentúa su primera sílaba.",
+            "output": "Placing the stress on the first syllable of a word has distinct advantages, namely that it makes it clear where boundaries between words are within a sentence when someone is speaking Toki Pona out loud. You can easily tell when a new word starts, because its first syllable is emphasized.",
+            "llm_output": "Placing the accent on the first syllable of a word has obvious advantages, such as making it clear where the boundaries between words are within a sentence when someone is speaking aloud in Toki Pona. It's easy to know when a new word begins because its first syllable is emphasized.",
+            "score": 0.5119987783345031
+        },
+        {
+            "id": 4192,
+            "name": "es_en_91",
+            "input": "Hay dos tipos de personas en el mundo: los que hacen grandes cosas, y los que toman la gloria por ello. Trata de ser de los primeros, ya que hay menos competencia.",
+            "output": "There are two kinds of people in the world: Those who do great things, and those who get the glory for it. Try to be the former. There's less competition.",
+            "llm_output": "There are two types of people in the world: those who do great things, and those who take the glory for them. Try to be one of the former, as there is less competition.",
+            "score": 0.5105100740906838
+        },
+        {
+            "id": 4112,
+            "name": "es_en_11",
+            "input": "Entre los sistemas planetarios conscientes se produjeron infinitas variaciones de relaciones personales. Como entre los individuos humanos, existían amores y odios, simpatías y antipatías temperamentales, intimidades alegres y angustiosas, cooperaciones y frustraciones en las empresas personales y en la gran empresa común de construir la utopía galáctica.",
+            "output": "Between the minded planetary systems occurred infinite variations of personal intercourse. As between human individuals, there were loves and hates, temperamental sympathies and antipathies, joyful and distressful intimacies, cooperations and thwartings in personal ventures and in the great common venture of building the galactic Utopia.",
+            "llm_output": "Among the conscious planetary systems, there were infinite variations of personal relationships. Just like among human individuals, there were loves and hates, temperamental sympathies and antipathies, joyful and distressing intimacies, cooperations and frustrations in personal endeavors and in the great common enterprise of building the galactic utopia.",
+            "score": 0.5072920377226766
+        },
+        {
+            "id": 4118,
+            "name": "es_en_17",
+            "input": "La pregunta de si es posible sostener helado de caramelo fue contestada afirmativamente en 2019 por un equipo internacional de científicos que crearon un guante de una aleación ultra-fuerte de tungsteno molibdeno y lograron sostenerlo por un instante, antes que ellos también cayeran en la tentación y lo devoraran.",
+            "output": "The question of whether it is at all possible to hold caramel ice cream was answered in the affirmative in 2019 by an international team of scientists who made a glove out of an ultra-tough tungsten molybdenum alloy and were able to successfully hold it for a split second before they, too, succumbed to temptation and ate it all up.",
+            "llm_output": "The question of whether it is possible to hold caramel ice cream was answered affirmatively in 2019 by an international team of scientists who created a glove made of an ultra-strong tungsten molybdenum alloy and managed to hold it for a moment before they too succumbed to temptation and devoured it.",
+            "score": 0.5058702231706658
+        },
+        {
+            "id": 4121,
+            "name": "es_en_20",
+            "input": "El doblaje de películas parece un negocio más grande en el mundo en desarrollo. He visto dos películas de ciencia ficción, sin mucha comprensión, en hindi: Prometheus (2012), luego La máquina del tiempo (2002), las cuales he visto en inglés. Parece que muchos en la India ven ciencia ficción en hindi.",
+            "output": "Dubbing movies seems a bigger business in the developing world. I've seen two sci-fi movies, without much comprehension, in Hindi: Prometheus (2012), then The Time Machine (2002), both of which I've watched in English. It seems that many in India watch sci-fi in Hindi.",
+            "llm_output": "The dubbing of movies seems to be a bigger business in the developing world. I have watched two science fiction films, without much understanding, in Hindi: Prometheus (2012), and then The Time Machine (2002), both of which I have seen in English. It seems that many people in India watch science fiction in Hindi.",
+            "score": 0.5011047078503033
+        },
+        {
+            "id": 4173,
+            "name": "es_en_72",
+            "input": "El Campeonato Mundial Femenino de Ajedrez 2023 se disputará del 5 al 25 de julio de 2023 entre la defensora del título, Ju Wenjun, y su contrincante, Lei Tingjie, ambas de China.",
+            "output": "The 2023 Women's World Chess Championship will be contested from 5 to 25 July 2023 by the defending champion, Ju Wenjun, and her challenger, Lei Tingjie, both from China.",
+            "llm_output": "The Women's World Chess Championship 2023 will take place from July 5 to 25, 2023, between the defending champion, Ju Wenjun, and her opponent, Lei Tingjie, both from China.",
+            "score": 0.4963989782246543
+        },
+        {
+            "id": 4131,
+            "name": "es_en_30",
+            "input": "La maestría es la mejor meta porque los ricos no la pueden comprar, los impacientes no la pueden apresurar, los privilegiados no la pueden heredar, y nadie la puede robar. Solo se puede conseguir a través de empeño. La maestría es el estatus supremo.",
+            "output": "Mastery is the best goal because the rich can't buy it, the impatient can't rush it, the privileged can't inherit it, and nobody can steal it. You can only earn it through hard work. Mastery is the ultimate status.",
+            "llm_output": "Mastery is the best goal because the rich cannot buy it, the impatient cannot rush it, the privileged cannot inherit it, and no one can steal it. It can only be achieved through hard work. Mastery is the ultimate status.",
+            "score": 0.49526373258609174
+        },
+        {
+            "id": 4200,
+            "name": "es_en_99",
+            "input": "Ya no disfruto hacer matemáticas. Pero me faltan unas clases que necesito tomar para mi carrera, así que mejor las hago de una vez. No me queda de otra.",
+            "output": "I don't really enjoy doing math anymore. But I still have some classes I need to take for my degree, so might as well get them over with. I don't really have a choice.",
+            "llm_output": "I no longer enjoy doing math. But I still have some classes I need to take for my career, so I might as well get them done. I don't have any other choice.",
+            "score": 0.49513937123854773
+        },
+        {
+            "id": 4136,
+            "name": "es_en_35",
+            "input": "Para muchos expertos, las langostas y los gusanos de la harina, entre otros, son el alimento del futuro porque son ricos en proteínas y mucho menos dañinos para el medio ambiente que, por ejemplo, las vacas. Pero, ¿son también sabrosos?",
+            "output": "According to many experts, locusts and mealworms, among other insects, are the food of the future because they are rich in proteins and much less environmentally harmful than, for example, cattle. But, do they also taste good?",
+            "llm_output": "For many experts, locusts and mealworms, among others, are the food of the future because they are rich in protein and much less harmful to the environment than, for example, cows. But, are they also tasty?",
+            "score": 0.49177155723640015
+        },
+        {
+            "id": 4164,
+            "name": "es_en_63",
+            "input": "Tras seis semanas a dieta, Eugenio no había perdido ni un gramo porque comía dulces a escondidas cuando creía que nadie miraba, sin darse cuenta de que a la báscula no la podría engañar.",
+            "output": "After six weeks on a diet, Eugenio hadn't lost a single ounce because he secretly ate candies when he thought that no one was watching, not realizing that he couldn't trick the scales.",
+            "llm_output": "After six weeks on a diet, Eugenio hadn't lost even a gram because he ate sweets in secret when he thought no one was looking, not realizing that he couldn't fool the scale.",
+            "score": 0.4889434474176061
+        },
+        {
+            "id": 4172,
+            "name": "es_en_71",
+            "input": "El país ha tenido campeones del mundo en deportes como esgrima, pádel, fútbol sala, waterpolo, vela, boxeo, gimnasia rítmica, balonmano, atletismo, fútbol, baloncesto o bádminton.",
+            "output": "The country has had champions in sports like fencing, paddle tennis, futsal, water polo, sailing, boxing, rhythmic gymnastics, handball, track and field, soccer, basketball, and badminton.",
+            "llm_output": "The country has had world champions in sports such as fencing, paddle tennis, indoor soccer, water polo, sailing, boxing, rhythmic gymnastics, handball, athletics, soccer, basketball, and badminton.",
+            "score": 0.47901455811287486
+        },
+        {
+            "id": 4146,
+            "name": "es_en_45",
+            "input": "Ya que el precio del jugo de naranja es siempre más alto que el del jugo de manzana, me fijo en ese precio y siempre aprovecho la ocasión para abastecerme de una buena reserva de jugo de naranja en ofertas especiales.",
+            "output": "Now that the price of orange juice is always higher than apple juice, I track that price and I always take advantage of the opportunity to stock up on a reserve of orange juice when it is on sale.",
+            "llm_output": "Since the price of orange juice is always higher than that of apple juice, I pay attention to that price and always take the opportunity to stock up on a good supply of orange juice during special offers.",
+            "score": 0.4641510842719191
+        },
+        {
+            "id": 4150,
+            "name": "es_en_49",
+            "input": "El corazón del padre se alegraba de ver a su hijo que, ávido de conocimientos, aprendía tan rápidamente y crecía hasta convertirse en un sacerdote erudito, un verdadero príncipe entre los hombres cultos de su casta.",
+            "output": "The father's heart rejoiced to see that son who, eager for knowledge, learned so quickly and grew surely to become a learned priest, a true prince among the men of knowledge of his caste.",
+            "llm_output": "The father's heart was filled with joy to see his son, eager for knowledge, learn so quickly and grow to become a learned priest, a true prince among the educated men of his caste.",
+            "score": 0.45978421245641266
+        },
+        {
+            "id": 4115,
+            "name": "es_en_14",
+            "input": "Entre las tantas acciones cometidas por los dictadores, podemos mencionar que: suspenden la actividad política, suspenden los derechos de los trabajadores, prohíben las huelgas, destituyen la Corte Suprema de Justicia, clausuran locales nocturnos, censuran los medios de comunicación, queman miles de libros y revistas considerados peligrosos.",
+            "output": "Among so many actions committed by dictators, we can mention that: they suspend political activity, they suspend the rights of workers, they forbid strikes, they destroy the Supreme Court of Justice, they shutdown nighttime places of business, they censor the mass media, they burn thousands of books and magazines considered dangerous.",
+            "llm_output": "Among the many actions committed by dictators, we can mention that they: suspend political activity, suspend workers' rights, prohibit strikes, dismiss the Supreme Court of Justice, close down nightclubs, censor the media, and burn thousands of books and magazines considered dangerous.",
+            "score": 0.45876582085479983
+        },
+        {
+            "id": 4194,
+            "name": "es_en_93",
+            "input": "Mis mejores viajes, los más dulces los hice cerca de la chimenea, los pies en las cenizas calientes, los codos sobre los brazos gastados del sofá de mi abuela.",
+            "output": "My best trips, the sweetest ones, were made close to the chimney, my feet in the hot ashes, my elbows on the worn-out armrests of my grandmother's sofa.",
+            "llm_output": "My best trips, the sweetest ones, were made near the fireplace, my feet on the warm ashes, my elbows resting on the worn arms of my grandmother's sofa.",
+            "score": 0.4486727665675417
+        },
+        {
+            "id": 4104,
+            "name": "es_en_3",
+            "input": "Hoy, en la mañana de cielo azul del 2 de julio de 2022, regresando de una tienda de conveniencia en una esquina en Isla Lulu, vi a Miguel el danés-francés. Dijo que estaba luchando contra la nicotina. Luego, dijo que le impactó saber que he sido un gran viajero de este mundo. «¡Lo he visto todo!» me jactaba. Miguel dijo que lo mejor es «gran literatura mientras viajes». Como músico, Miguel mismo ha viajado por América del Norte, el Caribe y México. Dijo que nunca ha estado en Europa. «¡Es un planeta completamente diferente!» yo dije.",
+            "output": "Today in the blue-sky morning of the 2nd of July of 2022, walking back from a Lulu Island corner convenience store, I saw Michael the Dane-French. He said that he was fighting nicotine. Then, he said that it struck him to find out that I have been a great traveller of this world. \"I've seen everything!\" I boasted. Michael said that the best thing is \"great literature whilst travelling.\" As a musician, Michael himself has travelled across North America, the Caribbean, and Mexico. He said that he has never been to Europe. \"It's a whole different planet!\" I said.",
+            "llm_output": "Today, on the bright blue morning of July 2, 2022, returning from a convenience store on a corner in Lulu Island, I saw Miguel the Danish-Frenchman. He said he was struggling with nicotine. Then, he mentioned that he was impressed to learn that I have been a great traveler of this world. \"I've seen it all!\" I boasted. Miguel said that the best thing is \"great literature while traveling.\" As a musician, Miguel himself has traveled through North America, the Caribbean, and Mexico. He said he has never been to Europe. \"It's a completely different planet!\" I said.",
+            "score": 0.444339701175296
+        },
+        {
+            "id": 4165,
+            "name": "es_en_64",
+            "input": "Hay personas en contra de la práctica de las indumentarias musulmanas femeninas, es decir, no importa si una de ellas lleva niqab, khimar, amira o chaila, que les parece mal igualmente.",
+            "output": "There are people against the wearing of female Muslim attire, that is to say, it does not matter if one of them wears a niqab, khimar, amira or chaila, they think it's wrong anyway.",
+            "llm_output": "There are people who are against the practice of Muslim women's clothing, meaning, it doesn't matter if one of them wears a niqab, khimar, amira, or chaila, they still disapprove of it.",
+            "score": 0.43800454620095686
+        },
+        {
+            "id": 4152,
+            "name": "es_en_51",
+            "input": "Tom es un actor infantil exitoso, y su mánager tiene ofertas de contrato para durarles años, así que ella lo hace usar bloqueadores de pubertad para que pueda quedarse joven, y así poder jugar todas esas papeles.",
+            "output": "Tom is a star child actor, and his manager has several contract offers piled up to last years, so she has him on puberty blockers so he can stay young and play all those parts.",
+            "llm_output": "Tom is a successful child actor, and his manager has contract offers to last them for years, so she makes him use puberty blockers so he can stay young and be able to play all those roles.",
+            "score": 0.437816923621608
+        },
+        {
+            "id": 4184,
+            "name": "es_en_83",
+            "input": "Ir a la escuela en los Estados Unidos me agringó hasta el punto de que casi olvidé cómo hablar español, y me la pasaba mejor con mis amigos blancos que con los latinos.",
+            "output": "Going to school in the United States whitewashed me to the point where I nearly forgot how to speak Spanish, and got along better with my white friends than my Latino ones.",
+            "llm_output": "Going to school in the United States made me so Americanized that I almost forgot how to speak Spanish, and I had a better time with my white friends than with the Latinos.",
+            "score": 0.4364632750877051
+        },
+        {
+            "id": 4197,
+            "name": "es_en_96",
+            "input": "La verdad es que mi tía siempre me contaba historias chanantes pero, como no venían de una pantalla ni de un youtuber, yo no solía prestarlas apenas atención.",
+            "output": "The truth is, my aunt would always tell me fascinating stories, but since they didn't come from a screen or from a YouTuber, I never paid them much attention.",
+            "llm_output": "The truth is that my aunt always used to tell me amusing stories, but since they didn't come from a screen or a YouTuber, I didn't usually pay much attention to them.",
+            "score": 0.42814587908409396
+        },
+        {
+            "id": 4108,
+            "name": "es_en_7",
+            "input": "Durante la represión de las manifestaciones de París del 17 de octubre de 1961, la policía asesinó a decenas de personas; no se sabe a cuántos, pero lo más probable es que fueran entre cien y doscientas. La matanza quedó silenciada y censurada mientras los medios de comunicación ofrecieron la versión oficial de la muerte de cinco personas, sin embargo, después, durante semanas, fueron apareciendo cuerpos en el río Sena.",
+            "output": "During repression of the protests in Paris on October 17, 1961, the police killed dozens of people. The exact count is unknown, but most likely between one hundred and two hundred were killed. The slaughter was silenced and censored while the communications media repeated the official version giving the death count of five people. Nevertheless, bodies continued to appear in the Seine for weeks afterward.",
+            "llm_output": "During the repression of the Paris protests on October 17, 1961, the police killed dozens of people; it is not known how many, but it is most likely between one hundred and two hundred. The massacre was silenced and censored while the media presented the official version of the death of five people. However, afterwards, for weeks, bodies were found in the Seine River.",
+            "score": 0.421322881992375
+        },
+        {
+            "id": 4180,
+            "name": "es_en_79",
+            "input": "Es la crueldad y la codicia lo que mantiene a la gente sin hogar en las calles, por necesidad de hacer un ejemplo de ellos para que todos sigan siendo trabajadores obedientes.",
+            "output": "It's cruelty and greed that keeps homeless people on the street, out of a need to make an example of them so everyone remains obedient workers.",
+            "llm_output": "It is cruelty and greed that keep homeless people on the streets, out of the need to make an example of them so that everyone else continues to be obedient workers.",
+            "score": 0.4182088803780057
+        },
+        {
+            "id": 4167,
+            "name": "es_en_66",
+            "input": "Hay mucha gente en el mundo estudiando inglés, por lo que los ingleses están acostumbrados al acento no estándar de aquellos que están aprendiendo, a sus errores gramaticales y demás.",
+            "output": "There are many people in the world studying English, so English people are used to learners' non-standard accents, their grammatical errors and so on.",
+            "llm_output": "There are many people in the world studying English, so English speakers are used to the non-standard accent of those who are learning, as well as their grammatical mistakes and so on.",
+            "score": 0.41820888037800563
+        },
+        {
+            "id": 4109,
+            "name": "es_en_8",
+            "input": "En el modelo de célula vegetal que presentó Mario, una castaña de Indias hacía las veces de núcleo, un puñado de plastilina era el citoplasma, los orgánulos estaban representados por lentejas y otras legumbres, trocitos verdes de limpiapipas figuraban como cloroplastos y el plástico del envase que contenía todo era la membrana celular al tiempo que una gruesa capa de papel maché servía de pared celular.",
+            "output": "In the plant cell model that Mario presented, a horse chestnut took the place of the nucleus, a handful of plasticine was the cytoplasm, the organelles were represented by lentils and other beans, small bits of green pipe cleaner served as chloroplasts, and the plastic bottle that held everything was the cell membrane, surrounded by a thick papier-mâché coat for the cell wall.",
+            "llm_output": "In the plant cell model presented by Mario, a horse chestnut acted as the nucleus, a handful of playdough was the cytoplasm, organelles were represented by lentils and other legumes, green pipe cleaner pieces served as chloroplasts, and the plastic container holding everything was the cell membrane, while a thick layer of papier-mâché served as the cell wall.",
+            "score": 0.41591146898609305
+        },
+        {
+            "id": 4117,
+            "name": "es_en_16",
+            "input": "Las frases le dan el contexto a las palabras, las frases tienen personalidades. Éstas pueden ser graciosas, inteligentes, tontas, reveladoras, conmovedoras o hirientes, y las frases nos pueden enseñar mucho más que las palabras. Así que, a nosotros nos encantan las frases, y más allá de eso, nos encantan los idiomas.",
+            "output": "Sentences bring context to words; sentences have personalities. They can be funny, smart, silly, insightful, touching or hurtful, and sentences can teach us a lot more than just words. So we love sentences, but we love languages even more.",
+            "llm_output": "Phrases give context to words, and phrases have personalities. They can be funny, smart, silly, revealing, touching, or hurtful, and phrases can teach us much more than words. So, we love phrases, and beyond that, we love languages.",
+            "score": 0.39750355718531183
+        },
+        {
+            "id": 4110,
+            "name": "es_en_9",
+            "input": "Sin considerar el hecho de que esta frase es bastante larga, y a pesar de que contiene muchos sinónimos de la palabra \"a pesar de\", estoy convencido, sin embargo, de que habrá alguien que, en desmedro de estas dificultades, la traducirá, aún si él no recibe un incentivo financiero a cambio, aún cuando naturalmente lo mereciera, e incluso si existen muchos más sinónimos.",
+            "output": "Irrespective of the fact that this sentence is quite long, and in spite of the fact that it contains many synonyms of \"in spite of\", I’m nonetheless convinced that there will be someone who, regardless of these difficulties, will translate it, even if they won’t receive a financial incentive in exchange, though they naturally will deserve it, and despite the fact that there are far more synonyms.",
+            "llm_output": "Not taking into account the fact that this sentence is quite long, and even though it contains many synonyms for the phrase \"despite\", I am convinced, nevertheless, that there will be someone who, in spite of these difficulties, will translate it, even if they do not receive financial compensation in return, even when they naturally deserve it, and even if there are many more synonyms.",
+            "score": 0.3920722766107427
+        },
+        {
+            "id": 4134,
+            "name": "es_en_33",
+            "input": "Le escribió un epitafio a su amada diciéndole todo lo que nunca se había atrevido a decir, pese a saber que ya era demasiado tarde. Si ella todavía hubiera estado con vida y hubiera tenido la ocasión de oírlo, quizá su final habría sido diferente.",
+            "output": "He wrote an epitaph to the one he loved, telling her everything he had never gotten to tell her, despite knowing it was already too late. If she were still alive and had gotten the chance to hear it, maybe her story would have turned out differently.",
+            "llm_output": "He wrote an epitaph for his beloved, telling her everything he had never dared to say, even though he knew it was already too late. If she had still been alive and had the chance to hear it, perhaps their ending would have been different.",
+            "score": 0.3856650121471825
+        },
+        {
+            "id": 4122,
+            "name": "es_en_21",
+            "input": "Los padres ya no podrán fumar mientras esperan para retirar a sus hijos de la escuela, y los maestros no podrán fumar entre clases. Los infractores serán multados por una considerable suma de 46 US$ (2000 baht), que representa alrededor de una semana y media de ingresos para un asalariado promedio.",
+            "output": "Parents will no longer be able to sneak a quick puff while waiting to pick up their children at school and teachers will no longer be able to light up between classes. Violators will be fined a hefty $46 (2,000 baht), which is about one and a half week's salary for the average wage earner.",
+            "llm_output": "Parents will no longer be able to smoke while waiting to pick up their children from school, and teachers will not be able to smoke between classes. Offenders will be fined a considerable amount of $46 (2000 baht), which represents about a week and a half of income for an average wage earner.",
+            "score": 0.3837816019426032
+        },
+        {
+            "id": 4170,
+            "name": "es_en_69",
+            "input": "Cuando preguntaron a Sócrates si era mejor casarse o seguir soltero, el filósofo respondió \"no importa que decidas una opción o la otra. En diez años lo lamentarás de todos modos\".",
+            "output": "When Socrates was asked whether it was better to marry or stay single, the philosopher answered, \"It doesn't matter which one you pick, since ten years later you'll regret it either way.\"",
+            "llm_output": "When they asked Socrates whether it was better to get married or remain single, the philosopher replied, \"It doesn't matter if you choose one option or the other. In ten years, you'll regret it either way.\"",
+            "score": 0.37991992136133096
+        },
+        {
+            "id": 4116,
+            "name": "es_en_15",
+            "input": "Y lo que queremos en verdad es tener muchas frases en muchos idiomas posibles. Es por esto que Tatoeba es multilingüe, pero no de la clase donde los idiomas simplemente se imitan entre sí, y donde algunos pares de idiomas se quedan en el olvido. Tatoeba es en verdad multilingüe, todos los idiomas están interconectados.",
+            "output": "What we really want is to have many sentences in any and all languages. This is why Tatoeba is multilingual, but not such that languages are simply patterned together and some language pairs get left behind. Tatoeba is really multilingual; all the languages are interconnected.",
+            "llm_output": "And what we really want is to have many phrases in as many languages as possible. That's why Tatoeba is multilingual, but not the kind where languages simply imitate each other, and where some language pairs are left behind. Tatoeba is truly multilingual, all languages are interconnected.",
+            "score": 0.3752641791980672
+        },
+        {
+            "id": 4161,
+            "name": "es_en_60",
+            "input": "Logré desenterrar una sección íntegra de fulgurita de casi 14 cm de longitud en el suelo arcilloso de mi jardín después de que cayera un rayo en él durante la tormenta de ayer por la tarde.",
+            "output": "I managed to dig up a complete fulgurite section almost 14 cm in length from the clayey soil of my garden after it was struck by lighting during yesterday afternoon's thunderstorm.",
+            "llm_output": "I managed to unearth an entire section of fulgurite measuring almost 14 cm in length from the clay soil in my garden after lightning struck it during yesterday afternoon's storm.",
+            "score": 0.353754262614686
+        },
+        {
+            "id": 4178,
+            "name": "es_en_77",
+            "input": "La diosa Selección Natural elige ciega e inconscientemente, pero con una creatividad asombrosa, mutaciones aleatorias producidas en largos intervalos de tiempo por el dios Azar.",
+            "output": "The goddess Natural Selection blindly and unconsciously, but amazingly creatively, chooses random mutations produced at long intervals by the god Chance.",
+            "llm_output": "The goddess Natural Selection chooses blindly and unconsciously, but with astonishing creativity, random mutations produced over long periods of time by the god Chance.",
+            "score": 0.352265378692938
+        },
+        {
+            "id": 4124,
+            "name": "es_en_23",
+            "input": "A lo mejor soy disléxico o algo, pero cuando hablo inglés o español, confundo los pronombres. Por ejemplo, en español uso un artículo masculino con un sustantivo femenino, o en inglés uso \"él\" para referirme a mi hermana, o \"ella\" para referirme a mi papá. No lo hago a propósito, solo sucede.",
+            "output": "Maybe I'm dyslexic or something, but when speaking English or Spanish, I keep mixing up pronouns. For example, I'd use a male article for a female noun in Spanish, or in English I'd refer to my sister as \"he\" and my dad as \"she\". It's not intentional, but it just happens.",
+            "llm_output": "Maybe I'm dyslexic or something, but when I speak English or Spanish, I mix up pronouns. For example, in Spanish I use a masculine article with a feminine noun, or in English I use \"he\" to refer to my sister, or \"she\" to refer to my dad. I don't do it on purpose, it just happens.",
+            "score": 0.3444643946864171
+        },
+        {
+            "id": 4140,
+            "name": "es_en_39",
+            "input": "A medida que su periodo presidencial de cinco años se acercaba a su fin, el presidente centró su atención en cinco grandes proyectos, estos eran, infraestructura, trabajo, acceso a electricidad y a agua limpia, educación y salud.",
+            "output": "As his 5-year term drew to its close, the president centered his attention on 5 large projects: infrastructure, jobs, access to electricity and clean water, education, and health.",
+            "llm_output": "As his five-year presidential term was coming to an end, the president focused his attention on five major projects, which were infrastructure, employment, access to electricity and clean water, education, and health.",
+            "score": 0.33990330592058093
+        },
+        {
+            "id": 4198,
+            "name": "es_en_97",
+            "input": "La política es un intento de los políticos de librarse de unos problemas con ayuda del pueblo, los cuales el pueblo no habría tenido nunca sin los políticos.",
+            "output": "Politics is politicians' attempt to get rid of certain problems with the help of the people, who would've never had those problems if it hadn't been for the politicians.",
+            "llm_output": "Politics is an attempt by politicians to rid themselves of certain problems with the help of the people, problems which the people would have never had without the politicians.",
+            "score": 0.33712478978080995
+        },
+        {
+            "id": 4174,
+            "name": "es_en_73",
+            "input": "Hoy he soñado que unas geishas gordinflonas y maquilladas con colores fosforitos me perseguían por un parque de atracciones abandonado para que les bendijera a sus futuros hijos.",
+            "output": "Today I had a dream where some chubby geishas wearing fluorescent makeup followed me through an abandoned amusement park so that I would bless their future children.",
+            "llm_output": "Today I dreamed that some chubby geishas with neon-colored makeup were chasing me through an abandoned amusement park, wanting me to bless their future children.",
+            "score": 0.33452679453829337
+        },
+        {
+            "id": 4157,
+            "name": "es_en_56",
+            "input": "¿Me estás llamando flojo? ¡Ja! He inventado una forma de adquirir todo lo que necesito desde la comodidad de mi silla con tan solo hacer sonar esta campanita. La llamo \"Mi hermana menor\". Soy un genio, ¿no?",
+            "output": "You call me lazy? Ha! I devised a way to acquire anything I need from the comfort of my chair with just the ring of a bell! I call it: my little sister. Genius, isn't it?",
+            "llm_output": "Are you calling me lazy? Ha! I've invented a way to get everything I need from the comfort of my chair just by ringing this little bell. I call it \"My younger sister.\" I'm a genius, right?",
+            "score": 0.3334001724482668
+        },
+        {
+            "id": 4126,
+            "name": "es_en_25",
+            "input": "Aquel Lino reprochó una vez a Hércules que no era estudioso; entonces, enfurecido, el muchacho tomó de repente la lira y golpeó con todas sus fuerzas la cabeza del desafortunado maestro, que, postrado por el golpe, murió poco después. Y nadie quiso después hacerse cargo de tal oficio.",
+            "output": "That Linus once reproached Hercules for not being studious; then, in a rage, the boy suddenly took up the lyre and struck with all his might the head of the unfortunate teacher, who, prostrated by the blow, soon after died. And no one after that wanted to take charge of such an office.",
+            "llm_output": "That Lino once reproached Hercules for not being studious; then, enraged, the boy suddenly grabbed the lyre and struck the unfortunate teacher's head with all his strength, who, overwhelmed by the blow, died shortly after. And no one wanted to take on such a job afterwards.",
+            "score": 0.3128987686091125
+        },
+        {
+            "id": 4171,
+            "name": "es_en_70",
+            "input": "En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no hace mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.",
+            "output": "Somewhere in La Mancha, in a place whose name I do not wish to recall, there lived not long ago a nobleman. To his name he had a lance in its sheath, an old leather buckler, a scrawny workhorse and a greyhound that scurried about.",
+            "llm_output": "In a place in La Mancha, whose name I do not wish to recall, not long ago there lived a nobleman with a lance in the rack, an old shield, a skinny nag, and a greyhound for racing.",
+            "score": 0.30728255371077523
+        },
+        {
+            "id": 4103,
+            "name": "es_en_2",
+            "input": "En estos días veía un documental sobre los inodoros de Japón y descubrí que ellos ya están trabajando desde hace tiempo en mecanismos que le ahorren vergüenzas a las personas que los usan. Habría que probarlos a ver qué tan efectivos son. Pero por lo menos ellos trabajan en eso. Aquí, en cambio, los inodoros, y los baños en general, no han cambiado mucho en décadas. Por eso es muy común encontrar gente que no ensucia en baños ajenos, porque les da vergüenza que los demás puedan escuchar u oler lo que están haciendo. Más bien se aguantan las ganas.",
+            "output": "I recently saw a documentary about Japanese toilets, and discovered that for some time they’ve been working on mechanisms that save the people who use them from embarrassment. They should be tested to see how effective they are. But at least they’re working on it. Here, however, toilets, and bathrooms in general, haven’t changed much in decades. This is why it’s very common to find people who don’t use other people’s restrooms because it embarrasses them that other people can hear or smell what they’re doing. So instead, they hold in their urges.",
+            "llm_output": "These days, I was watching a documentary about Japanese toilets and discovered that they have been working for a while on mechanisms to save people from embarrassment when using them. It would be interesting to try them out and see how effective they are. At least they are working on that. Here, on the other hand, toilets and bathrooms in general haven't changed much in decades. That's why it's very common to find people who don't use other people's bathrooms, because they're embarrassed that others might hear or smell what they're doing. They'd rather hold it in.",
+            "score": 0.29609425254857336
+        },
+        {
+            "id": 4181,
+            "name": "es_en_80",
+            "input": "El inmenso dragón traslúcido, como de cristal, custodiaba entre vaharadas de fina escarcha a la princesa presa en su cubil tras una cancela de gruesos carámbanos heladores.",
+            "output": "The great translucent dragon, who seemed to be made of crystal, guarded the princess imprisoned in his lair behind a gate of thick, cold icicles amidst fine frosty mists.",
+            "llm_output": "The immense translucent dragon, seemingly made of glass, guarded the princess imprisoned in its lair amidst wisps of delicate frost, behind a gate of thick, freezing icicles.",
+            "score": 0.29551456069598925
+        },
+        {
+            "id": 4175,
+            "name": "es_en_74",
+            "input": "Es un verdadero placer oírle hablar con tanta delicadeza dirigiéndose a un gato. No sé por qué, pero a los gatos se les suele «tutear», aunque no hayamos autorizado para hacerlo.",
+            "output": "It is truly a pleasure to hear you speak with such politeness to a cat. I don't know why, but people tend to speak very informally to cats, despite them not authorizing us to use that familiarity.",
+            "llm_output": "It's a real pleasure to hear you speak so gently when addressing a cat. I don't know why, but cats are often spoken to informally, even though we haven't given permission to do so.",
+            "score": 0.2938469745900604
+        },
+        {
+            "id": 4142,
+            "name": "es_en_41",
+            "input": "Entonces se llevó al novio a un lado y le dijo: \"Todo el mundo ofrece primero el vino de mejor calidad, dejando el más barato para después de que los invitados se hayan saciado, pero tú has reservado el mejor hasta ahora.\"",
+            "output": "Then he called the bridegroom aside and said, \"Everyone brings out the choice wine first and then the cheaper wine after the guests have had too much to drink, but you have saved the best till now.\"",
+            "llm_output": "So he took the groom aside and said to him, \"Everyone usually serves the best quality wine first, leaving the cheaper one for after the guests have had their fill, but you have saved the best for last.\"",
+            "score": 0.28265360518322047
+        },
+        {
+            "id": 4153,
+            "name": "es_en_52",
+            "input": "No creo que se deba vivir en un país donde se hable el idioma que uno está estudiando para llegar a hablarlo, pero ciertamente sí hace falta tener un contacto real con el idioma para dominarlo con fluidez total.",
+            "output": "I do not think that you need to live in a country where people speak your target language in order to be able to speak it, but certainly you need real contact with the language in order to have perfect command of it.",
+            "llm_output": "I don't think it's necessary to live in a country where the language you're studying is spoken in order to become fluent in it, but it's definitely important to have real contact with the language to master it with complete fluency.",
+            "score": 0.25260655128793946
+        },
+        {
+            "id": 4189,
+            "name": "es_en_88",
+            "input": "Una persona ha muerto y otras cuatro han resultado heridas de gravedad en varios apuñalamientos producidos esta noche en distintos puntos de la Comunidad de Madrid.",
+            "output": "One person died and four others were gravely injured during a series of stabbings that occurred last night at different locations within the Community of Madrid.",
+            "llm_output": "One person has died and four others have been seriously injured in multiple stabbings that occurred tonight in various parts of the Community of Madrid.",
+            "score": 0.24810540244043677
+        },
+        {
+            "id": 4144,
+            "name": "es_en_43",
+            "input": "¿No nos engañamos a nosotros mismos sin querer al introducir aquí únicamente frases creadas por ser traducibles y que, por esta razón, no son representativas ni del uso correspondiente ni de los problemas de traducción?",
+            "output": "Aren't we cheating ourselves, without meaning to, when we only add sentences meant to be translatable, and that therefore are not representative of either real usage or problems in translating?",
+            "llm_output": "Aren't we unintentionally deceiving ourselves by only introducing phrases here that are created to be translatable and, for this reason, are not representative of either the corresponding usage or the translation problems?",
+            "score": 0.23966219681055517
+        },
+        {
+            "id": 4132,
+            "name": "es_en_31",
+            "input": "Tres días y tres noches estuvo don Quijote con Roque, y si estuviera trecientos años, no le faltara qué mirar y admirar en el modo de su vida: aquí amanecían, acullá comían; unas veces huían, sin saber de quién, y otras esperaban, sin saber a quién.",
+            "output": "Don Quixote passed three days and three nights with Roque, and had he passed three hundred years he would have found enough to observe and wonder at in his mode of life. At daybreak they were in one spot, at dinner-time in another; sometimes they fled without knowing from whom, at other times they lay in wait, not knowing for what.",
+            "llm_output": "For three days and three nights, Don Quixote was with Roque, and even if he had been there for three hundred years, he would not have run out of things to observe and admire about his way of life: here they would wake up, there they would eat; sometimes they would flee without knowing from whom, and other times they would wait without knowing for whom.",
+            "score": 0.2244382849149904
+        },
+        {
+            "id": 4159,
+            "name": "es_en_58",
+            "input": "Los activistas climáticos, sorprendentemente, estuvieron a favor de talar el bosque, mientras que los defensores de la preservación de la naturaleza los miraban ojipláticos. No se esperaban esa traición.",
+            "output": "The climate activists were surprisingly in favor of chopping down the forest, while the conservationists looked at them astounded. They weren't expecting this betrayal.",
+            "llm_output": "Surprisingly, climate activists were in favor of cutting down the forest, while nature preservation advocates looked on wide-eyed. They did not expect such betrayal.",
+            "score": 0.18992435055904786
+        },
+        {
+            "id": 4195,
+            "name": "es_en_94",
+            "input": "Puedes buscar frases que contengan una palabra, y obtener traducciones de las frases. ¿Por qué frases, te preguntarás? Por que las frases son más interesantes.",
+            "output": "You can search for sentences containing a certain word, and you'll get translations for the sentences. Why sentences, you may ask? It's because sentences are more interesting.",
+            "llm_output": "You can search for phrases that contain a word, and get translations of the phrases. Why phrases, you might ask? Because phrases are more interesting.",
+            "score": 0.15779909026816497
+        },
+        {
+            "id": 4137,
+            "name": "es_en_36",
+            "input": "La vida no sigue vuestros planes. Dibujáis un camino para cumplir vuestro sueño, pero solo se cumple si la vida lo permite. Por eso nadie debería decir que tenía un sueño y lo cumplió, debería decir que la vida lo permitió y ocurrió.",
+            "output": "Life doesn't always follow our plans. You can come up with a plan to make your dreams come true, but it will only work if life lets it. So no one can say that they made their dream come true. Rather, it is life who did.",
+            "llm_output": "Life doesn't follow your plans. You draw a path to fulfill your dream, but it only comes true if life allows it. That's why nobody should say they had a dream and fulfilled it; they should say that life allowed it and it happened.",
+            "score": 2.331753572271917e-78
+        }
+    ],
+    "history_criterion": "median"
+}

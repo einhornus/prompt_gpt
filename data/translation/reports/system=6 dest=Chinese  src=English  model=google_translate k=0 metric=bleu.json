@@ -1,0 +1,333 @@
+{
+    "system_message_file": "6",
+    "model": "google_translate",
+    "parameters": {
+        "src": "English",
+        "dest": "Chinese"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.22872106340484039
+    ],
+    "prompt": [],
+    "median": 0.22872106340484039,
+    "average": 0.2847764483473781,
+    "std": 0.24692924723779358,
+    "percentiles": {
+        "10": 2.6708841833595834e-78,
+        "20": 3.7996172110889894e-78,
+        "25": 0.07950177462959938,
+        "30": 0.1311746410834959,
+        "40": 0.1732876049112197,
+        "50": 0.22872106340484039,
+        "60": 0.31154058147991076,
+        "70": 0.3675076577841355,
+        "75": 0.49053956633577905,
+        "80": 0.5607865579789438,
+        "90": 0.6461452026587418
+    },
+    "n_tests": 50,
+    "tests": [
+        {
+            "input": "The state will build specially made bridges so that koalas and other wildlife can cross roads while avoiding cars and trucks.",
+            "output": "该州将修建特制的桥梁以便考拉和其他野生动物可以在避开汽车和卡车的情况下过马路。",
+            "llm_output": "该州将建造特制的桥梁，以便考拉和其他野生动物可以在避开汽车和卡车的情况下过马路。",
+            "score": 0.8456060469269109
+        },
+        {
+            "input": "Modern healthy eating experts put emphasis on eating wholemeal bread and eating more vegetables.",
+            "output": "现代的健康饮食专家强调要吃全麦面包，多吃蔬菜。",
+            "llm_output": "现代健康饮食专家强调多吃全麦面包，多吃蔬菜。",
+            "score": 0.7691916330019385
+        },
+        {
+            "input": "Information is not knowledge, knowledge is not wisdom, wisdom is not truth, truth is not beauty, beauty is not love, love is not music, music is the best.",
+            "output": "信息不是知识，知识不是智慧，智慧不是真相，真相不是美貌，美貌不是爱，爱不是音乐，音乐是最好的。",
+            "llm_output": "信息不是知识，知识不是智慧，智慧不是真理，真理不是美，美不是爱，爱不是音乐，音乐才是最好的。",
+            "score": 0.7471965459801381
+        },
+        {
+            "input": "This implies a fun and relaxed working atmosphere where team achievement is highly valued, communication is extremely important and traditional 3-hour meetings have been replaced by informal chats in the queue for coffee.",
+            "output": "这意味着一种轻松有趣的工作氛围，团队成就受到高度重视，沟通很重要，传统的3小时会议已被排队喝咖啡的非正式聊天取代。",
+            "llm_output": "这意味着一种有趣和轻松的工作氛围，团队成就得到高度重视，沟通极其重要，传统的 3 小时会议已被排队喝咖啡的非正式聊天所取代。",
+            "score": 0.6923605709544267
+        },
+        {
+            "input": "In England, parks taking rare breeds of animals as their theme are becoming increasingly popular with people.",
+            "output": "在英国，以珍稀物种为主题的公园变得越来越受人们的欢迎。",
+            "llm_output": "在英国，以珍稀动物品种为主题的公园越来越受到人们的欢迎。",
+            "score": 0.6648275686882005
+        },
+        {
+            "input": "The giant panda is recognised as a national treasure of China, but in some conservation areas it is still killed by poachers.",
+            "output": "大熊猫被认为是中国的国宝，但在一些保护区，它仍被偷猎。",
+            "llm_output": "大熊猫被公认为中国的国宝，但在一些保护区，它仍然被偷猎者杀害。",
+            "score": 0.6440693842110241
+        },
+        {
+            "input": "My time is expensive because time is the most precious thing we have. But for learning languages, I always have the time. Because with each new word we learn, our world becomes a tad more interesting.",
+            "output": "我的时间很宝贵，因为时间是我们所拥有最珍贵的东西。但我总有时间学语言，因为每学一个新词，我们的世界就会变得更有趣一点。",
+            "llm_output": "我的时间很贵，因为时间是我们拥有的最宝贵的东西。但是对于学习语言，我总是有时间。因为我们每学一个新词，我们的世界就会变得更有趣一点。",
+            "score": 0.6360915946234804
+        },
+        {
+            "input": "As a result of some factories using fossil fuels, chemical emissions have already caused serious environmental problems.",
+            "output": "由于一些工厂使用矿物燃料，化学品的排放已经产生严重的环境问题。",
+            "llm_output": "由于一些工厂使用化石燃料，化学排放物已经造成严重的环境问题。",
+            "score": 0.5940626078968702
+        },
+        {
+            "input": "Over the past ten years, people have become increasingly aware that they need to change their eating habits.",
+            "output": "十年来，人们越来越强烈地意识到需要改变自己的饮食习惯。",
+            "llm_output": "在过去的十年里，人们越来越意识到他们需要改变自己的饮食习惯。",
+            "score": 0.5880689150644699
+        },
+        {
+            "input": "We must make the utmost effort to reduce the use of plastic packaging, and also to recycle all waste plastic.",
+            "output": "我们应该尽我们最大的努力减少塑料包装的使用，并回收所有的塑料废物。",
+            "llm_output": "我们必须尽最大努力减少塑料包装的使用，并回收所有废塑料。",
+            "score": 0.5669897225899092
+        },
+        {
+            "input": "Recently someone told me about a language website, tatoeba.org, which I will definitely check out.",
+            "output": "最近有人告訴我一箇語言網站，tatoeba.org。我一定要看看。",
+            "llm_output": "最近有人告诉我一个语言网站，tatoeba.org，我一定会去看看。",
+            "score": 0.5592357668262025
+        },
+        {
+            "input": "On the 25th, the Chinese government issued a white paper entitled \"The Diaoyu Islands are China's Inherent Territory\".",
+            "output": "25日,中国政府发布《钓鱼岛是中国的固有领土》白皮书。",
+            "llm_output": "25日，中国政府发表了题为《钓鱼岛是中国固有领土》的白皮书。",
+            "score": 0.5492319291521991
+        },
+        {
+            "input": "Leave the bike here, and tomorrow bring your ID and 20 dollars to the Bureau of Communications to get the bike back.",
+            "output": "你们把自行车留下，明天带着身份证和20块钱到交通局领自行车。",
+            "llm_output": "把自行车留在这里，明天带上身份证和20块钱去交通局取回自行车。",
+            "score": 0.5251992563660214
+        },
+        {
+            "input": "The natural world is always much more complex than formulations in the lab or blueprints in the design office.",
+            "output": "自然界从来都比试验室的配方或设计院的图纸里所反映的要复杂得多。",
+            "llm_output": "自然界总是比实验室的配方或设计办公室的蓝图复杂得多。",
+            "score": 0.386560496245052
+        },
+        {
+            "input": "But CNN has learned that, due to her husband's guidance, Kate feels she has already adapted to her new life.",
+            "output": "但是CNN获悉，由于她丈夫的指导，凱薩琳感觉已经适应了新的生活。",
+            "llm_output": "但CNN了解到，在丈夫的引导下，凯特觉得自己已经适应了新的生活。",
+            "score": 0.3857513375187217
+        },
+        {
+            "input": "If we don't make the utmost effort to protect the rainforests, many of the rare species in them will become extinct.",
+            "output": "如果我们不做更多的努力去保护雨林，很多其中的稀有物种将会灭绝。",
+            "llm_output": "如果我们不尽最大努力保护热带雨林，热带雨林中的许多珍稀物种将会灭绝。",
+            "score": 0.3596889378978844
+        },
+        {
+            "input": "Some people only buy organic food; they think that in this way their body will not be damaged by pollutants.",
+            "output": "一些人只买有机的食物，他们认为这样可以使他们的健康不受污染的损害。",
+            "llm_output": "有些人只买有机食品；他们认为这样他们的身体就不会被污染物损坏。",
+            "score": 0.3545367056767889
+        },
+        {
+            "input": "She would never judge her own accomplishments, but she has succeeded in achieving what she set out to do in her first year, the source said.",
+            "output": "知情者说，“她从来不会评判自己的成就，但是她成功地做好了她第一年决心做的事。”",
+            "llm_output": "消息人士称，她永远不会评判自己的成就，但她已经成功地实现了第一年的目标。",
+            "score": 0.3461804822807133
+        },
+        {
+            "input": "More and more environmentalists advocate and use environmentally friendly unleaded petrol in cars.",
+            "output": "越来越多的环保者开始宣传和使用以环保的无铅汽油为燃料的汽车。",
+            "llm_output": "越来越多的环保主义者提倡并在汽车中使用环保无铅汽油。",
+            "score": 0.33111059566820394
+        },
+        {
+            "input": "Youths who are caught violating the new rules on behaviour will lose their right to free travel, and will have to complete unpaid community work to earn it back.",
+            "output": "被判严重违反新的行为准则的青少年将失去免费乘坐公交车的权利，如果想重新取得必须做无报酬的社区工作。",
+            "llm_output": "被发现违反新行为规则的青少年将失去免费旅行的权利，并且必须完成无偿社区工作才能赚回。",
+            "score": 0.33025737411571016
+        },
+        {
+            "input": "The food at this hot pot restaurant really tastes pretty good. Let's come here again next time.",
+            "output": "这家火锅店的味道还挺不错的嘛，下次我们再来吃吧。",
+            "llm_output": "这家火锅店的食物味道真的很不错。下次再来这里吧。",
+            "score": 0.2990627197227112
+        },
+        {
+            "input": "By the 1940s, the qipao came in a wide variety of designs and fabrics, with an equally wide variety of accessories.",
+            "output": "到了四十年代，旗袍有了种类繁多的图案和面料，也有了同样种类繁多的饰品。",
+            "llm_output": "到 1940 年代，旗袍的设计和面料种类繁多，配饰种类繁多。",
+            "score": 0.28167282798033494
+        },
+        {
+            "input": "In fact, love is the only genuinely precious thing in life; it's also the only thing worthy of pursuit.",
+            "output": "其實愛情是人生唯一的、真正珍貴的;也是唯一的、真正值得追求的東西。",
+            "llm_output": "事实上，爱是生命中唯一真正珍贵的东西；这也是唯一值得追求的东西。",
+            "score": 0.24904353031162782
+        },
+        {
+            "input": "The source made reference to Kate and the Queen being seen chatting and smiling together last March.",
+            "output": "知情者提到去年三月有人看到女王和凱薩琳笑着聊天。",
+            "llm_output": "消息人士提到去年 3 月有人看到凯特和女王在一起聊天和微笑。",
+            "score": 0.23938844062762363
+        },
+        {
+            "input": "A qipao in the traditional style is made entirely by hand and requires labour-intensive manual tailoring techniques to enhance and exhibit every unique female form.",
+            "output": "一件传统式样的旗袍是完全手工制作的，也需要劳动密集的裁缝业技术，为了增加而显示每种独一无二的女性体态。",
+            "llm_output": "传统风格的旗袍完全由手工制作，需要劳动密集型的手工剪裁技术来提升和展示每一个独特的女性形态。",
+            "score": 0.2297795407277915
+        },
+        {
+            "input": "During the holidays, some university students go to Africa as volunteers and help to perfect local wildlife conservation.",
+            "output": "一些大学生在假期去非洲做志愿者 ，帮助当地完善野生生物管理。",
+            "llm_output": "假期，一些大学生作为志愿者前往非洲，帮助完善当地的野生动物保护工作。",
+            "score": 0.22766258608188927
+        },
+        {
+            "input": "A Christian transgendered person I know said: \"God has better things to do than to make up rules on who can use which bathroom.\"",
+            "output": "我認識的一個基督教變性者說：“相比於制定讓人用哪箇衛生間的規則，上帝有更好的事情去做。”",
+            "llm_output": "我认识的一位基督徒变性人说：“上帝有更好的事情要做，而不是制定关于谁可以使用哪个浴室的规则。”",
+            "score": 0.22061206957171312
+        },
+        {
+            "input": "Do you know how much love it takes for a woman to be undressed by a man, becoming nude in front of him?",
+            "output": "你可知道,當女人被男人脫去自己的衣服,一絲不掛的在他面前,需要多少的愛?",
+            "llm_output": "你知道女人被男人脱光衣服，在他面前裸体，需要多大的爱吗？",
+            "score": 0.2193014474339832
+        },
+        {
+            "input": "We know that a cat, whose eyes take in much more light than human eyes, can see clearly at night.",
+            "output": "我们知道貓科動物的眼睛能夠接受比人類的眼睛多得多的光線，所以夜裡的時候能看得清楚。",
+            "llm_output": "我们知道，猫的眼睛比人眼吸收的光多得多，所以在晚上也能看得很清楚。",
+            "score": 0.17661594432861047
+        },
+        {
+            "input": "It means a huge increase in the use of air conditioning which uses energy, which costs money and creates pollution.",
+            "output": "这意味着对利用能源、耗费资金和制造污染的空调的使用有了大幅增长。",
+            "llm_output": "这意味着消耗能源的空调使用量大幅增加，既费钱又造成污染。",
+            "score": 0.17412921408053772
+        },
+        {
+            "input": "We exchanged pleasantries, and chatted cordially about news in the team, and he moved the conversation naturally on to the main topic.",
+            "output": "我们照例寒暄了一阵，闲扯扯队里的新闻以后，他在不知不觉中就把谈话引入了正题。",
+            "llm_output": "我们寒暄了几句，亲切地聊了聊队里的消息，他自然而然地进入了正题。",
+            "score": 0.17202519115724266
+        },
+        {
+            "input": "All individuals in the world act with clear goals and distinct intentions. But once these actions are brought together by the great torrents of life, clarity recedes and chaos ensues.",
+            "output": "世界上任何人的独自活动，都是清醒而目标明确的，然而一旦被生活的洪流聚在一起，就变得混沌不清了。",
+            "llm_output": "世界上所有的人都有明确的目标和不同的意图。但是，一旦这些行动被生命的洪流聚集在一起，清晰度就会退去，混乱随之而来。",
+            "score": 0.1526528094557795
+        },
+        {
+            "input": "Tom was so shy that he didn't even look at Mary when he asked her in a thin, barely audible voice whether she might possibly consider going to the cinema with him.",
+            "output": "湯姆害羞到當他用細小的、幾乎聽不見的聲音問瑪麗她是否願意和他一起去影院時，看都沒看她一眼。",
+            "llm_output": "汤姆很害羞，当他用微弱的、几乎听不见的声音问她是否可以考虑和他一起去看电影时，他甚至没有看玛丽一眼。",
+            "score": 0.15082217983560217
+        },
+        {
+            "input": "Slender and form-fitting with a high cut, the new qipao contrasted sharply with the traditional one.",
+            "output": "新的旗袍又修长又紧身，也有短裙摆，与传统式样构成了鲜明的对比。",
+            "llm_output": "新旗袍修身修身，高领剪裁，与传统旗袍形成鲜明对比。",
+            "score": 0.1483462897040596
+        },
+        {
+            "input": "Hahaha! We're going to make it rain, boys! By this time next week, we'll be swimming in cash!",
+            "output": "“哈哈哈！錢要像雨一樣下，小子們！下周這時候，我們就在錢裡游泳了！”",
+            "llm_output": "哈哈哈！我们要让它下雨，孩子们！到下周这个时候，我们就可以畅游现金了！",
+            "score": 0.13348747064797
+        },
+        {
+            "input": "I want to thank my partner in this journey, a man who campaigned from his heart, and spoke for the men and women he grew up with on the streets of Scranton, and rode with on the train home to Delaware, the vice president-elect of the United States, Joe Biden.",
+            "output": "我要感謝我的選舉搭檔，這位先生全心全意競選，為與他在史克蘭頓街頭一起長大的男男女女代言，并和我一起乘火車回德拉瓦州，他就是副總統當選人，拜登先生。",
+            "llm_output": "我要感谢我在这段旅程中的伙伴，他发自内心地参加竞选，为在斯克兰顿街头与他一起长大的男男女女发声，并与他一起乘坐火车前往特拉华州，当选副总统美国总统乔·拜登。",
+            "score": 0.12577803876638968
+        },
+        {
+            "input": "Returning home from an evening down the pub with his mates, Tom found a handwritten note stuck to the front door; the handwriting was his wife's. It read: \"You can forget any idea that I might come back – I've left you!\"",
+            "output": "湯姆晚上在酒吧裡和他的哥們兒們高興了一通以後回家發現前門上貼著一張字條，上有他妻子的筆跡，寫著：「絕對別覺得我可能會再回來，我跟你從此斷絕了！」",
+            "llm_output": "汤姆和他的朋友们在酒吧度过了一个晚上，回到家时，他发现前门贴着一张手写的便条；笔迹是他妻子的。上面写着：“你可以忘记我可能会回来的任何想法——我已经离开你了！”",
+            "score": 0.0843334186160618
+        },
+        {
+            "input": "I met a friend for the first time yesterday who I'd got to know online. \"Ah, this Tom fella you're always going on about.\" \"That's the one!\" \"And how was it?\" \"He wasn't as good-looking as I thought he'd be.\"",
+            "output": "「我昨天首次見到了一個我網上認識的朋友。」「就是老是在妳口頭的那個叫湯姆的小伙子？」「沒錯。」「然後怎麼樣呢？」「他沒我想像中那樣好看。」",
+            "llm_output": "昨天我第一次见到一个我在网上认识的朋友。 “啊，这个汤姆家伙，你总是喋喋不休。” “就是那个！” “怎么样？” “他没有我想象的那么好看。”",
+            "score": 0.07789122663411191
+        },
+        {
+            "input": "I tend to collect tiny little objects, like balms sold on the market, little candles and candlesticks. As long as they are tiny and cutesy, I like them.",
+            "output": "我习惯于收集琐碎的物件，像是集市上卖的香膏，小蜡烛与烛台，只要是那种小巧又可爱的东西，我都会很喜欢。",
+            "llm_output": "我喜欢收集微小的小物件，比如市场上出售的香脂、小蜡烛和烛台。只要是小巧可爱的，我都喜欢。",
+            "score": 4.649643432213066e-78
+        },
+        {
+            "input": "As long as you have someone you love from the heart, you have a motivating force and you can face the entire world.",
+            "output": "只要你有一個心愛的人,你就有了原動力,你就能面對全世界。",
+            "llm_output": "只要有发自内心爱的人，就有动力，就能面对整个世界。",
+            "score": 3.804572129165005e-78
+        },
+        {
+            "input": "Every year, the organisation organises a number of meetings of volunteers who go door-to-door to sell Frisian books.",
+            "output": "每年，這個機構組織很多會議的志工挨家挨戶地賣弗里斯蘭語書。",
+            "llm_output": "每年，该组织都会组织多次挨家挨户推销弗里斯兰语书籍的志愿者会议。",
+            "score": 3.779797538784927e-78
+        },
+        {
+            "input": "There isn't a bad man in the world who has been able to get a good woman; similarly, there isn't a bad woman in the world who has been able to get a good man.",
+            "output": "世界上沒有一個壞男人會有一個好女人;同樣的,也沒有一個壞女人會有一個好男 人。",
+            "llm_output": "世界上没有一个坏男人能得到一个好女人；同样，世界上没有一个坏女人能得到一个好男人。",
+            "score": 3.4767328150768324e-78
+        },
+        {
+            "input": "Mary, you shouldn't chop food without using a chopping board, no matter how short a time it is for.",
+            "output": "瑪麗，不管是多快的活兒，妳都不應該不用菜板切菜。",
+            "llm_output": "玛丽，你不应该不用砧板切食物，不管时间有多短。",
+            "score": 2.966364091759719e-78
+        },
+        {
+            "input": "When we started out, our band could only find small clubs in small cities that would hire us.",
+            "output": "我們的樂隊剛起步時，只有小城市里的小俱樂部僱我們。",
+            "llm_output": "当我们刚开始的时候，我们的乐队只能在小城市找到愿意雇用我们的小俱乐部。",
+            "score": 2.770634369839276e-78
+        },
+        {
+            "input": "What's more, from now on you must remember that you cannot go to the seaside again (by believing forever that I have already found the biggest, best and most fitting one for me).",
+            "output": "而且要記住，從此後不要再到海邊去。（永遠相信，我已經找到最大、最好、最適合我的那一顆。）",
+            "llm_output": "更重要的是，从现在开始你必须记住你不能再去海边（永远相信我已经找到了最大最好最适合我的）。",
+            "score": 2.688810499333499e-78
+        },
+        {
+            "input": "Our beloved father would read us some prose every week to better our understanding of the world's beauty.",
+            "output": "我們親愛的父親每週都會給我們閱讀散文，好讓我們認識到世界的美好之處。",
+            "llm_output": "我们敬爱的父亲每周都会给我们读一些散文，以加深我们对世界之美的理解。",
+            "score": 2.5095473395943436e-78
+        },
+        {
+            "input": "My writing desk, a place of dread: an incredible number of incredibly useful drawers - combined with incredibly little legspace.",
+            "output": "我的書桌很嚇人：那麼多那麼有用抽屜，放在那麼小、剛夠伸腿的地方。",
+            "llm_output": "我的写字台，一个可怕的地方：数量惊人的非常有用的抽屉 - 再加上非常小的腿部空间。",
+            "score": 2.1009029981311944e-78
+        },
+        {
+            "input": "It was not until the end of April that winter began to release the land from its icy grip. The days became warmer; snow and ice turned into streams of meltwater.",
+            "output": "大地直到四月底才得以從冬季冰冷的握持中掙脫出來。天漸暖了，雪和冰也都融化成溪了。",
+            "llm_output": "直到 4 月底，冬天才开始解除对土地的冰冷控制。天气变暖和了；冰雪变成了融水流。",
+            "score": 7.2696204065567725e-155
+        },
+        {
+            "input": "Computers seem to play the role of the human brain, so they're often called \"electric brains\".",
+            "output": "計算機似乎有著人類大腦一樣的作用，所以常常被稱為”電腦 ”。",
+            "llm_output": "计算机似乎扮演着人脑的角色，因此常被称为“电脑”。",
+            "score": 5.775050953908382e-155
+        },
+        {
+            "input": "First acknowledge, then deny – one for and one against – and then you are in a powerful position.",
+            "output": "先肯定后否定，一正一反，就分外有力量。",
+            "llm_output": "先承认，再否认——一个赞成，一个反对——然后你就处于有利地位。",
+            "score": 4.919258558262843e-155
+        }
+    ]
+}

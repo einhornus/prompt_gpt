@@ -1,0 +1,448 @@
+{
+    "system_message_file": "6",
+    "model": "gpt-3.5-turbo",
+    "parameters": {
+        "src": "Korean",
+        "dest": "English"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.2827893046719422,
+        0.2827893046719422,
+        0.2827893046719422,
+        0.2827893046719422,
+        0.2827893046719422,
+        0.2827893046719422,
+        0.2827893046719422,
+        0.2827893046719422,
+        0.2827893046719422,
+        0.2827893046719422
+    ],
+    "median": 0.2827893046719422,
+    "average": 0.2845393477088222,
+    "std": 0.28087863992947965,
+    "percentiles": {
+        "10": 7.238611641533743e-155,
+        "20": 3.9832608559405437e-78,
+        "25": 4.706082632994738e-78,
+        "30": 5.458520850129309e-78,
+        "40": 6.944772087400091e-78,
+        "50": 0.2827893046719422,
+        "60": 0.3640826569244416,
+        "70": 0.4537517232771689,
+        "75": 0.4798847479413563,
+        "80": 0.5626461222373036,
+        "90": 0.6045495847692437
+    },
+    "n_tests": 50,
+    "prompt": [
+        {
+            "role": "system",
+            "content": "Please translate the user message from Korean to English. Make the translation sound as natural as possible."
+        }
+    ],
+    "tests": [
+        {
+            "id": 9605,
+            "name": "ko_en_48",
+            "input": "문제는 우리가 가진 돈이 많지 않다는 것이다.",
+            "output": "The problem is that we don't have a lot of money.",
+            "llm_output": "The problem is that we don't have a lot of money.",
+            "score": 1.0
+        },
+        {
+            "id": 9575,
+            "name": "ko_en_18",
+            "input": "실례합니다. 대전에 가는 다음 기차가 몇 시에 있습니까?",
+            "output": "Excuse me. What time is the next train to Taejon?",
+            "llm_output": "Excuse me. What time is the next train to Daejeon?",
+            "score": 0.8801117367933934
+        },
+        {
+            "id": 9589,
+            "name": "ko_en_32",
+            "input": "톰은 거짓말 탐지기 테스트를 받는 것에 동의했다.",
+            "output": "Tom has agreed to take a lie detector test.",
+            "llm_output": "Tom agreed to take a lie detector test.",
+            "score": 0.767279645960659
+        },
+        {
+            "id": 9583,
+            "name": "ko_en_26",
+            "input": "우리는 2시 30분에 박물관 앞에서 만나기로 했다.",
+            "output": "We're going to meet in front of the museum at 2:30.",
+            "llm_output": "We agreed to meet in front of the museum at 2:30 pm.",
+            "score": 0.7292571723872933
+        },
+        {
+            "id": 9563,
+            "name": "ko_en_6",
+            "input": "왜 날 파티에 초대하지 않은 거야? \"초대했어! 이메일 못 본 거야?\"",
+            "output": "Why didn't you invite me to the party? \"I did invite you! Haven't you looked at your email?\"",
+            "llm_output": "Why didn't you invite me to the party? \"I did invite you! Didn't you see the email?\"",
+            "score": 0.672953234874755
+        },
+        {
+            "id": 9581,
+            "name": "ko_en_24",
+            "input": "이 프로그램은 DOS 모드에서 실행할 수 없습니다.",
+            "output": "This program cannot be run in DOS mode.",
+            "llm_output": "This program cannot be executed in DOS mode.",
+            "score": 0.5969491792019646
+        },
+        {
+            "id": 9573,
+            "name": "ko_en_16",
+            "input": "우리 누나는 아버지에게 새 자전거를 사 달라고 부탁했다.",
+            "output": "My sister asked my father to buy her a new bicycle.",
+            "llm_output": "My older sister asked our father to buy her a new bicycle.",
+            "score": 0.5859059370151705
+        },
+        {
+            "id": 9574,
+            "name": "ko_en_17",
+            "input": "내 여동생은 아버지에게 새 자전거를 사 달라고 부탁했다.",
+            "output": "My sister asked my father to buy her a new bicycle.",
+            "llm_output": "My younger sister asked our father to buy her a new bicycle.",
+            "score": 0.5859059370151705
+        },
+        {
+            "id": 9561,
+            "name": "ko_en_4",
+            "input": "나는 고양이 한 마리와 개 한 마리가 있다. 고양이는 검고 개는 하얗다.",
+            "output": "I have a cat and a dog. The cat is black, and the dog is white.",
+            "llm_output": "\"I have one cat and one dog. The cat is black and the dog is white.\"",
+            "score": 0.5853882755435387
+        },
+        {
+            "id": 9559,
+            "name": "ko_en_2",
+            "input": "사무총장은 전쟁 중인 두 파벌 간에 평화조약을 협상하기 위해서 필사적으로 노력하고 있다.",
+            "output": "The Secretary General is making a last-ditch effort to negotiate a peace treaty between the two warring factions.",
+            "llm_output": "The Secretary-General is making desperate efforts to negotiate a peace treaty between the two warring factions.",
+            "score": 0.5638653104251217
+        },
+        {
+            "id": 9595,
+            "name": "ko_en_38",
+            "input": "우리 부모님께서는 나를 배웅하러 공항에 오셨다.",
+            "output": "My parents came to see me off at the airport.",
+            "llm_output": "My parents came to the airport to see me off.",
+            "score": 0.5623413251903491
+        },
+        {
+            "id": 9557,
+            "name": "ko_en_0",
+            "input": "톰은 원래 함부르크에서 브레멘으로 가려고 했는데, 실수로 베를린 직행 기차를 타게 되었던 것이다. 그는 잘못을 깨닫곤 눈물을 글썽였다.",
+            "output": "Tom originally wanted to go from Hamburg to Bremen, but he mistakenly boarded a direct train to Berlin. After realizing his mistake, he had tears in his eyes.",
+            "llm_output": "Tom originally intended to go from Hamburg to Bremen, but he accidentally boarded a direct train to Berlin. Upon realizing his mistake, he burst into tears.",
+            "score": 0.5221801778074086
+        },
+        {
+            "id": 9560,
+            "name": "ko_en_3",
+            "input": "톰, 네가 이제서야 오다니! 난 막 자살할까 그냥 자러갈까 고민하던 참이었었는데.",
+            "output": "Now you come, Tom! I was just debating whether to kill myself or just go to sleep.",
+            "llm_output": "Tom, you're finally here! I was just debating whether to commit suicide or just go to sleep.",
+            "score": 0.48593738187963054
+        },
+        {
+            "id": 9585,
+            "name": "ko_en_28",
+            "input": "부자인데 착한 게 아니라, 부자라서 착한 것이다.",
+            "output": "I'm not nice even though I'm rich; I'm nice because I'm rich.",
+            "llm_output": "I'm not kind because I'm rich, I'm rich because I'm kind.",
+            "score": 0.46172684612653364
+        },
+        {
+            "id": 9562,
+            "name": "ko_en_5",
+            "input": "영수증을 잃어버려서 이케아와 은행, 둘 다의 고객서비스에 전화해야 했어.",
+            "output": "I lost my receipt and had to call customer service at both IKEA and the bank.",
+            "llm_output": "I lost my receipt, so I had to call both IKEA and the bank's customer service.",
+            "score": 0.4583034067124109
+        },
+        {
+            "id": 9576,
+            "name": "ko_en_19",
+            "input": "네가 맞을 지도 모르는데, 난 다른 의견을 갖고 있어.",
+            "output": "You may be right, but I have a different view.",
+            "llm_output": "I may be wrong, but I have a different opinion.",
+            "score": 0.4518010018049224
+        },
+        {
+            "id": 9569,
+            "name": "ko_en_12",
+            "input": "그건 내 생각이 아니라 톰의 생각이었어. 내 탓 하지 마.",
+            "output": "It was Tom's idea, not mine. Don't blame me.",
+            "llm_output": "That wasn't my idea, it was Tom's idea. Don't blame me.",
+            "score": 0.44534504264163466
+        },
+        {
+            "id": 9598,
+            "name": "ko_en_41",
+            "input": "오늘은 너무 힘들어서 오늘 밤 푹 잘 것 같다.",
+            "output": "Today was so hard I think I'll sleep well tonight.",
+            "llm_output": "Today was so tough that I think I'll sleep deeply tonight.",
+            "score": 0.4366835442847812
+        },
+        {
+            "id": 9596,
+            "name": "ko_en_39",
+            "input": "마지막 피자 한 조각을 제가 먹어도 괜찮을까요?",
+            "output": "Would it be OK if I ate the last slice of pizza?",
+            "llm_output": "Is it okay if I eat the last slice of pizza?",
+            "score": 0.3809694917244036
+        },
+        {
+            "id": 9565,
+            "name": "ko_en_8",
+            "input": "나는 격려의 말을 할 수 있었다. 나는 최근에 기분이 정말 안 좋았다.",
+            "output": "I could use some words of encouragement. I’ve been feeling really down lately.",
+            "llm_output": "\"I was able to give words of encouragement. I've been feeling really down lately.\"",
+            "score": 0.36821398145189993
+        },
+        {
+            "id": 9571,
+            "name": "ko_en_14",
+            "input": "내 시각으로 이런 식의 대처는 현명하지 않을 수도 있다.",
+            "output": "From my perspective, this sort of approach may not be wise.",
+            "llm_output": "This kind of response may not be wise from my perspective.",
+            "score": 0.36132844057280267
+        },
+        {
+            "id": 9566,
+            "name": "ko_en_9",
+            "input": "폴란드 소녀들은 저스틴 비버가 폴란드를 방문하는 것을 원치 않았다.",
+            "output": "Polish girls didn't want Justin Bieber to come to Poland.",
+            "llm_output": "Polish girls did not want Justin Bieber to visit Poland.",
+            "score": 0.355433394487517
+        },
+        {
+            "id": 9577,
+            "name": "ko_en_20",
+            "input": "톰은 마침내 용기를 내어 메리에게 데이트 신청을 했다.",
+            "output": "Tom finally gathered up his courage and asked Mary out on a date.",
+            "llm_output": "Tom finally mustered up the courage to ask Mary out on a date.",
+            "score": 0.3541698766144061
+        },
+        {
+            "id": 9591,
+            "name": "ko_en_34",
+            "input": "'고기능 자폐증'은 의학용어나 진단명이 아니야.",
+            "output": "High-functioning autism isn't an official medical term or diagnosis.",
+            "llm_output": "\"High-functioning autism\" is not a medical term or diagnosis.",
+            "score": 0.28997844147152074
+        },
+        {
+            "id": 9606,
+            "name": "ko_en_49",
+            "input": "대부분의 사람들은 그런 일에 신경쓰지 않는다.",
+            "output": "Most people don't care about things like that.",
+            "llm_output": "Most people don't really care about that kind of thing.",
+            "score": 0.28997844147152074
+        },
+        {
+            "id": 9567,
+            "name": "ko_en_10",
+            "input": "그는 수년간 택시 운전사로 일해 왔기에 이 도시를 잘 안다.",
+            "output": "Having worked for several years as a taxi driver, he knows the city well.",
+            "llm_output": "As he has worked as a taxi driver for several years, he knows this city well.",
+            "score": 0.27560016787236363
+        },
+        {
+            "id": 9558,
+            "name": "ko_en_1",
+            "input": "마음에 드는 돌멩이를 집었으면, 얼른 집으로 가져가 잘 돌보도록 한다. 그게 그대의 유일한 돌멩이이기 때문이다.",
+            "output": "Once you've picked up a stone that you like, take it home as soon as you can and treat it well, because that's the only stone you've got.",
+            "llm_output": "If you have picked up a stone that you like, quickly take it home and take good care of it. That's because it's your only favorite stone.",
+            "score": 0.26822974402116034
+        },
+        {
+            "id": 9578,
+            "name": "ko_en_21",
+            "input": "우리 실험은 그의 보고가 정확하지 않았음을 밝혀내었다.",
+            "output": "Our experiment has revealed that his report was inaccurate.",
+            "llm_output": "We found out that his report was not accurate in our experiment.",
+            "score": 0.2521193618434983
+        },
+        {
+            "id": 9568,
+            "name": "ko_en_11",
+            "input": "단언컨대, 우린 그런 실수를 두 번 다시 하지 않을 거야.",
+            "output": "I can assure you we'll never make that mistake again.",
+            "llm_output": "I can say with certainty that we will not make that mistake again.",
+            "score": 0.23901088824528133
+        },
+        {
+            "id": 9584,
+            "name": "ko_en_27",
+            "input": "메리와 앨리스가 서로 자매라는 것을 알고 있었어?",
+            "output": "Did you know Mary and Alice were sisters?",
+            "llm_output": "Did you know that Mary and Alice are sisters?",
+            "score": 7.051402097550211e-78
+        },
+        {
+            "id": 9579,
+            "name": "ko_en_22",
+            "input": "이 문장은 언어 학습자에게 별로 도움이 되지 않는다.",
+            "output": "This sentence isn't useful for language learners.",
+            "llm_output": "This sentence is not very helpful for language learners.",
+            "score": 6.784827072174911e-78
+        },
+        {
+            "id": 9594,
+            "name": "ko_en_37",
+            "input": "해가 뜨기까지는 그리 오래 걸리지 않을 것이다.",
+            "output": "It won't be long before the sun rises.",
+            "llm_output": "It won't take too long until the sun rises.",
+            "score": 6.44985558187996e-78
+        },
+        {
+            "id": 9601,
+            "name": "ko_en_44",
+            "input": "나는 가족을 먹여 살리기 위해 열심히 일했다.",
+            "output": "I worked hard in order to support my family.",
+            "llm_output": "\"I worked hard to feed and support my family.\"",
+            "score": 5.956269172906508e-78
+        },
+        {
+            "id": 9592,
+            "name": "ko_en_35",
+            "input": "이 컴퓨터는 펜티엄 마이크로프로세서를 탑재했어.",
+            "output": "This computer has a Pentium microprocessor.",
+            "llm_output": "This computer is equipped with a Pentium microprocessor.",
+            "score": 5.614021910443866e-78
+        },
+        {
+            "id": 9604,
+            "name": "ko_en_47",
+            "input": "비행기는 오후 2시 30분에 보스턴을 떠났다.",
+            "output": "The plane took off from Boston at 2:30.",
+            "llm_output": "The plane departed Boston at 2:30 PM.",
+            "score": 5.473461026881688e-78
+        },
+        {
+            "id": 9603,
+            "name": "ko_en_46",
+            "input": "톰은 보스턴이 여행하기 좋은 곳이라고 말했다.",
+            "output": "Tom said Boston is a nice place to visit.",
+            "llm_output": "Tom said that Boston is a great place to travel.",
+            "score": 5.423660437707094e-78
+        },
+        {
+            "id": 9590,
+            "name": "ko_en_33",
+            "input": "우리는 인접 국가들과의 교역을 촉진하여야 합니다.",
+            "output": "We must promote commerce with neighboring countries.",
+            "llm_output": "We need to promote trade with neighboring countries.",
+            "score": 5.072841446586652e-78
+        },
+        {
+            "id": 9588,
+            "name": "ko_en_31",
+            "input": "그 소녀들은 내일 테니스를 치고 싶어하지 않는다.",
+            "output": "The girls won't play tennis tomorrow.",
+            "llm_output": "Those girls don't want to play tennis tomorrow.",
+            "score": 4.583829695130767e-78
+        },
+        {
+            "id": 9593,
+            "name": "ko_en_36",
+            "input": "해가 뜨기까지는 그리 오래 걸리지 않을 것이다.",
+            "output": "It will not be long before the sun rises.",
+            "llm_output": "It won't take too long until the sun rises.",
+            "score": 4.1927887725759647e-78
+        },
+        {
+            "id": 9570,
+            "name": "ko_en_13",
+            "input": "그의 아내는 처음으로 코로나19 증상을 보이기 시작했다.",
+            "output": "His wife first started showing symptoms of COVID-19.",
+            "llm_output": "His wife began to show symptoms of COVID-19 for the first time.",
+            "score": 4.1735993043546123e-78
+        },
+        {
+            "id": 9602,
+            "name": "ko_en_45",
+            "input": "내가 이렇게 건강한 것은 우리 부모님 덕이다.",
+            "output": "I owe it to my parents that I'm so healthy.",
+            "llm_output": "I am healthy thanks to my parents.",
+            "score": 3.221907062284265e-78
+        },
+        {
+            "id": 9572,
+            "name": "ko_en_15",
+            "input": "계획을 세우는 것과 그것을 실행하는 것은 별개의 문제다.",
+            "output": "Making a plan and actually following through are two separate problems.",
+            "llm_output": "Planning and executing are two separate issues.",
+            "score": 3.047091569143471e-78
+        },
+        {
+            "id": 9587,
+            "name": "ko_en_30",
+            "input": "우리 할아버지는 제2차 세계 대전 때 돌아가셨다.",
+            "output": "My grandfather was killed in World War II.",
+            "llm_output": "My grandfather passed away during the Second World War.",
+            "score": 8.612150057732663e-155
+        },
+        {
+            "id": 9600,
+            "name": "ko_en_43",
+            "input": "저는 다른 사람들의 다양한 생각을 듣고싶어요.",
+            "output": "I'd like to hear other people's different thoughts.",
+            "llm_output": "I want to hear diverse thoughts from other people.",
+            "score": 8.52863367187932e-155
+        },
+        {
+            "id": 9586,
+            "name": "ko_en_29",
+            "input": "그의 회사가 생산하는 기계가 우리것보다 뛰어나다.",
+            "output": "Machines that his company produces are superior to ours.",
+            "llm_output": "The machines produced by his company are better than ours.",
+            "score": 7.241926111174567e-155
+        },
+        {
+            "id": 9580,
+            "name": "ko_en_23",
+            "input": "이미 이사했습니다. 이제 자신은 혼자 살고 있습니다.",
+            "output": "I've moved out already. Now I live alone.",
+            "llm_output": "\"I have already moved. Now I am living alone.\"",
+            "score": 7.208781414766327e-155
+        },
+        {
+            "id": 9582,
+            "name": "ko_en_25",
+            "input": "네가 아인슈타인이 아니라도 그 문제를 풀 수 있다.",
+            "output": "You don't have to be Einstein to work that out.",
+            "llm_output": "Even if you're not Einstein, you can solve that problem.",
+            "score": 1.3165594234639305e-231
+        },
+        {
+            "id": 9597,
+            "name": "ko_en_40",
+            "input": "만약 네티즌들이 벌이라면 벌통은 누구의 것인가?",
+            "output": "If Internet users are bees, who owns the beehives?",
+            "llm_output": "If netizens were bees, whose hive would it be?",
+            "score": 1.2508498911928379e-231
+        },
+        {
+            "id": 9564,
+            "name": "ko_en_7",
+            "input": "그래서 나는 프랑스에 오래 머무르고 싶고, 그러기 위한 돈이 필요하다.",
+            "output": "This is why I would like an extended visa, as well as funds for my stay.",
+            "llm_output": "\"So, I want to stay in France for a long time, and I need money to do that.\"",
+            "score": 1.1337861261109773e-231
+        },
+        {
+            "id": 9599,
+            "name": "ko_en_42",
+            "input": "그들사이의 두터운 정을 보여준다. (반영한다)",
+            "output": "There were deep feelings between the two.",
+            "llm_output": "It shows a strong bond between them. (Reflects)",
+            "score": 1.0244914152188952e-231
+        }
+    ],
+    "history_criterion": "median"
+}

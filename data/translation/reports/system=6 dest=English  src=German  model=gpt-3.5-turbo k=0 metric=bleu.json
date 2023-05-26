@@ -1,0 +1,848 @@
+{
+    "system_message_file": "6",
+    "model": "gpt-3.5-turbo",
+    "parameters": {
+        "src": "German",
+        "dest": "English"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.359766968204825,
+        0.359766968204825,
+        0.359766968204825,
+        0.359766968204825,
+        0.359766968204825,
+        0.359766968204825,
+        0.359766968204825,
+        0.359766968204825,
+        0.359766968204825,
+        0.359766968204825
+    ],
+    "median": 0.359766968204825,
+    "average": 0.3464081295284062,
+    "std": 0.1788637969667612,
+    "percentiles": {
+        "10": 0.13036348410952922,
+        "20": 0.2045132622600578,
+        "25": 0.21736394424337163,
+        "30": 0.22914717755215785,
+        "40": 0.32642432036779934,
+        "50": 0.359766968204825,
+        "60": 0.4045250482165065,
+        "70": 0.42629389060408623,
+        "75": 0.45294390817025276,
+        "80": 0.5013622021068234,
+        "90": 0.575344355594251
+    },
+    "n_tests": 100,
+    "prompt": [
+        {
+            "role": "system",
+            "content": "Please translate the user message from German to English. Make the translation sound as natural as possible."
+        }
+    ],
+    "tests": [
+        {
+            "id": 1291,
+            "name": "de_en_32",
+            "input": "Gliese 581 ist ein nach dem deutschen Astronomen Wilhelm Gliese benannter Stern im Sternbild Waage, ein Roter Zwerg, der zu den 100 sonnenächsten Sternen gehört und von dem wir wissen, dass er mindestens drei planetare Begleiter – Planeten – hat: Gliese 581 b, c und e.",
+            "output": "Gliese 581 is a star in the constellation Libra named after the German astronomer Wilhelm Gliese. It is a red dwarf, and is among the 100 closest stars to the Sun. We know that it has at least three planetary companions: Gliese 581 b, c and e.",
+            "llm_output": "Gliese 581 is a star named after the German astronomer Wilhelm Gliese, located in the constellation Libra. It is a red dwarf and is one of the 100 closest stars to the sun. We know that it has at least three planetary companions - Gliese 581 b, c, and e.",
+            "score": 0.802099450833203
+        },
+        {
+            "id": 1349,
+            "name": "de_en_90",
+            "input": "Auf meinem Tisch ist ein Quietscheentchen, das ich manchmal um technische Hilfestellung bitte. Natürlich kann es nicht antworten, aber das Erklären des Problems hilft mir oft, eine Lösung zu finden.",
+            "output": "On my desk is a rubber duck that I sometimes ask for technical support. Of course, it can't answer, but the process of explaining the problem often helps me find a solution.",
+            "llm_output": "On my desk, there is a rubber duck that I sometimes ask for technical assistance. Of course, it can't answer, but explaining the problem often helps me find a solution.",
+            "score": 0.7173363066270876
+        },
+        {
+            "id": 1276,
+            "name": "de_en_17",
+            "input": "Die in Caistor St Edmunds, einige Meilen südlich des heutigen Norwich, anässigen Icener waren ein keltischer Stamm, dessen Kriegerkönigin Boudicca einen missglückten Aufstand gegen die römischen Besatzer anführte, bei dem die Städte Londinium (London), Camulodunum (Colchester) und Verulamium (St Albans) geplündert und gebrandschatzt wurden.",
+            "output": "Based at Caistor St Edmunds, a few miles south of present-day Norwich, the Iceni were a Celtic tribe whose warrior queen Boudicca led a failed uprising against the occupying Romans, during which the towns of Londinium (London), Camulodunum (Colchester) and Verulamium (St Albans) were sacked.",
+            "llm_output": "The Iceni, who were located in Caistor St Edmunds, a few miles south of present-day Norwich, were a Celtic tribe whose warrior queen Boudicca led a failed uprising against the Roman occupiers, during which the cities of Londinium (London), Camulodunum (Colchester), and Verulamium (St Albans) were plundered and burned.",
+            "score": 0.6989025824271206
+        },
+        {
+            "id": 1278,
+            "name": "de_en_19",
+            "input": "„Guten Morgen, Maria! Hier spricht dein Telefon. Du hast 169 ungelesene Nachrichten.“ – „Von wie vielen Absendern?“ – „Einem.“ – „Ich kann es mir denken, aber ich frage trotzdem: Wer ist es?“ – „Tom.“ – „Als gelesen markieren und in den Papierkorb verschieben bitte!“ – „Erledigt. Soll ich jetzt deinen Kaffee durchlaufen lassen?“",
+            "output": "Good morning, Mary! This is your telephone speaking. You have 169 unread messages. \"From how many senders?\" \"One.\" \"I can guess, but I'll ask anyway: who is it?\" \"Tom.\" \"Mark them as read and move them to the bin, please.\" \"Done. Shall I percolate your coffee now?\"",
+            "llm_output": "\"Good morning, Maria! This is your phone speaking. You have 169 unread messages.\" - \"From how many senders?\" - \"One.\" - \"I can guess, but I'll ask anyway: Who is it?\" - \"Tom.\" - \"Please mark as read and move to trash!\" - \"Done. Shall I start brewing your coffee now?\"",
+            "score": 0.6771977279551118
+        },
+        {
+            "id": 1272,
+            "name": "de_en_13",
+            "input": "Ding Liren ist der neue Schachweltmeister. Im Tiebreak endeten die ersten drei Partien unentschieden, und die vierte, bei der Ding die schwarzen Figuren in einer spanischen Eröffnung anführte, wurde sensationell vom chinesischen Drachen gewonnen, der damit den russischen Bären Ian Nepomniachtchi besiegte. Die Spitze des Schachuniversums hat ein neues Gesicht.",
+            "output": "Ding Liren is the new World Chess Champion. In the tiebreaker, the first three games ended in a draw, and the fourth, with Ding leading the black pieces in a Spanish opening, was sensationally won by the Chinese Dragon, who thus overcame the Russian Bear, Ian Nepomniachtchi. The top of the chess universe has a new face.",
+            "llm_output": "\"Ding Liren is the new chess world champion. In the tiebreak, the first three games ended in a draw, and the fourth, in which Ding led the black pieces in a Spanish opening, was won sensationally by the Chinese dragon, defeating the Russian bear Ian Nepomniachtchi. The top of the chess universe has a new face.\"",
+            "score": 0.6608507504607481
+        },
+        {
+            "id": 1341,
+            "name": "de_en_82",
+            "input": "Ehre deinen Vater von ganzem Herzen und vergiss nicht die Geburtswehen deiner Mutter. Bedenke, dass du von ihnen gezeugt wurdest, und trachte danach, ihnen zurückzuzahlen, was du von ihnen erhalten hast.",
+            "output": "Honor your father with all your heart, and do not forget your mother's labor pains. Remember that by them you were begotten, and try to repay them for what you have received from them.",
+            "llm_output": "Honor your father with all your heart and do not forget the pains of your mother's childbirth. Remember that you were conceived by them and strive to repay them for what you have received from them.",
+            "score": 0.6014069595389419
+        },
+        {
+            "id": 1327,
+            "name": "de_en_68",
+            "input": "Hunderte von Autofahrern hielten mitten auf der Straße, um ein vermeintliches Ufo zu beobachten. Es war Tom, der in einem Heißluftballon in Form einer Untertasse unterwegs war, um sich einen Aprilscherz zu erlauben.",
+            "output": "Hundreds of motorists stopped in the middle of the road to look at a supposed UFO. It was Tom flying by in a saucer-shaped hot-air balloon to play an April Fool's joke.",
+            "llm_output": "Hundreds of drivers stopped in the middle of the road to observe a supposed UFO. It was Tom, who was traveling in a saucer-shaped hot air balloon to play an April Fool's joke.",
+            "score": 0.5860282437026556
+        },
+        {
+            "id": 1277,
+            "name": "de_en_18",
+            "input": "„Johannes, du musst mir helfen! Maria hat mich rausgeschmissen und will jetzt nichts mehr von mir wissen!“ Johannes grinste, als wüsste er bereits, was vorgefallen war. „Ich will dir die Sache schon bereinigen helfen, mein lieber Tom“, antwortete er, „wenn du dafür auch mir einen kleinen Dienst erweist!“ – „Alles, was du willst!“",
+            "output": "John! You've got to help me. Mary's turfed me out. She doesn't want anything more to do with me. John grinned as though he already knew what had happened. \"I'll help you sort things out, Tom,\" he replied, \"if you do me a little favour in return.\" \"Anything you want.\"",
+            "llm_output": "\"Johannes, you have to help me! Maria kicked me out and now she doesn't want anything to do with me!\" Johannes grinned as if he already knew what had happened. \"I'll help you sort things out, my dear Tom,\" he replied, \"if you do me a small favor in return!\" - \"Anything you want!\"",
+            "score": 0.5811543840353814
+        },
+        {
+            "id": 1274,
+            "name": "de_en_15",
+            "input": "In der 12. Partie der Weltmeisterschaft stand Nepo schon auf Gewinn und hätte dann nur noch ein Remis für den Titel gebraucht, aber in einem dramatischen Hin und Her, in dem beiden Spielern schwere Fehler unterliefen, hat er das Spiel doch noch aus der Hand gegeben und verloren – unglaublich bitter für ihn. Ding hingegen schaffte den Ausgleich auf 6½ : 6½.",
+            "output": "In the 12th game of the World Championship Nepo was already on a win and would have needed only a draw for the title, but in a dramatic back-and-forth, in which both players made serious mistakes, he gave the game away and lost - incredibly bitter for him. Ding, on the other hand, managed to equalize at 6½ : 6½.",
+            "llm_output": "In the 12th game of the World Championship, Nepo was already in a winning position and only needed a draw for the title, but in a dramatic back and forth, where both players made serious mistakes, he ultimately lost the game - incredibly bitter for him. Ding, on the other hand, managed to tie the score at 6½:6½.",
+            "score": 0.5809712761773758
+        },
+        {
+            "id": 1310,
+            "name": "de_en_51",
+            "input": "Nepo hat das Potential zum Weltmeister, selbst gegen Magnus Carlsen, aber er scheint immer wieder psychisch an seine Grenzen zu stoßen, so dass ihm schwere Fehler unterlaufen, die auf diesem Niveau eigentlich nicht passieren dürften.",
+            "output": "Nepo has the potential to be a world champion, even against Magnus Carlsen, but he seems to keep reaching his psychological limits, making serious mistakes that shouldn't happen at this level.",
+            "llm_output": "\"Nepo has the potential to become a world champion, even against Magnus Carlsen, but he seems to repeatedly reach his mental limits, causing him to make serious mistakes that shouldn't happen at this level.\"",
+            "score": 0.5809679982515487
+        },
+        {
+            "id": 1356,
+            "name": "de_en_97",
+            "input": "„Ich brauche deine Hilfe, Maria.“ – „Du brauchst immer Hilfe. Nichts kannst du allein. Lerne, auf eigenen Beinen zu stehen!“ – „Nur noch dieses eine Mal! Bitte!“ – „Na gut, weil du es bist.“",
+            "output": "I need your help, Mary. \"You always need help. You can't do a thing yourself. Learn to stand on your own two feet!\" \"Just this once. Please!\" \"All right then, since it's you.\"",
+            "llm_output": "\"I need your help, Maria.\" - \"You always need help. You can't do anything on your own. Learn to stand on your own two feet!\" - \"Just this one time! Please!\" - \"Alright, because it's you.\"",
+            "score": 0.5747195064101068
+        },
+        {
+            "id": 1315,
+            "name": "de_en_56",
+            "input": "Sie hatte sich am Eingang der U-Bahn positioniert und lauschte gerade, gegen die geflieste Wand gelehnt, der Musik, die aus einem Pub auf der anderen Straßenseite herüberschallte, als ihre Freunde ins Sichtfeld geschritten kamen.",
+            "output": "She had stationed herself by the tube entrance and was leaning against the tiled wall, listening to the music coming from a pub across the road, when her friends came walking into view.",
+            "llm_output": "She had positioned herself at the entrance of the subway and was leaning against the tiled wall, listening to the music coming from a pub across the street, when her friends stepped into view.",
+            "score": 0.5741618231743569
+        },
+        {
+            "id": 1304,
+            "name": "de_en_45",
+            "input": "Früher hieß es von der Stadt Norwich, dass es für jede Woche im Jahr eine Kirche und für jeden Tag einen Pub gebe. Inzwischen haben viele der verbliebenen Kirchen jedoch eine Umnutzung erfahren, und die Stadt beherbergt auch weit weniger Kneipen.",
+            "output": "It used to be said of the city of Norwich that it had a church for every week of the year and a pub for every day. Nowadays, however, many of the remaining churches have other uses, and the city is host to far fewer watering holes.",
+            "llm_output": "Formerly, it was said of the city of Norwich that there was a church for every week of the year and a pub for every day. However, many of the remaining churches have since been repurposed, and the city also hosts far fewer pubs.",
+            "score": 0.5583802375540895
+        },
+        {
+            "id": 1302,
+            "name": "de_en_43",
+            "input": "Das letztemal hat David Daniela eines Sommerabends in einer Pommesbude gesehen: sie sah sich drinnen mit zusammengekniffenen Augen die Preisliste hinter dem Tresen an, und er war draußen gerade auf dem Weg zum Pub mit Teresa, seiner neuen Freundin.",
+            "output": "The last time Dave saw Danielle was one summer evening through the window of a chip shop: she was inside, squinting at the price list on the wall behind the counter, and he was in the street on his way to the pub with Teresa, his new girlfriend.",
+            "llm_output": "The last time David saw Daniela was on a summer evening in a chip shop: she was inside, squinting at the price list behind the counter, and he was outside on his way to the pub with Teresa, his new girlfriend.",
+            "score": 0.5538465398397503
+        },
+        {
+            "id": 1326,
+            "name": "de_en_67",
+            "input": "„Zieh doch irgendwohin, wo mehr los ist!“ – „So einfach ist das nicht. Ich bin verheiratet und habe Kinder.“ – „Und dein Mann kommt aus dieser Gegend.“ – „Genaugenommen meine Frau. Nein, die kommt aus Middlesbrough.“",
+            "output": "Why don't you move to an area where there's more going on? \"It's not that simple. I'm married with kids—\" \"And your husband comes from round here.\" \"My wife, actually. No, she's from Middlesbrough.\"",
+            "llm_output": "\"Why don't you move somewhere where there's more going on?\" - \"It's not that simple. I'm married and have children.\" - \"And your husband is from this area.\" - \"Actually, my wife is. No, she's from Middlesbrough.\"",
+            "score": 0.5375761669824889
+        },
+        {
+            "id": 1279,
+            "name": "de_en_20",
+            "input": "„Was läuft da zwischen dir und Céline?“ – „Was meinst du?“ – „Seid ihr beiden – ach, du weißt schon!“ – „Nein, nichts weiß ich.“ – „Ich meine: Seid ihr beiden zusammen?“ – „Ach so. Ja, das sind wir – irgendwie.“ – „Was meinst du mit ‚irgendwie‘?“ – „Ich meine damit, dass du dich um deinen eigenen Kram kümmern sollst, Gwynn!“",
+            "output": "What's the score with you and Céline? \"What do you mean?\" \"Are you two...? You know.\" \"No, I don't know.\" \"I mean: are you two seeing each other?\" \"Oh. Yeah, we are... sort of.\" \"What do you mean, 'sort of'?\" \"I mean: mind your own business, Gwynn!\"",
+            "llm_output": "\"What's going on between you and Céline?\" - \"What do you mean?\" - \"Are you two - oh, you know!\" - \"No, I don't know anything.\" - \"I mean, are you two together?\" - \"Oh, I see. Yes, we are - somehow.\" - \"What do you mean by 'somehow'?\" - \"I mean that you should mind your own business, Gwynn!\"",
+            "score": 0.5332234961799017
+        },
+        {
+            "id": 1330,
+            "name": "de_en_71",
+            "input": "Mit einem Turm-Springer-Tausch auf d4, als die Position ausgeglichen war, gewann Ding Liren (Weiß) die vierte Partie der FIDE-Schachweltmeisterschaft 2023 mit Leichtigkeit und glich das Match aus (Nepo 2, Ding 2).",
+            "output": "With a rook-to-knight exchange on d4, when the game was even, Ding Liren (white) easily won the fourth game of the FIDE 2023 World Chess Championship, tying the match (Nepo 2, Ding 2).",
+            "llm_output": "With a knight-for-rook exchange on d4, when the position was equal, Ding Liren (White) won the fourth game of the FIDE Chess World Championship 2023 with ease and leveled the match (Nepo 2, Ding 2).",
+            "score": 0.5298502286521273
+        },
+        {
+            "id": 1267,
+            "name": "de_en_8",
+            "input": "„Guten Morgen, Maria! Hier spricht dein Telefon. Soll ich das Wasser für deinen morgendlichen Tee erhitzen?“ – „Nein, ich will einen Kaffee.“ – „Nein, es tut mir leid, aber das kommt nicht in Frage. Kaffee ist nicht gut für dich. Wir haben uns erst neulich darüber unterhalten.“ – „Du bist mein Telefon, nicht meine Mutter. Mach mir jetzt meinen Kaffee, oder ich werfe das Ladegerät weg!“ – „Ein Kaffee. Kommt sofort!“",
+            "output": "Good morning, Mary! This is your telephone speaking. Shall I heat the water for your morning cup of tea? \"No – I want coffee.\" \"I am sorry, but that is out of the question. Coffee is not good for you. We talked about this not long ago.\" \"You're my telephone, not my mother. Make my coffee now, or I'll throw your charger away!\" \"Coffee – coming right up!\"",
+            "llm_output": "\"Good morning, Maria! This is your phone speaking. Shall I heat up the water for your morning tea?\" - \"No, I want coffee.\" - \"No, I'm sorry, but that's not an option. Coffee is not good for you. We talked about this recently.\" - \"You're my phone, not my mother. Make me my coffee now, or I'll throw away the charger!\" - \"One coffee, coming right up!\"",
+            "score": 0.5073403271733885
+        },
+        {
+            "id": 1314,
+            "name": "de_en_55",
+            "input": "„Ich habe bei Hans durchs Wohnzimmerfenster geguckt. Auf dem Tisch und überall auf dem Fußboden standen leere Pullen. Es scheint, dass er rückfällig geworden ist und wieder trinkt.“ – „Sein Hund ist vor einigen Wochen gestorben.“",
+            "output": "I peeped through Jack's living-room window. There were empty bottles on the table and all over the floor. I think he's back on the booze. \"His dog died a few weeks ago.\"",
+            "llm_output": "\"I looked through Hans' living room window. There were empty bottles on the table and all over the floor. It seems that he has relapsed and started drinking again.\" - \"His dog died a few weeks ago.\"",
+            "score": 0.5061895128377988
+        },
+        {
+            "id": 1329,
+            "name": "de_en_70",
+            "input": "„Kennst du wen in Bristol?“ – „Nö. Wieso?“ – „Ein Kumpel hat mir Eintrittskarten für ein Konzert am Wochenende dort gegeben, und da hab’ ich so überlegt, ob ich die Nacht nicht bei wem auf dem Boden pennen könnte.“",
+            "output": "Do you know anyone in Bristol? \"No. Why?\" \"A mate of mine gave me tickets for a gig there at the weekend. I was just wondering if I could doss on someone's floor for the night.\"",
+            "llm_output": "\"Do you know anyone in Bristol?\" - \"No. Why?\" - \"A buddy gave me tickets for a concert there this weekend, and I was thinking maybe I could crash on someone's floor for the night.\"",
+            "score": 0.5049351556168206
+        },
+        {
+            "id": 1337,
+            "name": "de_en_78",
+            "input": "„Sag mal, Tom: Weißt du zufällig, wo meine Kopfschmerztabletten sind?“ – „Liegen die nicht auf deinem Nachttisch?“ – „Nein, da habe ich schon nachgeguckt. Da sind sie nicht.“ – „Dann weiß ich es auch nicht.“",
+            "output": "Tom, do you happen to know where my headache tablets are? \"Aren't they on the bedside table?\" \"No, I've already looked and they're not there.\" \"I don't know where they are, then, either.\"",
+            "llm_output": "\"Hey Tom, do you happen to know where my headache pills are?\" - \"Aren't they on your nightstand?\" - \"No, I already checked there. They're not there.\" - \"Then I don't know either.\"",
+            "score": 0.500468963729324
+        },
+        {
+            "id": 1293,
+            "name": "de_en_34",
+            "input": "Im Laufe der nächsten 15 Jahre werden Architekten, Planer und Gemeindeentwickler gemeinsam daran arbeiten, 140 Hektar Industriebrache in 6500 Wohnhäuser, zwei Einkaufszentren, einen Jachthafen, eine Grund- und weiterführende Schule und Parklandschaft zu verwandeln.",
+            "output": "Over the next fifteen years, architects, planners and community developers will work together to transform 346 acres of industrial wasteland into 6,500 homes, two shopping centres, a marina, a primary school and college, and parkland.",
+            "llm_output": "Over the next 15 years, architects, planners, and community developers will work together to transform 140 hectares of industrial wasteland into 6,500 residential homes, two shopping centers, a marina, an elementary and secondary school, and parkland.",
+            "score": 0.4912306878283789
+        },
+        {
+            "id": 1321,
+            "name": "de_en_62",
+            "input": "„Du rufst sonntags morgens um sieben Uhr bei mir an, nur um zu fragen, wie es mir geht? Ich dachte schon, es wäre was passiert!“ – „Ich weiß doch, dass du Frühaufsteherin bist, und nachmittags oder abends kriege ich dich nie.“",
+            "output": "You're ringing me at seven in the morning on a Sunday just to ask how I am? I thought that something had happened! \"It's just I know you're an early riser, and I can never get hold of you in the afternoon or evening.\"",
+            "llm_output": "\"You called me on a Sunday morning at seven just to ask how I'm doing? I thought something had happened!\" - \"I know you're an early riser, and I can never catch you in the afternoon or evening.\"",
+            "score": 0.47154652489413246
+        },
+        {
+            "id": 1324,
+            "name": "de_en_65",
+            "input": "Guernica ist ein berühmtes Gemälde von Pablo Picasso, das zwischen Mai und Juni 1937 entstanden ist und dessen Titel auf die Bombardierung Guernicas am 26. April dieses Jahres während des spanischen Bürgerkriegs hinweist.",
+            "output": "Guernica is a famous painting by Pablo Picasso produced between May and June 1937. Its title refers to the aerial bombing of the town of Guernica on 26 April that same year during the Spanish civil war.",
+            "llm_output": "\"Guernica\" is a famous painting by Pablo Picasso, created between May and June 1937, whose title refers to the bombing of Guernica on April 26th of that year during the Spanish Civil War.",
+            "score": 0.4637992982933417
+        },
+        {
+            "id": 1323,
+            "name": "de_en_64",
+            "input": "„Worüber wolltest du mit mir sprechen? Jetzt hätte ich Zeit.“ – „Ach, es geht um Tom. Sein Lehrer hat mich heute angerufen und mir mitgeteilt, dass er sich schon seit zwei Wochen nicht mehr in der Schule hat blicken lassen.“",
+            "output": "What did you want to talk to me about? I've got time now. \"Well, it's about Tom. His teacher rang today and told me he hasn't been at school for a fortnight.\"",
+            "llm_output": "\"What did you want to talk to me about? I have time now.\" - \"Oh, it's about Tom. His teacher called me today and told me that he hasn't shown up at school for two weeks now.\"",
+            "score": 0.4560103653054187
+        },
+        {
+            "id": 1303,
+            "name": "de_en_44",
+            "input": "Lieber Doktor Tom, mein Freund trifft sich regelmäßig mit einer Mitstudentin, um gemeinsam mit ihr zu lernen. Ich habe es ihm zwar erlaubt und ihm auch versprochen, nicht eifersüchtig zu sein, aber jetzt bin ich doch eifersüchtig. Was soll ich tun?",
+            "output": "Dear Doctor Tom, my boyfriend regularly meets a fellow student to study with her. I've told him it's fine, and promised not to get jealous. But now I am jealous. What should I do?",
+            "llm_output": "Dear Doctor Tom, my boyfriend regularly meets with a fellow student to study together. Although I allowed him to do so and promised not to be jealous, I am now feeling jealous. What should I do?",
+            "score": 0.4519217557918641
+        },
+        {
+            "id": 1338,
+            "name": "de_en_79",
+            "input": "„Ich hätte nie im Leben damit gerechnet“, erzählte Tom, „dass mein Buch einmal in 35 Sprachen übersetzt werden würde. Anfangs war ich mir nicht einmal sicher, ob ich es überhaupt zu Ende schreiben wollte.“",
+            "output": "Never in my life would I have imagined that one day my book would be translated into 35 languages, said Tom. \"I wasn't even sure at first whether I was going to finish writing it.\"",
+            "llm_output": "\"I never would have expected it in my life,\" Tom said, \"that my book would be translated into 35 languages. At first, I wasn't even sure if I wanted to finish writing it.\"",
+            "score": 0.4476446452489578
+        },
+        {
+            "id": 1346,
+            "name": "de_en_87",
+            "input": "Dann nahm er den Bräutigam beiseite und sagte zu ihm: „Jeder bietet zuerst den besten Wein an und lässt den billigsten übrig, bis die Gäste genug haben, aber den besten hast du dir bisher aufgehoben.“",
+            "output": "Then he called the bridegroom aside and said, \"Everyone brings out the choice wine first and then the cheaper wine after the guests have had too much to drink, but you have saved the best till now.\"",
+            "llm_output": "Then he took the groom aside and said to him, \"Everyone serves the best wine first and saves the cheaper wine for later when the guests have had too much to drink. But you have saved the best wine until now.\"",
+            "score": 0.44149590650838944
+        },
+        {
+            "id": 1264,
+            "name": "de_en_5",
+            "input": "Vielleicht ist es eine verrückte Idee, dass es einen Gott oder Götter gibt, und dass es Aliens gibt. Ich nehme an, dass Gott nicht so ist, bzw. die Götter nicht so sind wie Menschen. Und hierarchisch unter ihm oder ihnen stehen die Aliens. Aliens haben einen unmittelbareren kontrollierenden Einfluss auf mich. Gott könnte alles sein oder alles und noch darüber hinaus, also Pantheismus bzw. Panentheismus. Gott könnte etwa so sein wie der Raum, das Licht oder der Wind, Aliens hingegen wie fühlende Wesen, mehr wie Menschen.",
+            "output": "Maybe, it's a crazy idea that there is God or are gods and there are aliens. I surmise that God is or the gods are not like persons. And hierarchically, there are aliens below. Aliens have a more immediate controlling influence over my life. God could be everything or everything and beyond it, respectively pantheism and panentheism. God could be more like space, light, or wind. Meanwhile, aliens could be sentient beings, more like people.",
+            "llm_output": "Maybe it's a crazy idea that there is a God or gods and that there are aliens. I assume that God is not like humans, and neither are the gods. And hierarchically below him or them are the aliens. Aliens have a more immediate controlling influence on me. God could be everything or everything and beyond, so pantheism or panentheism. God could be something like space, light, or wind, while aliens are more like feeling beings, more like humans.",
+            "score": 0.43224984009534273
+        },
+        {
+            "id": 1266,
+            "name": "de_en_7",
+            "input": "„Schau mal, was ich in deinem Kleiderschrank für einen schönen Kaschmirpulli gefunden habe. Warum trägst du den denn nie?“ – „Der hat unter einem Ärmel ein Loch.“ – „Der ist nur an der Naht ein bisschen aufgegangen. Willst du das nicht flicken?“ – „Ne, das macht zuviel Mühe. Den schmeiß’ ich einfach in die Tonne und kauf’ mir einen neuen.“ – „Du bist so verschwenderisch, Tom! Dann flicke ich ihn eben selbst und behalte ihn.“",
+            "output": "Look at this beautiful cashmere jumper I found in your wardrobe. Why don't you ever wear it? \"There's a hole in one of the armpits.\" \"It's only a little split along the seam. Aren't you going to mend it?\" \"No, it's too much hassle. I'll chuck it in the bin and buy a new one.\" \"You're so wasteful, Tom! I'll sew it up and keep it myself, then.\"",
+            "llm_output": "\"Look what a beautiful cashmere sweater I found in your wardrobe. Why don't you ever wear it?\" - \"It has a hole under one sleeve.\" - \"It's just a little seam that has come undone. Don't you want to fix it?\" - \"Nah, that's too much effort. I'll just throw it in the bin and buy a new one.\" - \"You're so wasteful, Tom! Then I'll just fix it myself and keep it.\"",
+            "score": 0.4313802219837215
+        },
+        {
+            "id": 1325,
+            "name": "de_en_66",
+            "input": "Es ist schon interessant, wie sich die Wahrnehmung von der Wirklichkeit unterscheidet: ich hätte gewettet, dass manche dieser prozentualen Anteile größer sind, als es der Fall ist. Danke also für diese Richtigstellung!",
+            "output": "It's interesting how perception differs from reality; I would've bet that some of those percentages were higher than they are. So, thanks for that correction.",
+            "llm_output": "It's interesting how perception differs from reality: I would have bet that some of these percentage shares are larger than they actually are. So, thank you for this clarification!",
+            "score": 0.4241140342985283
+        },
+        {
+            "id": 1295,
+            "name": "de_en_36",
+            "input": "Das Einzugsgebiet der Chesapeake-Bucht umfasst 165 800 km² und erstreckt sich über Teile von sechs Bundesstaaten – Delaware, Maryland, New York, Pennsylvania, Virginia, West Virginia – sowie die Stadt Washington. In diesem Gebiet leben über 17 Millionen Menschen.",
+            "output": "The Chesapeake watershed spans 64,000 squares miles, covering parts of six states—Delaware, Maryland, New York, Pennsylvania, Virginia, West Virginia, and the District of Columbia. Over 17 million people live in this area.",
+            "llm_output": "The Chesapeake Bay watershed covers 165,800 km² and spans parts of six states - Delaware, Maryland, New York, Pennsylvania, Virginia, West Virginia - as well as the city of Washington. Over 17 million people live in this area.",
+            "score": 0.4180999216775964
+        },
+        {
+            "id": 1290,
+            "name": "de_en_31",
+            "input": "Alan Garner ist der älteste Schriftsteller, der jemals in die engere Wahl für den „Booker Prize“ gekommen ist, den bekanntesten, jedes Jahr vergebenen Literaturpreis Großbritanniens. Er ist auch der einzige britische Autor, der dieses Jahr in diese Auswahl gekommen ist.",
+            "output": "Alan Garner is the oldest author ever to be included in the shortlist for the Booker Prize, Britain's best known annual literary award. He is also the only British author to be shortlisted this year.",
+            "llm_output": "Alan Garner is the oldest writer ever to be shortlisted for the Booker Prize, the most prestigious literary award given annually in Britain. He is also the only British author to have made it to the shortlist this year.",
+            "score": 0.4180971682396067
+        },
+        {
+            "id": 1353,
+            "name": "de_en_94",
+            "input": "In einem Dialog würde man wohl eher kürzer antworten: „Arbeitest du lieber mit Tom oder ohne ihn?“ – „Ohne ihn.“ Als unabhängiger Satz ist „Ich arbeite lieber allein als mit Tom“ aber in Ordnung.",
+            "output": "In a dialogue, it is more likely that a shorter answer would be offered: \"Do you prefer working with Tom, or without him?\" \"Without him.\" But as a standalone sentence, \"I prefer working alone to working with Tom\" is fine.",
+            "llm_output": "In a dialogue, one would probably answer more briefly: \"Do you prefer to work with Tom or without him?\" - \"Without him.\" As an independent sentence, \"I prefer to work alone rather than with Tom\" is fine.",
+            "score": 0.41645652371752645
+        },
+        {
+            "id": 1351,
+            "name": "de_en_92",
+            "input": "Das funkelnde Band der Sterne erstreckte sich klar über den schwarzen Samt des wolkenlosen Nachthimmels und ließ mich die Kälte für einen Moment vergessen, mich von den Weiten der Galaxis träumen.",
+            "output": "The sparkling band of stars stretched right round the velvety blackness of the clear night sky, making me forget the cold for a moment and dream of the vastness of the galaxy.",
+            "llm_output": "The sparkling ribbon of stars stretched clearly across the black velvet of the cloudless night sky and made me forget the cold for a moment, allowing me to dream of the vastness of the galaxy.",
+            "score": 0.4153509237206396
+        },
+        {
+            "id": 1280,
+            "name": "de_en_21",
+            "input": "„Niemand verlangt von dir dauernd nur Einsen, aber etwas mehr als eine Fünf in Französisch müsste ja wohl drin sein!“ – „Ja, wenn Marie-Emmanuelle mit mir geübt hätte!“ – „Wir alle wissen, dass man sich auf das Fräulein Chevallier nur bedingt verlassen kann. Schieb sie also nicht immer als Entschuldigung vor!“",
+            "output": "No one expects you to get straight As all the time, but you've got to get better than Fs in French! \"Yeah, well, if Marie-Emmanuelle had practised with me!\" \"We all know that Miss Chevallier can be relied upon only to a limited extent, so don't always use her as your excuse!\"",
+            "llm_output": "\"No one expects you to always get straight A's, but getting something better than a five in French should be possible, right?\" - \"Yes, if Marie-Emmanuelle had practiced with me!\" - \"We all know that you can only rely on Miss Chevallier to a limited extent. So don't always use her as an excuse!\"",
+            "score": 0.4138007837701571
+        },
+        {
+            "id": 1306,
+            "name": "de_en_47",
+            "input": "Das Spiel um die FIDE-Schachweltmeisterschaft 2023 ist unentschieden (6 x 6), wobei Ding Liren (Weiß) die zwölfte Partie gewonnen hat. Es verbleiben nur noch zwei Partien, in denen einer der Teilnehmer den entscheidenden Vorteil erlangen kann.",
+            "output": "The match for the FIDE 2023 World Chess Championship is tied (6 X 6), with Ding Liren (White) winning the twelfth game. Only two more games remain for one of the competitors to achieve the decisive advantage.",
+            "llm_output": "The match for the FIDE Chess World Championship 2023 is tied (6 x 6), with Ding Liren (playing as White) having won the twelfth game. There are only two games left, in which one of the participants can gain the decisive advantage.",
+            "score": 0.4114104747118783
+        },
+        {
+            "id": 1343,
+            "name": "de_en_84",
+            "input": "Das jiddische Wort „feygele“ („Vögelein“) wird seit dem 20. Jahrhundert als homophobe Beleidigung verwendet; in letzter Zeit machen es sich aber auch viele homosexuelle Jiddischsprecher selbst zu eigen.",
+            "output": "The Yiddish word \"feygele,\" which literally means \"little bird,\" has been used as a homophobic slur since the 20th century, though it has recently been reclaimed by many gay Yiddish speakers.",
+            "llm_output": "The Yiddish word \"feygele\" (\"little bird\") has been used as a homophobic insult since the 20th century; however, recently many Yiddish-speaking homosexuals have also adopted it for themselves.",
+            "score": 0.40985502448216804
+        },
+        {
+            "id": 1271,
+            "name": "de_en_12",
+            "input": "Die Frage, ob es überhaupt möglich sei, Karamelleis zu halten, wurde 2019 durch ein internationales Forscherteam positiv beantwortet. Sie hatten einen Handschuh aus einer ultrawiderstandsfähigen Wolfram-Molybdän-Legierung hergestellt und schafften es, das Eis für den Bruchteil einer Sekunde zu halten, bevor auch sie der Versuchung erlagen und es komplett aufaßen.",
+            "output": "The question of whether it is at all possible to hold caramel ice cream was answered in the affirmative in 2019 by an international team of scientists who made a glove out of an ultra-tough tungsten molybdenum alloy and were able to successfully hold it for a split second before they, too, succumbed to temptation and ate it all up.",
+            "llm_output": "The question of whether it is even possible to hold caramel ice cream was positively answered in 2019 by an international team of researchers. They had made a glove out of an ultra-resistant tungsten-molybdenum alloy and managed to hold the ice cream for a fraction of a second before succumbing to temptation and eating it all.",
+            "score": 0.407667519007397
+        },
+        {
+            "id": 1262,
+            "name": "de_en_3",
+            "input": "Durch die Entdeckung Amerikas mit seinen Bewohnern geriet man in theologische Erklärungsnot, die man mit verschiedenen Ansätzen zu lösen versuchte. So kam etwa die Lehre auf, dass es neben Adam noch andere Stammväter in anderen Teilen der Welt gegeben habe. Großinquisitor Tomás de Torquemada glaubte, die Menschen und Tiere seien von Engeln über den Ozean getragen worden. Und wieder andere, wie der Jesuitenpater Joseph-François Lafitau, bestritten schlicht, dass die Indianer überhaupt von Gott geschaffen worden seien – nur Atheisten könnten so etwas behaupten.",
+            "output": "Through the discovery of the New World and its inhabitants, theologists were in a quandary, which they tried to overcome in various ways. Thus the doctrine came about that there were other ancestors besides Adam in other parts of the world. Grand Inquisitor Tomás de Torquemada believed that humans and animals had been carried by angels across the ocean. And still others, such as the Jesuit priest Joseph-François Lafitau, simply denied that the Indians were ever created by God - only atheists could make such a claim.",
+            "llm_output": "The discovery of America and its inhabitants caused a theological dilemma, which was attempted to be solved through various approaches. For example, the doctrine emerged that there were other patriarchs in other parts of the world besides Adam. Grand Inquisitor Tomás de Torquemada believed that humans and animals were carried across the ocean by angels. And yet others, such as Jesuit Father Joseph-François Lafitau, simply denied that the Indians were even created by God - only atheists could claim such a thing.",
+            "score": 0.4065241865175782
+        },
+        {
+            "id": 1299,
+            "name": "de_en_40",
+            "input": "Der arme Fuchs hatte Räude. Das war daran zu erkennen, dass er gar keine Haare mehr an seinem normalerweise buschigen Schwanz hatte und überhaupt schlimm aussah. Wir legten daher Futter mit einem Impfstoff aus, der ihm helfen sollte, wieder gesund zu werden.",
+            "output": "The poor fox had mange. You could tell by the fact that he had no hair at all on his normally bushy tail and looked awful in general. We therefore put out feed with a vaccine to help him get well again.",
+            "llm_output": "The poor fox had mange. This was evident from the fact that he had no hair left on his normally bushy tail and looked generally sickly. Therefore, we put out food with a vaccine that was supposed to help him recover and become healthy again.",
+            "score": 0.4031922893491253
+        },
+        {
+            "id": 1317,
+            "name": "de_en_58",
+            "input": "„Tom, du bist ja doch noch gekommen“, bemerkte Maria mit einem Blick auf ihre Armbanduhr. „Die Suppe haben wir jetzt leider schon aufgegessen.“ – „Ach, das macht nichts, Maria“, entgegnete Tom. „Ich hatte sowieso keinen Hunger.“",
+            "output": "Tom. So you've come after all, remarked Mary, glancing at her watch. \"I'm afraid we've already polished off the soup.\" \"Oh, that's all right, Mary,\" replied Tom. \"I wasn't hungry anyway.\"",
+            "llm_output": "\"Tom, you actually made it,\" Maria remarked, glancing at her watch. \"Unfortunately, we've already finished the soup.\" - \"Oh, that's alright, Maria,\" Tom replied. \"I wasn't hungry anyway.\"",
+            "score": 0.40210129145692464
+        },
+        {
+            "id": 1305,
+            "name": "de_en_46",
+            "input": "Der Erfolg des Hafenviertels könnte bedeuten, dass andere Städte bald nachziehen und Bereiche schaffen, die den Menschen ein neuartiges Stadtlebens bieten, mit allen Vorzügen, aber ohne den Stress, den Lärm und den Schmutz überfüllter Ortskerne.",
+            "output": "The Waterfront's success could mean that other cities soon follow, creating areas that offer people a new kind of city living, with all the benefits and none of the stress, noise and pollution of crowded centres.",
+            "llm_output": "The success of the harbor district could mean that other cities will soon follow suit and create areas that offer people a new kind of urban life, with all the benefits but without the stress, noise, and dirt of overcrowded city centers.",
+            "score": 0.39359079123898666
+        },
+        {
+            "id": 1261,
+            "name": "de_en_2",
+            "input": "Was ist denn eigentlich ein Verein? Nicht die Gebäude oder die Direktoren oder die Leute, die dafür bezahlt werden, ihn zu repräsentieren; nicht die Fernsehverträge, Ausstiegsklauseln, Vertriebsabteilungen oder Führungslogen; nein, es ist der Lärm, die Leidenschaft, das Zugehörigkeitsgefühl, der Stolz auf unsere Stadt; ein kleiner Junge, der zum allerersten Mal, sich an der Hand seines Vaters festhaltend, die Stufen des Stadions erklimmt und hinunterblickt auf den heiligen Rasen, der sich unter ihm erstreckt, und sich, ohne etwas dagegen tun zu können, verliebt.",
+            "output": "What is a club in any case? Not the buildings or the directors or the people who are paid to represent it. It’s not the television contracts, get-out clauses, marketing departments or executive boxes. It’s the noise, the passion, the feeling of belonging, the pride in your city. It’s a small boy clambering up stadium steps for the very first time, gripping his father’s hand, gawping at that hallowed stretch of turf beneath him and, without being able to do a thing about it, falling in love.",
+            "llm_output": "What actually is a club? Not the buildings or the directors or the people who are paid to represent it; not the TV contracts, exit clauses, sales departments or executive lounges; no, it's the noise, the passion, the sense of belonging, the pride in our city; a little boy who, holding his father's hand, climbs the steps of the stadium for the very first time and looks down at the sacred turf stretching out beneath him, and falls in love without being able to do anything about it.",
+            "score": 0.3882006330662102
+        },
+        {
+            "id": 1289,
+            "name": "de_en_30",
+            "input": "Ruy López de Segura, ein Priester und berühmter spanischer Schachspieler des 16. Jahrhunderts, schrieb ein 150seitiges Buch mit dem Titel „Libro del Ajedrez“ über umfassende Studien, die er zu der nach ihm benannten Eröffnung 1. e4 e5 2. ♘f3 ♞c6 3. ♗b5 angestellt hatte.",
+            "output": "Ruy López de Segura, a priest and a famous Spanish chess player of the 16th century, wrote a book of 150 pages, called Libro del Ajedrez, about exhaustive studies he made on the opening (1. e4 e5 2. ♘f3 ♘c6 3. ♗b5) that is named after him.",
+            "llm_output": "Ruy López de Segura, a priest and famous Spanish chess player of the 16th century, wrote a 150-page book titled \"Libro del Ajedrez\" about comprehensive studies he conducted on the opening named after him, 1.e4 e5 2.♘f3 ♞c6 3.♗b5.",
+            "score": 0.38784737906499955
+        },
+        {
+            "id": 1328,
+            "name": "de_en_69",
+            "input": "„Tschüs! Ich muss dann.“ – „Wie jetzt? Du hast doch gesagt, dass du heute Nachmittag auf die Kinder aufpasst!“ – „Das hast du falsch verstanden. Ich habe noch einen Termin.“ – „Das ist jetzt nicht dein Ernst, oder?“",
+            "output": "Got to go. Bye. \"You what? You said you'd look after the kids this afternoon!\" \"You've got that wrong. I've got to be somewhere else.\" \"You're not serious, are you?\"",
+            "llm_output": "\"Bye! I have to go now.\" - \"What do you mean? You said you were going to babysit the kids this afternoon!\" - \"You misunderstood me. I have another appointment.\" - \"You're not serious, are you?\"",
+            "score": 0.38605534800642777
+        },
+        {
+            "id": 1284,
+            "name": "de_en_25",
+            "input": "Die elfte Partie der FIDE-Schachweltmeisterschaft 2023 endete mit einem Remis, da beide Spieler sehr präzise spielten. Jetzt (24. April): Nepo 6, Ding Liren 5. Dem Russen reichen drei weitere Unentschieden, um die Punktzahl (7,5) zu erreichen, die ihm den Titel des Weltmeisters einbringt.",
+            "output": "With high-precision performances from both players, the eleventh match of the FIDE World Chess Championship 2023 ended in a draw. Now (April 24): Nepo 6, Ding Liren 5. Three more draws will be enough for the Russian to reach the tally (7.5) which will give him the title of World Champion",
+            "llm_output": "The eleventh game of the FIDE Chess World Championship 2023 ended in a draw as both players played very precisely. Now (April 24th): Nepo 6, Ding Liren 5. The Russian only needs three more draws to reach the score (7.5) that will earn him the title of world champion.",
+            "score": 0.3851956452973254
+        },
+        {
+            "id": 1270,
+            "name": "de_en_11",
+            "input": "„Da sieh mal einer an, wer da kommt!“ Sie stand oben auf der Treppe zur Bibliothek und hielt eine Heftmappe umklammert. „Da tritt er blinzelnd ins Sonnenlicht hervor! Nach gestern Abend hätte ich gedacht, du würdest dich – ach, was weiß ich – wenigstens ein paar Tage nicht mehr blicken lassen!“ – „Hör mir auf!“ seufzte er und schleppte sich, die Treppe hoch, an ihr vorbei.",
+            "output": "Fancy seeing you here! She stood at the top of the steps to the library, clutching a binder, grinning down at him. \"Emerging blinking into the sunlight! After last night, I thought we'd see neither hide nor hair of you for, oh, I don't know, at least a couple of days!\" \"Don't start,\" he sighed, trudging past her up the steps.",
+            "llm_output": "\"Well, look who's coming!\" She stood at the top of the stairs to the library, clutching a folder. \"There he emerges, blinking in the sunlight! After last night, I thought you wouldn't show your face - I don't know - for at least a few days!\" - \"Don't even start!\" he sighed and dragged himself up the stairs, past her.",
+            "score": 0.37331396445581067
+        },
+        {
+            "id": 1260,
+            "name": "de_en_1",
+            "input": "„Stell dir vor, zwei Leute unterhalten sich und der eine, der noch rechtzeitig in ein Geschäft muss, um ein Geschenk zu kaufen, ruft erleichert aus, dass dasselbe noch geöffnet ist.“ – „Das ist leicht! Du beschreibst mehr oder weniger, wie mein Partner und ich immer Heiligabend verbringen. Das ist immer eine Wahnsinnshetzerei.“ – „Eigentlich habe ich mir das als Telefongespräch vorgestellt, bei dem der zweite Sprecher dem ersten am Telefon den Weg zu einem Geschäft erklärt hat. Es könnte sich aber auch um ein persönliches Gespräch handeln, das stattfindet, als das noch geöffnete Geschäft gerade in Sicht kommt.“",
+            "output": "Imagine two people having a conversation. One of them, who needs to get to the shops on time to buy a present, exclaims with relief that the shop is still open. \"Easy so far. You're more or less describing how my partner and I spend every Christmas Eve. It's always a mad rush.\" \"Actually, I imagined this as a telephone conversation, the second speaker having given directions over the phone to the first speaker to a shop. But it could also be a conversation taking place in person as the still-open shop comes into view.\"",
+            "llm_output": "\"Imagine two people talking and one, who has to hurry to a store to buy a gift, exclaims with relief that it is still open.\" - \"That's easy! You're more or less describing how my partner and I always spend Christmas Eve. It's always a crazy rush.\" - \"Actually, I imagined it as a phone conversation where the second speaker explained the way to a store to the first one on the phone. But it could also be a personal conversation that takes place as the still open store comes into view.\"",
+            "score": 0.371837230843224
+        },
+        {
+            "id": 1275,
+            "name": "de_en_16",
+            "input": "Hier ist etwas, was dich vielleicht interessiert: eine Website mit einem Leitfaden für englische Grammatik aus der Sicht des britischen Englisch. Ich kann sie nur empfehlen. Sie wurde wohl von einem Ungarn, der an der Universität Szeged Englisch lehrt, ins Leben gerufen (aber das erfährt man nur, wenn man sich die Seite „Über uns“ ansieht).",
+            "output": "Here's something you might be interested in. It's a website that provides a guide to English Grammar from a British English perspective. I recommend it. I believe it was created by a Hungarian who teaches English at the University of Szeged (although you wouldn't know that unless you looked at the About page).",
+            "llm_output": "Here is something that might interest you: a website with a guide to English grammar from the perspective of British English. I highly recommend it. It was apparently created by a Hungarian who teaches English at the University of Szeged (but you only find out about this if you look at the \"About Us\" page).",
+            "score": 0.36020592652169625
+        },
+        {
+            "id": 1318,
+            "name": "de_en_59",
+            "input": "Die Geschichte hat im Laufe der Zeit zahlreiche Ausschmückungen und Abwandlungen erfahren. Jeder, der sie weitererzählte, hat etwas Eigenes hinzugedichtet. Der wahre Urgehalt lässt sich heute nicht mehr von der Legende trennen.",
+            "output": "The story has seen plenty of embellishments and modifications over time. Everyone who has passed it on has added something of their own to it. The truth in it can no longer be separated from the legend.",
+            "llm_output": "Over time, the story has undergone numerous embellishments and variations. Everyone who retold it added something of their own. The true original content can no longer be separated from the legend today.",
+            "score": 0.35932800988795377
+        },
+        {
+            "id": 1319,
+            "name": "de_en_60",
+            "input": "Frau Müller bat ihren Nachbarn, sich ihre Waschmaschine anzusehen. Nach der Begutachtung kam es zu folgendem Gespräch: „Ihre Waschmaschine ist leider im Eimer.“ – „Kann sie noch repariert werden?“ – „Kaufen Sie sich eine neue.“",
+            "output": "Mrs Miller asked her neighbour to have a look at her washing machine. After inspecting it, he delivered his verdict. \"Your washing machine's had it, I'm afraid.\" \"Can it be repaired?\" \"Buy yourself a new one.\"",
+            "llm_output": "Mrs. Müller asked her neighbor to take a look at her washing machine. After the inspection, the following conversation took place: \"Unfortunately, your washing machine is broken.\" - \"Can it still be repaired?\" - \"Buy a new one.\"",
+            "score": 0.35794603010276954
+        },
+        {
+            "id": 1298,
+            "name": "de_en_39",
+            "input": "„Der Postbote war da. Ich habe meine GCSE-Ergebnisse bekommen!“ – „Na, dann mach sie mal auf! Was steht drin?“ – „Also gut! ‚Hiermit wird bescheinigt, dass Josephine Bloggs in zehn Fächern die folgenden Leistungen erbracht hat: Mathematik: F ...‘“ – „O Gott!“",
+            "output": "The postie's been. I've got my GCSE results! \"Go on then, open it! What does it say?\" \"All right, all right. 'This is to certify that Josephine Bloggs achieved the following results in ten subjects: Mathematics: F—' Oh, god.\"",
+            "llm_output": "\"The mailman was here. I received my GCSE results!\" - \"Well, then open them up! What does it say?\" - \"Alright then! 'This is to certify that Josephine Bloggs has achieved the following grades in ten subjects: Mathematics: F...'\" - \"Oh God!\"",
+            "score": 0.35348614211792184
+        },
+        {
+            "id": 1300,
+            "name": "de_en_41",
+            "input": "„Was versteckst du da hinter deinem Rücken?“ – „Nichts! Gar nichts!“ – „Zeig’s her!“ – „Mann, Maria! Das ist dein Geburtstagsgeschenk, das eigentlich eine Überraschung werden sollte. Warum musst du immer so ins Zimmer geplatzt kommen, ohne anzuklopfen?“",
+            "output": "What's that you've got behind your back? \"Nothing. Nothing at all.\" \"Show me!\" \"For goodness sake, Mary! It's your birthday present. It was meant to be a surprise. Why do you always come bursting into the room like that without knocking?\"",
+            "llm_output": "\"What are you hiding behind your back?\" - \"Nothing! Absolutely nothing!\" - \"Show it to me!\" - \"Come on, Maria! It's your birthday present that was supposed to be a surprise. Why do you always barge into the room without knocking?\"",
+            "score": 0.34662627159909015
+        },
+        {
+            "id": 1320,
+            "name": "de_en_61",
+            "input": "„Hallo, Anna! Ich wollte dich fragen, ob du es dir schon überlegt hast.“ – „Überlegt? Was soll ich mir denn überlegt haben?“ – „Ach, das weißt du doch.“ – „Nein, das weiß ich nicht. Hilf meinem Gedächtnis mal auf die Sprünge!“",
+            "output": "Hello, Anna! I just wanted to ask if you'd given it any thought. \"Given what any thought?\" \"Oh, you know.\" \"No, I don't know. Help jog my memory.\"",
+            "llm_output": "\"Hello, Anna! I wanted to ask you if you've already thought about it.\" - \"Thought about what? I don't know what you're talking about.\" - \"Oh, you know.\" - \"No, I don't know. Can you refresh my memory?\"",
+            "score": 0.3425893670044228
+        },
+        {
+            "id": 1332,
+            "name": "de_en_73",
+            "input": "„Warum klingt dieses Einsteinzitat wie eine wörtliche Übersetzung aus dem Englischen? Das kann der doch unmöglich so gesagt haben.“ – „Wahrscheinlich, weil es tatsächlich eine Übersetzung aus dem Englischen ist.“",
+            "output": "Why does this quote from Einstein sound like a word-for-word translation from the English? He can't have said it like that. \"Probably because it is in fact a translation from the English.\"",
+            "llm_output": "\"Why does this Einstein quote sound like a literal translation from English? He couldn't have said it like that.\" - \"Probably because it actually is a translation from English.\"",
+            "score": 0.34207376602779477
+        },
+        {
+            "id": 1322,
+            "name": "de_en_63",
+            "input": "Nach der 13. Partie stehen sowohl Nepo als auch Ding bei 6½ Punkten, und es bleibt unglaublich spannend. Eine Partie ist noch zu spielen: wer die gewinnt, ist Schachweltmeister; geht sie aber remis aus, kommt es zum Tiebreak.",
+            "output": "After the 13th game, Nepo and Ding are up to 6½ points and the contest is still incredibly exciting. There is still one game left: whoever wins will be the world chess champion; but if it ends in a tie, a tiebreaker will be played.",
+            "llm_output": "After the 13th game, both Nepo and Ding are tied at 6½ points, and it remains incredibly exciting. One game is left to play: whoever wins it will be the chess world champion; but if it ends in a draw, there will be a tiebreak.",
+            "score": 0.33952626340365333
+        },
+        {
+            "id": 1265,
+            "name": "de_en_6",
+            "input": "„Chicken tikka masala“ ist inzwischen ein durch und durch britisches Nationalgericht, und das liegt nicht nur daran, dass es das beliebteste ist, sondern auch daran, dass es ein perfektes Beispiel dafür abgibt, wie man in Großbritannien Fremdes sich zu eigen zu machen und weiterzuentwickeln pflegt: „Chicken tikka“ ist nämlich ein indisches Gericht, und die Masala-Sauce wurde hinzugefügt, um dem Verlangen des britischen Volkes Genüge zu tun, Fleisch in Bratensaft serviert zu bekommen.",
+            "output": "Chicken tikka masala is now a true British national dish, not only because it is the most popular, but because it is a perfect illustration of the way Britain absorbs and adapts external influences. Chicken tikka is an Indian dish. The masala sauce was added to satisfy the desire of British people to have their meat served in gravy.",
+            "llm_output": "\"Chicken tikka masala\" is now a thoroughly British national dish, and that is not only because it is the most popular, but also because it provides a perfect example of how in Britain, foreign things are made one's own and developed further: \"Chicken tikka\" is actually an Indian dish, and the masala sauce was added to satisfy the British people's desire to have meat served in gravy.",
+            "score": 0.3393284074752848
+        },
+        {
+            "id": 1282,
+            "name": "de_en_23",
+            "input": "„Ich bin zutiefst bewegt, dass Majestät mir, Eurer Majestät untertänigstem Diener, huldvollst die Erlaubnis zu erteilen geruht haben, hier vor Eurer Majestät zu erscheinen und Eurer Majestät, in größter Ehrerbietung, mein Anliegen vorzutragen.“ – „Ja, ja, nun kommen Sie schon zur Sache! Worum geht’s denn?“",
+            "output": "I am deeply moved that Your Majesty has in all His grace granted me, Your Majesty's most humble servant, permission to appear here before Your Majesty and, in humblest deference to Your Majesty, present my case. \"Yes, yes, get to the point! What's this about?\"",
+            "llm_output": "\"I am deeply moved that Your Majesty, as your most humble servant, has graciously granted me permission to appear before Your Majesty and respectfully present my request. \" - \"Yes, yes, please get to the point! What is it about?\"",
+            "score": 0.33521438968567474
+        },
+        {
+            "id": 1350,
+            "name": "de_en_91",
+            "input": "England hat die Europameisterschaft der Frauen 2022 gewonnen. Das ist seit 1966 die erste große Fußballauszeichnung irgendeiner A-Auswahl des Landes überhaupt und erst die zweite in der Geschichte.",
+            "output": "England have won the 2022 UEFA European Women's Championship. It is the country's first major football honour for any senior team since 1966, and only the second in its history.",
+            "llm_output": "England has won the 2022 Women's European Championship. This is the first major football award for any A-level team in the country since 1966 and only the second in history.",
+            "score": 0.3268039334105569
+        },
+        {
+            "id": 1294,
+            "name": "de_en_35",
+            "input": "Ich übersetze gerne längere Sätze; da bekommt man das Gefühl, in die Sprache einzutauchen, statt nur an den Rändern entlangzufuhrwerken. Es ist schön, wenn man hin und wieder Bestätigung erhält, dass man sich nicht verirrt hat – das motiviert mich weiterzumachen.",
+            "output": "I enjoy translating longer sentences; it lets you feel that you're getting into the language, rather than just pottering about at the edges. It's good to get some reassurance now and then that I haven't got lost – motivates me to go further in.",
+            "llm_output": "I enjoy translating longer sentences; it gives me the feeling of immersing myself in the language instead of just skimming along the edges. It's nice to receive confirmation every now and then that I haven't gotten lost - that motivates me to keep going.",
+            "score": 0.3258549008036629
+        },
+        {
+            "id": 1352,
+            "name": "de_en_93",
+            "input": "„O nein! Da klemmt ein Strafzettel unter meinem Scheibenwischer; dabei wollte ich doch nur schnell Brötchen kaufen gehen.“ – „Auch dafür muss man am Parkautomaten einen Parkschein ziehen, Maria.“",
+            "output": "Oh, no. There's a parking ticket under my windscreen wiper. I'd only nipped out to buy some bread rolls. \"You still have to get a ticket from the pay and display machine, Mary, even for that.\"",
+            "llm_output": "\"Oh no! There's a parking ticket stuck under my windshield wiper; I just wanted to quickly go buy some bread.\" - \"Even for that, Maria, you have to get a parking ticket from the parking meter.\"",
+            "score": 0.3227503779458704
+        },
+        {
+            "id": 1283,
+            "name": "de_en_24",
+            "input": "Tom hat mit einer Reihe herrlicher Paraden ein Glanzspiel hingelegt. Johannes, sein Gegenüber auf der gegnerischen Seite, erlebte hier hingegen nach einem Patzer in der zweiten Halbzeit, die seiner Mannschaft die dritte Niederlage in Folge einbrachte, einen Abend, den man am liebsten vergisst.",
+            "output": "Tom played a blinder, making a string of great saves. John, his counterpart in the opposing team, had a night to forget, conceding a howler in the second half that ultimately led to his team suffering their third defeat in a row.",
+            "llm_output": "Tom put on a brilliant performance with a series of magnificent saves. On the other hand, Johannes, his counterpart on the opposing team, had a night to forget after making a mistake in the second half that led to his team's third consecutive loss.",
+            "score": 0.32110411465020716
+        },
+        {
+            "id": 1259,
+            "name": "de_en_0",
+            "input": "Sam zerknüllte das Blatt Papier und warf es sich über die Schulter. („Du meinst wohl Tom?“) Ist da wer? („Es gibt hier niemanden, der Sam heißt.“) Ach nein? Wer bist du denn bitte schön? („Es gibt hier Regeln. Lies und befolge die!“) Was? Wie? („Es gibt keine Sam, nur Tom, Tom aus Boston.“) Aus dem Ort mit dem höchsten Anteil an Brexit-Wählern? („Ja – ach, Quatsch! Tom soll diesen Teil des Gespräches löschen!“) Jetzt sperr mal die Lauscher auf, Kumpel. Ich weiß nicht, wer oder wo du bist, aber nur dass du’s weißt: es gibt hier sehr wohl jemanden, der Sam heißt! („Aber nein!“) Sag mal! Es gibt die hier ebenso, wie es mich gibt! („Es gibt dich hier nicht. Du existierst nicht. Tom existiert.“)",
+            "output": "Sam screwed the piece of paper up and threw it over her shoulder. \"Or was it Tom?\" Who's there? \"There is no one here called Sam.\" Isn't there? Who are you, then? \"There are rules in place. Read and obey them.\" You what? \"There is no Sam, only Tom. Tom from Boston.\" The place with the highest proportion of Brexit voters? \"Yes. No. Have Tom delete this part of the conversation.\" Listen, mate. I don't know who or even where you are, but for your information, there is someone here called Sam. \"Is not.\" What? She's here the same as I'm here! \"You are not here. You do not exist. Tom exists.\"",
+            "llm_output": "Sam crumpled up the piece of paper and threw it over his shoulder. (\"You mean Tom, right?\") Is someone there? (\"There's no one here named Sam.\") Oh no? Well, who are you then? (\"There are rules here. Read and follow them!\") What? How? (\"There's no Sam, only Tom, Tom from Boston.\") From the place with the highest percentage of Brexit voters? (\"Yes - oh, nonsense! Tom should delete this part of the conversation!\") Now listen up, buddy. I don't know who or where you are, but just so you know, there is someone here named Sam! (\"But no!\") Hey! They exist here, just like I do! (\"You don't exist here. You don't exist. Tom exists.\")",
+            "score": 0.3088001260618351
+        },
+        {
+            "id": 1333,
+            "name": "de_en_74",
+            "input": "„Frag Papa! Du siehst doch, dass ich hier zu tun habe und mich jetzt nicht mit deinen Fragen auseinandersetzen kann.“ – „Papa hat mich zu dir geschickt.“ – „Dann frag Opa!“ – „Der liegt auf dem Sofa und schläft.“",
+            "output": "Ask Dad! Can't you see I'm busy here? I can't think about your questions at the moment. \"Dad told me to ask you.\" \"Ask Grandad, then!\" \"He's asleep on the sofa.\"",
+            "llm_output": "\"Ask Dad! Can't you see that I'm busy here and can't deal with your questions right now?\" - \"Dad sent me to you.\" - \"Then ask Grandpa!\" - \"He's lying on the couch and sleeping.\"",
+            "score": 0.29787446309958776
+        },
+        {
+            "id": 1358,
+            "name": "de_en_99",
+            "input": "„Zwei Kilo Äpfel bitte, aber nicht so große, denn ich möchte nicht so schwer tragen!“ stand auf dem Bild in der Sprechblase eines kleinen Mädchens am Verkaufsstand einer Obstverkäuferin.",
+            "output": "Two kilos of apples, please, but not too big, 'cos they'll be too heavy to carry! were the words in a speech bubble spoken by a little girl in a picture on a fruit seller's market stall.",
+            "llm_output": "\"Two kilos of apples please, but not too big because I don't want to carry something too heavy!\" read the speech bubble of a little girl at the fruit stand of a female fruit vendor.",
+            "score": 0.2856493252332711
+        },
+        {
+            "id": 1297,
+            "name": "de_en_38",
+            "input": "Ich dachte schon, ich müsse meinen Wagen in die Werkstatt geben und wieder eine horrende Summe zahlen, aber es hat sich zum Glück herausgestellt, dass nur die Batterie leer war, verursacht dadurch, dass Tom vergessen hatte, die Innenbeleuchtung auszuschalten.",
+            "output": "I thought I'd have to take my car into a garage and shell out a horrendous amount again, but luckily it turned out to be only a flat battery caused by Tom forgetting to switch the interior light off.",
+            "llm_output": "\"I thought I had to take my car to the workshop and pay a huge amount again, but fortunately it turned out that only the battery was empty, caused by Tom forgetting to turn off the interior lighting.\"",
+            "score": 0.2512179553452341
+        },
+        {
+            "id": 1312,
+            "name": "de_en_53",
+            "input": "„Mama, warum hat der Läufer beim Schach eigentlich einen Schlitz?“ – „Die heute üblichen Schachfiguren wurden im 19. Jahrhundert in England entworfen, wo man in dem Läufer einen Bischof sieht. Der Schlitz kommt von der Mitra her.“",
+            "output": "Mum, why has the bishop in chess got a slit in the top? \"The chess piece as we know it today was designed in 19th-century England, where it was thought to look like a bishop. The slit comes from the mitre's cleft.\"",
+            "llm_output": "\"Mama, why does the bishop in chess have a slit?\" - \"The chess pieces we use today were designed in England in the 19th century, where the bishop is seen as a clergyman. The slit comes from the mitre.\"",
+            "score": 0.23107575620524237
+        },
+        {
+            "id": 1273,
+            "name": "de_en_14",
+            "input": "Siobhan sitzt da und liest ein Buch. Die Tür geht auf, und Terry betritt japsend das Zimmer, so außer Atem, dass er beim Versuch, etwas zu sagen, kaum ein Wort hervorbringen kann, ehe er wieder nach Luft schnappen muss. Schließlich hebt Siobhan den Blick und nimmt Terry die Mühe ab, indem sie spricht. „Du bist gerannt“, sagt sie. – „Ja“, erwidert er keuchend.",
+            "output": "Siobhan is sitting reading a book. The door is pushed open, and Terry comes panting into the room, so out of breath that his attempts to speak hardly produce a word between gasps. A moment or two passes before Siobhan looks up and speaks, saving Terry the trouble. \"You've been running,\" she says. \"Yes,\" he wheezes.",
+            "llm_output": "\"Siobhan is sitting there reading a book. The door opens and Terry enters the room panting, so out of breath that he can hardly speak a word before he has to catch his breath again. Finally, Siobhan looks up and saves Terry the trouble by speaking. 'You ran,' she says. 'Yes,' he replies, gasping.\"",
+            "score": 0.22982642037696766
+        },
+        {
+            "id": 1281,
+            "name": "de_en_22",
+            "input": "Den Besen in der Hand, rannte Maria auf den Balkon und sprang über die Brüstung. Erschrocken liefen ihr alle hinterher, glaubend, sie hätte sich in den sicheren Tod gestürzt, aber da sah man sie auf dem Besen aus der Tiefe empor, über die Dächer der Stadt hinweg in den Nachthimmel und in die Freiheit fliegen.",
+            "output": "Broom in hand, Mary ran to the balcony and leapt over the railing. Horrified, everyone rushed forward in her wake, thinking she had plunged to her certain death, but lo! – there she was, on the broom, soaring up from the depths, up over the city rooftops and away into the night sky and to freedom.",
+            "llm_output": "With a broom in her hand, Maria ran to the balcony and jumped over the railing. Startled, everyone ran after her, thinking she had thrown herself to certain death, but then they saw her rising from the depths on the broom, flying over the roofs of the city and into the night sky, towards freedom.",
+            "score": 0.2294308673337445
+        },
+        {
+            "id": 1347,
+            "name": "de_en_88",
+            "input": "Wenn man die gesamte bisherige Erdgeschichte auf ein Jahr zusammenfasst, dann gibt es Menschen erst seit etwa 20.30 Uhr am 31. Dezember. Für Gaia, die Erde, sind wir also gerade einmal 3½ Stunden alt.",
+            "output": "If the entire history of planet Earth were condensed into a year, human beings wouldn't appear until 8.30 p.m. on 31st December. For Gaia – the Earth – we are just three-and-a-half hours old.",
+            "llm_output": "If you condense the entire history of the Earth into one year, humans have only existed since about 8:30 pm on December 31st. So, for Gaia, the Earth, we are only 3 and a half hours old.",
+            "score": 0.22848523472845572
+        },
+        {
+            "id": 1296,
+            "name": "de_en_37",
+            "input": "Wie ich darauf komme, dass du mit Tom zusammen bist? Hans hat euch gestern Abend in der ‚Alten Mühle‘ gesehen, wie ihr ganz verliebt an einem Ecktisch saßet, euch händchenhaltend in die Augen blicktet und euch dann nahekamt. Es soll herzallerliebst gewesen sein.",
+            "output": "What makes me think you're going out with Tom? Jack saw you both in the Old Mill yesterday, sitting at a corner table, looking totally smitten, holding hands, gazing into each other's eyes and getting very friendly with each other. A very touching scene, so it was.",
+            "llm_output": "How did I come to the conclusion that you are together with Tom? Hans saw you both yesterday evening at the 'Alte Mühle', sitting all lovey-dovey at a corner table, holding hands and gazing into each other's eyes, and then getting closer. It was supposed to be absolutely adorable.",
+            "score": 0.22433948264456519
+        },
+        {
+            "id": 1292,
+            "name": "de_en_33",
+            "input": "Im Wettkampf der FIDE-Schachweltmeisterschaft 2023, die im kasachischen Astana ausgetragen wird, geht aus der zweiten Partie Jan Nepomnjaschtschi, mit den schwarzen Figuren, als Sieger hervor. Er liegt damit einen Punkt vor seinem Kontrahenten Dīng Lìrén (1,5 : 0,5).",
+            "output": "Ian Nepomniachtchi, with the black pieces, won the second game of the match for the FIDE 2023 World Chess Championship, which is being held in Astana, Kazakhstan. He is therefore 1 point ahead of his opponent, Ding Liren (1.5 X 0.5).",
+            "llm_output": "In the competition of the FIDE Chess World Championship 2023, which takes place in Astana, Kazakhstan, Jan Nepomnjaschtschi emerges as the winner of the second game with the black pieces. He is now one point ahead of his opponent Dīng Lìrén (1.5:0.5).",
+            "score": 0.22420111631087258
+        },
+        {
+            "id": 1263,
+            "name": "de_en_4",
+            "input": "Fußballprogramme sind Hefte – meist im DIN-A5-Format –, die am Austragungstag eines Spieles verkauft werden und in der Regel vom gastgebenden Verein herausgebracht werden, das heißt, dass ein Programm für das Spiel City gegen United von City erstellt wird. Vorgeblich geht es darin um das bevorstehende Spiel; so sind Neuigkeiten und Wissenswertes über die Mannschaft enthalten, Gespräche mit Vereinsmitgliedern, oft ein Beitrag des Trainers, Meldungen über die gegnerische Mannschaft usf. Gewöhnlich betrachtet man diese Programme als Memorabilia.",
+            "output": "Football programmes are usually A5-sized booklets which are sold on the day a match is taking place. They're usually produced by the home football club, meaning a programme for the City versus United game is produced by City. Ostensibly, they're about that forthcoming match, and have team news and information, interviews with people at the club, often a piece written by the home team's manager, news about the opposing team, and so on. They're usually regarded as memorabilia.",
+            "llm_output": "Football programs are booklets - usually in DIN-A5 format - that are sold on the day of a game and are usually published by the home team, which means that a program for the City vs United game is created by City. Ostensibly, it is about the upcoming game; so there is news and interesting information about the team, conversations with club members, often a contribution from the coach, reports about the opposing team, and so on. These programs are usually considered memorabilia.",
+            "score": 0.21990201204578086
+        },
+        {
+            "id": 1268,
+            "name": "de_en_9",
+            "input": "In den wilden letzten Minuten des Spiels schoss Max eine wunderschöne Flanke zum langen Pfosten, wo seine Katze auf das gleißende, ins Flutlicht getauchte Spielfeld huschte, mit den Hinterbeinen hoch empor über alle Verteidiger und Angreifer in die Luft sprang und mit einem Kopfball den Siegestreffer versenkte, worüber die Menge in Begeisterung ausbrach und womit sie Fußballgeschichte schrieb.",
+            "output": "In the final raucous minutes of the match, Max whipped in a delicious cross to the far post, where his cat, scampering on to the gleaming floodlit pitch, using her hind legs to leap high into the air, higher than all the defenders and attackers, headed in the winning goal, sending the crowd into raptures and ensuring her place in football folklore.",
+            "llm_output": "In the wild last minutes of the game, Max shot a beautiful cross to the far post, where his cat darted onto the gleaming floodlit field, jumped high with its hind legs over all defenders and attackers, and scored the winning goal with a header, causing the crowd to erupt in excitement and making football history.",
+            "score": 0.2180688927826409
+        },
+        {
+            "id": 1357,
+            "name": "de_en_98",
+            "input": "Aus gestalterischer Sicht ist diese Fahne unnötig komplex. Die beiden blauen Streifen sind zwar in der Tat sehr einfach, das Bild in der Mitte jedoch ist fast photographisch detailliert.",
+            "output": "From a flag-design point of view, this flag is unnecessarily complex. The two blue bars are very simple indeed, but the centre image, unfortunately, is in almost photographic detail.",
+            "llm_output": "From a design perspective, this flag is unnecessarily complex. While the two blue stripes are indeed very simple, the image in the middle is almost photographically detailed.",
+            "score": 0.21524909862556377
+        },
+        {
+            "id": 1335,
+            "name": "de_en_76",
+            "input": "„Die Entscheidung ist getroffen: der Wald wird gerodet, und es wird dort ein Einkaufszentrum gebaut. Das können wir nun nicht mehr ändern.“ – „Natürlich können wir das noch ändern. Wir müssen es nur wollen.“",
+            "output": "The decision's been taken. They're going to clear the wood and build a shopping centre there. There's nothing we can do about it now. \"Of course there's something we can do. We just have to want to.\"",
+            "llm_output": "\"The decision has been made: the forest will be cleared and a shopping center will be built there. We can't change that now.\" - \"Of course, we can still change it. We just have to want to.\"",
+            "score": 0.2129241053443485
+        },
+        {
+            "id": 1285,
+            "name": "de_en_26",
+            "input": "Wenn im Englischen jemand als „jolly“ beezeichnet wird, so bedeutet dies, dass er fröhlich oder freundlich ist, wohingegen das französische „jolie“ zum Ausdruck bringt, dass er gut aussieht oder eine angenehme Erscheinung hat. Auf jeden Fall handelt es sich bei beidem um etwas Nettes.",
+            "output": "If an English speaker says someone is jolly, that means they are cheerful or friendly. But in French, jolie means someone is good-looking or pleasant to look at. In any case, both are nice things to say to someone.",
+            "llm_output": "If someone is referred to as \"jolly\" in English, it means that they are cheerful or friendly, whereas the French \"jolie\" expresses that they look good or have a pleasant appearance. In any case, both are something nice.",
+            "score": 0.21174297155824012
+        },
+        {
+            "id": 1342,
+            "name": "de_en_83",
+            "input": "„Dein Opa, das ist schon einer, wie?“ – „Wie meinst du das?“ – „Ich meine einfach, dass er ein Original ist, du weißt schon, ein Unikum.“ – „Ja, das ist er wohl. So einen wie ihn gibt’s nicht noch mal.“",
+            "output": "Your grandad – he's a one, eh? \"What do you mean?\" \"Oh, I mean, he's a character. You know, a one-off.\" \"Ah. Yeah, he is. They broke the mould when they made him, that's for sure.\"",
+            "llm_output": "\"Your grandpa, he's quite something, isn't he?\" - \"What do you mean?\" - \"I just mean that he's an original, you know, a unique individual.\" - \"Yes, he certainly is. There's no one else like him.\"",
+            "score": 0.2093141481965956
+        },
+        {
+            "id": 1308,
+            "name": "de_en_49",
+            "input": "„Der Tom öffnet mir alle Türen.“ – „Der Tom? Der Tom, der dich in München in die Nobeldisko eingeladen hat und nach dem zweiten Cocktail schon pleite war? Der wird dir alle Türen öffnen, aber alle Falltüren! Wie kann man denn so naiv sein?“",
+            "output": "Tom opens doors for me. \"Tom? Tom, who took you to a posh nightclub in Munich and was skint after two cocktails? He'll open doors for you all right – trapdoors! How can you be so naive?\"",
+            "llm_output": "\"Tom opens all doors for me.\" - \"Tom? The Tom who invited you to the exclusive club in Munich and was broke after the second cocktail? He will open all doors for you, but all trapdoors! How can one be so naive?\"",
+            "score": 0.20645041965011074
+        },
+        {
+            "id": 1313,
+            "name": "de_en_54",
+            "input": "„Du hast doch was mit Maria! Ich habe euch gestern zusammen gesehen!“ – „Ach, Elke!“ erwiderte Tom lachend. „Maria ist doch nur eine Freundin aus alten Kindertagen. Es war nie mehr zwischen uns.“ – „So sah das aber gar nicht aus!“",
+            "output": "You've got a thing going on with Mary, haven't you! I saw you together yesterday! \"Alice!\" Tom replied, laughing. \"Mary and I have been friends since we were kids. That's all. It was never more than that.\" \"Well that's not how it looked at all!\"",
+            "llm_output": "\"You have something going on with Maria! I saw you together yesterday!\" - \"Oh, Elke!\" Tom replied laughing. \"Maria is just a friend from childhood. There was never anything more between us.\" - \"But it didn't look like that at all!\"",
+            "score": 0.19676463269984604
+        },
+        {
+            "id": 1316,
+            "name": "de_en_57",
+            "input": "„Hanna!“ – „Lea!“ – „Wie ich leibe und lebe! Du bist wieder da!“ – „Jawohl!“ – „Zum Henker noch mal! Wie geht’s dir?“ – „Gleich viel besser, wo ich dich sehe. Hast du Zeit für ein Bierchen? Wir haben uns ja einiges zu erzählen.“",
+            "output": "Hannah! \"Leah!\" \"As I live and breathe! You're back!\" \"I am!\" \"How the devil are you?\" \"All the better for seeing you. Have you got time for a pint? Bit of a catch-up?\"",
+            "llm_output": "\"Hanna!\" - \"Lea!\" - \"How I love and live! You're back!\" - \"Yes, indeed!\" - \"For heaven's sake! How are you?\" - \"Much better now that I see you. Do you have time for a beer? We have a lot to catch up on.\"",
+            "score": 0.18320415235996335
+        },
+        {
+            "id": 1309,
+            "name": "de_en_50",
+            "input": "Da war mal ein Typ, der hieß Piet und wohnte eine Straße weiter von mir; der hatte so einen eindrucksvollen rosablauen Irokesenschnitt und wurde von allen Piet der Punker genannt, um ihn von anderen Trägern seines Namens zu unterscheiden.",
+            "output": "There was this feller called Pete who used to live in the next street to mine. He sported a glorious pink and blue mohican. Everyone called him Punky Pete to distinguish him from other Petes.",
+            "llm_output": "There was once a guy named Piet who lived one street away from me; he had an impressive pink and blue mohawk and everyone called him Piet the Punker to distinguish him from other people with the same name.",
+            "score": 0.16925466459550803
+        },
+        {
+            "id": 1307,
+            "name": "de_en_48",
+            "input": "Eine Straße weiter von mir wohnte einmal ein Typ namens Piet, der so einen eindrucksvollen rosablauen Irokesenschnitt hatte, dass er von allen einfach Piet der Punker genannt wurde, um ihn von anderen Trägern seines Namens zu unterscheiden.",
+            "output": "There was this feller called Pete who used to live in the next street to mine. He sported a glorious pink and blue mohican. Everyone called him Punky Pete to distinguish him from other Petes.",
+            "llm_output": "A guy named Piet used to live on a street close to me, and he had such an impressive pink and blue mohawk that everyone simply called him Piet the Punker to distinguish him from other people with the same name.",
+            "score": 0.1628643441283735
+        },
+        {
+            "id": 1269,
+            "name": "de_en_10",
+            "input": "Als Faustregel bei allen zur Zeit noch nicht vorhandenen Funktionen gilt, dass es entweder ein sehr weiter Weg bis zur Implementation ist oder überhaupt nie dazu kommt. Es gibt nur wenige Entwickler, zu beheben ist viel, und wie ratsam eine Maßnahme jeweils ist, da gehen die Meinungen immer auseinander, so dass viel hin- und herdiskutiert wird, oft aber nichts dabei herauskommt.",
+            "output": "The rule of thumb is that whatever functionality does not currently exist will either take a very long time to be implemented or never appear. The number of developers is small, the number of things that need to be fixed is huge, and the number of divergent opinions on the advisability of any particular measure is also large, meaning that discussion will take a long time and often not lead to a result.",
+            "llm_output": "As a rule of thumb for all currently non-existent functions, it either takes a very long time to implement them or they may never be implemented at all. There are only a few developers, and there is a lot to fix. Opinions on the advisability of each measure always differ, so there is a lot of back and forth discussion, but often nothing comes of it.",
+            "score": 0.13895340192087186
+        },
+        {
+            "id": 1286,
+            "name": "de_en_27",
+            "input": "„Die ganze Woche Sonne satt bei Temperaturen von 30–35 °C“, erklang die beglückte Stimme der Radiosprecherin bei der Wettervorhersage. – „Die sitzt bestimmt jeden Tag in einem klimatisierten Studio“, kommentierte Tom stöhnend, während der Schweiß in Strömen an ihm niederrann.",
+            "output": "A sun-drenched week, with temperatures between 30 and 35 degrees, purred the beatific voice from the radio presenting the weather forecast. \"No doubt she sits every day in an air-conditioned studio,\" moaned Tom, the sweat pouring off him.",
+            "llm_output": "\"The whole week will be sunny with temperatures ranging from 30-35°C,\" said the delighted voice of the radio presenter during the weather forecast. \"She's probably sitting in an air-conditioned studio every day,\" Tom commented with a groan as sweat poured down his body.",
+            "score": 0.13869428765868777
+        },
+        {
+            "id": 1311,
+            "name": "de_en_52",
+            "input": "Tom kam sich albern dabei vor, einen Hut auf dem Kopf zu tragen und ihn zur Begrüßung anderer zu ziehen. Seinem Vater und Großvater hingegen war dieses Verhalten völlig in Fleisch und Blut übergegangen: bei denen war es ein Reflex.",
+            "output": "Tom felt daft wearing a hat and doffing it to the people he met, but to his father and grandfather, such behaviour was second nature.",
+            "llm_output": "Tom felt silly wearing a hat on his head and tipping it to greet others. However, his father and grandfather had completely internalized this behavior: it was a reflex for them.",
+            "score": 0.1378894112588712
+        },
+        {
+            "id": 1339,
+            "name": "de_en_80",
+            "input": "Bei ausreichender Beleuchtung kann man den Nosferatu anhand seiner spitzen Schneidezähne und seiner Arachnodaktylie, also den extrem langgliedrigen Fingern, leicht von gewöhnlichen Vampiren unterscheiden.",
+            "output": "With adequate lighting, one can easily discern Nosferatu, with his pointed incisors and extremely long-limbed fingers, known as arachnodactyly, from common vampires.",
+            "llm_output": "In sufficient lighting, one can easily distinguish Nosferatu from ordinary vampires by his pointed canine teeth and his arachnodactyly, which are his extremely elongated fingers.",
+            "score": 0.13604509649431445
+        },
+        {
+            "id": 1340,
+            "name": "de_en_81",
+            "input": "„Kommen Sie morgen auch, Herr Müller? Es gibt auch einen Schnaps.“ – „Ach, ich habe in meinem Leben schon so viel gesoffen.“ – „Die Maria kommt auch.“ – „Die Maria? Kann man auch ohne Schnaps mitmachen?“",
+            "output": "Are you coming tomorrow as well, Mr Miller? There'll be a bevvy in it for you. \"Oh, I've had a bevvy too many in my time.\" \"Mary'll be there.\" \"Mary? Could I come if I give the drinks a miss?\"",
+            "llm_output": "\"Are you coming tomorrow too, Mr. Müller? There will also be a schnapps.\" - \"Oh, I've already drunk so much in my life.\" - \"Maria is also coming.\" - \"Maria? Can I join without schnapps?\"",
+            "score": 0.13178518665520647
+        },
+        {
+            "id": 1344,
+            "name": "de_en_85",
+            "input": "„Der Doktor hat doch gesagt, du sollst deine Nerven schonen!“ – „Ja, aber das gilt nicht: das war auf der Straße im Vorübergehen; er hatte keinen weißen Kittel an und trug kein Stethoskop um den Hals.“",
+            "output": "But the doctor said you weren't to do anything stressful! \"Ah, but what he said doesn't count, because he said it in the street in passing, when he didn't have a white coat on or a stethoscope round his neck.\"",
+            "llm_output": "\"The doctor did say that you should take care of your nerves!\" - \"Yes, but that doesn't apply: he said that while passing by on the street; he wasn't wearing a white coat and didn't have a stethoscope around his neck.\"",
+            "score": 0.1306692584160751
+        },
+        {
+            "id": 1287,
+            "name": "de_en_28",
+            "input": "Das Gerät lässt sich nicht mehr hochfahren, außer man hat vorher den Akku herausgenommen und wieder eingesetzt; dann fährt das Gerät manchmal doch kurz hoch, schaltet sich aber meist gleich beim Eingeben der Pinnummer oder spätestens nach drei Minuten von selbst wieder aus.",
+            "output": "The device won't start until the battery has been reseated, at which point it sometimes starts up briefly, but mostly switches itself off just as you're entering the PIN or, at most, three minutes later.",
+            "llm_output": "The device cannot be booted up anymore, unless you remove and reinsert the battery beforehand. Sometimes the device does start up briefly after doing so, but usually it shuts down again either when entering the PIN or at the latest after three minutes.",
+            "score": 0.12761151535061618
+        },
+        {
+            "id": 1334,
+            "name": "de_en_75",
+            "input": "Marias Hund lag friedlich vor der Schlafzimmertür, doch wann immer Tom herbeischlich, weil er zu Maria wollte, die dahinter schlief, wurde er zur bedrohlichen Höllenbestie, die keine Seele an sich vorüberließ.",
+            "output": "Mary's dog lay peacefully outside her bedroom door. However, whenever Tom came creeping up to see Mary, who was sleeping inside, the dog became a terrifying hellhound that wouldn't let a soul pass.",
+            "llm_output": "Maria's dog lay peacefully in front of the bedroom door, but whenever Tom sneaked up because he wanted to see Maria who was sleeping behind it, he turned into a threatening hellish beast that didn't let anyone pass by.",
+            "score": 0.12208868809168641
+        },
+        {
+            "id": 1288,
+            "name": "de_en_29",
+            "input": "Industriegebiete mit Wohnhütten und Ställen, qualmende Schlote und ein riesiger Benzintank, das opulenteste Bordell der Stadt, und ein schlammiger Weg, „Lausgasse“ genannt – nach dem blutsaugenden Insekt – erhoben sich direkt gegenüber vom Reflexionsbecken des Kapitols.",
+            "output": "Industrial neighborhoods that included residential shacks and stables, belching smokestacks and a huge gas-storage tank, the city’s most opulent brothel, and a muddy lane called “Louse Alley” — as in the bloodsucking insect — rose just across the Capitol’s reflecting pool.",
+            "llm_output": "Industrial areas with residential huts and stables, smoking chimneys and a huge gasoline tank, the most opulent brothel in the city, and a muddy path called \"Lausgasse\" - named after the blood-sucking insect - rose directly across from the reflection pool of the Capitol.",
+            "score": 3.984319249134731e-78
+        },
+        {
+            "id": 1336,
+            "name": "de_en_77",
+            "input": "Täglich entfaltet der Frühling seine Reize mehr: die hohen, mit schwarzen Tannen und grauen Felsen durchmischten Berge werden jetzt durch das helle, mannigfaltige Grün des jungen Laubes reizender schattiert.",
+            "output": "Each day, spring reveals more of its charms. The tall mountains, with their patchwork of dark firs and grey rock, are now dappled with a medley of young, bright-green foliage.",
+            "llm_output": "Every day, spring reveals its charms more and more: the tall mountains, mixed with black spruces and grey rocks, are now shaded more attractively by the bright, diverse green of the young leaves.",
+            "score": 3.5127052469408176e-78
+        },
+        {
+            "id": 1345,
+            "name": "de_en_86",
+            "input": "Am Mittwoch sang in einem Stadtteil von Southampton die ganze Straße vom Fenster aus „Happy Birthday“ („Zum Geburtstag“) für das Sophia heißende Mädchen, das mit Tränen vor dem Haus stand und zuhörte.",
+            "output": "The entire street in a Southampton neighborhood Wednesday sang “Happy Birthday” out their windows for the girl—named “Sophia”—who stood outside her home in tears as she listened.",
+            "llm_output": "On Wednesday, the whole street in a neighborhood of Southampton sang \"Happy Birthday\" from their windows for a girl named Sophia, who stood outside the house listening with tears in her eyes.",
+            "score": 3.492232980417672e-78
+        },
+        {
+            "id": 1354,
+            "name": "de_en_95",
+            "input": "Der Speisemeister ruft den Bräutigam und spricht zu ihm: Jedermann gibt zum ersten guten Wein und, wenn sie trunken geworden sind, alsdann den geringeren; du hast den guten Wein bisher behalten.",
+            "output": "Then he called the bridegroom aside and said, \"Everyone brings out the choice wine first and then the cheaper wine after the guests have had too much to drink, but you have saved the best till now.\"",
+            "llm_output": "The master of the feast calls the groom and speaks to him: Everyone serves the good wine first, and when they have drunk freely, then the lesser wine; but you have kept the good wine until now.",
+            "score": 2.8842691808031612e-78
+        },
+        {
+            "id": 1348,
+            "name": "de_en_89",
+            "input": "Überall in Tunesien vertrödeln arbeitslose junge Menschen, darunter auch viele mit Universitätsabschluss, in Cafés oder zu Hause den Tag. Die Arbeitslosigkeitsrate im Land liegt mancherorts über 30 %.",
+            "output": "Across Tunisia, jobless youngsters, including many college graduates, squander their days in coffee shops or homes, in a country where unemployment tops 30% in some places.",
+            "llm_output": "Everywhere in Tunisia, unemployed young people, including many with university degrees, waste their days in cafes or at home. The unemployment rate in the country is sometimes over 30%.",
+            "score": 2.625231597206297e-78
+        },
+        {
+            "id": 1331,
+            "name": "de_en_72",
+            "input": "Bevor Tom weiterzog, versetzte er den Platz, an dem er sein Zelt gebaut hatte, wieder in den Zustand zurück, in dem er ihn vorgefunden hatte. Als er fertig war, sah man nicht mehr, dass dort jemand gezeltet hatte.",
+            "output": "Before moving on, Tom set about putting the spot where he had pitched his tent back the way he had found it. When he had finished, there was no sign that anyone had been camping there.",
+            "llm_output": "Before Tom moved on, he restored the place where he had built his tent to its original state. When he was finished, it was no longer visible that someone had camped there.",
+            "score": 2.561957772588743e-78
+        },
+        {
+            "id": 1301,
+            "name": "de_en_42",
+            "input": "Gerade sind mir auf der Straße Tom und Maria entgegengekommen, aber obwohl ich sie ganz freundlich begrüßte, nahmen sie überhaupt keine Notiz von mir, sondern gingen einfach nur mit in Grimm versteinerten Mienen an mir vorbei. Ich war ganz erschrocken.",
+            "output": "Tom and Mary were just now coming towards me in the street but, although I said a friendly hello, they completely blanked me and passed by in stony-faced silence. I was completely shocked.",
+            "llm_output": "Just now, Tom and Maria crossed my path on the street, but even though I greeted them very friendly, they didn't even acknowledge me and just walked past me with grim, petrified faces. I was quite shocked.",
+            "score": 2.5487777120041835e-78
+        },
+        {
+            "id": 1355,
+            "name": "de_en_96",
+            "input": "Kündigt der Vermieter den Mietvertrag wegen Mietrückstand fristlos, kann der Mieter diese Kündigung durch Begleichen der Mietschuld innerhalb einer Schonfrist von zwei Monaten unwirksam machen.",
+            "output": "If a landlord cancels a tenancy agreement without notice because of rent arrears, the tenant has a two-month grace period in which to pay the outstanding debt and thereby render the notice to quit null and void.",
+            "llm_output": "If the landlord terminates the lease agreement due to rent arrears without notice, the tenant can render this termination ineffective by paying the outstanding rent within a grace period of two months.",
+            "score": 7.002391886115768e-155
+        }
+    ],
+    "history_criterion": "median"
+}

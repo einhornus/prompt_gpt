@@ -1,0 +1,333 @@
+{
+    "system_message_file": "6",
+    "model": "deep_l",
+    "parameters": {
+        "src": "Korean",
+        "dest": "English"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.41955067436753624
+    ],
+    "prompt": [],
+    "median": 0.41955067436753624,
+    "average": 0.41581572418251683,
+    "std": 0.3240308381878778,
+    "percentiles": {
+        "10": 6.163323610173239e-155,
+        "20": 5.051492727935745e-78,
+        "25": 5.867946294548818e-78,
+        "30": 0.21447703530887155,
+        "40": 0.3372772317184634,
+        "50": 0.41955067436753624,
+        "60": 0.49306698715412955,
+        "70": 0.5986157240154797,
+        "75": 0.6728585232465376,
+        "80": 0.7138434687472383,
+        "90": 0.881415961294741
+    },
+    "n_tests": 50,
+    "tests": [
+        {
+            "input": "나는 고양이 한 마리와 개 한 마리가 있다. 고양이는 검고 개는 하얗다.",
+            "output": "I have a cat and a dog. The cat is black, and the dog is white.",
+            "llm_output": "I have a cat and a dog. The cat is black and the dog is white.",
+            "score": 1.0
+        },
+        {
+            "input": "이 프로그램은 DOS 모드에서 실행할 수 없습니다.",
+            "output": "This program cannot be run in DOS mode.",
+            "llm_output": "This program cannot be run in DOS mode.",
+            "score": 1.0
+        },
+        {
+            "input": "이 컴퓨터는 펜티엄 마이크로프로세서를 탑재했어.",
+            "output": "This computer has a Pentium microprocessor.",
+            "llm_output": "This computer has a Pentium microprocessor.",
+            "score": 1.0
+        },
+        {
+            "input": "그건 내 생각이 아니라 톰의 생각이었어. 내 탓 하지 마.",
+            "output": "It was Tom's idea, not mine. Don't blame me.",
+            "llm_output": "That was Tom's idea, not mine. Don't blame me.",
+            "score": 0.8931539818068694
+        },
+        {
+            "input": "우리 누나는 아버지에게 새 자전거를 사 달라고 부탁했다.",
+            "output": "My sister asked my father to buy her a new bicycle.",
+            "llm_output": "My sister asked my father to buy her a new bike.",
+            "score": 0.8931539818068694
+        },
+        {
+            "input": "실례합니다. 대전에 가는 다음 기차가 몇 시에 있습니까?",
+            "output": "Excuse me. What time is the next train to Taejon?",
+            "llm_output": "Excuse me. What time is the next train to Daejeon?",
+            "score": 0.8801117367933934
+        },
+        {
+            "input": "네가 맞을 지도 모르는데, 난 다른 의견을 갖고 있어.",
+            "output": "You may be right, but I have a different view.",
+            "llm_output": "You may be right, but I have a different opinion.",
+            "score": 0.8801117367933934
+        },
+        {
+            "input": "해가 뜨기까지는 그리 오래 걸리지 않을 것이다.",
+            "output": "It won't be long before the sun rises.",
+            "llm_output": "It won't be long before the sun comes up.",
+            "score": 0.7598356856515925
+        },
+        {
+            "input": "문제는 우리가 가진 돈이 많지 않다는 것이다.",
+            "output": "The problem is that we don't have a lot of money.",
+            "llm_output": "The problem is, we don't have a lot of money.",
+            "score": 0.7426141117870939
+        },
+        {
+            "input": "우리는 2시 30분에 박물관 앞에서 만나기로 했다.",
+            "output": "We're going to meet in front of the museum at 2:30.",
+            "llm_output": "We agreed to meet in front of the museum at 2:30.",
+            "score": 0.7369231628533763
+        },
+        {
+            "input": "폴란드 소녀들은 저스틴 비버가 폴란드를 방문하는 것을 원치 않았다.",
+            "output": "Polish girls didn't want Justin Bieber to come to Poland.",
+            "llm_output": "Polish girls didn't want Justin Bieber to visit Poland.",
+            "score": 0.7080735452207036
+        },
+        {
+            "input": "네가 아인슈타인이 아니라도 그 문제를 풀 수 있다.",
+            "output": "You don't have to be Einstein to work that out.",
+            "llm_output": "You don't have to be Einstein to solve that problem.",
+            "score": 0.6989307622784944
+        },
+        {
+            "input": "영수증을 잃어버려서 이케아와 은행, 둘 다의 고객서비스에 전화해야 했어.",
+            "output": "I lost my receipt and had to call customer service at both IKEA and the bank.",
+            "llm_output": "I lost my receipt and had to call customer service for both Ikea and my bank.",
+            "score": 0.6865065103648591
+        },
+        {
+            "input": "대부분의 사람들은 그런 일에 신경쓰지 않는다.",
+            "output": "Most people don't care about things like that.",
+            "llm_output": "Most people don't care about that.",
+            "score": 0.631914561891573
+        },
+        {
+            "input": "우리 실험은 그의 보고가 정확하지 않았음을 밝혀내었다.",
+            "output": "Our experiment has revealed that his report was inaccurate.",
+            "llm_output": "Our experiments revealed that his report was inaccurate.",
+            "score": 0.6240195441936914
+        },
+        {
+            "input": "단언컨대, 우린 그런 실수를 두 번 다시 하지 않을 거야.",
+            "output": "I can assure you we'll never make that mistake again.",
+            "llm_output": "I can assure you, we won't make that mistake again.",
+            "score": 0.587728372510532
+        },
+        {
+            "input": "내 여동생은 아버지에게 새 자전거를 사 달라고 부탁했다.",
+            "output": "My sister asked my father to buy her a new bicycle.",
+            "llm_output": "My sister asked her father to buy her a new bike.",
+            "score": 0.587728372510532
+        },
+        {
+            "input": "왜 날 파티에 초대하지 않은 거야? \"초대했어! 이메일 못 본 거야?\"",
+            "output": "Why didn't you invite me to the party? \"I did invite you! Haven't you looked at your email?\"",
+            "llm_output": "Why didn't you invite me to the party? \"I did! Didn't you see the email?\"",
+            "score": 0.5719458269745636
+        },
+        {
+            "input": "우리 부모님께서는 나를 배웅하러 공항에 오셨다.",
+            "output": "My parents came to see me off at the airport.",
+            "llm_output": "My parents came to the airport to see me off.",
+            "score": 0.5623413251903491
+        },
+        {
+            "input": "톰은 보스턴이 여행하기 좋은 곳이라고 말했다.",
+            "output": "Tom said Boston is a nice place to visit.",
+            "llm_output": "Tom said Boston is a great place to travel.",
+            "score": 0.5133450480401704
+        },
+        {
+            "input": "나는 격려의 말을 할 수 있었다. 나는 최근에 기분이 정말 안 좋았다.",
+            "output": "I could use some words of encouragement. I’ve been feeling really down lately.",
+            "llm_output": "I could use some words of encouragement. I've been in a really bad mood lately.",
+            "score": 0.47954827989676907
+        },
+        {
+            "input": "내 시각으로 이런 식의 대처는 현명하지 않을 수도 있다.",
+            "output": "From my perspective, this sort of approach may not be wise.",
+            "llm_output": "From my perspective, this may not be wise.",
+            "score": 0.4752203774792173
+        },
+        {
+            "input": "오늘은 너무 힘들어서 오늘 밤 푹 잘 것 같다.",
+            "output": "Today was so hard I think I'll sleep well tonight.",
+            "llm_output": "It's been a long day, and I think I'll sleep well tonight.",
+            "score": 0.4324227075463215
+        },
+        {
+            "input": "우리 할아버지는 제2차 세계 대전 때 돌아가셨다.",
+            "output": "My grandfather was killed in World War II.",
+            "llm_output": "My grandfather died in World War II.",
+            "score": 0.42383656282787796
+        },
+        {
+            "input": "톰, 네가 이제서야 오다니! 난 막 자살할까 그냥 자러갈까 고민하던 참이었었는데.",
+            "output": "Now you come, Tom! I was just debating whether to kill myself or just go to sleep.",
+            "llm_output": "Tom, I can't believe you're here! I was just contemplating whether to kill myself or just go to bed.",
+            "score": 0.4218752038739219
+        },
+        {
+            "input": "그의 아내는 처음으로 코로나19 증상을 보이기 시작했다.",
+            "output": "His wife first started showing symptoms of COVID-19.",
+            "llm_output": "His wife started showing symptoms of COVID-19 for the first time.",
+            "score": 0.4172261448611506
+        },
+        {
+            "input": "해가 뜨기까지는 그리 오래 걸리지 않을 것이다.",
+            "output": "It will not be long before the sun rises.",
+            "llm_output": "It won't be long before the sun comes up.",
+            "score": 0.4111336169005197
+        },
+        {
+            "input": "그는 수년간 택시 운전사로 일해 왔기에 이 도시를 잘 안다.",
+            "output": "Having worked for several years as a taxi driver, he knows the city well.",
+            "llm_output": "He's been a taxi driver for years, so he knows the city well.",
+            "score": 0.3759663529467017
+        },
+        {
+            "input": "사무총장은 전쟁 중인 두 파벌 간에 평화조약을 협상하기 위해서 필사적으로 노력하고 있다.",
+            "output": "The Secretary General is making a last-ditch effort to negotiate a peace treaty between the two warring factions.",
+            "llm_output": "The Secretary-General is desperately trying to negotiate a peace treaty between two warring factions.",
+            "score": 0.35188441197178316
+        },
+        {
+            "input": "톰은 거짓말 탐지기 테스트를 받는 것에 동의했다.",
+            "output": "Tom has agreed to take a lie detector test.",
+            "llm_output": "Tom agreed to take a polygraph test.",
+            "score": 0.3419177649965185
+        },
+        {
+            "input": "그의 회사가 생산하는 기계가 우리것보다 뛰어나다.",
+            "output": "Machines that his company produces are superior to ours.",
+            "llm_output": "The machines his company produces are better than ours.",
+            "score": 0.3303164318013807
+        },
+        {
+            "input": "만약 네티즌들이 벌이라면 벌통은 누구의 것인가?",
+            "output": "If Internet users are bees, who owns the beehives?",
+            "llm_output": "If netizens are the bees, who owns the hive?",
+            "score": 0.3303164318013807
+        },
+        {
+            "input": "마지막 피자 한 조각을 제가 먹어도 괜찮을까요?",
+            "output": "Would it be OK if I ate the last slice of pizza?",
+            "llm_output": "Would you mind if I ate that last slice of pizza?",
+            "score": 0.3203558799120807
+        },
+        {
+            "input": "톰은 원래 함부르크에서 브레멘으로 가려고 했는데, 실수로 베를린 직행 기차를 타게 되었던 것이다. 그는 잘못을 깨닫곤 눈물을 글썽였다.",
+            "output": "Tom originally wanted to go from Hamburg to Bremen, but he mistakenly boarded a direct train to Berlin. After realizing his mistake, he had tears in his eyes.",
+            "llm_output": "Tom had originally intended to go from Hamburg to Bremen, but had accidentally boarded a train direct to Berlin. When he realized his mistake, he burst into tears.",
+            "score": 0.31823566221963034
+        },
+        {
+            "input": "'고기능 자폐증'은 의학용어나 진단명이 아니야.",
+            "output": "High-functioning autism isn't an official medical term or diagnosis.",
+            "llm_output": "\"High functioning autism\" is not a medical term or diagnosis.",
+            "score": 0.23462350320528
+        },
+        {
+            "input": "마음에 드는 돌멩이를 집었으면, 얼른 집으로 가져가 잘 돌보도록 한다. 그게 그대의 유일한 돌멩이이기 때문이다.",
+            "output": "Once you've picked up a stone that you like, take it home as soon as you can and treat it well, because that's the only stone you've got.",
+            "llm_output": "Once you've picked up your favorite rock, take it home and take care of it. For it will be your only stone.",
+            "score": 0.16746861021725198
+        },
+        {
+            "input": "메리와 앨리스가 서로 자매라는 것을 알고 있었어?",
+            "output": "Did you know Mary and Alice were sisters?",
+            "llm_output": "Did you know that Mary and Alice are sisters?",
+            "score": 7.051402097550211e-78
+        },
+        {
+            "input": "비행기는 오후 2시 30분에 보스턴을 떠났다.",
+            "output": "The plane took off from Boston at 2:30.",
+            "llm_output": "The plane left Boston at 2:30 pm.",
+            "score": 5.473461026881688e-78
+        },
+        {
+            "input": "그 소녀들은 내일 테니스를 치고 싶어하지 않는다.",
+            "output": "The girls won't play tennis tomorrow.",
+            "llm_output": "The girls don't want to play tennis tomorrow.",
+            "score": 5.30941411456236e-78
+        },
+        {
+            "input": "이 문장은 언어 학습자에게 별로 도움이 되지 않는다.",
+            "output": "This sentence isn't useful for language learners.",
+            "llm_output": "This sentence is not very helpful to language learners.",
+            "score": 5.072841446586652e-78
+        },
+        {
+            "input": "나는 가족을 먹여 살리기 위해 열심히 일했다.",
+            "output": "I worked hard in order to support my family.",
+            "llm_output": "I worked hard to feed my family.",
+            "score": 4.966097853332116e-78
+        },
+        {
+            "input": "저는 다른 사람들의 다양한 생각을 듣고싶어요.",
+            "output": "I'd like to hear other people's different thoughts.",
+            "llm_output": "I like to hear different thoughts from different people.",
+            "score": 4.93774155603311e-78
+        },
+        {
+            "input": "내가 이렇게 건강한 것은 우리 부모님 덕이다.",
+            "output": "I owe it to my parents that I'm so healthy.",
+            "llm_output": "I owe my health to my parents.",
+            "score": 3.56562629278477e-78
+        },
+        {
+            "input": "톰은 마침내 용기를 내어 메리에게 데이트 신청을 했다.",
+            "output": "Tom finally gathered up his courage and asked Mary out on a date.",
+            "llm_output": "Tom finally plucked up the courage to ask Mary out.",
+            "score": 6.677571628641163e-155
+        },
+        {
+            "input": "이미 이사했습니다. 이제 자신은 혼자 살고 있습니다.",
+            "output": "I've moved out already. Now I live alone.",
+            "llm_output": "You've already moved out and now find yourself living on your own.",
+            "score": 6.311514251575017e-155
+        },
+        {
+            "input": "계획을 세우는 것과 그것을 실행하는 것은 별개의 문제다.",
+            "output": "Making a plan and actually following through are two separate problems.",
+            "llm_output": "It's one thing to have a plan, it's another to execute it.",
+            "score": 4.829607837557235e-155
+        },
+        {
+            "input": "우리는 인접 국가들과의 교역을 촉진하여야 합니다.",
+            "output": "We must promote commerce with neighboring countries.",
+            "llm_output": "We should promote trade with our neighbors.",
+            "score": 1.4740564900137075e-231
+        },
+        {
+            "input": "부자인데 착한 게 아니라, 부자라서 착한 것이다.",
+            "output": "I'm not nice even though I'm rich; I'm nice because I'm rich.",
+            "llm_output": "You're not good because you're rich, you're good because you're rich.",
+            "score": 1.2247502623754442e-231
+        },
+        {
+            "input": "그래서 나는 프랑스에 오래 머무르고 싶고, 그러기 위한 돈이 필요하다.",
+            "output": "This is why I would like an extended visa, as well as funds for my stay.",
+            "llm_output": "So I want to stay in France for a long time, and I need money to do it.",
+            "score": 1.1640469867513693e-231
+        },
+        {
+            "input": "그들사이의 두터운 정을 보여준다. (반영한다)",
+            "output": "There were deep feelings between the two.",
+            "llm_output": "It shows a strong bond between them. (Reflect)",
+            "score": 1.0244914152188952e-231
+        }
+    ]
+}

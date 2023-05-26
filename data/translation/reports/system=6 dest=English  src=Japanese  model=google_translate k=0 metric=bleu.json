@@ -1,0 +1,333 @@
+{
+    "system_message_file": "6",
+    "model": "google_translate",
+    "parameters": {
+        "src": "Japanese",
+        "dest": "English"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.1417496333831168
+    ],
+    "prompt": [],
+    "median": 0.1417496333831168,
+    "average": 0.1937073526192092,
+    "std": 0.18991893369499824,
+    "percentiles": {
+        "10": 5.3724386327960365e-155,
+        "20": 1.4398407240489195e-78,
+        "25": 2.880925702304271e-78,
+        "30": 0.031898294314527356,
+        "40": 0.0944161212595673,
+        "50": 0.1417496333831168,
+        "60": 0.2360739400313135,
+        "70": 0.28186855231846814,
+        "75": 0.2984796457854051,
+        "80": 0.3401458272729948,
+        "90": 0.4309509662310921
+    },
+    "n_tests": 50,
+    "tests": [
+        {
+            "input": "人が何かを始める時、 かならず戸惑いがある。 初めての教室に入る時、 初めて車で道に出る時、 初めてバイトをする時、 初めて誰かに好きだという時。 人生の中に「初めて」は、 たくさんある。",
+            "output": "When starting something, there is necessarily some confusion. The first time you enter a classroom, the first time you drive on the road, the first time you work part-time, the first time you like someone... there are many “firsts” in life.",
+            "llm_output": "When people start something, there is always confusion. The first time you enter a classroom, the first time you drive on the road, the first time you work part-time, the first time someone says you like them. There are many “firsts” in life.",
+            "score": 0.7321793991029903
+        },
+        {
+            "input": "ここ浄閑寺、通称「投げ込み寺」の墓地には、最後の休息場所を見つけた何千もの遊女、いわゆる「楽しみのための女性」の慰霊碑があり、それは言い知れない哀愁に満ちていて、どういうわけか何度でもここに戻ってきたい気持ちが沸き起こる。",
+            "output": "Here at the Jokanji, also known as the \"Nagekomi-dera\", in the cemetery there is a memorial to thousands of prostitutes, the so-called \"women of pleasure\", who have found their final resting place here. It's filled with an indescribable melancholy, and, for some reason, it makes me want to come back here again and again.",
+            "llm_output": "Here in the cemetery of Jokanji, commonly known as the \"Nagekomi-dera\", there is a memorial to thousands of prostitutes, the so-called \"women for pleasure\", who have found their final resting place, filled with indescribable melancholy, For some reason, it makes me want to come back here again and again.",
+            "score": 0.6571847476069994
+        },
+        {
+            "input": "今晩は、「ひよこ豆」の代わりに「金時豆」を使ってカレーを作ってみたんだけど、「ひよこ豆」に飽き飽きしてた母さんからは、めっちゃ好評でした。",
+            "output": "Tonight I tried making curry with kidney beans instead of chickpeas, and my mother, who was tired of chickpeas, really liked it.",
+            "llm_output": "Tonight, I tried making a curry using red kidney beans instead of chickpeas, and my mother, who is tired of chickpeas, really liked it.",
+            "score": 0.635518312561919
+        },
+        {
+            "input": "大問題といえば、今太っているという事じゃなくて、30キロ軽かった時と同じ調子、基本的に同じ速さで全てのことをこなしてることなんです。それが、この体に大きなストレスとしてのしかかってるんです。",
+            "output": "The big problem is not that I'm fat now, but that I'm doing everything with the same rhythm, basically with the same speed as when I was 30 kilos lighter. And it puts a lot of stress on my body.",
+            "llm_output": "The big problem isn't that I'm fatter now, it's that I'm doing everything the same way, basically the same speed as when I was 30kg lighter. That's putting a lot of stress on my body.",
+            "score": 0.46374488009191667
+        },
+        {
+            "input": "今日の夕方から20時にかけ、日本の広い範囲で部分月食が起こります。今回の部分月食は、月の直径の98%が隠れるため、ほぼ皆既月食に近い状態になります。「ほぼ皆既に近い部分月食」は、日本では140年ぶりのことです。お見逃しなく。",
+            "output": "This evening, until 8pm, there will be a partial lunar eclipse over a large area of Japan. Since 98% of the Moon's diameter will be hidden, it will seem almost like a total lunar eclipse. This is the first deep partial eclipse in Japan in 140 years. Don't miss it!",
+            "llm_output": "From this evening to 20:00, a partial lunar eclipse will occur over a wide area of Japan. This partial lunar eclipse will be close to a total lunar eclipse, as 98% of the moon's diameter will be hidden. This is the first partial lunar eclipse in Japan in 140 years. Do not miss it.",
+            "score": 0.4472775059832614
+        },
+        {
+            "input": "英語がどうやったら上達するか、ずっと悩んでるの。時々、言いたいこととか状況が説明できなかったり、自分でいい表現が浮かばなかったりするのよ。どうしたら、うまくできるようになると思う？",
+            "output": "I keep wondering how I can improve my English. Sometimes I can't explain what I'm trying to say or what the situation is, or I just can't come up with a good way to describe it myself. How do you think I can improve?",
+            "llm_output": "I've been wondering how to improve my English. Sometimes I can't explain what I want to say or the situation, or I can't come up with a good expression on my own. How do you think you can do better?",
+            "score": 0.4291369062586288
+        },
+        {
+            "input": "科学者は、正しい質問を問いかける方法と、答えが、「かもしれない」ではなく、事実上、明確なイエスかノーになるほど明確にその質問を述べる方法を知っていなければならなかったのである。",
+            "output": "A scientist had to know how to ask the correct question and to state it so clearly that the answer would be, in effect, a definite yes or no, not \"maybe\".",
+            "llm_output": "Scientists had to know how to ask the right questions and how to state them so clearly that the answer was, in effect, a clear yes or no, rather than \"maybe.\"",
+            "score": 0.40692493986008865
+        },
+        {
+            "input": "一つには、西洋人ではない人々が自分たち独自の文化に誇りを持ち始めてきたためと、また一つには、フォークを使わないそれらの地域は最も高い出生率の地域を抱えているという理由から、このことは当たっている。",
+            "output": "This is true partly because non-Westerners have begun to take pride in their own cultures and partly because those areas of the world where forks are not used have some of the highest birth rates.",
+            "llm_output": "Partly because non-Western people have begun to take pride in their own culture, and partly because those regions that do not use forks have the highest birth rates. So this is true.",
+            "score": 0.3917262260497125
+        },
+        {
+            "input": "星空を見上げると、音もしないで何匹も蝙蝠が飛んでいる。その姿は見えないが、瞬間瞬間光を消す星の工合から、気味の悪い畜類の飛んでいるのが感じられるのである。",
+            "output": "If you look up at the starry sky, you'll find many bats on the wing, making not a sound. You can't quite make them out, but, from the way the stars disappear moment by moment, you can sense their eerily flying about.",
+            "llm_output": "When you look up at the starry sky, you can see many bats flying without making a sound. You can't see them, but you can feel the creepy animals flying around from the way the stars turn off their light moment by moment.",
+            "score": 0.38136138778988093
+        },
+        {
+            "input": "今日ね、常務がパソコン持って来たの。もうねぇ、びっくりして「どうなされたんですか？」って聞いたら「パソコンが動かなくなったから電話したんだけど、田中くんが４階まで持って来いって言うから、持ってきたよ」って。みんな顔面蒼白状態。まぁ、言うまでもなくその後、田中、部長にこっぴどく叱られてたけどね。仕方ないよね。けど、次は我が身。気を付けようって思った。",
+            "output": "Today, the managing director came in carrying a computer. Well, I was surprised and asked, \"Can I help you with anything?\", and he said, \"My computer stopped working, so I called, but Tanaka told me to bring it up to the 4th floor, so here I am.\" Everyone turned pale. Well, needless to say, our boss gave Tanaka a real going-over. It couldn't be helped. It could've been any one of us though, so I thought, \"I better be careful.\"",
+            "llm_output": "Today, managing director brought a computer. I was surprised and asked, \"What happened?\", and he said, \"My computer stopped working, so I called you, but Tanaka-kun asked me to bring it up to the 4th floor, so I brought it.\" Everyone's face is pale. Well, needless to say, after that, I was severely scolded by Tanaka and the manager. I can't help it. But next is myself. I thought I should be careful.",
+            "score": 0.36510217479467344
+        },
+        {
+            "input": "この団体は、旅行や健康管理といったことに関する情報を配布し、保険業や医療や住宅供給を規制する法律の制定といった、この年齢層の人々に影響のある諸問題に関して投票権を行使するように会員に勧めている。",
+            "output": "This group passes out information on such things as travel and health care, and encourages its members to vote on issues that affect this age group such as legislation regulating the insurance industry, medical care and housing.",
+            "llm_output": "The organization distributes information about things like travel and health care, and encourages people to exercise their voting rights on issues that affect this age group, such as the enactment of laws regulating insurance, health care, and housing. I recommend it to my members.",
+            "score": 0.333906740392575
+        },
+        {
+            "input": "ウーバードライバーとスモールトークをしようと思ってるんだけど、何を話したらいいかとか、どんなこと聞いたらいいかとかよく分かんなくて。どんなこと話したらいいと思う？なんかいいアイディアがあったら教えてくれない？",
+            "output": "I've been thinking I might want to engage in small talk with my Uber driver, but I'm not sure what to talk about or what to ask. Could you give me any ideas as to what I should talk about?",
+            "llm_output": "I'm thinking of having a small talk with an Uber driver, but I'm not sure what to say or what to ask. What do you think we should talk about? If you have any good ideas, can you tell me?",
+            "score": 0.3251617084082303
+        },
+        {
+            "input": "読書の選択やまた読書の仕方について学生達から質問を受けたことが度々ある。これに対する自分の答はいつも不得要領に終る外はなかった。如何なる人に如何なる恋をしたらいいかと聞かれるのと大した相違はないような気がする。",
+            "output": "I am often questioned by students about how I choose books to read and how I read them. My answers to these questions have always been vague. I feel it is not so different from being asked what kind of person one should fall in love with.",
+            "llm_output": "I have often had students ask me questions about my reading choices and how I read. My answer to this question was always unsatisfactory. I don't think it's much different from being asked what kind of person you should fall in love with.",
+            "score": 0.29977435261349933
+        },
+        {
+            "input": "確かにライターをやっていたことはあるけど、あれは作業員という感じでクリエイターという感じではなかったな。いや仕事の性質がということではなくて、自分自身の心構えがそうだったということだけど。",
+            "output": "It's true that I've been a writer before, but that felt more like I was a worker rather than a creator. It wasn't the nature of the work itself so much as my own mindset about it.",
+            "llm_output": "It's true that I was a writer before, but I felt like a worker, not a creator. No, not because of the nature of the work, but because of my own attitude.",
+            "score": 0.29459552530112243
+        },
+        {
+            "input": "こうした引用は友人に込み入った内容の連絡を行うのに効果的であった。彼の時代では理解してもらえることを充分に期待してそうした作家から引用できたからである。",
+            "output": "These quotations were effective in sending complex messages to his friends, because, in his day, people could quote from such authors with every expectation of being understood.",
+            "llm_output": "These citations were effective in making intricate correspondence to friends. for in his time one could quote from such authors with the full hope of being understood.",
+            "score": 0.2919498564128091
+        },
+        {
+            "input": "僕のおばあちゃんは、93歳です。おばあちゃんが初めてFacebookを知ったのは2年くらい前で、1年ぐらい前に初めてスマホを手にしました。",
+            "output": "My grandma is 93 years old. She first got familiar with Facebook about two years back, and about a year ago she got her first smartphone.",
+            "llm_output": "My grandmother is 93 years old. My grandmother first learned about Facebook about two years ago, and got a smartphone for the first time about a year ago.",
+            "score": 0.2775479934208935
+        },
+        {
+            "input": "「どうだ」と兄はいった。「わたしは正しかった。ここで私が静かに良い生活をしていた。ところが一方、あなたは王になったけれども、多くの苦労をした」",
+            "output": "You see, said the elder brother, \"I was right. Here I have lived quietly and well, while you, though you may have been a king, have seen a great deal of trouble.\"",
+            "llm_output": "\"How is it?\" said my brother. \"I was right. Here I lived quietly and well. On the other hand, although you became king, you suffered a lot.\"",
+            "score": 0.26721296255366983
+        },
+        {
+            "input": "最近ずっと、このお店に通ってます。雰囲気や客層も良いし、何より落ち着くの。ところで、あなたってここで何年働いてるの？ここで働いてて遣り甲斐を感じる？",
+            "output": "Recently I've been going to this shop a lot. The atmosphere is good, the customers are nice, and it's just really calming. How many years have you been working at this shop? Do you find it rewarding to work here?",
+            "llm_output": "I have been going to this store recently. The atmosphere and customer base are good, and most of all, it's relaxing. By the way, how many years have you been working here? Do you feel rewarded working here?",
+            "score": 0.247525392628855
+        },
+        {
+            "input": "優太は、お店の高価な皿を割ってしまたのが亨ではなく葵だと知っていたが、葵をかばって名乗り出た亨の気持ちを察し、本当の事は言わず、ただ自分の胸の内に納めておくことにした。",
+            "output": "Yuta knew that it was Aoi, not Toru, who had broken the expensive plate at the store, but he understood why Toru had covered for Aoi, and so he decided not to say anything on the matter and keep it to himself.",
+            "llm_output": "Yuta knew that it was Aoi, not Toru, who broke the restaurant's expensive plates, but he sensed Toru's feelings for coming forward to protect Aoi, so he didn't tell the truth and just kept his chest. I decided to keep it inside.",
+            "score": 0.23839643794012413
+        },
+        {
+            "input": "後には、その他の多くの国から米国になだれ込んだが、彼らは経済的可能性や宗教的及び政治的自由が大きいという噂に魅せられてやって来たのだった。",
+            "output": "Later, those from many other countries flocked to the United States because they were attracted by reports of great economic opportunities and religious and political freedom.",
+            "llm_output": "Many other countries later flooded into the United States, lured by rumors of its economic potential and religious and political freedom.",
+            "score": 0.23827200226255116
+        },
+        {
+            "input": "ノースウエスタン大学の研究者、アイリーン・ペパーバーグは、オウムは人の口まねをするだけでなく言葉の意味を学ぶことができることを発見しつつある。",
+            "output": "Irene Pepperberg, a researcher at Northwestern University, is discovering that a parrot can not only mimic people but also learn the meaning of words.",
+            "llm_output": "Northwestern University researcher Eileen Pepperberg is discovering that parrots can learn the meaning of words as well as imitate people.",
+            "score": 0.2346085652104884
+        },
+        {
+            "input": "しかし、言語の場合は、私達が遺伝的に受け継ぐのは、話したり、理解したりする能力だけである。私達が話す特定の１つないし複数の言語は、遺伝ではなく、文化的な伝達によって伝えられるのである。",
+            "output": "In the case of language, however, it is only the ability to talk and understand that we inherit genetically; the particular language or languages that we speak are passed on to us not by genetic transmission but by cultural transmission.",
+            "llm_output": "But with language, we inherit only the ability to speak and understand. The particular language or languages we speak are passed down through cultural transmission, not heredity.",
+            "score": 0.22943209719637445
+        },
+        {
+            "input": "曾ては『平和』のために軍備が拡張せられねばならぬと言われた。今は『平和』のために軍備が縮小せられねばならぬと言われる。『平和』がそれを聞いたら何と答えるだろう。",
+            "output": "It was once said that \"peace\" called for the expansion of arms. Now it is said that \"peace\" calls for the reduction of arms. I wonder what \"peace\" would say if she heard that?",
+            "llm_output": "It was once said that armaments must be expanded for the sake of 'peace'. It is said that armaments must now be reduced for the sake of 'peace'. What will \"Peace\" answer if he hears it?",
+            "score": 0.2088211823835882
+        },
+        {
+            "input": "新型コロナウイルスの感染拡大防止のために、ライブイベントの自粛が相次ぐ中、あるエンタテインメント企業は、エンタテインメントの力で少しでも楽しい時間を過ごしてもらえるようにと、所属アーティストのライブ映像コンテンツを期間限定で無料配信すると発表した。",
+            "output": "Amongst a succession of restraints self-imposed by the live event industry to help defend against the spread of the coronavirus, one entertainment company has announced that it will be broadcasting live content of its artists free of charge for a limited time to help make time a little more enjoyable using the power of entertainment.",
+            "llm_output": "In order to prevent the spread of the new coronavirus infection, live events are being voluntarily canceled one after another, and an entertainment company has released live video content of their artists for a limited time so that they can have a little more fun with the power of entertainment. announced free delivery.",
+            "score": 0.185819376877512
+        },
+        {
+            "input": "「おじいちゃん、肌着姿でどこいくの？」「ちょっとそこの自販機まで」「おじいちゃん、ここは自分ちじゃないのよ。肌着姿でウロチョロしてたら怒られるから服着てね」",
+            "output": "Grandpa, where are you going with just your underwear on? \"Just to the vending machine over there.\" \"Grandpa, this isn't our house you know. People will get angry if you're wandering around in just your underwear, so put some clothes on, ok?\"",
+            "llm_output": "\"Grandpa, where are you going in your underwear?\" \"Just go to the vending machine over there.\"",
+            "score": 0.14195221973455333
+        },
+        {
+            "input": "「手塩にかけて育てたうちの芽衣をどこの馬の骨かもわからないような奴に、ほいほいやれるか！結婚したいなら、釣書を持ってこい。釣書を！」「はい。持ってきました」「かせっ。えっ、学歴、タトエバ医大、医学部卒。勤務先、タトエバ総合病院。役職、助教授」「まぁ、入りたまえ。おい、お酒を持って来い。早くしろ」",
+            "output": "I've brought Mei up by my own hand. You think I'd give her up so easily to some stranger from who knows where? If you want to marry her, bring me a statement of your qualifications. \"Of course. I've brought it with me.\" \"Give it to me. Huh. Academic background: Tatoeba Medical School, graduate. Place of work: Tatoeba General Hospital. Position: Assistant Professor.\" \"Well then, come on in. Hey, bring some sake! On the double!\"",
+            "llm_output": "\"How can you give me the Mei that I've grown with so much care to someone who doesn't even know where the horse's bones come from? If you want to get married, bring me a fishing book! A fishing book!\" \"Kase. Eh, educational background, graduated from Tatoeba Medical College, medical school. Workplace, Tatoeba General Hospital. Position, assistant professor.\"",
+            "score": 0.14154704703168025
+        },
+        {
+            "input": "「俺なんか生きてたって地球温暖化にしか貢献できないんだ」「そんな悲しいこと言わないで。トムは私を幸せにしてくれる。それが無意味だって言うの？」",
+            "output": "It seems all I can do in my life is contribute to global warming. \"Don't be so depressing. You make me happy, Tom. Doesn't that count for anything?\"",
+            "llm_output": "\"I can only contribute to global warming even if I live.\" \"Don't say such sad things. Tom makes me happy. Are you saying that's pointless?\"",
+            "score": 0.1383752423732088
+        },
+        {
+            "input": "「二軒先の青木さんとこの茉奈ちゃん、女の子を産んだんだって」「えっ、名前なんて言うの？」「『ひまり』って言ってたよ」「どんな字、書くの？」「あっ、聞きそびれちゃった。どんな字、書くんだろうね？」",
+            "output": "I hear two houses away the Aoki's little Mana gave birth to a girl. \"Hm, what's her name?\" \"Himari.\" \"Written how?\" \"Oh, I forgot to ask. Hmm, I wonder how it's written.\"",
+            "llm_output": "\"Aoki-san and this Mana-chan, two houses away, gave birth to a girl.\" \"Eh, what's your name?\" What kind of letters do you write?\"",
+            "score": 0.13083695537415174
+        },
+        {
+            "input": "「あっ、時間ないし。やけっぱちよ。ぶっつけ本番でいこう。明日、がんばろう。もう、どうにでもなれってんだ」「どうしたの？」「明日、ゼミのプレゼンがあるの。資料が今できたんだけど、まだ一度も通してやってないの。どうしよう」「どうにもならないね」",
+            "output": "Oh no, there's not enough time. This is hopeless, I'm just gonna wing it and try my best tomorrow, I don't care anymore. \"What's the problem?\" \"I have an in-class presentation tomorrow, and I have all the materials ready, but I haven't gone over them yet. I've really messed up this time.\" \"Well, no help for it.\"",
+            "llm_output": "\"Oh, I don't have time. I'm in a hurry. Let's go straight to the point. Let's do our best tomorrow. I can't do anything anymore.\" \"What's wrong?\" \"I have a seminar presentation tomorrow. But I haven't gotten through it even once.",
+            "score": 0.1255533443099488
+        },
+        {
+            "input": "「『青木まりこ現象』って知ってる？」「何それ？」「本屋さんに入ったらトイレに行きたくなるって言うやつ。それを投稿した人の名前をとって『青木まりこ現象』っていうんだって」「なるほど。まぁ、言う側は、ダイレクトに言うよりいいけど、全国の『青木まりこ』さんはどう思ってるのかしら」",
+            "output": "Have you heard of the Mariko Aoki phenomenon? \"What's that?\" \"It's when you feel the urge to go to the toilet after you enter a bookstore. It's named after the person who first wrote about it.\" \"Well then, it's a lot better than having to say it directly, but I wonder what Mariko Aoki thinks of it.\"",
+            "llm_output": "\"Do you know the 'Mariko Aoki Phenomenon'?\" \"What is it?\" Yeah.\" \"I see. Well, it's better than saying it directly, but I wonder what \"Mariko Aoki\" all over the country thinks.\"",
+            "score": 0.10821633486159
+        },
+        {
+            "input": "「今度は『呼び出す権限がありません』とか出てるんだけど、これどうしたらいいの？」「権限を与えてやればいいんだよ」「それが分からないから、聞いてるの！」",
+            "output": "Now it's saying something like, 'You don't have permission to execute that command.' What should I do? \"Just grant it authorization.\" \"I don't know how to do that, that's what am asking!\"",
+            "llm_output": "\"This time it says 'I don't have the authority to call', what should I do?\"",
+            "score": 0.07371580085653315
+        },
+        {
+            "input": "「昨夜、遅くまでごそごそしてたわね。何時に寝たの？」「五時。だって、前の日に麻雀しててさぁ、寝たのが明け方で起きたの夕方の５時過ぎだったんだよ。寝れなくて」「なるほどね、朝日と共に寝て、夕日と共に起きるってことね。大学生ならではだよね」",
+            "output": "You were fumbling about until late last night, weren't you? What time did you go to bed? \"Five o'clock. It's because I was playing mahjong the day before. I went to sleep at dawn and got up at 5 in the evening. I couldn't sleep during the night.\" \"I see. So going to sleep with the rising sun and waking with the setting sun. Something you'd only find a university student doing.\"",
+            "llm_output": "\"Last night, you messed around until late. What time did you go to bed?\" I couldn't sleep.” “I see. Sleeping with the sunrise and waking up with the sunset.",
+            "score": 0.07077480839442615
+        },
+        {
+            "input": "「昨日さぁ、冷蔵庫に入ってたトムのチョコ食べたら、マジ切れされちゃったんだけど、そんなに怒らなくてもいいと思わない？」「冷蔵庫のって、あのピンクの箱に入ったやつ？」「そうそう」「そりゃぁ、怒るわよ。あれ本命にもらったチョコだもん」「マジで？」",
+            "output": "Hey, uh, so yesterday, I ate the chocolate Tom had in the fridge, and he got really mad at me. Don't you think his reaction was a bit much? \"By the chocolate in the fridge, do you mean the one that was in that pink box?\" \"Yeah.\" \"Well then, it's no wonder he got mad. That chocolate had real sentiment behind it.\" \"Seriously?\"",
+            "llm_output": "\"Yesterday, when I ate Tom's chocolate in the refrigerator, it was really cut off, but don't you think you shouldn't be so angry?\" That's right.\" \"Well, I'm going to get angry.",
+            "score": 0.059312881922760095
+        },
+        {
+            "input": "「やっと着いた」「おかえり。すごい汗ね」「うん。電動自転車に乗ってる奴に追い越されそうになったから、ちょっと頑張ってみた」「で、どうだったの？」「負けた」",
+            "output": "Phew, I made it. \"Welcome back. You're sweating like crazy.\" \"Yeah. A guy on an electric bike was about to pass me, so I really gave it my all.\" \"And? How'd that go?\" \"I lost.\"",
+            "llm_output": "\"We've finally arrived.\" \"Welcome back. You're sweating a lot.\"",
+            "score": 0.05210845384481429
+        },
+        {
+            "input": "「トム、また落第点を取ったらしいわよ。卒業できないんじゃないの？」「そうなの？困った子ね。まぁ、そのうち卒業するわよ」「母さんはトムには甘いんだから」",
+            "output": "It seems Tom got another failing grade. He won't be able to graduate like this, right? \"Really? He's quite the troublemaker. Well, he will graduate eventually.\" \"It's because you're spoiling him, mom.\"",
+            "llm_output": "\"Tom, I heard you got another failing grade. Can't you graduate?\"",
+            "score": 0.03490033437049682
+        },
+        {
+            "input": "「どのような物件をお探しですか？もしよろしければお伺いしますが」「WiFi付きがないかなと思って」「それでしたら、こちらなどいかがでしょう？」",
+            "output": "What kind of place are you looking for, if I may ask? \"I was wondering if there was one with WiFi.\" \"In that case, how about this one?\"",
+            "llm_output": "“What kind of property are you looking for?",
+            "score": 0.024893534183931972
+        },
+        {
+            "input": "あれからずっと、学校にメールで問い合わせをしてるんだけど、全く答えらしい答えを貰えないのよ。もうね、学校の人って頼りになんないよね。どうしたら早く落ち着くと思う？",
+            "output": "Since then I’ve asked my school some questions over email, but so far I haven't really had an answer. I’m not really able to trust them now. What do you think I can do to calm things down?",
+            "llm_output": "Ever since then, I've been emailing the school to inquire about it, but I haven't gotten an answer that seems like an answer at all. You know, people at school are unreliable. How do you think you can calm down quickly?",
+            "score": 3.218309159015592e-78
+        },
+        {
+            "input": "僕が君に優しくしようと思ったように、誰かに君が優しくされたなら、その人に優しさを返すのは当たり前だけど、それだけじゃなくて、君がその人にされたように、誰かに優しくしてあげなさい。僕はそれだけで十分だ。",
+            "output": "If someone did something kind to you, the way I did for you, you have to be kind back. But not only that, you have to do something kind, in the same way, to someone else. That would be enough for me to be fulfilled.",
+            "llm_output": "If someone treats you kindly like I tried to be kind to you, it's only natural to return kindness to that person. be nice to me That's enough for me.",
+            "score": 2.768464550067164e-78
+        },
+        {
+            "input": "花子は壁に顔を伏せ、数を数え始めました。「いーち、にー、さーん、しー、ごー、ろーく、ひーち、はーち、きゅー、じゅ。もういいかい？」「まぁだだよ」「もういいかい？」「もういいよ」それを聞いて花子は、数を数えている間に隠れた友達を、さがし始めました。",
+            "output": "Hanako turned her head towards the wall and began counting: \"O—ne, Two—, Three—, Four—, Five—, Six—, Se—ven, Eight—, Nine—, Ten. Ready?\" \"Not yet.\" \"Ready now?\" \"Ready.\" She then began to look for her friends who had hidden themselves in the meantime.",
+            "llm_output": "Hanako put her face down on the wall and started counting. \"Ichi, Nii, San, Shii, Go, Roku, Heichi, Hachi, Kyuu, Jyu. Are you ready?\" Are you sure?\" \"Enough.\" Hearing that, Hanako started looking for hidden friends while counting.",
+            "score": 1.895076704383384e-78
+        },
+        {
+            "input": "「そうそう。せめて２階にも増やして欲しい・・・ってなんでお前がここにいる！？」「なんでって、そんなん決まってるやんか。一緒に連れションするためや」",
+            "output": "I know, right? The least they could do is put one on the second floor, too...Wait a mo! Why are you following me!? \"The 'why' is pretty obvious, don't you think? We're going to the bathroom together.\"",
+            "llm_output": "\"Oh yeah. At least I want you to increase it to the second floor... why are you here!?\"",
+            "score": 1.5305448189766006e-78
+        },
+        {
+            "input": "「電動自転車に乗ってる奴ってずるいよな」「どうしたの？」「だって、こっちは一生懸命汗水たらして漕いでるのに、涼しい顔して勝ち誇ったように横を追い抜いてくんだよ。めっちゃ悔しい」",
+            "output": "Those guys on electric bikes, it's not fair. \"What's the matter?\" \"It's just, here I am peddling hard, dripping with sweat, and they come along passing me all calm and triumphant like. It's so infuriating!\"",
+            "llm_output": "\"Those guys riding electric bicycles are sly.\" \"What's wrong?\" It's really frustrating.\"",
+            "score": 1.0770243443381931e-78
+        },
+        {
+            "input": "「田中先輩ね、結婚したみたい」「そうなの？」「インスタに赤ちゃん抱いて女の人と一緒に写ってる写真アップしてた。ほら見て」「ほんとだ。幸せそうね」",
+            "output": "It looks like Tanaka got married. \"Is that so?\" \"He posted a picture of him holding a baby next to a woman. Here, look.\" \"You're right. They look happy, huh?\"",
+            "llm_output": "\"Tanaka-senpai, it looks like you got married.\"",
+            "score": 2.5418089000158863e-79
+        },
+        {
+            "input": "「おかえり。遅かったわね」「うん。いつも電動自転車で抜いてく奴がバッテリーが切れて自転車押してたから手伝ってた。電動自転車って、めっちゃ重いんだよ。びっくりした」「ふぅん。ところで、その子って、女の子？男の子？」「えっ」「何でもない。そうやって恋が芽生えるのかなって思って」",
+            "output": "Welcome back. You're later than usual. \"Yeah. The person who's always passing me on their electric bike had their battery die and was pushing it, so I was helping them. Electric bikes are super heavy; it surprised me.\" \"Hmm. By the way, this kid, is it a girl or boy?\" \"Huh?\" \"Never mind. I was just thinking, 'That's how love begins, isn't it?'\"",
+            "llm_output": "“Welcome back. Is that child a girl or a boy?” “Eh.” “Nothing.",
+            "score": 2.276152828810747e-80
+        },
+        {
+            "input": "最近、気づいたことがあって、普通メッセージの最初にHelloとか書いてから本題に入ると思うんだけど、なんか、いきなり本題に入ってそれだけで送る人も意外に多いのよね。これってどうなの？",
+            "output": "Something caught my attention recently. I usually say hello or something similar at the start of messages before moving on to the topic of the message. But, surprisingly, I've seen a lot of people dive right into the topic and send nothing else. What's up with that?",
+            "llm_output": "Recently, I've noticed something, I think that people usually write \"Hello\" at the beginning of a message and then get to the main topic, but there are surprisingly many people who suddenly get into the main topic and just send it. How about this?",
+            "score": 7.262201587259794e-155
+        },
+        {
+            "input": "一体日本人は生きるということを知っているだろうか。小学校の門を潜ってからというものは、一しょう懸命に此学校時代を駆け抜けようとする。その先きには生活があると思うのである。学校というものを離れて職業にあり附くと、その職業を為し遂げてしまおうとする。その先きには生活があると思うのである。そしてその先には生活はないのである。",
+            "output": "What in the world do the Japanese know about living? From the moment they enter elementary school, they try their hardest to power through the days. They think life begins after that. Once they're out of school and get a job, they work to get it done. They think life begins after that. But life doesn't begin after that.",
+            "llm_output": "Do you know that Japanese people live? After passing through the gates of elementary school, I try my best to run through this school year. I believe that life lies ahead. When you leave school and find a job, you try to complete it. I believe that life lies ahead. And beyond that there is no life.",
+            "score": 5.729630903863338e-155
+        },
+        {
+            "input": "あの子の顔も性格も俺好みでさぁ、一目ぼれしちゃって、ずっと一緒にいたいって思ったんだ。で、どうしたらあの子と結ばれるかとか、どうしたら他の奴らがちょっかいを出さなくなるかとかマジ悩んでてさぁ。頼むからさぁ、この恋を成就させるために力になってくれない？",
+            "output": "I was instantly smitten with her—her face, her personality—and wanted to stay with her forever. And I'm really worried about how I can get together with her and how I can prevent other guys from getting to her. Could you please assist me in making this love a reality and making her fall in love with me as well?",
+            "llm_output": "I liked her face and personality. So, how can I get married to that girl? I'm begging you, can you help me make this love come true?",
+            "score": 2.1577081931903084e-155
+        },
+        {
+            "input": "「『真っ赤っか』って英語で『レッドッド』って言うんじゃないの？『熱っちっち』は『ホットット』でしょ？」「誰がそんなこと言ってた？」「中学ん時に教育実習で来てたきれいな女の先生」",
+            "output": "Isn't 'bright red' 'red-dodo' in English? And 'hot hot hot' is 'hot-toto'? \"Who told you such things?\" \"A pretty lady who taught me in middle school during her teacher training program.\"",
+            "llm_output": "``Isn't ``Makakka'' called ``Reddd'' in English? pretty girl teacher",
+            "score": 2.043443415516384e-155
+        },
+        {
+            "input": "「遅かったわね」「あぁ。『いい仕事するなぁ』って言われてさぁ。断れなくなって、ついついこんな時間までやっちゃった」「ほんと、褒め言葉に弱いんだから」",
+            "output": "You're late. \"Yeah. I was told I've been doing such a good job, so I couldn't say no, and I ended up working late.\" \"You really are a sucker for flattery.\"",
+            "llm_output": "\"You were late, weren't you?\"",
+            "score": 2.0070524149909225e-156
+        },
+        {
+            "input": "「なんでそんなにフランス語に詳しいの？」「そりゃフランス人だもん。詳しいに決まってんじゃん」「でも僕日本人だけど日本語のことそんなにうまく説明できないよ？」",
+            "output": "How do you know French so well? \"Well, I'm French. It's obvious I know it well.\" \"But I'm Japanese and I can't explain Japanese that well!\"",
+            "llm_output": "\"Why are you so familiar with French?\"",
+            "score": 9.779499671563305e-233
+        },
+        {
+            "input": "「漢字って、どうやったら簡単に覚えられますか？」「簡単には覚えられないよ。人それぞれだとは思うけど、覚えたいなら面倒でも書くのが一番だと思うよ」",
+            "output": "What's the easiest way to learn kanji? \"I don't think there is an easy way. It probably varies from person to person, but I think if you really want to learn, the best option is to just write them, even if it's a hassle.\"",
+            "llm_output": "\"How can you easily memorize kanji?\"",
+            "score": 9.109438431329899e-234
+        }
+    ]
+}

@@ -1,0 +1,333 @@
+{
+    "system_message_file": "6",
+    "model": "google_translate",
+    "parameters": {
+        "src": "English",
+        "dest": "Japanese"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.2647624582878202
+    ],
+    "prompt": [],
+    "median": 0.2647624582878202,
+    "average": 0.267698600761366,
+    "std": 0.11377299499112502,
+    "percentiles": {
+        "10": 0.12362459990303101,
+        "20": 0.18887125713880806,
+        "25": 0.20066455586772938,
+        "30": 0.2126360028131188,
+        "40": 0.2428627993453131,
+        "50": 0.2647624582878202,
+        "60": 0.28957247583409235,
+        "70": 0.3068324917702352,
+        "75": 0.31882639257865986,
+        "80": 0.3323710584916744,
+        "90": 0.38725708591818087
+    },
+    "n_tests": 50,
+    "tests": [
+        {
+            "input": "The Nairobi-based fashion designer, who has successfully carved herself a niche in Kenya’s fashion industry, said many small business owners are happy to gain access to “high quality products at affordable prices.”",
+            "output": "ケニアのファッション業界で独自の市場を切り開くことに成功した、ナイロビを拠点とするファッションデザイナーは、多くの小事業主が「高品質の製品を手頃な価格で」手に入れられることに満足していると述べた。",
+            "llm_output": "ナイロビを拠点にケニアのファッション業界でニッチ市場を開拓することに成功したこのファッションデザイナーは、多くの中小企業経営者が「高品質の製品を手頃な価格で」手に入れることができて喜んでいると語った。",
+            "score": 0.6386679572694511
+        },
+        {
+            "input": "In the case of language, however, it is only the ability to talk and understand that we inherit genetically; the particular language or languages that we speak are passed on to us not by genetic transmission but by cultural transmission.",
+            "output": "しかし、言語の場合は、私達が遺伝的に受け継ぐのは、話したり、理解したりする能力だけである。私達が話す特定の１つないし複数の言語は、遺伝ではなく、文化的な伝達によって伝えられるのである。",
+            "llm_output": "しかし、言語の場合、私たちが遺伝的に受け継ぐのは話したり理解したりする能力だけです。私たちが話す特定の言語は、遺伝的伝達によってではなく、文化的伝達によって私たちに伝えられます。",
+            "score": 0.5961056237375221
+        },
+        {
+            "input": "Inside the Hiroshima Peace Memorial Museum, there is a \"Peace Watch Tower\" that counts both the number of days since the nuclear bombing on Hiroshima as well as the days passed since the most recent nuclear weapons testing.",
+            "output": "広島平和資料館内には、「広島への原爆投下からの日数」および「最後の核実験からの日数」を刻む『地球平和監視時計』が設置されています。",
+            "llm_output": "広島平和記念資料館内には、広島への原爆投下からの日数と、最近の核兵器実験からの経過日数をカウントする「平和の監視塔」があります。",
+            "score": 0.4234138786259281
+        },
+        {
+            "input": "Yuta knew that it was Aoi, not Toru, who had broken the expensive plate at the store, but he understood why Toru had covered for Aoi, and so he decided not to say anything on the matter and keep it to himself.",
+            "output": "優太は、お店の高価な皿を割ってしまたのが亨ではなく葵だと知っていたが、葵をかばって名乗り出た亨の気持ちを察し、本当の事は言わず、ただ自分の胸の内に納めておくことにした。",
+            "llm_output": "裕太は、店の高価なお皿を割ったのが亨ではなく葵であることは分かっていたが、亨が葵をかばった理由も理解していたため、この件については何も言わずに胸に秘めておくことにした。",
+            "score": 0.4116268491086201
+        },
+        {
+            "input": "Grandpa, where are you going with just your underwear on? \"Just to the vending machine over there.\" \"Grandpa, this isn't our house you know. People will get angry if you're wandering around in just your underwear, so put some clothes on, ok?\"",
+            "output": "「おじいちゃん、肌着姿でどこいくの？」「ちょっとそこの自販機まで」「おじいちゃん、ここは自分ちじゃないのよ。肌着姿でウロチョロしてたら怒られるから服着てね」",
+            "llm_output": "おじいちゃん、下着だけでどこへ行くの？ 「すぐそこの自動販売機まで。」 「おじいちゃん、ここは私たちの家じゃないんだよ。下着一枚でウロウロしてると怒られるから、ちゃんと服着てね？」",
+            "score": 0.38892542201946895
+        },
+        {
+            "input": "So, I'll be teaching the kids English next time, and while I'm really happy, on the other hand, I'm nervous. I wonder if I'll be able to speak it well? \"That's great! Even if you mess up here and there, it'll just be endearing, so it's fine. Be confident, and do your best!\"",
+            "output": "「今度、子供たちに英語を教えることになったんだけど、嬉しい反面、緊張する。上手く喋れるかな」「すごいじゃん。少々失敗しても、ご愛敬ってことで大丈夫よ。自信もって頑張ってね！」",
+            "llm_output": "それで、今度子供たちに英語を教えることになったのですが、とても嬉しい反面、緊張しています。上手く話せるようになるかな？ 「いいですね！ あちこち失敗しても愛おしいだけなので大丈夫です。自信を持って頑張ってください！」",
+            "score": 0.38707171524025996
+        },
+        {
+            "input": "Here at the Jokanji, also known as the \"Nagekomi-dera\", in the cemetery there is a memorial to thousands of prostitutes, the so-called \"women of pleasure\", who have found their final resting place here. It's filled with an indescribable melancholy, and, for some reason, it makes me want to come back here again and again.",
+            "output": "ここ浄閑寺、通称「投げ込み寺」の墓地には、最後の休息場所を見つけた何千もの遊女、いわゆる「楽しみのための女性」の慰霊碑があり、それは言い知れない哀愁に満ちていて、どういうわけか何度でもここに戻ってきたい気持ちが沸き起こる。",
+            "llm_output": "「投げ込み寺」としても知られるここ浄閑寺の墓地には、ここに終の棲家を見つけた数千人の売春婦、いわゆる「快楽の女」の記念碑があります。なんとも言えない哀愁に満ちていて、なぜか何度でも来たくなる。",
+            "score": 0.36685677095493735
+        },
+        {
+            "input": "Daddy, welcome back! \"Hey, Momoka! I brought you something.\" \"Thanks, Daddy. I was thinking of you all the time when you weren't here.\" \"That's sweet. Thank you. What things were you thinking about daddy?\" \"Well, I was thinking of what kind of doll you'd buy me, whether you'd bring me lots of my favorite candy...and clothes. Whoa, this bear plushie is so cute! It's just the one I wanted. I love you, Daddy.\"",
+            "output": "「パパ、お帰りなさい」「ただいま、萌々香。お土産だよ」「パパ、ありがとう。私ね、パパがいない間も、ずっとパパのこと考えてたのよ」「それは、嬉しいな。ありがとう。パパのどんなことを考えてくれてたの？」「えっとね・・・ パパ、どんなお人形さん買ってきてくれるかなぁとか、萌々香の好きなお菓子いっぱい買ってきてくれるかなぁとか・・・お洋服も。わぁ、このクマちゃんのぬいぐるみかわいい。こんなの欲しかったんだ。パパ、大好き」",
+            "llm_output": "パパ、おかえり！ 「ねえ、モモカ！ 何か持ってきたよ。」 「ありがとう、パパ。あなたがここにいない間、私はいつもあなたのことを考えていました。」 「優しいね。ありがとう。パパのことどんなこと考えてた？」 「さて、どんな人形を買ってくれるのかな、私の大好きなお菓子や洋服をたくさん持ってきてくれるのかな、と考えていたんです。わぁ、このクマのぬいぐるみ、すごくかわいいですね！まさに私が欲しかったものなんです。」パパ大好き。\"",
+            "score": 0.36514532342785005
+        },
+        {
+            "input": "Mom, those mushrooms marinated in soy sauce in the fridge look good. Can I eat some of them? \"Sure, you can, but they made my stomach feel weird when I ate them, so be careful.\" \"Huh? Who made them?\" \"Oh, Grandpa picked out the mushrooms out in the mountains, and then Grandma put them in the soy sauce.\" \"Uh, doesn't that mean that there are inedible mushrooms mixed in there?\" \"Oh, maybe...\"",
+            "output": "「お母さん、冷蔵庫にある『きのこのしょうゆ漬け』美味しそうね。食べていい？」「食べていいけど、食べたらなんかお腹痛くなるから、気をつけてね」「えっ？誰が作ったの？」「あっ、あれはじいちゃんが山で採ってきたキノコをばあちゃんが漬けたのよ」「それって、食べちゃいけないキノコが混ざってるんじゃないの？」「そうなのかしら？」",
+            "llm_output": "お母さん、冷蔵庫にあるキノコの醤油漬けが美味しそうですね。いくつか食べてもいいですか？ 「もちろん食べられますが、食べたらお腹がおかしくなったので気をつけてください。」 「え？誰が作ったの？」 「ああ、おじいちゃんが山でキノコをとってきて、おばあちゃんがそれを醤油に漬けたんだよ」 「えっ、食べられないキノコが混ざっているということですか？」 「ああ、もしかしたら…」",
+            "score": 0.3592990081056168
+        },
+        {
+            "input": "This group passes out information on such things as travel and health care, and encourages its members to vote on issues that affect this age group such as legislation regulating the insurance industry, medical care and housing.",
+            "output": "この団体は、旅行や健康管理といったことに関する情報を配布し、保険業や医療や住宅供給を規制する法律の制定といった、この年齢層の人々に影響のある諸問題に関して投票権を行使するように会員に勧めている。",
+            "llm_output": "このグループは旅行やヘルスケアなどに関する情報を配布し、保険業界、医療、住宅を規制する法律など、この年齢層に影響を与える問題についてメンバーに投票するよう奨励しています。",
+            "score": 0.3395871050092891
+        },
+        {
+            "input": "You speak Spanish at home, and English at school, right? \"Right.\" \"What about when you play basketball with your friends? Do you speak English or Spanish?\" \"English. My friends understand Spanish a bit, but all they know how to say is swear words.\"",
+            "output": "「家ではスペイン語で、学校では英語を話すんだよね？」「そうだよ」「じゃぁ、友達とバスケする時って、英語でするの？それともスペイン語？」「英語だよ。僕の友達は、スペイン語も少しわかるんだけど、でも話せるのはＮＧワードぐらいだから」",
+            "llm_output": "家ではスペイン語、学校では英語を話しますよね？ \"右。\" 「友達とバスケットボールをするときはどうですか？英語かスペイン語を話しますか？」 「英語です。私の友達はスペイン語を少し理解できますが、言い方を知っているのは悪口だけです。」",
+            "score": 0.33056704686227073
+        },
+        {
+            "input": "The big problem is not that I'm fat now, but that I'm doing everything with the same rhythm, basically with the same speed as when I was 30 kilos lighter. And it puts a lot of stress on my body.",
+            "output": "大問題といえば、今太っているという事じゃなくて、30キロ軽かった時と同じ調子、基本的に同じ速さで全てのことをこなしてることなんです。それが、この体に大きなストレスとしてのしかかってるんです。",
+            "llm_output": "大きな問題は、私が今太っていることではなく、すべてを同じリズムで、基本的には30キロ軽くなったときと同じ速度で行っていることです。そしてそれは私の体に大きなストレスを与えます。",
+            "score": 0.32901344743922495
+        },
+        {
+            "input": "I feel like dating a smaller guy doesn't make me feel protected, but rather like I'm going on a trip with a middle schooler. But most people don't really care about height anymore, do they?",
+            "output": "小柄な人と付き合うとね、守られてるって感じがしなくて、中学生と出かけてるような感覚になるんだよ。でも、今時、身長なんて気にしない人の方が多いよね？",
+            "llm_output": "小さい男と付き合うと守られているというより、中学生と旅行に行くような気分になります。でも、ほとんどの人はもう身長なんて気にしていませんよね？",
+            "score": 0.32090940776681987
+        },
+        {
+            "input": "I recently changed the way I take notes, and ever since then I've gained confidence in math. For example, usually when I take tests, I don't know anything, and I get bad grades. But yesterday I took a test, and although I don't know my score yet, I think it went well for once.",
+            "output": "最近ノート取り方を変えて、それから数学に自信がついてきた。例えば、テストの時これまでは、何もわからないから、成績が悪かった。でも、昨日テストをしたら、結果はまだわからないけど、やっと上手くいったと思うよ。",
+            "llm_output": "最近ノートの取り方を変えて以来、数学に自信が持てるようになりました。たとえば、たいていテストを受けるとき、私は何も分からず、悪い成績をとってしまいます。でも、昨日テストを受けて、点数はまだ分かりませんが、一応はうまくいったと思います。",
+            "score": 0.3125773470141798
+        },
+        {
+            "input": "I feel like dating a smaller guy doesn't make me feel protected, but rather like I'm going on a trip with a middle schooler. But most people don't really care about height anymore, do they?",
+            "output": "小柄な人と付き合うと、守られてるって感じがしなくて、中学生と出かけてるようなそんな気がするんだよね。だけど、今時、身長なんて気にする人はもうほとんどいないよね？",
+            "llm_output": "小さい男と付き合うと守られているというより、中学生と旅行に行くような気分になります。でも、ほとんどの人はもう身長なんて気にしていませんよね？",
+            "score": 0.3074114437639814
+        },
+        {
+            "input": "So I was running in the heat, and then suddenly it didn't feel so hot anymore, but the temperature hadn't changed. Turns out, as my coach later pointed out, that was actually the first sign of heat stroke.",
+            "output": "暑い中、ランニングをしてたら、急に暑さを感じなくなってきたんだけど、気温は変わってなかったんだ。後でコーチに指摘されて分かったんだけどね、実はそれは熱中症の初期症状だったんだよ。",
+            "llm_output": "それで暑い中走っていたのに、急に暑く感じなくなったのですが、気温は変わっていませんでした。後でコーチが指摘したように、それが実際には熱中症の最初の兆候だったことがわかりました。",
+            "score": 0.3065843694872011
+        },
+        {
+            "input": "Apparently, this honey is produced in Ukraine. \"Huh. What flower is it made with?\" \"It's a multi-flower honey, made with sunflower and rapeseed. Look, it's written right here.\" \"Oh, it is. Let's try buying this.\"",
+            "output": "「この蜂蜜って、ウクライナ産なんだって」「へぇ。何の花の蜜なの？」「『ひまわり』と『菜の花』の百花蜜なんだって。ここに書いてあるよ。ほらっ」「ホントだ。これ買ってみよう」",
+            "llm_output": "どうやらこの蜂蜜はウクライナ産だそうです。 「へえ。何の花で作られているの？」 「ひまわりと菜種で作った多花蜂蜜です。ほら、ここに書いてありますよ。」 「ああ、そうなんだ。これを買ってみよう。」",
+            "score": 0.3056501762706418
+        },
+        {
+            "input": "What will you wear for graduation ceremony? Long-sleeved kimono? Hakama? Suit? \"Long-sleeved kimono and suit can be worn even if it's not a graduation ceremony, so maybe hakama.\"",
+            "output": "「卒業式って、何着る？振り袖？袴？スーツ？」「振り袖とスーツは、卒業式じゃなくても着れるから、袴かな」",
+            "llm_output": "卒業式には何を着ますか？振袖？袴？スーツ？卒業式でなくても振袖やスーツなら着られるので、袴でもいいかな。",
+            "score": 0.294448273920487
+        },
+        {
+            "input": "Welcome back. You're later than usual. \"Yeah. The person who's always passing me on their electric bike had their battery die and was pushing it, so I was helping them. Electric bikes are super heavy; it surprised me.\" \"Hmm. By the way, this kid, is it a girl or boy?\" \"Huh?\" \"Never mind. I was just thinking, 'That's how love begins, isn't it?'\"",
+            "output": "「おかえり。遅かったわね」「うん。いつも電動自転車で抜いてく奴がバッテリーが切れて自転車押してたから手伝ってた。電動自転車って、めっちゃ重いんだよ。びっくりした」「ふぅん。ところで、その子って、女の子？男の子？」「えっ」「何でもない。そうやって恋が芽生えるのかなって思って」",
+            "llm_output": "おかえり。いつもより遅いですね。 「そうです。いつも電動自転車で私を追い越している人が、バッテリーが上がって押していたので、手伝いました。電動自転車はとても重いので、びっくりしました。」 「うーん。ところでこの子、女の子ですか、それとも男の子ですか？」 \"は？\" 「気にしないでください。『恋ってこうやって始まるんだよね』って思ってただけなんです」",
+            "score": 0.2929831783308516
+        },
+        {
+            "input": "Recently I've been going to this shop a lot. The atmosphere is good, the customers are nice, and it's just really calming. How many years have you been working at this shop? Do you find it rewarding to work here?",
+            "output": "最近ずっと、このお店に通ってます。雰囲気や客層も良いし、何より落ち着くの。ところで、あなたってここで何年働いてるの？ここで働いてて遣り甲斐を感じる？",
+            "llm_output": "最近このお店によく行きます。雰囲気も良くて、お客さんも優しくて、本当に落ち着くお店です。あなたはこの店で何年働いていますか？ここで働くことにやりがいを感じますか？",
+            "score": 0.29159596064996657
+        },
+        {
+            "input": "This is true partly because non-Westerners have begun to take pride in their own cultures and partly because those areas of the world where forks are not used have some of the highest birth rates.",
+            "output": "一つには、西洋人ではない人々が自分たち独自の文化に誇りを持ち始めてきたためと、また一つには、フォークを使わないそれらの地域は最も高い出生率の地域を抱えているという理由から、このことは当たっている。",
+            "llm_output": "これは、非西洋人が自分たちの文化に誇りを持ち始めていることと、フォークが使用されていない地域の出生率が世界で最も高い地域の一部であることが部分的に当てはまります。",
+            "score": 0.2882234859568429
+        },
+        {
+            "input": "In English, \"I am good\" usually means \"I am a good person\" (I don't do bad things). It can also mean \"I am doing well\" or \"I am OK\", but in this case, we would tend to say \"I'm fine\" instead.",
+            "output": "英語で\"I am good\"は、普通「私はいい人です」つまり「悪いことはしません」という意味よ。あとは「私は上手くやってます」「私は大丈夫です」という意味にもなるんだけど、ただこの場合は\"I am good\"と言うよりも\"I'm fine\"と言うことの方が多いかな。",
+            "llm_output": "英語で「I am Good」は通常、「私は良い人です」（私は悪いことをしません）を意味します。 「私は元気です」または「私は大丈夫です」という意味もありますが、この場合は代わりに「私は大丈夫です」と言う傾向があります。",
+            "score": 0.2864054851506483
+        },
+        {
+            "input": "You were fumbling about until late last night, weren't you? What time did you go to bed? \"Five o'clock. It's because I was playing mahjong the day before. I went to sleep at dawn and got up at 5 in the evening. I couldn't sleep during the night.\" \"I see. So going to sleep with the rising sun and waking with the setting sun. Something you'd only find a university student doing.\"",
+            "output": "「昨夜、遅くまでごそごそしてたわね。何時に寝たの？」「五時。だって、前の日に麻雀しててさぁ、寝たのが明け方で起きたの夕方の５時過ぎだったんだよ。寝れなくて」「なるほどね、朝日と共に寝て、夕日と共に起きるってことね。大学生ならではだよね」",
+            "llm_output": "昨夜遅くまで手探りしていましたね。何時に寝ましたか？ 「5時です。前日麻雀をしていたからです。明け方に寝て夕方5時に起きました。夜中は眠れませんでした」。 「なるほど。朝日とともに寝て、夕日とともに起きるということですね。大学生ならではですね」",
+            "score": 0.2824538676215532
+        },
+        {
+            "input": "I am sorry for my odd Japanese. But I cannot speak English. \"Hey, can I ask you something? Are you Japanese?\" \"No. I am an alien.\" \"Ah, I gotcha! I'm a fox, and I'm still trying to learn human languages, so I get what you're going through. English is so friggin' hard, isn't it?\"",
+            "output": "「変な日本語でごめんなさい。でも英語もできません」「ちょっと、聞いてもいい？君は日本人？」「いいえ、宇宙人です」「あ、そういうことね！僕もキツネで、まだ人間の言葉を勉強してるところだから、その気持ち分かるよ！英語、やけに難しいしね〜」",
+            "llm_output": "変な日本語ですみません。でも私は英語が話せません。 「ねえ、一つ聞いてもいいですか？あなたは日本人ですか？」 「いいえ、私は宇宙人です。」 「ああ、分かった！ 私はキツネで、まだ人間の言語を学ぼうとしているところなので、あなたが経験していることはわかります。英語はとても難しいですよね？」",
+            "score": 0.280798075499061
+        },
+        {
+            "input": "I have a tendency to overeat, so I'm somewhat overweight. So, to get me to lose weight, my dad, who's experienced with this, started me on a diet. In this diet, neither my dad nor I will eat breakfast. It's been hard at first, but if I keep going, I'll get used to it and then I'll be able to do it just fine.",
+            "output": "僕には、食べすぎる癖があるんで、ちょっと肥満なんだ。それで、体重を減らすために、同じ経験のあるパパが僕にダイエットを始めさせたんだ。このダイエットでは、パパも僕も朝ご飯を食べない。最初はやっぱり難しかったけどでも頑張ったら慣れて、ちゃんとできる。",
+            "llm_output": "私は過食する傾向があるので、やや太っています。そこで、私に体重を減らそうと、経験豊富な父がダイエットを始めました。このダイエットでは、父も私も朝食を食べません。最初は大変ですが、続けていけば慣れてきて、上手にできるようになります。",
+            "score": 0.26845146380328794
+        },
+        {
+            "input": "I just ran into a friend today who had transferred schools a while back. \"Cool!\" \"Yeah. Then, we talked about movies, and they suggested we go watch one sometime soon. Is that OK?\" \"Sure! But, is this friend a boy or a girl?\" \".....\"",
+            "output": "「今日さぁ、転校していった友達と偶然会ったんだ」「そうなんだ」「うん。そしたら、映画の話になってさ、『今度一緒に観に行こう！』って言われたんだけど、行ってきていい？」「まぁ、いいけど、その友達って、男の子なの？女の子なの？」「......」",
+            "llm_output": "今日、少し前に転校してきた友達に偶然会いました。 \"いいね！\" 「そうだね。それで映画の話をしたんだけど、近いうちに見に行こうって言われたんだ。いい？」 「そうですよ！でも、この友達は男の子ですか、それとも女の子ですか？」 「……」",
+            "score": 0.2610734527723525
+        },
+        {
+            "input": "I went out for some okonomiyaki yesterday. \"Nice! I'm jealous.\" \"I also took some pictures. Want to see them?\" \"Yeah! Ohh, they look so good.\" \"This white one over here is double cheese. Let's try it whenever we go together.\"",
+            "output": "「昨日ね、お好み焼き食べに行ってきた」「いいね！羨ましいな〜」「写真も撮ったよ。見る？」「うん！あー、おいしそう」「この白いのはね、ダブルチーズ焼きよ。一緒に行ったら、これにしようね」",
+            "llm_output": "昨日はお好み焼きを食べに行きました。 「いいですね！うらやましいです」 「私も写真を撮りました。見たいですか？」 「そうだね！ ああ、すごくいい感じだね。」 「ここの白いのはダブルチーズだよ。今度一緒に行ったら食べてみようね。」",
+            "score": 0.26048980686166295
+        },
+        {
+            "input": "Later, those from many other countries flocked to the United States because they were attracted by reports of great economic opportunities and religious and political freedom.",
+            "output": "後には、その他の多くの国から米国になだれ込んだが、彼らは経済的可能性や宗教的及び政治的自由が大きいという噂に魅せられてやって来たのだった。",
+            "llm_output": "その後、大きな経済的機会と宗教的および政治的自由の報告に惹かれて、他の多くの国から人々が米国に集まりました。",
+            "score": 0.24942042414245144
+        },
+        {
+            "input": "I keep wondering how I can improve my English. Sometimes I can't explain what I'm trying to say or what the situation is, or I just can't come up with a good way to describe it myself. How do you think I can improve?",
+            "output": "英語がどうやったら上達するか、ずっと悩んでるの。時々、言いたいこととか状況が説明できなかったり、自分でいい表現が浮かばなかったりするのよ。どうしたら、うまくできるようになると思う？",
+            "llm_output": "どうしたら英語が上達するかずっと考えています。時々、自分が言おうとしていることや状況が説明できないこともあれば、自分自身でそれを説明する良い方法が思いつかないこともあります。どうすれば改善できると思いますか?",
+            "score": 0.24775537994951824
+        },
+        {
+            "input": "Mum, I'm going out. \"Where to?\" \"University?\" \"Isn't it spring break now? What are you going there for?\" \"A club?\" \"Looking that smart?\" \"It's all right isn't it? It shouldn't matter where I go.\" \"Fine, but you've got bed hair at the back.\" \"Seriously?\"",
+            "output": "「母さん、出かけてくる」「どこ行くの？」「大学？」「今、春休みだよね？何しに行くの？」「サークル？」「そんなおしゃれして？」「いいじゃんかぁ、どこでも」「いいけど。後ろ、寝癖ついてるわよ」「まじかぁ」",
+            "llm_output": "お母さん、出かけるよ。 \"どこへ？\" \"大学？\" 「今は春休みじゃないの？何しに行くの？」 \"クラブ？\" 「そんなに賢そうに見える？」 「大丈夫ですよね？どこに行っても大丈夫ですよ」 「いいけど、後ろに寝毛があるね。」 \"真剣に？\"",
+            "score": 0.24298483780893726
+        },
+        {
+            "input": "I had to keep company to the toilet all last night after getting stomach ache from the oysters I ate. \"Are you okay? Do you need to take today off?\" \"Yeah, I will.\" \"Alright. I'll let everyone know so make sure you get some good rest.\" \"Thank you.\"",
+            "output": "「昨夜、牡蠣食べたら、お腹痛くなって夜からずっとトイレとお友達なの」「大丈夫？今日休む？」「うん。そうする」「じゃぁ、みんなには伝えとくから、ゆっくり休んでね」「ありがとう」",
+            "llm_output": "昨夜は牡蠣を食べたせいでお腹が痛くなり、ずっとトイレに付き添わなければなりませんでした。 「大丈夫ですか？今日はお休みしてもいいですか？」 \"はい、やります。\" 「分かった。みんなに知らせるからゆっくり休んでね」 \"ありがとう。\"",
+            "score": 0.24267974164987688
+        },
+        {
+            "input": "You're going to college from your parents' house, right? \"Yeah.\" \"What are you going to do about a job? Are you going to try finding somewhere you could go to from there? Or do you want to start living alone?\" \"Yeah, I think I want to leave and get my own place.\"",
+            "output": "「大学は今、家から通ってるんだよね？」「そうよ」「就職はどうするの？家から通えるところにするの？それとも一人暮らしがしたいの？」「そうね。家から出て一人暮らしがしたいな」",
+            "llm_output": "実家から大学に通うんですよね？ \"うん。\" 「仕事はどうする？そこから行けるところを探してみる？それとも一人暮らしを始める？」 「そうですね、ここを出て自分の居場所を見つけたいと思います。」",
+            "score": 0.23721239849137404
+        },
+        {
+            "input": "Those guys on electric bikes, it's not fair. \"What's the matter?\" \"It's just, here I am peddling hard, dripping with sweat, and they come along passing me all calm and triumphant like. It's so infuriating!\"",
+            "output": "「電動自転車に乗ってる奴ってずるいよな」「どうしたの？」「だって、こっちは一生懸命汗水たらして漕いでるのに、涼しい顔して勝ち誇ったように横を追い抜いてくんだよ。めっちゃ悔しい」",
+            "llm_output": "電動自転車に乗っている人たち、それは不公平です。 \"どうしたの？\" 「ただ、ここで私が汗だくになりながら懸命に行商しているのに、彼らはまるで平静で勝ち誇ったかのように私の横を通り過ぎていきます。とても腹立たしいです！」",
+            "score": 0.22221879563929248
+        },
+        {
+            "input": "Hey, uh, so yesterday, I ate the chocolate Tom had in the fridge, and he got really mad at me. Don't you think his reaction was a bit much? \"By the chocolate in the fridge, do you mean the one that was in that pink box?\" \"Yeah.\" \"Well then, it's no wonder he got mad. That chocolate had real sentiment behind it.\" \"Seriously?\"",
+            "output": "「昨日さぁ、冷蔵庫に入ってたトムのチョコ食べたら、マジ切れされちゃったんだけど、そんなに怒らなくてもいいと思わない？」「冷蔵庫のって、あのピンクの箱に入ったやつ？」「そうそう」「そりゃぁ、怒るわよ。あれ本命にもらったチョコだもん」「マジで？」",
+            "llm_output": "昨日、トムが冷蔵庫にあったチョコレートを食べたら、彼にすごく怒られました。彼の反応は少し過剰だと思いませんか？ 「冷蔵庫の中のチョコレートって、あのピンクの箱に入っていたチョコレートのことですか？」 \"うん。\" 「それなら、彼が怒るのも無理はありませんね。あのチョコレートには本当の感情が込められていたんです」 \"真剣に？\"",
+            "score": 0.2201290523407121
+        },
+        {
+            "input": "Phew, I made it. \"Welcome back. You're sweating like crazy.\" \"Yeah. A guy on an electric bike was about to pass me, so I really gave it my all.\" \"And? How'd that go?\" \"I lost.\"",
+            "output": "「やっと着いた」「おかえり。すごい汗ね」「うん。電動自転車に乗ってる奴に追い越されそうになったから、ちょっと頑張ってみた」「で、どうだったの？」「負けた」",
+            "llm_output": "ふー、できた。 「おかえりなさい。すごい汗をかいていますね。」 「そうですね。電動自転車に乗った人が追い越そうとしていたので、全力で走りました。」 「それで？ どうでしたか？」 \"私は失いました。\"",
+            "score": 0.21290792656941557
+        },
+        {
+            "input": "What's the easiest way to learn kanji? \"I don't think there is an easy way. It probably varies from person to person, but I think if you really want to learn, the best option is to just write them, even if it's a hassle.\"",
+            "output": "「漢字って、どうやったら簡単に覚えられますか？」「簡単には覚えられないよ。人それぞれだとは思うけど、覚えたいなら面倒でも書くのが一番だと思うよ」",
+            "llm_output": "漢字を学ぶ最も簡単な方法は何ですか? 「簡単な方法はないと思います。人によって違うと思いますが、本当に学びたいなら、面倒でも書いてみるのが一番だと思います。」",
+            "score": 0.21200151404842635
+        },
+        {
+            "input": "I bought some ice cream, do you want some? \"What kind?\" \"Uh, either chocolate coconut or rum raisin.\" \"OK, I'll have the chocolate coconut.\" \"Thank you for your purchase. That'll be 250 yen.\" \"What?\" \"Just kidding. Here.\"",
+            "output": "「アイス買ったんだけど、食べたい？」「何アイス？」「えっとねぇ、ココナッツ・チョコかラムレーズン」「じゃぁ、俺、ココナッツ・チョコで」「毎度あり、250円ね」「は？」「冗談よ。どうぞ」",
+            "llm_output": "アイスクリームを買ったんですが、食べますか？ 「何の種類？」 「ああ、チョコレートココナッツかラムレーズンのどちらかです。」 「はい、チョコレートココナッツをいただきます。」 「ご購入ありがとうございます。250円になります。」 \"何？\" 「冗談だよ。ここだよ」",
+            "score": 0.20208758253801035
+        },
+        {
+            "input": "I don't get why test scores are more important for the education system than real learning. Just because that kind of system is easier to implement, doesn't mean it's the best choice.",
+            "output": "教育システムにおいて、本当の学びよりも受験での点数の方がより重要視されるのがわけわからない。こんなの、システムを実行しやすいだけで、ベストな選択じゃないと思うな。",
+            "llm_output": "なぜ教育システムにとって実際の学習よりもテストのスコアの方が重要なのか、私にはわかりません。この種のシステムが実装しやすいからといって、それが最良の選択であるとは限りません。",
+            "score": 0.2001902136443024
+        },
+        {
+            "input": "Oh, Tanaka-san! \"Uh...!\" \"Have you been doing well?\" \"Yeah. Um, uh...! Oh my god, I'm so sorry, but your name is slipping my mind. What's your name again?\" \"Really? Come on. I'm Kunisada. Keiko Kunisada.\" \"Oh, right, Kunisada-san. It's been a while!\"",
+            "output": "「あ、田中さん！」「あっ......！」「元気だった？」「うん。えっと、あっ......！名前ど忘れしちゃった。ごめんなさい。名前なんて言うんだったけ？」「もぉ、国貞よ。国貞恵子」「そうそう、国貞さん。お久しぶり！」",
+            "llm_output": "あ、田中さん！ 「えっ…！」 「元気でしたか？」 「ええと。あの、あの…！ なんと、申し訳ありませんが、あなたの名前が頭から抜け落ちています。もう一度あなたの名前は何ですか？」 「そうですか？さあ、私は国貞です。国定恵子です。」 「そうそう、国貞さん、久しぶりです！」",
+            "score": 0.19682673602033937
+        },
+        {
+            "input": "When I was younger, I hated going to weddings. My grandmothers and aunts would huddle around me, poke me in the side, and giggle \"You're next! You're next!\" They only stopped this nonsense when I began to do the same thing at funerals.",
+            "output": "若い頃ってさぁ、結婚式に行くのが嫌で嫌でたまらなかったわ。おばあちゃんや叔母さんたちがさぁ、寄って集って私の脇腹を突いては「次はあんたの番よ！あんたの！」なんて言いながら、クスクス笑うのよ。私がさぁ、葬式で同じことし始めたらさぁ、あの人たち、やっとこのくだらないことをやめてくれたわ。",
+            "llm_output": "若い頃は結婚式に行くのが大嫌いでした。祖母や叔母たちは私の周りに群がり、私の脇腹を突いて、「次はあなただ！次はあなただ！」と笑いました。私が葬儀の際に同じことをし始めて初めて、彼らはこのナンセンスを止めました。",
+            "score": 0.19089380039310447
+        },
+        {
+            "input": "Hey, uh, so yesterday, I ate the chocolate Tom had in the fridge, and he got really mad at me, but don't you think he kind of overreacted? \"By the chocolate in the fridge, do you mean the one that was in that orange bag?\" \"Yeah.\" \"In that case, I think it was totally justified. He got that chocolate from a girl he really likes.\" \"Oh. I see. I'll apologize to him later, then.\"",
+            "output": "「昨日さぁ、冷蔵庫に入ってたトムのチョコを食べたら、めっちゃ怒られたんだけど、そんなに怒らなくてもいいと思わない？」「冷蔵庫のって、あのオレンジの袋に入ったやつ？」「そうそう」「そりゃぁ、怒っても仕方ないよ。大好きな子にもらったチョコだもん」「そうなんだ。後から謝っとこうっと」",
+            "llm_output": "ねえ、ええと、昨日、トムが冷蔵庫にあったチョコレートを食べたら、彼はすごく怒ったんですけど、ちょっと過剰反応しすぎだと思いませんか？ 「冷蔵庫にあるチョコレートというのは、あのオレンジ色の袋に入っていたチョコレートのことですか？」 \"うん。\" 「その場合、それは完全に正当化されたと思います。彼は本当に好きな女の子からそのチョコレートをもらいました。」 「ああ、そうですか。では、後で彼に謝ります。」",
+            "score": 0.18078108412162244
+        },
+        {
+            "input": "If someone did something kind to you, the way I did for you, you have to be kind back. But not only that, you have to do something kind, in the same way, to someone else. That would be enough for me to be fulfilled.",
+            "output": "僕が君に優しくしようと思ったように、誰かに君が優しくされたなら、その人に優しさを返すのは当たり前だけど、それだけじゃなくて、君がその人にされたように、誰かに優しくしてあげなさい。僕はそれだけで十分だ。",
+            "llm_output": "私があなたにしたように、誰かがあなたに親切なことをしてくれたら、あなたも親切にしなければなりません。しかしそれだけではなく、他の人にも同じように親切なことをしなければなりません。それだけでも私は満たされます。",
+            "score": 0.17803905355367633
+        },
+        {
+            "input": "Now it's saying something like, 'You don't have permission to execute that command.' What should I do? \"Just grant it authorization.\" \"I don't know how to do that, that's what am asking!\"",
+            "output": "「今度は『呼び出す権限がありません』とか出てるんだけど、これどうしたらいいの？」「権限を与えてやればいいんだよ」「それが分からないから、聞いてるの！」",
+            "llm_output": "「そのコマンドを実行する権限がありません」というようなメッセージが表示されます。私は何をすべきか？ 「許可を与えるだけです。」 「やり方がわからない、それが質問なのです！」",
+            "score": 0.17027217229196698
+        },
+        {
+            "input": "I think I forgot to put money in my wallet. \"Huh?\" \"I still have my cards, though...Ah, I don't have my wallet. I must've forgot it. Oh well.\" \"You meant to leech from the start, didn't you?\" \"No, no, I actually forgot it.\"",
+            "output": "「あっ、財布にお金入れてくるの忘れたかも」「なぬっ」「まぁ、カードがあるし......。あっ、財布がない。財布、持ってくるの忘れたかも。まぁ、大丈夫かぁ」「はじめから、人の財布を当てにしてただろう？」「違う。違う。本当に忘れたんだって」",
+            "llm_output": "財布にお金を入れるのを忘れたようです。 \"は？\" 「カードはまだあるんですけど……あ、財布がないんです。忘れたみたいです。まあまあ」 「最初からヒルするつもりだったんじゃないの？」 「いえいえ、実は忘れてたんです。」",
+            "score": 0.1436415789675673
+        },
+        {
+            "input": "Since then I’ve asked my school some questions over email, but so far I haven't really had an answer. I’m not really able to trust them now. What do you think I can do to calm things down?",
+            "output": "あれからずっと、学校にメールで問い合わせをしてるんだけど、全く答えらしい答えを貰えないのよ。もうね、学校の人って頼りになんないよね。どうしたら早く落ち着くと思う？",
+            "llm_output": "それ以来、私は学校にメールでいくつかの質問をしましたが、今のところ明確な答えは得られていません。今は本当に彼らを信用できません。事態を落ち着かせるにはどうすればいいと思いますか?",
+            "score": 0.12441397940098042
+        },
+        {
+            "input": "I've been thinking I might want to engage in small talk with my Uber driver, but I'm not sure what to talk about or what to ask. Could you give me any ideas as to what I should talk about?",
+            "output": "ウーバードライバーとスモールトークをしようと思ってるんだけど、何を話したらいいかとか、どんなこと聞いたらいいかとかよく分かんなくて。どんなこと話したらいいと思う？なんかいいアイディアがあったら教えてくれない？",
+            "llm_output": "Uber ドライバーと世間話をしたいと考えているのですが、何を話せばいいのか、何を質問すればよいのかわかりません。何を話せばよいかアイデアをいただけますか？",
+            "score": 0.11652018442148632
+        },
+        {
+            "input": "Something caught my attention recently. I usually say hello or something similar at the start of messages before moving on to the topic of the message. But, surprisingly, I've seen a lot of people dive right into the topic and send nothing else. What's up with that?",
+            "output": "最近、気づいたことがあって、普通メッセージの最初にHelloとか書いてから本題に入ると思うんだけど、なんか、いきなり本題に入ってそれだけで送る人も意外に多いのよね。これってどうなの？",
+            "llm_output": "最近気になったことがあります。私は通常、メッセージの冒頭で、メッセージの話題に移る前に、こんにちはかそれに似たようなことを言います。しかし、驚くべきことに、多くの人がその話題に真っ直ぐ入り込み、それ以外には何も送信しないのを見てきました。どうしたの？",
+            "score": 0.11290775959859443
+        },
+        {
+            "input": "I was instantly smitten with her—her face, her personality—and wanted to stay with her forever. And I'm really worried about how I can get together with her and how I can prevent other guys from getting to her. Could you please assist me in making this love a reality and making her fall in love with me as well?",
+            "output": "あの子の顔も性格も俺好みでさぁ、一目ぼれしちゃって、ずっと一緒にいたいって思ったんだ。で、どうしたらあの子と結ばれるかとか、どうしたら他の奴らがちょっかいを出さなくなるかとかマジ悩んでてさぁ。頼むからさぁ、この恋を成就させるために力になってくれない？",
+            "llm_output": "私は彼女の顔、性格にすぐに魅了され、永遠に一緒にいたいと思いました。そして、どうすれば彼女と仲良くなれるのか、どうすれば他の男が彼女に近づくのを防ぐことができるのか、とても心配しています。この愛を現実のものにし、彼女も私に恋をするように手伝ってもらえませんか？",
+            "score": 0.10950522161790836
+        },
+        {
+            "input": "Sales department, how can I help you? \"Is Saito there?\" \"Mr. Saito, our manager?\" \"Right.\" \"May I ask who's calling?\" \"It's Tanaka.\" \"Excuse me. Boss! Director Tanaka is on the phone.\"",
+            "output": "「もしもし、営業部です」「斎藤くんいるかね？」「斎藤部長ですか？」「そうだ」「失礼ですが.......」「田中だよ。田中」「失礼しました。部長、田中常務からお電話です」",
+            "llm_output": "営業部門、何かお手伝いできますか? 「斉藤さんはいますか？」 「マネージャーの斉藤さん？」 \"右。\" \"どちら様でしょうか？\" 「田中です。」 「すみません。社長！ 田中部長が電話中です。」",
+            "score": 0.07520465818875897
+        },
+        {
+            "input": "Although I still haven't been able to lose the weight I gained over New Year's, I've not been able to keep myself away from chocolate, as much as I've been trying to resist it.",
+            "output": "正月太りが解消されないから、我慢しようと思ってはいるんだけど、ついついチョコに手が伸びちゃうのよね。",
+            "llm_output": "正月に増えた体重はまだ減りませんが、チョコレートを我慢するほどチョコレートから離れることはできません。",
+            "score": 2.0794542384906613e-78
+        }
+    ]
+}

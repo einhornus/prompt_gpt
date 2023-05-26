@@ -1,0 +1,448 @@
+{
+    "system_message_file": "6",
+    "model": "gpt-4",
+    "parameters": {
+        "src": "French",
+        "dest": "English"
+    },
+    "k": 0,
+    "metric": "bleu",
+    "history": [
+        0.47738763691910907,
+        0.47738763691910907,
+        0.47738763691910907,
+        0.47738763691910907,
+        0.47738763691910907,
+        0.47738763691910907,
+        0.47738763691910907,
+        0.47738763691910907,
+        0.47738763691910907,
+        0.47738763691910907
+    ],
+    "median": 0.47738763691910907,
+    "average": 0.5062490340415094,
+    "std": 0.17368904919599343,
+    "percentiles": {
+        "10": 0.33287352351002686,
+        "20": 0.3811709276477517,
+        "25": 0.40925866811068284,
+        "30": 0.4306652232918156,
+        "40": 0.4512648242384742,
+        "50": 0.47738763691910907,
+        "60": 0.5072322587233634,
+        "70": 0.5643029835321572,
+        "75": 0.5984001231670005,
+        "80": 0.6818516303990007,
+        "90": 0.7734535499793206
+    },
+    "n_tests": 50,
+    "prompt": [
+        {
+            "role": "system",
+            "content": "Please translate the user message from French to English. Make the translation sound as natural as possible."
+        }
+    ],
+    "tests": [
+        {
+            "id": 5519,
+            "name": "fr_en_45",
+            "input": "On voit surtout l'osier dans des petits objets comme les paniers, mais des meubles plus grands comme les chaises ou les tables peuvent aussi être fabriqués en utilisant les mêmes techniques de tressage.",
+            "output": "We mostly see wicker in small items like baskets, but larger furniture like chairs or tables can also be made using the same weaving techniques.",
+            "llm_output": "We mostly see wicker in small items like baskets, but larger furniture such as chairs or tables can also be made using the same weaving techniques.",
+            "score": 0.8531413606256201
+        },
+        {
+            "id": 5520,
+            "name": "fr_en_46",
+            "input": "Le cœur du père se réjouissait de voir son fils qui, avide de connaissances, apprenait si vite et grandissait pour devenir un prêtre érudit, un véritable prince parmi les hommes de savoir de sa caste.",
+            "output": "The father's heart rejoiced to see that son who, eager for knowledge, learned so quickly and grew surely to become a learned priest, a true prince among the men of knowledge of his caste.",
+            "llm_output": "The father's heart rejoiced to see his son, who, eager for knowledge, learned so quickly and grew up to become a learned priest, a true prince among the men of knowledge of his caste.",
+            "score": 0.8452785147119855
+        },
+        {
+            "id": 5487,
+            "name": "fr_en_13",
+            "input": "Le roque est un mouvement spécial aux échecs dans lequel le roi se déplace de deux cases vers la gauche ou la droite et, dans le même mouvement, la tour de ce côté est placée sur la première case traversée par le roi. Il existe plusieurs conditions dans lesquelles le roque peut avoir lieu.",
+            "output": "Castling is a special move in chess whereby the king moves two squares to the left or right, and in the same move, the rook on that side is placed on the first square crossed by the king. There are several conditions for castling to take place.",
+            "llm_output": "Castling is a special move in chess where the king moves two squares to the left or right, and in the same move, the rook on that side is placed on the first square crossed by the king. There are several conditions under which castling can take place.",
+            "score": 0.8358305655897348
+        },
+        {
+            "id": 5523,
+            "name": "fr_en_49",
+            "input": "Ici, en Afrique, on dit que si tu n'arrives jamais à oublier une femme, c'est qu'elle t'a jeté un sort. Mais est-il possible que Marika m'ait jeté un sort pendant que j'étais avec elle en Finlande ?",
+            "output": "Here in Africa, we say that if you never forget a woman, it's because she's cast a spell on you. But is it possible that Marika cast a spell on me while I was with her in Finland?",
+            "llm_output": "Here in Africa, they say that if you can never forget a woman, it's because she has cast a spell on you. But is it possible that Marika cast a spell on me while I was with her in Finland?",
+            "score": 0.8024468307724723
+        },
+        {
+            "id": 5485,
+            "name": "fr_en_11",
+            "input": "Chaque araignée est un génie polyvalent : elle planifie sa toile comme un architecte et exécute ensuite ce plan comme le tisserand compétent qu'elle est. C'est aussi un chimiste qui peut synthétiser la soie en utilisant un processus de fabrication contrôlé par ordinateur, puis utiliser la soie pour la filature.",
+            "output": "Every spider is a versatile genius: It plans its web like an architect and then carries out this plan like the proficient weaver it is. It is also a chemist who can synthesize silk employing a computer-controlled manufacturing process, and then use the silk for spinning.",
+            "llm_output": "Every spider is a versatile genius: it plans its web like an architect and then executes that plan like the skilled weaver it is. It is also a chemist who can synthesize silk using a computer-controlled manufacturing process, and then use the silk for spinning.",
+            "score": 0.78068827547116
+        },
+        {
+            "id": 5483,
+            "name": "fr_en_9",
+            "input": "Avec des performances de haute précision des deux joueurs, le onzième match du Championnat du monde d'échecs FIDE 2023 s'est terminé par un match nul. Maintenant (24 avril) : Nepo 6, Ding Liren 5. Trois matchs nuls supplémentaires suffiront au Russe pour atteindre le décompte (7.5) qui lui donnera le titre de Champion du Monde.",
+            "output": "With high-precision performances from both players, the eleventh match of the FIDE World Chess Championship 2023 ended in a draw. Now (April 24): Nepo 6, Ding Liren 5. Three more draws will be enough for the Russian to reach the tally (7.5) which will give him the title of World Champion",
+            "llm_output": "With high-precision performances from both players, the eleventh game of the FIDE World Chess Championship 2023 ended in a draw. Now (April 24th): Nepo 6, Ding Liren 5. Three more draws will be enough for the Russian to reach the score (7.5) that will grant him the title of World Champion.",
+            "score": 0.7726496915913385
+        },
+        {
+            "id": 5480,
+            "name": "fr_en_6",
+            "input": "Ding Liren est le nouveau champion du monde d'échecs. Au bris d'égalité, les trois premiers matchs se sont soldés par un match nul, et le quatrième, avec Ding en tête des pièces noires dans une ouverture espagnole, a été remporté de manière sensationnelle par le Dragon chinois, qui a ainsi vaincu l'Ours russe, Ian Nepomniachtchi. Le sommet de l'univers des échecs a un nouveau visage.",
+            "output": "Ding Liren is the new World Chess Champion. In the tiebreaker, the first three games ended in a draw, and the fourth, with Ding leading the black pieces in a Spanish opening, was sensationally won by the Chinese Dragon, who thus overcame the Russian Bear, Ian Nepomniachtchi. The top of the chess universe has a new face.",
+            "llm_output": "Ding Liren is the new world chess champion. In the tiebreak, the first three matches ended in a draw, and the fourth, with Ding leading the black pieces in a Spanish opening, was sensationally won by the Chinese Dragon, who thus defeated the Russian Bear, Ian Nepomniachtchi. The summit of the chess world has a new face.",
+            "score": 0.765367801714551
+        },
+        {
+            "id": 5506,
+            "name": "fr_en_32",
+            "input": "Je soutiens que nous sommes tous deux athées. Je crois simplement en un dieu de moins que vous. Quand vous comprendrez pourquoi vous écartez tous les autres dieux possibles, vous comprendrez pourquoi j'écarte le vôtre.",
+            "output": "I contend that we are both atheists. I just believe in one fewer god than you do. When you understand why you dismiss all the other possible gods, you will understand why I dismiss yours.",
+            "llm_output": "I maintain that we are both atheists. I simply believe in one less god than you do. When you understand why you dismiss all other possible gods, you will understand why I dismiss yours.",
+            "score": 0.7105719466255248
+        },
+        {
+            "id": 5496,
+            "name": "fr_en_22",
+            "input": "Grâce à un échange entre la tour et le cavalier sur d4, alors que la partie était égale, Ding Liren (blanc) a facilement remporté la quatrième partie du Championnat du monde d'échecs de la FIDE 2023, en égalisant le match (Nepo 2, Ding 2).",
+            "output": "With a rook-to-knight exchange on d4, when the game was even, Ding Liren (white) easily won the fourth game of the FIDE 2023 World Chess Championship, tying the match (Nepo 2, Ding 2).",
+            "llm_output": "Thanks to an exchange between the rook and the knight on d4, while the game was even, Ding Liren (white) easily won the fourth game of the FIDE 2023 World Chess Championship, tying the match (Nepo 2, Ding 2).",
+            "score": 0.7090042671848261
+        },
+        {
+            "id": 5514,
+            "name": "fr_en_40",
+            "input": "Puissé-je m'éveiller au sein du rêve et saisir le fait que je rêve afin que tous les êtres oniriques puissent également s'éveiller du cauchemar dans lequel sévissent la souffrance et la confusion illusoires.",
+            "output": "May I awaken within the dream and grasp the fact that I am dreaming so that all dream-like beings may likewise awaken from the nightmare of illusory suffering and confusion.",
+            "llm_output": "May I awaken within the dream and grasp the fact that I am dreaming so that all dream beings may also awaken from the nightmare in which illusory suffering and confusion prevail.",
+            "score": 0.6838857661234987
+        },
+        {
+            "id": 5513,
+            "name": "fr_en_39",
+            "input": "La Pologne est située en Europe centrale et partage ses frontières avec l'Allemagne à l'ouest, la République tchèque et la Slovaquie au sud, et l'Ukraine, le Belarus, la Lituanie et un peu de Russie à l'est.",
+            "output": "Poland is located in Central Europe and shares its borders with Germany on the west, the Czech Republic and Slovakia in the south, and Ukraine, Belarus, Lithuania, and a bit of Russia on the east.",
+            "llm_output": "Poland is located in Central Europe and shares its borders with Germany to the west, the Czech Republic and Slovakia to the south, and Ukraine, Belarus, Lithuania, and a small part of Russia to the east.",
+            "score": 0.6813430964678762
+        },
+        {
+            "id": 5497,
+            "name": "fr_en_23",
+            "input": "« Pouvez-vous me dire ce que vous faites dans ma chambre ? » « Rien. Je tenais juste à vérifier l'état de vos fleurs. Je sais à quel point elles sont importantes pour vous. » « Et moi, je suis la reine de Saba. Sortez ! Tout de suite ! »",
+            "output": "Can you tell me what you're doing in my room? \"Nothing. I just wanted to see how your flowers were. I know how important they are to you.\" \"And I'm the Queen of Sheba. Out! Now!\"",
+            "llm_output": "\"Can you tell me what you are doing in my room?\" \"Nothing. I just wanted to check on the condition of your flowers. I know how important they are to you.\" \"And I'm the Queen of Sheba. Get out! Right now!\"",
+            "score": 0.6032520247869543
+        },
+        {
+            "id": 5516,
+            "name": "fr_en_42",
+            "input": "Ses lèvres tremblaient, et les siennes aussi. On ne savait jamais quelles lèvres étaient les premières à se déplacer vers les autres lèvres ; mais ils s'embrassèrent en tremblant, puis ils se séparèrent.",
+            "output": "Her lips trembled, and so did his. It was never known which lips were the first to move towards the other lips; but they kissed tremblingly, and then they moved apart.",
+            "llm_output": "Their lips trembled, and so did hers. One could never tell which lips were the first to move towards the other lips; but they kissed each other tremblingly, and then they parted.",
+            "score": 0.6031798395521694
+        },
+        {
+            "id": 5484,
+            "name": "fr_en_10",
+            "input": "Les Palestiniens et les Juifs israéliens devraient communiquer plus, travailler ensemble pour mettre un terme au sionisme et à l'extrémisme religieux et essayer d'établier un seul État qui mettrait fin à l'immigration juive au nom du sionisme et permettre aux réfugiés palestiniens et leurs descendants de revenir dans leur pays.",
+            "output": "Palestinians and Israeli Jews should communicate more, work together to end Zionism and religious extremism, and try to set up a single state that would stop Jewish immigration in the name of Zionism and allow the Palestinian refugees and their descendants back into their country.",
+            "llm_output": "Palestinians and Israeli Jews should communicate more, work together to put an end to Zionism and religious extremism, and try to establish a single state that would put an end to Jewish immigration in the name of Zionism and allow Palestinian refugees and their descendants to return to their homeland.",
+            "score": 0.5840609740114939
+        },
+        {
+            "id": 5501,
+            "name": "fr_en_27",
+            "input": "Le match pour le Championnat du monde d'échecs FIDE 2023 est à égalité (6 X 6), Ding Liren (Blancs) ayant remporté la douzième partie. Il ne reste plus que deux parties pour que l'un des concurrents prenne l'avantage décisif.",
+            "output": "The match for the FIDE 2023 World Chess Championship is tied (6 X 6), with Ding Liren (White) winning the twelfth game. Only two more games remain for one of the competitors to achieve the decisive advantage.",
+            "llm_output": "The match for the FIDE World Chess Championship 2023 is tied (6 X 6), with Ding Liren (White) having won the twelfth game. There are only two games left for one of the competitors to gain the decisive advantage.",
+            "score": 0.5761388730576527
+        },
+        {
+            "id": 5478,
+            "name": "fr_en_4",
+            "input": "C'est le régime criminel algérien qui crée le terrorisme en Algérie en enseignant les préceptes islamiques dans les écoles et en créant des groupes terroristes afin de maintenir un climat de peur qui permet de faire de sales affaires. Cela convient aux Algériens qui ne veulent pas supprimer l'enseignement religieux dans les écoles. Contrairement aux Kabyles qui se battent pour un État laïque et un système éducatif scientifique.",
+            "output": "It is the Algerian criminal regime that creates terrorism in Algeria by teaching Islamic precepts in schools and by creating terrorist groups in order to maintain a climate of fear that makes it possible to do dirty business. This is convenient for Algerians who don't want to suppress religious education in schools. Contrary to the Kabyles who fight for a secular state and scientific educational system.",
+            "llm_output": "It is the Algerian criminal regime that creates terrorism in Algeria by teaching Islamic precepts in schools and creating terrorist groups in order to maintain a climate of fear that allows for dirty business. This suits Algerians who do not want to remove religious education from schools. In contrast, the Kabyles are fighting for a secular state and a scientific educational system.",
+            "score": 0.5592304594498022
+        },
+        {
+            "id": 5510,
+            "name": "fr_en_36",
+            "input": "Les droits et devoirs réciproques qui doivent exister entre les humains et les robots ont été délimités dans la Déclaration mondiale sur les droits des robots, rédigée et approuvée en 2004, à Fukuoka, au Japon.",
+            "output": "The reciprocal rights and duties that must exist between humans and robots were outlined in the World Declaration on Robots' Rights, drafted and approved in 2004, in Fukuoka, Japan.",
+            "llm_output": "The mutual rights and duties that should exist between humans and robots have been outlined in the World Declaration on the Rights of Robots, drafted and approved in 2004, in Fukuoka, Japan.",
+            "score": 0.5543639646972709
+        },
+        {
+            "id": 5477,
+            "name": "fr_en_3",
+            "input": "L'Inde - Bhārat - est encore pleine de mystère pour moi. Je ne peux toujours pas différencier l'hindi du pendjabi en entendant une conversation. Parmi les langues de l'Inde, mes préférées sont le pali, le sanskrit et le tamoul. Le pali est la langue liturgique du bouddhisme du sud, tandis que le sanskrit est la langue liturgique du bouddhisme du nord et de l'hindouisme. Le tamoul est officiel à Singapour, avec le mandarin, le malais et l'anglais.",
+            "output": "India—Bhārat—is still full of mystery to me. I still cannot differentiate Hindi from Punjabi upon overhearing a conversation. Of East Indian languages, my favourites are Pali, Sanskrit, and Tamil. Pali is the liturgical language of Southern Buddhism, whilst Sanskrit is the liturgical language of Northern Buddhism and Hinduism. Tamil is official in Singapore, along with Mandarin, Malay, and English.",
+            "llm_output": "India - Bhārat - is still full of mystery for me. I still can't differentiate between Hindi and Punjabi when hearing a conversation. Among the languages of India, my favorites are Pali, Sanskrit, and Tamil. Pali is the liturgical language of Southern Buddhism, while Sanskrit is the liturgical language of Northern Buddhism and Hinduism. Tamil is an official language in Singapore, along with Mandarin, Malay, and English.",
+            "score": 0.5258907199152155
+        },
+        {
+            "id": 5522,
+            "name": "fr_en_48",
+            "input": "« Tom est assis là-bas. » « Et alors ? » « Tu ne veux pas aller lui parler ? Ça se voit qu'il attend. » « Dans ce cas, il peut continuer à attendre. S'il veut quelque chose, il n'a qu'à venir ici. »",
+            "output": "Tom's sitting down there. \"So?\" \"Don't you want to go and talk to him? It's obvious he's waiting.\" \"Then he can stay waiting. If he wants something, he can come here.\"",
+            "llm_output": "\"Tom is sitting over there.\" \"So what?\" \"Don't you want to go talk to him? It's obvious he's waiting.\" \"In that case, he can keep waiting. If he wants something, he can just come over here.\"",
+            "score": 0.5221658574697963
+        },
+        {
+            "id": 5474,
+            "name": "fr_en_0",
+            "input": "Aujourd'hui, dans la matinée du ciel bleu du 2 juillet de 2022, en revenant d'un dépanneur d'un coin sur l'île Lulu, j'ai vu Michel le Danois-Français. Il a dit qu'il combattait la nicotine. Ensuite, il a dit que cela l'avait frappé de découvrir que j'avais été un grand voyageur de ce monde. « J'ai tout vu ! » Je me suis vanté. Michel a dit que la meilleure chose est « la grande littérature en voyage ». En tant que musicien, Michel lui-même a voyagé à travers l'Amérique du Nord, les Caraïbes et le Mexique. Il a dit qu'il n'était jamais allé en Europe. « C'est une toute autre planète ! » J'ai dit.",
+            "output": "Today in the blue-sky morning of the 2nd of July of 2022, walking back from a Lulu Island corner convenience store, I saw Michael the Dane-French. He said that he was fighting nicotine. Then, he said that it struck him to find out that I have been a great traveller of this world. \"I've seen everything!\" I boasted. Michael said that the best thing is \"great literature whilst travelling.\" As a musician, Michael himself has travelled across North America, the Caribbean, and Mexico. He said that he has never been to Europe. \"It's a whole different planet!\" I said.",
+            "llm_output": "Today, on the morning of the blue sky of July 2, 2022, while coming back from a convenience store on a corner of Lulu Island, I saw Michel the Danish-Frenchman. He said he was fighting nicotine. Then, he mentioned that it struck him to find out that I had been a great traveler of this world. \"I've seen it all!\" I boasted. Michel said that the best thing is \"great literature while traveling.\" As a musician, Michel himself has traveled across North America, the Caribbean, and Mexico. He said he had never been to Europe. \"It's a whole different planet!\" I said.",
+            "score": 0.5218310321978703
+        },
+        {
+            "id": 5512,
+            "name": "fr_en_38",
+            "input": "« M. Miller est-il de retour ? » « Non, je crains que non. » « Mais il a dit qu'il serait de retour vers quatre heures. » « Il n'est pas encore rentré. Puis-je faire autre chose pour vous ? » « Non, merci. »",
+            "output": "Is Mr Miller back yet? \"No, I'm afraid he's not.\" \"But he said he'd be back at about four.\" \"He's not home yet. Can I do anything else for you?\" \"No, thanks.\"",
+            "llm_output": "\"Is Mr. Miller back?\" \"No, I'm afraid not.\" \"But he said he would be back around four o'clock.\" \"He hasn't returned yet. Can I do anything else for you?\" \"No, thank you.\"",
+            "score": 0.49749974307369216
+        },
+        {
+            "id": 5505,
+            "name": "fr_en_31",
+            "input": "« Avez-vous vu Tom ? » « Je peux vous dire où il n'est pas. » « Où ? » « Il est allé acheter une bague de fiançailles pour Marie au centre commercial. » « Merci ! » « Mince ! Attendez, vous ne l'avez pas appris de moi ! »",
+            "output": "Have you seen Tom? \"I can tell you where he isn't.\" \"Where?\" \"Buying an engagement ring for Mary at the mall downtown.\" \"Thanks!\" \"Shoot! Wait, you didn't hear that from me!\"",
+            "llm_output": "\"Have you seen Tom?\" \"I can tell you where he's not.\" \"Where?\" \"He went to buy an engagement ring for Marie at the mall.\" \"Thank you!\" \"Shoot! Wait, you didn't hear it from me!\"",
+            "score": 0.4867221489239575
+        },
+        {
+            "id": 5518,
+            "name": "fr_en_44",
+            "input": "« Ne pourrait-on pas, pour une fois, avoir autre chose que du ragoût le mardi ? » « Non, Marie. Mardi, c'est jour de ragoût. Nous n'avons jamais connu autre chose ici, et ce n'est pas près de changer. »",
+            "output": "Can't we for once have something apart from stew on a Tuesday? \"No, Mary. Tuesday is stews day. We've never known it any other way here, and it's not about to change.\"",
+            "llm_output": "\"Couldn't we, for once, have something other than stew on Tuesday?\" \"No, Marie. Tuesday is stew day. We've never known anything else here, and it's not about to change.\"",
+            "score": 0.4833621067749072
+        },
+        {
+            "id": 5511,
+            "name": "fr_en_37",
+            "input": "Il appartient au traducteur de trouver dans sa langue le ressort qui évoque l'écho de l'œuvre originale ; l'écho de la langue du traducteur doit également faire résonner l'œuvre, l'écho de la langue étrangère.",
+            "output": "The translator's task is to find the power in their language that evokes an echo of the originals; the echo of the translator's language must also provide a reverberation of the work, the echo of the foreign language.",
+            "llm_output": "It is the translator's responsibility to find in their language the driving force that evokes the echo of the original work; the echo of the translator's language must also resonate with the work, the echo of the foreign language.",
+            "score": 0.48047921754871314
+        },
+        {
+            "id": 5507,
+            "name": "fr_en_33",
+            "input": "J’ai modifié la phrase française car la phrase anglaise dont elle était la traduction a été elle-même modifiée pour être un peu plus naturelle. Par conséquent, il faut peut-être revoir cette traduction en esperanto.",
+            "output": "I have modified the French sentence, because the English sentence it was a translation of was changed to be a bit more natural. As a consequence, the translation in Esperanto needs to be checked.",
+            "llm_output": "I have modified the French sentence because the English sentence from which it was translated has been changed to be a bit more natural. Therefore, it may be necessary to review this translation in Esperanto.",
+            "score": 0.479676449968321
+        },
+        {
+            "id": 5482,
+            "name": "fr_en_8",
+            "input": "Siobhan est assise devant un livre. La porte s'ouvre et Terry entre dans la pièce, essoufflé, à tel point que ses tentatives de parler ne produisent qu'un mot entre deux halètements. Un ou deux instants s'écoulent avant que Siobhan ne lève les yeux et ne prenne la parole, épargnant à Terry tout effort. « Tu as couru », dit-elle. « Oui », répond-il en sifflant.",
+            "output": "Siobhan is sitting reading a book. The door is pushed open, and Terry comes panting into the room, so out of breath that his attempts to speak hardly produce a word between gasps. A moment or two passes before Siobhan looks up and speaks, saving Terry the trouble. \"You've been running,\" she says. \"Yes,\" he wheezes.",
+            "llm_output": "Siobhan is sitting in front of a book. The door opens and Terry enters the room, out of breath, to the point that his attempts to speak only produce a word between two gasps. A moment or two passes before Siobhan looks up and speaks, sparing Terry any effort. \"You ran,\" she says. \"Yes,\" he replies, wheezing.",
+            "score": 0.47509882386989716
+        },
+        {
+            "id": 5515,
+            "name": "fr_en_41",
+            "input": "Avez-vous déjà fait l'expérience de quelque chose de vraiment étrange et que vous ne pouvez pas vraiment expliquer, mais qui, lorsque vous y pensez vraiment sans l'ignorer, vous fait finalement très peur ?",
+            "output": "Have you ever experienced something really strange which you can’t really explain and which, when you really think about it without ignoring it, actually makes you very frightened?",
+            "llm_output": "Have you ever experienced something really strange that you can't quite explain, but when you really think about it without ignoring it, it ends up scaring you a lot?",
+            "score": 0.4693593336493433
+        },
+        {
+            "id": 5492,
+            "name": "fr_en_18",
+            "input": "La sœur du dirigeant nord-coréen Kim Jong Un s'est fendue d'une menace militaire des plus inquiétantes à l'égard de la Corée du Sud, en promettant des représailles non précisées à l'encontre des militants sud-coréens qui ont distribué des tracts anti-Pyongyang au Nord.",
+            "output": "The sister of North Korean leader Kim Jong Un has issued an ominous military threat toward South Korea, vowing unspecified retaliation over South Korean activists who have floated anti-Pyongyang leaflets into the North.",
+            "llm_output": "The sister of North Korean leader Kim Jong Un has issued a highly concerning military threat towards South Korea, promising unspecified retaliation against South Korean activists who distributed anti-Pyongyang leaflets in the North.",
+            "score": 0.46150372462489325
+        },
+        {
+            "id": 5486,
+            "name": "fr_en_12",
+            "input": "Le fait de mettre l'accent sur la première syllabe d'un mot a des avantages distincts, notamment celui de rendre claires les limites entre les mots dans une phrase lorsque quelqu'un parle Toki Pona à voix haute. Vous pouvez facilement savoir quand un nouveau mot commence, car sa première syllabe est accentuée.",
+            "output": "Placing the stress on the first syllable of a word has distinct advantages, namely that it makes it clear where boundaries between words are within a sentence when someone is speaking Toki Pona out loud. You can easily tell when a new word starts, because its first syllable is emphasized.",
+            "llm_output": "Placing emphasis on the first syllable of a word has distinct advantages, including making the boundaries between words in a sentence clear when someone speaks Toki Pona out loud. You can easily know when a new word begins, as its first syllable is emphasized.",
+            "score": 0.4587529043162976
+        },
+        {
+            "id": 5500,
+            "name": "fr_en_26",
+            "input": "Quand ma famille vivait dans une maison en location, dans le jardin de celle-ci, je jouais avec des noix de coco sur le sable. Je les imaginais comme des habitats sur une autre planète. L'eau du robinet est devenue une rivière.",
+            "output": "When my family lived in a rented house, in the backyard of it, I played with coconut shells on the sand. I imagined them as habitats on a different planet. The water from the faucet became a river.",
+            "llm_output": "When my family lived in a rented house, in its garden, I used to play with coconuts on the sand. I imagined them as habitats on another planet. The tap water turned into a river.",
+            "score": 0.4545717973991952
+        },
+        {
+            "id": 5504,
+            "name": "fr_en_30",
+            "input": "La polémique se poursuit quant à « l'exemption des Cols Blancs » qui exempte des travailleurs cols blancs spécifiques du temps de travail « 8 heures par jours, 40 heures semaines » prévu par la loi sur le temps de travail.",
+            "output": "The argument continues about the \"white-collar exemption\" that exempts specific white-collar workers from the \"eight hours per day, 40 hours per week\" working hours, as fixed by labour standards legislation.",
+            "llm_output": "The controversy continues regarding the \"White Collar Exemption\" which exempts specific white-collar workers from the \"8 hours per day, 40 hours per week\" working time stipulated by the labor law.",
+            "score": 0.44630436449739275
+        },
+        {
+            "id": 5479,
+            "name": "fr_en_5",
+            "input": "« Ravie de te voir ici ! » Elle se tenait en haut des marches de la bibliothèque, tenant un classeur, et lui adressait un sourire. « Tu émerges en clignant des yeux à la lumière du soleil ! Après la nuit dernière, je pensais que nous ne te reverrions plus pendant, oh, je ne sais pas, au moins deux jours ! » « Ne commence pas », soupira-t-il en remontant les marches péniblement devant elle.",
+            "output": "Fancy seeing you here! She stood at the top of the steps to the library, clutching a binder, grinning down at him. \"Emerging blinking into the sunlight! After last night, I thought we'd see neither hide nor hair of you for, oh, I don't know, at least a couple of days!\" \"Don't start,\" he sighed, trudging past her up the steps.",
+            "llm_output": "\"Delighted to see you here!\" She stood at the top of the library steps, holding a binder, and gave him a smile. \"You're emerging, blinking in the sunlight! After last night, I thought we wouldn't see you again for, oh, I don't know, at least two days!\" \"Don't start,\" he sighed, painfully climbing the steps in front of her.",
+            "score": 0.4420151041962708
+        },
+        {
+            "id": 5508,
+            "name": "fr_en_34",
+            "input": "« Tom est assis là-bas. » « On est dans un pays libre. » « Tu ne veux pas aller lui parler ? Ça se voit qu'il attend. » « Dans ce cas, il peut continuer à attendre. S'il veut quelque chose, il n'a qu'à venir ici. »",
+            "output": "Tom's sitting down there. \"It's a free country.\" \"Don't you want to go and speak to him? He's definitely waiting for you.\" \"Then he can keep waiting. If he wants something, he can come here.\"",
+            "llm_output": "\"Tom is sitting over there.\" \"We're in a free country.\" \"Don't you want to go talk to him? It's obvious he's waiting.\" \"In that case, he can keep waiting. If he wants something, he can just come over here.\"",
+            "score": 0.4408023611023011
+        },
+        {
+            "id": 5521,
+            "name": "fr_en_47",
+            "input": "Un nombre représente un élément de mesure humain qui ne permet pas de refléter la valeur et l'importance des beautés de la vie, telles que l'amour, l'honnêteté, l'humilité, le respect et l'affection.",
+            "output": "A number is a human measure that can not reflect how good and important the beauties of life are, such as love, honesty, humility, respect and affection.",
+            "llm_output": "A number represents a human measure that does not allow to reflect the value and importance of the beauties of life, such as love, honesty, humility, respect, and affection.",
+            "score": 0.43590119264056437
+        },
+        {
+            "id": 5490,
+            "name": "fr_en_16",
+            "input": "C'est une sensation très étrange, pour quelqu'un dans mon genre, d'écrire un journal intime. Non seulement parce que, auparavant, je n'ai jamais écrit, mais il me semble que plus tard, ni moi ni personne d'autre ne s'intéressera aux confidences d'une écolière de treize ans.",
+            "output": "It's a very strange feeling for someone like me, writing in a diary. Not only because I've never written before, but also because later on, neither me nor anyone will care about a thirteen year old schoolgirl's secrets.",
+            "llm_output": "It's a very strange feeling, for someone like me, to write a diary. Not only because I've never written one before, but it seems to me that later on, neither I nor anyone else will be interested in the confessions of a thirteen-year-old schoolgirl.",
+            "score": 0.4312093920250745
+        },
+        {
+            "id": 5509,
+            "name": "fr_en_35",
+            "input": "L'Académie kabyle, institution créée le 14 juin 2022, date qui correspond à la journée de la nation kabyle, est chargée de définir la langue kabyle par l'élaboration de son dictionnaire qui fixe l'usage du kabyle.",
+            "output": "The Kabyle Academy, an institution created on June 14, 2022, date which corresponds to the day of the Kabyle nation, is in charge of defining the Kabyle language by elaborating its dictionary which fixes the use of Kabyle.",
+            "llm_output": "The Kabyle Academy, an institution established on June 14, 2022, which coincides with the day of the Kabyle nation, is responsible for defining the Kabyle language by developing its dictionary that sets the usage of Kabyle.",
+            "score": 0.42939549624754486
+        },
+        {
+            "id": 5476,
+            "name": "fr_en_2",
+            "input": "La grande élaboration et la variété de la forme et de la structure de la toiture de la maison méritent presque la dignité d'une section distincte. En effet, c'est principalement au toit que la maison japonaise doit son aspect pittoresque ; c'est le toit qui confère aux maisons cette nouveauté et cette variété qui est si marquante dans les différentes régions du pays. Les lignes d'un toit de chaume bien fait sont tout à fait remarquables pour leurs proportions.",
+            "output": "The great elaboration and variety in the form and structure of the house-roof almost merits the dignity of a separate section. For it is mainly to the roof that the Japanese house owes its picturesque appearance; it is the roof which gives to the houses that novelty and variety which is so noticeable among them in different parts of the country. The lines of a well-made thatched roof are something quite remarkable in their proportions.",
+            "llm_output": "The elaborate design and variety of the shape and structure of the house's roof almost deserve the dignity of a separate section. Indeed, it is primarily the roof that gives the Japanese house its picturesque appearance; it is the roof that provides the houses with that novelty and variety that is so striking in the different regions of the country. The lines of a well-made thatched roof are quite remarkable for their proportions.",
+            "score": 0.417277005634159
+        },
+        {
+            "id": 5517,
+            "name": "fr_en_43",
+            "input": "Avant toute utilisation, lisez le contenu de la notice incluse dans l'emballage ou consultez un médecin ou un pharmacien, car toute prise incorrecte de médicaments met en danger votre vie ou votre santé.",
+            "output": "Before use, read the contents of the leaflet included in the package or consult a doctor or pharmacist, as all incorrectly used medication threatens your life or health.",
+            "llm_output": "Before using, read the information leaflet included in the packaging or consult a doctor or pharmacist, as taking medications incorrectly can endanger your life or health.",
+            "score": 0.4065858889361908
+        },
+        {
+            "id": 5495,
+            "name": "fr_en_21",
+            "input": "La Nakba nous rappelle en permanence la nécessité d'adopter une solution juste et durable pour le conflit israélo-palestinien, solution qui repose sur le respect des droits humains et la légalité internationale et non sur les mythes sionistes et bibliques.",
+            "output": "The Nakba serves as a constant reminder of the urgent need for a just and lasting resolution to the Israeli-Palestinian conflict, based on respect for human rights and international law, not Zionist and Biblical myths.",
+            "llm_output": "The Nakba constantly reminds us of the need to adopt a fair and lasting solution to the Israeli-Palestinian conflict, a solution based on respect for human rights and international law, rather than on Zionist and biblical myths.",
+            "score": 0.3957887438657926
+        },
+        {
+            "id": 5475,
+            "name": "fr_en_1",
+            "input": "La Russie doit contrôler l'Europe occidentale pour priver les États-Unis de ses alliés dans la partie occidentale de l'Eurasie, pendant que la Chine doit chasser les États-Unis de l'Extrême-Orient. De cette façon, les États-Unis seront remis à leur place et s'occuperaient plus à dépenser de l'argent pour combattre la pauvreté et contruire des écoles pour ses enfants au lieu de détruire jusqu'aux fondaitons des pays appauvris tels que l'Iraq, l'Afghanistan et le Yémen.",
+            "output": "Russia needs to control Western Europe to deprive the US of its allies in western Eurasia, whereas China needs to kick the US out of the Far East. This way, the US will be put in its place and would spend more money on fighting poverty and building schools for its kids rather that destroying impoverished countries like Iraq, Afghanistan, and Yemen to the ground.",
+            "llm_output": "Russia must control Western Europe to deprive the United States of its allies in the western part of Eurasia, while China must drive the United States out of the Far East. In this way, the United States will be put in its place and would focus more on spending money to fight poverty and build schools for its children instead of destroying impoverished countries like Iraq, Afghanistan, and Yemen down to their foundations.",
+            "score": 0.38440758009399884
+        },
+        {
+            "id": 5481,
+            "name": "fr_en_7",
+            "input": "Pour moi, la grande erreur dans l'éducation est d'essayer d'enseigner aux enfants en se fondant sur la peur : la peur d'échouer à un examen, la peur d'obtenir de mauvaises notes et de devoir redoubler, etc. Par contre, la curiosité peut favoriser l'apprentissage à une échelle comparable à celle de la peur, comme l'explosion d'une usine chinoise à celle d'un pétard.",
+            "output": "I think the big mistake in education is trying to teach children by using fear as the basic motivation: fear of failing an exam, fear of failing a grade and not staying with your class, etc. On the other hand, interest can produce learning on a scale compared to fear as a Chinese factory explosion to a firecracker.",
+            "llm_output": "For me, the big mistake in education is trying to teach children based on fear: the fear of failing an exam, the fear of getting bad grades and having to repeat a year, etc. On the other hand, curiosity can promote learning on a scale comparable to that of fear, like the explosion of a Chinese factory compared to a firecracker.",
+            "score": 0.36822431786276305
+        },
+        {
+            "id": 5491,
+            "name": "fr_en_17",
+            "input": "Marzio fait actuellement partie des quelque 50 000 personnes dont la vie est en suspens après avoir été placées en quarantaine au moment où l'Italie tente de contenir la pire épidémie de coronavirus d'Europe, qui s'est déclarée dans les régions de Lombardie et de Vénétie.",
+            "output": "Now, Marzio is one of around 50,000 people whose lives are on hold after they were placed under quarantine as Italy tries to contain Europe's worst outbreak of coronavirus that flared up in the regions of Lombardy and Veneto.",
+            "llm_output": "Marzio is currently among the approximately 50,000 people whose lives are on hold after being placed in quarantine as Italy tries to contain the worst coronavirus outbreak in Europe, which has emerged in the Lombardy and Veneto regions.",
+            "score": 0.3631157059455102
+        },
+        {
+            "id": 5493,
+            "name": "fr_en_19",
+            "input": "« Vous êtes notre nouvelle invitée, n'est-ce pas ? Je ne vous attendais pas si tôt. » « L'homme du bateau de ravitaillement, Ole Jansen, m'a amenée ici. Il n'est pas très bavard, ce M. Jansen ? » « Oui, eh bien, nous sommes comme ça ici, nous les insulaires. »",
+            "output": "You're our new guest, are you? I wasn't expecting you so soon. \"The man with the supply ship, Ole Jansen, ferried me over. He doesn't say much, does he, that Mr Jansen?\" \"Yes, well, that's what we're like up here, us islanders.\"",
+            "llm_output": "\"You are our new guest, aren't you? I wasn't expecting you so soon.\" \"The man from the supply boat, Ole Jansen, brought me here. Mr. Jansen isn't very talkative, is he?\" \"Yes, well, that's how we are here, we islanders.\"",
+            "score": 0.3395169877102056
+        },
+        {
+            "id": 5494,
+            "name": "fr_en_20",
+            "input": "« Vous êtes notre nouvelle invité, n'est-ce pas ? Je ne vous attendais pas si tôt. » « L'homme du bateau de ravitaillement, Ole Jansen, m'a amené ici. Il n'est pas très bavard, ce M. Jansen ? » « Oui, eh bien, nous sommes comme ça ici, nous les insulaires. »",
+            "output": "You're our new guest, are you? I wasn't expecting you so soon. \"The man with the supply ship, Ole Jansen, ferried me over. He doesn't say much, does he, that Mr Jansen?\" \"Yes, well, that's what we're like up here, us islanders.\"",
+            "llm_output": "\"You are our new guest, aren't you? I wasn't expecting you so soon.\" \"The man from the supply boat, Ole Jansen, brought me here. Mr. Jansen isn't very talkative, is he?\" \"Yes, well, that's how we are here, we islanders.\"",
+            "score": 0.3395169877102056
+        },
+        {
+            "id": 5488,
+            "name": "fr_en_14",
+            "input": "Ce Linus reprocha un jour à Hercule de ne pas être studieux ; alors, dans sa rage, le garçon prit soudain la lyre et frappa de toutes ses forces la tête du malheureux instituteur qui, prostré par le coup, mourut peu après. Et personne, après cela, ne voulut se charger d'une telle tâche.",
+            "output": "That Linus once reproached Hercules for not being studious; then, in a rage, the boy suddenly took up the lyre and struck with all his might the head of the unfortunate teacher, who, prostrated by the blow, soon after died. And no one after that wanted to take charge of such an office.",
+            "llm_output": "One day, Linus scolded Hercules for not being studious; in his rage, the boy suddenly grabbed the lyre and struck the unfortunate teacher's head with all his might, who, prostrated by the blow, died shortly after. And after that, no one wanted to take on such a task.",
+            "score": 0.3363005776121189
+        },
+        {
+            "id": 5499,
+            "name": "fr_en_25",
+            "input": "Lorsque cette loi entrera en vigueur, les personnes reconnues coupables d'avoir enfreint la loi dite « anti-tract » risqueront des amendes pouvant atteindre 30 millions de wons (environ 27 000 dollars) et jusqu'à trois ans de prison.",
+            "output": "Once in effect, those convicted of violating the so-called anti-leaflet law face fines of up to 30-million won (roughly $27-thousand) as well as up to three years in prison.",
+            "llm_output": "When this law comes into effect, individuals found guilty of violating the so-called \"anti-leaflet\" law may face fines of up to 30 million won (approximately 27,000 dollars) and up to three years in prison.",
+            "score": 0.3020300365911981
+        },
+        {
+            "id": 5503,
+            "name": "fr_en_29",
+            "input": "Puis il prit le marié à part et lui dit : « Tout le monde offre d'abord le vin de la meilleure qualité, laissant le moins cher pour après que les invités en aient eu assez, mais tu as réservé le meilleur jusqu'à présent. »",
+            "output": "Then he called the bridegroom aside and said, \"Everyone brings out the choice wine first and then the cheaper wine after the guests have had too much to drink, but you have saved the best till now.\"",
+            "llm_output": "Then he took the groom aside and said to him, \"Everyone usually serves the best quality wine first, leaving the cheaper one for after the guests have had enough, but you have saved the best for last.\"",
+            "score": 0.29815564924567645
+        },
+        {
+            "id": 5502,
+            "name": "fr_en_28",
+            "input": "De tous temps, être dans l'opposition en Russie a été considéré comme un crime. C'est plus que jamais le cas aujourd'hui. Comme si les Russes avaient une incapacité chronique à supporter deux opinions différentes à la fois.",
+            "output": "It has always been the case that expressing a different opinion in Russia was considered to be a crime. It's even more true today. It's as if Russians had a chronic inability to bear two opinions at the same time.",
+            "llm_output": "Throughout history, being in opposition in Russia has been considered a crime. This is truer now than ever before. It's as if Russians have a chronic inability to tolerate two different opinions at the same time.",
+            "score": 0.25747291791361054
+        },
+        {
+            "id": 5489,
+            "name": "fr_en_15",
+            "input": "Il fallut alors laisser refroidir la masse fumante, et, pendant ce temps, Nab et Pencroff, guidés par Cyrus Smith, charrièrent, sur une claie faite de branchages entrelacés, plusieurs charges de carbonate de chaux, pierres très communes, qui se trouvaient abondamment au nord du lac.",
+            "output": "Then, as it was necessary to let the smoking mass cool, Neb and Pencroff, directed by Mr. Smith, brought, on a hurdle made of branches, numerous loads of limestone which they found scattered in abundance to the north of the lake.",
+            "llm_output": "It was then necessary to let the smoking mass cool down, and during this time, Nab and Pencroff, guided by Cyrus Smith, carried several loads of calcium carbonate, very common stones, which were found abundantly north of the lake, on a stretcher made of intertwined branches.",
+            "score": 0.24108328007886093
+        },
+        {
+            "id": 5498,
+            "name": "fr_en_24",
+            "input": "Une fois cette loi entrée en vigueur, les contrevenants à la législation relative à l'envoi de tracts encourent une amende pouvant aller jusqu'à 30 millions de wons (environ 27 000 dollars) et une peine de prison maximale de trois ans.",
+            "output": "Once in effect, those convicted of violating the so-called anti-leaflet law face fines of up to 30-million won (roughly $27-thousand) as well as up to three years in prison.",
+            "llm_output": "Once this law comes into effect, offenders of the legislation related to the distribution of leaflets will face a fine of up to 30 million won (approximately 27,000 dollars) and a maximum prison sentence of three years.",
+            "score": 2.2574524922598664e-78
+        }
+    ],
+    "history_criterion": "median"
+}
